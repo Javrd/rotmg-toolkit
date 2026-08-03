@@ -26397,10 +26397,6 @@
       "Damage (Average)": [
         {
           "label": "Bullet 1",
-          "value": ""
-        },
-        {
-          "label": "Damage (Average)",
           "value": "115-170 (142.5)"
         },
         {
@@ -26413,10 +26409,6 @@
         },
         {
           "label": "Bullet 2",
-          "value": ""
-        },
-        {
-          "label": "Damage (Average)",
           "value": "300"
         },
         {
@@ -26430,6 +26422,14 @@
         {
           "label": "Bullet 2 Rate of Fire",
           "value": "20%"
+        },
+        {
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
         }
       ],
       "Shots": [
@@ -27562,6 +27562,14 @@
         {
           "label": "Bullet 2 Min Speed",
           "value": "0 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2"
         }
       ],
       "Shots": [

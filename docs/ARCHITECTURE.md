@@ -149,16 +149,26 @@ estabilidad del esquema; en el HTML se muestran como "Guaranteed"/"Possible")
   `/wiki/character-stats` (verificadas contra los ejemplos numéricos que
   trae la propia página):
   `DamageMultiplier = 0.5 + ATT/50`,
-  `AttacksPerSecond = (1.5 + 6.5*DEX/75) * (RoF% / 100)`,
-  `DPS = avgDamage * shots * DamageMultiplier * AttacksPerSecond`.
-  `parseDamageProfile()` busca en los segmentos ya trozeados de
-  `columns['Damage (Average)']` el que tenga label `Damage (Average)` (o
-  `Bullet 1` en armas multi-bala) para el daño medio, y el segmento
-  `Rate of Fire`/`Bullet 1 Rate of Fire` para el RoF. Para armas
-  multi-bala (ej. Heartsteel Claymore) solo se usa el daño medio de la
-  *primera* bala — aproximación conocida. ATT no afecta el daño de
-  abilities según la wiki, así que el DPS no se calcula para esa
-  categoría (ni para armor/rings, que no disparan).
+  `baseAttacksPerSecond = 1.5 + 6.5*DEX/75`,
+  y por cada "bullet group" del arma, `DPS += avgDamage * shots *
+  DamageMultiplier * (baseAttacksPerSecond * RoF/100)`.
+  ATT no afecta el daño de abilities según la wiki, así que el DPS no se
+  calcula para esa categoría (ni para armor/rings, que no disparan).
+- **Armas multi-bala** (ej. Heartsteel Claymore, Arcane Rapier — 2+
+  segmentos `Bullet N` en `columns['Damage (Average)']`): `parseDamageProfile()`
+  trata el Rate of Fire de cada bullet como la fracción de ataques (a la
+  cadencia base compartida) que hace el daño de ESE bullet en vez del
+  golpe normal, no como una cadencia de ataque independiente — ver
+  [[0003-multi-bullet-dps]] (la propia página de Arcane Rapier lo confirma:
+  "the Rapier's Lunge now triggers every 3 shots instead of 5" para su
+  bullet 2 al 20% RoF). El bullet sin RoF explícito (el golpe por defecto)
+  se queda con la probabilidad restante (100% menos la de los demás). El
+  número de shots por bullet sale de un segmento `Bullet N Shots` que
+  añade `enrich_multi_bullet_shots()` en `equipment_scraper.py` cuando la
+  página de categoría no lo separa por bullet (fetch a la página propia
+  del ítem, solo si el número de tablas "Shots" encontradas coincide
+  exactamente con el número de bullets — si no, se deja 1 shot por bullet
+  por defecto en vez de arriesgar un número incorrecto).
 
 ## API estática
 

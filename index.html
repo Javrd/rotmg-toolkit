@@ -1496,35 +1496,77 @@ function numRow(label, va, vb, extraClass) {
 /* DPS = avg damage per shot * shots * Damage Multiplier(ATT) * Attacks/sec(DEX, RoF).
    Verified against realmeye.com/wiki/character-stats:
      Damage Multiplier = 0.5 + ATT/50
-     Attacks/sec (RoF 100%) = 1.5 + 6.5 * (DEX/75); actual = that * (RoF% / 100)
+     Attacks/sec (RoF 100%) = 1.5 + 6.5 * (DEX/75)
    ATT explicitly does not affect ability damage, so this only applies to weapons.
-   Multi-bullet weapons (e.g. Heartsteel Claymore) only use the first bullet's
-   average damage -- a known approximation. */
+
+   Multi-bullet weapons (e.g. Heartsteel Claymore, Arcane Rapier) list 2+
+   "Bullet N" damage groups, each with its own Rate of Fire -- that RoF is
+   the fraction of attacks (at the weapon's base attack speed) that deal
+   that bullet's damage instead of the default swing, not an independent
+   attack-speed stream (see docs/decisions/0003-multi-bullet-dps.md). A
+   bullet with no listed Rate of Fire (the default swing) gets whatever
+   probability is left over from the others. DPS is the sum of each group's
+   contribution: avg * shots * DamageMultiplier * (baseAttacksPerSec * RoF%). */
 function parseDamageProfile(item) {
   if (item.category !== 'Weapon') return null;
   const segs = item.columns['Damage (Average)'] || item.columns['Damage'];
   if (!segs) return null;
-  const primary = segs.find(s => s.label === 'Damage (Average)' || s.label === 'Damage' || s.label === 'Bullet 1');
+
+  const readAvg = v => { const m = v.match(/\(([\d.]+)\)/) || v.match(/^([\d.]+)$/); return m ? parseFloat(m[1]) : null; };
+  const readPct = v => { const m = v.match(/([\d.]+)/); return m ? parseFloat(m[1]) : null; };
+
+  const bulletNums = Array.from(new Set(segs
+    .map(s => { const m = s.label.match(/^Bullet (\d+)$/); return m ? parseInt(m[1], 10) : null; })
+    .filter(n => n !== null))).sort((a, b) => a - b);
+
+  if (bulletNums.length >= 2) {
+    const groups = [];
+    let explicitTotal = 0, missingIdx = -1;
+    bulletNums.forEach(n => {
+      const primary = segs.find(s => s.label === 'Bullet ' + n);
+      if (!primary) return;
+      const avg = readAvg(primary.value);
+      if (avg == null) return;
+      const shotsSeg = segs.find(s => s.label === 'Bullet ' + n + ' Shots');
+      const shots = shotsSeg ? (parseInt(shotsSeg.value, 10) || 1) : 1;
+      const rofSeg = segs.find(s => s.label === 'Bullet ' + n + ' Rate of Fire');
+      const rof = rofSeg ? readPct(rofSeg.value) : null;
+      if (rof == null) missingIdx = groups.length; else explicitTotal += rof;
+      groups.push({ avg, shots, rof });
+    });
+    if (!groups.length) return null;
+    if (missingIdx !== -1) groups[missingIdx].rof = Math.max(0, 100 - explicitTotal);
+    if (groups.some(g => g.rof == null)) return null;
+    return groups;
+  }
+
+  const primary = segs.find(s => s.label === 'Damage (Average)' || s.label === 'Damage');
   if (!primary) return null;
-  const avgMatch = primary.value.match(/\(([\d.]+)\)/);
-  if (!avgMatch) return null;
-  const avg = parseFloat(avgMatch[1]);
+  const avg = readAvg(primary.value);
+  if (avg == null) return null;
+  const rofSeg = segs.find(s => s.label === 'Rate of Fire');
+  const rofVal = rofSeg ? readPct(rofSeg.value) : null;
+  const rof = rofVal != null ? rofVal : 100;
   const shotsSegs = item.columns['Shots'];
   const shotsVal = (shotsSegs && shotsSegs[0]) ? shotsSegs[0].value : '1';
   const shotsMatch = shotsVal.match(/^(\d+)/);
   const shots = shotsMatch ? parseInt(shotsMatch[1], 10) : 1;
-  const rofSeg = segs.find(s => s.label === 'Rate of Fire' || s.label === 'Bullet 1 Rate of Fire');
-  const rofMatch = rofSeg ? rofSeg.value.match(/([\d.]+)/) : null;
-  const rof = rofMatch ? parseFloat(rofMatch[1]) : 100;
-  return { avg, shots, rof };
+  return [{ avg, shots, rof }];
 }
 
 function computeDps(item, att, dex) {
-  const p = parseDamageProfile(item);
-  if (!p) return null;
+  const groups = parseDamageProfile(item);
+  if (!groups) return null;
   const dmgMult = 0.5 + att / 50;
-  const aps = (1.5 + 6.5 * (dex / 75)) * (p.rof / 100);
-  return Object.assign({}, p, { aps, dps: p.avg * p.shots * dmgMult * aps });
+  const baseAps = 1.5 + 6.5 * (dex / 75);
+  let dps = 0, aps = 0;
+  groups.forEach(g => {
+    const groupAps = baseAps * (g.rof / 100);
+    dps += g.avg * g.shots * dmgMult * groupAps;
+    aps += groupAps;
+  });
+  const rofDisplay = groups.map(g => g.rof + '%').join(' / ');
+  return { dps, aps, rofDisplay, groups };
 }
 
 function renderEqCompare() {
@@ -1552,7 +1594,7 @@ function renderEqCompare() {
     out += '<div class="eq-section-title">Estimated DPS (ATT ' + att + ', DEX ' + dex + ')</div>';
     out += numRow('DPS', Math.round(dpsA.dps), Math.round(dpsB.dps), 'eq-dps-row');
     out += textRow('Attacks/sec', dpsA.aps.toFixed(2), dpsB.aps.toFixed(2));
-    out += textRow('Rate of Fire', dpsA.rof + '%', dpsB.rof + '%');
+    out += textRow('Rate of Fire', dpsA.rofDisplay, dpsB.rofDisplay);
   }
 
   STAT_ORDER.forEach(k => {

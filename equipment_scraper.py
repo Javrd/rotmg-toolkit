@@ -66,24 +66,42 @@ def split_segments(text, header):
     embedded effect + its description, and rate of fire) into one
     {label, value} dict per bit, instead of one blob. Falls back to the
     column header as the label for the one unlabeled bit (usually the
-    primary number, e.g. the damage range itself)."""
+    primary number, e.g. the damage range itself).
+
+    Some multi-bullet weapons (e.g. Arcane Rapier) put the 'Bullet N:'
+    marker and its value on separate <br>-separated bits ('Bullet 1:' then
+    '115-170 (142.5)' as two bits, rather than one 'Bullet 1: 325-375
+    (350)' bit like Heartsteel Claymore) -- pending_bullet_label carries
+    that marker forward so the next unlabeled bit is still recorded under
+    'Bullet N' instead of falling through to the column header."""
     out = []
     bullet_prefix = ''
+    pending_bullet_label = None
     for part in (p.strip() for p in text.split('|')):
         if not part:
             continue
         m = BULLET_RE.match(part)
         if m:
             bullet_prefix = m.group(1) + ' '
-            out.append({"label": m.group(1), "value": m.group(2).strip()})
+            value = m.group(2).strip()
+            if value:
+                out.append({"label": m.group(1), "value": value})
+                pending_bullet_label = None
+            else:
+                pending_bullet_label = m.group(1)
             continue
         m = LABELED_RE.match(part)
         if m:
             out.append({"label": bullet_prefix + m.group(1).strip(), "value": m.group(2).strip()})
+            pending_bullet_label = None
             continue
         m = BRACKET_RE.match(part)
         if m:
             out.append({"label": m.group(1).strip(), "value": m.group(2).strip()})
+            continue
+        if pending_bullet_label:
+            out.append({"label": pending_bullet_label, "value": part})
+            pending_bullet_label = None
             continue
         out.append({"label": header, "value": part})
     return out
@@ -187,10 +205,68 @@ def parse_item_tables(html_doc, category):
     return items
 
 
+BULLET_LABEL_RE = re.compile(r'^Bullet (\d+)$')
+SHOTS_TABLE_RE = re.compile(
+    r'<div class="table-responsive"><table>\s*<tbody>(.*?)</tbody></table></div>', re.S)
+SHOTS_ROW_RE = re.compile(r'<th>Shots</th>\s*<td>(\d+)</td>')
+
+
+def fetch_bullet_shot_counts(href):
+    """Category-page cells often can't say how many shots belong to each
+    'Bullet N' group in a weapon's Damage column -- some categories collapse
+    it to a single combined total (e.g. Heartsteel Claymore's Shots: 3, for
+    bullet groups of 1 and 2 shots respectively). The item's own page has
+    one small table per projectile definition, each starting with its own
+    'Shots' row, in the same order the bullets are listed on the category
+    page. Returns the ordered per-bullet shot counts, or [] if the page
+    doesn't follow that layout (e.g. it also has a combined summary 'Shots'
+    row mixed into the main info table, which throws the count off and
+    means we bail out rather than guess)."""
+    try:
+        detail_html = fetch(BASE + href)
+    except Exception as e:
+        print(f"    ! bullet-shots fetch failed for {href}: {e}", file=sys.stderr)
+        return []
+    counts = []
+    for tbl in SHOTS_TABLE_RE.findall(detail_html):
+        m = SHOTS_ROW_RE.search(tbl)
+        if m:
+            counts.append(int(m.group(1)))
+    return counts
+
+
+def enrich_multi_bullet_shots(items):
+    """For weapons with 2+ simultaneous/alternate 'Bullet N' damage groups,
+    add a 'Bullet N Shots' segment per group (sourced from the item's own
+    page) so the DPS calculator in build_html.py can weight each group by
+    its own shot count instead of assuming 1 -- see
+    docs/decisions/0003-multi-bullet-dps.md."""
+    for it in items:
+        if it["category"] != "Weapon":
+            continue
+        key = "Damage (Average)" if "Damage (Average)" in it["columns"] else (
+            "Damage" if "Damage" in it["columns"] else None)
+        if not key:
+            continue
+        segs = it["columns"][key]
+        bullet_ns = sorted({
+            int(m.group(1)) for m in (BULLET_LABEL_RE.match(s["label"]) for s in segs) if m
+        })
+        if len(bullet_ns) < 2 or any(s["label"].endswith("Shots") for s in segs):
+            continue
+        counts = fetch_bullet_shot_counts(it["href"])
+        if len(counts) != len(bullet_ns):
+            continue
+        for n, count in zip(bullet_ns, counts):
+            segs.append({"label": f"Bullet {n} Shots", "value": str(count)})
+    return items
+
+
 def scrape_category(slug, category):
     html_doc = fetch(BASE + "/wiki/" + slug)
     classes = extract_classes(html_doc)
     items = parse_item_tables(html_doc, category)
+    items = enrich_multi_bullet_shots(items)
     for it in items:
         it["classes"] = classes
         it["category_slug"] = slug
