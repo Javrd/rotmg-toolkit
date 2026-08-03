@@ -1499,14 +1499,22 @@ function numRow(label, va, vb, extraClass) {
      Attacks/sec (RoF 100%) = 1.5 + 6.5 * (DEX/75)
    ATT explicitly does not affect ability damage, so this only applies to weapons.
 
-   Multi-bullet weapons (e.g. Heartsteel Claymore, Arcane Rapier) list 2+
-   "Bullet N" damage groups, each with its own Rate of Fire -- that RoF is
-   the fraction of attacks (at the weapon's base attack speed) that deal
-   that bullet's damage instead of the default swing, not an independent
-   attack-speed stream (see docs/decisions/0003-multi-bullet-dps.md). A
-   bullet with no listed Rate of Fire (the default swing) gets whatever
-   probability is left over from the others. DPS is the sum of each group's
-   contribution: avg * shots * DamageMultiplier * (baseAttacksPerSec * RoF%). */
+   Multi-shot weapons show up in three different shapes on the wiki (see
+   docs/decisions/0003-multi-bullet-dps.md and 0004-fire-rate-column.md);
+   in all three, each shot/bullet's own Rate of Fire is the probability it
+   fires on a given attack at the weapon's shared base attack speed, not an
+   independent attack-speed stream -- so DPS is always the sum of each
+   group's own avg * shots * DamageMultiplier * (baseAttacksPerSec * RoF%):
+     A. "Bullet N" damage groups inside the Damage cell itself, each with
+        its own optional "Bullet N Rate of Fire" (Heartsteel Claymore,
+        Arcane Rapier). A bullet with no listed RoF (the default swing)
+        gets whatever probability is left over from the others.
+     B. A labeled "Fire Rate" column with one shared label per group
+        (e.g. "Main"/"Side" -- Hama Yumi), matched by label against the
+        Damage and Shots columns.
+     C. A single "Fire Rate" segment listing N comma-separated percentages
+        that all share one avg damage value, one shot each (e.g. Morning
+        Star of Harrowing Memories' "15%, 50%, 90%, 50%, 15%"). */
 function parseDamageProfile(item) {
   if (item.category !== 'Weapon') return null;
   const segs = item.columns['Damage (Average)'] || item.columns['Damage'];
@@ -1514,6 +1522,7 @@ function parseDamageProfile(item) {
 
   const readAvg = v => { const m = v.match(/\(([\d.]+)\)/) || v.match(/^([\d.]+)$/); return m ? parseFloat(m[1]) : null; };
   const readPct = v => { const m = v.match(/([\d.]+)/); return m ? parseFloat(m[1]) : null; };
+  const readPctList = v => (v.match(/[\d.]+/g) || []).map(parseFloat);
 
   const bulletNums = Array.from(new Set(segs
     .map(s => { const m = s.label.match(/^Bullet (\d+)$/); return m ? parseInt(m[1], 10) : null; })
@@ -1534,10 +1543,36 @@ function parseDamageProfile(item) {
       if (rof == null) missingIdx = groups.length; else explicitTotal += rof;
       groups.push({ avg, shots, rof });
     });
-    if (!groups.length) return null;
-    if (missingIdx !== -1) groups[missingIdx].rof = Math.max(0, 100 - explicitTotal);
-    if (groups.some(g => g.rof == null)) return null;
-    return groups;
+    if (groups.length) {
+      if (missingIdx !== -1) groups[missingIdx].rof = Math.max(0, 100 - explicitTotal);
+      if (!groups.some(g => g.rof == null)) return groups;
+    }
+  }
+
+  const fireRateSegs = item.columns['Fire Rate'];
+  const shotsSegs = item.columns['Shots'];
+  if (fireRateSegs && fireRateSegs.length) {
+    const labeled = fireRateSegs.filter(s => s.label !== 'Fire Rate');
+    if (labeled.length >= 2) {
+      const groups = [];
+      labeled.forEach(frSeg => {
+        const dmgSeg = segs.find(s => s.label === frSeg.label);
+        const shotSeg = shotsSegs && shotsSegs.find(s => s.label === frSeg.label);
+        if (!dmgSeg || !shotSeg) return;
+        const avg = readAvg(dmgSeg.value);
+        const rof = readPct(frSeg.value);
+        if (avg == null || rof == null) return;
+        groups.push({ avg, shots: parseInt(shotSeg.value, 10) || 1, rof });
+      });
+      if (groups.length) return groups;
+    } else if (fireRateSegs.length === 1 && fireRateSegs[0].label === 'Fire Rate') {
+      const primary = segs.find(s => s.label === 'Damage (Average)' || s.label === 'Damage');
+      const avg = primary ? readAvg(primary.value) : null;
+      const pctList = readPctList(fireRateSegs[0].value);
+      if (avg != null && pctList.length) {
+        return pctList.map(rof => ({ avg, shots: 1, rof }));
+      }
+    }
   }
 
   const primary = segs.find(s => s.label === 'Damage (Average)' || s.label === 'Damage');
@@ -1547,7 +1582,6 @@ function parseDamageProfile(item) {
   const rofSeg = segs.find(s => s.label === 'Rate of Fire');
   const rofVal = rofSeg ? readPct(rofSeg.value) : null;
   const rof = rofVal != null ? rofVal : 100;
-  const shotsSegs = item.columns['Shots'];
   const shotsVal = (shotsSegs && shotsSegs[0]) ? shotsSegs[0].value : '1';
   const shotsMatch = shotsVal.match(/^(\d+)/);
   const shots = shotsMatch ? parseInt(shotsMatch[1], 10) : 1;

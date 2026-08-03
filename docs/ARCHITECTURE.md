@@ -169,6 +169,19 @@ estabilidad del esquema; en el HTML se muestran como "Guaranteed"/"Possible")
   del ítem, solo si el número de tablas "Shots" encontradas coincide
   exactamente con el número de bullets — si no, se deja 1 shot por bullet
   por defecto en vez de arriesgar un número incorrecto).
+- **Armas con columna `Fire Rate` separada** (~30 ítems, sobre todo
+  Longbows, ej. Anteros Longbow, Morning Star of Harrowing Memories): en
+  vez de un `Rate of Fire` embebido en la celda de daño, estas listan una
+  columna `Fire Rate` aparte con un % por disparo (ej. `"15%, 50%, 90%,
+  50%, 15%"` para 5 disparos que comparten el mismo daño medio) o, si
+  cada grupo tiene su propia etiqueta compartida entre columnas (ej.
+  `Main`/`Side` en Hama Yumi), un % por etiqueta. `parseDamageProfile()`
+  detecta ambas formas antes de caer al camino de un solo grupo — ver
+  [[0004-fire-rate-column-dps]]. Un ítem (Morning Square) no encaja en
+  ninguna de las dos formas (su columna "Fire Rate" son en realidad 3
+  definiciones de proyectil independientes, cada una potencialmente
+  multi-disparo) y se queda como hueco conocido: su DPS calculado
+  infravalora el real en vez de arriesgar un número inventado.
 
 ## API estática
 
