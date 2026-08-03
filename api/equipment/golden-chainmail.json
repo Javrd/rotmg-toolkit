@@ -1,0 +1,37 @@
+{
+  "slug": "golden-chainmail",
+  "name": "Golden Chainmail",
+  "wikiUrl": "https://www.realmeye.com/wiki/golden-chainmail",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/fOz2GE6.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Tiered Heavy Armors",
+  "tier": "4",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 10
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+10"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "20"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

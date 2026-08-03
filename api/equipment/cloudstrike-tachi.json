@@ -1,0 +1,45 @@
+{
+  "slug": "cloudstrike-tachi",
+  "name": "Cloudstrike Tachi",
+  "wikiUrl": "https://www.realmeye.com/wiki/cloudstrike-tachi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/jJ9hmVA.png",
+  "category": "Weapon",
+  "categorySlug": "tachis",
+  "family": "Tiered Tachis",
+  "tier": "7",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "60-90 (75)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "1%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "53"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Light Blue Cross Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

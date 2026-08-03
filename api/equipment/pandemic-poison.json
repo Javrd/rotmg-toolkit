@@ -1,0 +1,79 @@
+{
+  "slug": "pandemic-poison",
+  "name": "Pandemic Poison",
+  "wikiUrl": "https://www.realmeye.com/wiki/pandemic-poison",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/9v5yYVD.png",
+  "category": "Ability",
+  "categorySlug": "poisons",
+  "family": "Untiered Poisons",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Assassin"
+  ],
+  "stats": {},
+  "columns": {
+    "Particle Color": [
+      {
+        "label": "Pandemic Poison Bomb",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Radius": [
+      {
+        "label": "Radius",
+        "value": "9.5"
+      }
+    ],
+    "Total Base Damage": [
+      {
+        "label": "Total Base Damage",
+        "value": "1200"
+      }
+    ],
+    "Impact Damage": [
+      {
+        "label": "Impact Damage",
+        "value": "-"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "10"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,200"
+      }
+    ]
+  },
+  "effects": [
+    "Pandemic Poison Bomb"
+  ],
+  "effectDescriptions": {}
+}

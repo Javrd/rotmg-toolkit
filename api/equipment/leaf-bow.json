@@ -1,0 +1,77 @@
+{
+  "slug": "leaf-bow",
+  "name": "Leaf Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/leaf-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/HTra5EH.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Untiered Bows",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "120-175 (147.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "140%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "12"
+      },
+      {
+        "label": "Wavy",
+        "value": "Wavy shots"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+5 SPD"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.2"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Leaf Arrow"
+      }
+    ]
+  },
+  "effects": [
+    "Wavy"
+  ],
+  "effectDescriptions": {
+    "Wavy": "Wavy shots"
+  }
+}

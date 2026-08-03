@@ -1,0 +1,77 @@
+{
+  "slug": "blood-ritual-tools",
+  "name": "Blood Ritual Tools",
+  "wikiUrl": "https://www.realmeye.com/wiki/blood-ritual-tools",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/swBp3z0.png",
+  "category": "Weapon",
+  "categorySlug": "tachis",
+  "family": "Limited Edition Tachis",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 1: 65-75 (70)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "150%"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 2: 290-340 (315)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "33%"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Blood Tool Sickle, Blood Tool Dagger"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

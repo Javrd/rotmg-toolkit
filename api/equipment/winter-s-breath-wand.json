@@ -1,0 +1,66 @@
+{
+  "slug": "winter-s-breath-wand",
+  "name": "Winter’s Breath Wand",
+  "wikiUrl": "https://www.realmeye.com/wiki/winter-s-breath-wand",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/iKrQvOb.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Limited Edition Wands",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "135-175 (155)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "9"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "450"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "XMAS Sparkling Bolt"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

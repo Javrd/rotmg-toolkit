@@ -1,0 +1,30 @@
+{
+  "slug": "rainbow-road",
+  "name": "Rainbow Road",
+  "wikiUrl": "https://www.realmeye.com/wiki/rainbow-road",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/MDVaDzN.png",
+  "category": "Special Event Dungeons",
+  "difficulty": null,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Speed (SB)",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oAB2FWT.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Pot of Gold",
+          "wikiUrl": "https://www.realmeye.com/wiki/pot-of-gold",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZNyU9or.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

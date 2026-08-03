@@ -1,0 +1,30 @@
+{
+  "slug": "ice-tomb",
+  "name": "Ice Tomb",
+  "wikiUrl": "https://www.realmeye.com/wiki/ice-tomb",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/zhWVACc.png",
+  "category": "Special Event Dungeons",
+  "difficulty": 6.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Frimar",
+          "wikiUrl": "https://www.realmeye.com/wiki/frimar",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/6LPIYjT.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

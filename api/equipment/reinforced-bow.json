@@ -1,0 +1,49 @@
+{
+  "slug": "reinforced-bow",
+  "name": "Reinforced Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/reinforced-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/IM9yP0J.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Tiered Bows",
+  "tier": "1",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "20-25 (22.5)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Side (2): 5-10 (7.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "5"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Large Standard Arrow, Reinforced Small Arrow"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

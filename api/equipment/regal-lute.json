@@ -1,0 +1,58 @@
+{
+  "slug": "regal-lute",
+  "name": "Regal Lute",
+  "wikiUrl": "https://www.realmeye.com/wiki/regal-lute",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/xKXYSaD.png",
+  "category": "Ability",
+  "categorySlug": "lutes",
+  "family": "Tiered Lutes",
+  "tier": "5",
+  "soulbound": false,
+  "classes": [
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "95 MP"
+      }
+    ],
+    "Effects": [
+      {
+        "label": "Party effect",
+        "value": "[Inspired Icon] Inspired for 5.5s,"
+      },
+      {
+        "label": "DEF↑",
+        "value": "DEF Boost (+6 DEF) for 4.5s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "139"
+      }
+    ]
+  },
+  "effects": [
+    "DEF↑",
+    "Inspired Icon"
+  ],
+  "effectDescriptions": {
+    "DEF↑": "DEF Boost (+6 DEF) for 4.5s"
+  }
+}

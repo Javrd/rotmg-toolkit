@@ -1,0 +1,59 @@
+{
+  "slug": "oceanic-apparel",
+  "name": "Oceanic Apparel",
+  "wikiUrl": "https://www.realmeye.com/wiki/oceanic-apparel",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/J98NxR2.png",
+  "category": "Armor",
+  "categorySlug": "robes",
+  "family": "Set Tiered Robes",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Priest",
+    "Necromancer",
+    "Mystic",
+    "Sorcerer",
+    "Bard",
+    "Summoner"
+  ],
+  "stats": {
+    "DEF": 8,
+    "SPD": 8,
+    "HP": 55
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+8"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+8"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+55"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

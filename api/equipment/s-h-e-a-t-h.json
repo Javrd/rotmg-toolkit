@@ -1,0 +1,95 @@
+{
+  "slug": "s-h-e-a-t-h",
+  "name": "S.H.E.A.T.H.",
+  "wikiUrl": "https://www.realmeye.com/wiki/s-h-e-a-t-h",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/PEE2wln.png",
+  "category": "Ability",
+  "categorySlug": "sheaths",
+  "family": "Untiered Sheaths",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Damage and Effects": [
+      {
+        "label": "Damage and Effects",
+        "value": "350-450 (400)"
+      },
+      {
+        "label": "Shots",
+        "value": "14"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Blast Damage",
+        "value": "450 / 750"
+      },
+      {
+        "label": "Damage and Effects",
+        "value": "Blast Radius:"
+      },
+      {
+        "label": "Damage and Effects",
+        "value": "4 / 6"
+      }
+    ],
+    "Stat Multiplier": [
+      {
+        "label": "Stat Multiplier",
+        "value": "-"
+      }
+    ],
+    "Dash Distance (Tiles)": [
+      {
+        "label": "Dash Distance (Tiles)",
+        "value": "-"
+      }
+    ],
+    "Trail Damage": [
+      {
+        "label": "Trail Damage",
+        "value": "-"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 ATT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

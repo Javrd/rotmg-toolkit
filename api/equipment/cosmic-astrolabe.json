@@ -1,0 +1,72 @@
+{
+  "slug": "cosmic-astrolabe",
+  "name": "Cosmic Astrolabe",
+  "wikiUrl": "https://www.realmeye.com/wiki/cosmic-astrolabe",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/LmcZIBd.png",
+  "category": "Ability",
+  "categorySlug": "orbs",
+  "family": "Set Tiered Orbs",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "180 MP"
+      }
+    ],
+    "Stasis Duration": [
+      {
+        "label": "Stasis Duration",
+        "value": "- / 5s"
+      }
+    ],
+    "Curse Duration(@75 WIS)": [
+      {
+        "label": "Curse Duration(@75 WIS)",
+        "value": "4s / -"
+      }
+    ],
+    "Other Effects(@75 WIS)": [
+      {
+        "label": "Star Fire",
+        "value": "Emit flaming stars for 185-315 damage."
+      },
+      {
+        "label": "Empowerment",
+        "value": "Gain additional stars while [Blue Cross] Energized."
+      },
+      {
+        "label": "Other Effects(@75 WIS)",
+        "value": "Teleport to Target"
+      },
+      {
+        "label": "MP↓",
+        "value": "MP Decrease (-50 MP) on self for 5s."
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Blue Cross",
+    "MP↓"
+  ],
+  "effectDescriptions": {
+    "MP↓": "MP Decrease (-50 MP) on self for 5s."
+  }
+}

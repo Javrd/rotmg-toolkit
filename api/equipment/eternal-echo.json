@@ -1,0 +1,65 @@
+{
+  "slug": "eternal-echo",
+  "name": "Eternal Echo",
+  "wikiUrl": "https://www.realmeye.com/wiki/eternal-echo",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/XXYl9lv.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Limited Edition Swords",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "275-325 (300)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "15"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "60%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,200"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Eternal Echo Projectile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "sigil-of-the-rubber-duck",
+  "name": "Sigil of the Rubber Duck",
+  "wikiUrl": "https://www.realmeye.com/wiki/sigil-of-the-rubber-duck",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/TUq2kmN.png",
+  "category": "Ability",
+  "categorySlug": "sigils",
+  "family": "Untiered Sigils",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Form": [
+      {
+        "label": "Evolutionary Rubber Duck",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "10 MP"
+      }
+    ],
+    "Base Damage": [
+      {
+        "label": "Base Damage",
+        "value": "100"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "In-FormStat Bonus": [
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+150 MP"
+      },
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+80 WIS"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "-90%"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "10s"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ]
+  },
+  "effects": [
+    "Evolutionary Rubber Duck"
+  ],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "sentinel-s-sidearm",
+  "name": "Sentinel’s Sidearm",
+  "wikiUrl": "https://www.realmeye.com/wiki/sentinel-s-sidearm",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/8MAEM43.png",
+  "category": "Ability",
+  "categorySlug": "wakizashi",
+  "family": "Untiered Wakizashi",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Samurai"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Sentinel Sword"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "Fire 3 swords that pause and target the nearest enemy"
+      }
+    ],
+    "Damage(Average Total)": [
+      {
+        "label": "Damage(Average Total)",
+        "value": "1500 (4500)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Grey Down Arrow",
+        "value": "Exposed for 3s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,100"
+      }
+    ]
+  },
+  "effects": [
+    "Grey Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Grey Down Arrow": "Exposed for 3s"
+  }
+}

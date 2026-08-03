@@ -1,0 +1,52 @@
+{
+  "slug": "hippogriff-hide-armor",
+  "name": "Hippogriff Hide Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/hippogriff-hide-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/yFHXsnA.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Tiered Leather Armors",
+  "tier": "10",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 16,
+    "DEX": 4
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+16"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "164"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

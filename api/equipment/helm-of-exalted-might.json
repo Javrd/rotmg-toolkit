@@ -1,0 +1,84 @@
+{
+  "slug": "helm-of-exalted-might",
+  "name": "Helm of Exalted Might",
+  "wikiUrl": "https://www.realmeye.com/wiki/helm-of-exalted-might",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/vW9Hygc.png",
+  "category": "Ability",
+  "categorySlug": "helms",
+  "family": "Untiered Helms",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "95 MP"
+      }
+    ],
+    "Range (@50 Wis)": [
+      {
+        "label": "Range (@50 Wis)",
+        "value": "5"
+      }
+    ],
+    "Berserk Duration(@50 Wis)": [
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Speedy Duration(@50 Wis)": [
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Other Effects(@50 Wis)": [
+      {
+        "label": "Other Effects(@50 Wis)",
+        "value": "5.5s"
+      },
+      {
+        "label": "DEX↑",
+        "value": "DEX Boost (+30 DEX) for 3s and [ATT↓] ATT Decrease (-15 ATT) for 5s to self"
+      },
+      {
+        "label": "Other Effects(@50 Wis)",
+        "value": "On ability use, 25% chance to deal a burst of 1000 damage to enemies within 5 sqrs"
+      },
+      {
+        "label": "Cooldown",
+        "value": "6.5s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+10 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [
+    "ATT↓",
+    "DEX↑"
+  ],
+  "effectDescriptions": {
+    "DEX↑": "DEX Boost (+30 DEX) for 3s and [ATT↓] ATT Decrease (-15 ATT) for 5s to self"
+  }
+}

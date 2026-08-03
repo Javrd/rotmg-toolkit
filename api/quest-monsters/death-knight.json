@@ -1,0 +1,36 @@
+{
+  "slug": "death-knight",
+  "name": "Death Knight",
+  "wikiUrl": "https://www.realmeye.com/wiki/death-knight",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Qs65yHO.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

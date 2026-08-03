@@ -1,0 +1,91 @@
+{
+  "slug": "burlap-cowl",
+  "name": "Burlap Cowl",
+  "wikiUrl": "https://www.realmeye.com/wiki/burlap-cowl",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/fiBPxFG.png",
+  "category": "Ability",
+  "categorySlug": "helms",
+  "family": "Set Tiered Helms",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Warrior"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Range (@50 Wis)": [
+      {
+        "label": "Range (@50 Wis)",
+        "value": "3"
+      },
+      {
+        "label": "Range (@50 Wis)",
+        "value": "(5)"
+      }
+    ],
+    "Berserk Duration(@50 Wis)": [
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "5s"
+      },
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "(7s)"
+      }
+    ],
+    "Speedy Duration(@50 Wis)": [
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Other Effects (@50 Wis)": [
+      {
+        "label": "On self",
+        "value": "[DEX↑] DEX Boost (+8 DEX) for 3s"
+      },
+      {
+        "label": "On self",
+        "value": "[SPD↑] SPD Boost (+4 SPD) for 3s"
+      },
+      {
+        "label": "On self",
+        "value": "[Blood Drop] Bleeding for 3s (Bleed Damage: 20)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+8 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [
+    "Blood Drop",
+    "DEX↑",
+    "SPD↑"
+  ],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "maiden-of-the-sea",
+  "name": "Maiden of the Sea",
+  "wikiUrl": "https://www.realmeye.com/wiki/maiden-of-the-sea",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/G9imQ7T.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "shockwave-shield",
+  "name": "Shockwave Shield",
+  "wikiUrl": "https://www.realmeye.com/wiki/shockwave-shield",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/VO3QpZx.png",
+  "category": "Ability",
+  "categorySlug": "shields",
+  "family": "Set Tiered Shields",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Knight"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Shockwave Shield Blast"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Damage per Shot (Average Total)": [
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "500"
+      },
+      {
+        "label": "Gold Five Pointed Star",
+        "value": "Stunned"
+      },
+      {
+        "label": "Duration",
+        "value": "3s"
+      },
+      {
+        "label": "Red Down Arrow",
+        "value": "Slowed"
+      },
+      {
+        "label": "Duration",
+        "value": "3s"
+      },
+      {
+        "label": "Range",
+        "value": "4"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+10 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ]
+  },
+  "effects": [
+    "Gold Five Pointed Star",
+    "Red Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Gold Five Pointed Star": "Stunned",
+    "Red Down Arrow": "Slowed"
+  }
+}

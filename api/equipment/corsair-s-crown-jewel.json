@@ -1,0 +1,91 @@
+{
+  "slug": "corsair-s-crown-jewel",
+  "name": "Corsair’s Crown Jewel",
+  "wikiUrl": "https://www.realmeye.com/wiki/corsair-s-crown-jewel",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/FrAxNVC.png",
+  "category": "Ability",
+  "categorySlug": "prisms",
+  "family": "Untiered Prisms",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Decoy Duration (seconds)": [
+      {
+        "label": "Decoy Duration (seconds)",
+        "value": "4"
+      }
+    ],
+    "Other Effects": [
+      {
+        "label": "Other Effects",
+        "value": "No teleport"
+      },
+      {
+        "label": "Other Effects",
+        "value": "Summons Crown Jewel that follows your character as you move"
+      },
+      {
+        "label": "Other Effects",
+        "value": "Decoys enemies once active"
+      },
+      {
+        "label": "Active Duration",
+        "value": "4 seconds"
+      },
+      {
+        "label": "Attack Rate",
+        "value": "0.1 seconds"
+      },
+      {
+        "label": "Total Damage",
+        "value": "2000-3000 (2500)"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

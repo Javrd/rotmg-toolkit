@@ -1,0 +1,50 @@
+{
+  "slug": "zaarvox-s-heart",
+  "name": "Zaarvox’s Heart",
+  "wikiUrl": "https://www.realmeye.com/wiki/zaarvox-s-heart",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/9vrqP0z.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Set Tier Heavy Armors",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 17,
+    "SPD": 8
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+17"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+8"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "600"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

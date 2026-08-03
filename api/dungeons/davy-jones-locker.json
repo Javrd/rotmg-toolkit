@@ -1,0 +1,77 @@
+{
+  "slug": "davy-jones-locker",
+  "name": "Davy Jones’ Locker",
+  "wikiUrl": "https://www.realmeye.com/wiki/davy-jones-locker",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hqmoe5U.gif",
+  "category": "Realm Dungeons",
+  "difficulty": 5.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Davy Jones",
+          "wikiUrl": "https://www.realmeye.com/wiki/davy-jones",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/tjSbhJM.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Davy Jones",
+          "wikiUrl": "https://www.realmeye.com/wiki/davy-jones",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/tjSbhJM.png"
+        }
+      },
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Davy Jones",
+          "wikiUrl": "https://www.realmeye.com/wiki/davy-jones",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/tjSbhJM.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Sunken Treasure",
+          "wikiUrl": "https://www.realmeye.com/wiki/sunken-treasure",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/IRtlRAV.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Sunken Treasure",
+          "wikiUrl": "https://www.realmeye.com/wiki/sunken-treasure",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/IRtlRAV.png"
+        }
+      }
+    ]
+  }
+}

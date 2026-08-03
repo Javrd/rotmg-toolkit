@@ -1,0 +1,49 @@
+{
+  "slug": "sharpshooter-bow",
+  "name": "Sharpshooter Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/sharpshooter-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/H8wxNdo.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Tiered Bows",
+  "tier": "6",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "55-65 (60)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Side (2): 15-20 (17.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "35"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Large Standard Arrow, Sharpshooter Small Arrow"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

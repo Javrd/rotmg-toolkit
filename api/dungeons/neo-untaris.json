@@ -1,0 +1,18 @@
+{
+  "slug": "neo-untaris",
+  "name": "Neo Untaris",
+  "wikiUrl": "https://www.realmeye.com/wiki/neo-untaris",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/hCzWfki.png",
+  "category": "Advanced Dungeons",
+  "difficulty": 8.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

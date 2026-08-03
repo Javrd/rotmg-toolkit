@@ -1,0 +1,64 @@
+{
+  "slug": "big-bad-fursuit",
+  "name": "Big Bad Fursuit",
+  "wikiUrl": "https://www.realmeye.com/wiki/big-bad-fursuit",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/KdLRgyh.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Limited Edition",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "ATT": 8,
+    "DEF": 16,
+    "SPD": 4,
+    "HP": 20
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+8"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+16"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+4"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+20"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "600"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

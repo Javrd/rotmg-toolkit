@@ -1,0 +1,94 @@
+{
+  "slug": "irradiance-sheath",
+  "name": "Irradiance Sheath",
+  "wikiUrl": "https://www.realmeye.com/wiki/irradiance-sheath",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/RgNhnD1.png",
+  "category": "Ability",
+  "categorySlug": "sheaths",
+  "family": "Untiered Sheaths",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "130 MP"
+      }
+    ],
+    "Damage and Effects": [
+      {
+        "label": "Damage and Effects",
+        "value": "500"
+      },
+      {
+        "label": "Shots",
+        "value": "4"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Wavy",
+        "value": "Wavy shots"
+      }
+    ],
+    "Stat Multiplier": [
+      {
+        "label": "Stat Multiplier",
+        "value": "13/17/22/28/35% [ATT↑] ATT Boost"
+      },
+      {
+        "label": "Stat Multiplier",
+        "value": "Each stack lasts for 10 second"
+      }
+    ],
+    "Dash Distance (Tiles)": [
+      {
+        "label": "Dash Distance (Tiles)",
+        "value": "1-8"
+      }
+    ],
+    "Trail Damage": [
+      {
+        "label": "Trail Damage",
+        "value": "1200"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 ATT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "ATT↑",
+    "Piercing",
+    "Wavy"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Wavy": "Wavy shots"
+  }
+}

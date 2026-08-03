@@ -1,0 +1,81 @@
+{
+  "slug": "neo-comet-of-calamity",
+  "name": "Neo Comet of Calamity",
+  "wikiUrl": "https://www.realmeye.com/wiki/neo-comet-of-calamity",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/oTsCZmy.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Untiered Staves",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "200-235 (217.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "22.5"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.25"
+      },
+      {
+        "label": "Frequency",
+        "value": "1.5"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "40%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "9"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Neo Tezcacoatl Staff Reskin Missile"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

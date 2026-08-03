@@ -1,0 +1,69 @@
+{
+  "slug": "bone-dagger",
+  "name": "Bone Dagger",
+  "wikiUrl": "https://www.realmeye.com/wiki/bone-dagger",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/yuTbXQG.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Untiered Daggers",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "95-170 (132.5)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "110%"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "5.02"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "3%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "300"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Bone Dagger Shot"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

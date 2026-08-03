@@ -1,0 +1,64 @@
+{
+  "slug": "eggre-battle-armor",
+  "name": "Eggre Battle Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/eggre-battle-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/du1jQv4.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Limited Edition",
+  "tier": "ST",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "ATT": 6,
+    "DEF": 17,
+    "SPD": 6,
+    "VIT": 5
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+6"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+17"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+6"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

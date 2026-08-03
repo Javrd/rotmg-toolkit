@@ -1,0 +1,63 @@
+{
+  "slug": "hero-s-longbow",
+  "name": "Hero’s Longbow",
+  "wikiUrl": "https://www.realmeye.com/wiki/hero-s-longbow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/YJxFRXY.png",
+  "category": "Weapon",
+  "categorySlug": "longbows",
+  "family": "Limited Edition Longbows",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "105-130 (117.5)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      }
+    ],
+    "Fire Rate": [
+      {
+        "label": "Fire Rate",
+        "value": "92, 96 100%"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.04"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Hero Long Arrow"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

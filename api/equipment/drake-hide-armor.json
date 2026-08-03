@@ -1,0 +1,52 @@
+{
+  "slug": "drake-hide-armor",
+  "name": "Drake Hide Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/drake-hide-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ntqPy3L.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Tiered Leather Armors",
+  "tier": "8",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 14,
+    "DEX": 3
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+14"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+3"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "2%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "83"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

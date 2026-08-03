@@ -1,0 +1,111 @@
+{
+  "slug": "peacekeeper-rehearsal",
+  "name": "Peacekeeper (Rehearsal)",
+  "wikiUrl": "https://www.realmeye.com/wiki/peacekeeper-rehearsal",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/7g3LgHR.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Limited Edition Maces",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "Royal Knight",
+        "value": ""
+      },
+      {
+        "label": "Royal Raider",
+        "value": ""
+      },
+      {
+        "label": "Royal Archer",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "135 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "Archer’s Bow:"
+      },
+      {
+        "label": "Damage",
+        "value": "400-480 (1 shot)"
+      },
+      {
+        "label": "Damage",
+        "value": "Raider’s Spear:"
+      },
+      {
+        "label": "Damage",
+        "value": "80-120 (5 shots)"
+      },
+      {
+        "label": "Damage",
+        "value": "Knight’s Slash:"
+      },
+      {
+        "label": "Damage",
+        "value": "80-200 (6 shots)"
+      },
+      {
+        "label": "Damage",
+        "value": "Knight’s Flurry:"
+      },
+      {
+        "label": "Damage",
+        "value": "80-160 (3 shots)"
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "10s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+30 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [
+    "Royal Archer",
+    "Royal Knight",
+    "Royal Raider"
+  ],
+  "effectDescriptions": {}
+}

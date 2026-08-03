@@ -1,0 +1,30 @@
+{
+  "slug": "forax",
+  "name": "Forax",
+  "wikiUrl": "https://www.realmeye.com/wiki/forax",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZwelWPf.png",
+  "category": "Wormholes",
+  "difficulty": 5.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Acidus",
+          "wikiUrl": "https://www.realmeye.com/wiki/acidus",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/I5cWzlZ.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

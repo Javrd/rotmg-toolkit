@@ -1,0 +1,81 @@
+{
+  "slug": "resplendent-bow",
+  "name": "Resplendent Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/resplendent-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/6sF6tFt.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Set Tiered Bows",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "250-325 (287.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "15"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.25"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.75"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "35%"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Crystal Arrow, Crystal Arrow Large"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

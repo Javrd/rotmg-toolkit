@@ -1,0 +1,81 @@
+{
+  "slug": "doom-circle",
+  "name": "Doom Circle",
+  "wikiUrl": "https://www.realmeye.com/wiki/doom-circle",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/DxW5PCb.png",
+  "category": "Ability",
+  "categorySlug": "stars",
+  "family": "Tiered Stars",
+  "tier": "6",
+  "soulbound": false,
+  "classes": [
+    "Ninja"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "1350-1450"
+      },
+      {
+        "label": "Damage",
+        "value": "(1400)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Effect",
+        "value": "+6 DEX"
+      },
+      {
+        "label": "Green Up Arrow",
+        "value": "Speedy"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "10.8"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+9 VIT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "380"
+      }
+    ]
+  },
+  "effects": [
+    "Green Up Arrow"
+  ],
+  "effectDescriptions": {
+    "Green Up Arrow": "Speedy"
+  }
+}

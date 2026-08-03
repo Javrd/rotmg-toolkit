@@ -1,0 +1,57 @@
+{
+  "slug": "bunny-ear-tachi",
+  "name": "Bunny Ear Tachi",
+  "wikiUrl": "https://www.realmeye.com/wiki/bunny-ear-tachi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ziwQqBt.png",
+  "category": "Weapon",
+  "categorySlug": "tachis",
+  "family": "Limited Edition Tachis",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "90-120 (105)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "?"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "450"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Bunny Ear Tachi Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

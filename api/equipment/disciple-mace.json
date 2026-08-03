@@ -1,0 +1,67 @@
+{
+  "slug": "disciple-mace",
+  "name": "Disciple Mace",
+  "wikiUrl": "https://www.realmeye.com/wiki/disciple-mace",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/X84jD0L.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Tiered Maces",
+  "tier": "2",
+  "soulbound": false,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "Raccoon",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "60 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "85-115"
+      },
+      {
+        "label": "Damage",
+        "value": "(100)"
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "10s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+1 ATT"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "15"
+      }
+    ]
+  },
+  "effects": [
+    "Raccoon"
+  ],
+  "effectDescriptions": {}
+}

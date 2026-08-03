@@ -1,0 +1,18 @@
+{
+  "slug": "sigma-werewolf",
+  "name": "Sigma Werewolf",
+  "wikiUrl": "https://www.realmeye.com/wiki/sigma-werewolf",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/y1sb7tj.png",
+  "group": "encounter",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

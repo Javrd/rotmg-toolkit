@@ -1,0 +1,36 @@
+{
+  "slug": "cosmic-sprite",
+  "name": "Cosmic Sprite",
+  "wikiUrl": "https://www.realmeye.com/wiki/cosmic-sprite",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/wq3JfnB.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

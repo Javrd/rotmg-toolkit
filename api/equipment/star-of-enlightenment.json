@@ -1,0 +1,81 @@
+{
+  "slug": "star-of-enlightenment",
+  "name": "Star of Enlightenment",
+  "wikiUrl": "https://www.realmeye.com/wiki/star-of-enlightenment",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/98qG4Er.png",
+  "category": "Ability",
+  "categorySlug": "stars",
+  "family": "Untiered Stars",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Ninja"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "1500-2000"
+      },
+      {
+        "label": "Damage",
+        "value": "(1750)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Effect",
+        "value": "+4 DEX"
+      },
+      {
+        "label": "Red Sword",
+        "value": "Berserk on self"
+      },
+      {
+        "label": "Cost",
+        "value": "24 MP/second"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "10"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "-10 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Red Sword"
+  ],
+  "effectDescriptions": {
+    "Red Sword": "Berserk on self"
+  }
+}

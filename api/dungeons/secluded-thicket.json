@@ -1,0 +1,63 @@
+{
+  "slug": "secluded-thicket",
+  "name": "Secluded Thicket",
+  "wikiUrl": "https://www.realmeye.com/wiki/secluded-thicket",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png",
+  "category": "Realm Dungeons",
+  "difficulty": 6.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/d/Consumable/Stat Potions/Potion of Attack.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Tezcacoatl the Great Basilisk",
+          "wikiUrl": "https://www.realmeye.com/wiki/tezcacoatl-the-great-basilisk",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/2zBZOj0.png"
+        }
+      },
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/d/Consumable/Stat Potions/Potion of Defense.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Tezcacoatl the Great Basilisk",
+          "wikiUrl": "https://www.realmeye.com/wiki/tezcacoatl-the-great-basilisk",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/2zBZOj0.png"
+        }
+      },
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/d/Consumable/Stat Potions/Potion of Mana.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "El Dorado",
+          "wikiUrl": "https://www.realmeye.com/wiki/el-dorado",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/5quZEAa.png"
+        }
+      },
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/d/Consumable/Stat Potions/Potion of Life.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Xolotl the Lightning God",
+          "wikiUrl": "https://www.realmeye.com/wiki/xolotl-the-lightning-god",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/xFWvgyV.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

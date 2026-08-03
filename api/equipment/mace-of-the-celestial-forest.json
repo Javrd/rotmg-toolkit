@@ -1,0 +1,77 @@
+{
+  "slug": "mace-of-the-celestial-forest",
+  "name": "Mace of the Celestial Forest",
+  "wikiUrl": "https://www.realmeye.com/wiki/mace-of-the-celestial-forest",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/6KSXzTZ.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Untiered Maces",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "Stationary Sprite Trees",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "105 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "Varies"
+      },
+      {
+        "label": "Shots",
+        "value": "3-6"
+      },
+      {
+        "label": "Damage",
+        "value": "Summons one of 4 different stationary Sprite Trees at random"
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "10s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "1.8"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [
+    "Stationary Sprite Trees"
+  ],
+  "effectDescriptions": {}
+}

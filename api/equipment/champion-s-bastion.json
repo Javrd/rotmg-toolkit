@@ -1,0 +1,82 @@
+{
+  "slug": "champion-s-bastion",
+  "name": "Champion’s Bastion",
+  "wikiUrl": "https://www.realmeye.com/wiki/champion-s-bastion",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/iFgXzP9.png",
+  "category": "Ability",
+  "categorySlug": "shields",
+  "family": "Set Tiered Shields",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Knight"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Knight DPS Shield"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "75 MP"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "5"
+      }
+    ],
+    "Damage per Shot (Average Total)": [
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "385-455 (2100)"
+      },
+      {
+        "label": "Gold Five Pointed Star",
+        "value": "Stunned"
+      },
+      {
+        "label": "Duration",
+        "value": "1.5s"
+      },
+      {
+        "label": "Wavy",
+        "value": "Wavy shots"
+      },
+      {
+        "label": "Range",
+        "value": "2.8"
+      },
+      {
+        "label": "Effect",
+        "value": "[DEF↑] DEF Boost (+15 DEF) on self for 2.5 seconds"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [
+    "DEF↑",
+    "Gold Five Pointed Star",
+    "Wavy"
+  ],
+  "effectDescriptions": {
+    "Gold Five Pointed Star": "Stunned",
+    "Wavy": "Wavy shots"
+  }
+}

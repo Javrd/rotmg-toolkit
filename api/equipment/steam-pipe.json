@@ -1,0 +1,83 @@
+{
+  "slug": "steam-pipe",
+  "name": "Steam Pipe",
+  "wikiUrl": "https://www.realmeye.com/wiki/steam-pipe",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/LFkrGDa.png",
+  "category": "Weapon",
+  "categorySlug": "spellblades",
+  "family": "Untiered Spellblades",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Fire Drop",
+        "value": "65-85 (75)"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Water Drop",
+        "value": "65-85 (75)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+25 MP"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "4"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8 / 4"
+      },
+      {
+        "label": "Range",
+        "value": "6 / 2"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "steamworks Small Water Drop, steamworks Small Fire Drop"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

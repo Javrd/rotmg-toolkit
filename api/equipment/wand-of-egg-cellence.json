@@ -1,0 +1,66 @@
+{
+  "slug": "wand-of-egg-cellence",
+  "name": "Wand of Egg-cellence",
+  "wikiUrl": "https://www.realmeye.com/wiki/wand-of-egg-cellence",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/9pqn1Vy.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Limited Edition Wands",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "130-170 (150)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "9"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "310"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Dyed Eggs"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

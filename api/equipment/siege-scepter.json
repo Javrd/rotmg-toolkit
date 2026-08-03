@@ -1,0 +1,75 @@
+{
+  "slug": "siege-scepter",
+  "name": "Siege Scepter",
+  "wikiUrl": "https://www.realmeye.com/wiki/siege-scepter",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/O45xxYH.png",
+  "category": "Ability",
+  "categorySlug": "scepters",
+  "family": "Untiered Scepters",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Sorcerer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Base damage": [
+      {
+        "label": "Base damage",
+        "value": "450"
+      },
+      {
+        "label": "Base damage",
+        "value": "60° target cone"
+      },
+      {
+        "label": "Range",
+        "value": "6 tiles"
+      }
+    ],
+    "Damage per WIS&gt;50": [
+      {
+        "label": "Damage per WIS&gt;50",
+        "value": "10"
+      }
+    ],
+    "Reduction per target": [
+      {
+        "label": "Reduction per target",
+        "value": "-"
+      }
+    ],
+    "Base targets (WIS needed)": [
+      {
+        "label": "Base targets (WIS needed)",
+        "value": "3 (15)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

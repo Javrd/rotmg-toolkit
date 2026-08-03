@@ -1,0 +1,65 @@
+{
+  "slug": "the-right-hook",
+  "name": "The Right Hook",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-right-hook",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/VZcwjjQ.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Untiered Daggers",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "215-315 (265)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "65%"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+6 VIT"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "6.09"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Right Hook Shot"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

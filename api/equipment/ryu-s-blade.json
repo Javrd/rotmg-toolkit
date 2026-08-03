@@ -1,0 +1,111 @@
+{
+  "slug": "ryu-s-blade",
+  "name": "Ryu’s Blade",
+  "wikiUrl": "https://www.realmeye.com/wiki/ryu-s-blade",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/a1qsbm7.png",
+  "category": "Ability",
+  "categorySlug": "wakizashi",
+  "family": "Set Tiered Wakizashi",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Samurai"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Wakizashi Pink"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "85"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "4+4"
+      },
+      {
+        "label": "Offset Angles",
+        "value": "165/195°"
+      },
+      {
+        "label": "Shots",
+        "value": "(Shots come from both sides, converge on player)"
+      },
+      {
+        "label": "Gap Angle",
+        "value": "270°"
+      },
+      {
+        "label": "Shot Gap",
+        "value": "0.5"
+      }
+    ],
+    "Damage(Average Total)": [
+      {
+        "label": "Damage(Average Total)",
+        "value": "125-250"
+      },
+      {
+        "label": "Damage(Average Total)",
+        "value": "(1500)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Grey Down Arrow",
+        "value": "Exposed for 4.5s"
+      },
+      {
+        "label": "Cast Range",
+        "value": "3"
+      },
+      {
+        "label": "Shot Range",
+        "value": "9.6"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Wavy",
+        "value": "Wavy shots"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+8 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Grey Down Arrow",
+    "Wavy"
+  ],
+  "effectDescriptions": {
+    "Grey Down Arrow": "Exposed for 4.5s",
+    "Armor Piercing": "Ignores defense of target",
+    "Wavy": "Wavy shots"
+  }
+}

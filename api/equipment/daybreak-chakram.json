@@ -1,0 +1,71 @@
+{
+  "slug": "daybreak-chakram",
+  "name": "Daybreak Chakram",
+  "wikiUrl": "https://www.realmeye.com/wiki/daybreak-chakram",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/tl3pWVQ.png",
+  "category": "Ability",
+  "categorySlug": "stars",
+  "family": "Set Tiered Stars",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Ninja"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "95 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "400-600 (500)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Shots",
+        "value": "3"
+      },
+      {
+        "label": "Wooden Shield",
+        "value": "Armored"
+      },
+      {
+        "label": "Effect",
+        "value": "+10 DEF"
+      },
+      {
+        "label": "Cost",
+        "value": "20 MP/second"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5.25"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "Wooden Shield"
+  ],
+  "effectDescriptions": {
+    "Wooden Shield": "Armored"
+  }
+}

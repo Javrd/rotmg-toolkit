@@ -1,0 +1,91 @@
+{
+  "slug": "wandering-souls-spell",
+  "name": "Wandering Souls Spell",
+  "wikiUrl": "https://www.realmeye.com/wiki/wandering-souls-spell",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/oggehEg.png",
+  "category": "Ability",
+  "categorySlug": "spells",
+  "family": "Untiered Spells",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Wizard"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Wandering Souls Spell Proj"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "85 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "345-500 (422.5)"
+      }
+    ],
+    "Total Damage": [
+      {
+        "label": "Total Damage",
+        "value": "2070-3000 (2535)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Range",
+        "value": "2.7"
+      },
+      {
+        "label": "Total Damage",
+        "value": "On ability use, 20% chance with a 2 second cooldown to release a Wandering Soul for 6 seconds."
+      },
+      {
+        "label": "Soul Damage",
+        "value": "250"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+3 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [
+    "Passes cover",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Passes cover": "Shots pass through obstacles"
+  }
+}

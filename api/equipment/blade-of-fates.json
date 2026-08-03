@@ -1,0 +1,73 @@
+{
+  "slug": "blade-of-fates",
+  "name": "Blade of Fates",
+  "wikiUrl": "https://www.realmeye.com/wiki/blade-of-fates",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/tp1CxmC.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Set Tiered Daggers",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Bullet 1",
+        "value": "350-500 (425)"
+      },
+      {
+        "label": "Bullet 1 Rate of Fire",
+        "value": "12%"
+      },
+      {
+        "label": "Bullet 2",
+        "value": "180-245 (212.5)"
+      },
+      {
+        "label": "Bullet 2 Rate of Fire",
+        "value": "72%"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "-8% SPD Equal to SPD"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "2"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Bullet 1",
+        "value": "5.5 Bullet 2: 5.3"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "3TricksterST0 Dagger Projectile, 3TricksterST0 Spinner Projectile, 3TricksterST0 Big Dagger Projectile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

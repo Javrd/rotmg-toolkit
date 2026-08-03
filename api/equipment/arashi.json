@@ -1,0 +1,69 @@
+{
+  "slug": "arashi",
+  "name": "Arashi",
+  "wikiUrl": "https://www.realmeye.com/wiki/arashi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/1yO11OB.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Limited Edition Katanas",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "205-225 (215)"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.55"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.55"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Shots do not pierce"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5.2"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Arashi Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "reinforced-quiver",
+  "name": "Reinforced Quiver",
+  "wikiUrl": "https://www.realmeye.com/wiki/reinforced-quiver",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/DXb4ldO.png",
+  "category": "Ability",
+  "categorySlug": "quivers",
+  "family": "Tiered Quivers",
+  "tier": "1",
+  "soulbound": false,
+  "classes": [
+    "Archer"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Red Arrow"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "50 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "60-80"
+      },
+      {
+        "label": "Damage",
+        "value": "(70)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Shots",
+        "value": "2 (7° arc gap)"
+      },
+      {
+        "label": "Vulnerable",
+        "value": "Targets receive 110% damage for 3 seconds after being hit."
+      },
+      {
+        "label": "Paralyzed Icon",
+        "value": "Paralyzed"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+1 DEX"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "8"
+      }
+    ]
+  },
+  "effects": [
+    "Paralyzed Icon",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Paralyzed Icon": "Paralyzed",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

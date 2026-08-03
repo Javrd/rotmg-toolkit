@@ -1,0 +1,65 @@
+{
+  "slug": "toxin-tooth",
+  "name": "Toxin Tooth",
+  "wikiUrl": "https://www.realmeye.com/wiki/toxin-tooth",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/3196mu7.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Set Tiered Daggers",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "265-320 (292.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "10"
+      },
+      {
+        "label": "Rate of fire",
+        "value": "70%"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "3.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Acid Bubble, Acid Bubble Large"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

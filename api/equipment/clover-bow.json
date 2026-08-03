@@ -1,0 +1,85 @@
+{
+  "slug": "clover-bow",
+  "name": "Clover Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/clover-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/QpfRHgv.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Limited Edition Bows",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "10-30 (20)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "50%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "9"
+      },
+      {
+        "label": "Amplitude",
+        "value": "3.59"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.42"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "8"
+      },
+      {
+        "label": "Shots",
+        "value": "(45°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "100"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "4-Leaf Clover"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

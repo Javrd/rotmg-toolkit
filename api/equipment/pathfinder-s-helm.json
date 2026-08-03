@@ -1,0 +1,87 @@
+{
+  "slug": "pathfinder-s-helm",
+  "name": "Pathfinder’s Helm",
+  "wikiUrl": "https://www.realmeye.com/wiki/pathfinder-s-helm",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ePNBUbG.png",
+  "category": "Ability",
+  "categorySlug": "helms",
+  "family": "Limited Edition Helms",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Range (@50 Wis)": [
+      {
+        "label": "Range (@50 Wis)",
+        "value": "4.5"
+      },
+      {
+        "label": "Range (@50 Wis)",
+        "value": "(6.5)"
+      }
+    ],
+    "Berserk Duration(@50 Wis)": [
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "4s"
+      },
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "(6s)"
+      }
+    ],
+    "Speedy Duration(@50 Wis)": [
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "4s"
+      },
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "(6s)"
+      }
+    ],
+    "Other Effects (@50 Wis)": [
+      {
+        "label": "Other Effects (@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+10 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "380"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

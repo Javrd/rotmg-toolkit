@@ -1,0 +1,49 @@
+{
+  "slug": "verdant-bow",
+  "name": "Verdant Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/verdant-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/VrutGFr.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Tiered Bows",
+  "tier": "9",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "95-105 (100)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Side (2): 20-30 (25)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "3%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "109"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Verdant Large Arrow, Verdant Small Arrow"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

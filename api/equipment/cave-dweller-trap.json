@@ -1,0 +1,61 @@
+{
+  "slug": "cave-dweller-trap",
+  "name": "Cave Dweller Trap",
+  "wikiUrl": "https://www.realmeye.com/wiki/cave-dweller-trap",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/J0lgclR.png",
+  "category": "Ability",
+  "categorySlug": "traps",
+  "family": "Untiered Traps",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Huntress"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "80 MP"
+      }
+    ],
+    "Explosion Radius": [
+      {
+        "label": "Crystal Sentry radius",
+        "value": "8 Tiles"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "350"
+      }
+    ],
+    "Effect(s)": [
+      {
+        "label": "Effect(s)",
+        "value": "Spawns a Crystal Sentry for 5s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+6 ATT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

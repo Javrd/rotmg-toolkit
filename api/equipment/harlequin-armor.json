@@ -1,0 +1,66 @@
+{
+  "slug": "harlequin-armor",
+  "name": "Harlequin Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/harlequin-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Wn4vs1y.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Untiered Leather Armors",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 15,
+    "SPD": 3,
+    "WIS": 5,
+    "MP": 80
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+15"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+3"
+      }
+    ],
+    "WIS": [
+      {
+        "label": "WIS",
+        "value": "+5"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+80"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

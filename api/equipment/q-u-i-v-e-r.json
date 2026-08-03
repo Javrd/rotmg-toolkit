@@ -1,0 +1,95 @@
+{
+  "slug": "q-u-i-v-e-r",
+  "name": "Q.U.I.V.E.R.",
+  "wikiUrl": "https://www.realmeye.com/wiki/q-u-i-v-e-r",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/N3xcLCX.png",
+  "category": "Ability",
+  "categorySlug": "quivers",
+  "family": "Untiered Quivers",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Archer"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Energy Splat, Energy Charge"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "950-1150"
+      },
+      {
+        "label": "Damage",
+        "value": "(1050)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Paralyzed Icon",
+        "value": "Paralyzed"
+      },
+      {
+        "label": "Duration",
+        "value": "4s"
+      },
+      {
+        "label": "Red Down Arrow",
+        "value": "Slowed"
+      },
+      {
+        "label": "Duration",
+        "value": "4s"
+      },
+      {
+        "label": "Shots",
+        "value": "0 (effective:4)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "0 (accelerates)"
+      },
+      {
+        "label": "Range",
+        "value": "21.6"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Paralyzed Icon",
+    "Piercing",
+    "Red Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Paralyzed Icon": "Paralyzed",
+    "Red Down Arrow": "Slowed",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "barnacle-basher",
+  "name": "Barnacle Basher",
+  "wikiUrl": "https://www.realmeye.com/wiki/barnacle-basher",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/iwtpaxy.png",
+  "category": "Weapon",
+  "categorySlug": "flails",
+  "family": "Untiered Flails",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 1: 375-500 (437.5)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Shots 2-4: 50-120 (85)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "4"
+      },
+      {
+        "label": "Fire Rate",
+        "value": "40%"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "Shot 1: 4.5"
+      },
+      {
+        "label": "Range",
+        "value": "Shot 2: 3.28"
+      },
+      {
+        "label": "Range",
+        "value": "Shot 3: 2.12"
+      },
+      {
+        "label": "Range",
+        "value": "Shot 4: 1.03"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Flail Anchor, Anchor Chain"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "skullish-remains-of-esben",
+  "name": "Skullish Remains of Esben",
+  "wikiUrl": "https://www.realmeye.com/wiki/skullish-remains-of-esben",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Ytpddcl.png",
+  "category": "Ability",
+  "categorySlug": "skulls",
+  "family": "Untiered Skulls",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Necromancer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Undead Base Damage": [
+      {
+        "label": "Undead Base Damage",
+        "value": "170-255"
+      }
+    ],
+    "Undead Shots": [
+      {
+        "label": "Undead Shots",
+        "value": "3"
+      }
+    ],
+    "Life Steal": [
+      {
+        "label": "Life Steal",
+        "value": "6%"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "-3 SPD"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 ATT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

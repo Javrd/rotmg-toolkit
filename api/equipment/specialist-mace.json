@@ -1,0 +1,73 @@
+{
+  "slug": "specialist-mace",
+  "name": "Specialist Mace",
+  "wikiUrl": "https://www.realmeye.com/wiki/specialist-mace",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/1nSMpe8.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Tiered Maces",
+  "tier": "3",
+  "soulbound": false,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "Cat",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "70 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "115-145"
+      },
+      {
+        "label": "Damage",
+        "value": "(130)"
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "10s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+2 ATT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "1%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "34"
+      }
+    ]
+  },
+  "effects": [
+    "Cat"
+  ],
+  "effectDescriptions": {}
+}

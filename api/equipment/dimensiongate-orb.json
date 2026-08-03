@@ -1,0 +1,67 @@
+{
+  "slug": "dimensiongate-orb",
+  "name": "Dimensiongate Orb",
+  "wikiUrl": "https://www.realmeye.com/wiki/dimensiongate-orb",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/jsq5zMC.png",
+  "category": "Ability",
+  "categorySlug": "orbs",
+  "family": "Tiered Orbs",
+  "tier": "7",
+  "soulbound": true,
+  "classes": [
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "95 MP"
+      }
+    ],
+    "Stasis Duration": [
+      {
+        "label": "Stasis Duration",
+        "value": "6.5s"
+      }
+    ],
+    "Curse Duration(@75 WIS)": [
+      {
+        "label": "Curse Duration(@75 WIS)",
+        "value": "5.5s"
+      },
+      {
+        "label": "Curse Duration(@75 WIS)",
+        "value": "(8s)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "570"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

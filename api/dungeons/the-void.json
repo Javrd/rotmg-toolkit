@@ -1,0 +1,41 @@
+{
+  "slug": "the-void",
+  "name": "The Void",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-void",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ijlxjJM.png",
+  "category": "Realm Event Dungeons",
+  "difficulty": 8.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": "G - 4",
+        "source": {
+          "name": "Void Entity",
+          "wikiUrl": "https://www.realmeye.com/wiki/void-entity",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/kbzthE4.png"
+        }
+      },
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": "G - 4",
+        "source": {
+          "name": "Void Entity",
+          "wikiUrl": "https://www.realmeye.com/wiki/void-entity",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/kbzthE4.png"
+        }
+      }
+    ],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

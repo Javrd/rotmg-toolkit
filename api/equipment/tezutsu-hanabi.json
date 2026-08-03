@@ -1,0 +1,71 @@
+{
+  "slug": "tezutsu-hanabi",
+  "name": "Tezutsu Hanabi",
+  "wikiUrl": "https://www.realmeye.com/wiki/tezutsu-hanabi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/6IUePZI.png",
+  "category": "Ability",
+  "categorySlug": "scepters",
+  "family": "Untiered Scepters",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Sorcerer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Base damage": [
+      {
+        "label": "Base damage",
+        "value": "175"
+      }
+    ],
+    "Damage per WIS&gt;50": [
+      {
+        "label": "Damage per WIS&gt;50",
+        "value": "7.5"
+      }
+    ],
+    "Reduction per target": [
+      {
+        "label": "Reduction per target",
+        "value": "-"
+      }
+    ],
+    "Base targets (WIS needed)": [
+      {
+        "label": "Base targets (WIS needed)",
+        "value": "5 (7)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+50 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,300"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

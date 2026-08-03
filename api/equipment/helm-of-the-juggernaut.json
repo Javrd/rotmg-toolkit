@@ -1,0 +1,87 @@
+{
+  "slug": "helm-of-the-juggernaut",
+  "name": "Helm of the Juggernaut",
+  "wikiUrl": "https://www.realmeye.com/wiki/helm-of-the-juggernaut",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/9ZwaB2b.png",
+  "category": "Ability",
+  "categorySlug": "helms",
+  "family": "Untiered Helms",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Warrior"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Range (@50 Wis)": [
+      {
+        "label": "Range (@50 Wis)",
+        "value": "4.5"
+      },
+      {
+        "label": "Range (@50 Wis)",
+        "value": "(6.5)"
+      }
+    ],
+    "Berserk Duration(@50 Wis)": [
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "2.5s"
+      },
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "(4.5s)"
+      }
+    ],
+    "Speedy Duration(@50 Wis)": [
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Other Effects(@50 Wis)": [
+      {
+        "label": "Wooden Shield",
+        "value": "Armored for 2.5s"
+      },
+      {
+        "label": "Other Effects(@50 Wis)",
+        "value": "(4.5s)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+10 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,250"
+      }
+    ]
+  },
+  "effects": [
+    "Wooden Shield"
+  ],
+  "effectDescriptions": {
+    "Wooden Shield": "Armored for 2.5s"
+  }
+}

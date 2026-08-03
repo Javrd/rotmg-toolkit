@@ -1,0 +1,75 @@
+{
+  "slug": "brambletooth-tachi",
+  "name": "Brambletooth Tachi",
+  "wikiUrl": "https://www.realmeye.com/wiki/brambletooth-tachi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/9DGwJKM.png",
+  "category": "Weapon",
+  "categorySlug": "tachis",
+  "family": "Untiered Tachis",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "75-105 (90)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "140%"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Boomerang",
+        "value": "Shots boomerang"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "3.71"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "SulfW Tachi Shot"
+      }
+    ]
+  },
+  "effects": [
+    "Boomerang",
+    "Passes cover"
+  ],
+  "effectDescriptions": {
+    "Passes cover": "Shots pass through obstacles",
+    "Boomerang": "Shots boomerang"
+  }
+}

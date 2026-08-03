@@ -1,0 +1,82 @@
+{
+  "slug": "ghastly-mace",
+  "name": "Ghastly Mace",
+  "wikiUrl": "https://www.realmeye.com/wiki/ghastly-mace",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/QIGVsIx.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Limited Edition Maces",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "HCreepST1",
+        "value": ""
+      },
+      {
+        "label": "HCreepST4",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "150 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "150-175 (162.5)"
+      },
+      {
+        "label": "Unbearable Presence",
+        "value": "The Terrible Spectre, unbound from its world, becomes unstable after 5 seconds."
+      },
+      {
+        "label": "Unbearable Presence",
+        "value": "Shoots 3 paralyzing shots thrice, then explodes for 1250 damage in 4.5 squares."
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "10s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 ATT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [
+    "HCreepST1",
+    "HCreepST4"
+  ],
+  "effectDescriptions": {}
+}

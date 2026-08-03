@@ -1,0 +1,30 @@
+{
+  "slug": "alluring-blossom",
+  "name": "Alluring Blossom",
+  "wikiUrl": "https://www.realmeye.com/wiki/alluring-blossom",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Pht6pFs.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

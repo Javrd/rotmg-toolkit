@@ -1,0 +1,73 @@
+{
+  "slug": "superior",
+  "name": "Superior",
+  "wikiUrl": "https://www.realmeye.com/wiki/superior",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/y0Svuxi.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Untiered Staves",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "55-90 (72.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "15"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.5"
+      },
+      {
+        "label": "Frequency",
+        "value": "1.5"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "4"
+      },
+      {
+        "label": "Shots",
+        "value": "(3°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.22"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,200"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Superior Projectile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

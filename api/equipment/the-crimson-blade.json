@@ -1,0 +1,81 @@
+{
+  "slug": "the-crimson-blade",
+  "name": "The Crimson Blade",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-crimson-blade",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/KI2Psmy.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Limited Edition Swords",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "100-125 (112.5 / 225)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "8"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Circular Motion after 0.44s"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Turns -90 / 90 degrees before circling"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+4 VIT"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5.92"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Crimson Slash"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

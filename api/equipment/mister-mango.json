@@ -1,0 +1,65 @@
+{
+  "slug": "mister-mango",
+  "name": "Mister Mango",
+  "wikiUrl": "https://www.realmeye.com/wiki/mister-mango",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/RfU7wfL.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Untiered Daggers",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "250-300 (275)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "7.5"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "50%"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "6"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "833"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Mango"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

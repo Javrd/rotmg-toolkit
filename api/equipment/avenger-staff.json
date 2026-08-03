@@ -1,0 +1,39 @@
+{
+  "slug": "avenger-staff",
+  "name": "Avenger Staff",
+  "wikiUrl": "https://www.realmeye.com/wiki/avenger-staff",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/kqggaFU.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Tiered Staves",
+  "tier": "6",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "45-85 (65)"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "35"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Violet Missile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "crystalline-kunai",
+  "name": "Crystalline Kunai",
+  "wikiUrl": "https://www.realmeye.com/wiki/crystalline-kunai",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/6MqqxEs.png",
+  "category": "Ability",
+  "categorySlug": "stars",
+  "family": "Set Tiered Stars",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Ninja"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "400-500"
+      },
+      {
+        "label": "Damage",
+        "value": "(450)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Shots",
+        "value": "3"
+      },
+      {
+        "label": "Effect",
+        "value": "+15 ATT"
+      },
+      {
+        "label": "Green Up Arrow",
+        "value": "Speedy on self."
+      },
+      {
+        "label": "Cost",
+        "value": "18 MP/second"
+      },
+      {
+        "label": "Effect",
+        "value": "Retaliate with 3 kunais when hit"
+      },
+      {
+        "label": "Kunai Cooldown",
+        "value": "4 seconds."
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "11.2"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Green Up Arrow",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Green Up Arrow": "Speedy on self.",
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "tutorial",
+  "name": "Tutorial",
+  "wikiUrl": "https://www.realmeye.com/wiki/tutorial",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/NKIMMs8.png",
+  "category": "Other Dungeons",
+  "difficulty": null,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

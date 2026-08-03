@@ -1,0 +1,103 @@
+{
+  "slug": "kogbold-multitool",
+  "name": "Kogbold Multitool",
+  "wikiUrl": "https://www.realmeye.com/wiki/kogbold-multitool",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Ot9Xoe5.png",
+  "category": "Ability",
+  "categorySlug": "wakizashi",
+  "family": "Untiered Wakizashi",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Samurai"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Multitool Shot Sweep, Multitool Shot Strike, Multitool Shot Shield"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "12"
+      },
+      {
+        "label": "Shots",
+        "value": "6"
+      },
+      {
+        "label": "Shots",
+        "value": "8"
+      }
+    ],
+    "Damage(Average Total)": [
+      {
+        "label": "Damage(Average Total)",
+        "value": "200-250 (2700)"
+      },
+      {
+        "label": "Damage(Average Total)",
+        "value": "450-550 (3000)"
+      },
+      {
+        "label": "Damage(Average Total)",
+        "value": "400-500 (3600)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Grey Down Arrow",
+        "value": "Exposed for 4s"
+      },
+      {
+        "label": "Grey Down Arrow",
+        "value": "Exposed for 2s"
+      },
+      {
+        "label": "Grey Down Arrow",
+        "value": "Exposed for 2s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+10 DEX for 2s"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+10 ATT for 2s"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+10 DEF for 2s"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "Grey Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Grey Down Arrow": "Exposed for 2s"
+  }
+}

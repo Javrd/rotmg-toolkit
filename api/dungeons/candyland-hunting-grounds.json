@@ -1,0 +1,86 @@
+{
+  "slug": "candyland-hunting-grounds",
+  "name": "Candyland Hunting Grounds",
+  "wikiUrl": "https://www.realmeye.com/wiki/candyland-hunting-grounds",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/BKoSv6j.png",
+  "category": "Realm Dungeons",
+  "difficulty": 3.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": "G",
+        "source": {
+          "name": "Cupcake",
+          "wikiUrl": "https://www.realmeye.com/wiki/cupcake",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/d/Enemies/Cupcake.png"
+        }
+      },
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": "G",
+        "source": {
+          "name": "Cupcake",
+          "wikiUrl": "https://www.realmeye.com/wiki/cupcake",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/d/Enemies/Cupcake.png"
+        }
+      },
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": "G",
+        "source": {
+          "name": "Cupcake",
+          "wikiUrl": "https://www.realmeye.com/wiki/cupcake",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/d/Enemies/Cupcake.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Spoiled&nbsp;Creampuff",
+          "wikiUrl": "https://www.realmeye.com/wiki/spoiled-creampuff",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/d/Enemies/Spoiled%20Creampuff.png"
+        }
+      },
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Desire&nbsp;Troll",
+          "wikiUrl": "https://www.realmeye.com/wiki/desire-troll",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/d/Enemies/Desire%20Troll.png"
+        }
+      },
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Desire&nbsp;Troll",
+          "wikiUrl": "https://www.realmeye.com/wiki/desire-troll",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/d/Enemies/Desire%20Troll.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

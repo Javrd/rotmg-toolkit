@@ -1,0 +1,81 @@
+{
+  "slug": "henchman-s-claymore",
+  "name": "Henchman’s Claymore",
+  "wikiUrl": "https://www.realmeye.com/wiki/henchman-s-claymore",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ujkbpq7.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Untiered Swords",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "75"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "8"
+      },
+      {
+        "label": "Wavy",
+        "value": "Wavy shots"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "110%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "(2°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "3.8"
+      },
+      {
+        "label": "Range",
+        "value": "(?)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "600"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Realm Blade"
+      }
+    ]
+  },
+  "effects": [
+    "Wavy"
+  ],
+  "effectDescriptions": {
+    "Wavy": "Wavy shots"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "wand-of-dark-magic",
+  "name": "Wand of Dark Magic",
+  "wikiUrl": "https://www.realmeye.com/wiki/wand-of-dark-magic",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Lvy7lyj.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Tiered Wands",
+  "tier": "6",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "95-125 (110)"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "35"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Pink Bolt"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

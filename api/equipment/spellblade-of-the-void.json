@@ -1,0 +1,65 @@
+{
+  "slug": "spellblade-of-the-void",
+  "name": "Spellblade of the Void",
+  "wikiUrl": "https://www.realmeye.com/wiki/spellblade-of-the-void",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/nt6H6Bh.png",
+  "category": "Weapon",
+  "categorySlug": "spellblades",
+  "family": "Limited Edition Spellblades",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Small",
+        "value": "100-135 (117.5)"
+      },
+      {
+        "label": "Large",
+        "value": "85-90 (87.5)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+5 WIS"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.91"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Small Void Missle, Large Void Missle"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

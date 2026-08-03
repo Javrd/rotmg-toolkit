@@ -1,0 +1,37 @@
+{
+  "slug": "blue-steel-mail",
+  "name": "Blue Steel Mail",
+  "wikiUrl": "https://www.realmeye.com/wiki/blue-steel-mail",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/6MZBdZR.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Tiered Heavy Armors",
+  "tier": "2",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 7
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+7"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "11"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

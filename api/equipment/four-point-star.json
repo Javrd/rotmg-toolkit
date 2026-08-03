@@ -1,0 +1,67 @@
+{
+  "slug": "four-point-star",
+  "name": "Four-Point Star",
+  "wikiUrl": "https://www.realmeye.com/wiki/four-point-star",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Vdc2PBk.png",
+  "category": "Ability",
+  "categorySlug": "stars",
+  "family": "Tiered Stars",
+  "tier": "1",
+  "soulbound": false,
+  "classes": [
+    "Ninja"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "40 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "350-450"
+      },
+      {
+        "label": "Damage",
+        "value": "(400)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Effect",
+        "value": "+4 DEX"
+      },
+      {
+        "label": "Green Up Arrow",
+        "value": "Speedy"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "10.8"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 VIT"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "8"
+      }
+    ]
+  },
+  "effects": [
+    "Green Up Arrow"
+  ],
+  "effectDescriptions": {
+    "Green Up Arrow": "Speedy"
+  }
+}

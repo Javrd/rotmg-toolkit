@@ -1,0 +1,65 @@
+{
+  "slug": "sunshine-shiv",
+  "name": "Sunshine Shiv",
+  "wikiUrl": "https://www.realmeye.com/wiki/sunshine-shiv",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/wfYCM0G.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Limited Edition Daggers",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "15-30 (22.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "3"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "55%"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "4.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "0"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "happy magic"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

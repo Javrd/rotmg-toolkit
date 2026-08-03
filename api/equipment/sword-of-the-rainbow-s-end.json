@@ -1,0 +1,73 @@
+{
+  "slug": "sword-of-the-rainbow-s-end",
+  "name": "Sword of the Rainbow’s End",
+  "wikiUrl": "https://www.realmeye.com/wiki/sword-of-the-rainbow-s-end",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Vdgr2pJ.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Limited Edition Swords",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "20-40 (30)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "8"
+      },
+      {
+        "label": "Wavy",
+        "value": "Wavy shots"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "150%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "3.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "100"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Patty Rainbow Bolt"
+      }
+    ]
+  },
+  "effects": [
+    "Wavy"
+  ],
+  "effectDescriptions": {
+    "Wavy": "Wavy shots"
+  }
+}

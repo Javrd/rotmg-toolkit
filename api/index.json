@@ -1,0 +1,26 @@
+{
+  "apiVersion": "1",
+  "generatedAt": "2026-08-03T11:00:34Z",
+  "source": "https://www.realmeye.com/wiki",
+  "resources": {
+    "dungeons": {
+      "list": "dungeons.json",
+      "item": "dungeons/{slug}.json",
+      "count": 84
+    },
+    "questMonsters": {
+      "list": "quest-monsters.json",
+      "item": "quest-monsters/{slug}.json",
+      "count": 90
+    },
+    "equipment": {
+      "list": "equipment.json",
+      "item": "equipment/{slug}.json",
+      "count": 1316
+    },
+    "potionTypes": {
+      "list": "potion-types.json",
+      "count": 10
+    }
+  }
+}

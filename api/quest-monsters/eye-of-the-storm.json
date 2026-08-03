@@ -1,0 +1,18 @@
+{
+  "slug": "eye-of-the-storm",
+  "name": "Eye of the Storm",
+  "wikiUrl": "https://www.realmeye.com/wiki/eye-of-the-storm",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/zWZrYpk.gif",
+  "group": "encounter",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "acidic-slasher",
+  "name": "Acidic Slasher",
+  "wikiUrl": "https://www.realmeye.com/wiki/acidic-slasher",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/zy2z5qT.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Untiered Swords",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "350-400 (375)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "60%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Stone Reskin Missile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

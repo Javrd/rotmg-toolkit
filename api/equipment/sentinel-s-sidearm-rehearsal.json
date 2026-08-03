@@ -1,0 +1,65 @@
+{
+  "slug": "sentinel-s-sidearm-rehearsal",
+  "name": "Sentinel’s Sidearm (Rehearsal)",
+  "wikiUrl": "https://www.realmeye.com/wiki/sentinel-s-sidearm-rehearsal",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/6cXc6hR.png",
+  "category": "Ability",
+  "categorySlug": "wakizashi",
+  "family": "Limited Edition Wakizashi",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Samurai"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Sentinel Sword"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "Fire 3 swords that pause and target the nearest enemy."
+      }
+    ],
+    "Damage(Average Total)": [
+      {
+        "label": "Damage(Average Total)",
+        "value": "800 (2,400)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

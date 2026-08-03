@@ -1,0 +1,42 @@
+{
+  "slug": "ancient-ruins",
+  "name": "Ancient Ruins",
+  "wikiUrl": "https://www.realmeye.com/wiki/ancient-ruins",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/4gtP9OQ.png",
+  "category": "Realm Dungeons",
+  "difficulty": 3.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Sandstone Titan",
+          "wikiUrl": "https://www.realmeye.com/wiki/sandstone-titan",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/z01EB30.png"
+        }
+      }
+    ],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Genie",
+          "wikiUrl": "https://www.realmeye.com/wiki/genie",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/bNFoDyE.png"
+        }
+      }
+    ],
+    "possible": []
+  }
+}

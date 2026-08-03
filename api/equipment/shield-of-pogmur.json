@@ -1,0 +1,71 @@
+{
+  "slug": "shield-of-pogmur",
+  "name": "Shield of Pogmur",
+  "wikiUrl": "https://www.realmeye.com/wiki/shield-of-pogmur",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/gQVxfv5.png",
+  "category": "Ability",
+  "categorySlug": "shields",
+  "family": "Untiered Shields",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Knight"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Pogmur Shield"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Damage per Shot (Average Total)": [
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "300-400 (350)"
+      },
+      {
+        "label": "Gold Four Pointed Star",
+        "value": "Armor Broken"
+      },
+      {
+        "label": "Duration",
+        "value": "0.5s"
+      },
+      {
+        "label": "Range",
+        "value": "0.75"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ]
+  },
+  "effects": [
+    "Gold Four Pointed Star"
+  ],
+  "effectDescriptions": {
+    "Gold Four Pointed Star": "Armor Broken"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "aurora-tachi",
+  "name": "Aurora Tachi",
+  "wikiUrl": "https://www.realmeye.com/wiki/aurora-tachi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/o3hNbLq.png",
+  "category": "Weapon",
+  "categorySlug": "tachis",
+  "family": "Limited Edition Tachis",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "90-125 (107.5)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.61"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "450"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Icy Cross Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

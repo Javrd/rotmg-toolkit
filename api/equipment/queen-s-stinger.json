@@ -1,0 +1,79 @@
+{
+  "slug": "queen-s-stinger",
+  "name": "Queen’s Stinger",
+  "wikiUrl": "https://www.realmeye.com/wiki/queen-s-stinger",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Bjlfsca.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Untiered Daggers",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "150-170 (160)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "10"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "105%"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "EH Dagger Shot"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "the-hive",
+  "name": "The Hive",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-hive",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/6WiS9zQ.png",
+  "category": "Realm Dungeons",
+  "difficulty": 2.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Queen Bee",
+          "wikiUrl": "https://www.realmeye.com/wiki/queen-bee",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/Fl2f18V.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

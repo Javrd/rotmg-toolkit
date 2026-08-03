@@ -1,0 +1,77 @@
+{
+  "slug": "edictum-praetoris",
+  "name": "Edictum Praetoris",
+  "wikiUrl": "https://www.realmeye.com/wiki/edictum-praetoris",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/slxDs9i.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Set Tiered Staves",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "55-125 (90)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "15"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.3"
+      },
+      {
+        "label": "Frequency",
+        "value": "1"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "75%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "(3°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.66"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Spirit Spiral, Super Spirit Spiral"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

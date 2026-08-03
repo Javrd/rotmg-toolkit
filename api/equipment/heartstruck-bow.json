@@ -1,0 +1,77 @@
+{
+  "slug": "heartstruck-bow",
+  "name": "Heartstruck Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/heartstruck-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/1XAf3L4.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Limited Edition Bows",
+  "tier": "ST",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "120-175 (147.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "140%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "12"
+      },
+      {
+        "label": "Wavy",
+        "value": "Wavy shots"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+5 SPD"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.2"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Love Arrow, Love Arrow Large"
+      }
+    ]
+  },
+  "effects": [
+    "Wavy"
+  ],
+  "effectDescriptions": {
+    "Wavy": "Wavy shots"
+  }
+}

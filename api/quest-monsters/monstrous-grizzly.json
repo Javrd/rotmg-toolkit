@@ -1,0 +1,30 @@
+{
+  "slug": "monstrous-grizzly",
+  "name": "Monstrous Grizzly",
+  "wikiUrl": "https://www.realmeye.com/wiki/monstrous-grizzly",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/wyGXoRa.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "scepter-of-fulmination",
+  "name": "Scepter of Fulmination",
+  "wikiUrl": "https://www.realmeye.com/wiki/scepter-of-fulmination",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/4S9VsG7.png",
+  "category": "Ability",
+  "categorySlug": "scepters",
+  "family": "Untiered Scepters",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Sorcerer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "70 MP"
+      }
+    ],
+    "Base damage": [
+      {
+        "label": "Base damage",
+        "value": "150"
+      },
+      {
+        "label": "Red Down Arrow",
+        "value": "Slowed on enemies for 3 seconds"
+      }
+    ],
+    "Damage per WIS&gt;50": [
+      {
+        "label": "Damage per WIS&gt;50",
+        "value": "6"
+      }
+    ],
+    "Reduction per target": [
+      {
+        "label": "Reduction per target",
+        "value": "30"
+      }
+    ],
+    "Base targets (WIS needed)": [
+      {
+        "label": "Base targets (WIS needed)",
+        "value": "5 (6)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+2 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+2 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ]
+  },
+  "effects": [
+    "Red Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Red Down Arrow": "Slowed on enemies for 3 seconds"
+  }
+}

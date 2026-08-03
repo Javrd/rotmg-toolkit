@@ -1,0 +1,86 @@
+{
+  "slug": "heartbreaker-wand",
+  "name": "Heartbreaker Wand",
+  "wikiUrl": "https://www.realmeye.com/wiki/heartbreaker-wand",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/IR4AkUK.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Limited Edition Wands",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "65-165 (115)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "24"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Boomerang",
+        "value": "Shots boomerang"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "150%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.2"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Incubus Hearts Small, Incubus Hearts Large"
+      }
+    ]
+  },
+  "effects": [
+    "Boomerang",
+    "Passes cover",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Passes cover": "Shots pass through obstacles",
+    "Boomerang": "Shots boomerang"
+  }
+}

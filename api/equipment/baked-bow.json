@@ -1,0 +1,83 @@
+{
+  "slug": "baked-bow",
+  "name": "Baked Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/baked-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Oej2CEf.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Untiered Bows",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "15-50 (32.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "120%"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "5"
+      },
+      {
+        "label": "Shots",
+        "value": "(20°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "9.6"
+      },
+      {
+        "label": "Range",
+        "value": "(0.48)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "777"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Butter My Biscuits"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

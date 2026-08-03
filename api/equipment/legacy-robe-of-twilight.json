@@ -1,0 +1,73 @@
+{
+  "slug": "legacy-robe-of-twilight",
+  "name": "Legacy Robe of Twilight",
+  "wikiUrl": "https://www.realmeye.com/wiki/legacy-robe-of-twilight",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/q9txEI0.png",
+  "category": "Armor",
+  "categorySlug": "robes",
+  "family": "Limited Edition Robes",
+  "tier": "ST",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Priest",
+    "Necromancer",
+    "Mystic",
+    "Sorcerer",
+    "Bard",
+    "Summoner"
+  ],
+  "stats": {
+    "DEF": 12,
+    "SPD": 3,
+    "DEX": 3,
+    "HP": 10,
+    "MP": 5
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+12"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+3"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+3"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+10"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

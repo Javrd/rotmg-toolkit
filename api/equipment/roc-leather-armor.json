@@ -1,0 +1,52 @@
+{
+  "slug": "roc-leather-armor",
+  "name": "Roc Leather Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/roc-leather-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/xQ3ZKcj.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Tiered Leather Armors",
+  "tier": "9",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 15,
+    "DEX": 4
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+15"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "3%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "116"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

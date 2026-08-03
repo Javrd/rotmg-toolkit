@@ -1,0 +1,78 @@
+{
+  "slug": "c-l-a-w",
+  "name": "C.L.A.W.",
+  "wikiUrl": "https://www.realmeye.com/wiki/c-l-a-w",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/QhCXx6o.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Set Tiered Wands",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "80-110 (175)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "18"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "(5°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "9"
+      },
+      {
+        "label": "Range",
+        "value": "(5.71)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Summoner ST Mini Projectile, Summoner ST 16x16 Projectile"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

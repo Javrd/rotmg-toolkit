@@ -1,0 +1,73 @@
+{
+  "slug": "executioner-s-garb",
+  "name": "Executioner’s Garb",
+  "wikiUrl": "https://www.realmeye.com/wiki/executioner-s-garb",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/uB5QQ6k.png",
+  "category": "Armor",
+  "categorySlug": "robes",
+  "family": "Limited Edition Robes",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Priest",
+    "Necromancer",
+    "Mystic",
+    "Sorcerer",
+    "Bard",
+    "Summoner"
+  ],
+  "stats": {
+    "ATT": 10,
+    "DEF": 13,
+    "DEX": -4,
+    "VIT": 4,
+    "MP": 35
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+10"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+13"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "-4"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+4"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+35"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

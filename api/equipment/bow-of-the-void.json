@@ -1,0 +1,77 @@
+{
+  "slug": "bow-of-the-void",
+  "name": "Bow of the Void",
+  "wikiUrl": "https://www.realmeye.com/wiki/bow-of-the-void",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/4l5NPeH.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Untiered Bows",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "180-255 (217.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "105%"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.2"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.2"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,200"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Void Arrow"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

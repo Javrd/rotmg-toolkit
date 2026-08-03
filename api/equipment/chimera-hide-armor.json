@@ -1,0 +1,46 @@
+{
+  "slug": "chimera-hide-armor",
+  "name": "Chimera Hide Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/chimera-hide-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/LU1C9X5.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Tiered Leather Armors",
+  "tier": "5",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 10,
+    "DEX": 2
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+10"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+2"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "29"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

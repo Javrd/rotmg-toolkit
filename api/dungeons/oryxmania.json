@@ -1,0 +1,18 @@
+{
+  "slug": "oryxmania",
+  "name": "Oryxmania",
+  "wikiUrl": "https://www.realmeye.com/wiki/oryxmania",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/A1U1bx8.png",
+  "category": "Special Event Dungeons",
+  "difficulty": null,
+  "hasData": false,
+  "error": "No 'Drops of Interest' section found",
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

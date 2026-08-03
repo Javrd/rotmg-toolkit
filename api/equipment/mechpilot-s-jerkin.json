@@ -1,0 +1,66 @@
+{
+  "slug": "mechpilot-s-jerkin",
+  "name": "Mechpilot’s Jerkin",
+  "wikiUrl": "https://www.realmeye.com/wiki/mechpilot-s-jerkin",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/xs2t5TG.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Set Tiered Leather Armors",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 7,
+    "SPD": 5,
+    "DEX": 4,
+    "HP": 80
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+7"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+5"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+4"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+80"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

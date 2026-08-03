@@ -1,0 +1,73 @@
+{
+  "slug": "blade-of-blooming",
+  "name": "Blade of Blooming",
+  "wikiUrl": "https://www.realmeye.com/wiki/blade-of-blooming",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Y1fppHp.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Untiered Katanas",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "2,000"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "10"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "10%"
+      },
+      {
+        "label": "Wavy",
+        "value": "Wavy shots"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.027"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "202"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Rosepoke Slash"
+      }
+    ]
+  },
+  "effects": [
+    "Wavy"
+  ],
+  "effectDescriptions": {
+    "Wavy": "Wavy shots"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "morning-star-of-mystic-light",
+  "name": "Morning Star of Mystic Light",
+  "wikiUrl": "https://www.realmeye.com/wiki/morning-star-of-mystic-light",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/4Easyfg.png",
+  "category": "Weapon",
+  "categorySlug": "morning-stars",
+  "family": "Tiered Morning Stars",
+  "tier": "7",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "70-100 (85)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "5"
+      }
+    ],
+    "Fire Rate": [
+      {
+        "label": "Fire Rate",
+        "value": "15%, 50%, 90%, 50%, 15%"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "1%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "53"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Red Morning Star"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

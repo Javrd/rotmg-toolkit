@@ -1,0 +1,97 @@
+{
+  "slug": "helm-of-draconic-dominance",
+  "name": "Helm of Draconic Dominance",
+  "wikiUrl": "https://www.realmeye.com/wiki/helm-of-draconic-dominance",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/8celSNb.png",
+  "category": "Ability",
+  "categorySlug": "helms",
+  "family": "Set Tiered Helms",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Warrior"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Range (@50 Wis)": [
+      {
+        "label": "Range (@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Berserk Duration(@50 Wis)": [
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "2s"
+      },
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "(4s)"
+      }
+    ],
+    "Speedy Duration(@50 Wis)": [
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Other Effects (@50 Wis)": [
+      {
+        "label": "HP↑",
+        "value": "HP Boost (+150 HP) for 6s"
+      },
+      {
+        "label": "Other Effects (@50 Wis)",
+        "value": "Shoots 3 fireballs:"
+      },
+      {
+        "label": "Damage",
+        "value": "500-650"
+      },
+      {
+        "label": "Range",
+        "value": "5.6 tiles"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+10 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [
+    "HP↑",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "HP↑": "HP Boost (+150 HP) for 6s",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

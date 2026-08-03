@@ -1,0 +1,46 @@
+{
+  "slug": "wand-of-ancient-warning",
+  "name": "Wand of Ancient Warning",
+  "wikiUrl": "https://www.realmeye.com/wiki/wand-of-ancient-warning",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/2idkCvn.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Tiered Wands",
+  "tier": "11",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "130-170 (150)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "233"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Green Magic"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

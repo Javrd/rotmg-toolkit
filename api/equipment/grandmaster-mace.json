@@ -1,0 +1,77 @@
+{
+  "slug": "grandmaster-mace",
+  "name": "Grandmaster Mace",
+  "wikiUrl": "https://www.realmeye.com/wiki/grandmaster-mace",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/GFHp9LX.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Tiered Maces",
+  "tier": "7",
+  "soulbound": true,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "Panther",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "275-305 (290)"
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "10s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+6 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "570"
+      }
+    ]
+  },
+  "effects": [
+    "Panther"
+  ],
+  "effectDescriptions": {}
+}

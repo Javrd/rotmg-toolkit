@@ -1,0 +1,55 @@
+{
+  "slug": "helium-trap",
+  "name": "Helium Trap",
+  "wikiUrl": "https://www.realmeye.com/wiki/helium-trap",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/jMsd4SS.png",
+  "category": "Ability",
+  "categorySlug": "traps",
+  "family": "Untiered Traps",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Huntress"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "95 MP"
+      }
+    ],
+    "Explosion Radius": [
+      {
+        "label": "Explosion Radius",
+        "value": "1"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "2000"
+      }
+    ],
+    "Effect(s)": [
+      {
+        "label": "Throw Time",
+        "value": "15s"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

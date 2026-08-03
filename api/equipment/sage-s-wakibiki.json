@@ -1,0 +1,57 @@
+{
+  "slug": "sage-s-wakibiki",
+  "name": "Sage’s Wakibiki",
+  "wikiUrl": "https://www.realmeye.com/wiki/sage-s-wakibiki",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/9HWUZWj.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Untiered Heavy Armors",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 20,
+    "VIT": 15,
+    "WIS": 15
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+20"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+15"
+      }
+    ],
+    "WIS": [
+      {
+        "label": "WIS",
+        "value": "+15"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

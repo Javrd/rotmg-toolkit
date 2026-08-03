@@ -1,0 +1,73 @@
+{
+  "slug": "etherite-dagger",
+  "name": "Etherite Dagger",
+  "wikiUrl": "https://www.realmeye.com/wiki/etherite-dagger",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ksib4rU.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Set Tiered Daggers",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "115-225 (170)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "16"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.2"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.2"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "110%"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "3.84"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Spooky Sparkle, Spooky Sparkle 9000"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

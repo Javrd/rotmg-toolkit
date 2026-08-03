@@ -1,0 +1,43 @@
+{
+  "slug": "heavy-protective-matrix",
+  "name": "Heavy Protective Matrix",
+  "wikiUrl": "https://www.realmeye.com/wiki/heavy-protective-matrix",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Y1ZmjfQ.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Untiered Heavy Armors",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 21
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+21"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

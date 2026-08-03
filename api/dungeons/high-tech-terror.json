@@ -1,0 +1,52 @@
+{
+  "slug": "high-tech-terror",
+  "name": "High Tech Terror",
+  "wikiUrl": "https://www.realmeye.com/wiki/high-tech-terror",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/8rAA2UQ.png",
+  "category": "Realm Dungeons",
+  "difficulty": 6.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "F.E.R.A.L.",
+          "wikiUrl": "https://www.realmeye.com/wiki/f-e-r-a-l",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/EG1ROM8.png"
+        }
+      },
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "F.E.R.A.L.",
+          "wikiUrl": "https://www.realmeye.com/wiki/f-e-r-a-l",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/EG1ROM8.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vA01btN.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "F.E.R.A.L.",
+          "wikiUrl": "https://www.realmeye.com/wiki/f-e-r-a-l",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/EG1ROM8.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

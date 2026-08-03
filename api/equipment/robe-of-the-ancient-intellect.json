@@ -1,0 +1,66 @@
+{
+  "slug": "robe-of-the-ancient-intellect",
+  "name": "Robe of the Ancient Intellect",
+  "wikiUrl": "https://www.realmeye.com/wiki/robe-of-the-ancient-intellect",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/FFK4t7E.png",
+  "category": "Armor",
+  "categorySlug": "robes",
+  "family": "Tiered Robes",
+  "tier": "14",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Priest",
+    "Necromancer",
+    "Mystic",
+    "Sorcerer",
+    "Bard",
+    "Summoner"
+  ],
+  "stats": {
+    "ATT": 6,
+    "DEF": 17,
+    "WIS": 8,
+    "MP": 75
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+6"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+17"
+      }
+    ],
+    "WIS": [
+      {
+        "label": "WIS",
+        "value": "+8"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+75"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

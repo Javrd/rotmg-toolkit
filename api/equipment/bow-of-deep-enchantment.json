@@ -1,0 +1,49 @@
+{
+  "slug": "bow-of-deep-enchantment",
+  "name": "Bow of Deep Enchantment",
+  "wikiUrl": "https://www.realmeye.com/wiki/bow-of-deep-enchantment",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/NAUfUpK.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Tiered Bows",
+  "tier": "14",
+  "soulbound": true,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "145-155 (150)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Side (2): 35-45 (40)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Deep Enchantment Large Arrow, Deep Enchantment Small Arrow"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

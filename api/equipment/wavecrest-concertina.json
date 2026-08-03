@@ -1,0 +1,67 @@
+{
+  "slug": "wavecrest-concertina",
+  "name": "Wavecrest Concertina",
+  "wikiUrl": "https://www.realmeye.com/wiki/wavecrest-concertina",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/zStUCio.png",
+  "category": "Ability",
+  "categorySlug": "lutes",
+  "family": "Untiered Lutes",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Effects": [
+      {
+        "label": "Party effect",
+        "value": "[Inspired Icon] Inspired for 4s"
+      },
+      {
+        "label": "Parrot Cannon",
+        "value": "Throws a fighting parrot at your target."
+      },
+      {
+        "label": "Fighting Parrot",
+        "value": "Deals 450 damage within 2 tiles every 1s (1800 max total)"
+      },
+      {
+        "label": "Feather Frenzy",
+        "value": "5% chance upon shooting for a fighting parrot to protect you for 3s."
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [
+    "Inspired Icon"
+  ],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "silex-s-hammer",
+  "name": "Silex’s Hammer",
+  "wikiUrl": "https://www.realmeye.com/wiki/silex-s-hammer",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/qobXQ4N.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Limited Edition Swords",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "5-70 (37.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "0.7"
+      },
+      {
+        "label": "Parametric",
+        "value": "Shots are parametric"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "33%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4*"
+      },
+      {
+        "label": "Range",
+        "value": "(0)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "0"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Banshot"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Parametric",
+    "Passes cover"
+  ],
+  "effectDescriptions": {
+    "Parametric": "Shots are parametric",
+    "Armor Piercing": "Ignores defense of target",
+    "Passes cover": "Shots pass through obstacles"
+  }
+}

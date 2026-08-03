@@ -1,0 +1,67 @@
+{
+  "slug": "bronze-helm",
+  "name": "Bronze Helm",
+  "wikiUrl": "https://www.realmeye.com/wiki/bronze-helm",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/jRRrMof.png",
+  "category": "Ability",
+  "categorySlug": "helms",
+  "family": "Tiered Helms",
+  "tier": "1",
+  "soulbound": false,
+  "classes": [
+    "Warrior"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "65 MP"
+      }
+    ],
+    "Range (@50 Wis)": [
+      {
+        "label": "Range (@50 Wis)",
+        "value": "4.5"
+      },
+      {
+        "label": "Range (@50 Wis)",
+        "value": "(6.5)"
+      }
+    ],
+    "Berserk Duration(@50 Wis)": [
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "3s"
+      },
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "(5s)"
+      }
+    ],
+    "Speedy Duration(@50 Wis)": [
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "2.5s"
+      },
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "(4.5s)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 DEF"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "8"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "laser-pointer",
+  "name": "Laser Pointer",
+  "wikiUrl": "https://www.realmeye.com/wiki/laser-pointer",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/UpZbVW1.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Untiered Wands",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "95-130 (112.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "22"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "150%"
+      },
+      {
+        "label": "Sub",
+        "value": "50-75 (62.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "10"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "50%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6,864"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Laser Pointer Main, Laser Pointer Sub"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

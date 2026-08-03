@@ -1,0 +1,78 @@
+{
+  "slug": "blood-coated-dirk",
+  "name": "Blood Coated Dirk",
+  "wikiUrl": "https://www.realmeye.com/wiki/blood-coated-dirk",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/K91s45p.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Limited Edition Daggers",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "60-140 (average: 100)"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "150%"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Fires an additional shot every 2 seconds that deals 200-300 damage and [Grey Down Arrow] Exposed for 1 second."
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+4 SPD"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "5.28"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "300"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Blood Dirk Shot"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Grey Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

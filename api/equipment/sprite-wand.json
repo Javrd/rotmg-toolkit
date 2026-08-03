@@ -1,0 +1,60 @@
+{
+  "slug": "sprite-wand",
+  "name": "Sprite Wand",
+  "wikiUrl": "https://www.realmeye.com/wiki/sprite-wand",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/MkhMJy0.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Untiered Wands",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "10-290 (150)"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.8"
+      },
+      {
+        "label": "Frequency",
+        "value": "1.5"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "9"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "150"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Colorful Sprite Bolt"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

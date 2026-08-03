@@ -1,0 +1,45 @@
+{
+  "slug": "fire-dagger",
+  "name": "Fire Dagger",
+  "wikiUrl": "https://www.realmeye.com/wiki/fire-dagger",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/2abWJF2.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Tiered Daggers",
+  "tier": "8",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "85-155 (120)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "2%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "75"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Red Fire"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "dusky-rose-dagger",
+  "name": "Dusky Rose Dagger",
+  "wikiUrl": "https://www.realmeye.com/wiki/dusky-rose-dagger",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/hift5qA.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Tiered Daggers",
+  "tier": "3",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "40-90 (65)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "11"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Blade"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "woodland-labyrinth",
+  "name": "Woodland Labyrinth",
+  "wikiUrl": "https://www.realmeye.com/wiki/woodland-labyrinth",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/jyKYlZg.gif",
+  "category": "Realm Dungeons",
+  "difficulty": 5.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Greater Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/sYB43YR.png",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Murderous Megamoth",
+          "wikiUrl": "https://www.realmeye.com/wiki/murderous-megamoth",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/NM0J5Kq.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/eIYqwEJ.png",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Murderous Megamoth",
+          "wikiUrl": "https://www.realmeye.com/wiki/murderous-megamoth",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/NM0J5Kq.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Murderous Megamoth",
+          "wikiUrl": "https://www.realmeye.com/wiki/murderous-megamoth",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/NM0J5Kq.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Greater Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/sYB43YR.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Swarm Tree",
+          "wikiUrl": "https://www.realmeye.com/wiki/swarm-tree",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hamgkxq.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/eIYqwEJ.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Swarm Tree",
+          "wikiUrl": "https://www.realmeye.com/wiki/swarm-tree",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hamgkxq.png"
+        }
+      }
+    ]
+  }
+}

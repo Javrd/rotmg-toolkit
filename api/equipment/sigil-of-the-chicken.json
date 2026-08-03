@@ -1,0 +1,77 @@
+{
+  "slug": "sigil-of-the-chicken",
+  "name": "Sigil of the Chicken",
+  "wikiUrl": "https://www.realmeye.com/wiki/sigil-of-the-chicken",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Kasaza0.png",
+  "category": "Ability",
+  "categorySlug": "sigils",
+  "family": "Tiered Sigils",
+  "tier": "0",
+  "soulbound": false,
+  "classes": [
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Form": [
+      {
+        "label": "Evolutionary Chicken",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "30 MP"
+      }
+    ],
+    "Base Damage": [
+      {
+        "label": "Base Damage",
+        "value": "120-180"
+      },
+      {
+        "label": "Base Damage",
+        "value": "(150)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "In-FormStat Bonus": [
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+10 ATT"
+      },
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+5 DEF"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "-33%"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "6s"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "4"
+      }
+    ]
+  },
+  "effects": [
+    "Evolutionary Chicken"
+  ],
+  "effectDescriptions": {}
+}

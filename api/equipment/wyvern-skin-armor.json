@@ -1,0 +1,46 @@
+{
+  "slug": "wyvern-skin-armor",
+  "name": "Wyvern Skin Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/wyvern-skin-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/PxHUdmX.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Tiered Leather Armors",
+  "tier": "6",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 12,
+    "DEX": 2
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+12"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+2"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "41"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

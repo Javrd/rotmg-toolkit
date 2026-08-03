@@ -1,0 +1,45 @@
+{
+  "slug": "saber",
+  "name": "Saber",
+  "wikiUrl": "https://www.realmeye.com/wiki/saber",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/SDzNxBA.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Tiered Swords",
+  "tier": "2",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "75-105 (90)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "8"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Blade"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

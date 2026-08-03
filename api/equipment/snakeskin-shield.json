@@ -1,0 +1,73 @@
+{
+  "slug": "snakeskin-shield",
+  "name": "Snakeskin Shield",
+  "wikiUrl": "https://www.realmeye.com/wiki/snakeskin-shield",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/8VEf4qa.png",
+  "category": "Ability",
+  "categorySlug": "shields",
+  "family": "Untiered Shields",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Knight"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Snake Shield"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "4"
+      }
+    ],
+    "Damage per Shot (Average Total)": [
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "250-300 (1100)"
+      },
+      {
+        "label": "Gold Five Pointed Star",
+        "value": "Stunned"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+7 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "3%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "150"
+      }
+    ]
+  },
+  "effects": [
+    "Gold Five Pointed Star"
+  ],
+  "effectDescriptions": {
+    "Gold Five Pointed Star": "Stunned"
+  }
+}

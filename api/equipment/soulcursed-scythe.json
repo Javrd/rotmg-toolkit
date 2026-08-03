@@ -1,0 +1,83 @@
+{
+  "slug": "soulcursed-scythe",
+  "name": "Soulcursed Scythe",
+  "wikiUrl": "https://www.realmeye.com/wiki/soulcursed-scythe",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/TVwqh46.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Set Tiered Daggers",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "345-460 (402.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "10"
+      },
+      {
+        "label": "Rate of fire",
+        "value": "40%"
+      },
+      {
+        "label": "When Invisble",
+        "value": "Shoot a powerful scythe"
+      },
+      {
+        "label": "Chain Damage",
+        "value": "50 ([Armor Piercing] Ignores defense of target)"
+      },
+      {
+        "label": "Blade Damage",
+        "value": "100-300 (200)"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "4"
+      },
+      {
+        "label": "Range(True Range)",
+        "value": "(5.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Scythe Dagger, Scythe Dagger Large"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing"
+  ],
+  "effectDescriptions": {}
+}

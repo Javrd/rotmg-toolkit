@@ -1,0 +1,77 @@
+{
+  "slug": "shaman-s-staff",
+  "name": "Shaman’s Staff",
+  "wikiUrl": "https://www.realmeye.com/wiki/shaman-s-staff",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZbS4u0i.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Set Tiered Staves",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Wisp",
+        "value": "155-180 (167.5)"
+      },
+      {
+        "label": "Bolt",
+        "value": "120-140 (130)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "6"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.25 / 1"
+      },
+      {
+        "label": "Frequency",
+        "value": "1 / 0.5"
+      },
+      {
+        "label": "Acceleration",
+        "value": "100 / 175"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8.04"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Shaman Wisp Small, Shaman Pierce, Shaman Fang, Shaman Wisp Large"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

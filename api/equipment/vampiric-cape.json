@@ -1,0 +1,68 @@
+{
+  "slug": "vampiric-cape",
+  "name": "Vampiric Cape",
+  "wikiUrl": "https://www.realmeye.com/wiki/vampiric-cape",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/oMfuCxt.png",
+  "category": "Ability",
+  "categorySlug": "cloaks",
+  "family": "Set Tiered Cloaks",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Rogue"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Invisibility Duration": [
+      {
+        "label": "Invisibility Duration",
+        "value": "5"
+      }
+    ],
+    "Other Effects": [
+      {
+        "label": "Red Cross",
+        "value": "Healing for 4 seconds"
+      },
+      {
+        "label": "With Soulcursed Scythe",
+        "value": "[DEX↑] DEX Boost (+10 DEX) on ability use for 4 seconds"
+      },
+      {
+        "label": "Other Effects",
+        "value": "With Ruthven’s Rosary: Spawns 3 bats summons that circle and deal 60-80 (70) Armor Piercing Damage every 0.4 seconds"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "DEX↑",
+    "Red Cross"
+  ],
+  "effectDescriptions": {
+    "Red Cross": "Healing for 4 seconds"
+  }
+}

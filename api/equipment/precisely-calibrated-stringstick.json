@@ -1,0 +1,81 @@
+{
+  "slug": "precisely-calibrated-stringstick",
+  "name": "Precisely Calibrated Stringstick",
+  "wikiUrl": "https://www.realmeye.com/wiki/precisely-calibrated-stringstick",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/MNh0jNO.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Limited Edition Bows",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "10-15 (12.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "25%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "2.5"
+      },
+      {
+        "label": "Amplitude",
+        "value": "2"
+      },
+      {
+        "label": "Frequency",
+        "value": "2"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "5"
+      },
+      {
+        "label": "Shots",
+        "value": "(15°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5"
+      },
+      {
+        "label": "Range",
+        "value": "(0.87)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "0"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Cat Cavalcade"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

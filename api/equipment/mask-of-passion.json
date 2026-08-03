@@ -1,0 +1,85 @@
+{
+  "slug": "mask-of-passion",
+  "name": "Mask of Passion",
+  "wikiUrl": "https://www.realmeye.com/wiki/mask-of-passion",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/TqtFiHd.png",
+  "category": "Ability",
+  "categorySlug": "skulls",
+  "family": "Limited Edition Skulls",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Necromancer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "150 MP"
+      }
+    ],
+    "Undead Base Damage": [
+      {
+        "label": "Undead Base Damage",
+        "value": "190-235"
+      },
+      {
+        "label": "Undead Base Damage",
+        "value": "170-215"
+      },
+      {
+        "label": "Undead Base Damage",
+        "value": "150-190"
+      },
+      {
+        "label": "Undead Base Damage",
+        "value": "130-190"
+      },
+      {
+        "label": "Undead Base Damage",
+        "value": "105-170"
+      },
+      {
+        "label": "Undead Base Damage",
+        "value": "85-150"
+      }
+    ],
+    "Undead Shots": [
+      {
+        "label": "Undead Shots",
+        "value": "6 bursts"
+      }
+    ],
+    "Life Steal": [
+      {
+        "label": "Life Steal",
+        "value": "2%"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+2 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 ATT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

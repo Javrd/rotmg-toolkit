@@ -1,0 +1,59 @@
+{
+  "slug": "robe-of-the-mad-scientist",
+  "name": "Robe of the Mad Scientist",
+  "wikiUrl": "https://www.realmeye.com/wiki/robe-of-the-mad-scientist",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/SwTLhZA.png",
+  "category": "Armor",
+  "categorySlug": "robes",
+  "family": "Untiered Robes",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Priest",
+    "Necromancer",
+    "Mystic",
+    "Sorcerer",
+    "Bard",
+    "Summoner"
+  ],
+  "stats": {
+    "DEF": 12,
+    "VIT": 5,
+    "WIS": 5
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+12"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+5"
+      }
+    ],
+    "WIS": [
+      {
+        "label": "WIS",
+        "value": "+5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

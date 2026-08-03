@@ -1,0 +1,59 @@
+{
+  "slug": "golem-garments",
+  "name": "Golem Garments",
+  "wikiUrl": "https://www.realmeye.com/wiki/golem-garments",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/f53gvJM.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Set Tiered Leather Armors",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "ATT": 8,
+    "DEF": 15,
+    "VIT": 7
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+8"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+15"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+7"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

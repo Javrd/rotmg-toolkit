@@ -1,0 +1,52 @@
+{
+  "slug": "griffon-hide-armor",
+  "name": "Griffon Hide Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/griffon-hide-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/5lKzW3e.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Tiered Leather Armors",
+  "tier": "11",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 17,
+    "DEX": 4
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+17"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "231"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

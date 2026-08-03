@@ -1,0 +1,71 @@
+{
+  "slug": "seal-of-the-initiate",
+  "name": "Seal of the Initiate",
+  "wikiUrl": "https://www.realmeye.com/wiki/seal-of-the-initiate",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/jYoZFvx.png",
+  "category": "Ability",
+  "categorySlug": "seals",
+  "family": "Tiered Seals",
+  "tier": "0",
+  "soulbound": false,
+  "classes": [
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "60 MP"
+      }
+    ],
+    "Range (@75 WIS)": [
+      {
+        "label": "Range (@75 WIS)",
+        "value": "4.5"
+      },
+      {
+        "label": "Range (@75 WIS)",
+        "value": "(7)"
+      }
+    ],
+    "HP Boost (@75 WIS)": [
+      {
+        "label": "HP Boost (@75 WIS)",
+        "value": "10"
+      },
+      {
+        "label": "HP Boost (@75 WIS)",
+        "value": "(60)"
+      }
+    ],
+    "Healing/Damaging Duration(@75 WIS)": [
+      {
+        "label": "Healing/Damaging Duration(@75 WIS)",
+        "value": "2.5"
+      },
+      {
+        "label": "Healing/Damaging Duration(@75 WIS)",
+        "value": "(5)"
+      }
+    ],
+    "HP Boost Duration (@75 WIS)": [
+      {
+        "label": "HP Boost Duration (@75 WIS)",
+        "value": "2.5"
+      },
+      {
+        "label": "HP Boost Duration (@75 WIS)",
+        "value": "(4.5)"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "4"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

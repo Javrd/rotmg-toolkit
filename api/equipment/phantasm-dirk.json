@@ -1,0 +1,69 @@
+{
+  "slug": "phantasm-dirk",
+  "name": "Phantasm Dirk",
+  "wikiUrl": "https://www.realmeye.com/wiki/phantasm-dirk",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/rVlbiyZ.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Limited Edition Daggers",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "150-290 (220)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "18"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "95%"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+6 WIS"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "4.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Phantasm Magic"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

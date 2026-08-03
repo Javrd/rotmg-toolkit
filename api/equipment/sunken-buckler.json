@@ -1,0 +1,97 @@
+{
+  "slug": "sunken-buckler",
+  "name": "Sunken Buckler",
+  "wikiUrl": "https://www.realmeye.com/wiki/sunken-buckler",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/3BojTMs.png",
+  "category": "Ability",
+  "categorySlug": "shields",
+  "family": "Set Tiered Shields",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Knight"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Nordic Bash"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "10"
+      },
+      {
+        "label": "Shots",
+        "value": "(20°)"
+      }
+    ],
+    "Damage per Shot (Average Total)": [
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "165-185 (1750)"
+      },
+      {
+        "label": "Gold Five Pointed Star",
+        "value": "Stunned"
+      },
+      {
+        "label": "Duration",
+        "value": "2.5s"
+      },
+      {
+        "label": "Range",
+        "value": "3.2"
+      },
+      {
+        "label": "Acceleration",
+        "value": "-800 tiles/second^2 after 0.19 seconds"
+      },
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "Max/Min Speed: 0"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+10 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+8 SPD"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "Gold Five Pointed Star"
+  ],
+  "effectDescriptions": {
+    "Gold Five Pointed Star": "Stunned"
+  }
+}

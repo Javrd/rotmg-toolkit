@@ -1,0 +1,83 @@
+{
+  "slug": "adamantine-helm",
+  "name": "Adamantine Helm",
+  "wikiUrl": "https://www.realmeye.com/wiki/adamantine-helm",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/C3ZF6hy.png",
+  "category": "Ability",
+  "categorySlug": "helms",
+  "family": "Untiered Helms",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "70 MP"
+      }
+    ],
+    "Range (@50 Wis)": [
+      {
+        "label": "Range (@50 Wis)",
+        "value": "5"
+      }
+    ],
+    "Berserk Duration(@50 Wis)": [
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "5s"
+      }
+    ],
+    "Speedy Duration(@50 Wis)": [
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Other Effects(@50 Wis)": [
+      {
+        "label": "On party",
+        "value": "[Red Sword] Berserk and [Red Cross] Healing within 5 tiles for 5s"
+      },
+      {
+        "label": "On self",
+        "value": "[VIT↑] VIT Boost (+20 VIT) for 5s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+10 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [
+    "Red Cross",
+    "Red Sword",
+    "VIT↑"
+  ],
+  "effectDescriptions": {}
+}

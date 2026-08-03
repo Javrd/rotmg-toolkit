@@ -1,0 +1,83 @@
+{
+  "slug": "longbow-of-spirits-and-shadows",
+  "name": "Longbow of Spirits and Shadows",
+  "wikiUrl": "https://www.realmeye.com/wiki/longbow-of-spirits-and-shadows",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/oj32ddc.png",
+  "category": "Weapon",
+  "categorySlug": "longbows",
+  "family": "Limited Edition Longbows",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "120-150 (135)"
+      },
+      {
+        "label": "Side",
+        "value": "55-65 (60)"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Main",
+        "value": "2"
+      },
+      {
+        "label": "Side",
+        "value": "2"
+      }
+    ],
+    "Fire Rate": [
+      {
+        "label": "Main",
+        "value": "92%"
+      },
+      {
+        "label": "Side",
+        "value": "96%"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.04"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,200"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Spirit Long Arrow, Jade Long Arrow"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

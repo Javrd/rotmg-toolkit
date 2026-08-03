@@ -1,0 +1,74 @@
+{
+  "slug": "wand-of-geb",
+  "name": "Wand of Geb",
+  "wikiUrl": "https://www.realmeye.com/wiki/wand-of-geb",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/uKYy07l.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Set Tiered Wands",
+  "tier": "ST",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "150-170 (160)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "14"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Releases a slowing nova on shoot"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Geb Shot, Great Geb Shot"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

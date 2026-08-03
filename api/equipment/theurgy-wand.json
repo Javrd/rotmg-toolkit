@@ -1,0 +1,96 @@
+{
+  "slug": "theurgy-wand",
+  "name": "Theurgy Wand",
+  "wikiUrl": "https://www.realmeye.com/wiki/theurgy-wand",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/IiDnLz1.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Set Tiered Wands",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "125-135 (130)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "20"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.1"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.1"
+      },
+      {
+        "label": "Wavy",
+        "value": "Wavy shots"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "75%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "(10°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.5"
+      },
+      {
+        "label": "Range",
+        "value": "(5.72)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,100"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Mad God Missile, Mega Mad God Missile"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing",
+    "Wavy"
+  ],
+  "effectDescriptions": {
+    "Wavy": "Wavy shots",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

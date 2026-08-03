@@ -1,0 +1,89 @@
+{
+  "slug": "torrential-staff",
+  "name": "Torrential Staff",
+  "wikiUrl": "https://www.realmeye.com/wiki/torrential-staff",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/GwByOIZ.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Untiered Staves",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "100-130 (115)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "12"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "60%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.2"
+      },
+      {
+        "label": "Range",
+        "value": "6.6"
+      },
+      {
+        "label": "Range",
+        "value": "6"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Spinning Bubble"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

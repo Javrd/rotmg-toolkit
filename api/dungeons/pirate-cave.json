@@ -1,0 +1,18 @@
+{
+  "slug": "pirate-cave",
+  "name": "Pirate Cave",
+  "wikiUrl": "https://www.realmeye.com/wiki/pirate-cave",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/OqzVQuc.png",
+  "category": "Realm Dungeons",
+  "difficulty": 1.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

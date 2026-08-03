@@ -1,0 +1,79 @@
+{
+  "slug": "lifedrinker-skull",
+  "name": "Lifedrinker Skull",
+  "wikiUrl": "https://www.realmeye.com/wiki/lifedrinker-skull",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/5RBuR5y.png",
+  "category": "Ability",
+  "categorySlug": "skulls",
+  "family": "Tiered Skulls",
+  "tier": "5",
+  "soulbound": false,
+  "classes": [
+    "Necromancer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "95 MP"
+      }
+    ],
+    "Radius": [
+      {
+        "label": "Radius",
+        "value": "3.75"
+      }
+    ],
+    "Base Damage": [
+      {
+        "label": "Base Damage",
+        "value": "270"
+      }
+    ],
+    "Heal": [
+      {
+        "label": "Heal",
+        "value": "105"
+      }
+    ],
+    "Undead Base Damage": [
+      {
+        "label": "Undead Base Damage",
+        "value": "250-275"
+      }
+    ],
+    "Undead Shots": [
+      {
+        "label": "Undead Shots",
+        "value": "1"
+      }
+    ],
+    "Life Steal": [
+      {
+        "label": "Life Steal",
+        "value": "6%"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+60 HP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "139"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

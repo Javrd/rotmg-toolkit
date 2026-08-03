@@ -1,0 +1,61 @@
+{
+  "slug": "aspirant-s-sword",
+  "name": "Aspirant’s Sword",
+  "wikiUrl": "https://www.realmeye.com/wiki/aspirant-s-sword",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/aGBsoK8.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Limited Edition Swords",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "210-255 (232.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "110%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "3.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "450"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Aspirant Sword Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

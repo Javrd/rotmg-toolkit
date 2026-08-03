@@ -1,0 +1,42 @@
+{
+  "slug": "undead-lair",
+  "name": "Undead Lair",
+  "wikiUrl": "https://www.realmeye.com/wiki/undead-lair",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/pR8Dgth.png",
+  "category": "Realm Dungeons",
+  "difficulty": 3.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Septavius the Ghost God",
+          "wikiUrl": "https://www.realmeye.com/wiki/septavius-the-ghost-god",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/jVn1HtU.png"
+        }
+      }
+    ],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Lair Spectral Skeleton",
+          "wikiUrl": "https://www.realmeye.com/wiki/lair-spectral-skeleton",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/pwKGlvO.png"
+        }
+      }
+    ],
+    "possible": []
+  }
+}

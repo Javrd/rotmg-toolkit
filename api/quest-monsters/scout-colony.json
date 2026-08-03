@@ -1,0 +1,30 @@
+{
+  "slug": "scout-colony",
+  "name": "Scout Colony",
+  "wikiUrl": "https://www.realmeye.com/wiki/scout-colony",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Kp2XYfV.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

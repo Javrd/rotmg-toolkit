@@ -1,0 +1,83 @@
+{
+  "slug": "doom-s-emblem",
+  "name": "Doom’s Emblem",
+  "wikiUrl": "https://www.realmeye.com/wiki/doom-s-emblem",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/pf0121W.png",
+  "category": "Ability",
+  "categorySlug": "seals",
+  "family": "Untiered Seals",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Range (@75 WIS)": [
+      {
+        "label": "Range (@75 WIS)",
+        "value": "6.5"
+      },
+      {
+        "label": "Range (@75 WIS)",
+        "value": "(5)"
+      }
+    ],
+    "HP Boost (@75 WIS)": [
+      {
+        "label": "HP Boost (@75 WIS)",
+        "value": "-"
+      }
+    ],
+    "Healing/Damaging Duration(@75 WIS)": [
+      {
+        "label": "Healing/Damaging Duration(@75 WIS)",
+        "value": "4"
+      },
+      {
+        "label": "Healing/Damaging Duration(@75 WIS)",
+        "value": "(6)"
+      }
+    ],
+    "HP Boost Duration (@75 WIS)": [
+      {
+        "label": "HP Boost Duration (@75 WIS)",
+        "value": "-"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "cloak-of-speed",
+  "name": "Cloak of Speed",
+  "wikiUrl": "https://www.realmeye.com/wiki/cloak-of-speed",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/7Zj6lxW.png",
+  "category": "Ability",
+  "categorySlug": "cloaks",
+  "family": "Tiered Cloaks",
+  "tier": "2",
+  "soulbound": false,
+  "classes": [
+    "Rogue"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "80 MP"
+      }
+    ],
+    "Invisibility Duration": [
+      {
+        "label": "Invisibility Duration",
+        "value": "5"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 SPD"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "15"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

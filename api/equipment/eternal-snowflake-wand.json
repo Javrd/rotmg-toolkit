@@ -1,0 +1,86 @@
+{
+  "slug": "eternal-snowflake-wand",
+  "name": "Eternal Snowflake Wand",
+  "wikiUrl": "https://www.realmeye.com/wiki/eternal-snowflake-wand",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/lB8q9r3.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Limited Edition Wands",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "500-600 (550)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "0.3"
+      },
+      {
+        "label": "Parametric",
+        "value": "Shots are parametric"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "33%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "3"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Eternal Snowflake Shot"
+      }
+    ]
+  },
+  "effects": [
+    "Parametric",
+    "Passes cover",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Parametric": "Shots are parametric",
+    "Passes cover": "Shots pass through obstacles",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

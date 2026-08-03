@@ -1,0 +1,65 @@
+{
+  "slug": "mountain-temple",
+  "name": "Mountain Temple",
+  "wikiUrl": "https://www.realmeye.com/wiki/mountain-temple",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/fGgckZI.png",
+  "category": "Realm Dungeons",
+  "difficulty": 6.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/rY8JQSL.gif",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Daichi the Fallen",
+          "wikiUrl": "https://www.realmeye.com/wiki/daichi-the-fallen",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/TIektVi.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/moIO1Ib.png",
+        "guaranteedLabel": "G - 1",
+        "source": {
+          "name": "Daichi the Fallen",
+          "wikiUrl": "https://www.realmeye.com/wiki/daichi-the-fallen",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/TIektVi.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Daichi the Fallen",
+          "wikiUrl": "https://www.realmeye.com/wiki/daichi-the-fallen",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/TIektVi.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/rY8JQSL.gif",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Old Chest",
+          "wikiUrl": "https://www.realmeye.com/wiki/old-chest",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/EPSEx2S.png"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "chess",
+  "name": "Chess",
+  "wikiUrl": "https://www.realmeye.com/wiki/chess",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/RrCGUuG.png",
+  "category": "Other Dungeons",
+  "difficulty": null,
+  "hasData": false,
+  "error": "No 'Drops of Interest' section found",
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

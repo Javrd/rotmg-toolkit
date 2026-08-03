@@ -1,0 +1,67 @@
+{
+  "slug": "scepter-of-skybolts",
+  "name": "Scepter of Skybolts",
+  "wikiUrl": "https://www.realmeye.com/wiki/scepter-of-skybolts",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/gslGqoL.png",
+  "category": "Ability",
+  "categorySlug": "scepters",
+  "family": "Tiered Scepters",
+  "tier": "5",
+  "soulbound": false,
+  "classes": [
+    "Sorcerer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "80 MP"
+      }
+    ],
+    "Base damage": [
+      {
+        "label": "Base damage",
+        "value": "280"
+      }
+    ],
+    "Damage per WIS&gt;50": [
+      {
+        "label": "Damage per WIS&gt;50",
+        "value": "7"
+      }
+    ],
+    "Reduction per target": [
+      {
+        "label": "Reduction per target",
+        "value": "35"
+      }
+    ],
+    "Base targets (WIS needed)": [
+      {
+        "label": "Base targets (WIS needed)",
+        "value": "5 (10)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+2 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "139"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

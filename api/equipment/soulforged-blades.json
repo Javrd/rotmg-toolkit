@@ -1,0 +1,49 @@
+{
+  "slug": "soulforged-blades",
+  "name": "Soulforged Blades",
+  "wikiUrl": "https://www.realmeye.com/wiki/soulforged-blades",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/dlPdeYG.png",
+  "category": "Weapon",
+  "categorySlug": "dual-blades",
+  "family": "Tiered Dual Blades",
+  "tier": "14",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 1: 105-140 (122.5)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 2: 80-110 (95)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Large Dark Blue Blade, Small Dark Blue Blade"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

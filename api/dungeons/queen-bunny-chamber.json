@@ -1,0 +1,18 @@
+{
+  "slug": "queen-bunny-chamber",
+  "name": "Queen Bunny Chamber",
+  "wikiUrl": "https://www.realmeye.com/wiki/queen-bunny-chamber",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/li7XrWv.png",
+  "category": "Special Event Dungeons",
+  "difficulty": 5.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

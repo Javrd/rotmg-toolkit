@@ -1,0 +1,57 @@
+{
+  "slug": "shining-blade",
+  "name": "Shining Blade",
+  "wikiUrl": "https://www.realmeye.com/wiki/shining-blade",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/uMcdwnx.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Limited Edition Katanas",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "160-210 (185)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.74"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "SB Hero Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

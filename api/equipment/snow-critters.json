@@ -1,0 +1,89 @@
+{
+  "slug": "snow-critters",
+  "name": "Snow Critters",
+  "wikiUrl": "https://www.realmeye.com/wiki/snow-critters",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/LwTLcou.png",
+  "category": "Ability",
+  "categorySlug": "quivers",
+  "family": "Limited Edition Quivers",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Archer"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Gun Critter, Flail Snowflake, Heavy Critter"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "150 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Gun Critter",
+        "value": "195-295"
+      },
+      {
+        "label": "Flail Snowflake",
+        "value": "285-335 (Head) 225-295 (Chain)"
+      },
+      {
+        "label": "Heavy Critter",
+        "value": "300-350"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Effect",
+        "value": "Gun Critter:"
+      },
+      {
+        "label": "Effect",
+        "value": "Rapidly fires towards enemies."
+      },
+      {
+        "label": "Effect",
+        "value": "Flail Snowflake:"
+      },
+      {
+        "label": "Effect",
+        "value": "Creates 4 spinning flails around the spawn point."
+      },
+      {
+        "label": "Effect",
+        "value": "Heavy Critter:"
+      },
+      {
+        "label": "Effect",
+        "value": "Fires 3 larger, heavier bullets in a cone."
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

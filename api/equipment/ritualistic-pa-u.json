@@ -1,0 +1,59 @@
+{
+  "slug": "ritualistic-pa-u",
+  "name": "Ritualistic Pa’u",
+  "wikiUrl": "https://www.realmeye.com/wiki/ritualistic-pa-u",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/x1OwexK.png",
+  "category": "Armor",
+  "categorySlug": "robes",
+  "family": "Set Tiered Robes",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Priest",
+    "Necromancer",
+    "Mystic",
+    "Sorcerer",
+    "Bard",
+    "Summoner"
+  ],
+  "stats": {
+    "DEF": 5,
+    "DEX": 5,
+    "VIT": 10
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+5"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+5"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+10"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "blue-beehemoth",
+  "name": "Blue Beehemoth",
+  "wikiUrl": "https://www.realmeye.com/wiki/blue-beehemoth",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/xjtUNpV.png",
+  "group": "encounter",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

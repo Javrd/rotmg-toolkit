@@ -1,0 +1,61 @@
+{
+  "slug": "hovering-spellblade",
+  "name": "Hovering Spellblade",
+  "wikiUrl": "https://www.realmeye.com/wiki/hovering-spellblade",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/O1gC8mh.png",
+  "category": "Weapon",
+  "categorySlug": "spellblades",
+  "family": "Limited Edition Spellblades",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Tip",
+        "value": "100-110 (105)"
+      },
+      {
+        "label": "Bullet",
+        "value": "65-90 (77.5)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.91"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "450"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Hovering Spellblade Tip, Hovering Spellblade Bullet"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "mad-lab",
+  "name": "Mad Lab",
+  "wikiUrl": "https://www.realmeye.com/wiki/mad-lab",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/x6dyxMp.gif",
+  "category": "Realm Dungeons",
+  "difficulty": 4.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Dr Terrible",
+          "wikiUrl": "https://www.realmeye.com/wiki/dr-terrible",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/MzQnGEi.png"
+        }
+      },
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Horrific Creation",
+          "wikiUrl": "https://www.realmeye.com/wiki/horrific-creation",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/730It6z.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Horrific Creation",
+          "wikiUrl": "https://www.realmeye.com/wiki/horrific-creation",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/730It6z.png"
+        }
+      },
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Dr Terrible",
+          "wikiUrl": "https://www.realmeye.com/wiki/dr-terrible",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/MzQnGEi.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

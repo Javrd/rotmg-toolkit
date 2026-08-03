@@ -1,0 +1,83 @@
+{
+  "slug": "virtuous-wakizashi",
+  "name": "Virtuous Wakizashi",
+  "wikiUrl": "https://www.realmeye.com/wiki/virtuous-wakizashi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/v6lWa9t.png",
+  "category": "Ability",
+  "categorySlug": "wakizashi",
+  "family": "Tiered Wakizashi",
+  "tier": "7",
+  "soulbound": true,
+  "classes": [
+    "Samurai"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Wakizashi Slash 7"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "85"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      }
+    ],
+    "Damage(Average Total)": [
+      {
+        "label": "Damage(Average Total)",
+        "value": "550-650"
+      },
+      {
+        "label": "Damage(Average Total)",
+        "value": "(1800)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Grey Down Arrow",
+        "value": "Exposed for 4s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+7 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "570"
+      }
+    ]
+  },
+  "effects": [
+    "Grey Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Grey Down Arrow": "Exposed for 4s"
+  }
+}

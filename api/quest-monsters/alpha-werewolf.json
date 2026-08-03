@@ -1,0 +1,30 @@
+{
+  "slug": "alpha-werewolf",
+  "name": "Alpha Werewolf",
+  "wikiUrl": "https://www.realmeye.com/wiki/alpha-werewolf",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/TtVRdm8.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

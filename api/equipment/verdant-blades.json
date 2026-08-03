@@ -1,0 +1,49 @@
+{
+  "slug": "verdant-blades",
+  "name": "Verdant Blades",
+  "wikiUrl": "https://www.realmeye.com/wiki/verdant-blades",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/35hhyaE.png",
+  "category": "Weapon",
+  "categorySlug": "dual-blades",
+  "family": "Tiered Dual Blades",
+  "tier": "10",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 1: 75-105 (90)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 2: 55-85 (70)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "159"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Large Green Blade, Small Green Blade"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

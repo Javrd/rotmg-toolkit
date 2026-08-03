@@ -1,0 +1,45 @@
+{
+  "slug": "emerald-longbow",
+  "name": "Emerald Longbow",
+  "wikiUrl": "https://www.realmeye.com/wiki/emerald-longbow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/qoPfCxL.png",
+  "category": "Weapon",
+  "categorySlug": "longbows",
+  "family": "Tiered Longbows",
+  "tier": "9",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "85-90 (87.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "3%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "109"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Green Long Arrow"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "critter-brood",
+  "name": "Critter Brood",
+  "wikiUrl": "https://www.realmeye.com/wiki/critter-brood",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/YOcTahC.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

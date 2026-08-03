@@ -1,0 +1,78 @@
+{
+  "slug": "caduceus-of-enlightened-chaos",
+  "name": "Caduceus Of Enlightened Chaos",
+  "wikiUrl": "https://www.realmeye.com/wiki/caduceus-of-enlightened-chaos",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/UdSqW1n.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Untiered Wands",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "100-125 (112.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "17"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "80%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "(90°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "35"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Lazy Coasting Missile"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

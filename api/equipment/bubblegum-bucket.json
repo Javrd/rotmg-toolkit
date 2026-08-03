@@ -1,0 +1,79 @@
+{
+  "slug": "bubblegum-bucket",
+  "name": "Bubblegum Bucket",
+  "wikiUrl": "https://www.realmeye.com/wiki/bubblegum-bucket",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/vRwsuLU.png",
+  "category": "Ability",
+  "categorySlug": "helms",
+  "family": "Untiered Helms",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "85 MP"
+      }
+    ],
+    "Range (@50 Wis)": [
+      {
+        "label": "Range (@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Berserk Duration(@50 Wis)": [
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Speedy Duration(@50 Wis)": [
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "12s"
+      }
+    ],
+    "Other Effects(@50 Wis)": [
+      {
+        "label": "Red Cross",
+        "value": "Healing for 4s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+10 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+10 SPD"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+10 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ]
+  },
+  "effects": [
+    "Red Cross"
+  ],
+  "effectDescriptions": {
+    "Red Cross": "Healing for 4s"
+  }
+}

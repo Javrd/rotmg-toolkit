@@ -1,0 +1,45 @@
+{
+  "slug": "dragonsoul-sword",
+  "name": "Dragonsoul Sword",
+  "wikiUrl": "https://www.realmeye.com/wiki/dragonsoul-sword",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/napKeCf.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Tiered Swords",
+  "tier": "9",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "195-255 (225)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "3%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "109"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "White Bolt"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

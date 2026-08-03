@@ -1,0 +1,93 @@
+{
+  "slug": "sharktooth-sigil",
+  "name": "Sharktooth Sigil",
+  "wikiUrl": "https://www.realmeye.com/wiki/sharktooth-sigil",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/YMsWLEH.png",
+  "category": "Ability",
+  "categorySlug": "sigils",
+  "family": "Untiered Sigils",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Form": [
+      {
+        "label": "Evolutionary Shark",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Base Damage": [
+      {
+        "label": "Base Damage",
+        "value": "380-450"
+      },
+      {
+        "label": "Base Damage",
+        "value": "(415)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 SPD"
+      }
+    ],
+    "In-FormStat Bonus": [
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+25 SPD"
+      },
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+25 DEX"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "-25%"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "7s"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [
+    "Evolutionary Shark"
+  ],
+  "effectDescriptions": {}
+}

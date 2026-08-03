@@ -1,0 +1,61 @@
+{
+  "slug": "screwdriver-staff",
+  "name": "Screwdriver Staff",
+  "wikiUrl": "https://www.realmeye.com/wiki/screwdriver-staff",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/cDNotYr.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Limited Edition Staves",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "70-120 (95)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+2 VIT"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8.55"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "450"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Screwdriver Projectile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

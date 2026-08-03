@@ -1,0 +1,77 @@
+{
+  "slug": "transdimensional-bow",
+  "name": "Transdimensional Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/transdimensional-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/dKHj98w.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Limited Edition Bows",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "135-145 (140)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Side (2): 35-45 (40)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "(7°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.04"
+      },
+      {
+        "label": "Range",
+        "value": "(4.07)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "MotMG 2024 Bow Main, MotMG 2024 Bow Side"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "tome-of-divine-favor",
+  "name": "Tome of Divine Favor",
+  "wikiUrl": "https://www.realmeye.com/wiki/tome-of-divine-favor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/i9077AE.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Tiered Tomes",
+  "tier": "5",
+  "soulbound": false,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "170 MP"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7"
+      }
+    ],
+    "Heal Amount": [
+      {
+        "label": "Heal Amount",
+        "value": "130 HP"
+      }
+    ],
+    "Healing Amount": [
+      {
+        "label": "Healing Amount",
+        "value": "65/s"
+      }
+    ],
+    "Healing Duration": [
+      {
+        "label": "Healing Duration",
+        "value": "4.4"
+      }
+    ],
+    "Nova Damage": [
+      {
+        "label": "Nova Damage",
+        "value": "560"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "139"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

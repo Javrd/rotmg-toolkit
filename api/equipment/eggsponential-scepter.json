@@ -1,0 +1,75 @@
+{
+  "slug": "eggsponential-scepter",
+  "name": "Eggsponential Scepter",
+  "wikiUrl": "https://www.realmeye.com/wiki/eggsponential-scepter",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ObnnJzB.png",
+  "category": "Ability",
+  "categorySlug": "scepters",
+  "family": "Limited Edition Scepters",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Sorcerer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Base damage": [
+      {
+        "label": "Base damage",
+        "value": "120"
+      }
+    ],
+    "Damage per WIS&gt;50": [
+      {
+        "label": "Damage per WIS&gt;50",
+        "value": "10"
+      }
+    ],
+    "Reduction per target": [
+      {
+        "label": "Reduction per target",
+        "value": "Damage increases by 150 per target"
+      }
+    ],
+    "Base targets (WIS needed)": [
+      {
+        "label": "Base targets (WIS needed)",
+        "value": "4 (5)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+2 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+2 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+2 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

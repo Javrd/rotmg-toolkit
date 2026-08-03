@@ -1,0 +1,45 @@
+{
+  "slug": "neo-fitted-protective-matrix",
+  "name": "Neo Fitted Protective Matrix",
+  "wikiUrl": "https://www.realmeye.com/wiki/neo-fitted-protective-matrix",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/YpQpXMr.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Untiered Leather Armors",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 20
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+20"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "blue-beehemoth-armor",
+  "name": "Blue Beehemoth Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/blue-beehemoth-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/cV2muQj.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Untiered Leather Armors",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 18,
+    "SPD": 5,
+    "WIS": 5
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+18"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+5"
+      }
+    ],
+    "WIS": [
+      {
+        "label": "WIS",
+        "value": "+5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

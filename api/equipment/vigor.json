@@ -1,0 +1,89 @@
+{
+  "slug": "vigor",
+  "name": "Vigor",
+  "wikiUrl": "https://www.realmeye.com/wiki/vigor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/DRmL5tS.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Untiered Staves",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "80-100 (90)"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.2"
+      },
+      {
+        "label": "Frequency",
+        "value": "1.5"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "105%"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "80-100 (90)"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.5"
+      },
+      {
+        "label": "Frequency",
+        "value": "1.5"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "105%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,200"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "MV Lightning Spear"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "puppet-master-s-theatre",
+  "name": "Puppet Master’s Theatre",
+  "wikiUrl": "https://www.realmeye.com/wiki/puppet-master-s-theatre",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/6diBou4.png",
+  "category": "Realm Dungeons",
+  "difficulty": 4.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "The Puppet Master",
+          "wikiUrl": "https://www.realmeye.com/wiki/the-puppet-master",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/W2H2KLt.png"
+        }
+      }
+    ],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Oryx Puppet",
+          "wikiUrl": "https://www.realmeye.com/wiki/oryx-puppet",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/7vfzZQp.png"
+        }
+      }
+    ],
+    "possible": []
+  }
+}

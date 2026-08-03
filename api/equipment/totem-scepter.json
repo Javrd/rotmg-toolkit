@@ -1,0 +1,55 @@
+{
+  "slug": "totem-scepter",
+  "name": "Totem Scepter",
+  "wikiUrl": "https://www.realmeye.com/wiki/totem-scepter",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/61QpMPk.png",
+  "category": "Ability",
+  "categorySlug": "scepters",
+  "family": "Set Tiered Scepters",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Sorcerer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "120 MP"
+      }
+    ],
+    "Base damage": [
+      {
+        "label": "Base damage",
+        "value": "80-160"
+      }
+    ],
+    "Damage per WIS&gt;50": [
+      {
+        "label": "Damage per WIS&gt;50",
+        "value": "-"
+      }
+    ],
+    "Reduction per target": [
+      {
+        "label": "Reduction per target",
+        "value": "-"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

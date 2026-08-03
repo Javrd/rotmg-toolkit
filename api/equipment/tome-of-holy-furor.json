@@ -1,0 +1,47 @@
+{
+  "slug": "tome-of-holy-furor",
+  "name": "Tome of Holy Furor",
+  "wikiUrl": "https://www.realmeye.com/wiki/tome-of-holy-furor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Qnu3uUJ.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Untiered Tomes",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "150 MP"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+60 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+6 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

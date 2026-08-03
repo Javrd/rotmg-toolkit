@@ -1,0 +1,85 @@
+{
+  "slug": "the-shatters",
+  "name": "The Shatters",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-shatters",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/yA4tlry.png",
+  "category": "Realm Event Dungeons",
+  "difficulty": 10.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Greater Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/eIYqwEJ.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "The Bridge Sentinel",
+          "wikiUrl": "https://www.realmeye.com/wiki/the-bridge-sentinel",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/vatlKfa.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/5UnuTXg.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "The Bridge Sentinel",
+          "wikiUrl": "https://www.realmeye.com/wiki/the-bridge-sentinel",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/vatlKfa.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6DGZ5qi.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Twilight Archmage",
+          "wikiUrl": "https://www.realmeye.com/wiki/twilight-archmage",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/bnKFZjt.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vA01btN.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Twilight Archmage",
+          "wikiUrl": "https://www.realmeye.com/wiki/twilight-archmage",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/bnKFZjt.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/lWNsTd9.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "The Forgotten King",
+          "wikiUrl": "https://www.realmeye.com/wiki/the-forgotten-king",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/qL3BVpR.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/sYB43YR.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "The Forgotten King",
+          "wikiUrl": "https://www.realmeye.com/wiki/the-forgotten-king",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/qL3BVpR.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "washed-up-captain",
+  "name": "Washed-Up Captain",
+  "wikiUrl": "https://www.realmeye.com/wiki/washed-up-captain",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/NfU1Jhh.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

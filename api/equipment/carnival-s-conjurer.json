@@ -1,0 +1,74 @@
+{
+  "slug": "carnival-s-conjurer",
+  "name": "Carnival’s Conjurer",
+  "wikiUrl": "https://www.realmeye.com/wiki/carnival-s-conjurer",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/jwyGdOP.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Limited Edition Wands",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "160-180 (170)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "18"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+5 VIT"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "9"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Carnival's Conjurer Shot"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

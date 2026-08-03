@@ -1,0 +1,73 @@
+{
+  "slug": "avarice",
+  "name": "Avarice",
+  "wikiUrl": "https://www.realmeye.com/wiki/avarice",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/vHD1WOk.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Untiered Daggers",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "190-215 (202.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "13.3"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.55"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.5"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "105%"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "5.985"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,200"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Avarice Projectile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

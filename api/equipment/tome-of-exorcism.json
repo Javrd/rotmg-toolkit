@@ -1,0 +1,71 @@
+{
+  "slug": "tome-of-exorcism",
+  "name": "Tome of Exorcism",
+  "wikiUrl": "https://www.realmeye.com/wiki/tome-of-exorcism",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/yaQgElY.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Limited Edition Tomes",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "130 MP"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.8"
+      }
+    ],
+    "Heal Amount": [
+      {
+        "label": "Heal Amount",
+        "value": "120 HP"
+      }
+    ],
+    "Healing Amount": [
+      {
+        "label": "Healing Amount",
+        "value": "60/s"
+      }
+    ],
+    "Healing Duration": [
+      {
+        "label": "Healing Duration",
+        "value": "4.4"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "-5 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,200"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

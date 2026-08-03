@@ -1,0 +1,45 @@
+{
+  "slug": "rusty-katana",
+  "name": "Rusty Katana",
+  "wikiUrl": "https://www.realmeye.com/wiki/rusty-katana",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/jJtHvTZ.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Tiered Katanas",
+  "tier": "0",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "35-80 (57.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "4"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Katana Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "legacy-sentient-staff",
+  "name": "Legacy Sentient Staff",
+  "wikiUrl": "https://www.realmeye.com/wiki/legacy-sentient-staff",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/iveqFIc.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Limited Edition Staves",
+  "tier": "ST",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "60-130 (95)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "15"
+      },
+      {
+        "label": "Amplitude",
+        "value": "1.1"
+      },
+      {
+        "label": "Frequency",
+        "value": "1"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+10 HP, +5 MP, +10 WIS"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8.295"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Ancient Magic, Morer Ancienter Magic"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

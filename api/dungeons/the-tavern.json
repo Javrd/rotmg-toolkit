@@ -1,0 +1,52 @@
+{
+  "slug": "the-tavern",
+  "name": "The Tavern",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-tavern",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/DwtjA17.png",
+  "category": "Realm Dungeons",
+  "difficulty": 5.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Greater Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/sYB43YR.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Bradley the Barkeep",
+          "wikiUrl": "https://www.realmeye.com/wiki/bradley-the-barkeep",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/PTieK96.png"
+        }
+      },
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Bradley the Barkeep",
+          "wikiUrl": "https://www.realmeye.com/wiki/bradley-the-barkeep",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/PTieK96.png"
+        }
+      },
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Bradley the Barkeep",
+          "wikiUrl": "https://www.realmeye.com/wiki/bradley-the-barkeep",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/PTieK96.png"
+        }
+      }
+    ],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

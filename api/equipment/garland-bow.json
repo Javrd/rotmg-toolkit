@@ -1,0 +1,101 @@
+{
+  "slug": "garland-bow",
+  "name": "Garland Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/garland-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/0GrIr2c.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Limited Edition Bows",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "100-200 (150)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "6"
+      },
+      {
+        "label": "Acceleration",
+        "value": "4"
+      },
+      {
+        "label": "Speed Clamp",
+        "value": "20"
+      },
+      {
+        "label": "Burst Count",
+        "value": "3"
+      },
+      {
+        "label": "Burst Delay",
+        "value": "1.6s"
+      },
+      {
+        "label": "Minimum Burst Delay",
+        "value": "0.8s"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "85%"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "(7°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.08"
+      },
+      {
+        "label": "Range",
+        "value": "(4.07)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Oryxmas Bow Projectile"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

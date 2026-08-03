@@ -1,0 +1,65 @@
+{
+  "slug": "savage-trap",
+  "name": "Savage Trap",
+  "wikiUrl": "https://www.realmeye.com/wiki/savage-trap",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/IUNXEoQ.png",
+  "category": "Ability",
+  "categorySlug": "traps",
+  "family": "Tiered Traps",
+  "tier": "3",
+  "soulbound": false,
+  "classes": [
+    "Huntress"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "75 MP"
+      }
+    ],
+    "Explosion Radius": [
+      {
+        "label": "Explosion Radius",
+        "value": "5"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "320"
+      }
+    ],
+    "Effect(s)": [
+      {
+        "label": "Red Down Arrow",
+        "value": "Slowed for 4.5s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+2 ATT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "1%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "34"
+      }
+    ]
+  },
+  "effects": [
+    "Red Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Red Down Arrow": "Slowed for 4.5s"
+  }
+}

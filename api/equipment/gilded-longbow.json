@@ -1,0 +1,45 @@
+{
+  "slug": "gilded-longbow",
+  "name": "Gilded Longbow",
+  "wikiUrl": "https://www.realmeye.com/wiki/gilded-longbow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/5CV4DYw.png",
+  "category": "Weapon",
+  "categorySlug": "longbows",
+  "family": "Tiered Longbows",
+  "tier": "8",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "75-80 (77.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "2%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "75"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Gold Long Arrow"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

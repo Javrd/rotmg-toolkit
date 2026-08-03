@@ -1,0 +1,59 @@
+{
+  "slug": "eggshell-carapace",
+  "name": "Eggshell Carapace",
+  "wikiUrl": "https://www.realmeye.com/wiki/eggshell-carapace",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/xaU6fkO.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Limited Edition Leather Armors",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 20,
+    "DEX": 6,
+    "HP": 30
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+20"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+6"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+30"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "435"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

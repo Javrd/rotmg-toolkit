@@ -1,0 +1,120 @@
+{
+  "slug": "deadwater-docks",
+  "name": "Deadwater Docks",
+  "wikiUrl": "https://www.realmeye.com/wiki/deadwater-docks",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/baXW11C.png",
+  "category": "Realm Dungeons",
+  "difficulty": 5.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Greater Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com//imgur.com//J45lx5m.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Jon Bilgewater the Pirate King",
+          "wikiUrl": "https://www.realmeye.com/wiki/jon-bilgewater-the-pirate-king",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/p4ewy13.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/HayeBu9.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Jon Bilgewater the Pirate King",
+          "wikiUrl": "https://www.realmeye.com/wiki/jon-bilgewater-the-pirate-king",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/p4ewy13.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Greater Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com//imgur.com//J45lx5m.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Calamity Crab",
+          "wikiUrl": "https://www.realmeye.com/wiki/calamity-crab",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/j0hEpAj.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/HayeBu9.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Calamity Crab",
+          "wikiUrl": "https://www.realmeye.com/wiki/calamity-crab",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/j0hEpAj.png"
+        }
+      },
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Jon Bilgewater the Pirate King",
+          "wikiUrl": "https://www.realmeye.com/wiki/jon-bilgewater-the-pirate-king",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/p4ewy13.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Greater Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com//imgur.com//J45lx5m.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Bilgewater's Booty",
+          "wikiUrl": "https://www.realmeye.com/wiki/bilgewater-s-booty",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/bKwkXNL.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/HayeBu9.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Bilgewater's Booty",
+          "wikiUrl": "https://www.realmeye.com/wiki/bilgewater-s-booty",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/bKwkXNL.png"
+        }
+      },
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Bilgewater's Booty",
+          "wikiUrl": "https://www.realmeye.com/wiki/bilgewater-s-booty",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/bKwkXNL.png"
+        }
+      },
+      {
+        "name": "Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Bilgewater's Booty",
+          "wikiUrl": "https://www.realmeye.com/wiki/bilgewater-s-booty",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/bKwkXNL.png"
+        }
+      }
+    ]
+  }
+}

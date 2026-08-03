@@ -1,0 +1,37 @@
+{
+  "slug": "cloak-of-shadows",
+  "name": "Cloak of Shadows",
+  "wikiUrl": "https://www.realmeye.com/wiki/cloak-of-shadows",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/EZZo2nl.png",
+  "category": "Ability",
+  "categorySlug": "cloaks",
+  "family": "Tiered Cloaks",
+  "tier": "0",
+  "soulbound": false,
+  "classes": [
+    "Rogue"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "70 MP"
+      }
+    ],
+    "Invisibility Duration": [
+      {
+        "label": "Invisibility Duration",
+        "value": "5"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "4"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

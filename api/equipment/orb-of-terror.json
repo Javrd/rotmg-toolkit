@@ -1,0 +1,69 @@
+{
+  "slug": "orb-of-terror",
+  "name": "Orb of Terror",
+  "wikiUrl": "https://www.realmeye.com/wiki/orb-of-terror",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/NPxdXi5.png",
+  "category": "Ability",
+  "categorySlug": "orbs",
+  "family": "Limited Edition Orbs",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Stasis Duration": [
+      {
+        "label": "Stasis Duration",
+        "value": "7s"
+      }
+    ],
+    "Other Effects(@75 WIS)": [
+      {
+        "label": "Green Up Arrow",
+        "value": "Speedy to self: 2s (4s)"
+      },
+      {
+        "label": "Sword",
+        "value": "Damaging to self: 2s (4s)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ]
+  },
+  "effects": [
+    "Green Up Arrow",
+    "Sword"
+  ],
+  "effectDescriptions": {
+    "Green Up Arrow": "Speedy to self: 2s (4s)",
+    "Sword": "Damaging to self: 2s (4s)"
+  }
+}

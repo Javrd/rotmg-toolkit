@@ -1,0 +1,69 @@
+{
+  "slug": "hydroflow-spell",
+  "name": "Hydroflow Spell",
+  "wikiUrl": "https://www.realmeye.com/wiki/hydroflow-spell",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/AIGtaOF.png",
+  "category": "Ability",
+  "categorySlug": "spells",
+  "family": "Limited Edition Spells",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Hydroflow Spell Bolt"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "80 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "95-200 (147.5)"
+      }
+    ],
+    "Total Damage": [
+      {
+        "label": "Total Damage",
+        "value": "1520-3200 (2360)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+20 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 MP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+6 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "380"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

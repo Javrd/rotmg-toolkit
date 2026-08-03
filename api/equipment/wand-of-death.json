@@ -1,0 +1,46 @@
+{
+  "slug": "wand-of-death",
+  "name": "Wand of Death",
+  "wikiUrl": "https://www.realmeye.com/wiki/wand-of-death",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/zINpMRA.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Tiered Wands",
+  "tier": "8",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "115-155 (135)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "2%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "75"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Green Magic"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

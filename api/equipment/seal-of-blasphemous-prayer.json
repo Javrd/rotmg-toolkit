@@ -1,0 +1,75 @@
+{
+  "slug": "seal-of-blasphemous-prayer",
+  "name": "Seal of Blasphemous Prayer",
+  "wikiUrl": "https://www.realmeye.com/wiki/seal-of-blasphemous-prayer",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/YxQsMy1.png",
+  "category": "Ability",
+  "categorySlug": "seals",
+  "family": "Untiered Seals",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "120 MP"
+      }
+    ],
+    "Range (@75 WIS)": [
+      {
+        "label": "Range (@75 WIS)",
+        "value": "5"
+      },
+      {
+        "label": "Range (@75 WIS)",
+        "value": "(7.5)"
+      }
+    ],
+    "HP Boost (@75 WIS)": [
+      {
+        "label": "HP Boost (@75 WIS)",
+        "value": "-"
+      }
+    ],
+    "Healing/Damaging Duration(@75 WIS)": [
+      {
+        "label": "Healing/Damaging Duration(@75 WIS)",
+        "value": "5"
+      },
+      {
+        "label": "Healing/Damaging Duration(@75 WIS)",
+        "value": "(7.5)"
+      }
+    ],
+    "HP Boost Duration (@75 WIS)": [
+      {
+        "label": "HP Boost Duration (@75 WIS)",
+        "value": "-"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

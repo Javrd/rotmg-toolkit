@@ -1,0 +1,49 @@
+{
+  "slug": "prism-of-phantoms",
+  "name": "Prism of Phantoms",
+  "wikiUrl": "https://www.realmeye.com/wiki/prism-of-phantoms",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/GuzQBiT.png",
+  "category": "Ability",
+  "categorySlug": "prisms",
+  "family": "Tiered Prisms",
+  "tier": "5",
+  "soulbound": false,
+  "classes": [
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "85 MP"
+      }
+    ],
+    "Decoy Duration (seconds)": [
+      {
+        "label": "Decoy Duration (seconds)",
+        "value": "8"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "139"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

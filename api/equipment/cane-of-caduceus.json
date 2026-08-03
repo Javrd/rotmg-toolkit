@@ -1,0 +1,80 @@
+{
+  "slug": "cane-of-caduceus",
+  "name": "Cane of Caduceus",
+  "wikiUrl": "https://www.realmeye.com/wiki/cane-of-caduceus",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/OHWmiEq.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Set Tiered Wands",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Plague Orb",
+        "value": "50-85 (67.5)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Plague Snake",
+        "value": "115-155 (132.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "40%"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Plague Orb Small, Plague Orb Large, Plague Snake Small, Plague Snake Large"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

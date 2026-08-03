@@ -1,0 +1,40 @@
+{
+  "slug": "power-wand",
+  "name": "Power Wand",
+  "wikiUrl": "https://www.realmeye.com/wiki/power-wand",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/M4uBwyT.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Tiered Wands",
+  "tier": "2",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "45-80 (62.5)"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "8"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Blue Magic"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "buster-katana",
+  "name": "Buster Katana",
+  "wikiUrl": "https://www.realmeye.com/wiki/buster-katana",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Du5IN1O.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Tiered Katanas",
+  "tier": "7",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "100-135 (117.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "1%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "53"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Buster Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

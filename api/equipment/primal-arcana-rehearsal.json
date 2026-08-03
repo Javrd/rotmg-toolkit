@@ -1,0 +1,61 @@
+{
+  "slug": "primal-arcana-rehearsal",
+  "name": "Primal Arcana (Rehearsal)",
+  "wikiUrl": "https://www.realmeye.com/wiki/primal-arcana-rehearsal",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/srq7LyB.png",
+  "category": "Ability",
+  "categorySlug": "orbs",
+  "family": "Limited Edition Orbs",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "105 MP"
+      }
+    ],
+    "Curse Duration(@75 WIS)": [
+      {
+        "label": "Curse Duration(@75 WIS)",
+        "value": "5s"
+      }
+    ],
+    "Other Effects(@75 WIS)": [
+      {
+        "label": "Other Effects(@75 WIS)",
+        "value": "Your weapon fires two (33% chance for third bullet) more bullets, each dealing 80-100 damage with cooldown 0.2s"
+      },
+      {
+        "label": "Other Effects(@75 WIS)",
+        "value": "(0s for third bullet)."
+      },
+      {
+        "label": "Curse",
+        "value": "Curse inflicted by secondary weapon attack"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [
+    "Curse"
+  ],
+  "effectDescriptions": {
+    "Curse": "Curse inflicted by secondary weapon attack"
+  }
+}

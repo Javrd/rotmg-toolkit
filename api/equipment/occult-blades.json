@@ -1,0 +1,49 @@
+{
+  "slug": "occult-blades",
+  "name": "Occult Blades",
+  "wikiUrl": "https://www.realmeye.com/wiki/occult-blades",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/BNNIM99.png",
+  "category": "Weapon",
+  "categorySlug": "dual-blades",
+  "family": "Tiered Dual Blades",
+  "tier": "11",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 1: 80-110 (95)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 2: 60-90 (75)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "233"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Large Purple Blade, Small Purple Blade"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

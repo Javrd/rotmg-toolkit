@@ -1,0 +1,83 @@
+{
+  "slug": "hydroflow-poison",
+  "name": "Hydroflow Poison",
+  "wikiUrl": "https://www.realmeye.com/wiki/hydroflow-poison",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/WWsLrA3.png",
+  "category": "Ability",
+  "categorySlug": "poisons",
+  "family": "Limited Edition Poisons",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Assassin"
+  ],
+  "stats": {},
+  "columns": {
+    "Particle Color": [
+      {
+        "label": "Hydroflow Poison Bomb",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Radius": [
+      {
+        "label": "Radius",
+        "value": "5"
+      }
+    ],
+    "Total Base Damage": [
+      {
+        "label": "Total Base Damage",
+        "value": "1050"
+      }
+    ],
+    "Impact Damage": [
+      {
+        "label": "Impact Damage",
+        "value": "350"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "4.5"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 WIS"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "380"
+      }
+    ]
+  },
+  "effects": [
+    "Hydroflow Poison Bomb"
+  ],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "crystal-sword",
+  "name": "Crystal Sword",
+  "wikiUrl": "https://www.realmeye.com/wiki/crystal-sword",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/A4fzD3u.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Untiered Swords",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "195-225 (210)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "600"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Leviathan Bolt"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

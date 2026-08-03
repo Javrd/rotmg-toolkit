@@ -1,0 +1,67 @@
+{
+  "slug": "primal-arcana",
+  "name": "Primal Arcana",
+  "wikiUrl": "https://www.realmeye.com/wiki/primal-arcana",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/tXII6S1.png",
+  "category": "Ability",
+  "categorySlug": "orbs",
+  "family": "Untiered Orbs",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "105 MP"
+      }
+    ],
+    "Curse Duration(@75 WIS)": [
+      {
+        "label": "Curse Duration(@75 WIS)",
+        "value": "5s"
+      }
+    ],
+    "Other Effects(@75 WIS)": [
+      {
+        "label": "Other Effects(@75 WIS)",
+        "value": "Your weapon fires two (33% chance for third bullet) more bullets, each dealing 100-120 damage with cooldown 0.2s"
+      },
+      {
+        "label": "Other Effects(@75 WIS)",
+        "value": "(0s for third bullet)."
+      },
+      {
+        "label": "Curse",
+        "value": "Curse inflicted by secondary weapon attack"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+8 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,200"
+      }
+    ]
+  },
+  "effects": [
+    "Curse"
+  ],
+  "effectDescriptions": {
+    "Curse": "Curse inflicted by secondary weapon attack"
+  }
+}

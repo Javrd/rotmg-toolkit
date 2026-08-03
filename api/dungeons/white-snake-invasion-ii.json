@@ -1,0 +1,86 @@
+{
+  "slug": "white-snake-invasion-ii",
+  "name": "White Snake Invasion II",
+  "wikiUrl": "https://www.realmeye.com/wiki/white-snake-invasion-ii",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/F1WWPv7.png",
+  "category": "Special Event Dungeons",
+  "difficulty": 7.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/rY8JQSL.gif",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Daichi the Fallen",
+          "wikiUrl": "https://www.realmeye.com/wiki/daichi-the-fallen",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/TIektVi.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/moIO1Ib.png",
+        "guaranteedLabel": "G - 1",
+        "source": {
+          "name": "Daichi the Fallen",
+          "wikiUrl": "https://www.realmeye.com/wiki/daichi-the-fallen",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/TIektVi.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/rY8JQSL.gif",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Divine Soul Snake",
+          "wikiUrl": "https://www.realmeye.com/wiki/divine-soul-snake",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/MAcRcue.png"
+        }
+      },
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Divine Soul Snake",
+          "wikiUrl": "https://www.realmeye.com/wiki/divine-soul-snake",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/MAcRcue.png"
+        }
+      },
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Divine Soul Snake",
+          "wikiUrl": "https://www.realmeye.com/wiki/divine-soul-snake",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/MAcRcue.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/lWNsTd9.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Daichi the Fallen",
+          "wikiUrl": "https://www.realmeye.com/wiki/daichi-the-fallen",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/TIektVi.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

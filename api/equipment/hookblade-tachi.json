@@ -1,0 +1,57 @@
+{
+  "slug": "hookblade-tachi",
+  "name": "Hookblade Tachi",
+  "wikiUrl": "https://www.realmeye.com/wiki/hookblade-tachi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/SYx3wTh.png",
+  "category": "Weapon",
+  "categorySlug": "tachis",
+  "family": "Limited Edition Tachis",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "90-120 (105)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "?"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Hookblade Tachi Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

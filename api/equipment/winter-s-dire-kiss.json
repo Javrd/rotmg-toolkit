@@ -1,0 +1,85 @@
+{
+  "slug": "winter-s-dire-kiss",
+  "name": "Winter’s Dire Kiss",
+  "wikiUrl": "https://www.realmeye.com/wiki/winter-s-dire-kiss",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/eYsZVGc.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Limited Edition Katanas",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "220-340 (280)"
+      },
+      {
+        "label": "Burst Count",
+        "value": "4"
+      },
+      {
+        "label": "Maximum Burst Delay",
+        "value": "1.4s"
+      },
+      {
+        "label": "Minimum Burst Delay",
+        "value": "0.6s"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "130%"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+6 SPD"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.2"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Frosted Katana Slash"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

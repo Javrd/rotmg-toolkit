@@ -1,0 +1,75 @@
+{
+  "slug": "sweetcut-wakizashi",
+  "name": "Sweetcut Wakizashi",
+  "wikiUrl": "https://www.realmeye.com/wiki/sweetcut-wakizashi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/mUFpKmL.png",
+  "category": "Ability",
+  "categorySlug": "wakizashi",
+  "family": "Limited Edition Wakizashi",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Samurai"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Valentine's Chocolate, Sweet Treat"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "Summons chocolate that circles around you for 5 seconds"
+      },
+      {
+        "label": "Shots",
+        "value": "Valentine’s Chocolate: Shoots bursts at nearby enemies deals 250-300 damage per hit"
+      }
+    ],
+    "Damage(Average Total)": [
+      {
+        "label": "Damage(Average Total)",
+        "value": "350"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Grey Down Arrow",
+        "value": "Exposed for 3s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Grey Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Grey Down Arrow": "Exposed for 3s"
+  }
+}

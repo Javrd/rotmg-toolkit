@@ -1,0 +1,83 @@
+{
+  "slug": "kagebooshi",
+  "name": "Kagebooshi",
+  "wikiUrl": "https://www.realmeye.com/wiki/kagebooshi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/63Nhf2B.png",
+  "category": "Ability",
+  "categorySlug": "stars",
+  "family": "Limited Edition Stars",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Ninja"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "400-600"
+      },
+      {
+        "label": "Damage",
+        "value": "(500)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Shots",
+        "value": "4 (8° arc gap)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Boomerang",
+        "value": "Shots boomerang"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "Boomerang",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Boomerang": "Shots boomerang"
+  }
+}

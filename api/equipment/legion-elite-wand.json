@@ -1,0 +1,58 @@
+{
+  "slug": "legion-elite-wand",
+  "name": "Legion Elite Wand",
+  "wikiUrl": "https://www.realmeye.com/wiki/legion-elite-wand",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/QxswCSc.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Limited Edition Wands",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "150-190 (170)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "9"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Evocation Magic"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

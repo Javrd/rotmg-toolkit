@@ -1,0 +1,55 @@
+{
+  "slug": "flame-burst-spell",
+  "name": "Flame Burst Spell",
+  "wikiUrl": "https://www.realmeye.com/wiki/flame-burst-spell",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/bmiCSD0.png",
+  "category": "Ability",
+  "categorySlug": "spells",
+  "family": "Tiered Spells",
+  "tier": "1",
+  "soulbound": false,
+  "classes": [
+    "Wizard"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Green Bolt"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "30 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "35-50 (42.5)"
+      }
+    ],
+    "Total Damage": [
+      {
+        "label": "Total Damage",
+        "value": "560-800 (680)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+1 WIS"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "8"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

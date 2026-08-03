@@ -1,0 +1,105 @@
+{
+  "slug": "arcane-rapier",
+  "name": "Arcane Rapier",
+  "wikiUrl": "https://www.realmeye.com/wiki/arcane-rapier",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/egM20KP.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Untiered Swords",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Bullet 1",
+        "value": ""
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "115-170 (142.5)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Boomerang",
+        "value": "Shots boomerang"
+      },
+      {
+        "label": "Bullet 2",
+        "value": ""
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "300"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Bullet 2 Rate of Fire",
+        "value": "20%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4"
+      },
+      {
+        "label": "Range",
+        "value": "6.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Arcane Blade, Arcane Lunge"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Boomerang",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Boomerang": "Shots boomerang",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

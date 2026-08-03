@@ -1,0 +1,95 @@
+{
+  "slug": "green-beehemoth-quiver",
+  "name": "Green Beehemoth Quiver",
+  "wikiUrl": "https://www.realmeye.com/wiki/green-beehemoth-quiver",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/hTphc7t.png",
+  "category": "Ability",
+  "categorySlug": "quivers",
+  "family": "Untiered Quivers",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Archer"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "EH Green Arrow Shot"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "300-420"
+      },
+      {
+        "label": "Damage",
+        "value": "(360)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Shots",
+        "value": "3 (8° arc gap)"
+      },
+      {
+        "label": "Red Down Arrow",
+        "value": "Slowed"
+      },
+      {
+        "label": "Duration",
+        "value": "5s"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "16"
+      },
+      {
+        "label": "Range",
+        "value": "9.6"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+3 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing",
+    "Red Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Red Down Arrow": "Slowed",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

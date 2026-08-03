@@ -1,0 +1,77 @@
+{
+  "slug": "legion-elite-mace",
+  "name": "Legion Elite Mace",
+  "wikiUrl": "https://www.realmeye.com/wiki/legion-elite-mace",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/SkxXgA6.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Limited Edition Maces",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "Legion Elite Familiar",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "235-265 (250)"
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "10s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "380"
+      }
+    ]
+  },
+  "effects": [
+    "Legion Elite Familiar"
+  ],
+  "effectDescriptions": {}
+}

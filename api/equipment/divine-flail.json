@@ -1,0 +1,49 @@
+{
+  "slug": "divine-flail",
+  "name": "Divine Flail",
+  "wikiUrl": "https://www.realmeye.com/wiki/divine-flail",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/gTT0FPk.png",
+  "category": "Weapon",
+  "categorySlug": "flails",
+  "family": "Tiered Flails",
+  "tier": "13",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 1: 340-400 (370)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 2 and 3: 65-90 (77.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Silver Flail Ball, Gold Flail Chain"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

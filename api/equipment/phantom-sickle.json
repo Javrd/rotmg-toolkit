@@ -1,0 +1,65 @@
+{
+  "slug": "phantom-sickle",
+  "name": "Phantom Sickle",
+  "wikiUrl": "https://www.realmeye.com/wiki/phantom-sickle",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/rd4bQw0.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Set Tiered Daggers",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "265-345 (305)"
+      },
+      {
+        "label": "Amplitude",
+        "value": "-1 / 0 / 1"
+      },
+      {
+        "label": "Rate of fire",
+        "value": "45%"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1 / 3 / 5"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Colorfull Sickle, Colorfull Sickle Full"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

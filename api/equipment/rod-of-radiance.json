@@ -1,0 +1,58 @@
+{
+  "slug": "rod-of-radiance",
+  "name": "Rod of Radiance",
+  "wikiUrl": "https://www.realmeye.com/wiki/rod-of-radiance",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/V3gYky1.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Limited Edition Wands",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "150-190 (170)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "9"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "RoR Hero Magic Shot"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

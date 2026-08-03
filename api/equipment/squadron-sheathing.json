@@ -1,0 +1,52 @@
+{
+  "slug": "squadron-sheathing",
+  "name": "Squadron Sheathing",
+  "wikiUrl": "https://www.realmeye.com/wiki/squadron-sheathing",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/QAPSCLF.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Untiered Leather Armors",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 15,
+    "DEX": 7
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+15"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+7"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

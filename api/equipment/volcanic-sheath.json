@@ -1,0 +1,81 @@
+{
+  "slug": "volcanic-sheath",
+  "name": "Volcanic Sheath",
+  "wikiUrl": "https://www.realmeye.com/wiki/volcanic-sheath",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/b66TXPg.png",
+  "category": "Ability",
+  "categorySlug": "sheaths",
+  "family": "Untiered Sheaths",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Damage and Effects": [
+      {
+        "label": "Damage and Effects",
+        "value": "400"
+      },
+      {
+        "label": "Damage and Effects",
+        "value": "Explosion"
+      },
+      {
+        "label": "Radius",
+        "value": "4 squares"
+      }
+    ],
+    "Stat Multiplier": [
+      {
+        "label": "Stat Multiplier",
+        "value": "8/12/17/23/30% [WIS↑] WIS Boost"
+      },
+      {
+        "label": "Stat Multiplier",
+        "value": "Each stack lasts for 10 second"
+      }
+    ],
+    "Dash Distance (Tiles)": [
+      {
+        "label": "Dash Distance (Tiles)",
+        "value": "1-6"
+      }
+    ],
+    "Trail Damage": [
+      {
+        "label": "Trail Damage",
+        "value": "1200"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [
+    "WIS↑"
+  ],
+  "effectDescriptions": {}
+}

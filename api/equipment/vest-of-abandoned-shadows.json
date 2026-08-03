@@ -1,0 +1,59 @@
+{
+  "slug": "vest-of-abandoned-shadows",
+  "name": "Vest of Abandoned Shadows",
+  "wikiUrl": "https://www.realmeye.com/wiki/vest-of-abandoned-shadows",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/VEsxfR3.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Untiered Leather Armors",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 15,
+    "VIT": 15,
+    "HP": 50
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+15"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+15"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+50"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

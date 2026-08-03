@@ -1,0 +1,45 @@
+{
+  "slug": "sky-edge",
+  "name": "Sky Edge",
+  "wikiUrl": "https://www.realmeye.com/wiki/sky-edge",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/8e03bbT.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Tiered Katanas",
+  "tier": "6",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "85-120 (102.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "35"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Sky Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

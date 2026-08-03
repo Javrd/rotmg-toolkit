@@ -1,0 +1,30 @@
+{
+  "slug": "eternal-tormentor",
+  "name": "Eternal Tormentor",
+  "wikiUrl": "https://www.realmeye.com/wiki/eternal-tormentor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/GplawKH.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

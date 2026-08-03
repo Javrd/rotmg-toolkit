@@ -1,0 +1,50 @@
+{
+  "slug": "breastplate-of-new-life",
+  "name": "Breastplate of New Life",
+  "wikiUrl": "https://www.realmeye.com/wiki/breastplate-of-new-life",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Qp0KQbU.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Untiered Heavy Armors",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 14,
+    "HP": 160
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+14"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+160"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,100"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

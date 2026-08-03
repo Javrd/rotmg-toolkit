@@ -1,0 +1,54 @@
+{
+  "slug": "parasite-chambers",
+  "name": "Parasite Chambers",
+  "wikiUrl": "https://www.realmeye.com/wiki/parasite-chambers",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/O43mDnf.gif",
+  "category": "Realm Dungeons",
+  "difficulty": 5.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Nightmare Colony",
+          "wikiUrl": "https://www.realmeye.com/wiki/nightmare-colony",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/zodPEFO.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Blob Colony +2",
+          "wikiUrl": "https://www.realmeye.com/wiki/blob-colony",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/Kp2XYfV.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Infested Chest",
+          "wikiUrl": "https://www.realmeye.com/wiki/infested-chest",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/kLF1lFq.png"
+        }
+      }
+    ]
+  }
+}

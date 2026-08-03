@@ -1,0 +1,18 @@
+{
+  "slug": "grand-sphinx",
+  "name": "Grand Sphinx",
+  "wikiUrl": "https://www.realmeye.com/wiki/grand-sphinx",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/NFmjyZF.png",
+  "group": "encounter",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

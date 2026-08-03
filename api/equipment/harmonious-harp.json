@@ -1,0 +1,81 @@
+{
+  "slug": "harmonious-harp",
+  "name": "Harmonious Harp",
+  "wikiUrl": "https://www.realmeye.com/wiki/harmonious-harp",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/iw13Cvs.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Set Tiered Bows",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "120-145 (132.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "85%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "5"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.5"
+      },
+      {
+        "label": "Frequency",
+        "value": "2"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2 (0°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,200"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Harp Notes Small, Harp Notes Large"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

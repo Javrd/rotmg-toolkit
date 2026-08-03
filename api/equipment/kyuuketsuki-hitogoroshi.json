@@ -1,0 +1,81 @@
+{
+  "slug": "kyuuketsuki-hitogoroshi",
+  "name": "Kyuuketsuki Hitogoroshi",
+  "wikiUrl": "https://www.realmeye.com/wiki/kyuuketsuki-hitogoroshi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/uYe1flJ.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Untiered Katanas",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "440-520 (480)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Boomerang",
+        "value": "Shots boomerang"
+      },
+      {
+        "label": "Blood Drop",
+        "value": "Bleeding Causes up to 80 damage for 3 seconds per stack."
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "40%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "10.92"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Kyuuketsuki Hitogoroshi Yellow Spinner"
+      }
+    ]
+  },
+  "effects": [
+    "Blood Drop",
+    "Boomerang",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Boomerang": "Shots boomerang",
+    "Blood Drop": "Bleeding Causes up to 80 damage for 3 seconds per stack."
+  }
+}

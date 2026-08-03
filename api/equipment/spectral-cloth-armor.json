@@ -1,0 +1,59 @@
+{
+  "slug": "spectral-cloth-armor",
+  "name": "Spectral Cloth Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/spectral-cloth-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/uJhfN6g.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Untiered Leather Armors",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "ATT": 5,
+    "DEF": 13,
+    "DEX": 5
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+5"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+13"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

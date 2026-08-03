@@ -1,0 +1,18 @@
+{
+  "slug": "biff-the-buffed-bunny",
+  "name": "Biff the Buffed Bunny",
+  "wikiUrl": "https://www.realmeye.com/wiki/biff-the-buffed-bunny",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/prGMIfR.png",
+  "group": "encounter",
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": "G"
+      }
+    ],
+    "possible": []
+  }
+}

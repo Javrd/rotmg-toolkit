@@ -1,0 +1,101 @@
+{
+  "slug": "hawkmaster-sigil",
+  "name": "Hawkmaster Sigil",
+  "wikiUrl": "https://www.realmeye.com/wiki/hawkmaster-sigil",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/27AVkXO.png",
+  "category": "Ability",
+  "categorySlug": "sigils",
+  "family": "Untiered Sigils",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Form": [
+      {
+        "label": "Evolutionary Eagle",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Base Damage": [
+      {
+        "label": "Base Damage",
+        "value": "600-700"
+      },
+      {
+        "label": "Base Damage",
+        "value": "(650)"
+      },
+      {
+        "label": "Base Damage",
+        "value": "40-60"
+      },
+      {
+        "label": "Base Damage",
+        "value": "(50)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+8 ATT"
+      }
+    ],
+    "In-FormStat Bonus": [
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+35 DEX"
+      },
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+30 SPD"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "-33%"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "8s"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [
+    "Evolutionary Eagle"
+  ],
+  "effectDescriptions": {}
+}

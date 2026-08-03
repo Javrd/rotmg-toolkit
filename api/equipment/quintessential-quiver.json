@@ -1,0 +1,71 @@
+{
+  "slug": "quintessential-quiver",
+  "name": "Quintessential Quiver",
+  "wikiUrl": "https://www.realmeye.com/wiki/quintessential-quiver",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/4gzxvES.png",
+  "category": "Ability",
+  "categorySlug": "quivers",
+  "family": "Limited Edition Quivers",
+  "tier": "ST",
+  "soulbound": false,
+  "classes": [
+    "Archer"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Quintessential Arrow"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "70 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "10-20"
+      },
+      {
+        "label": "Damage",
+        "value": "(15)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Paralyzed Icon",
+        "value": "Paralyzed"
+      },
+      {
+        "label": "Duration",
+        "value": "0.2s"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "16"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "0"
+      }
+    ]
+  },
+  "effects": [
+    "Paralyzed Icon"
+  ],
+  "effectDescriptions": {
+    "Paralyzed Icon": "Paralyzed"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "shady-sect-leader",
+  "name": "Shady Sect Leader",
+  "wikiUrl": "https://www.realmeye.com/wiki/shady-sect-leader",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/iS69XJ8.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

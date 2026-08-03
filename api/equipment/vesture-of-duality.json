@@ -1,0 +1,66 @@
+{
+  "slug": "vesture-of-duality",
+  "name": "Vesture of Duality",
+  "wikiUrl": "https://www.realmeye.com/wiki/vesture-of-duality",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/QjfsjIn.png",
+  "category": "Armor",
+  "categorySlug": "robes",
+  "family": "Untiered Robes",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Priest",
+    "Necromancer",
+    "Mystic",
+    "Sorcerer",
+    "Bard",
+    "Summoner"
+  ],
+  "stats": {
+    "ATT": 5,
+    "DEF": 12,
+    "SPD": 5,
+    "MP": 40
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+5"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+12"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+5"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+40"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,100"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

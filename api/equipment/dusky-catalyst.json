@@ -1,0 +1,80 @@
+{
+  "slug": "dusky-catalyst",
+  "name": "Dusky Catalyst",
+  "wikiUrl": "https://www.realmeye.com/wiki/dusky-catalyst",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/RapQgYB.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Untiered Wands",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "100-186 (143)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "20"
+      },
+      {
+        "label": "Wavy",
+        "value": "Wavy shots"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+5 WIS"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Shatters Wand Projectile"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing",
+    "Wavy"
+  ],
+  "effectDescriptions": {
+    "Wavy": "Wavy shots",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

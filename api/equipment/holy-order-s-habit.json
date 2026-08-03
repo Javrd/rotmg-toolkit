@@ -1,0 +1,66 @@
+{
+  "slug": "holy-order-s-habit",
+  "name": "Holy Order’s Habit",
+  "wikiUrl": "https://www.realmeye.com/wiki/holy-order-s-habit",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/7LbTaFQ.png",
+  "category": "Armor",
+  "categorySlug": "robes",
+  "family": "Limited Edition Robes",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Priest",
+    "Necromancer",
+    "Mystic",
+    "Sorcerer",
+    "Bard",
+    "Summoner"
+  ],
+  "stats": {
+    "DEF": 12,
+    "VIT": 5,
+    "WIS": 10,
+    "MP": 80
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+12"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+5"
+      }
+    ],
+    "WIS": [
+      {
+        "label": "WIS",
+        "value": "+10"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+80"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "600"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

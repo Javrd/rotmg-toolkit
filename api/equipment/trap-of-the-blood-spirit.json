@@ -1,0 +1,83 @@
+{
+  "slug": "trap-of-the-blood-spirit",
+  "name": "Trap of the Blood Spirit",
+  "wikiUrl": "https://www.realmeye.com/wiki/trap-of-the-blood-spirit",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/LTubHGN.png",
+  "category": "Ability",
+  "categorySlug": "traps",
+  "family": "Limited Edition Traps",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Huntress"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Explosion Radius": [
+      {
+        "label": "Explosion Radius",
+        "value": "3"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "1300"
+      }
+    ],
+    "Effect(s)": [
+      {
+        "label": "Curse",
+        "value": "Curse for 2 seconds"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Throw Time",
+        "value": "0.5s"
+      },
+      {
+        "label": "Duration",
+        "value": "5s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Curse"
+  ],
+  "effectDescriptions": {
+    "Curse": "Curse for 2 seconds",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

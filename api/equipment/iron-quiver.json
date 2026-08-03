@@ -1,0 +1,77 @@
+{
+  "slug": "iron-quiver",
+  "name": "Iron Quiver",
+  "wikiUrl": "https://www.realmeye.com/wiki/iron-quiver",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/JARaXCR.png",
+  "category": "Ability",
+  "categorySlug": "quivers",
+  "family": "Tiered Quivers",
+  "tier": "2",
+  "soulbound": false,
+  "classes": [
+    "Archer"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Green Arrow"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "55 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "95-115"
+      },
+      {
+        "label": "Damage",
+        "value": "(105)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Shots",
+        "value": "2 (7° arc gap)"
+      },
+      {
+        "label": "Vulnerable",
+        "value": "Targets receive 110% damage for 3 seconds after being hit."
+      },
+      {
+        "label": "Paralyzed Icon",
+        "value": "Paralyzed"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+2 DEX"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "15"
+      }
+    ]
+  },
+  "effects": [
+    "Paralyzed Icon",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Paralyzed Icon": "Paralyzed",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "dragonbone-tachi",
+  "name": "Dragonbone Tachi",
+  "wikiUrl": "https://www.realmeye.com/wiki/dragonbone-tachi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/rCv56zi.png",
+  "category": "Weapon",
+  "categorySlug": "tachis",
+  "family": "Tiered Tachis",
+  "tier": "10",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "80-110 (95)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "159"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "White Cross Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

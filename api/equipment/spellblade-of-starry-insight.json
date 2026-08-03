@@ -1,0 +1,49 @@
+{
+  "slug": "spellblade-of-starry-insight",
+  "name": "Spellblade of Starry Insight",
+  "wikiUrl": "https://www.realmeye.com/wiki/spellblade-of-starry-insight",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/7brV6am.png",
+  "category": "Weapon",
+  "categorySlug": "spellblades",
+  "family": "Tiered Spellblades",
+  "tier": "11",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Small",
+        "value": "85-120 (102.5)"
+      },
+      {
+        "label": "Large",
+        "value": "65-85 (75)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "233"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Small Teal Missle, Large Teal Missle"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

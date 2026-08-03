@@ -1,0 +1,49 @@
+{
+  "slug": "hardwood-bow",
+  "name": "Hardwood Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/hardwood-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Wew7oBw.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Tiered Bows",
+  "tier": "2",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "25-30 (27.5)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Side (2): 5-15 (10)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "8"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Large Standard Arrow, Hardwood Small Arrow"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

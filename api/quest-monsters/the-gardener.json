@@ -1,0 +1,18 @@
+{
+  "slug": "the-gardener",
+  "name": "The Gardener",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-gardener",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/RAL8e2M.png",
+  "group": "encounter",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "imprisonment-orb",
+  "name": "Imprisonment Orb",
+  "wikiUrl": "https://www.realmeye.com/wiki/imprisonment-orb",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/xCAf1Lh.png",
+  "category": "Ability",
+  "categorySlug": "orbs",
+  "family": "Tiered Orbs",
+  "tier": "2",
+  "soulbound": false,
+  "classes": [
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "70 MP"
+      }
+    ],
+    "Stasis Duration": [
+      {
+        "label": "Stasis Duration",
+        "value": "4s"
+      }
+    ],
+    "Curse Duration(@75 WIS)": [
+      {
+        "label": "Curse Duration(@75 WIS)",
+        "value": "3s"
+      },
+      {
+        "label": "Curse Duration(@75 WIS)",
+        "value": "(5.5s)"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "15"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

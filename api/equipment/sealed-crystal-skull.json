@@ -1,0 +1,69 @@
+{
+  "slug": "sealed-crystal-skull",
+  "name": "Sealed Crystal Skull",
+  "wikiUrl": "https://www.realmeye.com/wiki/sealed-crystal-skull",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/gRjcZBA.png",
+  "category": "Ability",
+  "categorySlug": "skulls",
+  "family": "Untiered Skulls",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Necromancer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Undead Base Damage": [
+      {
+        "label": "Undead Base Damage",
+        "value": "195-280"
+      }
+    ],
+    "Undead Shots": [
+      {
+        "label": "Undead Shots",
+        "value": "3"
+      }
+    ],
+    "Life Steal": [
+      {
+        "label": "Life Steal",
+        "value": "2%"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+50 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

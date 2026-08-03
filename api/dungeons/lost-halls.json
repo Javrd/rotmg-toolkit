@@ -1,0 +1,87 @@
+{
+  "slug": "lost-halls",
+  "name": "Lost Halls",
+  "wikiUrl": "https://www.realmeye.com/wiki/lost-halls",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/DwuQOQQ.png",
+  "category": "Realm Event Dungeons",
+  "difficulty": 8.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": "G",
+        "source": {
+          "name": "Marble Colossus",
+          "wikiUrl": "https://www.realmeye.com/wiki/marble-colossus",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/CroeOAh.png"
+        }
+      },
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": "G",
+        "source": {
+          "name": "Marble Colossus",
+          "wikiUrl": "https://www.realmeye.com/wiki/marble-colossus",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/CroeOAh.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Marble Defender",
+          "wikiUrl": "https://www.realmeye.com/wiki/marble-defender",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/alNcmlz.png"
+        }
+      },
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Marble Colossus",
+          "wikiUrl": "https://www.realmeye.com/wiki/marble-colossus",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/CroeOAh.png"
+        }
+      },
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Marble Colossus",
+          "wikiUrl": "https://www.realmeye.com/wiki/marble-colossus",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/CroeOAh.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Agonized Titan",
+          "wikiUrl": "https://www.realmeye.com/wiki/agonized-titan",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/MgFBfJp.png"
+        }
+      }
+    ]
+  }
+}

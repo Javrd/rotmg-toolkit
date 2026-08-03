@@ -1,0 +1,93 @@
+{
+  "slug": "evergreen-dagger",
+  "name": "Evergreen Dagger",
+  "wikiUrl": "https://www.realmeye.com/wiki/evergreen-dagger",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/iZ8gUF2.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Limited Edition Daggers",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "140-230 (185)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "5"
+      },
+      {
+        "label": "Acceleration",
+        "value": "20 (delay: 0.4)"
+      },
+      {
+        "label": "Speed Clamp",
+        "value": "20"
+      },
+      {
+        "label": "Burst Count",
+        "value": "3"
+      },
+      {
+        "label": "Burst Delay",
+        "value": "1.6"
+      },
+      {
+        "label": "Minimum Burst Delay",
+        "value": "0.8"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "130%"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "2"
+      },
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "(10°)"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "6.14"
+      },
+      {
+        "label": "Range(True Range)",
+        "value": "(4.12)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Oryxmas Dagger Projectile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

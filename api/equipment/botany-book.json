@@ -1,0 +1,71 @@
+{
+  "slug": "botany-book",
+  "name": "Botany Book",
+  "wikiUrl": "https://www.realmeye.com/wiki/botany-book",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/H29ztrQ.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Limited Edition Tomes",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "140 MP"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8"
+      }
+    ],
+    "Heal Amount": [
+      {
+        "label": "Heal Amount",
+        "value": "150 HP"
+      }
+    ],
+    "Healing Amount": [
+      {
+        "label": "Healing Amount",
+        "value": "75/s"
+      }
+    ],
+    "Healing Duration": [
+      {
+        "label": "Healing Duration",
+        "value": "4.4"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+10 VIT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+10 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

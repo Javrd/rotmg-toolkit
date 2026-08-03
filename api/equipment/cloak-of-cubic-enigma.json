@@ -1,0 +1,71 @@
+{
+  "slug": "cloak-of-cubic-enigma",
+  "name": "Cloak of Cubic Enigma",
+  "wikiUrl": "https://www.realmeye.com/wiki/cloak-of-cubic-enigma",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/V27k4Sz.png",
+  "category": "Ability",
+  "categorySlug": "cloaks",
+  "family": "Untiered Cloaks",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Invisibility Duration": [
+      {
+        "label": "Invisibility Duration",
+        "value": "5"
+      }
+    ],
+    "Other Effects": [
+      {
+        "label": "Other Effects",
+        "value": "Leaves bursts of damage in your wake"
+      },
+      {
+        "label": "Duration",
+        "value": "6 seconds"
+      },
+      {
+        "label": "Damage",
+        "value": "600"
+      },
+      {
+        "label": "Radius",
+        "value": "4.5 tiles"
+      },
+      {
+        "label": "Burst Cooldown",
+        "value": "0.4 seconds"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

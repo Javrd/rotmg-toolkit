@@ -1,0 +1,97 @@
+{
+  "slug": "hydroflow-sigil",
+  "name": "Hydroflow Sigil",
+  "wikiUrl": "https://www.realmeye.com/wiki/hydroflow-sigil",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/PBeAMSx.png",
+  "category": "Ability",
+  "categorySlug": "sigils",
+  "family": "Limited Edition Sigils",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Form": [
+      {
+        "label": "Evolutionary Hydroflow",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Base Damage": [
+      {
+        "label": "Base Damage",
+        "value": "990-1110"
+      },
+      {
+        "label": "Base Damage",
+        "value": "(1050)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+20 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 MP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+6 WIS"
+      }
+    ],
+    "In-FormStat Bonus": [
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+40 ATT"
+      },
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+23 DEF"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "-33%"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "9s"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "380"
+      }
+    ]
+  },
+  "effects": [
+    "Evolutionary Hydroflow"
+  ],
+  "effectDescriptions": {}
+}

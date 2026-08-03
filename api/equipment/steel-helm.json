@@ -1,0 +1,73 @@
+{
+  "slug": "steel-helm",
+  "name": "Steel Helm",
+  "wikiUrl": "https://www.realmeye.com/wiki/steel-helm",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUTLnFS.png",
+  "category": "Ability",
+  "categorySlug": "helms",
+  "family": "Tiered Helms",
+  "tier": "4",
+  "soulbound": false,
+  "classes": [
+    "Warrior"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "80 MP"
+      }
+    ],
+    "Range (@50 Wis)": [
+      {
+        "label": "Range (@50 Wis)",
+        "value": "4.5"
+      },
+      {
+        "label": "Range (@50 Wis)",
+        "value": "(6.5)"
+      }
+    ],
+    "Berserk Duration(@50 Wis)": [
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "3.5s"
+      },
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "(5.5s)"
+      }
+    ],
+    "Speedy Duration(@50 Wis)": [
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "3.5s"
+      },
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "(5.5s)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+6 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "2%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "68"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

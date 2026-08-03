@@ -1,0 +1,67 @@
+{
+  "slug": "legion-elite-orb",
+  "name": "Legion Elite Orb",
+  "wikiUrl": "https://www.realmeye.com/wiki/legion-elite-orb",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/x2EdvZ4.png",
+  "category": "Ability",
+  "categorySlug": "orbs",
+  "family": "Limited Edition Orbs",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Stasis Duration": [
+      {
+        "label": "Stasis Duration",
+        "value": "6s"
+      }
+    ],
+    "Curse Duration(@75 WIS)": [
+      {
+        "label": "Curse Duration(@75 WIS)",
+        "value": "5s"
+      },
+      {
+        "label": "Curse Duration(@75 WIS)",
+        "value": "(7.5s)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "380"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

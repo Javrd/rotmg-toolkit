@@ -1,0 +1,87 @@
+{
+  "slug": "thunder-mallet",
+  "name": "Thunder Mallet",
+  "wikiUrl": "https://www.realmeye.com/wiki/thunder-mallet",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZR3Rmu8.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Limited Edition Katanas",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "80-90 (85)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "14"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.5"
+      },
+      {
+        "label": "Frequency",
+        "value": "1"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "(0°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.76"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Lei Gong Proj, Lei Gong Proj Full"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

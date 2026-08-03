@@ -1,0 +1,71 @@
+{
+  "slug": "ceremonial-merlot",
+  "name": "Ceremonial Merlot",
+  "wikiUrl": "https://www.realmeye.com/wiki/ceremonial-merlot",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/y53TveU.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Set Tiered Tomes",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "130 MP"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.8"
+      }
+    ],
+    "Heal Amount": [
+      {
+        "label": "Heal Amount",
+        "value": "120 HP"
+      }
+    ],
+    "Healing Amount": [
+      {
+        "label": "Healing Amount",
+        "value": "60/s"
+      }
+    ],
+    "Healing Duration": [
+      {
+        "label": "Healing Duration",
+        "value": "4.4"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "-5 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,200"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

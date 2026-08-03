@@ -1,0 +1,39 @@
+{
+  "slug": "slayer-staff",
+  "name": "Slayer Staff",
+  "wikiUrl": "https://www.realmeye.com/wiki/slayer-staff",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/UH6hHIr.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Tiered Staves",
+  "tier": "5",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "40-65 (52.5)"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "24"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Salmon Missile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

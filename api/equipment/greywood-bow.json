@@ -1,0 +1,49 @@
+{
+  "slug": "greywood-bow",
+  "name": "Greywood Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/greywood-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/lrGG4Vj.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Tiered Bows",
+  "tier": "3",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "30-35 (32.5)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Side (2): 5-15 (10)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "11"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Large Standard Arrow, Greywood Small Arrow"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

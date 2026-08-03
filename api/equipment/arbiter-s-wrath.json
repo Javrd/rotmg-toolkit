@@ -1,0 +1,65 @@
+{
+  "slug": "arbiter-s-wrath",
+  "name": "Arbiter’s Wrath",
+  "wikiUrl": "https://www.realmeye.com/wiki/arbiter-s-wrath",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/bxFkRjK.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Limited Edition Katanas",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "10-40 (25)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "3"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "50%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.8"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "0"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Boss Projectile Spawn"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

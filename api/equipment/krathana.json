@@ -1,0 +1,57 @@
+{
+  "slug": "krathana",
+  "name": "Krathana",
+  "wikiUrl": "https://www.realmeye.com/wiki/krathana",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/N4k3abI.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Limited Edition Katanas",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "1-75 (38)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8.45"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "0"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Kratana Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

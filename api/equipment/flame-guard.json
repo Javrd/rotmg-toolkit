@@ -1,0 +1,50 @@
+{
+  "slug": "flame-guard",
+  "name": "Flame Guard",
+  "wikiUrl": "https://www.realmeye.com/wiki/flame-guard",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/fqL9xSL.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Set Tier Heavy Armors",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 15,
+    "HP": 50
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+15"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+50"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

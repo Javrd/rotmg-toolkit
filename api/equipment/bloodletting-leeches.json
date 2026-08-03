@@ -1,0 +1,43 @@
+{
+  "slug": "bloodletting-leeches",
+  "name": "Bloodletting Leeches",
+  "wikiUrl": "https://www.realmeye.com/wiki/bloodletting-leeches",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/vjCoTqH.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Set Tiered Tomes",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "candy-coated-armor",
+  "name": "Candy-Coated Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/candy-coated-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/p9jh9r4.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Untiered Heavy Armors",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 30,
+    "DEX": -5
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+30"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "-5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

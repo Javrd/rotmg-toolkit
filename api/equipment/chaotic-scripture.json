@@ -1,0 +1,59 @@
+{
+  "slug": "chaotic-scripture",
+  "name": "Chaotic Scripture",
+  "wikiUrl": "https://www.realmeye.com/wiki/chaotic-scripture",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/JG0yY9F.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Untiered Tomes",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "150 MP"
+      }
+    ],
+    "Heal Amount": [
+      {
+        "label": "Heal Amount",
+        "value": "90 HP"
+      }
+    ],
+    "Nova Damage": [
+      {
+        "label": "Nova Damage",
+        "value": "2,500"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+60 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+6 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,300"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

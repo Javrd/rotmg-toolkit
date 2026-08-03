@@ -1,0 +1,69 @@
+{
+  "slug": "valor-rehearsal",
+  "name": "Valor (Rehearsal)",
+  "wikiUrl": "https://www.realmeye.com/wiki/valor-rehearsal",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/6lEJwUm.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Limited Edition Katanas",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "435-505 (470)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "19.5"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "45%"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+5 SPD"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.76"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Shatters Katana Projectile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

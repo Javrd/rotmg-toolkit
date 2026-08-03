@@ -1,0 +1,65 @@
+{
+  "slug": "ray-katana",
+  "name": "Ray Katana",
+  "wikiUrl": "https://www.realmeye.com/wiki/ray-katana",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/dABfBfS.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Untiered Katanas",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "160"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "20"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "111%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.2"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Beam Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

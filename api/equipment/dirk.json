@@ -1,0 +1,45 @@
+{
+  "slug": "dirk",
+  "name": "Dirk",
+  "wikiUrl": "https://www.realmeye.com/wiki/dirk",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/4JERvZe.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Tiered Daggers",
+  "tier": "1",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "25-80 (52.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "5"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Blade"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

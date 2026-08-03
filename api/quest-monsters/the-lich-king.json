@@ -1,0 +1,18 @@
+{
+  "slug": "the-lich-king",
+  "name": "The Lich King",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-lich-king",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/o4BDdek.png",
+  "group": "encounter",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

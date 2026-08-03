@@ -1,0 +1,18 @@
+{
+  "slug": "spider-den",
+  "name": "Spider Den",
+  "wikiUrl": "https://www.realmeye.com/wiki/spider-den",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/up93OlG.png",
+  "category": "Realm Dungeons",
+  "difficulty": 1.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

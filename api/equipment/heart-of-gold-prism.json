@@ -1,0 +1,43 @@
+{
+  "slug": "heart-of-gold-prism",
+  "name": "Heart of Gold Prism",
+  "wikiUrl": "https://www.realmeye.com/wiki/heart-of-gold-prism",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/6yhAly6.png",
+  "category": "Ability",
+  "categorySlug": "prisms",
+  "family": "Limited Edition Prisms",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "60 MP"
+      }
+    ],
+    "Decoy Duration (seconds)": [
+      {
+        "label": "Decoy Duration (seconds)",
+        "value": "4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

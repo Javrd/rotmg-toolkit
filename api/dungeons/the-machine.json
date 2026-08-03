@@ -1,0 +1,18 @@
+{
+  "slug": "the-machine",
+  "name": "The Machine",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-machine",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Yhd1MCq.png",
+  "category": "Realm Dungeons",
+  "difficulty": 4.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

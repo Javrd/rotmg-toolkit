@@ -1,0 +1,30 @@
+{
+  "slug": "santa-s-workshop",
+  "name": "Santa’s Workshop",
+  "wikiUrl": "https://www.realmeye.com/wiki/santa-s-workshop",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/oX3aVA2.png",
+  "category": "Special Event Dungeons",
+  "difficulty": null,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Mystery Stat Potion",
+        "type": "Mystery Stat Potion",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/aeYlFi2.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Enemigos variables",
+          "wikiUrl": null,
+          "icon": null
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

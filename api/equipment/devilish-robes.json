@@ -1,0 +1,73 @@
+{
+  "slug": "devilish-robes",
+  "name": "Devilish Robes",
+  "wikiUrl": "https://www.realmeye.com/wiki/devilish-robes",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z5UChsd.png",
+  "category": "Armor",
+  "categorySlug": "robes",
+  "family": "Limited Edition Robes",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Priest",
+    "Necromancer",
+    "Mystic",
+    "Sorcerer",
+    "Bard",
+    "Summoner"
+  ],
+  "stats": {
+    "DEF": 12,
+    "DEX": 6,
+    "WIS": 6,
+    "HP": 30,
+    "MP": -50
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+12"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+6"
+      }
+    ],
+    "WIS": [
+      {
+        "label": "WIS",
+        "value": "+6"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+30"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "-50"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

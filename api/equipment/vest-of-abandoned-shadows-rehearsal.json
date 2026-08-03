@@ -1,0 +1,59 @@
+{
+  "slug": "vest-of-abandoned-shadows-rehearsal",
+  "name": "Vest of Abandoned Shadows (Rehearsal)",
+  "wikiUrl": "https://www.realmeye.com/wiki/vest-of-abandoned-shadows-rehearsal",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z1TfZ7O.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Limited Edition Leather Armors",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 15,
+    "VIT": 15,
+    "HP": 50
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+15"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+15"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+50"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

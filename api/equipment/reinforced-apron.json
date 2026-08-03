@@ -1,0 +1,50 @@
+{
+  "slug": "reinforced-apron",
+  "name": "Reinforced Apron",
+  "wikiUrl": "https://www.realmeye.com/wiki/reinforced-apron",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/CJdbw8g.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Limited Edition",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 25,
+    "HP": 20
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+25"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+20"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "435"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

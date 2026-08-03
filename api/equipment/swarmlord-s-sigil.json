@@ -1,0 +1,105 @@
+{
+  "slug": "swarmlord-s-sigil",
+  "name": "Swarmlord’s Sigil",
+  "wikiUrl": "https://www.realmeye.com/wiki/swarmlord-s-sigil",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/lLk3JSU.png",
+  "category": "Ability",
+  "categorySlug": "sigils",
+  "family": "Untiered Sigils",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Form": [
+      {
+        "label": "Evolutionary Bee",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Base Damage": [
+      {
+        "label": "Base Damage",
+        "value": "680-720"
+      },
+      {
+        "label": "Base Damage",
+        "value": "(700)"
+      },
+      {
+        "label": "Base Damage",
+        "value": "110-130"
+      },
+      {
+        "label": "Base Damage",
+        "value": "(120)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "4"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 ATT"
+      }
+    ],
+    "In-FormStat Bonus": [
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+30 DEX"
+      },
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+25 ATT"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "-50%"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "7.6s"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Evolutionary Bee"
+  ],
+  "effectDescriptions": {}
+}

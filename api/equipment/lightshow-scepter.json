@@ -1,0 +1,65 @@
+{
+  "slug": "lightshow-scepter",
+  "name": "Lightshow Scepter",
+  "wikiUrl": "https://www.realmeye.com/wiki/lightshow-scepter",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/1qwnuhB.png",
+  "category": "Ability",
+  "categorySlug": "scepters",
+  "family": "Set Tiered Scepters",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Sorcerer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "125 MP"
+      }
+    ],
+    "Base damage": [
+      {
+        "label": "Base damage",
+        "value": "200"
+      },
+      {
+        "label": "Base damage",
+        "value": "45° target cone"
+      }
+    ],
+    "Damage per WIS&gt;50": [
+      {
+        "label": "Damage per WIS&gt;50",
+        "value": "6"
+      }
+    ],
+    "Reduction per target": [
+      {
+        "label": "Reduction per target",
+        "value": "-"
+      }
+    ],
+    "Base targets (WIS needed)": [
+      {
+        "label": "Base targets (WIS needed)",
+        "value": "3 (8)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

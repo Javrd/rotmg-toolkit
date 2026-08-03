@@ -1,0 +1,66 @@
+{
+  "slug": "red-riding-dress",
+  "name": "Red Riding Dress",
+  "wikiUrl": "https://www.realmeye.com/wiki/red-riding-dress",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/d9wLZNJ.png",
+  "category": "Armor",
+  "categorySlug": "robes",
+  "family": "Limited Edition Robes",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Priest",
+    "Necromancer",
+    "Mystic",
+    "Sorcerer",
+    "Bard",
+    "Summoner"
+  ],
+  "stats": {
+    "DEF": 8,
+    "DEX": 9,
+    "VIT": 8,
+    "MP": 60
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+8"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+9"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+8"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+60"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "600"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

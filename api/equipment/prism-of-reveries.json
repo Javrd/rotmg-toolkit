@@ -1,0 +1,57 @@
+{
+  "slug": "prism-of-reveries",
+  "name": "Prism of Reveries",
+  "wikiUrl": "https://www.realmeye.com/wiki/prism-of-reveries",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/9NgTVtG.png",
+  "category": "Ability",
+  "categorySlug": "prisms",
+  "family": "Tiered Prisms",
+  "tier": "7",
+  "soulbound": true,
+  "classes": [
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "95 MP"
+      }
+    ],
+    "Decoy Duration (seconds)": [
+      {
+        "label": "Decoy Duration (seconds)",
+        "value": "10"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+7 WIS"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "570"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

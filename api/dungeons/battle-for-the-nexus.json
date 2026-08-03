@@ -1,0 +1,18 @@
+{
+  "slug": "battle-for-the-nexus",
+  "name": "Battle for the Nexus",
+  "wikiUrl": "https://www.realmeye.com/wiki/battle-for-the-nexus",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/zyCjq2l.png",
+  "category": "Special Event Dungeons",
+  "difficulty": 5.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "seal-of-the-pilgrim",
+  "name": "Seal of the Pilgrim",
+  "wikiUrl": "https://www.realmeye.com/wiki/seal-of-the-pilgrim",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/TedQ5FT.png",
+  "category": "Ability",
+  "categorySlug": "seals",
+  "family": "Tiered Seals",
+  "tier": "1",
+  "soulbound": false,
+  "classes": [
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "65 MP"
+      }
+    ],
+    "Range (@75 WIS)": [
+      {
+        "label": "Range (@75 WIS)",
+        "value": "4.5"
+      },
+      {
+        "label": "Range (@75 WIS)",
+        "value": "(7)"
+      }
+    ],
+    "HP Boost (@75 WIS)": [
+      {
+        "label": "HP Boost (@75 WIS)",
+        "value": "20"
+      },
+      {
+        "label": "HP Boost (@75 WIS)",
+        "value": "(70)"
+      }
+    ],
+    "Healing/Damaging Duration(@75 WIS)": [
+      {
+        "label": "Healing/Damaging Duration(@75 WIS)",
+        "value": "3"
+      },
+      {
+        "label": "Healing/Damaging Duration(@75 WIS)",
+        "value": "(5.5)"
+      }
+    ],
+    "HP Boost Duration (@75 WIS)": [
+      {
+        "label": "HP Boost Duration (@75 WIS)",
+        "value": "2.5"
+      },
+      {
+        "label": "HP Boost Duration (@75 WIS)",
+        "value": "(4.5)"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "8"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

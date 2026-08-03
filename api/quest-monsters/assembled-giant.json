@@ -1,0 +1,30 @@
+{
+  "slug": "assembled-giant",
+  "name": "Assembled Giant",
+  "wikiUrl": "https://www.realmeye.com/wiki/assembled-giant",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/T5i53Ta.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

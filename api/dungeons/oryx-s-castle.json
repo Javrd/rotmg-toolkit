@@ -1,0 +1,41 @@
+{
+  "slug": "oryx-s-castle",
+  "name": "Oryx’s Castle",
+  "wikiUrl": "https://www.realmeye.com/wiki/oryx-s-castle",
+  "icon": null,
+  "category": "Oryx’s Castle",
+  "difficulty": 4.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Stone Guardians",
+          "wikiUrl": "https://www.realmeye.com/wiki/stone-guardians",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/HRGnuwm.png"
+        }
+      },
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Brute of Oryx +1",
+          "wikiUrl": "https://www.realmeye.com/wiki/brute-of-oryx",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/cVF1Mzs.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

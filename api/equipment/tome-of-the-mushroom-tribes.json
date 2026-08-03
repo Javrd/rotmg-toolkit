@@ -1,0 +1,65 @@
+{
+  "slug": "tome-of-the-mushroom-tribes",
+  "name": "Tome of the Mushroom Tribes",
+  "wikiUrl": "https://www.realmeye.com/wiki/tome-of-the-mushroom-tribes",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/YShpFqv.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Untiered Tomes",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "130 MP"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6"
+      }
+    ],
+    "Healing Amount": [
+      {
+        "label": "Healing Amount",
+        "value": "90/s"
+      }
+    ],
+    "Healing Duration": [
+      {
+        "label": "Healing Duration",
+        "value": "6"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+6 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+6 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

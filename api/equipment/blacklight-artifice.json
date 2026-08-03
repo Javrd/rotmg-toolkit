@@ -1,0 +1,65 @@
+{
+  "slug": "blacklight-artifice",
+  "name": "Blacklight Artifice",
+  "wikiUrl": "https://www.realmeye.com/wiki/blacklight-artifice",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/le6qERv.png",
+  "category": "Ability",
+  "categorySlug": "traps",
+  "family": "Untiered Traps",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Huntress"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Explosion Radius": [
+      {
+        "label": "Explosion Radius",
+        "value": "8"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "1000"
+      }
+    ],
+    "Effect(s)": [
+      {
+        "label": "Effect(s)",
+        "value": "Deploys on yourself."
+      },
+      {
+        "label": "Lasting Damage",
+        "value": "Attacks enemies within 6 range dealing 225 damage every 0.4 seconds until the trap is triggered or expires."
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

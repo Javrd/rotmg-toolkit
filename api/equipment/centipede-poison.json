@@ -1,0 +1,63 @@
+{
+  "slug": "centipede-poison",
+  "name": "Centipede Poison",
+  "wikiUrl": "https://www.realmeye.com/wiki/centipede-poison",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/kkaRsxj.png",
+  "category": "Ability",
+  "categorySlug": "poisons",
+  "family": "Tiered Poisons",
+  "tier": "0",
+  "soulbound": false,
+  "classes": [
+    "Assassin"
+  ],
+  "stats": {},
+  "columns": {
+    "Particle Color": [
+      {
+        "label": "Centipede Poison Bomb",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "25 MP"
+      }
+    ],
+    "Radius": [
+      {
+        "label": "Radius",
+        "value": "2"
+      }
+    ],
+    "Total Base Damage": [
+      {
+        "label": "Total Base Damage",
+        "value": "150"
+      }
+    ],
+    "Impact Damage": [
+      {
+        "label": "Impact Damage",
+        "value": "50"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "3"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "4"
+      }
+    ]
+  },
+  "effects": [
+    "Centipede Poison Bomb"
+  ],
+  "effectDescriptions": {}
+}

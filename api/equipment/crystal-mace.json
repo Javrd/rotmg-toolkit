@@ -1,0 +1,88 @@
+{
+  "slug": "crystal-mace",
+  "name": "Crystal Mace",
+  "wikiUrl": "https://www.realmeye.com/wiki/crystal-mace",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Gy4nB24.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Untiered Maces",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "Steed",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "50-70 (60)"
+      },
+      {
+        "label": "Shots",
+        "value": "5"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Damage",
+        "value": "Does not pierce"
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "10s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 SPD"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Steed"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

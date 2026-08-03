@@ -1,0 +1,52 @@
+{
+  "slug": "novice-s-lute",
+  "name": "Novice’s Lute",
+  "wikiUrl": "https://www.realmeye.com/wiki/novice-s-lute",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/AQ1NBE2.png",
+  "category": "Ability",
+  "categorySlug": "lutes",
+  "family": "Tiered Lutes",
+  "tier": "0",
+  "soulbound": false,
+  "classes": [
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "70 MP"
+      }
+    ],
+    "Effects": [
+      {
+        "label": "Party effect",
+        "value": "[Inspired Icon] Inspired for 3s,"
+      },
+      {
+        "label": "DEF↑",
+        "value": "DEF Boost (+1 DEF) for 2s"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "4"
+      }
+    ]
+  },
+  "effects": [
+    "DEF↑",
+    "Inspired Icon"
+  ],
+  "effectDescriptions": {
+    "DEF↑": "DEF Boost (+1 DEF) for 2s"
+  }
+}

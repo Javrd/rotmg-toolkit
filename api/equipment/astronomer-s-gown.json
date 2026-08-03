@@ -1,0 +1,52 @@
+{
+  "slug": "astronomer-s-gown",
+  "name": "Astronomer’s Gown",
+  "wikiUrl": "https://www.realmeye.com/wiki/astronomer-s-gown",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/xFAergr.png",
+  "category": "Armor",
+  "categorySlug": "robes",
+  "family": "Set Tiered Robes",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Priest",
+    "Necromancer",
+    "Mystic",
+    "Sorcerer",
+    "Bard",
+    "Summoner"
+  ],
+  "stats": {
+    "ATT": 7,
+    "DEF": 15
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+7"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+15"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

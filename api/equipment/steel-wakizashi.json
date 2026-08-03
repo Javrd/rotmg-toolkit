@@ -1,0 +1,59 @@
+{
+  "slug": "steel-wakizashi",
+  "name": "Steel Wakizashi",
+  "wikiUrl": "https://www.realmeye.com/wiki/steel-wakizashi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ftd8tJw.png",
+  "category": "Ability",
+  "categorySlug": "wakizashi",
+  "family": "Tiered Wakizashi",
+  "tier": "1",
+  "soulbound": false,
+  "classes": [
+    "Samurai"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Wakizashi Slash 1"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "50"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Damage(Average Total)": [
+      {
+        "label": "Damage(Average Total)",
+        "value": "250-350"
+      },
+      {
+        "label": "Damage(Average Total)",
+        "value": "(600)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+1 DEX"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "8"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

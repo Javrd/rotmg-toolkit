@@ -1,0 +1,107 @@
+{
+  "slug": "vanguard-s-visage",
+  "name": "Vanguard’s Visage",
+  "wikiUrl": "https://www.realmeye.com/wiki/vanguard-s-visage",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/WVxIOvi.png",
+  "category": "Ability",
+  "categorySlug": "helms",
+  "family": "Untiered Helms",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Warrior"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Range (@50 Wis)": [
+      {
+        "label": "Range (@50 Wis)",
+        "value": "4.5"
+      },
+      {
+        "label": "Range (@50 Wis)",
+        "value": "(6.5)"
+      }
+    ],
+    "Berserk Duration(@50 Wis)": [
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "3s"
+      },
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "(5s)"
+      }
+    ],
+    "Speedy Duration(@50 Wis)": [
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Other Effects(@50 Wis)": [
+      {
+        "label": "Other Effects(@50 Wis)",
+        "value": "Fires a sword of projectiles towards your cursor"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Shot Range",
+        "value": "5.175 tiles"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+9 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,100"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Passes cover",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target",
+    "Passes cover": "Shots pass through obstacles"
+  }
+}

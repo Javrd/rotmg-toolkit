@@ -1,0 +1,45 @@
+{
+  "slug": "ragetalon-dagger",
+  "name": "Ragetalon Dagger",
+  "wikiUrl": "https://www.realmeye.com/wiki/ragetalon-dagger",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ihmHSeI.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Tiered Daggers",
+  "tier": "9",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "95-165 (130)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "3%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "109"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "White Bolt"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

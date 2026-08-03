@@ -1,0 +1,57 @@
+{
+  "slug": "resurrected-warrior-s-armor",
+  "name": "Resurrected Warrior’s Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/resurrected-warrior-s-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/lbaYp6l.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Untiered Heavy Armors",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 17,
+    "WIS": 10,
+    "MP": 150
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+17"
+      }
+    ],
+    "WIS": [
+      {
+        "label": "WIS",
+        "value": "+10"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+150"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

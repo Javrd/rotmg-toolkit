@@ -1,0 +1,18 @@
+{
+  "slug": "court-of-oryx",
+  "name": "Court of Oryx",
+  "wikiUrl": "https://www.realmeye.com/wiki/court-of-oryx",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+  "category": "Oryx’s Castle",
+  "difficulty": 3.5,
+  "hasData": false,
+  "error": "No 'Drops of Interest' section found",
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "daevite-progenitor",
+  "name": "Daevite Progenitor",
+  "wikiUrl": "https://www.realmeye.com/wiki/daevite-progenitor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/g2atnNN.png",
+  "category": "Ability",
+  "categorySlug": "prisms",
+  "family": "Set Tiered Prisms",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "120 MP"
+      }
+    ],
+    "Decoy Duration (seconds)": [
+      {
+        "label": "Decoy Duration (seconds)",
+        "value": "4 (6 with Flames of Genesis)"
+      }
+    ],
+    "Other Effects": [
+      {
+        "label": "Other Effects",
+        "value": "No teleport"
+      },
+      {
+        "label": "Other Effects",
+        "value": "Decoy fires shots at closest enemies"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

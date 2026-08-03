@@ -1,0 +1,67 @@
+{
+  "slug": "thundering-chorus",
+  "name": "Thundering Chorus",
+  "wikiUrl": "https://www.realmeye.com/wiki/thundering-chorus",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/49OFQJp.png",
+  "category": "Ability",
+  "categorySlug": "lutes",
+  "family": "Set Tiered Lutes",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "120 MP"
+      }
+    ],
+    "Effects": [
+      {
+        "label": "Party effect",
+        "value": "[Inspired Icon] Inspired for 4s"
+      },
+      {
+        "label": "Lightning Strike",
+        "value": "Deals 1200 Damage within 3 tiles"
+      },
+      {
+        "label": "Thundering Resonance",
+        "value": "Creates 7 additional random explosions that each deal 200-250 damage within 2 sqrs."
+      },
+      {
+        "label": "If Wind Dancer Robe equipped",
+        "value": "Cast range of the lightning strike increased to 10 tiles"
+      },
+      {
+        "label": "Effects",
+        "value": "If Augur of the Tempest equipped: Recursive thunder explosions to the lightning stike dealing 200-250 damage"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ]
+  },
+  "effects": [
+    "Inspired Icon"
+  ],
+  "effectDescriptions": {}
+}

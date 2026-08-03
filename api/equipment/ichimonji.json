@@ -1,0 +1,45 @@
+{
+  "slug": "ichimonji",
+  "name": "Ichimonji",
+  "wikiUrl": "https://www.realmeye.com/wiki/ichimonji",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/37RNq0k.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Tiered Katanas",
+  "tier": "10",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "125-180 (152.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "159"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Ichimonji Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

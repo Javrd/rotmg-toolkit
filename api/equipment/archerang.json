@@ -1,0 +1,89 @@
+{
+  "slug": "archerang",
+  "name": "Archerang",
+  "wikiUrl": "https://www.realmeye.com/wiki/archerang",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Xl7c5IL.png",
+  "category": "Ability",
+  "categorySlug": "quivers",
+  "family": "Untiered Quivers",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Archer"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Archerang Arrow"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "75 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "50-100"
+      },
+      {
+        "label": "Damage",
+        "value": "(75)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Red Down Arrow",
+        "value": "Slowed"
+      },
+      {
+        "label": "Duration",
+        "value": "2s"
+      },
+      {
+        "label": "Paralyzed Icon",
+        "value": "Paralyzed"
+      },
+      {
+        "label": "Duration",
+        "value": "2s"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Boomerang",
+        "value": "Shots boomerang"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ]
+  },
+  "effects": [
+    "Boomerang",
+    "Paralyzed Icon",
+    "Piercing",
+    "Red Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Red Down Arrow": "Slowed",
+    "Paralyzed Icon": "Paralyzed",
+    "Piercing": "Shots hit multiple targets",
+    "Boomerang": "Shots boomerang"
+  }
+}

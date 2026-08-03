@@ -1,0 +1,76 @@
+{
+  "slug": "motivational-megaphone",
+  "name": "Motivational Megaphone",
+  "wikiUrl": "https://www.realmeye.com/wiki/motivational-megaphone",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/tPfgva5.png",
+  "category": "Ability",
+  "categorySlug": "lutes",
+  "family": "Untiered Lutes",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Effects": [
+      {
+        "label": "Effects",
+        "value": "Long-Range Assault: Buffs are centered on cursor instead of on user"
+      },
+      {
+        "label": "Party Effect",
+        "value": "Within 4 squares [Red Sword] Berserk for 4s."
+      },
+      {
+        "label": "On hitting at least one target",
+        "value": "Gain [Red Cross] Healing for 3s."
+      },
+      {
+        "label": "Base Damage",
+        "value": "800 damage"
+      },
+      {
+        "label": "Radius",
+        "value": "4 tiles"
+      },
+      {
+        "label": "Defense Ignored",
+        "value": "1,000"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Red Cross",
+    "Red Sword"
+  ],
+  "effectDescriptions": {}
+}

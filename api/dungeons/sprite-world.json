@@ -1,0 +1,53 @@
+{
+  "slug": "sprite-world",
+  "name": "Sprite World",
+  "wikiUrl": "https://www.realmeye.com/wiki/sprite-world",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/K0dJRrF.png",
+  "category": "Realm Dungeons",
+  "difficulty": 2.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Limon the Sprite Goddess",
+          "wikiUrl": "https://www.realmeye.com/wiki/limon-the-sprite-goddess",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/1Mi1ZsL.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Limon the Sprite Goddess",
+          "wikiUrl": "https://www.realmeye.com/wiki/limon-the-sprite-goddess",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/1Mi1ZsL.png"
+        }
+      },
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Native Sprite God",
+          "wikiUrl": "https://www.realmeye.com/wiki/native-sprite-god",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZzmPbuN.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

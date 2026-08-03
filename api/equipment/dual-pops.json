@@ -1,0 +1,55 @@
+{
+  "slug": "dual-pops",
+  "name": "Dual Pops",
+  "wikiUrl": "https://www.realmeye.com/wiki/dual-pops",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/J1jkG6S.png",
+  "category": "Weapon",
+  "categorySlug": "dual-blades",
+  "family": "Limited Edition Dual Blades",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 1: 95-130 (112.5)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 2: 70-105 (87.5)"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "4.8"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Dual Pops Projectile 1, Dual Pops Projectile 2"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

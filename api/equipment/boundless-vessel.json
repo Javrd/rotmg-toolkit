@@ -1,0 +1,57 @@
+{
+  "slug": "boundless-vessel",
+  "name": "Boundless Vessel",
+  "wikiUrl": "https://www.realmeye.com/wiki/boundless-vessel",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/yft7wC0.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Untiered Heavy Armors",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 20,
+    "WIS": 20,
+    "MP": 300
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+20"
+      }
+    ],
+    "WIS": [
+      {
+        "label": "WIS",
+        "value": "+20"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+300"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

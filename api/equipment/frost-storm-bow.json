@@ -1,0 +1,73 @@
+{
+  "slug": "frost-storm-bow",
+  "name": "Frost Storm Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/frost-storm-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/fVhRiHv.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Limited Edition Bows",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "625-700 (662.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "33%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "14"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.04"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,400"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Frost Storm Arrow"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

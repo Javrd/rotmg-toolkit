@@ -1,0 +1,49 @@
+{
+  "slug": "ironwood-bow",
+  "name": "Ironwood Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/ironwood-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/yJVMlYD.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Tiered Bows",
+  "tier": "4",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "35-45 (40)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Side (2): 15-20 (17.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "17"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Large Standard Arrow, Ironwood Small Arrow"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

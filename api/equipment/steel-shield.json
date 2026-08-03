@@ -1,0 +1,63 @@
+{
+  "slug": "steel-shield",
+  "name": "Steel Shield",
+  "wikiUrl": "https://www.realmeye.com/wiki/steel-shield",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/r9jUoXK.png",
+  "category": "Ability",
+  "categorySlug": "shields",
+  "family": "Tiered Shields",
+  "tier": "2",
+  "soulbound": false,
+  "classes": [
+    "Knight"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Silver Shield"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      }
+    ],
+    "Damage per Shot (Average Total)": [
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "150-190 (510)"
+      },
+      {
+        "label": "Gold Five Pointed Star",
+        "value": "Stunned"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 DEF"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "15"
+      }
+    ]
+  },
+  "effects": [
+    "Gold Five Pointed Star"
+  ],
+  "effectDescriptions": {
+    "Gold Five Pointed Star": "Stunned"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "ocean-trench",
+  "name": "Ocean Trench",
+  "wikiUrl": "https://www.realmeye.com/wiki/ocean-trench",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/9GR3Ypw.png",
+  "category": "Realm Dungeons",
+  "difficulty": 5.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Coral Gift",
+          "wikiUrl": "https://www.realmeye.com/wiki/coral-gift",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/d/Enemies/Coral%20Gift.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

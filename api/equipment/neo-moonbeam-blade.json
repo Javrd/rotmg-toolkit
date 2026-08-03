@@ -1,0 +1,77 @@
+{
+  "slug": "neo-moonbeam-blade",
+  "name": "Neo Moonbeam Blade",
+  "wikiUrl": "https://www.realmeye.com/wiki/neo-moonbeam-blade",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/hrUTz7N.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Untiered Katanas",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "180"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "20"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Hitbox Size",
+        "value": "3 tiles"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "111%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.2"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Neo Ray Reskin Missile"
+      }
+    ]
+  },
+  "effects": [
+    "Passes cover"
+  ],
+  "effectDescriptions": {
+    "Passes cover": "Shots pass through obstacles"
+  }
+}

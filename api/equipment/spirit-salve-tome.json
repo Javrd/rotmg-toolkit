@@ -1,0 +1,67 @@
+{
+  "slug": "spirit-salve-tome",
+  "name": "Spirit Salve Tome",
+  "wikiUrl": "https://www.realmeye.com/wiki/spirit-salve-tome",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/XlBEH1c.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Tiered Tomes",
+  "tier": "2",
+  "soulbound": false,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "140 MP"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.4"
+      }
+    ],
+    "Heal Amount": [
+      {
+        "label": "Heal Amount",
+        "value": "100 HP"
+      }
+    ],
+    "Healing Amount": [
+      {
+        "label": "Healing Amount",
+        "value": "50/s"
+      }
+    ],
+    "Healing Duration": [
+      {
+        "label": "Healing Duration",
+        "value": "4.4"
+      }
+    ],
+    "Nova Damage": [
+      {
+        "label": "Nova Damage",
+        "value": "320"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+2 VIT"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "15"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "mmace-mmurderer",
+  "name": "MMace MMurderer",
+  "wikiUrl": "https://www.realmeye.com/wiki/mmace-mmurderer",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/fBucIXN.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Untiered Swords",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "222-333 (277.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "4"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "40%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "(20°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5"
+      },
+      {
+        "label": "Range",
+        "value": "(2.84)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,313"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "MMissile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

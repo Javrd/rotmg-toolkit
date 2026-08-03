@@ -1,0 +1,81 @@
+{
+  "slug": "sovereign-mace",
+  "name": "Sovereign Mace",
+  "wikiUrl": "https://www.realmeye.com/wiki/sovereign-mace",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/1pmGQ5w.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Tiered Maces",
+  "tier": "6",
+  "soulbound": false,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "Bear",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "235-265"
+      },
+      {
+        "label": "Damage",
+        "value": "(250)"
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "10s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "380"
+      }
+    ]
+  },
+  "effects": [
+    "Bear"
+  ],
+  "effectDescriptions": {}
+}

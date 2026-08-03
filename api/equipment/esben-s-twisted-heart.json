@@ -1,0 +1,59 @@
+{
+  "slug": "esben-s-twisted-heart",
+  "name": "Esben’s Twisted Heart",
+  "wikiUrl": "https://www.realmeye.com/wiki/esben-s-twisted-heart",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/mN3aGBc.png",
+  "category": "Ability",
+  "categorySlug": "wakizashi",
+  "family": "Untiered Wakizashi",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Samurai"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Sentinel Sword"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "120"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "Places a trap that explodes for 150 damage after 1s."
+      },
+      {
+        "label": "Shots",
+        "value": "Fires 7 converging shots around the trap"
+      }
+    ],
+    "Damage(Average Total)": [
+      {
+        "label": "Damage(Average Total)",
+        "value": "250-350 (2100)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

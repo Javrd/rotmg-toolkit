@@ -1,0 +1,73 @@
+{
+  "slug": "ice-star",
+  "name": "Ice Star",
+  "wikiUrl": "https://www.realmeye.com/wiki/ice-star",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/oIGFsxt.png",
+  "category": "Ability",
+  "categorySlug": "stars",
+  "family": "Tiered Stars",
+  "tier": "5",
+  "soulbound": false,
+  "classes": [
+    "Ninja"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "80 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "1150-1250"
+      },
+      {
+        "label": "Damage",
+        "value": "(1200)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Effect",
+        "value": "+6 DEX"
+      },
+      {
+        "label": "Green Up Arrow",
+        "value": "Speedy"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "10.8"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+9 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "139"
+      }
+    ]
+  },
+  "effects": [
+    "Green Up Arrow"
+  ],
+  "effectDescriptions": {
+    "Green Up Arrow": "Speedy"
+  }
+}

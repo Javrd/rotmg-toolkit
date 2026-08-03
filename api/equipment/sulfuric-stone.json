@@ -1,0 +1,69 @@
+{
+  "slug": "sulfuric-stone",
+  "name": "Sulfuric Stone",
+  "wikiUrl": "https://www.realmeye.com/wiki/sulfuric-stone",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/4rBV117.png",
+  "category": "Ability",
+  "categorySlug": "traps",
+  "family": "Untiered Traps",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Huntress"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Explosion Radius": [
+      {
+        "label": "Explosion Radius",
+        "value": "3"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "1300"
+      }
+    ],
+    "Effect(s)": [
+      {
+        "label": "Effect(s)",
+        "value": "Spawn a Sulfuric Stone that deals 250 impact damage."
+      },
+      {
+        "label": "Effect(s)",
+        "value": "Deals 1050 damage over 3.0 tiles after 2 seconds have passed."
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+25 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+25 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

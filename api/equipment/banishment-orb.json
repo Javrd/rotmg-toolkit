@@ -1,0 +1,59 @@
+{
+  "slug": "banishment-orb",
+  "name": "Banishment Orb",
+  "wikiUrl": "https://www.realmeye.com/wiki/banishment-orb",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/U1vsiyc.png",
+  "category": "Ability",
+  "categorySlug": "orbs",
+  "family": "Tiered Orbs",
+  "tier": "5",
+  "soulbound": false,
+  "classes": [
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "85 MP"
+      }
+    ],
+    "Stasis Duration": [
+      {
+        "label": "Stasis Duration",
+        "value": "5.5s"
+      }
+    ],
+    "Curse Duration(@75 WIS)": [
+      {
+        "label": "Curse Duration(@75 WIS)",
+        "value": "4.5s"
+      },
+      {
+        "label": "Curse Duration(@75 WIS)",
+        "value": "(7s)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "139"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

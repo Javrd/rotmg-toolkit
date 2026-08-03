@@ -1,0 +1,102 @@
+{
+  "slug": "ancient-eminence",
+  "name": "Ancient Eminence",
+  "wikiUrl": "https://www.realmeye.com/wiki/ancient-eminence",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/w1rJnK9.png",
+  "category": "Ability",
+  "categorySlug": "spells",
+  "family": "Set Tiered Spells",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Wizard"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Wizard ST Spell Projectile"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "85-145 (115)"
+      }
+    ],
+    "Total Damage": [
+      {
+        "label": "Total Damage",
+        "value": "1360-2320 (1840)"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Range",
+        "value": "12.1"
+      },
+      {
+        "label": "Acceleration",
+        "value": "20 (delay: 1)"
+      },
+      {
+        "label": "Speed Clamp",
+        "value": "30"
+      },
+      {
+        "label": "Total Damage",
+        "value": "With Defiled Equilibrium:"
+      },
+      {
+        "label": "Total Damage",
+        "value": "Summons Inferno for 4.8 seconds that deals 130-150 armor piercing damage"
+      },
+      {
+        "label": "Total Damage",
+        "value": "Summons Blizzard for 4.8 seconds that deals 90-100 damage and inflicts [Red Down Arrow] Slowed for 3 seconds"
+      },
+      {
+        "label": "Cooldown",
+        "value": "5.8 seconds"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+20 MP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Red Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

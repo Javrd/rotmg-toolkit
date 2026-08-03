@@ -1,0 +1,46 @@
+{
+  "slug": "wand-of-evocation",
+  "name": "Wand of Evocation",
+  "wikiUrl": "https://www.realmeye.com/wiki/wand-of-evocation",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/KYUtu2U.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Tiered Wands",
+  "tier": "13",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "150-190 (170)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Evocation Magic"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

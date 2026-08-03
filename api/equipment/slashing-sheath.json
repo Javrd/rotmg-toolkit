@@ -1,0 +1,65 @@
+{
+  "slug": "slashing-sheath",
+  "name": "Slashing Sheath",
+  "wikiUrl": "https://www.realmeye.com/wiki/slashing-sheath",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/fnfDBcm.png",
+  "category": "Ability",
+  "categorySlug": "sheaths",
+  "family": "Tiered Sheaths",
+  "tier": "0",
+  "soulbound": false,
+  "classes": [
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "60 MP"
+      }
+    ],
+    "Damage and Effects": [
+      {
+        "label": "Damage and Effects",
+        "value": "150-250 (200)"
+      },
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Stat Multiplier": [
+      {
+        "label": "Stat Multiplier",
+        "value": "1/5/10/16/23% [ATT↑] ATT Boost"
+      },
+      {
+        "label": "Stat Multiplier",
+        "value": "Each stack lasts for 10 second"
+      }
+    ],
+    "Dash Distance (Tiles)": [
+      {
+        "label": "Dash Distance (Tiles)",
+        "value": "1-3.5"
+      }
+    ],
+    "Trail Damage": [
+      {
+        "label": "Trail Damage",
+        "value": "200"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "4"
+      }
+    ]
+  },
+  "effects": [
+    "ATT↑"
+  ],
+  "effectDescriptions": {}
+}

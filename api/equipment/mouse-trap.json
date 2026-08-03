@@ -1,0 +1,77 @@
+{
+  "slug": "mouse-trap",
+  "name": "Mouse Trap",
+  "wikiUrl": "https://www.realmeye.com/wiki/mouse-trap",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/zi0Gc8a.png",
+  "category": "Ability",
+  "categorySlug": "traps",
+  "family": "Untiered Traps",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Huntress"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "40 MP"
+      }
+    ],
+    "Explosion Radius": [
+      {
+        "label": "Ally Rat radius",
+        "value": "?"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "?"
+      }
+    ],
+    "Effect(s)": [
+      {
+        "label": "Effect(s)",
+        "value": "Throw an ally rat at your cursor that zaps enemies for 100 damage."
+      },
+      {
+        "label": "Trick Cheese",
+        "value": "Spawn a block of cheese lasting 12 seconds."
+      },
+      {
+        "label": "Effect(s)",
+        "value": "Cheese attracts rats to orbit nearby and can sustain ally rats."
+      },
+      {
+        "label": "Trick Cheese Cooldown",
+        "value": "12 seconds"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+2 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+2 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "600"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

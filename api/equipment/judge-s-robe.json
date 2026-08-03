@@ -1,0 +1,66 @@
+{
+  "slug": "judge-s-robe",
+  "name": "Judge’s Robe",
+  "wikiUrl": "https://www.realmeye.com/wiki/judge-s-robe",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/w7qdqJK.png",
+  "category": "Armor",
+  "categorySlug": "robes",
+  "family": "Untiered Robes",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Priest",
+    "Necromancer",
+    "Mystic",
+    "Sorcerer",
+    "Bard",
+    "Summoner"
+  ],
+  "stats": {
+    "ATT": 4,
+    "DEF": 11,
+    "WIS": 9,
+    "MP": 60
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+4"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+11"
+      }
+    ],
+    "WIS": [
+      {
+        "label": "WIS",
+        "value": "+9"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+60"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

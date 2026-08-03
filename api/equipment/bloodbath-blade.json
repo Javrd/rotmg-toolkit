@@ -1,0 +1,81 @@
+{
+  "slug": "bloodbath-blade",
+  "name": "Bloodbath Blade",
+  "wikiUrl": "https://www.realmeye.com/wiki/bloodbath-blade",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ymH0sAF.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Untiered Katanas",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Bloodbath Shot",
+        "value": "155-175 (165)"
+      },
+      {
+        "label": "Boomerang",
+        "value": "Shots boomerang"
+      },
+      {
+        "label": "Bloodbath Splatter",
+        "value": "65-85 (75)"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "On Shoot",
+        "value": "[Skull] Sick on self when in combat, Gain an [ATT↑] ATT Boost the lower your HP is."
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.9"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Bloodbath Shot, Bloodbath Splatter"
+      }
+    ]
+  },
+  "effects": [
+    "ATT↑",
+    "Armor Piercing",
+    "Boomerang",
+    "Skull"
+  ],
+  "effectDescriptions": {
+    "Boomerang": "Shots boomerang",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

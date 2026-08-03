@@ -1,0 +1,59 @@
+{
+  "slug": "apiary-armor",
+  "name": "Apiary Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/apiary-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Q1YO3pa.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Set Tiered Leather Armors",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "ATT": 3,
+    "DEF": 18,
+    "SPD": 3
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+3"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+18"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+3"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

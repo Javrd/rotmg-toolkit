@@ -1,0 +1,73 @@
+{
+  "slug": "adept-mace",
+  "name": "Adept Mace",
+  "wikiUrl": "https://www.realmeye.com/wiki/adept-mace",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/qEnj6Jw.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Tiered Maces",
+  "tier": "4",
+  "soulbound": false,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "Fox",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "80 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "155-185"
+      },
+      {
+        "label": "Damage",
+        "value": "(170)"
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "10s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 ATT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "2%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "68"
+      }
+    ]
+  },
+  "effects": [
+    "Fox"
+  ],
+  "effectDescriptions": {}
+}

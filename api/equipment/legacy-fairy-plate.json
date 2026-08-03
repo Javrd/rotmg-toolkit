@@ -1,0 +1,57 @@
+{
+  "slug": "legacy-fairy-plate",
+  "name": "Legacy Fairy Plate",
+  "wikiUrl": "https://www.realmeye.com/wiki/legacy-fairy-plate",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/8SjbYWB.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Limited Edition",
+  "tier": "ST",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 20,
+    "HP": 40,
+    "MP": 40
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+20"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+40"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+40"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

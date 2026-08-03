@@ -1,0 +1,57 @@
+{
+  "slug": "cloak-of-the-mad-god",
+  "name": "Cloak of the Mad God",
+  "wikiUrl": "https://www.realmeye.com/wiki/cloak-of-the-mad-god",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/5wzATeW.png",
+  "category": "Ability",
+  "categorySlug": "cloaks",
+  "family": "Untiered Cloaks",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Invisibility Duration": [
+      {
+        "label": "Invisibility Duration",
+        "value": "3"
+      }
+    ],
+    "Other Effects": [
+      {
+        "label": "Shooting with lethal strike",
+        "value": "Grants [Wooden Shield] Armored buff for 5 seconds"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+6 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "Wooden Shield"
+  ],
+  "effectDescriptions": {}
+}

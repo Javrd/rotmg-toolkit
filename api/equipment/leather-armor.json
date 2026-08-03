@@ -1,0 +1,39 @@
+{
+  "slug": "leather-armor",
+  "name": "Leather Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/leather-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/GWTJIDr.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Tiered Leather Armors",
+  "tier": "1",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 6
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+6"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "7"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

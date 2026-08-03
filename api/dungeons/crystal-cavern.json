@@ -1,0 +1,30 @@
+{
+  "slug": "crystal-cavern",
+  "name": "Crystal Cavern",
+  "wikiUrl": "https://www.realmeye.com/wiki/crystal-cavern",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Cd6RD9G.png",
+  "category": "Realm Event Dungeons",
+  "difficulty": 7.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Crystal Entity",
+          "wikiUrl": "https://www.realmeye.com/wiki/crystal-entity",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/5DfG6i5.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

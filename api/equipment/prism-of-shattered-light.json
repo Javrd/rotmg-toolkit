@@ -1,0 +1,75 @@
+{
+  "slug": "prism-of-shattered-light",
+  "name": "Prism of Shattered Light",
+  "wikiUrl": "https://www.realmeye.com/wiki/prism-of-shattered-light",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/SqbNX3N.png",
+  "category": "Ability",
+  "categorySlug": "prisms",
+  "family": "Untiered Prisms",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "85 MP"
+      }
+    ],
+    "Decoy Duration (seconds)": [
+      {
+        "label": "Decoy Duration (seconds)",
+        "value": "6"
+      }
+    ],
+    "Other Effects": [
+      {
+        "label": "Other Effects",
+        "value": "No teleport"
+      },
+      {
+        "label": "Other Effects",
+        "value": "If used when moving, spawns a moving decoy in the opposite direction of player"
+      },
+      {
+        "label": "ATT↑",
+        "value": "ATT Boost (+15 ATT) on self for 4 seconds when used above 50% HP (cooldown: 6 seconds)"
+      },
+      {
+        "label": "Other Effects",
+        "value": "Invisible on self for 6 seconds when used below 50% HP (cooldown: 7 seconds)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+6 SPD"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+2 ATT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [
+    "ATT↑"
+  ],
+  "effectDescriptions": {
+    "ATT↑": "ATT Boost (+15 ATT) on self for 4 seconds when used above 50% HP (cooldown: 6 seconds)"
+  }
+}

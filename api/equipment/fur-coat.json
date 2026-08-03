@@ -1,0 +1,57 @@
+{
+  "slug": "fur-coat",
+  "name": "Fur Coat",
+  "wikiUrl": "https://www.realmeye.com/wiki/fur-coat",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/pXpzaEx.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Limited Edition",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 20,
+    "SPD": 6,
+    "VIT": 6
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+20"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+6"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+6"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

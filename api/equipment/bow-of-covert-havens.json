@@ -1,0 +1,49 @@
+{
+  "slug": "bow-of-covert-havens",
+  "name": "Bow of Covert Havens",
+  "wikiUrl": "https://www.realmeye.com/wiki/bow-of-covert-havens",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ARPmplz.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Tiered Bows",
+  "tier": "12",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "125-135 (130)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Side (2): 25-35 (30)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "450"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Blue Arrow, Covert Small Arrow"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

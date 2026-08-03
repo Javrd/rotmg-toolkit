@@ -1,0 +1,18 @@
+{
+  "slug": "rubber-ducky",
+  "name": "Rubber Ducky",
+  "wikiUrl": "https://www.realmeye.com/wiki/rubber-ducky",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/rkos9wN.png",
+  "group": "encounter",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "simple-wakizashi",
+  "name": "Simple Wakizashi",
+  "wikiUrl": "https://www.realmeye.com/wiki/simple-wakizashi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/dqX9WWY.png",
+  "category": "Ability",
+  "categorySlug": "wakizashi",
+  "family": "Tiered Wakizashi",
+  "tier": "0",
+  "soulbound": false,
+  "classes": [
+    "Samurai"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Wakizashi Slash 0"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "40"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Damage(Average Total)": [
+      {
+        "label": "Damage(Average Total)",
+        "value": "150-250"
+      },
+      {
+        "label": "Damage(Average Total)",
+        "value": "(400)"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "4"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

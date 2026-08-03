@@ -1,0 +1,72 @@
+{
+  "slug": "gearhawk-morning-star",
+  "name": "Gearhawk Morning Star",
+  "wikiUrl": "https://www.realmeye.com/wiki/gearhawk-morning-star",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/6DCpaAI.png",
+  "category": "Weapon",
+  "categorySlug": "morning-stars",
+  "family": "Set Tiered Morning Stars",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "80-110 (95)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+4 ATT"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+4 DEX"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "5"
+      }
+    ],
+    "Fire Rate": [
+      {
+        "label": "Fire Rate",
+        "value": "20%, 55%, 110%, 55%, 20%"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8.9"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Druid ST Weapon Projectile, Druid ST Weapon Projectile Large"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

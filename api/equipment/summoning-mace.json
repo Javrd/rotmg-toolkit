@@ -1,0 +1,61 @@
+{
+  "slug": "summoning-mace",
+  "name": "Summoning Mace",
+  "wikiUrl": "https://www.realmeye.com/wiki/summoning-mace",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Sp1fWWH.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Tiered Maces",
+  "tier": "0",
+  "soulbound": false,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "Rat",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "45 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "30-50"
+      },
+      {
+        "label": "Damage",
+        "value": "(40)"
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "9s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "3"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "4"
+      }
+    ]
+  },
+  "effects": [
+    "Rat"
+  ],
+  "effectDescriptions": {}
+}

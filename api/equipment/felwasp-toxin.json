@@ -1,0 +1,75 @@
+{
+  "slug": "felwasp-toxin",
+  "name": "Felwasp Toxin",
+  "wikiUrl": "https://www.realmeye.com/wiki/felwasp-toxin",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/rKl5kZ1.png",
+  "category": "Ability",
+  "categorySlug": "poisons",
+  "family": "Tiered Poisons",
+  "tier": "4",
+  "soulbound": false,
+  "classes": [
+    "Assassin"
+  ],
+  "stats": {},
+  "columns": {
+    "Particle Color": [
+      {
+        "label": "Felwasp Toxin Bomb",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "80 MP"
+      }
+    ],
+    "Radius": [
+      {
+        "label": "Radius",
+        "value": "4"
+      }
+    ],
+    "Total Base Damage": [
+      {
+        "label": "Total Base Damage",
+        "value": "750"
+      }
+    ],
+    "Impact Damage": [
+      {
+        "label": "Impact Damage",
+        "value": "250"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "4"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+2 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "2%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "68"
+      }
+    ]
+  },
+  "effects": [
+    "Felwasp Toxin Bomb"
+  ],
+  "effectDescriptions": {}
+}

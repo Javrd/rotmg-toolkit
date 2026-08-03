@@ -1,0 +1,55 @@
+{
+  "slug": "discharge-scepter",
+  "name": "Discharge Scepter",
+  "wikiUrl": "https://www.realmeye.com/wiki/discharge-scepter",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/God5kmx.png",
+  "category": "Ability",
+  "categorySlug": "scepters",
+  "family": "Tiered Scepters",
+  "tier": "1",
+  "soulbound": false,
+  "classes": [
+    "Sorcerer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "40 MP"
+      }
+    ],
+    "Base damage": [
+      {
+        "label": "Base damage",
+        "value": "120"
+      }
+    ],
+    "Damage per WIS&gt;50": [
+      {
+        "label": "Damage per WIS&gt;50",
+        "value": "2.5"
+      }
+    ],
+    "Reduction per target": [
+      {
+        "label": "Reduction per target",
+        "value": "12"
+      }
+    ],
+    "Base targets (WIS needed)": [
+      {
+        "label": "Base targets (WIS needed)",
+        "value": "4 (10)"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "8"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

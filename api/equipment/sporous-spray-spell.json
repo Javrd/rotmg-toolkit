@@ -1,0 +1,63 @@
+{
+  "slug": "sporous-spray-spell",
+  "name": "Sporous Spray Spell",
+  "wikiUrl": "https://www.realmeye.com/wiki/sporous-spray-spell",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/CZeEv4c.png",
+  "category": "Ability",
+  "categorySlug": "spells",
+  "family": "Untiered Spells",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Killer Shroom Explosion"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "800 (3200)"
+      }
+    ],
+    "Total Damage": [
+      {
+        "label": "Total Damage",
+        "value": "Creates a Deadly Mushroom that lasts 4.8 seconds."
+      },
+      {
+        "label": "Damage Nova",
+        "value": "explodes 4 times every 1.2 seconds for 5 seconds."
+      },
+      {
+        "label": "Deadly Mushroom",
+        "value": "800 damage within 3 sqrs every 1.2 seconds"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

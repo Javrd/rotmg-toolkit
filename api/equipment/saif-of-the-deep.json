@@ -1,0 +1,91 @@
+{
+  "slug": "saif-of-the-deep",
+  "name": "Saif of the Deep",
+  "wikiUrl": "https://www.realmeye.com/wiki/saif-of-the-deep",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/yOjaR9c.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Set Tiered Katanas",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "70-85 (77.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "70%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "6"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.4"
+      },
+      {
+        "label": "Frequency",
+        "value": "1"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "4"
+      },
+      {
+        "label": "Shots",
+        "value": "(6°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5.6"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Kensei ST Projectile 2, Kensei ST Projectile"
+      }
+    ]
+  },
+  "effects": [
+    "Passes cover",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Passes cover": "Shots pass through obstacles"
+  }
+}

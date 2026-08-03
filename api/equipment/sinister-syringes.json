@@ -1,0 +1,124 @@
+{
+  "slug": "sinister-syringes",
+  "name": "Sinister Syringes",
+  "wikiUrl": "https://www.realmeye.com/wiki/sinister-syringes",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/9FMCBfU.png",
+  "category": "Ability",
+  "categorySlug": "quivers",
+  "family": "Untiered Quivers",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Archer"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "SpecPen Sinister Syringe Shot"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "Sharps:"
+      },
+      {
+        "label": "Cost",
+        "value": "20 MP/sec"
+      },
+      {
+        "label": "Cost",
+        "value": "3 HP/shot"
+      },
+      {
+        "label": "Cost",
+        "value": "Stitches:"
+      },
+      {
+        "label": "Cost",
+        "value": "30 MP"
+      },
+      {
+        "label": "Cost",
+        "value": "10 MP/sec"
+      },
+      {
+        "label": "Cost",
+        "value": "10 MP/shot"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "20-30 (25)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Effect",
+        "value": "Sharps:"
+      },
+      {
+        "label": "While Key Held and Shooting",
+        "value": "Drain 20 MP/sec and [VIT↓] VIT Decrease (-50 VIT) for 1 second"
+      },
+      {
+        "label": "Effect",
+        "value": "Drain 3 HP/shot to fire a deadly needle ([Blood Drop] Bleeding on enemies for 3 seconds. (Bleed Damage: 80)"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target)"
+      },
+      {
+        "label": "Effect",
+        "value": "Stitches:"
+      },
+      {
+        "label": "Surgical Maneuver",
+        "value": "On key press and release, spend 30 MP for [Red Cross] Healing on self for 2 seconds"
+      },
+      {
+        "label": "While Key Held and Shooting",
+        "value": "Drain 10 MP/sec"
+      },
+      {
+        "label": "Effect",
+        "value": "Spend 10 MP/shot to heal 12 HP when below 90% HP"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+10 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Blood Drop",
+    "Red Cross",
+    "VIT↓"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target)"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "breathtaker-skull",
+  "name": "Breathtaker Skull",
+  "wikiUrl": "https://www.realmeye.com/wiki/breathtaker-skull",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/PNf4pIa.png",
+  "category": "Ability",
+  "categorySlug": "skulls",
+  "family": "Tiered Skulls",
+  "tier": "1",
+  "soulbound": false,
+  "classes": [
+    "Necromancer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "55 MP"
+      }
+    ],
+    "Radius": [
+      {
+        "label": "Radius",
+        "value": "2.75"
+      }
+    ],
+    "Base Damage": [
+      {
+        "label": "Base Damage",
+        "value": "95"
+      }
+    ],
+    "Heal": [
+      {
+        "label": "Heal",
+        "value": "55"
+      }
+    ],
+    "Undead Base Damage": [
+      {
+        "label": "Undead Base Damage",
+        "value": "110-120"
+      }
+    ],
+    "Undead Shots": [
+      {
+        "label": "Undead Shots",
+        "value": "1"
+      }
+    ],
+    "Life Steal": [
+      {
+        "label": "Life Steal",
+        "value": "7%"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 HP"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "8"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

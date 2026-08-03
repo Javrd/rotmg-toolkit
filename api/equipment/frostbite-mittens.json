@@ -1,0 +1,75 @@
+{
+  "slug": "frostbite-mittens",
+  "name": "Frostbite Mittens",
+  "wikiUrl": "https://www.realmeye.com/wiki/frostbite-mittens",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/2VJm2DZ.png",
+  "category": "Weapon",
+  "categorySlug": "longbows",
+  "family": "Limited Edition Longbows",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "95–115 (average: 105)"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+2 SPD"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      }
+    ],
+    "Fire Rate": [
+      {
+        "label": "Fire Rate",
+        "value": "100%"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.04"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Frostbite Mittens Flakes, Frostbite Mittens Flakes Plus"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

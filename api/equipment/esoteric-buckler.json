@@ -1,0 +1,93 @@
+{
+  "slug": "esoteric-buckler",
+  "name": "Esoteric Buckler",
+  "wikiUrl": "https://www.realmeye.com/wiki/esoteric-buckler",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/H5UxTMM.png",
+  "category": "Ability",
+  "categorySlug": "shields",
+  "family": "Limited Edition Shields",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Knight"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Esoteric Wave"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Damage per Shot (Average Total)": [
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "500-700 (1200)"
+      },
+      {
+        "label": "Gold Five Pointed Star",
+        "value": "Stunned"
+      },
+      {
+        "label": "Duration",
+        "value": "4s"
+      },
+      {
+        "label": "Range",
+        "value": "3.5"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "14"
+      },
+      {
+        "label": "Cooldown",
+        "value": "1.5s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+10 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [
+    "Gold Five Pointed Star"
+  ],
+  "effectDescriptions": {
+    "Gold Five Pointed Star": "Stunned"
+  }
+}

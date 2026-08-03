@@ -1,0 +1,71 @@
+{
+  "slug": "naval-uniform",
+  "name": "Naval Uniform",
+  "wikiUrl": "https://www.realmeye.com/wiki/naval-uniform",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/I9LWK9U.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Set Tier Heavy Armors",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "ATT": 8,
+    "DEF": 19,
+    "SPD": 3,
+    "DEX": -2,
+    "VIT": 6
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+8"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+19"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+3"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "-2"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+6"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "600"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

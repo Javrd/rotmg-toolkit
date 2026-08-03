@@ -1,0 +1,124 @@
+{
+  "slug": "morning-square",
+  "name": "Morning Square",
+  "wikiUrl": "https://www.realmeye.com/wiki/morning-square",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/UTOBINB.png",
+  "category": "Weapon",
+  "categorySlug": "morning-stars",
+  "family": "Untiered Morning Stars",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "45-60 (52.5)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "45-60 (52.5)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+5 WIS"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Fire Rate": [
+      {
+        "label": "Fire Rate",
+        "value": "100%,"
+      },
+      {
+        "label": "Fire Rate",
+        "value": "65%, 70%"
+      },
+      {
+        "label": "Fire Rate",
+        "value": "45%, 40%"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8"
+      },
+      {
+        "label": "Range",
+        "value": "8.64"
+      },
+      {
+        "label": "Range",
+        "value": "11.28"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Morning Square 1"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Passes cover",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target",
+    "Passes cover": "Shots pass through obstacles"
+  }
+}

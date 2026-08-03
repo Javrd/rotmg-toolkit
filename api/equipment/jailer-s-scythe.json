@@ -1,0 +1,101 @@
+{
+  "slug": "jailer-s-scythe",
+  "name": "Jailer’s Scythe",
+  "wikiUrl": "https://www.realmeye.com/wiki/jailer-s-scythe",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/jhorqyo.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Untiered Staves",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Head",
+        "value": "165-255 (210)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "60%"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Body",
+        "value": "75-100 (87.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "60%"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Head",
+        "value": "9"
+      },
+      {
+        "label": "Body",
+        "value": "7.6, 5.6"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "SpecPen Spectral Scythehead, SpecPen Spectral Scythebody"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Passes cover",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Passes cover": "Shots pass through obstacles",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

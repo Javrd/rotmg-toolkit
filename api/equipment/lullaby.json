@@ -1,0 +1,45 @@
+{
+  "slug": "lullaby",
+  "name": "Lullaby",
+  "wikiUrl": "https://www.realmeye.com/wiki/lullaby",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/A7eVjQO.png",
+  "category": "Ability",
+  "categorySlug": "lutes",
+  "family": "Untiered Lutes",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "70 MP"
+      }
+    ],
+    "Effects": [
+      {
+        "label": "On self",
+        "value": "Uninspired for 7s, [DEF↓] DEF Decrease (-10 DEF) for 10s"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ]
+  },
+  "effects": [
+    "DEF↓"
+  ],
+  "effectDescriptions": {}
+}

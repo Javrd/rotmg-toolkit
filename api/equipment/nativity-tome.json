@@ -1,0 +1,81 @@
+{
+  "slug": "nativity-tome",
+  "name": "Nativity Tome",
+  "wikiUrl": "https://www.realmeye.com/wiki/nativity-tome",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/6P4jYrD.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Limited Edition Tomes",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "180 MP"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.2"
+      }
+    ],
+    "Heal Amount": [
+      {
+        "label": "Heal Amount",
+        "value": "140 HP"
+      }
+    ],
+    "Healing Amount": [
+      {
+        "label": "Healing Amount",
+        "value": "70/s"
+      }
+    ],
+    "Healing Duration": [
+      {
+        "label": "Healing Duration",
+        "value": "4.4"
+      }
+    ],
+    "Nova Damage": [
+      {
+        "label": "Nova Damage",
+        "value": "640"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+20 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 MP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+6 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "380"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

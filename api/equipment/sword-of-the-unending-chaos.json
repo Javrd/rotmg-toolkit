@@ -1,0 +1,61 @@
+{
+  "slug": "sword-of-the-unending-chaos",
+  "name": "Sword of the Unending Chaos",
+  "wikiUrl": "https://www.realmeye.com/wiki/sword-of-the-unending-chaos",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/JcofTqq.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Limited Edition Swords",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "220-275 (247.5)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+2 ATT"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "3.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "450"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "MotMG Void Blast"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

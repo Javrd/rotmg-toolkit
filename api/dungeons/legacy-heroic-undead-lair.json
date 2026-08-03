@@ -1,0 +1,30 @@
+{
+  "slug": "legacy-heroic-undead-lair",
+  "name": "Legacy Heroic Undead Lair",
+  "wikiUrl": "https://www.realmeye.com/wiki/legacy-heroic-undead-lair",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/G4CcZWp.png",
+  "category": "Heroic Dungeons",
+  "difficulty": 5.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Greater Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vA01btN.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Heroic Septavius the Ghost God",
+          "wikiUrl": "https://www.realmeye.com/wiki/heroic-septavius-the-ghost-god",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/WmL1qda.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

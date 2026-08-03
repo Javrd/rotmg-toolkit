@@ -1,0 +1,61 @@
+{
+  "slug": "fiery-katana",
+  "name": "Fiery Katana",
+  "wikiUrl": "https://www.realmeye.com/wiki/fiery-katana",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/HHeumlt.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Set Tiered Katanas",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "Has two attacks. See here for info"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "(90°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5.33"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "2KenseiST Katana Projectile 1, 2KenseiST Katana Projectile 2"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

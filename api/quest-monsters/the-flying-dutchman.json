@@ -1,0 +1,18 @@
+{
+  "slug": "the-flying-dutchman",
+  "name": "The Flying Dutchman",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-flying-dutchman",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/dycmpQ3.png",
+  "group": "encounter",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

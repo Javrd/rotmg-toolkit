@@ -1,0 +1,75 @@
+{
+  "slug": "beastly-mane",
+  "name": "Beastly Mane",
+  "wikiUrl": "https://www.realmeye.com/wiki/beastly-mane",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/l1Neycg.png",
+  "category": "Ability",
+  "categorySlug": "helms",
+  "family": "Limited Edition Helms",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Warrior"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "95 MP"
+      }
+    ],
+    "Range (@50 Wis)": [
+      {
+        "label": "Range (@50 Wis)",
+        "value": "4"
+      }
+    ],
+    "Berserk Duration(@50 Wis)": [
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "4s"
+      }
+    ],
+    "Speedy Duration(@50 Wis)": [
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Other Effects (@50 Wis)": [
+      {
+        "label": "Moon Blast",
+        "value": "1000 damage"
+      },
+      {
+        "label": "Moon Rage",
+        "value": "Fires a moon blast when hit for at least 40 damage."
+      },
+      {
+        "label": "Cooldown",
+        "value": "3s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+7 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

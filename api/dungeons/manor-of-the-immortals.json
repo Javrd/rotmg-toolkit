@@ -1,0 +1,42 @@
+{
+  "slug": "manor-of-the-immortals",
+  "name": "Manor of the Immortals",
+  "wikiUrl": "https://www.realmeye.com/wiki/manor-of-the-immortals",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/paEB8Qu.png",
+  "category": "Realm Dungeons",
+  "difficulty": 4.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Lord Ruthven",
+          "wikiUrl": "https://www.realmeye.com/wiki/lord-ruthven",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/xsS0U0t.png"
+        }
+      }
+    ],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Coffin",
+          "wikiUrl": "https://www.realmeye.com/wiki/coffin",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/3b4WYED.png"
+        }
+      }
+    ]
+  }
+}

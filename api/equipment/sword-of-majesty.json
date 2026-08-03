@@ -1,0 +1,45 @@
+{
+  "slug": "sword-of-majesty",
+  "name": "Sword of Majesty",
+  "wikiUrl": "https://www.realmeye.com/wiki/sword-of-majesty",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/nvI2uq3.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Tiered Swords",
+  "tier": "14",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "250-305 (277.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Majesty Bolt"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

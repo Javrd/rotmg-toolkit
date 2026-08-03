@@ -1,0 +1,40 @@
+{
+  "slug": "eldritch-wand",
+  "name": "Eldritch Wand",
+  "wikiUrl": "https://www.realmeye.com/wiki/eldritch-wand",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/zDO30rU.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Tiered Wands",
+  "tier": "4",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "65-95 (80)"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "17"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Blue Magic"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "mirror-cloak",
+  "name": "Mirror Cloak",
+  "wikiUrl": "https://www.realmeye.com/wiki/mirror-cloak",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/WCztONA.png",
+  "category": "Ability",
+  "categorySlug": "cloaks",
+  "family": "Untiered Cloaks",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Invisibility Duration": [
+      {
+        "label": "Invisibility Duration",
+        "value": "7"
+      }
+    ],
+    "Other Effects": [
+      {
+        "label": "Other Effects",
+        "value": "Creates a mirror clone and [Weak Icon] Weak the user for 7 seconds"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ]
+  },
+  "effects": [
+    "Weak Icon"
+  ],
+  "effectDescriptions": {}
+}

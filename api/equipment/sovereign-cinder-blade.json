@@ -1,0 +1,69 @@
+{
+  "slug": "sovereign-cinder-blade",
+  "name": "Sovereign Cinder-Blade",
+  "wikiUrl": "https://www.realmeye.com/wiki/sovereign-cinder-blade",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/6v3A2UV.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Limited Edition Katanas",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "480-555 (517.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "19.5"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "45%"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+5 SPD"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.76"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Cinder Projectile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

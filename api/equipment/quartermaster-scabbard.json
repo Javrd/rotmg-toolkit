@@ -1,0 +1,99 @@
+{
+  "slug": "quartermaster-scabbard",
+  "name": "Quartermaster Scabbard",
+  "wikiUrl": "https://www.realmeye.com/wiki/quartermaster-scabbard",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/IyEy6lE.png",
+  "category": "Ability",
+  "categorySlug": "sheaths",
+  "family": "Untiered Sheaths",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Damage and Effects": [
+      {
+        "label": "Damage and Effects",
+        "value": "500"
+      },
+      {
+        "label": "Shots",
+        "value": "2"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Boomerang",
+        "value": "Shots boomerang"
+      },
+      {
+        "label": "On Channeling",
+        "value": "Summons a stationary decoy"
+      },
+      {
+        "label": "On dash",
+        "value": "[Red Cross] Healing for 5 seconds"
+      }
+    ],
+    "Stat Multiplier": [
+      {
+        "label": "Stat Multiplier",
+        "value": "8/12/17/23/30% [HP↑] HP Boost"
+      },
+      {
+        "label": "Stat Multiplier",
+        "value": "Each stack lasts for 10 second"
+      }
+    ],
+    "Dash Distance (Tiles)": [
+      {
+        "label": "Dash Distance (Tiles)",
+        "value": "7"
+      }
+    ],
+    "Trail Damage": [
+      {
+        "label": "Trail Damage",
+        "value": "1000"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+30 HP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [
+    "Boomerang",
+    "HP↑",
+    "Piercing",
+    "Red Cross"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Boomerang": "Shots boomerang"
+  }
+}

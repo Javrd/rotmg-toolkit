@@ -1,0 +1,77 @@
+{
+  "slug": "tablet-of-the-king-s-avatar",
+  "name": "Tablet of the King’s Avatar",
+  "wikiUrl": "https://www.realmeye.com/wiki/tablet-of-the-king-s-avatar",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/aK1DMOZ.png",
+  "category": "Ability",
+  "categorySlug": "spells",
+  "family": "Untiered Spells",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Fire Claw"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "120 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "260-280 (270)"
+      }
+    ],
+    "Total Damage": [
+      {
+        "label": "Total Damage",
+        "value": "3900-4200 (4050)"
+      },
+      {
+        "label": "Boomerang",
+        "value": "Shots boomerang"
+      },
+      {
+        "label": "Range",
+        "value": "1"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 WIS"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,100"
+      }
+    ]
+  },
+  "effects": [
+    "Boomerang"
+  ],
+  "effectDescriptions": {
+    "Boomerang": "Shots boomerang"
+  }
+}

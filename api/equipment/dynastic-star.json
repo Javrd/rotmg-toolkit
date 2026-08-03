@@ -1,0 +1,81 @@
+{
+  "slug": "dynastic-star",
+  "name": "Dynastic Star",
+  "wikiUrl": "https://www.realmeye.com/wiki/dynastic-star",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/UDZUnHv.png",
+  "category": "Ability",
+  "categorySlug": "stars",
+  "family": "Tiered Stars",
+  "tier": "7",
+  "soulbound": true,
+  "classes": [
+    "Ninja"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "1550-1650"
+      },
+      {
+        "label": "Damage",
+        "value": "(1600)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Effect",
+        "value": "+7 DEX"
+      },
+      {
+        "label": "Green Up Arrow",
+        "value": "Speedy"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "10.8"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+12 VIT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "570"
+      }
+    ]
+  },
+  "effects": [
+    "Green Up Arrow"
+  ],
+  "effectDescriptions": {
+    "Green Up Arrow": "Speedy"
+  }
+}

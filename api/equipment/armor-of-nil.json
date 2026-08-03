@@ -1,0 +1,52 @@
+{
+  "slug": "armor-of-nil",
+  "name": "Armor of Nil",
+  "wikiUrl": "https://www.realmeye.com/wiki/armor-of-nil",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/l7uFrzx.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Untiered Leather Armors",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 30,
+    "SPD": -5
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+30"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "-5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,100"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

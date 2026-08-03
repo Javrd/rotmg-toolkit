@@ -1,0 +1,84 @@
+{
+  "slug": "mace-of-the-depths",
+  "name": "Mace of the Depths",
+  "wikiUrl": "https://www.realmeye.com/wiki/mace-of-the-depths",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/XPMdiKq.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Untiered Maces",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "Spider",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "120 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "200-400 (300)"
+      },
+      {
+        "label": "Burst",
+        "value": "200-400 damage every 0.4 seconds"
+      },
+      {
+        "label": "Life Steal",
+        "value": "10% of damage dealt"
+      },
+      {
+        "label": "Red Down Arrow",
+        "value": "Slowed on enemies for 3 seconds"
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "10s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+6 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [
+    "Red Down Arrow",
+    "Spider"
+  ],
+  "effectDescriptions": {
+    "Red Down Arrow": "Slowed on enemies for 3 seconds"
+  }
+}

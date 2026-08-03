@@ -1,0 +1,73 @@
+{
+  "slug": "anatis-staff",
+  "name": "Anatis Staff",
+  "wikiUrl": "https://www.realmeye.com/wiki/anatis-staff",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ioMzoA7.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Limited Edition Staves",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "80-100 (90)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "2.5"
+      },
+      {
+        "label": "Amplitude",
+        "value": "1"
+      },
+      {
+        "label": "Frequency",
+        "value": "1"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "25%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "3%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "550"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Anatis"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

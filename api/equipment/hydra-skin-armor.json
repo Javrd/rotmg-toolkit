@@ -1,0 +1,52 @@
+{
+  "slug": "hydra-skin-armor",
+  "name": "Hydra Skin Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/hydra-skin-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Wvu0LU7.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Tiered Leather Armors",
+  "tier": "12",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 18,
+    "DEX": 5
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+18"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "435"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

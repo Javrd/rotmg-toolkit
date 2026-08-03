@@ -1,0 +1,81 @@
+{
+  "slug": "heartsteel-claymore",
+  "name": "Heartsteel Claymore",
+  "wikiUrl": "https://www.realmeye.com/wiki/heartsteel-claymore",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/BC8ab8F.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Set Tiered Swords",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Bullet 1",
+        "value": "325-375 (350)"
+      },
+      {
+        "label": "Bullet 1 Rate of Fire",
+        "value": "60%"
+      },
+      {
+        "label": "Bullet 2",
+        "value": "150-200 (175)"
+      },
+      {
+        "label": "Bullet 2 Rate of Fire",
+        "value": "20%"
+      },
+      {
+        "label": "Bullet 2 Projectile Speed",
+        "value": "20"
+      },
+      {
+        "label": "Bullet 2 Acceleration",
+        "value": "-50 tiles/second^2 after 0 seconds"
+      },
+      {
+        "label": "Bullet 2 Min Speed",
+        "value": "0 tiles/second"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Heartsteel Claymore Projectile, Heartsteel Claymore Side Projectile, Heartsteel Claymore Full Set Projectile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

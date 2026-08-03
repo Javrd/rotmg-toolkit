@@ -1,0 +1,69 @@
+{
+  "slug": "jagged-hatchet",
+  "name": "Jagged Hatchet",
+  "wikiUrl": "https://www.realmeye.com/wiki/jagged-hatchet",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/pRfKyoP.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Set Tiered Swords",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "175-200 (187.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "15"
+      },
+      {
+        "label": "Blood Drop",
+        "value": "Bleeding on enemies for 3 seconds. (Bleed Damage: 85)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.67"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Jagged Hatchet Normal, Jagged Hatchet Large"
+      }
+    ]
+  },
+  "effects": [
+    "Blood Drop"
+  ],
+  "effectDescriptions": {
+    "Blood Drop": "Bleeding on enemies for 3 seconds. (Bleed Damage: 85)"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "nutrient-rich-carrot-blade",
+  "name": "Nutrient Rich Carrot Blade",
+  "wikiUrl": "https://www.realmeye.com/wiki/nutrient-rich-carrot-blade",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/aMVQCXN.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Limited Edition Swords",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "125-150 (137.5)"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.85"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Carrot Pala Blast, Carrot Pala Big Blast"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

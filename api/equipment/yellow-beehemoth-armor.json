@@ -1,0 +1,59 @@
+{
+  "slug": "yellow-beehemoth-armor",
+  "name": "Yellow Beehemoth Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/yellow-beehemoth-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/lZCU4nx.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Untiered Leather Armors",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 18,
+    "SPD": 5,
+    "DEX": 3
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+18"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+5"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+3"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

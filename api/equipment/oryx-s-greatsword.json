@@ -1,0 +1,73 @@
+{
+  "slug": "oryx-s-greatsword",
+  "name": "Oryx’s Greatsword",
+  "wikiUrl": "https://www.realmeye.com/wiki/oryx-s-greatsword",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/gdYJT99.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Set Tiered Swords",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "185-215 (200)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "7"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "120%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "3.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Knight DPS Bolt, Oryx DPS Big Bolt"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "sleigh-bell-staff",
+  "name": "Sleigh Bell Staff",
+  "wikiUrl": "https://www.realmeye.com/wiki/sleigh-bell-staff",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/5sZxjSW.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Limited Edition Staves",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "205-290 (247.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "14"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.4"
+      },
+      {
+        "label": "Frequency",
+        "value": "2"
+      },
+      {
+        "label": "Burst Count",
+        "value": "4"
+      },
+      {
+        "label": "Burst Delay",
+        "value": "1.8s"
+      },
+      {
+        "label": "Minimum Burst Delay",
+        "value": "0.8s"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "150%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8.4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Oryxmas Staff Projectile"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

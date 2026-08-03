@@ -1,0 +1,83 @@
+{
+  "slug": "pollen-incendiary",
+  "name": "Pollen Incendiary",
+  "wikiUrl": "https://www.realmeye.com/wiki/pollen-incendiary",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Aa4eL97.png",
+  "category": "Ability",
+  "categorySlug": "poisons",
+  "family": "Untiered Poisons",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Assassin"
+  ],
+  "stats": {},
+  "columns": {
+    "Particle Color": [
+      {
+        "label": "Pollen Incendiary Bomb",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "120 MP"
+      }
+    ],
+    "Radius": [
+      {
+        "label": "Radius",
+        "value": "10"
+      }
+    ],
+    "Total Base Damage": [
+      {
+        "label": "Total Base Damage",
+        "value": "600"
+      }
+    ],
+    "Impact Damage": [
+      {
+        "label": "Impact Damage",
+        "value": "600"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "10"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "-6 VIT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "-6 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Pollen Incendiary Bomb"
+  ],
+  "effectDescriptions": {}
+}

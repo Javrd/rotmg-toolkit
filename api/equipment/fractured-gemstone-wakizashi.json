@@ -1,0 +1,75 @@
+{
+  "slug": "fractured-gemstone-wakizashi",
+  "name": "Fractured Gemstone Wakizashi",
+  "wikiUrl": "https://www.realmeye.com/wiki/fractured-gemstone-wakizashi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/d6dBKvS.png",
+  "category": "Ability",
+  "categorySlug": "wakizashi",
+  "family": "Untiered Wakizashi",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Samurai"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Friendly Neighborhood Gemstone, Refraction Bolt"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "Summons sentient crystal star orbiting you for 5 seconds"
+      },
+      {
+        "label": "Crystal Star",
+        "value": "Shoots bursts at nearby enemies deals 250-300 damage per hit"
+      }
+    ],
+    "Damage(Average Total)": [
+      {
+        "label": "Damage(Average Total)",
+        "value": "350"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Grey Down Arrow",
+        "value": "Exposed for 3s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Grey Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Grey Down Arrow": "Exposed for 3s"
+  }
+}

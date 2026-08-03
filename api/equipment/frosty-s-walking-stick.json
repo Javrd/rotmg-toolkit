@@ -1,0 +1,57 @@
+{
+  "slug": "frosty-s-walking-stick",
+  "name": "Frosty’s Walking Stick",
+  "wikiUrl": "https://www.realmeye.com/wiki/frosty-s-walking-stick",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/w6IINCB.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Limited Edition Staves",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "70-120 (95)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8.55"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "450"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "XMAS White Flame"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

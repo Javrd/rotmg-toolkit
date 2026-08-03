@@ -1,0 +1,66 @@
+{
+  "slug": "rags-of-the-host",
+  "name": "Rags of the Host",
+  "wikiUrl": "https://www.realmeye.com/wiki/rags-of-the-host",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/rCC0ZPH.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Set Tiered Leather Armors",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "ATT": 6,
+    "DEF": 18,
+    "VIT": -4,
+    "WIS": 2
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+6"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+18"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "-4"
+      }
+    ],
+    "WIS": [
+      {
+        "label": "WIS",
+        "value": "+2"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

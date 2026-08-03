@@ -1,0 +1,41 @@
+{
+  "slug": "white-snake-invasion-iii",
+  "name": "White Snake Invasion III",
+  "wikiUrl": "https://www.realmeye.com/wiki/white-snake-invasion-iii",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/aicgQzn.png",
+  "category": "Special Event Dungeons",
+  "difficulty": 8.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Greater Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/KBpSlXq.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "The White Snake",
+          "wikiUrl": "https://www.realmeye.com/wiki/the-white-snake",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/loen76V.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/poXVCu8.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "The White Snake",
+          "wikiUrl": "https://www.realmeye.com/wiki/the-white-snake",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/loen76V.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "ornamental-prism",
+  "name": "Ornamental Prism",
+  "wikiUrl": "https://www.realmeye.com/wiki/ornamental-prism",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/kAJmgI1.png",
+  "category": "Ability",
+  "categorySlug": "prisms",
+  "family": "Limited Edition Prisms",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Decoy Duration (seconds)": [
+      {
+        "label": "Decoy Duration (seconds)",
+        "value": "9"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+6 WIS"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "380"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

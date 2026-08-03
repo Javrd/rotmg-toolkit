@@ -1,0 +1,73 @@
+{
+  "slug": "neo-fire-blade",
+  "name": "Neo Fire Blade",
+  "wikiUrl": "https://www.realmeye.com/wiki/neo-fire-blade",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/mutMCKR.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Untiered Katanas",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "130-160 (145)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "133%"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.5"
+      },
+      {
+        "label": "Frequency",
+        "value": "1"
+      },
+      {
+        "label": "On Shoot",
+        "value": "Release a fire burst dealing 1,000 damage over 6 seconds within 6 tiles (3 second cooldown)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5.2"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Neo Doku Reskin Missile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

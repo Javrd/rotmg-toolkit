@@ -1,0 +1,99 @@
+{
+  "slug": "nectar-crossfire",
+  "name": "Nectar Crossfire",
+  "wikiUrl": "https://www.realmeye.com/wiki/nectar-crossfire",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/U6AjaHd.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Set Tiered Bows",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "125-135 (130)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "16"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Side",
+        "value": "80"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "16"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.5"
+      },
+      {
+        "label": "Frequency",
+        "value": "3"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Main",
+        "value": "1"
+      },
+      {
+        "label": "Side",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.04"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "BeeArrow, Buzzy Arrow"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

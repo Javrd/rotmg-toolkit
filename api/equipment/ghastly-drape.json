@@ -1,0 +1,65 @@
+{
+  "slug": "ghastly-drape",
+  "name": "Ghastly Drape",
+  "wikiUrl": "https://www.realmeye.com/wiki/ghastly-drape",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/vzdkbXL.png",
+  "category": "Ability",
+  "categorySlug": "cloaks",
+  "family": "Set Tiered Cloaks",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Rogue"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "85 MP"
+      }
+    ],
+    "Invisibility Duration": [
+      {
+        "label": "Invisibility Duration",
+        "value": "5"
+      }
+    ],
+    "Other Effects": [
+      {
+        "label": "Other Effects",
+        "value": "Shoots 6 shots"
+      },
+      {
+        "label": "With Full Set",
+        "value": "Inflicting [Paralyzed Icon] Paralyzed to enemies for 2.5 seconds"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+3 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "Paralyzed Icon"
+  ],
+  "effectDescriptions": {}
+}

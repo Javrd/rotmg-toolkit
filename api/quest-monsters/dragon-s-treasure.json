@@ -1,0 +1,30 @@
+{
+  "slug": "dragon-s-treasure",
+  "name": "Dragon’s Treasure",
+  "wikiUrl": "https://www.realmeye.com/wiki/dragon-s-treasure",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/nyTBPrP.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

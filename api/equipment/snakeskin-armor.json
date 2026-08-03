@@ -1,0 +1,59 @@
+{
+  "slug": "snakeskin-armor",
+  "name": "Snakeskin Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/snakeskin-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/g1QQ6Ee.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Untiered Leather Armors",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 15,
+    "SPD": 4,
+    "DEX": 4
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+15"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+4"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "moonlight-village",
+  "name": "Moonlight Village",
+  "wikiUrl": "https://www.realmeye.com/wiki/moonlight-village",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/CHqjDCE.png",
+  "category": "Realm Dungeons",
+  "difficulty": 9.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Greater Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/lWNsTd9.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Dancer Miko",
+          "wikiUrl": "https://www.realmeye.com/wiki/dancer-miko",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/bYKgOLW.gif"
+        }
+      },
+      {
+        "name": "Greater Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vA01btN.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Dancer Miko",
+          "wikiUrl": "https://www.realmeye.com/wiki/dancer-miko",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/bYKgOLW.gif"
+        }
+      },
+      {
+        "name": "Greater Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/sYB43YR.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Dancer Miko",
+          "wikiUrl": "https://www.realmeye.com/wiki/dancer-miko",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/bYKgOLW.gif"
+        }
+      }
+    ],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

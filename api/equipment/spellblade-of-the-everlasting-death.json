@@ -1,0 +1,49 @@
+{
+  "slug": "spellblade-of-the-everlasting-death",
+  "name": "Spellblade of the Everlasting Death",
+  "wikiUrl": "https://www.realmeye.com/wiki/spellblade-of-the-everlasting-death",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/WYFKLKN.png",
+  "category": "Weapon",
+  "categorySlug": "spellblades",
+  "family": "Tiered Spellblades",
+  "tier": "14",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Small",
+        "value": "115-140 (127.5)"
+      },
+      {
+        "label": "Large",
+        "value": "85-100 (92.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Small Bluer Missle, Large Bluer Missle"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

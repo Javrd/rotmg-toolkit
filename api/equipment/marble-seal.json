@@ -1,0 +1,67 @@
+{
+  "slug": "marble-seal",
+  "name": "Marble Seal",
+  "wikiUrl": "https://www.realmeye.com/wiki/marble-seal",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hq1NeMV.png",
+  "category": "Ability",
+  "categorySlug": "seals",
+  "family": "Untiered Seals",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "135 MP"
+      }
+    ],
+    "Range (@75 WIS)": [
+      {
+        "label": "Range (@75 WIS)",
+        "value": "3"
+      }
+    ],
+    "HP Boost (@75 WIS)": [
+      {
+        "label": "HP Boost (@75 WIS)",
+        "value": "-"
+      }
+    ],
+    "Healing/Damaging Duration(@75 WIS)": [
+      {
+        "label": "Healing/Damaging Duration(@75 WIS)",
+        "value": "3.2 maximum"
+      }
+    ],
+    "HP Boost Duration (@75 WIS)": [
+      {
+        "label": "HP Boost Duration (@75 WIS)",
+        "value": "-"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,300"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

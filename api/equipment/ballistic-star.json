@@ -1,0 +1,95 @@
+{
+  "slug": "ballistic-star",
+  "name": "Ballistic Star",
+  "wikiUrl": "https://www.realmeye.com/wiki/ballistic-star",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/l0PduTP.png",
+  "category": "Ability",
+  "categorySlug": "stars",
+  "family": "Untiered Stars",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Ninja"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "350-450"
+      },
+      {
+        "label": "Damage",
+        "value": "(400)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Effect",
+        "value": "Throws 8 parametric stars"
+      },
+      {
+        "label": "Effect",
+        "value": "Inner 4 projectiles have half the range of outer and inflict [Gold Five Pointed Star] Stunned on enemies fo 3 seconds"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Parametric",
+        "value": "Shots are parametric"
+      },
+      {
+        "label": "Effect on self",
+        "value": "[Red Cross] Healing for 4 seconds"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "12.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,300"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Gold Five Pointed Star",
+    "Parametric",
+    "Passes cover",
+    "Piercing",
+    "Red Cross"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target",
+    "Passes cover": "Shots pass through obstacles",
+    "Parametric": "Shots are parametric"
+  }
+}

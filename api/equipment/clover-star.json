@@ -1,0 +1,75 @@
+{
+  "slug": "clover-star",
+  "name": "Clover Star",
+  "wikiUrl": "https://www.realmeye.com/wiki/clover-star",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/xyftoXy.png",
+  "category": "Ability",
+  "categorySlug": "stars",
+  "family": "Limited Edition Stars",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Ninja"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "30 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "80-90"
+      },
+      {
+        "label": "Damage",
+        "value": "(85)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Green Up Arrow",
+        "value": "Speedy"
+      },
+      {
+        "label": "Parametric",
+        "value": "Shots are parametric"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "3"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "100"
+      }
+    ]
+  },
+  "effects": [
+    "Green Up Arrow",
+    "Parametric",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Green Up Arrow": "Speedy",
+    "Parametric": "Shots are parametric",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "blazon-bow",
+  "name": "Blazon Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/blazon-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/xq24Gx6.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Untiered Bows",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "65-130 (97.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "200%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "16.5"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+30 MP"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.59"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Thousand Reskin Missile"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

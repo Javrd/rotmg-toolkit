@@ -1,0 +1,79 @@
+{
+  "slug": "the-triangle",
+  "name": "The Triangle",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-triangle",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/xfmL60S.png",
+  "category": "Ability",
+  "categorySlug": "lutes",
+  "family": "Untiered Lutes",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Effects": [
+      {
+        "label": "Self Only",
+        "value": "On use, quadruples shot speed for 4 seconds."
+      },
+      {
+        "label": "ATT Boost",
+        "value": "+5 ATT"
+      },
+      {
+        "label": "ATT Boost Range",
+        "value": "4 tiles"
+      },
+      {
+        "label": "ATT Boost Duration",
+        "value": "4 seconds"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+3 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [
+    "Passes cover",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Passes cover": "Shots pass through obstacles"
+  }
+}

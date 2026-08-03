@@ -1,0 +1,83 @@
+{
+  "slug": "necrofish-poison",
+  "name": "Necrofish Poison",
+  "wikiUrl": "https://www.realmeye.com/wiki/necrofish-poison",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Ig6IxBQ.png",
+  "category": "Ability",
+  "categorySlug": "poisons",
+  "family": "Tiered Poisons",
+  "tier": "7",
+  "soulbound": true,
+  "classes": [
+    "Assassin"
+  ],
+  "stats": {},
+  "columns": {
+    "Particle Color": [
+      {
+        "label": "Necrofish Poison Bomb",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Radius": [
+      {
+        "label": "Radius",
+        "value": "5.5"
+      }
+    ],
+    "Total Base Damage": [
+      {
+        "label": "Total Base Damage",
+        "value": "1250"
+      }
+    ],
+    "Impact Damage": [
+      {
+        "label": "Impact Damage",
+        "value": "400"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "4.8"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 WIS"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "570"
+      }
+    ]
+  },
+  "effects": [
+    "Necrofish Poison Bomb"
+  ],
+  "effectDescriptions": {}
+}

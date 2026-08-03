@@ -1,0 +1,83 @@
+{
+  "slug": "ocular-entrapment",
+  "name": "Ocular Entrapment",
+  "wikiUrl": "https://www.realmeye.com/wiki/ocular-entrapment",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/3gEiYPi.png",
+  "category": "Ability",
+  "categorySlug": "traps",
+  "family": "Untiered Traps",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Huntress"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "80 MP"
+      }
+    ],
+    "Explosion Radius": [
+      {
+        "label": "Explosion Radius",
+        "value": "3"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "1200"
+      }
+    ],
+    "Effect(s)": [
+      {
+        "label": "Eyebawl Toss",
+        "value": "Summon a lingering eyebawl that lasts for 10 seconds"
+      },
+      {
+        "label": "Effect(s)",
+        "value": "Upon repeated throws targeting an Eyebawl, it deals 1200 damage within 6 sqrs"
+      },
+      {
+        "label": "Eyebawl Damage Cooldown",
+        "value": "0.8 seconds"
+      },
+      {
+        "label": "Eyebawl Toss Cooldown",
+        "value": "2 seconds"
+      },
+      {
+        "label": "On enemies",
+        "value": "Inflicts [Red Down Arrow] Slowed for 3 seconds"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Red Down Arrow"
+  ],
+  "effectDescriptions": {}
+}

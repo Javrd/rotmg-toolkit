@@ -1,0 +1,103 @@
+{
+  "slug": "wakizashi-of-crossing-fires",
+  "name": "Wakizashi of Crossing Fires",
+  "wikiUrl": "https://www.realmeye.com/wiki/wakizashi-of-crossing-fires",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/oSQ2Xq5.png",
+  "category": "Ability",
+  "categorySlug": "wakizashi",
+  "family": "Untiered Wakizashi",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Samurai"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Wakizashi Fire"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3 + 3"
+      },
+      {
+        "label": "Offset Angles",
+        "value": "±20°"
+      },
+      {
+        "label": "Shots",
+        "value": "(Shots come from both sides)"
+      },
+      {
+        "label": "Gap Angles",
+        "value": "±45°"
+      },
+      {
+        "label": "Shot Gap",
+        "value": "0.5"
+      }
+    ],
+    "Damage(Average Total)": [
+      {
+        "label": "Damage(Average Total)",
+        "value": "400-450"
+      },
+      {
+        "label": "Damage(Average Total)",
+        "value": "(2550)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Grey Down Arrow",
+        "value": "Exposed for 3s"
+      },
+      {
+        "label": "Cast Range",
+        "value": "4"
+      },
+      {
+        "label": "Shot Range",
+        "value": "6.4"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+8 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+2 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Grey Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Grey Down Arrow": "Exposed for 3s"
+  }
+}

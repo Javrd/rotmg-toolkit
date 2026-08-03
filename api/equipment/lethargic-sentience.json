@@ -1,0 +1,78 @@
+{
+  "slug": "lethargic-sentience",
+  "name": "Lethargic Sentience",
+  "wikiUrl": "https://www.realmeye.com/wiki/lethargic-sentience",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/yuauQou.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Limited Edition Wands",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "20-40 (30)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "1.25"
+      },
+      {
+        "label": "Parametric",
+        "value": "Shots are parametric"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "25%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "4"
+      },
+      {
+        "label": "Shots",
+        "value": "(90°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "3.75"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "0"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Fruitpocalypse"
+      }
+    ]
+  },
+  "effects": [
+    "Parametric",
+    "Passes cover"
+  ],
+  "effectDescriptions": {
+    "Parametric": "Shots are parametric",
+    "Passes cover": "Shots pass through obstacles"
+  }
+}

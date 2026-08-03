@@ -1,0 +1,61 @@
+{
+  "slug": "neo-acidic-slasher",
+  "name": "Neo Acidic Slasher",
+  "wikiUrl": "https://www.realmeye.com/wiki/neo-acidic-slasher",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/77GJ8EK.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Untiered Swords",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "650-700 (675)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "40%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Neo Stone Reskin Missile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

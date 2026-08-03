@@ -1,0 +1,30 @@
+{
+  "slug": "katalund",
+  "name": "Katalund",
+  "wikiUrl": "https://www.realmeye.com/wiki/katalund",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/EM4LKGF.png",
+  "category": "Wormholes",
+  "difficulty": 5.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Copper Sentreenel",
+          "wikiUrl": "https://www.realmeye.com/wiki/copper-sentreenel",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/t1zzAgD.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

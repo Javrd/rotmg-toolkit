@@ -1,0 +1,73 @@
+{
+  "slug": "apocalypse-feather",
+  "name": "Apocalypse Feather",
+  "wikiUrl": "https://www.realmeye.com/wiki/apocalypse-feather",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/wLFf9lo.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Limited Edition Swords",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "15-45 (30)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "7.5"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.5"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.75"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "200%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5.06"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Apo Feather"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "fortitude",
+  "name": "Fortitude",
+  "wikiUrl": "https://www.realmeye.com/wiki/fortitude",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/TSJk1lI.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Untiered Wands",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "300-700 (500)"
+      },
+      {
+        "label": "On Ability",
+        "value": "Releases 3 rings of lingering bullets, each dealing 300-600 damage"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "33%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "18"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "9.42"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,200"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "MV Water Spinner, MV Fortitude Projectile"
+      }
+    ]
+  },
+  "effects": [
+    "Passes cover",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Passes cover": "Shots pass through obstacles"
+  }
+}

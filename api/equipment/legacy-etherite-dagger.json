@@ -1,0 +1,69 @@
+{
+  "slug": "legacy-etherite-dagger",
+  "name": "Legacy Etherite Dagger",
+  "wikiUrl": "https://www.realmeye.com/wiki/legacy-etherite-dagger",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ksib4rU.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Limited Edition Daggers",
+  "tier": "ST",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "95-195 (145)"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.2"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.2"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "125%"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "3.84"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Spooky Sparkle"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

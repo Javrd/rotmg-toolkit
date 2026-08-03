@@ -1,0 +1,95 @@
+{
+  "slug": "bloody-pitch-fork-staff",
+  "name": "Bloody Pitch Fork Staff",
+  "wikiUrl": "https://www.realmeye.com/wiki/bloody-pitch-fork-staff",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/zlSKtG8.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Limited Edition Staves",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "60-70 (65)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "0"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.5"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.5"
+      },
+      {
+        "label": "Acceleration",
+        "value": "1000 (delay: 0.3325)"
+      },
+      {
+        "label": "Speed Clamp",
+        "value": "15"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "150%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5.89"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Bloodoid, Super Bloodoid"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Passes cover"
+  ],
+  "effectDescriptions": {
+    "Passes cover": "Shots pass through obstacles",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

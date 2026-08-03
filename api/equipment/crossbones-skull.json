@@ -1,0 +1,83 @@
+{
+  "slug": "crossbones-skull",
+  "name": "Crossbones Skull",
+  "wikiUrl": "https://www.realmeye.com/wiki/crossbones-skull",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/V8oqk0c.png",
+  "category": "Ability",
+  "categorySlug": "skulls",
+  "family": "Limited Edition Skulls",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Necromancer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "115 MP"
+      }
+    ],
+    "Radius": [
+      {
+        "label": "Radius",
+        "value": "3.75"
+      }
+    ],
+    "Base Damage": [
+      {
+        "label": "Base Damage",
+        "value": "270"
+      }
+    ],
+    "Heal": [
+      {
+        "label": "Heal",
+        "value": "105"
+      }
+    ],
+    "Undead Base Damage": [
+      {
+        "label": "Undead Base Damage",
+        "value": "290-315"
+      }
+    ],
+    "Undead Shots": [
+      {
+        "label": "Undead Shots",
+        "value": "1"
+      }
+    ],
+    "Life Steal": [
+      {
+        "label": "Life Steal",
+        "value": "6%"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+90 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "380"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "esben-s-vows",
+  "name": "Esben’s Vows",
+  "wikiUrl": "https://www.realmeye.com/wiki/esben-s-vows",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/es4f5XM.png",
+  "category": "Ability",
+  "categorySlug": "spells",
+  "family": "Untiered Spells",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Esben's Tear Drop"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "600-650 (625)"
+      },
+      {
+        "label": "Damage",
+        "value": "100"
+      }
+    ],
+    "Total Damage": [
+      {
+        "label": "Total Damage",
+        "value": "Summon a giant icicle that bursts into several projectiles after 1 second."
+      },
+      {
+        "label": "Big Shards",
+        "value": "6 Shots: 600-650 DMG."
+      },
+      {
+        "label": "Total Damage",
+        "value": "3600-3900 (3750)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Small Shards",
+        "value": "12 Shots: 100 AP DMG. Inflicts 5% DMG Vuln for 5 seconds."
+      },
+      {
+        "label": "Total Damage",
+        "value": "100 (1200)"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+10% ATT equal to DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "haunted-cemetery",
+  "name": "Haunted Cemetery",
+  "wikiUrl": "https://www.realmeye.com/wiki/haunted-cemetery",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/VB6hMsm.gif",
+  "category": "Realm Dungeons",
+  "difficulty": 4.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Troll Matriarch +4",
+          "wikiUrl": "https://www.realmeye.com/wiki/troll-matriarch",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/d4XHEBr.png"
+        }
+      },
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Troll Matriarch",
+          "wikiUrl": "https://www.realmeye.com/wiki/troll-matriarch",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/d4XHEBr.png"
+        }
+      },
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Ghost Bride",
+          "wikiUrl": "https://www.realmeye.com/wiki/ghost-bride",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/yX7q5pu.png"
+        }
+      },
+      {
+        "name": "Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Pumpkin King",
+          "wikiUrl": "https://www.realmeye.com/wiki/pumpkin-king",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZNJyQaa.png"
+        }
+      },
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Grave Caretaker",
+          "wikiUrl": "https://www.realmeye.com/wiki/grave-caretaker",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/lXpNukF.png"
+        }
+      },
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Ghost of Skuld",
+          "wikiUrl": "https://www.realmeye.com/wiki/ghost-of-skuld",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/KmgzGtd.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

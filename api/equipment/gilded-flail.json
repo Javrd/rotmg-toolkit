@@ -1,0 +1,49 @@
+{
+  "slug": "gilded-flail",
+  "name": "Gilded Flail",
+  "wikiUrl": "https://www.realmeye.com/wiki/gilded-flail",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/lOGLI9j.png",
+  "category": "Weapon",
+  "categorySlug": "flails",
+  "family": "Tiered Flails",
+  "tier": "7",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 1: 200-260 (230)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 2 and 3: 40-60 (50)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "1%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "53"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Gold Flail Ball, Steel Flail Chain"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

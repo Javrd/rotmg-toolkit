@@ -1,0 +1,76 @@
+{
+  "slug": "sulfurous-wetlands",
+  "name": "Sulfurous Wetlands",
+  "wikiUrl": "https://www.realmeye.com/wiki/sulfurous-wetlands",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/88fMxeA.png",
+  "category": "Realm Dungeons",
+  "difficulty": 6.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Heart of the Wetlands",
+          "wikiUrl": "https://www.realmeye.com/wiki/heart-of-the-wetlands",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/VsQbaty.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Greater Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6DGZ5qi.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Ogreish Outhouse",
+          "wikiUrl": "https://www.realmeye.com/wiki/ogreish-outhouse",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/DRAiFZL.png"
+        }
+      },
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Heart of the Wetlands",
+          "wikiUrl": "https://www.realmeye.com/wiki/heart-of-the-wetlands",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/VsQbaty.png"
+        }
+      },
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Swamp Spirit",
+          "wikiUrl": "https://www.realmeye.com/wiki/swamp-spirit",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/dH2XOjb.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Warped Ent Ancient",
+          "wikiUrl": "https://www.realmeye.com/wiki/warped-ent-ancient",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/wFKwQzL.png"
+        }
+      }
+    ]
+  }
+}

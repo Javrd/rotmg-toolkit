@@ -1,0 +1,18 @@
+{
+  "slug": "neo-malogia",
+  "name": "Neo Malogia",
+  "wikiUrl": "https://www.realmeye.com/wiki/neo-malogia",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/SyJzABz.png",
+  "category": "Advanced Dungeons",
+  "difficulty": 8.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

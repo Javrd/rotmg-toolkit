@@ -1,0 +1,62 @@
+{
+  "slug": "ase-s-echo",
+  "name": "Ase’s Echo",
+  "wikiUrl": "https://www.realmeye.com/wiki/ase-s-echo",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/flXR895.png",
+  "category": "Ability",
+  "categorySlug": "prisms",
+  "family": "Untiered Prisms",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "60 MP"
+      }
+    ],
+    "Other Effects": [
+      {
+        "label": "Other Effects",
+        "value": "No teleport"
+      },
+      {
+        "label": "Other Effects",
+        "value": "No decoy"
+      },
+      {
+        "label": "First activation",
+        "value": "Mark the location creating [Red Sword] Berserk aura in a radius of 3."
+      },
+      {
+        "label": "Second activation",
+        "value": "Teleport back to the marked location exploding the previous mark dealing 1000 damage and granting [Wooden Shield] Armored for 5 seconds in a radius of 5."
+      },
+      {
+        "label": "Note",
+        "value": "Mark is reset upon changing area or after 10 seconds."
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [
+    "Red Sword",
+    "Wooden Shield"
+  ],
+  "effectDescriptions": {}
+}

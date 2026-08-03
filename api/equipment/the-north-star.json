@@ -1,0 +1,64 @@
+{
+  "slug": "the-north-star",
+  "name": "The North Star",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-north-star",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/hNkcj4e.png",
+  "category": "Weapon",
+  "categorySlug": "morning-stars",
+  "family": "Limited Edition Morning Stars",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "80-115 (97.5)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "5"
+      }
+    ],
+    "Fire Rate": [
+      {
+        "label": "Fire Rate",
+        "value": "15%, 50%, 90%, 50%, 15%"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "450"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Frozen Morning Star"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

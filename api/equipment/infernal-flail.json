@@ -1,0 +1,49 @@
+{
+  "slug": "infernal-flail",
+  "name": "Infernal Flail",
+  "wikiUrl": "https://www.realmeye.com/wiki/infernal-flail",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/CXSbYEt.png",
+  "category": "Weapon",
+  "categorySlug": "flails",
+  "family": "Tiered Flails",
+  "tier": "10",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 1: 305-365 (335)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 2 and 3: 55-75 (65)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "159"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Red Flail Ball, Black Flail Chain"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

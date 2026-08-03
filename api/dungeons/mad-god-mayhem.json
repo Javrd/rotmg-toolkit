@@ -1,0 +1,18 @@
+{
+  "slug": "mad-god-mayhem",
+  "name": "Mad God Mayhem",
+  "wikiUrl": "https://www.realmeye.com/wiki/mad-god-mayhem",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/U9HeRQ4.png",
+  "category": "Special Event Dungeons",
+  "difficulty": 6.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

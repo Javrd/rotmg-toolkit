@@ -1,0 +1,59 @@
+{
+  "slug": "brain-of-the-golem",
+  "name": "Brain of the Golem",
+  "wikiUrl": "https://www.realmeye.com/wiki/brain-of-the-golem",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ph7LP18.png",
+  "category": "Ability",
+  "categorySlug": "prisms",
+  "family": "Set Tiered Prisms",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "65 MP"
+      }
+    ],
+    "Decoy Duration (seconds)": [
+      {
+        "label": "Decoy Duration (seconds)",
+        "value": "7"
+      }
+    ],
+    "Other Effects": [
+      {
+        "label": "Other Effects",
+        "value": "No teleport"
+      },
+      {
+        "label": "Other Effects",
+        "value": "Summons a stationary golem decoy that explodes"
+      },
+      {
+        "label": "Other Effects",
+        "value": "Inflicts [Yellow Swirl] Dazed for 2 sec within 1.75 tiles"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "Yellow Swirl"
+  ],
+  "effectDescriptions": {}
+}

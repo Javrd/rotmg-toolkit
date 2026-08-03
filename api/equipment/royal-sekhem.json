@@ -1,0 +1,61 @@
+{
+  "slug": "royal-sekhem",
+  "name": "Royal Sekhem",
+  "wikiUrl": "https://www.realmeye.com/wiki/royal-sekhem",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/AqdjGYL.png",
+  "category": "Weapon",
+  "categorySlug": "spellblades",
+  "family": "Limited Edition Spellblades",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Small",
+        "value": "95-120 (107.5)"
+      },
+      {
+        "label": "Large",
+        "value": "70-80 (75)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.6"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Interregnum Spellblade Large, Interregnum Spellblade Small"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

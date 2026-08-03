@@ -1,0 +1,72 @@
+{
+  "slug": "challenger-helm",
+  "name": "Challenger Helm",
+  "wikiUrl": "https://www.realmeye.com/wiki/challenger-helm",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/4MA63Y1.png",
+  "category": "Ability",
+  "categorySlug": "helms",
+  "family": "Untiered Helms",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "50 MP"
+      }
+    ],
+    "Range (@50 Wis)": [
+      {
+        "label": "Range (@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Berserk Duration(@50 Wis)": [
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Speedy Duration(@50 Wis)": [
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Other Effects(@50 Wis)": [
+      {
+        "label": "Other Effects(@50 Wis)",
+        "value": "5s"
+      },
+      {
+        "label": "On self",
+        "value": "[Yellow Swirl] Dazed"
+      },
+      {
+        "label": "On self",
+        "value": "[Red Down Arrow] Slowed"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ]
+  },
+  "effects": [
+    "Red Down Arrow",
+    "Yellow Swirl"
+  ],
+  "effectDescriptions": {}
+}

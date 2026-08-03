@@ -1,0 +1,43 @@
+{
+  "slug": "vengeance-armor",
+  "name": "Vengeance Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/vengeance-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/lqywZKs.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Tiered Heavy Armors",
+  "tier": "10",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 22
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+22"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "164"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

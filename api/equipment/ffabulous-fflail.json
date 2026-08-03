@@ -1,0 +1,73 @@
+{
+  "slug": "ffabulous-fflail",
+  "name": "FFabulous FFlail",
+  "wikiUrl": "https://www.realmeye.com/wiki/ffabulous-fflail",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ih0FMdh.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Untiered Swords",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "333"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "4"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "40%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "(20°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5"
+      },
+      {
+        "label": "Range",
+        "value": "(2.84)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,313"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "FFlail"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "makeshift-blowpipe",
+  "name": "Makeshift Blowpipe",
+  "wikiUrl": "https://www.realmeye.com/wiki/makeshift-blowpipe",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/xi8TTaW.png",
+  "category": "Ability",
+  "categorySlug": "poisons",
+  "family": "Set Tiered Poisons",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Assassin"
+  ],
+  "stats": {},
+  "columns": {
+    "Particle Color": [
+      {
+        "label": "Alchemist Dart Large",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "60 MP"
+      }
+    ],
+    "Radius": [
+      {
+        "label": "Radius",
+        "value": "-"
+      }
+    ],
+    "Total Base Damage": [
+      {
+        "label": "Total Base Damage",
+        "value": "-"
+      }
+    ],
+    "Impact Damage": [
+      {
+        "label": "Impact Damage",
+        "value": "350-375"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "-"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+6 ATT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ]
+  },
+  "effects": [
+    "Alchemist Dart Large"
+  ],
+  "effectDescriptions": {}
+}

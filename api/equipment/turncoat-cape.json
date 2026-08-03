@@ -1,0 +1,52 @@
+{
+  "slug": "turncoat-cape",
+  "name": "Turncoat Cape",
+  "wikiUrl": "https://www.realmeye.com/wiki/turncoat-cape",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/V3W2Yw5.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Untiered Leather Armors",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 18,
+    "SPD": 10
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+18"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+10"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,100"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

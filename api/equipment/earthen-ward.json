@@ -1,0 +1,92 @@
+{
+  "slug": "earthen-ward",
+  "name": "Earthen Ward",
+  "wikiUrl": "https://www.realmeye.com/wiki/earthen-ward",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/GJgV4uh.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Set Tiered Wands",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "125-145 (135)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "18"
+      },
+      {
+        "label": "Circle Turn Angle",
+        "value": "90"
+      },
+      {
+        "label": "Circle Turn Delay",
+        "value": "3.33"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "(120°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "18.54"
+      },
+      {
+        "label": "Range",
+        "value": "(?)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "2Summoner ST Mini Projectile, 2Summoner ST 16x16 Projectile"
+      }
+    ]
+  },
+  "effects": [
+    "Passes cover",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Passes cover": "Shots pass through obstacles"
+  }
+}

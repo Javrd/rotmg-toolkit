@@ -1,0 +1,77 @@
+{
+  "slug": "serpentine-sheath",
+  "name": "Serpentine Sheath",
+  "wikiUrl": "https://www.realmeye.com/wiki/serpentine-sheath",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Wnqvh8k.png",
+  "category": "Ability",
+  "categorySlug": "sheaths",
+  "family": "Tiered Sheaths",
+  "tier": "5",
+  "soulbound": false,
+  "classes": [
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Damage and Effects": [
+      {
+        "label": "Damage and Effects",
+        "value": "400-450 (425)"
+      },
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Stat Multiplier": [
+      {
+        "label": "Stat Multiplier",
+        "value": "6/10/15/21/28% [ATT↑] ATT Boost"
+      },
+      {
+        "label": "Stat Multiplier",
+        "value": "Each stack lasts for 10 second"
+      }
+    ],
+    "Dash Distance (Tiles)": [
+      {
+        "label": "Dash Distance (Tiles)",
+        "value": "1-6"
+      }
+    ],
+    "Trail Damage": [
+      {
+        "label": "Trail Damage",
+        "value": "1000"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "139"
+      }
+    ]
+  },
+  "effects": [
+    "ATT↑"
+  ],
+  "effectDescriptions": {}
+}

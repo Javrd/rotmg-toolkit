@@ -1,0 +1,79 @@
+{
+  "slug": "penetrating-blast-spell",
+  "name": "Penetrating Blast Spell",
+  "wikiUrl": "https://www.realmeye.com/wiki/penetrating-blast-spell",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/xR9fw8E.png",
+  "category": "Ability",
+  "categorySlug": "spells",
+  "family": "Untiered Spells",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Wizard"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Volt Bolt"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "85 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "300-400 (350)"
+      }
+    ],
+    "Total Damage": [
+      {
+        "label": "Total Damage",
+        "value": "2400-3200 (2800)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+2 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Passes cover",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Passes cover": "Shots pass through obstacles"
+  }
+}

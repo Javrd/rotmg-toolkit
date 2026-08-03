@@ -1,0 +1,50 @@
+{
+  "slug": "heavy-construction-vest",
+  "name": "Heavy Construction Vest",
+  "wikiUrl": "https://www.realmeye.com/wiki/heavy-construction-vest",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/M2MWWQm.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Limited Edition",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 24,
+    "VIT": 4
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+24"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "435"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

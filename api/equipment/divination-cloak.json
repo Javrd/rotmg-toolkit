@@ -1,0 +1,59 @@
+{
+  "slug": "divination-cloak",
+  "name": "Divination Cloak",
+  "wikiUrl": "https://www.realmeye.com/wiki/divination-cloak",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/g3K5moJ.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Set Tiered Leather Armors",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 15,
+    "DEX": 5,
+    "MP": 50
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+15"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+5"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+50"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "enchanted-ice-blade",
+  "name": "Enchanted Ice Blade",
+  "wikiUrl": "https://www.realmeye.com/wiki/enchanted-ice-blade",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ifos4qS.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Limited Edition Swords",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "195-225 (210)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "400"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Enchanted Ice Blade Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

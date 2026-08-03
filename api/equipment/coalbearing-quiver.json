@@ -1,0 +1,83 @@
+{
+  "slug": "coalbearing-quiver",
+  "name": "Coalbearing Quiver",
+  "wikiUrl": "https://www.realmeye.com/wiki/coalbearing-quiver",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/007CEAV.png",
+  "category": "Ability",
+  "categorySlug": "quivers",
+  "family": "Limited Edition Quivers",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Archer"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "XMAS Arrow"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "75 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "675-775"
+      },
+      {
+        "label": "Damage",
+        "value": "(730)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Paralyzed Icon",
+        "value": "Paralyzed"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+6 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+20 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "380"
+      }
+    ]
+  },
+  "effects": [
+    "Paralyzed Icon",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Paralyzed Icon": "Paralyzed",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

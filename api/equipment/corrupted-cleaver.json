@@ -1,0 +1,57 @@
+{
+  "slug": "corrupted-cleaver",
+  "name": "Corrupted Cleaver",
+  "wikiUrl": "https://www.realmeye.com/wiki/corrupted-cleaver",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/5FA2zmj.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Limited Edition Katanas",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "130-195 (162.5)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.745"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "310"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Cleaved Eyeball"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

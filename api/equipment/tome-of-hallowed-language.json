@@ -1,0 +1,81 @@
+{
+  "slug": "tome-of-hallowed-language",
+  "name": "Tome of Hallowed Language",
+  "wikiUrl": "https://www.realmeye.com/wiki/tome-of-hallowed-language",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/zXTGFP0.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Tiered Tomes",
+  "tier": "7",
+  "soulbound": true,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "190 MP"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.4"
+      }
+    ],
+    "Heal Amount": [
+      {
+        "label": "Heal Amount",
+        "value": "150 HP"
+      }
+    ],
+    "Healing Amount": [
+      {
+        "label": "Healing Amount",
+        "value": "75/s"
+      }
+    ],
+    "Healing Duration": [
+      {
+        "label": "Healing Duration",
+        "value": "4.4"
+      }
+    ],
+    "Nova Damage": [
+      {
+        "label": "Nova Damage",
+        "value": "740"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 MP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+7 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "570"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

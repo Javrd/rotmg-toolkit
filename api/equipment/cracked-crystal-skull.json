@@ -1,0 +1,61 @@
+{
+  "slug": "cracked-crystal-skull",
+  "name": "Cracked Crystal Skull",
+  "wikiUrl": "https://www.realmeye.com/wiki/cracked-crystal-skull",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/E4DjT7x.png",
+  "category": "Ability",
+  "categorySlug": "skulls",
+  "family": "Untiered Skulls",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Necromancer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "95 MP"
+      }
+    ],
+    "Undead Base Damage": [
+      {
+        "label": "Undead Base Damage",
+        "value": "155-225"
+      }
+    ],
+    "Undead Shots": [
+      {
+        "label": "Undead Shots",
+        "value": "1"
+      }
+    ],
+    "Life Steal": [
+      {
+        "label": "Life Steal",
+        "value": "2%"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+50 HP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "2%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "300"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

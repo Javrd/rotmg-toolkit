@@ -1,0 +1,88 @@
+{
+  "slug": "dragon-mace",
+  "name": "Dragon Mace",
+  "wikiUrl": "https://www.realmeye.com/wiki/dragon-mace",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/wOL9BDS.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Limited Edition Maces",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "Fiery Dragon",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "50-70 (60)"
+      },
+      {
+        "label": "Shots",
+        "value": "5"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Damage",
+        "value": "Does not pierce"
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "10s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 SPD"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Fiery Dragon"
+  ],
+  "effectDescriptions": {
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

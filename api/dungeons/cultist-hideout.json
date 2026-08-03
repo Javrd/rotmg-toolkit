@@ -1,0 +1,41 @@
+{
+  "slug": "cultist-hideout",
+  "name": "Cultist Hideout",
+  "wikiUrl": "https://www.realmeye.com/wiki/cultist-hideout",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Xa9mjsG.png",
+  "category": "Realm Event Dungeons",
+  "difficulty": 7.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Malus",
+          "wikiUrl": "https://www.realmeye.com/wiki/malus",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/oY8zTM2.png"
+        }
+      },
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Malus",
+          "wikiUrl": "https://www.realmeye.com/wiki/malus",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/oY8zTM2.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

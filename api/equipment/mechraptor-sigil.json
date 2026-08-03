@@ -1,0 +1,89 @@
+{
+  "slug": "mechraptor-sigil",
+  "name": "Mechraptor Sigil",
+  "wikiUrl": "https://www.realmeye.com/wiki/mechraptor-sigil",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/XUrPuZC.png",
+  "category": "Ability",
+  "categorySlug": "sigils",
+  "family": "Set Tiered Sigils",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Form": [
+      {
+        "label": "Evolutionary Raptor",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Base Damage": [
+      {
+        "label": "Base Damage",
+        "value": "275-350"
+      },
+      {
+        "label": "Base Damage",
+        "value": "(312.5)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEX"
+      }
+    ],
+    "In-FormStat Bonus": [
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+25 ATT"
+      },
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+100 VIT"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "-30%"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "10s"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [
+    "Evolutionary Raptor"
+  ],
+  "effectDescriptions": {}
+}

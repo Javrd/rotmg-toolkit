@@ -1,0 +1,39 @@
+{
+  "slug": "serpentine-staff",
+  "name": "Serpentine Staff",
+  "wikiUrl": "https://www.realmeye.com/wiki/serpentine-staff",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/LcMYJlw.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Tiered Staves",
+  "tier": "3",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "25-45 (35)"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "11"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Green Missile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

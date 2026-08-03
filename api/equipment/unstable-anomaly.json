@@ -1,0 +1,81 @@
+{
+  "slug": "unstable-anomaly",
+  "name": "Unstable Anomaly",
+  "wikiUrl": "https://www.realmeye.com/wiki/unstable-anomaly",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ufDzpgt.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Limited Edition Swords",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "10-15 (12.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "5"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.15"
+      },
+      {
+        "label": "Frequency",
+        "value": "2"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "25%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "10"
+      },
+      {
+        "label": "Shots",
+        "value": "(36°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5"
+      },
+      {
+        "label": "Range",
+        "value": "(0)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "1%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "0"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Hat Cascade"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

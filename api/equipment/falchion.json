@@ -1,0 +1,45 @@
+{
+  "slug": "falchion",
+  "name": "Falchion",
+  "wikiUrl": "https://www.realmeye.com/wiki/falchion",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ufY0bzs.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Tiered Swords",
+  "tier": "4",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "75-135 (105)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "17"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Blade"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

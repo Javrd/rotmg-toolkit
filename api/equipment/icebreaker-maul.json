@@ -1,0 +1,91 @@
+{
+  "slug": "icebreaker-maul",
+  "name": "Icebreaker Maul",
+  "wikiUrl": "https://www.realmeye.com/wiki/icebreaker-maul",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/HBDmVJ4.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Limited Edition Swords",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "250-300 (275)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "175-215 (195)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "40%"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+5 ATT"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "3"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.8"
+      },
+      {
+        "label": "Range",
+        "value": "2.1"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Frosted Club Ball, Frosted Club Wave"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

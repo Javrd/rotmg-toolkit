@@ -1,0 +1,53 @@
+{
+  "slug": "accursed-memory",
+  "name": "Accursed Memory",
+  "wikiUrl": "https://www.realmeye.com/wiki/accursed-memory",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/WHM3615.png",
+  "category": "Ability",
+  "categorySlug": "prisms",
+  "family": "Set Tiered Prisms",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "150 MP"
+      }
+    ],
+    "Other Effects": [
+      {
+        "label": "Other Effects",
+        "value": "Deal 1000 Damage to enemies within 5 tiles of teleport."
+      },
+      {
+        "label": "Passive effects",
+        "value": "Heals 75 HP for each enemy hit."
+      },
+      {
+        "label": "Other Effects",
+        "value": "After 3+ Hits on an enemy gain [Wooden Shield] Armored for 6 seconds"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Wooden Shield"
+  ],
+  "effectDescriptions": {}
+}

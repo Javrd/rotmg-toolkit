@@ -1,0 +1,49 @@
+{
+  "slug": "spellblade-of-corrupt-premonitions",
+  "name": "Spellblade of Corrupt Premonitions",
+  "wikiUrl": "https://www.realmeye.com/wiki/spellblade-of-corrupt-premonitions",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/OOZNU3A.png",
+  "category": "Weapon",
+  "categorySlug": "spellblades",
+  "family": "Tiered Spellblades",
+  "tier": "10",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Small",
+        "value": "85-115 (100)"
+      },
+      {
+        "label": "Large",
+        "value": "65-85 (75)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "159"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Small Purple Missle, Large Purple Missle"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

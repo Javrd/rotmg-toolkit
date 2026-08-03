@@ -1,0 +1,45 @@
+{
+  "slug": "golden-sword",
+  "name": "Golden Sword",
+  "wikiUrl": "https://www.realmeye.com/wiki/golden-sword",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/VzEzv5A.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Tiered Swords",
+  "tier": "7",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "150-180 (165)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "1%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "53"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Blade"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

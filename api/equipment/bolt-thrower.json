@@ -1,0 +1,97 @@
+{
+  "slug": "bolt-thrower",
+  "name": "Bolt Thrower",
+  "wikiUrl": "https://www.realmeye.com/wiki/bolt-thrower",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Oa5uakq.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Set Tiered Bows",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "110-125 (117.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "16"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "80%"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Sub",
+        "value": "80-90 (85)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "16"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "80%"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Main",
+        "value": "1"
+      },
+      {
+        "label": "Sub",
+        "value": "4"
+      },
+      {
+        "label": "Shots",
+        "value": "(20°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.04"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Bolt Thrower Main, Bolt Thrower Sub, Bolt Thrower Full"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

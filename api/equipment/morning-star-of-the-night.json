@@ -1,0 +1,58 @@
+{
+  "slug": "morning-star-of-the-night",
+  "name": "Morning Star of the Night",
+  "wikiUrl": "https://www.realmeye.com/wiki/morning-star-of-the-night",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/K0K9cLI.png",
+  "category": "Weapon",
+  "categorySlug": "morning-stars",
+  "family": "Tiered Morning Stars",
+  "tier": "10",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "75-110 (92.5)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "5"
+      }
+    ],
+    "Fire Rate": [
+      {
+        "label": "Fire Rate",
+        "value": "15%, 50%, 90%, 50%, 15%"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "159"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Blue Morning Star"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

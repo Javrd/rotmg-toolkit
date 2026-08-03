@@ -1,0 +1,18 @@
+{
+  "slug": "the-trials-of-cronus",
+  "name": "The Trials of Cronus",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-trials-of-cronus",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/siFo34R.png",
+  "category": "Special Event Dungeons",
+  "difficulty": 6.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "sinister-scarecrow",
+  "name": "Sinister Scarecrow",
+  "wikiUrl": "https://www.realmeye.com/wiki/sinister-scarecrow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Etuyb89.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

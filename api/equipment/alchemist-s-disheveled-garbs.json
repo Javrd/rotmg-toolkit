@@ -1,0 +1,59 @@
+{
+  "slug": "alchemist-s-disheveled-garbs",
+  "name": "Alchemist’s Disheveled Garbs",
+  "wikiUrl": "https://www.realmeye.com/wiki/alchemist-s-disheveled-garbs",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/oPOcdeO.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Set Tiered Leather Armors",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "ATT": 6,
+    "DEF": 14,
+    "SPD": 5
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+6"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+14"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

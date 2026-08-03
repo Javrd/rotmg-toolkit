@@ -1,0 +1,142 @@
+{
+  "slug": "the-crawling-depths",
+  "name": "The Crawling Depths",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-crawling-depths",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/V1rfmTa.gif",
+  "category": "Realm Dungeons",
+  "difficulty": 5.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Greater Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/5UnuTXg.png",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Son of Arachna",
+          "wikiUrl": "https://www.realmeye.com/wiki/son-of-arachna",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/1BK3fjy.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vA01btN.png",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Son of Arachna",
+          "wikiUrl": "https://www.realmeye.com/wiki/son-of-arachna",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/1BK3fjy.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Son of Arachna",
+          "wikiUrl": "https://www.realmeye.com/wiki/son-of-arachna",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/1BK3fjy.png"
+        }
+      },
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Blue Son of Arachna Giant Egg Sac",
+          "wikiUrl": "https://www.realmeye.com/wiki/blue-son-of-arachna-giant-egg-sac",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/tRi4TTr.png"
+        }
+      },
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Green Son of Arachna Giant Egg Sac",
+          "wikiUrl": "https://www.realmeye.com/wiki/green-son-of-arachna-giant-egg-sac",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/U8qsWN1.png"
+        }
+      },
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Red Son of Arachna Giant Egg Sac",
+          "wikiUrl": "https://www.realmeye.com/wiki/red-son-of-arachna-giant-egg-sac",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/mNV7F5H.png"
+        }
+      },
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Silver Son of Arachna Giant Egg Sac",
+          "wikiUrl": "https://www.realmeye.com/wiki/silver-son-of-arachna-giant-egg-sac",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/PZpeHGC.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Glowing Egg",
+          "wikiUrl": "https://www.realmeye.com/wiki/glowing-egg",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/XHpmu7B.gif"
+        }
+      },
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Glowing Egg",
+          "wikiUrl": "https://www.realmeye.com/wiki/glowing-egg",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/XHpmu7B.gif"
+        }
+      },
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Glowing Egg",
+          "wikiUrl": "https://www.realmeye.com/wiki/glowing-egg",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/XHpmu7B.gif"
+        }
+      },
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Glowing Egg",
+          "wikiUrl": "https://www.realmeye.com/wiki/glowing-egg",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/XHpmu7B.gif"
+        }
+      }
+    ]
+  }
+}

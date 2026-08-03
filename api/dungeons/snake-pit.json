@@ -1,0 +1,42 @@
+{
+  "slug": "snake-pit",
+  "name": "Snake Pit",
+  "wikiUrl": "https://www.realmeye.com/wiki/snake-pit",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Mhtm0aR.png",
+  "category": "Realm Dungeons",
+  "difficulty": 2.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Stheno the Snake Queen",
+          "wikiUrl": "https://www.realmeye.com/wiki/stheno-the-snake-queen",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/ac85qkg.png"
+        }
+      }
+    ],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Snakepit Guard",
+          "wikiUrl": "https://www.realmeye.com/wiki/snakepit-guard",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/Jz7SESJ.png"
+        }
+      }
+    ],
+    "possible": []
+  }
+}

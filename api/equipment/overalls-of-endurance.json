@@ -1,0 +1,57 @@
+{
+  "slug": "overalls-of-endurance",
+  "name": "Overalls of Endurance",
+  "wikiUrl": "https://www.realmeye.com/wiki/overalls-of-endurance",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/47x1mbH.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Set Tier Heavy Armors",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 14,
+    "DEX": 5,
+    "HP": 40
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+14"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+5"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+40"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "600"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

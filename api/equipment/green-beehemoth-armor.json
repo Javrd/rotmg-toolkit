@@ -1,0 +1,66 @@
+{
+  "slug": "green-beehemoth-armor",
+  "name": "Green Beehemoth Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/green-beehemoth-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/PClEmpg.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Untiered Leather Armors",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 18,
+    "SPD": 5,
+    "VIT": -5,
+    "HP": 60
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+18"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+5"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "-5"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+60"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

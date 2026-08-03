@@ -1,0 +1,101 @@
+{
+  "slug": "makakoyumi",
+  "name": "Makakoyumi",
+  "wikiUrl": "https://www.realmeye.com/wiki/makakoyumi",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/DbmAr9L.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Untiered Bows",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Shot",
+        "value": "800"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "33%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "30"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Lightning",
+        "value": "20-40 (30)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "200%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "14"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.5 (2.8)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,300"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Makakoyumi Shot, MV Makakoyumi Lightning"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Passes cover",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Passes cover": "Shots pass through obstacles",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

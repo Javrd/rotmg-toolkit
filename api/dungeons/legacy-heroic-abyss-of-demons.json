@@ -1,0 +1,52 @@
+{
+  "slug": "legacy-heroic-abyss-of-demons",
+  "name": "Legacy Heroic Abyss of Demons",
+  "wikiUrl": "https://www.realmeye.com/wiki/legacy-heroic-abyss-of-demons",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/qpULefS.png",
+  "category": "Heroic Dungeons",
+  "difficulty": 5.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Greater Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/sYB43YR.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Heroic Archdemon Malphas",
+          "wikiUrl": "https://www.realmeye.com/wiki/heroic-archdemon-malphas",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/LCALe5V.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/sYB43YR.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Heroic Archdemon Malphas",
+          "wikiUrl": "https://www.realmeye.com/wiki/heroic-archdemon-malphas",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/LCALe5V.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/sYB43YR.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Heroic White Demon of the Abyss",
+          "wikiUrl": "https://www.realmeye.com/wiki/heroic-white-demon-of-the-abyss",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/NqQVAvL.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

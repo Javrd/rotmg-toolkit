@@ -1,0 +1,127 @@
+{
+  "slug": "iceborn-arsenal",
+  "name": "Iceborn Arsenal",
+  "wikiUrl": "https://www.realmeye.com/wiki/iceborn-arsenal",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/SJTrMgB.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Set Tiered Katanas",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 1-2: 54-100 (77)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "15/13.5"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "20%"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 3-4: 100-130 (115)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "14"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "80%"
+      },
+      {
+        "label": "Turning",
+        "value": "20/-20 degrees/sec after 0.1s"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Turning stops after 0.35s"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "4"
+      },
+      {
+        "label": "Shots",
+        "value": "(7.6°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "Shot 1:"
+      },
+      {
+        "label": "Range",
+        "value": "6.75"
+      },
+      {
+        "label": "Range",
+        "value": "Shot 2:"
+      },
+      {
+        "label": "Range",
+        "value": "6.08"
+      },
+      {
+        "label": "Range",
+        "value": "Shot 3-4:"
+      },
+      {
+        "label": "Range",
+        "value": "4.48"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Iceborn Arsenal Small Spinner Projectile, Iceborn Arsenal Slash Projectile, Iceborn Arsenal Large Spinner Projectile"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

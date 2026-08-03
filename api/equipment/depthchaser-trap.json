@@ -1,0 +1,73 @@
+{
+  "slug": "depthchaser-trap",
+  "name": "Depthchaser Trap",
+  "wikiUrl": "https://www.realmeye.com/wiki/depthchaser-trap",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/S7s7W4K.png",
+  "category": "Ability",
+  "categorySlug": "traps",
+  "family": "Tiered Traps",
+  "tier": "7",
+  "soulbound": true,
+  "classes": [
+    "Huntress"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Explosion Radius": [
+      {
+        "label": "Explosion Radius",
+        "value": "7"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "700"
+      }
+    ],
+    "Effect(s)": [
+      {
+        "label": "Red Down Arrow",
+        "value": "Slowed for 6.5s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+6 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "570"
+      }
+    ]
+  },
+  "effects": [
+    "Red Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Red Down Arrow": "Slowed for 6.5s"
+  }
+}

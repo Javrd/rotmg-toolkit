@@ -1,0 +1,77 @@
+{
+  "slug": "hivemaster-helm",
+  "name": "Hivemaster Helm",
+  "wikiUrl": "https://www.realmeye.com/wiki/hivemaster-helm",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/rlxhfqA.png",
+  "category": "Ability",
+  "categorySlug": "helms",
+  "family": "Untiered Helms",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Warrior"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "80 MP"
+      }
+    ],
+    "Range (@50 Wis)": [
+      {
+        "label": "Range (@50 Wis)",
+        "value": "4"
+      }
+    ],
+    "Berserk Duration(@50 Wis)": [
+      {
+        "label": "Berserk Duration(@50 Wis)",
+        "value": "6s"
+      }
+    ],
+    "Speedy Duration(@50 Wis)": [
+      {
+        "label": "Speedy Duration(@50 Wis)",
+        "value": "-"
+      }
+    ],
+    "Other Effects(@50 Wis)": [
+      {
+        "label": "Other Effects(@50 Wis)",
+        "value": "4s"
+      },
+      {
+        "label": "Other Effects(@50 Wis)",
+        "value": "Summons 3 bees including a red bee that [Curse] Curse up to 3 enemies"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+6 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+6 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Curse"
+  ],
+  "effectDescriptions": {}
+}

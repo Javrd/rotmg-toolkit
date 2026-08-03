@@ -1,0 +1,53 @@
+{
+  "slug": "necronomicon",
+  "name": "Necronomicon",
+  "wikiUrl": "https://www.realmeye.com/wiki/necronomicon",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/2QeHp0u.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Untiered Tomes",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Heal Amount": [
+      {
+        "label": "Heal Amount",
+        "value": "140 HP"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+60 MP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+6 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

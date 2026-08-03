@@ -1,0 +1,45 @@
+{
+  "slug": "fitted-protective-matrix",
+  "name": "Fitted Protective Matrix",
+  "wikiUrl": "https://www.realmeye.com/wiki/fitted-protective-matrix",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/tSc0AYr.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Untiered Leather Armors",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 16
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+16"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

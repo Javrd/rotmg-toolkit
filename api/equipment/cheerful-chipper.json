@@ -1,0 +1,81 @@
+{
+  "slug": "cheerful-chipper",
+  "name": "Cheerful Chipper",
+  "wikiUrl": "https://www.realmeye.com/wiki/cheerful-chipper",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/2Mf0o2d.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Limited Edition Swords",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "120-150 (135)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "10"
+      },
+      {
+        "label": "Acceleration",
+        "value": "-80 tiles/second^2 after 0.35 seconds"
+      },
+      {
+        "label": "Min Speed",
+        "value": "0 tiles/second"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "80%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "(12°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.12"
+      },
+      {
+        "label": "Range",
+        "value": "(2.35)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Oryxmas Sword Projectile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

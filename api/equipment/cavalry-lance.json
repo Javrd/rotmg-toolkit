@@ -1,0 +1,110 @@
+{
+  "slug": "cavalry-lance",
+  "name": "Cavalry Lance",
+  "wikiUrl": "https://www.realmeye.com/wiki/cavalry-lance",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/me0BdyD.png",
+  "category": "Ability",
+  "categorySlug": "shields",
+  "family": "Untiered Shields",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Knight"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Biome Polearm"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "6"
+      }
+    ],
+    "Damage per Shot (Average Total)": [
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "400-500 (2700)"
+      },
+      {
+        "label": "Gold Five Pointed Star",
+        "value": "Stunned"
+      },
+      {
+        "label": "Duration",
+        "value": "4s"
+      },
+      {
+        "label": "On self",
+        "value": "[Inspired Icon] Inspired for 5 seconds"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Dash Distance",
+        "value": "1-2.5"
+      },
+      {
+        "label": "Trail Damage",
+        "value": "400"
+      },
+      {
+        "label": "Range",
+        "value": "11.02"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "31.5"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+10 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+6 ATT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Gold Five Pointed Star",
+    "Inspired Icon",
+    "Passes cover",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Gold Five Pointed Star": "Stunned",
+    "Piercing": "Shots hit multiple targets",
+    "Passes cover": "Shots pass through obstacles"
+  }
+}

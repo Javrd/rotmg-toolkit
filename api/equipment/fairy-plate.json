@@ -1,0 +1,57 @@
+{
+  "slug": "fairy-plate",
+  "name": "Fairy Plate",
+  "wikiUrl": "https://www.realmeye.com/wiki/fairy-plate",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/C7w2g3a.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Set Tier Heavy Armors",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 16,
+    "HP": 80,
+    "MP": 40
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+16"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+80"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+40"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "500"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,121 @@
+{
+  "slug": "crystal-shield",
+  "name": "Crystal Shield",
+  "wikiUrl": "https://www.realmeye.com/wiki/crystal-shield",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/gct7LFi.png",
+  "category": "Ability",
+  "categorySlug": "shields",
+  "family": "Untiered Shields",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Knight"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "White Shard Bolt"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "40 MP/s"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Damage per Shot (Average Total)": [
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "While key held:"
+      },
+      {
+        "label": "Wooden Shield",
+        "value": "Armored on self"
+      },
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "Disables all MP recovery"
+      },
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "When key released:"
+      },
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "250-350(300)"
+      },
+      {
+        "label": "Projectile speed",
+        "value": "13"
+      },
+      {
+        "label": "Range",
+        "value": "5.2"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.65"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.2"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Cooldown",
+        "value": "1s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+10 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "-10 SPD"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "Passes cover",
+    "Piercing",
+    "Wooden Shield"
+  ],
+  "effectDescriptions": {
+    "Wooden Shield": "Armored on self",
+    "Passes cover": "Shots pass through obstacles",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

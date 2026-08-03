@@ -1,0 +1,73 @@
+{
+  "slug": "chain-dagger",
+  "name": "Chain Dagger",
+  "wikiUrl": "https://www.realmeye.com/wiki/chain-dagger",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/eZzC5ci.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Untiered Daggers",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "110-130 (120)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "11"
+      },
+      {
+        "label": "Blood Drop",
+        "value": "Bleeding on enemies for 4.5 seconds. (Bleed Damage: 50)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "80%"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "5.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Chain Dagger Projectile"
+      }
+    ]
+  },
+  "effects": [
+    "Blood Drop"
+  ],
+  "effectDescriptions": {
+    "Blood Drop": "Bleeding on enemies for 4.5 seconds. (Bleed Damage: 50)"
+  }
+}

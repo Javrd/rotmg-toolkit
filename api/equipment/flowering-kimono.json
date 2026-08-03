@@ -1,0 +1,66 @@
+{
+  "slug": "flowering-kimono",
+  "name": "Flowering Kimono",
+  "wikiUrl": "https://www.realmeye.com/wiki/flowering-kimono",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Uqpyd1h.png",
+  "category": "Armor",
+  "categorySlug": "robes",
+  "family": "Untiered Robes",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Priest",
+    "Necromancer",
+    "Mystic",
+    "Sorcerer",
+    "Bard",
+    "Summoner"
+  ],
+  "stats": {
+    "DEF": 10,
+    "SPD": 7,
+    "WIS": 12,
+    "MP": 120
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+10"
+      }
+    ],
+    "SPD": [
+      {
+        "label": "SPD",
+        "value": "+7"
+      }
+    ],
+    "WIS": [
+      {
+        "label": "WIS",
+        "value": "+12"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+120"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

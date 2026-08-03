@@ -1,0 +1,67 @@
+{
+  "slug": "prism-of-dancing-swords",
+  "name": "Prism of Dancing Swords",
+  "wikiUrl": "https://www.realmeye.com/wiki/prism-of-dancing-swords",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZMPTyOt.png",
+  "category": "Ability",
+  "categorySlug": "prisms",
+  "family": "Untiered Prisms",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "95 MP"
+      }
+    ],
+    "Decoy Duration (seconds)": [
+      {
+        "label": "Decoy Duration (seconds)",
+        "value": "6"
+      }
+    ],
+    "Other Effects": [
+      {
+        "label": "Other Effects",
+        "value": "No teleport"
+      },
+      {
+        "label": "Other Effects",
+        "value": "Summons 2 decoys in opposite directions"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 SPD"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 HP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

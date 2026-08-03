@@ -1,0 +1,18 @@
+{
+  "slug": "red-demon",
+  "name": "Red Demon",
+  "wikiUrl": "https://www.realmeye.com/wiki/red-demon",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/b7liiXp.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "artificial-sprite-god",
+  "name": "Artificial Sprite God",
+  "wikiUrl": "https://www.realmeye.com/wiki/artificial-sprite-god",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/JHY5nb6.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "oryx-s-sanctuary",
+  "name": "Oryx’s Sanctuary",
+  "wikiUrl": "https://www.realmeye.com/wiki/oryx-s-sanctuary",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/JGnMCv2.png",
+  "category": "Oryx’s Castle",
+  "difficulty": 9.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Greater Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/KBpSlXq.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Archbishop Leucoryx",
+          "wikiUrl": "https://www.realmeye.com/wiki/archbishop-leucoryx",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/LdDgxGV.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/poXVCu8.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Archbishop Leucoryx",
+          "wikiUrl": "https://www.realmeye.com/wiki/archbishop-leucoryx",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/LdDgxGV.png"
+        }
+      }
+    ],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "longbow-of-the-midnight-diamond",
+  "name": "Longbow of the Midnight Diamond",
+  "wikiUrl": "https://www.realmeye.com/wiki/longbow-of-the-midnight-diamond",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/2fSBhkB.png",
+  "category": "Weapon",
+  "categorySlug": "longbows",
+  "family": "Tiered Longbows",
+  "tier": "14",
+  "soulbound": true,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "110-145 (127.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Black Long Arrow"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

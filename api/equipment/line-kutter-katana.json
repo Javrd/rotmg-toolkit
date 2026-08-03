@@ -1,0 +1,45 @@
+{
+  "slug": "line-kutter-katana",
+  "name": "Line Kutter Katana",
+  "wikiUrl": "https://www.realmeye.com/wiki/line-kutter-katana",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/RKBH7yQ.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Tiered Katanas",
+  "tier": "4",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "65-100 (82.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "17"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Line Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

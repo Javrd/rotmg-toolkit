@@ -1,0 +1,76 @@
+{
+  "slug": "deliverance",
+  "name": "Deliverance",
+  "wikiUrl": "https://www.realmeye.com/wiki/deliverance",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/HXfa14k.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Untiered Wands",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "115-165 (140)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "20"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.6"
+      },
+      {
+        "label": "Frequency",
+        "value": "2"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+6 WIS"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "9"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

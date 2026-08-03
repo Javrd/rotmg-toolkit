@@ -1,0 +1,118 @@
+{
+  "slug": "spectral-penitentiary",
+  "name": "Spectral Penitentiary",
+  "wikiUrl": "https://www.realmeye.com/wiki/spectral-penitentiary",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/o9yNqBT.png",
+  "category": "Realm Event Dungeons",
+  "difficulty": 8.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Shackled Soul",
+          "wikiUrl": "https://www.realmeye.com/wiki/shackled-soul",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/IPJGVLy.png"
+        }
+      },
+      {
+        "name": "Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Shackled Soul",
+          "wikiUrl": "https://www.realmeye.com/wiki/shackled-soul",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/IPJGVLy.png"
+        }
+      },
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Groundskeeper Gretch",
+          "wikiUrl": "https://www.realmeye.com/wiki/groundskeeper-gretch",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/xv5ZXdw.gif"
+        }
+      },
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Doctor Lobotomik",
+          "wikiUrl": "https://www.realmeye.com/wiki/doctor-lobotomik",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/tYcWfJU.gif"
+        }
+      },
+      {
+        "name": "Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Overseer Oculon",
+          "wikiUrl": "https://www.realmeye.com/wiki/overseer-oculon",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/oGgxZ6G.gif"
+        }
+      },
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Griefkeeper Zole",
+          "wikiUrl": "https://www.realmeye.com/wiki/griefkeeper-zole",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/Uyesh8S.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/moIO1Ib.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Soulwarden Murcian",
+          "wikiUrl": "https://www.realmeye.com/wiki/soulwarden-murcian",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/ac0dDaD.gif"
+        }
+      },
+      {
+        "name": "Greater Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6DGZ5qi.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Soulwarden Murcian",
+          "wikiUrl": "https://www.realmeye.com/wiki/soulwarden-murcian",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/ac0dDaD.gif"
+        }
+      },
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Doctor Lobotomik",
+          "wikiUrl": "https://www.realmeye.com/wiki/doctor-lobotomik",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/tYcWfJU.gif"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

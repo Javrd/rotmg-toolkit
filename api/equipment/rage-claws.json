@@ -1,0 +1,73 @@
+{
+  "slug": "rage-claws",
+  "name": "Rage Claws",
+  "wikiUrl": "https://www.realmeye.com/wiki/rage-claws",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/221K3g6.png",
+  "category": "Ability",
+  "categorySlug": "stars",
+  "family": "Untiered Stars",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Ninja"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "105 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "275-375"
+      },
+      {
+        "label": "Damage",
+        "value": "(400)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Effect",
+        "value": "3 + 3 shots (at ± 11.25°)"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Boomerang",
+        "value": "Shots boomerang"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5.62"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [
+    "Boomerang",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Boomerang": "Shots boomerang"
+  }
+}

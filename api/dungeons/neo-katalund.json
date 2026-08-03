@@ -1,0 +1,18 @@
+{
+  "slug": "neo-katalund",
+  "name": "Neo Katalund",
+  "wikiUrl": "https://www.realmeye.com/wiki/neo-katalund",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Y5uA0yf.png",
+  "category": "Advanced Dungeons",
+  "difficulty": 8.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

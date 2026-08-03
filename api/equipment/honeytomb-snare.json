@@ -1,0 +1,67 @@
+{
+  "slug": "honeytomb-snare",
+  "name": "Honeytomb Snare",
+  "wikiUrl": "https://www.realmeye.com/wiki/honeytomb-snare",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/gCZAhn2.png",
+  "category": "Ability",
+  "categorySlug": "traps",
+  "family": "Set Tiered Traps",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Huntress"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Explosion Radius": [
+      {
+        "label": "Explosion Radius",
+        "value": "6.5"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "150 (1200 total)"
+      }
+    ],
+    "Effect(s)": [
+      {
+        "label": "Red Down Arrow",
+        "value": "Slowed for 1.2 seconds every second"
+      },
+      {
+        "label": "Trap Duration",
+        "value": "7s"
+      },
+      {
+        "label": "Cooldown",
+        "value": "3s"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [
+    "Red Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Red Down Arrow": "Slowed for 1.2 seconds every second"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "lair-of-shaitan",
+  "name": "Lair of Shaitan",
+  "wikiUrl": "https://www.realmeye.com/wiki/lair-of-shaitan",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/px7FwlI.png",
+  "category": "Realm Dungeons",
+  "difficulty": 6.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": "G - 1",
+        "source": {
+          "name": "Shaitan the Advisor",
+          "wikiUrl": "https://www.realmeye.com/wiki/shaitan-the-advisor",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/azzD6jD.png"
+        }
+      },
+      {
+        "name": "Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+        "guaranteedLabel": "G",
+        "source": {
+          "name": "Shaitan the Advisor",
+          "wikiUrl": "https://www.realmeye.com/wiki/shaitan-the-advisor",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/azzD6jD.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Shaitan the Advisor",
+          "wikiUrl": "https://www.realmeye.com/wiki/shaitan-the-advisor",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/azzD6jD.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

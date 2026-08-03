@@ -1,0 +1,65 @@
+{
+  "slug": "evolutionary-records",
+  "name": "Evolutionary Records",
+  "wikiUrl": "https://www.realmeye.com/wiki/evolutionary-records",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/zuboSFq.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Untiered Tomes",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "115 MP"
+      }
+    ],
+    "Heal Amount": [
+      {
+        "label": "Heal Amount",
+        "value": "90 HP"
+      }
+    ],
+    "Healing Amount": [
+      {
+        "label": "Healing Amount",
+        "value": "45/s"
+      }
+    ],
+    "Healing Duration": [
+      {
+        "label": "Healing Duration",
+        "value": "6"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+50 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+50 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

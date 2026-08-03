@@ -1,0 +1,58 @@
+{
+  "slug": "morning-star-of-reckoning",
+  "name": "Morning Star of Reckoning",
+  "wikiUrl": "https://www.realmeye.com/wiki/morning-star-of-reckoning",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/rdLEOPj.png",
+  "category": "Weapon",
+  "categorySlug": "morning-stars",
+  "family": "Tiered Morning Stars",
+  "tier": "14",
+  "soulbound": true,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "90-125 (107.5)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "5"
+      }
+    ],
+    "Fire Rate": [
+      {
+        "label": "Fire Rate",
+        "value": "15%, 50%, 90%, 50%, 15%"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Purple Morning Star"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "the-heart-of-the-dragon",
+  "name": "The Heart of the Dragon",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-heart-of-the-dragon",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/BLky5tf.png",
+  "category": "Ability",
+  "categorySlug": "prisms",
+  "family": "Limited Edition Prisms",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "80 MP"
+      }
+    ],
+    "Decoy Duration (seconds)": [
+      {
+        "label": "Decoy Duration (seconds)",
+        "value": "2"
+      }
+    ],
+    "Other Effects": [
+      {
+        "label": "Other Effects",
+        "value": "No teleport"
+      },
+      {
+        "label": "Other Effects",
+        "value": "Decoy explodes"
+      },
+      {
+        "label": "Total Damage",
+        "value": "3000-4800 (3900)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+2 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+2 WIS"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "shendyt-of-geb",
+  "name": "Shendyt of Geb",
+  "wikiUrl": "https://www.realmeye.com/wiki/shendyt-of-geb",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/g82jCDD.png",
+  "category": "Armor",
+  "categorySlug": "robes",
+  "family": "Set Tiered Robes",
+  "tier": "ST",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Priest",
+    "Necromancer",
+    "Mystic",
+    "Sorcerer",
+    "Bard",
+    "Summoner"
+  ],
+  "stats": {
+    "DEF": 15,
+    "VIT": 7,
+    "WIS": 7,
+    "HP": 25,
+    "MP": 25
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+15"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+7"
+      }
+    ],
+    "WIS": [
+      {
+        "label": "WIS",
+        "value": "+7"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+25"
+      }
+    ],
+    "MP": [
+      {
+        "label": "MP",
+        "value": "+25"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

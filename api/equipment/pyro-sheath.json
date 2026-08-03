@@ -1,0 +1,98 @@
+{
+  "slug": "pyro-sheath",
+  "name": "Pyro Sheath",
+  "wikiUrl": "https://www.realmeye.com/wiki/pyro-sheath",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/2lTd3TJ.png",
+  "category": "Ability",
+  "categorySlug": "sheaths",
+  "family": "Set Tiered Sheaths",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Damage and Effects": [
+      {
+        "label": "Damage and Effects",
+        "value": "550"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      },
+      {
+        "label": "Cooldown",
+        "value": "4 seconds"
+      },
+      {
+        "label": "On Third Dash",
+        "value": "3 more shots"
+      },
+      {
+        "label": "With Full Set",
+        "value": "Bullets deal 600 damage and travel longer distance"
+      }
+    ],
+    "Stat Multiplier": [
+      {
+        "label": "Stat Multiplier",
+        "value": "50% [DEF↑] DEF Boost"
+      },
+      {
+        "label": "Stat Multiplier",
+        "value": "Each stack lasts for 10 second"
+      }
+    ],
+    "Dash Distance (Tiles)": [
+      {
+        "label": "Dash Distance (Tiles)",
+        "value": "2"
+      }
+    ],
+    "Trail Damage": [
+      {
+        "label": "Trail Damage",
+        "value": "2200"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [
+    "DEF↑",
+    "Passes cover",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Passes cover": "Shots pass through obstacles"
+  }
+}

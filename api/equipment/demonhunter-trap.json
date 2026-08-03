@@ -1,0 +1,65 @@
+{
+  "slug": "demonhunter-trap",
+  "name": "Demonhunter Trap",
+  "wikiUrl": "https://www.realmeye.com/wiki/demonhunter-trap",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/tQJ9cwB.png",
+  "category": "Ability",
+  "categorySlug": "traps",
+  "family": "Tiered Traps",
+  "tier": "4",
+  "soulbound": false,
+  "classes": [
+    "Huntress"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "90 MP"
+      }
+    ],
+    "Explosion Radius": [
+      {
+        "label": "Explosion Radius",
+        "value": "5.5"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "440"
+      }
+    ],
+    "Effect(s)": [
+      {
+        "label": "Red Down Arrow",
+        "value": "Slowed for 5s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 ATT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "2%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "68"
+      }
+    ]
+  },
+  "effects": [
+    "Red Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Red Down Arrow": "Slowed for 5s"
+  }
+}

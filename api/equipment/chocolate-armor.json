@@ -1,0 +1,66 @@
+{
+  "slug": "chocolate-armor",
+  "name": "Chocolate Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/chocolate-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/HOMhTiT.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Limited Edition Leather Armors",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "ATT": 15,
+    "DEF": 16,
+    "DEX": -7,
+    "VIT": 8
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+15"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+16"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "-7"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+8"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

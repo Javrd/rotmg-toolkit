@@ -1,0 +1,93 @@
+{
+  "slug": "draconic-insignia",
+  "name": "Draconic Insignia",
+  "wikiUrl": "https://www.realmeye.com/wiki/draconic-insignia",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/8JdISmg.png",
+  "category": "Ability",
+  "categorySlug": "sigils",
+  "family": "Untiered Sigils",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Form": [
+      {
+        "label": "Evolutionary Dragon",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Base Damage": [
+      {
+        "label": "Base Damage",
+        "value": "1050-1450"
+      },
+      {
+        "label": "Base Damage",
+        "value": "(1250)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+6 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+6 WIS"
+      }
+    ],
+    "In-FormStat Bonus": [
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+15 DEF"
+      },
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+40 WIS"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "-33%"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "8.6s"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ]
+  },
+  "effects": [
+    "Evolutionary Dragon"
+  ],
+  "effectDescriptions": {}
+}

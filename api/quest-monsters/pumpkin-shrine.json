@@ -1,0 +1,18 @@
+{
+  "slug": "pumpkin-shrine",
+  "name": "Pumpkin Shrine",
+  "wikiUrl": "https://www.realmeye.com/wiki/pumpkin-shrine",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/HOzoj6u.png",
+  "group": "encounter",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

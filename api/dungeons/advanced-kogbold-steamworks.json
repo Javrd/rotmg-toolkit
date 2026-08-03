@@ -1,0 +1,18 @@
+{
+  "slug": "advanced-kogbold-steamworks",
+  "name": "Advanced Kogbold Steamworks",
+  "wikiUrl": "https://www.realmeye.com/wiki/advanced-kogbold-steamworks",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/k8pLiJV.png",
+  "category": "Advanced Dungeons",
+  "difficulty": 9.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

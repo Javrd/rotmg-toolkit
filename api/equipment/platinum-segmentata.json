@@ -1,0 +1,57 @@
+{
+  "slug": "platinum-segmentata",
+  "name": "Platinum Segmentata",
+  "wikiUrl": "https://www.realmeye.com/wiki/platinum-segmentata",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/pjv94us.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Limited Edition",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 18,
+    "VIT": 3,
+    "HP": 50
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+18"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+3"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+50"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "600"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "consecrated-trap",
+  "name": "Consecrated Trap",
+  "wikiUrl": "https://www.realmeye.com/wiki/consecrated-trap",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/AT2fs1W.png",
+  "category": "Ability",
+  "categorySlug": "traps",
+  "family": "Limited Edition Traps",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Huntress"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Explosion Radius": [
+      {
+        "label": "Explosion Radius",
+        "value": "3"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "0"
+      }
+    ],
+    "Effect(s)": [
+      {
+        "label": "Red Cross",
+        "value": "Healing, [Red Sword] Berserk on group for 4 seconds"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+40 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [
+    "Red Cross",
+    "Red Sword"
+  ],
+  "effectDescriptions": {
+    "Red Cross": "Healing, [Red Sword] Berserk on group for 4 seconds"
+  }
+}

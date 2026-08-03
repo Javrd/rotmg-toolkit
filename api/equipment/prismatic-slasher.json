@@ -1,0 +1,81 @@
+{
+  "slug": "prismatic-slasher",
+  "name": "Prismatic Slasher",
+  "wikiUrl": "https://www.realmeye.com/wiki/prismatic-slasher",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/jDclh2c.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Limited Edition Daggers",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "10 (Total: 20)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "10"
+      },
+      {
+        "label": "Amplitude",
+        "value": "1.5"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.61"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "160%"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "2"
+      },
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "(28°)"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "4"
+      },
+      {
+        "label": "Range(True Range)",
+        "value": "(2.01)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "100"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Razorlight"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

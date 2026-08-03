@@ -1,0 +1,89 @@
+{
+  "slug": "skull-of-restless-souls",
+  "name": "Skull of Restless Souls",
+  "wikiUrl": "https://www.realmeye.com/wiki/skull-of-restless-souls",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ctgIxCX.png",
+  "category": "Ability",
+  "categorySlug": "skulls",
+  "family": "Untiered Skulls",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Necromancer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Radius": [
+      {
+        "label": "Radius",
+        "value": "3.75"
+      }
+    ],
+    "Base Damage": [
+      {
+        "label": "Base Damage",
+        "value": "250"
+      }
+    ],
+    "Undead Base Damage": [
+      {
+        "label": "Attacker",
+        "value": "100-215"
+      },
+      {
+        "label": "Defender",
+        "value": "120-250"
+      }
+    ],
+    "Undead Shots": [
+      {
+        "label": "Attacker",
+        "value": "3"
+      },
+      {
+        "label": "Defender",
+        "value": "2"
+      }
+    ],
+    "Life Steal": [
+      {
+        "label": "Attacker",
+        "value": "5%"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+50 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 ATT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

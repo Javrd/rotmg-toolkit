@@ -1,0 +1,66 @@
+{
+  "slug": "wand-of-the-fallen",
+  "name": "Wand of the Fallen",
+  "wikiUrl": "https://www.realmeye.com/wiki/wand-of-the-fallen",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Y0owA0u.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Untiered Wands",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "205-240 (222.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "14.4"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "85%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.6"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Elemental missiles"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

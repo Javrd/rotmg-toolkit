@@ -1,0 +1,49 @@
+{
+  "slug": "fire-bow",
+  "name": "Fire Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/fire-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/jv1LGl4.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Tiered Bows",
+  "tier": "5",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "45-55 (50)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Side (2): 15-20 (17.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "24"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Large Standard Arrow, Fire Small Bolt"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

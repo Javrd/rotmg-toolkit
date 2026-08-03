@@ -1,0 +1,61 @@
+{
+  "slug": "throwing-knives",
+  "name": "Throwing Knives",
+  "wikiUrl": "https://www.realmeye.com/wiki/throwing-knives",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/d6G028L.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Limited Edition Daggers",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "140-220 (180)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+3 DEX"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "5.6"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "650"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Phantasm Magic"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

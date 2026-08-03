@@ -1,0 +1,81 @@
+{
+  "slug": "robobow",
+  "name": "Robobow",
+  "wikiUrl": "https://www.realmeye.com/wiki/robobow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/fbcPWJX.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Limited Edition Bows",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "20-30 (25)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "150%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "5"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "(15°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5"
+      },
+      {
+        "label": "Range",
+        "value": "(1.87)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "0"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "binary"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

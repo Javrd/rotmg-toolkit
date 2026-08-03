@@ -1,0 +1,90 @@
+{
+  "slug": "mechanical-mace",
+  "name": "Mechanical Mace",
+  "wikiUrl": "https://www.realmeye.com/wiki/mechanical-mace",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/J7f2bA9.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Untiered Maces",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "AoO Summon",
+        "value": ""
+      },
+      {
+        "label": "AoO Big",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "140-195 (167.5)"
+      },
+      {
+        "label": "On ability use",
+        "value": "Summons an Exalted Oryx Eye:"
+      },
+      {
+        "label": "Damage",
+        "value": "Exalted Oryx Eye:"
+      },
+      {
+        "label": "Damage",
+        "value": "375-525 (450)"
+      },
+      {
+        "label": "Cooldown",
+        "value": "30s"
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "10.2s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+80 HP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [
+    "AoO Big",
+    "AoO Summon"
+  ],
+  "effectDescriptions": {}
+}

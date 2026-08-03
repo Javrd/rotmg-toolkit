@@ -1,0 +1,64 @@
+{
+  "slug": "acidic-aspergillum",
+  "name": "Acidic Aspergillum",
+  "wikiUrl": "https://www.realmeye.com/wiki/acidic-aspergillum",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/DOxS5yU.png",
+  "category": "Weapon",
+  "categorySlug": "morning-stars",
+  "family": "Limited Edition Morning Stars",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "75-105 (90)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "5"
+      }
+    ],
+    "Fire Rate": [
+      {
+        "label": "Fire Rate",
+        "value": "35%, 45%, 60%, 45%, 35%"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "450"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Acidic Aspergillum Shot"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

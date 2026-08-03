@@ -1,0 +1,73 @@
+{
+  "slug": "tome-of-renewing",
+  "name": "Tome of Renewing",
+  "wikiUrl": "https://www.realmeye.com/wiki/tome-of-renewing",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/aJ7r9pF.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Tiered Tomes",
+  "tier": "4",
+  "soulbound": false,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "160 MP"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.8"
+      }
+    ],
+    "Heal Amount": [
+      {
+        "label": "Heal Amount",
+        "value": "120 HP"
+      }
+    ],
+    "Healing Amount": [
+      {
+        "label": "Healing Amount",
+        "value": "60/s"
+      }
+    ],
+    "Healing Duration": [
+      {
+        "label": "Healing Duration",
+        "value": "4.4"
+      }
+    ],
+    "Nova Damage": [
+      {
+        "label": "Nova Damage",
+        "value": "480"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 VIT"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "2%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "68"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

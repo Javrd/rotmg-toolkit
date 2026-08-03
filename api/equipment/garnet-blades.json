@@ -1,0 +1,49 @@
+{
+  "slug": "garnet-blades",
+  "name": "Garnet Blades",
+  "wikiUrl": "https://www.realmeye.com/wiki/garnet-blades",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/bUPmsvL.png",
+  "category": "Weapon",
+  "categorySlug": "dual-blades",
+  "family": "Tiered Dual Blades",
+  "tier": "9",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 1: 65-100 (82.5)"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Shot 2: 50-85 (67.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "3%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "109"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Large Pink Blade, Small Pink Blade"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

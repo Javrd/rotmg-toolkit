@@ -1,0 +1,49 @@
+{
+  "slug": "hallucination-prism",
+  "name": "Hallucination Prism",
+  "wikiUrl": "https://www.realmeye.com/wiki/hallucination-prism",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/q3KyyNg.png",
+  "category": "Ability",
+  "categorySlug": "prisms",
+  "family": "Tiered Prisms",
+  "tier": "3",
+  "soulbound": false,
+  "classes": [
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "75 MP"
+      }
+    ],
+    "Decoy Duration (seconds)": [
+      {
+        "label": "Decoy Duration (seconds)",
+        "value": "6"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "1%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "34"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

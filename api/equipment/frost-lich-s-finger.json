@@ -1,0 +1,57 @@
+{
+  "slug": "frost-lich-s-finger",
+  "name": "Frost Lich’s Finger",
+  "wikiUrl": "https://www.realmeye.com/wiki/frost-lich-s-finger",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Kt8Py9z.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Limited Edition Daggers",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "115-200 (157.5)"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "1"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "5.6"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "450"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "XMAS Dark Blue Magic"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

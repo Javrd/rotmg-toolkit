@@ -1,0 +1,59 @@
+{
+  "slug": "aspirant-s-hide",
+  "name": "Aspirant’s Hide",
+  "wikiUrl": "https://www.realmeye.com/wiki/aspirant-s-hide",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/BLC6rtl.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Limited Edition Leather Armors",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 14,
+    "DEX": 5,
+    "HP": 25
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+14"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+5"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+25"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

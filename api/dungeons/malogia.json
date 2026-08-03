@@ -1,0 +1,30 @@
+{
+  "slug": "malogia",
+  "name": "Malogia",
+  "wikiUrl": "https://www.realmeye.com/wiki/malogia",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/JwqFJoj.png",
+  "category": "Wormholes",
+  "difficulty": 5.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Roonogian",
+          "wikiUrl": "https://www.realmeye.com/wiki/roonogian",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/dkjW5mg.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

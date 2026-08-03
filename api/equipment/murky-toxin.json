@@ -1,0 +1,84 @@
+{
+  "slug": "murky-toxin",
+  "name": "Murky Toxin",
+  "wikiUrl": "https://www.realmeye.com/wiki/murky-toxin",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/YTRasiP.png",
+  "category": "Ability",
+  "categorySlug": "poisons",
+  "family": "Untiered Poisons",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Assassin"
+  ],
+  "stats": {},
+  "columns": {
+    "Particle Color": [
+      {
+        "label": "Murky Toxin Bomb (Small)",
+        "value": ""
+      },
+      {
+        "label": "Murky Toxin Bomb (Large)",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "120 MP"
+      }
+    ],
+    "Radius": [
+      {
+        "label": "Radius",
+        "value": "2.5 / 5"
+      }
+    ],
+    "Total Base Damage": [
+      {
+        "label": "Total Base Damage",
+        "value": "900 / 450"
+      }
+    ],
+    "Impact Damage": [
+      {
+        "label": "Impact Damage",
+        "value": "150 / 100"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+3 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [
+    "Murky Toxin Bomb (Large)",
+    "Murky Toxin Bomb (Small)"
+  ],
+  "effectDescriptions": {}
+}

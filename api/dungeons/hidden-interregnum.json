@@ -1,0 +1,41 @@
+{
+  "slug": "hidden-interregnum",
+  "name": "Hidden Interregnum",
+  "wikiUrl": "https://www.realmeye.com/wiki/hidden-interregnum",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/voULRFc.png",
+  "category": "Special Event Dungeons",
+  "difficulty": 7.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Mystery Stat Potion",
+        "type": "Mystery Stat Potion",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/aeYlFi2.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "The Wanderer (Interregnum)",
+          "wikiUrl": "https://www.realmeye.com/wiki/the-wanderer-interregnum",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/utC6paX.png"
+        }
+      },
+      {
+        "name": "Stat Increase Great Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/eLCJ9DK.gif",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "The Wanderer (Interregnum)",
+          "wikiUrl": "https://www.realmeye.com/wiki/the-wanderer-interregnum",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/utC6paX.png"
+        }
+      }
+    ],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

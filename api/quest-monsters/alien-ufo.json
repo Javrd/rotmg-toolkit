@@ -1,0 +1,18 @@
+{
+  "slug": "alien-ufo",
+  "name": "Alien UFO",
+  "wikiUrl": "https://www.realmeye.com/wiki/alien-ufo",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/xgw6NU7.gif",
+  "group": "encounter",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

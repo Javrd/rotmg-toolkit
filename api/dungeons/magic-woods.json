@@ -1,0 +1,41 @@
+{
+  "slug": "magic-woods",
+  "name": "Magic Woods",
+  "wikiUrl": "https://www.realmeye.com/wiki/magic-woods",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/nmLtcBD.png",
+  "category": "Realm Dungeons",
+  "difficulty": 3.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Fountain Spirit",
+          "wikiUrl": "https://www.realmeye.com/wiki/fountain-spirit",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/jVimXOv.png"
+        }
+      },
+      {
+        "name": "Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+        "guaranteedLabel": "G - 2",
+        "source": {
+          "name": "Fountain Spirit",
+          "wikiUrl": "https://www.realmeye.com/wiki/fountain-spirit",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/jVimXOv.png"
+        }
+      }
+    ],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

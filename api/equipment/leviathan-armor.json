@@ -1,0 +1,52 @@
+{
+  "slug": "leviathan-armor",
+  "name": "Leviathan Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/leviathan-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/uvR1Gd4.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Tiered Leather Armors",
+  "tier": "14",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 22,
+    "DEX": 7
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+22"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+7"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

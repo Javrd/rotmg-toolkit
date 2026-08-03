@@ -1,0 +1,18 @@
+{
+  "slug": "forbidden-jungle",
+  "name": "Forbidden Jungle",
+  "wikiUrl": "https://www.realmeye.com/wiki/forbidden-jungle",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/beQHm21.png",
+  "category": "Realm Dungeons",
+  "difficulty": 1.5,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

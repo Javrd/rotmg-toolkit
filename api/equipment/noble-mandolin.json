@@ -1,0 +1,66 @@
+{
+  "slug": "noble-mandolin",
+  "name": "Noble Mandolin",
+  "wikiUrl": "https://www.realmeye.com/wiki/noble-mandolin",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/5MVXq59.png",
+  "category": "Ability",
+  "categorySlug": "lutes",
+  "family": "Untiered Lutes",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Effects": [
+      {
+        "label": "On self",
+        "value": "On use, lowers your shot speed by half for 4s."
+      },
+      {
+        "label": "ATT↑",
+        "value": "ATT Boost (+10 ATT) for 4.5s"
+      },
+      {
+        "label": "Party Effect",
+        "value": "Within 5 tiles [Sword] Damaging for 4.5s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+30 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,100"
+      }
+    ]
+  },
+  "effects": [
+    "ATT↑",
+    "Sword"
+  ],
+  "effectDescriptions": {
+    "ATT↑": "ATT Boost (+10 ATT) for 4.5s"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "quartz-cutter",
+  "name": "Quartz Cutter",
+  "wikiUrl": "https://www.realmeye.com/wiki/quartz-cutter",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/deiqLkX.png",
+  "category": "Weapon",
+  "categorySlug": "katanas",
+  "family": "Set Tiered Katanas",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "80-95 (87.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "80%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "10"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.5"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.5"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "(8°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "5.25"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "5%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Crystal Katana Slash, Crystal Katana Slash Large"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

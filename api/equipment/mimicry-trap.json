@@ -1,0 +1,77 @@
+{
+  "slug": "mimicry-trap",
+  "name": "Mimicry Trap",
+  "wikiUrl": "https://www.realmeye.com/wiki/mimicry-trap",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/utSCqep.png",
+  "category": "Ability",
+  "categorySlug": "traps",
+  "family": "Untiered Traps",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Huntress"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "80 MP"
+      }
+    ],
+    "Explosion Radius": [
+      {
+        "label": "Explosion Radius",
+        "value": "4"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "50"
+      }
+    ],
+    "Effect(s)": [
+      {
+        "label": "Effect(s)",
+        "value": "Creates a centered decoy for 1 second"
+      },
+      {
+        "label": "Duration",
+        "value": "3.5s"
+      },
+      {
+        "label": "Cooldown",
+        "value": "5s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEX"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+3 SPD"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "-3 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

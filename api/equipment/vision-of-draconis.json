@@ -1,0 +1,63 @@
+{
+  "slug": "vision-of-draconis",
+  "name": "Vision of Draconis",
+  "wikiUrl": "https://www.realmeye.com/wiki/vision-of-draconis",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/6bFvA7S.png",
+  "category": "Ability",
+  "categorySlug": "orbs",
+  "family": "Untiered Orbs",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "200 MP"
+      }
+    ],
+    "Curse Duration(@75 WIS)": [
+      {
+        "label": "Curse Duration(@75 WIS)",
+        "value": "2s per burst"
+      }
+    ],
+    "Other Effects(@75 WIS)": [
+      {
+        "label": "Other Effects(@75 WIS)",
+        "value": "Summons a controllable Gaze of Draconis that releases a burst and a pulse that deal 160 damage each with decreasing frequency."
+      },
+      {
+        "label": "Curse",
+        "value": "Curse inflicted with every burst"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+80 MP"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "Curse"
+  ],
+  "effectDescriptions": {
+    "Curse": "Curse inflicted with every burst"
+  }
+}

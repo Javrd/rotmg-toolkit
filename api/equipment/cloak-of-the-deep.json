@@ -1,0 +1,60 @@
+{
+  "slug": "cloak-of-the-deep",
+  "name": "Cloak of the Deep",
+  "wikiUrl": "https://www.realmeye.com/wiki/cloak-of-the-deep",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/rUNGXXP.png",
+  "category": "Ability",
+  "categorySlug": "cloaks",
+  "family": "Untiered Cloaks",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Rogue"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "50 MP/s"
+      }
+    ],
+    "Other Effects": [
+      {
+        "label": "Inhale",
+        "value": "While holding down the ability key, drain 50 MP/sec and become [Weak Icon] Weak."
+      },
+      {
+        "label": "Exhale",
+        "value": "While holding down the ability key, release a stream of bubbles whilst shooting scaling with your [Lethal Strike] Lethal Strike Damage."
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+50 MP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+5 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [
+    "Lethal Strike",
+    "Weak Icon"
+  ],
+  "effectDescriptions": {}
+}

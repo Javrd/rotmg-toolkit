@@ -1,0 +1,45 @@
+{
+  "slug": "staff-of-horror",
+  "name": "Staff of Horror",
+  "wikiUrl": "https://www.realmeye.com/wiki/staff-of-horror",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/NaJfx4l.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Tiered Staves",
+  "tier": "8",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "60-105 (82.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "2%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "75"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Blue Missile"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

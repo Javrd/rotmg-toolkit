@@ -1,0 +1,93 @@
+{
+  "slug": "staff-of-esben",
+  "name": "Staff of Esben",
+  "wikiUrl": "https://www.realmeye.com/wiki/staff-of-esben",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/LBDSDfB.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Untiered Staves",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "70-105 (87.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "16"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.75"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.55"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+3 DEF"
+      },
+      {
+        "label": "On shoot with full meter",
+        "value": "Conjur a manifestation dealing 600-800 damage"
+      },
+      {
+        "label": "Manifestation Scaling",
+        "value": "Gains 12 damage per defense over 10"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8.4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Pfiffel Esben Shot, Skull Projectile"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

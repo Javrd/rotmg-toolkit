@@ -1,0 +1,83 @@
+{
+  "slug": "sigil-of-the-bunny",
+  "name": "Sigil of the Bunny",
+  "wikiUrl": "https://www.realmeye.com/wiki/sigil-of-the-bunny",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/uBfI9I6.png",
+  "category": "Ability",
+  "categorySlug": "sigils",
+  "family": "Tiered Sigils",
+  "tier": "1",
+  "soulbound": false,
+  "classes": [
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Form": [
+      {
+        "label": "Evolutionary Bunny",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "40 MP"
+      }
+    ],
+    "Base Damage": [
+      {
+        "label": "Base Damage",
+        "value": "240-360"
+      },
+      {
+        "label": "Base Damage",
+        "value": "(300)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+1 WIS"
+      }
+    ],
+    "In-FormStat Bonus": [
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+15 ATT"
+      },
+      {
+        "label": "In-FormStat Bonus",
+        "value": "+8 DEF"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "-33%"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "6.6s"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "8"
+      }
+    ]
+  },
+  "effects": [
+    "Evolutionary Bunny"
+  ],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "mithril-chainmail",
+  "name": "Mithril Chainmail",
+  "wikiUrl": "https://www.realmeye.com/wiki/mithril-chainmail",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/7xOTq2Q.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Tiered Heavy Armors",
+  "tier": "6",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 13
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+13"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "41"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

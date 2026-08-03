@@ -1,0 +1,39 @@
+{
+  "slug": "cheater-light-armor",
+  "name": "Cheater Light Armor",
+  "wikiUrl": "https://www.realmeye.com/wiki/cheater-light-armor",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/pO23X79.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Untiered Leather Armors",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "HP": -100
+  },
+  "columns": {
+    "HP": [
+      {
+        "label": "HP",
+        "value": "-100"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "300"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

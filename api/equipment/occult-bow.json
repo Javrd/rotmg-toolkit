@@ -1,0 +1,103 @@
+{
+  "slug": "occult-bow",
+  "name": "Occult Bow",
+  "wikiUrl": "https://www.realmeye.com/wiki/occult-bow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/flUVybi.png",
+  "category": "Weapon",
+  "categorySlug": "bows",
+  "family": "Limited Edition Bows",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Archer",
+    "Huntress",
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Main",
+        "value": "180-290 (235)"
+      },
+      {
+        "label": "Burst Count",
+        "value": "2"
+      },
+      {
+        "label": "Burst Delay",
+        "value": "1s"
+      },
+      {
+        "label": "Minimum Burst Delay",
+        "value": "0.6s"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "Side (2): 10-45 (27.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "130%"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Damage (Average)",
+        "value": "+5 ATT"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Main",
+        "value": "1"
+      },
+      {
+        "label": "Side",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "(175°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "7.2"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Large Blood Arrow, Small Blood Arrow"
+      }
+    ]
+  },
+  "effects": [
+    "Armor Piercing",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target"
+  }
+}

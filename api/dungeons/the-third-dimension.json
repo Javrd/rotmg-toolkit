@@ -1,0 +1,97 @@
+{
+  "slug": "the-third-dimension",
+  "name": "The Third Dimension",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-third-dimension",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z5CG76m.png",
+  "category": "Realm Dungeons",
+  "difficulty": 6.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Shadow Cube Blaster",
+          "wikiUrl": "https://www.realmeye.com/wiki/shadow-cube-blaster",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/qVmT9C2.png"
+        }
+      },
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Shadow Cube Blaster",
+          "wikiUrl": "https://www.realmeye.com/wiki/shadow-cube-blaster",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/qVmT9C2.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Attack",
+        "type": "Attack",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/eIYqwEJ.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Tesseract Goddess",
+          "wikiUrl": "https://www.realmeye.com/wiki/tesseract-goddess",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/kmsMVNJ.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Wisdom",
+        "type": "Wisdom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vA01btN.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Tesseract Goddess",
+          "wikiUrl": "https://www.realmeye.com/wiki/tesseract-goddess",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/kmsMVNJ.png"
+        }
+      },
+      {
+        "name": "Potion of Mana",
+        "type": "Mana",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Tesseract Goddess",
+          "wikiUrl": "https://www.realmeye.com/wiki/tesseract-goddess",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/kmsMVNJ.png"
+        }
+      },
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Tesseract Goddess",
+          "wikiUrl": "https://www.realmeye.com/wiki/tesseract-goddess",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/kmsMVNJ.png"
+        }
+      }
+    ],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [
+      {
+        "name": "Stat Increase Potions",
+        "type": "Stat Increase Potions",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/rY8JQSL.gif",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Masquarerader",
+          "wikiUrl": "https://www.realmeye.com/wiki/masquarerader",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/YMx5JG7.png"
+        }
+      }
+    ],
+    "possible": []
+  }
+}

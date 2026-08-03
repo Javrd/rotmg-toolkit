@@ -1,0 +1,73 @@
+{
+  "slug": "crystallized-worm-spellblade",
+  "name": "Crystallized Worm Spellblade",
+  "wikiUrl": "https://www.realmeye.com/wiki/crystallized-worm-spellblade",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/gm0isXX.png",
+  "category": "Weapon",
+  "categorySlug": "spellblades",
+  "family": "Untiered Spellblades",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Head",
+        "value": "40"
+      },
+      {
+        "label": "Tail",
+        "value": "75-95 (85)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "Head:"
+      },
+      {
+        "label": "Shots",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "Tail:"
+      },
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6.48"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,200"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Crystal Head, Crystal Tail"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

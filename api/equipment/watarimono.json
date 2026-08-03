@@ -1,0 +1,107 @@
+{
+  "slug": "watarimono",
+  "name": "Watarimono",
+  "wikiUrl": "https://www.realmeye.com/wiki/watarimono",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/3l7Wxz8.png",
+  "category": "Ability",
+  "categorySlug": "wakizashi",
+  "family": "Set Tiered Wakizashi",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Samurai"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Wakizashi Discoverer"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "80"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2+2"
+      },
+      {
+        "label": "Offset Angles",
+        "value": "90/270°"
+      },
+      {
+        "label": "Shots",
+        "value": "(Shots come from both sides)"
+      },
+      {
+        "label": "Gap Angle",
+        "value": "0°"
+      },
+      {
+        "label": "Shot Gap",
+        "value": "0.5"
+      }
+    ],
+    "Damage(Average Total)": [
+      {
+        "label": "Damage(Average Total)",
+        "value": "700-800"
+      },
+      {
+        "label": "Damage(Average Total)",
+        "value": "(3000)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Grey Down Arrow",
+        "value": "Exposed for 3.5s"
+      },
+      {
+        "label": "Cast Range",
+        "value": "5"
+      },
+      {
+        "label": "Shot Range",
+        "value": "4.2"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.5"
+      },
+      {
+        "label": "Frequency",
+        "value": "1"
+      },
+      {
+        "label": "Passes cover",
+        "value": "Shots pass through obstacles"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "850"
+      }
+    ]
+  },
+  "effects": [
+    "Grey Down Arrow",
+    "Passes cover"
+  ],
+  "effectDescriptions": {
+    "Grey Down Arrow": "Exposed for 3.5s",
+    "Passes cover": "Shots pass through obstacles"
+  }
+}

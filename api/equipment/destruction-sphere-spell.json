@@ -1,0 +1,61 @@
+{
+  "slug": "destruction-sphere-spell",
+  "name": "Destruction Sphere Spell",
+  "wikiUrl": "https://www.realmeye.com/wiki/destruction-sphere-spell",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/YnU6niN.png",
+  "category": "Ability",
+  "categorySlug": "spells",
+  "family": "Tiered Spells",
+  "tier": "4",
+  "soulbound": false,
+  "classes": [
+    "Wizard"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Darkness Bolt"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "60 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "70-140 (105)"
+      }
+    ],
+    "Total Damage": [
+      {
+        "label": "Total Damage",
+        "value": "1120-2240 (1680)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "2%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "68"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

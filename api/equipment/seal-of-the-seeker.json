@@ -1,0 +1,77 @@
+{
+  "slug": "seal-of-the-seeker",
+  "name": "Seal of the Seeker",
+  "wikiUrl": "https://www.realmeye.com/wiki/seal-of-the-seeker",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/EoTkHWV.png",
+  "category": "Ability",
+  "categorySlug": "seals",
+  "family": "Tiered Seals",
+  "tier": "2",
+  "soulbound": false,
+  "classes": [
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "70 MP"
+      }
+    ],
+    "Range (@75 WIS)": [
+      {
+        "label": "Range (@75 WIS)",
+        "value": "4.5"
+      },
+      {
+        "label": "Range (@75 WIS)",
+        "value": "(7)"
+      }
+    ],
+    "HP Boost (@75 WIS)": [
+      {
+        "label": "HP Boost (@75 WIS)",
+        "value": "30"
+      },
+      {
+        "label": "HP Boost (@75 WIS)",
+        "value": "(80)"
+      }
+    ],
+    "Healing/Damaging Duration(@75 WIS)": [
+      {
+        "label": "Healing/Damaging Duration(@75 WIS)",
+        "value": "3"
+      },
+      {
+        "label": "Healing/Damaging Duration(@75 WIS)",
+        "value": "(5)"
+      }
+    ],
+    "HP Boost Duration (@75 WIS)": [
+      {
+        "label": "HP Boost Duration (@75 WIS)",
+        "value": "3"
+      },
+      {
+        "label": "HP Boost Duration (@75 WIS)",
+        "value": "(5.5)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+2 DEX"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "15"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

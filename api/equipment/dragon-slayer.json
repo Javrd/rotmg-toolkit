@@ -1,0 +1,73 @@
+{
+  "slug": "dragon-slayer",
+  "name": "Dragon Slayer",
+  "wikiUrl": "https://www.realmeye.com/wiki/dragon-slayer",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/RBxfpwE.png",
+  "category": "Ability",
+  "categorySlug": "shields",
+  "family": "Limited Edition Shields",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Knight"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Impact Dragon Slayer"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "80 MP"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "5"
+      }
+    ],
+    "Damage per Shot (Average Total)": [
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "150-330 (1200)"
+      },
+      {
+        "label": "Red Down Arrow",
+        "value": "Slowed"
+      },
+      {
+        "label": "Duration",
+        "value": "4s"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+17 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ]
+  },
+  "effects": [
+    "Red Down Arrow"
+  ],
+  "effectDescriptions": {
+    "Red Down Arrow": "Slowed"
+  }
+}

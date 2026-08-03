@@ -1,0 +1,65 @@
+{
+  "slug": "blade-of-eternal-rebirth",
+  "name": "Blade of Eternal Rebirth",
+  "wikiUrl": "https://www.realmeye.com/wiki/blade-of-eternal-rebirth",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/4hk1nd3.png",
+  "category": "Weapon",
+  "categorySlug": "swords",
+  "family": "Limited Edition Swords",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "280-295 (287.5)"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.7"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.5"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,200"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Rebirth Slash"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "big-berdtha",
+  "name": "Big Berdtha",
+  "wikiUrl": "https://www.realmeye.com/wiki/big-berdtha",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/uycT59P.png",
+  "category": "Ability",
+  "categorySlug": "maces",
+  "family": "Untiered Maces",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Summoner"
+  ],
+  "stats": {},
+  "columns": {
+    "Summons": [
+      {
+        "label": "Berdtha",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "120-150 (135)"
+      },
+      {
+        "label": "Shots",
+        "value": "5"
+      },
+      {
+        "label": "Damage",
+        "value": "Does not pierce"
+      }
+    ],
+    "Lifetime": [
+      {
+        "label": "Lifetime",
+        "value": "15s"
+      }
+    ],
+    "SP": [
+      {
+        "label": "SP",
+        "value": "9"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+4 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+4 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "800"
+      }
+    ]
+  },
+  "effects": [
+    "Berdtha"
+  ],
+  "effectDescriptions": {}
+}

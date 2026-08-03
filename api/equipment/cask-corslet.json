@@ -1,0 +1,57 @@
+{
+  "slug": "cask-corslet",
+  "name": "Cask Corslet",
+  "wikiUrl": "https://www.realmeye.com/wiki/cask-corslet",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/0gKF6SB.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Untiered Heavy Armors",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "DEF": 18,
+    "VIT": 10,
+    "HP": 50
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+18"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+10"
+      }
+    ],
+    "HP": [
+      {
+        "label": "HP",
+        "value": "+50"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "900"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "skull-of-endless-torment",
+  "name": "Skull of Endless Torment",
+  "wikiUrl": "https://www.realmeye.com/wiki/skull-of-endless-torment",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/XSUsjgZ.png",
+  "category": "Ability",
+  "categorySlug": "skulls",
+  "family": "Untiered Skulls",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Necromancer"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "110 MP"
+      }
+    ],
+    "Radius": [
+      {
+        "label": "Radius",
+        "value": "3.25"
+      }
+    ],
+    "Base Damage": [
+      {
+        "label": "Base Damage",
+        "value": "250"
+      }
+    ],
+    "Heal": [
+      {
+        "label": "Heal",
+        "value": "80"
+      }
+    ],
+    "Undead Base Damage": [
+      {
+        "label": "Undead Base Damage",
+        "value": "70-95"
+      }
+    ],
+    "Undead Shots": [
+      {
+        "label": "Undead Shots",
+        "value": "2"
+      }
+    ],
+    "Life Steal": [
+      {
+        "label": "Life Steal",
+        "value": "1.5%"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+50 HP"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+3 DEF"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+3 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,000"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

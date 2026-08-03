@@ -1,0 +1,57 @@
+{
+  "slug": "mercy-s-bane",
+  "name": "Mercy’s Bane",
+  "wikiUrl": "https://www.realmeye.com/wiki/mercy-s-bane",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd2fBa4.png",
+  "category": "Armor",
+  "categorySlug": "heavy-armors",
+  "family": "Set Tier Heavy Armors",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Warrior",
+    "Knight",
+    "Paladin",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {
+    "ATT": 7,
+    "DEF": 10,
+    "DEX": 7
+  },
+  "columns": {
+    "ATT": [
+      {
+        "label": "ATT",
+        "value": "+7"
+      }
+    ],
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+10"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+7"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

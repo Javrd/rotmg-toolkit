@@ -1,0 +1,30 @@
+{
+  "slug": "elder-ent-ancient",
+  "name": "Elder Ent Ancient",
+  "wikiUrl": "https://www.realmeye.com/wiki/elder-ent-ancient",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/qaZGmHe.png",
+  "group": "setpiece",
+  "potions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Vitality",
+        "type": "Vitality",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Speed",
+        "type": "Speed",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+        "guaranteedLabel": null
+      },
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": null
+      }
+    ]
+  }
+}

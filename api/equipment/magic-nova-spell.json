@@ -1,0 +1,61 @@
+{
+  "slug": "magic-nova-spell",
+  "name": "Magic Nova Spell",
+  "wikiUrl": "https://www.realmeye.com/wiki/magic-nova-spell",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/gmLqrBK.png",
+  "category": "Ability",
+  "categorySlug": "spells",
+  "family": "Tiered Spells",
+  "tier": "5",
+  "soulbound": false,
+  "classes": [
+    "Wizard"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "White Bolt"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "70 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "85-170 (127.5)"
+      }
+    ],
+    "Total Damage": [
+      {
+        "label": "Total Damage",
+        "value": "1360-2720 (2040)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+5 WIS"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "139"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

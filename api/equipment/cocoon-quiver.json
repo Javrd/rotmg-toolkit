@@ -1,0 +1,71 @@
+{
+  "slug": "cocoon-quiver",
+  "name": "Cocoon Quiver",
+  "wikiUrl": "https://www.realmeye.com/wiki/cocoon-quiver",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/WamyUmm.png",
+  "category": "Ability",
+  "categorySlug": "quivers",
+  "family": "Untiered Quivers",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Archer"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Cocoon Quiver Arrow"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "60 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "150-250"
+      },
+      {
+        "label": "Damage",
+        "value": "(200)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Shots",
+        "value": "2 (5° arc gap)"
+      },
+      {
+        "label": "Paralyzed Icon",
+        "value": "Paralyzed"
+      },
+      {
+        "label": "Duration",
+        "value": "2s"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "85"
+      }
+    ]
+  },
+  "effects": [
+    "Paralyzed Icon",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Paralyzed Icon": "Paralyzed",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

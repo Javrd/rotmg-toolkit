@@ -1,0 +1,77 @@
+{
+  "slug": "koalapow",
+  "name": "KoalaPOW",
+  "wikiUrl": "https://www.realmeye.com/wiki/koalapow",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/uXyETVT.png",
+  "category": "Weapon",
+  "categorySlug": "staves",
+  "family": "Limited Edition Staves",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "40"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "11"
+      },
+      {
+        "label": "Amplitude",
+        "value": "0.15"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "40%"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "6"
+      },
+      {
+        "label": "Shots",
+        "value": "(36°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.004"
+      },
+      {
+        "label": "Range",
+        "value": "(0)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "0%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "0"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Eucalyptus"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

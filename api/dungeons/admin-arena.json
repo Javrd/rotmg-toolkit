@@ -1,0 +1,18 @@
+{
+  "slug": "admin-arena",
+  "name": "Admin Arena",
+  "wikiUrl": "https://www.realmeye.com/wiki/admin-arena",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/oV9nL7Q.png",
+  "category": "Other Dungeons",
+  "difficulty": 9.0,
+  "hasData": false,
+  "error": "No 'Drops of Interest' section found",
+  "potions": {
+    "guaranteed": [],
+    "possible": []
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": []
+  }
+}

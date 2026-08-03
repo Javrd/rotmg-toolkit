@@ -1,0 +1,59 @@
+{
+  "slug": "fitted-construction-vest",
+  "name": "Fitted Construction Vest",
+  "wikiUrl": "https://www.realmeye.com/wiki/fitted-construction-vest",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/ikKJh2q.png",
+  "category": "Armor",
+  "categorySlug": "leather-armors",
+  "family": "Limited Edition Leather Armors",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Archer",
+    "Assassin",
+    "Huntress",
+    "Trickster",
+    "Ninja",
+    "Druid"
+  ],
+  "stats": {
+    "DEF": 18,
+    "DEX": 5,
+    "VIT": 4
+  },
+  "columns": {
+    "DEF": [
+      {
+        "label": "DEF",
+        "value": "+18"
+      }
+    ],
+    "DEX": [
+      {
+        "label": "DEX",
+        "value": "+5"
+      }
+    ],
+    "VIT": [
+      {
+        "label": "VIT",
+        "value": "+4"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "435"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

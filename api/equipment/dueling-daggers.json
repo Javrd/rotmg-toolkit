@@ -1,0 +1,85 @@
+{
+  "slug": "dueling-daggers",
+  "name": "Dueling Daggers",
+  "wikiUrl": "https://www.realmeye.com/wiki/dueling-daggers",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/j02GzKq.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Untiered Daggers",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "85-100 (92.5)"
+      },
+      {
+        "label": "Amplitude",
+        "value": "1.5"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.7"
+      },
+      {
+        "label": "Wavy",
+        "value": "Wavy shots"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "120%"
+      }
+    ],
+    "Shots(Arc Gap)": [
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "2"
+      },
+      {
+        "label": "Shots(Arc Gap)",
+        "value": "(20°)"
+      }
+    ],
+    "Range(True Range)": [
+      {
+        "label": "Range(True Range)",
+        "value": "5.6"
+      },
+      {
+        "label": "Range(True Range)",
+        "value": "(2.84)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Cutter Reskin Missile"
+      }
+    ]
+  },
+  "effects": [
+    "Wavy"
+  ],
+  "effectDescriptions": {
+    "Wavy": "Wavy shots"
+  }
+}

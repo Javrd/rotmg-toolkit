@@ -1,0 +1,49 @@
+{
+  "slug": "spellblade-of-the-sun",
+  "name": "Spellblade of the Sun",
+  "wikiUrl": "https://www.realmeye.com/wiki/spellblade-of-the-sun",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/hQyNy8j.png",
+  "category": "Weapon",
+  "categorySlug": "spellblades",
+  "family": "Tiered Spellblades",
+  "tier": "12",
+  "soulbound": false,
+  "classes": [
+    "Wizard",
+    "Necromancer",
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Small",
+        "value": "100-120 (110)"
+      },
+      {
+        "label": "Large",
+        "value": "70-90 (80)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "6%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "450"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Small Redder Missle, Large Redder Missle"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

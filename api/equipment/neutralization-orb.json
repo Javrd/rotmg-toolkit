@@ -1,0 +1,59 @@
+{
+  "slug": "neutralization-orb",
+  "name": "Neutralization Orb",
+  "wikiUrl": "https://www.realmeye.com/wiki/neutralization-orb",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/o3lcxd1.png",
+  "category": "Ability",
+  "categorySlug": "orbs",
+  "family": "Tiered Orbs",
+  "tier": "3",
+  "soulbound": false,
+  "classes": [
+    "Mystic"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "75 MP"
+      }
+    ],
+    "Stasis Duration": [
+      {
+        "label": "Stasis Duration",
+        "value": "4.5s"
+      }
+    ],
+    "Curse Duration(@75 WIS)": [
+      {
+        "label": "Curse Duration(@75 WIS)",
+        "value": "3.5s"
+      },
+      {
+        "label": "Curse Duration(@75 WIS)",
+        "value": "(6s)"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+1 DEX"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "1%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "34"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

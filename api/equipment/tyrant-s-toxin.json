@@ -1,0 +1,84 @@
+{
+  "slug": "tyrant-s-toxin",
+  "name": "Tyrant’s Toxin",
+  "wikiUrl": "https://www.realmeye.com/wiki/tyrant-s-toxin",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/rvhwPXq.png",
+  "category": "Ability",
+  "categorySlug": "poisons",
+  "family": "Untiered Poisons",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Assassin"
+  ],
+  "stats": {},
+  "columns": {
+    "Particle Color": [
+      {
+        "label": "Tyrant's Toxin Bomb",
+        "value": ""
+      },
+      {
+        "label": "Cluster Bomb",
+        "value": ""
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "150 MP"
+      }
+    ],
+    "Radius": [
+      {
+        "label": "Radius",
+        "value": "3 / 2.5"
+      }
+    ],
+    "Total Base Damage": [
+      {
+        "label": "Total Base Damage",
+        "value": "950 / 550"
+      }
+    ],
+    "Impact Damage": [
+      {
+        "label": "Impact Damage",
+        "value": "500 / 550"
+      }
+    ],
+    "Duration": [
+      {
+        "label": "Duration",
+        "value": "2"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 ATT"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+3 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "700"
+      }
+    ]
+  },
+  "effects": [
+    "Cluster Bomb",
+    "Tyrant's Toxin Bomb"
+  ],
+  "effectDescriptions": {}
+}

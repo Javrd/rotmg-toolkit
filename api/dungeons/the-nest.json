@@ -1,0 +1,76 @@
+{
+  "slug": "the-nest",
+  "name": "The Nest",
+  "wikiUrl": "https://www.realmeye.com/wiki/the-nest",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png",
+  "category": "Realm Event Dungeons",
+  "difficulty": 7.0,
+  "hasData": true,
+  "error": null,
+  "potions": {
+    "guaranteed": [
+      {
+        "name": "Greater Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/lWNsTd9.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Killer Bee Queen",
+          "wikiUrl": "https://www.realmeye.com/wiki/killer-bee-queen",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/hUWc3IV.png"
+        }
+      },
+      {
+        "name": "Greater Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/HayeBu9.png",
+        "guaranteedLabel": "G - ?",
+        "source": {
+          "name": "Killer Bee Queen",
+          "wikiUrl": "https://www.realmeye.com/wiki/killer-bee-queen",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/hUWc3IV.png"
+        }
+      }
+    ],
+    "possible": [
+      {
+        "name": "Potion of Dexterity",
+        "type": "Dexterity",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "Blue Soldier Bee +2",
+          "wikiUrl": "https://www.realmeye.com/wiki/blue-soldier-bee",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/dhm2nVz.png"
+        }
+      }
+    ]
+  },
+  "treasureRoomPotions": {
+    "guaranteed": [],
+    "possible": [
+      {
+        "name": "Potion of Defense",
+        "type": "Defense",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "The Beekeeper",
+          "wikiUrl": "https://www.realmeye.com/wiki/the-beekeeper",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hn5Ugix.png"
+        }
+      },
+      {
+        "name": "Potion of Life",
+        "type": "Life",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+        "guaranteedLabel": null,
+        "source": {
+          "name": "The Beekeeper",
+          "wikiUrl": "https://www.realmeye.com/wiki/the-beekeeper",
+          "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hn5Ugix.png"
+        }
+      }
+    ]
+  }
+}

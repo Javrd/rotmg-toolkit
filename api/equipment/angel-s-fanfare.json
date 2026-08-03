@@ -1,0 +1,77 @@
+{
+  "slug": "angel-s-fanfare",
+  "name": "Angel’s Fanfare",
+  "wikiUrl": "https://www.realmeye.com/wiki/angel-s-fanfare",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/YBa4Ein.png",
+  "category": "Ability",
+  "categorySlug": "lutes",
+  "family": "Set Tiered Lutes",
+  "tier": "ST",
+  "soulbound": true,
+  "classes": [
+    "Bard"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "120 MP"
+      }
+    ],
+    "Effects": [
+      {
+        "label": "Party effect",
+        "value": "[Inspired Icon] Inspired for 4s"
+      },
+      {
+        "label": "Party effect",
+        "value": "[HP↑] HP Boost (+80 HP) party effect within 4 tiles for 4s"
+      },
+      {
+        "label": "If Harmonious Harp equipped",
+        "value": "[ATT↑] ATT Boost (+8 ATT) on self for 4s"
+      },
+      {
+        "label": "Cooldown",
+        "value": "0.5s"
+      },
+      {
+        "label": "If Wings of Sanctity equipped",
+        "value": "[DEF↑] DEF Boost (+12 DEF) on self for 3s"
+      },
+      {
+        "label": "Cooldown",
+        "value": "0.5s"
+      },
+      {
+        "label": "If Heavenly Halo equipped",
+        "value": "Within 4 squares [Red Cross] Healing for 4s"
+      },
+      {
+        "label": "Cooldown",
+        "value": "0.5s"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,300"
+      }
+    ]
+  },
+  "effects": [
+    "ATT↑",
+    "DEF↑",
+    "HP↑",
+    "Inspired Icon",
+    "Red Cross"
+  ],
+  "effectDescriptions": {}
+}

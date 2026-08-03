@@ -1,0 +1,45 @@
+{
+  "slug": "dagger-of-dire-hatred",
+  "name": "Dagger of Dire Hatred",
+  "wikiUrl": "https://www.realmeye.com/wiki/dagger-of-dire-hatred",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/aojJuaq.png",
+  "category": "Weapon",
+  "categorySlug": "daggers",
+  "family": "Tiered Daggers",
+  "tier": "14",
+  "soulbound": true,
+  "classes": [
+    "Rogue",
+    "Assassin",
+    "Trickster"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "140-235 (187.5)"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "950"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Black Magic"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

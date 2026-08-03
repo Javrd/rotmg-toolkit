@@ -1,0 +1,55 @@
+{
+  "slug": "healing-tome",
+  "name": "Healing Tome",
+  "wikiUrl": "https://www.realmeye.com/wiki/healing-tome",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/XyNlsZA.png",
+  "category": "Ability",
+  "categorySlug": "tomes",
+  "family": "Tiered Tomes",
+  "tier": "0",
+  "soulbound": false,
+  "classes": [
+    "Priest"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "120 MP"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "6"
+      }
+    ],
+    "Healing Amount": [
+      {
+        "label": "Healing Amount",
+        "value": "50/s"
+      }
+    ],
+    "Healing Duration": [
+      {
+        "label": "Healing Duration",
+        "value": "10"
+      }
+    ],
+    "Nova Damage": [
+      {
+        "label": "Nova Damage",
+        "value": "160"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "4"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

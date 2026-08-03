@@ -1,0 +1,57 @@
+{
+  "slug": "ritual-khopesh",
+  "name": "Ritual Khopesh",
+  "wikiUrl": "https://www.realmeye.com/wiki/ritual-khopesh",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/mT1j9Ld.png",
+  "category": "Weapon",
+  "categorySlug": "tachis",
+  "family": "Limited Edition Tachis",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Ninja",
+    "Samurai",
+    "Kensei"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "90-120 (105)"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "4.608"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "7%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "750"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Interregnum Tachi 1, Interregnum Tachi 2"
+      }
+    ]
+  },
+  "effects": [],
+  "effectDescriptions": {}
+}

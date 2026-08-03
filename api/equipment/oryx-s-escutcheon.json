@@ -1,0 +1,69 @@
+{
+  "slug": "oryx-s-escutcheon",
+  "name": "Oryx’s Escutcheon",
+  "wikiUrl": "https://www.realmeye.com/wiki/oryx-s-escutcheon",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/oyL9xSt.png",
+  "category": "Ability",
+  "categorySlug": "shields",
+  "family": "Untiered Shields",
+  "tier": "UT",
+  "soulbound": true,
+  "classes": [
+    "Knight"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "100 MP"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
+      }
+    ],
+    "Damage per Shot (Average Total)": [
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "1000-1200 (3300)"
+      },
+      {
+        "label": "Damage per Shot (Average Total)",
+        "value": "Summons three consecutive Exalted Beams that each deal 1000-1200 damage in a 2.75 square radius, inflicting [Gold Five Pointed Star] Stunned for 2 seconds"
+      },
+      {
+        "label": "Cast Range",
+        "value": "3"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+7 SPD"
+      },
+      {
+        "label": "Stat Bonus",
+        "value": "+10 DEF"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "8%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "1,300"
+      }
+    ]
+  },
+  "effects": [
+    "Gold Five Pointed Star"
+  ],
+  "effectDescriptions": {}
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "magic-quiver",
+  "name": "Magic Quiver",
+  "wikiUrl": "https://www.realmeye.com/wiki/magic-quiver",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/veWybnl.png",
+  "category": "Ability",
+  "categorySlug": "quivers",
+  "family": "Tiered Quivers",
+  "tier": "0",
+  "soulbound": false,
+  "classes": [
+    "Archer"
+  ],
+  "stats": {},
+  "columns": {
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Red Arrow"
+      }
+    ],
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "45 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "35-50"
+      },
+      {
+        "label": "Damage",
+        "value": "(42.5)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Shots",
+        "value": "2 (7° arc gap)"
+      },
+      {
+        "label": "Vulnerable",
+        "value": "Targets receive 110% damage for 3 seconds after being hit."
+      },
+      {
+        "label": "Paralyzed Icon",
+        "value": "Paralyzed"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "4"
+      }
+    ]
+  },
+  "effects": [
+    "Paralyzed Icon",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Paralyzed Icon": "Paralyzed",
+    "Piercing": "Shots hit multiple targets"
+  }
+}

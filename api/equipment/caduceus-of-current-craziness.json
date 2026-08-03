@@ -1,0 +1,74 @@
+{
+  "slug": "caduceus-of-current-craziness",
+  "name": "Caduceus of Current Craziness",
+  "wikiUrl": "https://www.realmeye.com/wiki/caduceus-of-current-craziness",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/wB4ufJ9.png",
+  "category": "Weapon",
+  "categorySlug": "wands",
+  "family": "Untiered Wands",
+  "tier": "UT",
+  "soulbound": false,
+  "classes": [
+    "Priest",
+    "Sorcerer",
+    "Summoner",
+    "Druid"
+  ],
+  "stats": {},
+  "columns": {
+    "Damage (Average)": [
+      {
+        "label": "Damage (Average)",
+        "value": "65-90 (77.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "17"
+      },
+      {
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "(180°)"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8.5"
+      }
+    ],
+    "XP Bonus": [
+      {
+        "label": "XP Bonus",
+        "value": "4%"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "35"
+      }
+    ],
+    "Projectile": [
+      {
+        "label": "Projectile",
+        "value": "Indecisive Missile"
+      }
+    ]
+  },
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
+}

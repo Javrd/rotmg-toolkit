@@ -1,0 +1,67 @@
+{
+  "slug": "spiral-shuriken",
+  "name": "Spiral Shuriken",
+  "wikiUrl": "https://www.realmeye.com/wiki/spiral-shuriken",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/axakPjk.png",
+  "category": "Ability",
+  "categorySlug": "stars",
+  "family": "Tiered Stars",
+  "tier": "2",
+  "soulbound": false,
+  "classes": [
+    "Ninja"
+  ],
+  "stats": {},
+  "columns": {
+    "Cost": [
+      {
+        "label": "Cost",
+        "value": "50 MP"
+      }
+    ],
+    "Damage": [
+      {
+        "label": "Damage",
+        "value": "550-650"
+      },
+      {
+        "label": "Damage",
+        "value": "(600)"
+      }
+    ],
+    "Effect": [
+      {
+        "label": "Effect",
+        "value": "+4 DEX"
+      },
+      {
+        "label": "Green Up Arrow",
+        "value": "Speedy"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "10.8"
+      }
+    ],
+    "Stat Bonus": [
+      {
+        "label": "Stat Bonus",
+        "value": "+3 VIT"
+      }
+    ],
+    "Feed Power": [
+      {
+        "label": "Feed Power",
+        "value": "15"
+      }
+    ]
+  },
+  "effects": [
+    "Green Up Arrow"
+  ],
+  "effectDescriptions": {
+    "Green Up Arrow": "Speedy"
+  }
+}
