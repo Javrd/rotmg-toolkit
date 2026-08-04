@@ -21,16 +21,16 @@
         "value": "110-130 (120)"
       },
       {
-        "label": "Projectile Speed",
-        "value": "11"
-      },
-      {
-        "label": "Blood Drop",
-        "value": "Bleeding on enemies for 4.5 seconds. (Bleed Damage: 50)"
-      },
-      {
         "label": "Rate of Fire",
         "value": "80%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "11 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "5.5 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -61,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "Chain Dagger Projectile"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

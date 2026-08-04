@@ -17,16 +17,44 @@
   "columns": {
     "Damage (Average)": [
       {
-        "label": "Damage (Average)",
-        "value": "Shot 1: 75–105 (90)"
+        "label": "Bullet 1",
+        "value": "75-105 (90)"
       },
       {
-        "label": "Piercing",
-        "value": "Shots hit multiple targets"
+        "label": "Bullet 1 Shots",
+        "value": "2"
       },
       {
-        "label": "Damage (Average)",
-        "value": "Shot 2: 55–75 (65)"
+        "label": "Bullet 1 Rate of Fire",
+        "value": "90%"
+      },
+      {
+        "label": "Bullet 1 Projectile Speed",
+        "value": "20 tiles/second"
+      },
+      {
+        "label": "Bullet 1 Range",
+        "value": "4.8 tiles"
+      },
+      {
+        "label": "Bullet 2",
+        "value": "55-75 (65)"
+      },
+      {
+        "label": "Bullet 2 Shots",
+        "value": "4"
+      },
+      {
+        "label": "Bullet 2 Rate of Fire",
+        "value": "90%"
+      },
+      {
+        "label": "Bullet 2 Projectile Speed",
+        "value": "8 tiles/second"
+      },
+      {
+        "label": "Bullet 2 Range",
+        "value": "1 tiles"
       }
     ],
     "Range(True Range)": [
@@ -55,9 +83,11 @@
     ]
   },
   "effects": [
+    "Passes cover",
     "Piercing"
   ],
   "effectDescriptions": {
-    "Piercing": "Shots hit multiple targets"
+    "Piercing": "Shots hit multiple targets",
+    "Passes cover": "Shots pass through obstacles"
   }
 }

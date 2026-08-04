@@ -17,24 +17,40 @@
   "columns": {
     "Damage (Average)": [
       {
-        "label": "Damage (Average)",
-        "value": "60-140 (average: 100)"
+        "label": "Bullet 1",
+        "value": "60-140 (100)"
       },
       {
-        "label": "Armor Piercing",
-        "value": "Ignores defense of target"
+        "label": "Bullet 1 Shots",
+        "value": "1"
       },
       {
-        "label": "Rate of Fire",
+        "label": "Bullet 1 Rate of Fire",
         "value": "150%"
       },
       {
-        "label": "Damage (Average)",
-        "value": "Fires an additional shot every 2 seconds that deals 200-300 damage and [Grey Down Arrow] Exposed for 1 second."
+        "label": "Bullet 1 Projectile Speed",
+        "value": "16.5 tiles/second"
       },
       {
-        "label": "Damage (Average)",
-        "value": "+4 SPD"
+        "label": "Bullet 1 Range",
+        "value": "5.28 tiles"
+      },
+      {
+        "label": "Bullet 2",
+        "value": "200-300 (250)"
+      },
+      {
+        "label": "Bullet 2 Shots",
+        "value": "1"
+      },
+      {
+        "label": "Bullet 2 Projectile Speed",
+        "value": "16.5 tiles/second"
+      },
+      {
+        "label": "Bullet 2 Range",
+        "value": "5.28 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -73,6 +89,7 @@
     "Grey Down Arrow"
   ],
   "effectDescriptions": {
-    "Armor Piercing": "Ignores defense of target"
+    "Armor Piercing": "Ignores defense of target",
+    "Grey Down Arrow": "Exposed for 1 second"
   }
 }

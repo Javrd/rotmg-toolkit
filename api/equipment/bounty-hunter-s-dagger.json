@@ -18,15 +18,19 @@
     "Damage (Average)": [
       {
         "label": "Damage (Average)",
-        "value": "110-160 (135)"
-      },
-      {
-        "label": "Passes cover",
-        "value": "Shots pass through obstacles"
+        "value": "75-135 (105 / total: 315)"
       },
       {
         "label": "Rate of Fire",
         "value": "65%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "14 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "5.32 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -57,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "Realm Stab"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3 (arc gap: 5°)"
       }
     ]
   },

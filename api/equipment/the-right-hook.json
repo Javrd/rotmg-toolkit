@@ -25,8 +25,12 @@
         "value": "65%"
       },
       {
-        "label": "Damage (Average)",
-        "value": "+6 VIT"
+        "label": "Projectile Speed",
+        "value": "14 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "6.09 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -57,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "Right Hook Shot"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

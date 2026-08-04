@@ -19,6 +19,14 @@
       {
         "label": "Damage (Average)",
         "value": "65-120 (92.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "18 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "8.55 tiles"
       }
     ],
     "XP Bonus": [
@@ -37,6 +45,12 @@
       {
         "label": "Projectile",
         "value": "Aqua Missile"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
       }
     ]
   },

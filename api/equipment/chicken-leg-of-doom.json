@@ -21,12 +21,16 @@
         "value": "65-105 (85)"
       },
       {
-        "label": "Projectile Speed",
-        "value": "10"
-      },
-      {
         "label": "Rate of Fire",
         "value": "95%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "10 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "6 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -57,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "Chicken Leg"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

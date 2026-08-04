@@ -20,6 +20,14 @@
       {
         "label": "Damage (Average)",
         "value": "135-175 (155)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "18 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "9 tiles"
       }
     ],
     "XP Bonus": [
@@ -39,8 +47,18 @@
         "label": "Projectile",
         "value": "Blue Magic"
       }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
     ]
   },
-  "effects": [],
-  "effectDescriptions": {}
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
 }

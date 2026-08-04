@@ -18,23 +18,19 @@
     "Damage (Average)": [
       {
         "label": "Damage (Average)",
-        "value": "85-100 (92.5)"
-      },
-      {
-        "label": "Amplitude",
-        "value": "1.5"
-      },
-      {
-        "label": "Frequency",
-        "value": "0.7"
-      },
-      {
-        "label": "Wavy",
-        "value": "Wavy shots"
+        "value": "85-100 (92.5 / total: 185)"
       },
       {
         "label": "Rate of Fire",
         "value": "120%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "14 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "5.6 tiles (true range: 2.84 tiles)"
       }
     ],
     "Shots(Arc Gap)": [
@@ -73,6 +69,12 @@
       {
         "label": "Projectile",
         "value": "Corruption Cut"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2 (arc gap: 20°)"
       }
     ]
   },

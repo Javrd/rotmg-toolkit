@@ -21,16 +21,16 @@
         "value": "150-290 (220)"
       },
       {
-        "label": "Projectile Speed",
-        "value": "18"
-      },
-      {
         "label": "Rate of Fire",
         "value": "95%"
       },
       {
-        "label": "Damage (Average)",
-        "value": "+6 WIS"
+        "label": "Projectile Speed",
+        "value": "18 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "4.5 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -61,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "Phantasm Magic"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

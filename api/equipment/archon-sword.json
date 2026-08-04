@@ -19,6 +19,14 @@
       {
         "label": "Damage (Average)",
         "value": "210-255 (232.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "10 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "3.5 tiles"
       }
     ],
     "XP Bonus": [
@@ -37,6 +45,12 @@
       {
         "label": "Projectile",
         "value": "Fire Bolt"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

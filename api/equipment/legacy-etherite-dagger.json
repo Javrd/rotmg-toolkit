@@ -18,19 +18,19 @@
     "Damage (Average)": [
       {
         "label": "Damage (Average)",
-        "value": "95-195 (145)"
-      },
-      {
-        "label": "Amplitude",
-        "value": "0.2"
-      },
-      {
-        "label": "Frequency",
-        "value": "0.2"
+        "value": "110-215 (162.5)"
       },
       {
         "label": "Rate of Fire",
-        "value": "125%"
+        "value": "110%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "16 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "3.84 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -61,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "Spooky Sparkle"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

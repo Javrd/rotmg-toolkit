@@ -21,8 +21,16 @@
         "value": "155-170 (162.5)"
       },
       {
-        "label": "Rate of fire",
+        "label": "Rate of Fire",
         "value": "105%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "14 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "6.3 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -53,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "Golem Magic, Golem Super Magic"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

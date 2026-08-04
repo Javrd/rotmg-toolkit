@@ -19,6 +19,18 @@
       {
         "label": "Damage (Average)",
         "value": "105-130 (117.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "92, 96, 100%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "16 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "7.04 tiles"
       }
     ],
     "XP Bonus": [
@@ -37,6 +49,12 @@
       {
         "label": "Projectile",
         "value": "Yellow Long Arrow"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
       }
     ]
   },

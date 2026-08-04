@@ -1,5 +1,14 @@
 # 0003 — DPS calculation for multi-bullet weapons
 
+> **Revised by [[0005-thin-category-page-weapons]]:** the "leftover
+> probability" model below for a bullet with no listed Rate of Fire was a
+> guess that turned out wrong. Fetching more item pages (Shortbow's Main/
+> Side arrows both omit Rate of Fire and both simply always fire) showed
+> the wiki's actual convention is simpler: no listed RoF means the bullet
+> fires on 100% of attacks, not "whatever's left over from the others."
+> Kept below for the record of how the multi-bullet grouping itself works
+> (still correct) — only the missing-RoF default changed.
+
 ## Context
 
 The Equipment Compare DPS estimate (`computeDps()` in `build_html.py`)

@@ -1507,8 +1507,10 @@ function numRow(label, va, vb, extraClass) {
    group's own avg * shots * DamageMultiplier * (baseAttacksPerSec * RoF%):
      A. "Bullet N" damage groups inside the Damage cell itself, each with
         its own optional "Bullet N Rate of Fire" (Heartsteel Claymore,
-        Arcane Rapier). A bullet with no listed RoF (the default swing)
-        gets whatever probability is left over from the others.
+        Arcane Rapier). A bullet with no listed RoF fires on every attack
+        (100%) -- that's the wiki's convention for "always fires" (e.g.
+        Shortbow's Main/Side arrows both omit it and both always fire
+        together), not "whatever's left over from the other bullets".
      B. A labeled "Fire Rate" column with one shared label per group
         (e.g. "Main"/"Side" -- Hama Yumi), matched by label against the
         Damage and Shots columns.
@@ -1530,7 +1532,6 @@ function parseDamageProfile(item) {
 
   if (bulletNums.length >= 2) {
     const groups = [];
-    let explicitTotal = 0, missingIdx = -1;
     bulletNums.forEach(n => {
       const primary = segs.find(s => s.label === 'Bullet ' + n);
       if (!primary) return;
@@ -1539,14 +1540,11 @@ function parseDamageProfile(item) {
       const shotsSeg = segs.find(s => s.label === 'Bullet ' + n + ' Shots');
       const shots = shotsSeg ? (parseInt(shotsSeg.value, 10) || 1) : 1;
       const rofSeg = segs.find(s => s.label === 'Bullet ' + n + ' Rate of Fire');
-      const rof = rofSeg ? readPct(rofSeg.value) : null;
-      if (rof == null) missingIdx = groups.length; else explicitTotal += rof;
+      const rofVal = rofSeg ? readPct(rofSeg.value) : null;
+      const rof = rofVal != null ? rofVal : 100;
       groups.push({ avg, shots, rof });
     });
-    if (groups.length) {
-      if (missingIdx !== -1) groups[missingIdx].rof = Math.max(0, 100 - explicitTotal);
-      if (!groups.some(g => g.rof == null)) return groups;
-    }
+    if (groups.length) return groups;
   }
 
   const fireRateSegs = item.columns['Fire Rate'];

@@ -21,12 +21,16 @@
         "value": "50"
       },
       {
-        "label": "Projectile Speed",
-        "value": "5"
-      },
-      {
         "label": "Rate of Fire",
         "value": "80%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "5 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "5 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -57,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "Toy Attack"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

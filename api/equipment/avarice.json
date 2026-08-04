@@ -21,20 +21,16 @@
         "value": "190-215 (202.5)"
       },
       {
-        "label": "Projectile Speed",
-        "value": "13.3"
-      },
-      {
-        "label": "Amplitude",
-        "value": "0.55"
-      },
-      {
-        "label": "Frequency",
-        "value": "0.5"
-      },
-      {
         "label": "Rate of Fire",
         "value": "105%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "13.3 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "5.985 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -65,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "Avarice Projectile"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

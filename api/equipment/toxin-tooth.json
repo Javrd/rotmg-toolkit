@@ -21,12 +21,16 @@
         "value": "265-320 (292.5)"
       },
       {
-        "label": "Projectile Speed",
-        "value": "10"
+        "label": "Rate of Fire",
+        "value": "70%"
       },
       {
-        "label": "Rate of fire",
-        "value": "70%"
+        "label": "Projectile Speed",
+        "value": "10 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "3.5 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -57,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "Acid Bubble, Acid Bubble Large"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

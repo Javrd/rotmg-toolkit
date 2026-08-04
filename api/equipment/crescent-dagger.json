@@ -19,6 +19,18 @@
       {
         "label": "Damage (Average)",
         "value": "125-220 (172.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "105%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "14 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "5.6 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -49,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "CD Hero Magic"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

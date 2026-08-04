@@ -21,12 +21,16 @@
         "value": "95-170 (132.5)"
       },
       {
-        "label": "Piercing",
-        "value": "Shots hit multiple targets"
-      },
-      {
         "label": "Rate of Fire",
         "value": "110%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "15 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "5.02 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -57,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "Bone Dagger Shot"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

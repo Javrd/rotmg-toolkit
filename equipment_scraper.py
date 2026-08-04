@@ -206,33 +206,56 @@ def parse_item_tables(html_doc, category):
 
 
 BULLET_LABEL_RE = re.compile(r'^Bullet (\d+)$')
-SHOTS_TABLE_RE = re.compile(
+PROJECTILE_TABLE_RE = re.compile(
     r'<div class="table-responsive"><table>\s*<tbody>(.*?)</tbody></table></div>', re.S)
-SHOTS_ROW_RE = re.compile(r'<th>Shots</th>\s*<td>(\d+)</td>')
+PROJECTILE_ROW_RE = re.compile(r'<tr>\s*<th[^>]*>([^<]*)</th>\s*<td[^>]*>(.*?)</td>\s*</tr>', re.S)
+DAMAGE_RANGE_AVERAGE_RE = re.compile(r'average:\s*')
 
 
-def fetch_bullet_shot_counts(href):
-    """Category-page cells often can't say how many shots belong to each
-    'Bullet N' group in a weapon's Damage column -- some categories collapse
-    it to a single combined total (e.g. Heartsteel Claymore's Shots: 3, for
-    bullet groups of 1 and 2 shots respectively). The item's own page has
-    one small table per projectile definition, each starting with its own
-    'Shots' row, in the same order the bullets are listed on the category
-    page. Returns the ordered per-bullet shot counts, or [] if the page
-    doesn't follow that layout (e.g. it also has a combined summary 'Shots'
-    row mixed into the main info table, which throws the count off and
-    means we bail out rather than guess)."""
+def normalize_damage_range(text):
+    """Item pages write damage ranges as '15–20 (average: 17.5)'; category
+    pages (the usual data source) write the same thing as '15-20 (17.5)'.
+    Normalize to the category-page shape so it parses the same way
+    everywhere (readAvg() in build_html.py expects '(NUMBER)')."""
+    text = DAMAGE_RANGE_AVERAGE_RE.sub('', text)
+    return text.replace('–', '-').replace('‒', '-')
+
+
+def fetch_projectile_groups(href):
+    """A weapon's own item page has one small table per projectile
+    definition (each starting with its own 'Shots' row) with the full
+    per-shot detail -- Shots, Damage, Rate of Fire (if not implicitly
+    100%), Projectile Speed, Range, and Effect(s) -- that many
+    category-listing pages omit entirely for basic Tiered weapons (see
+    docs/decisions/0005-thin-category-page-weapons.md). Returns an ordered
+    list of {"Shots": ..., "Damage": ..., ..., "_effects": [...],
+    "_effect_descriptions": {...}} dicts, or [] if the page has no such
+    tables."""
     try:
         detail_html = fetch(BASE + href)
     except Exception as e:
-        print(f"    ! bullet-shots fetch failed for {href}: {e}", file=sys.stderr)
+        print(f"    ! projectile-detail fetch failed for {href}: {e}", file=sys.stderr)
         return []
-    counts = []
-    for tbl in SHOTS_TABLE_RE.findall(detail_html):
-        m = SHOTS_ROW_RE.search(tbl)
-        if m:
-            counts.append(int(m.group(1)))
-    return counts
+    groups = []
+    for tbl in PROJECTILE_TABLE_RE.findall(detail_html):
+        rows, effects, effect_descriptions = {}, [], {}
+        for label_html, value_html in PROJECTILE_ROW_RE.findall(tbl):
+            label = TAG_RE.sub('', label_html).strip()
+            if not label:
+                continue
+            text, seg_effects = clean_cell(value_html)
+            if label == 'Effect(s)':
+                effects = [e for e in seg_effects if e]
+                for seg in split_segments(text, label):
+                    if seg["label"] in effects and seg["value"]:
+                        effect_descriptions[seg["label"]] = seg["value"]
+                continue
+            rows[label] = text
+        if 'Shots' in rows:
+            rows['_effects'] = effects
+            rows['_effect_descriptions'] = effect_descriptions
+            groups.append(rows)
+    return groups
 
 
 def enrich_multi_bullet_shots(items):
@@ -254,11 +277,86 @@ def enrich_multi_bullet_shots(items):
         })
         if len(bullet_ns) < 2 or any(s["label"].endswith("Shots") for s in segs):
             continue
-        counts = fetch_bullet_shot_counts(it["href"])
-        if len(counts) != len(bullet_ns):
+        groups = fetch_projectile_groups(it["href"])
+        if len(groups) != len(bullet_ns):
             continue
-        for n, count in zip(bullet_ns, counts):
-            segs.append({"label": f"Bullet {n} Shots", "value": str(count)})
+        for n, g in zip(bullet_ns, groups):
+            shots = g.get("Shots", "1")
+            segs.append({"label": f"Bullet {n} Shots", "value": shots})
+    return items
+
+
+def enrich_thin_weapons(items):
+    """Basic Tiered weapons (T0-T13, across every weapon line) often have
+    a category-listing row that only shows a bare damage range -- no
+    Shots, no Rate of Fire, no effects at all (e.g. Shortbow: 'Main:
+    15-20 (17.5)' / 'Side (2): 5-10 (7.5)', nothing else). That page is
+    the sole data source for ~170 weapons, so without this the DPS
+    calculator silently assumes 1 shot at 100% RoF and effects like
+    Piercing never show up in Equipment Compare. This rebuilds Damage
+    (Average)/Shots/effects from the item's own page instead, using the
+    same 'Bullet N' shape the multi-bullet DPS logic already understands
+    when there's more than one projectile definition (Main/Side become
+    Bullet 1/Bullet 2 by position -- their own labels don't matter, only
+    matching them up with the multi-bullet DPS reader does). See
+    docs/decisions/0005-thin-category-page-weapons.md."""
+    for it in items:
+        if it["category"] != "Weapon":
+            continue
+        if "Shots" in it["columns"] or "Fire Rate" in it["columns"]:
+            continue
+        key = "Damage (Average)" if "Damage (Average)" in it["columns"] else (
+            "Damage" if "Damage" in it["columns"] else None)
+        if key:
+            bullet_ns = {m for s in it["columns"][key] for m in [BULLET_LABEL_RE.match(s["label"])] if m}
+            if bullet_ns:
+                continue  # already has its own per-bullet Shots via enrich_multi_bullet_shots
+        groups = fetch_projectile_groups(it["href"])
+        if not groups:
+            continue
+
+        def build_segs(prefix, g):
+            segs = []
+            dmg = g.get("Damage")
+            if not dmg:
+                return None
+            segs.append({"label": prefix or "Damage (Average)", "value": normalize_damage_range(dmg)})
+            if prefix:
+                # unprefixed single-group Shots is set as its own top-level
+                # column below instead, to match how every other weapon
+                # stores it (avoids a duplicate "Shots" row in the UI)
+                segs.append({"label": f"{prefix} Shots", "value": g.get("Shots", "1")})
+            if "Rate of Fire" in g:
+                segs.append({"label": f"{prefix} Rate of Fire" if prefix else "Rate of Fire",
+                             "value": g["Rate of Fire"]})
+            if "Projectile Speed" in g:
+                segs.append({"label": f"{prefix} Projectile Speed" if prefix else "Projectile Speed",
+                             "value": g["Projectile Speed"]})
+            if "Range" in g:
+                segs.append({"label": f"{prefix} Range" if prefix else "Range", "value": g["Range"]})
+            return segs
+
+        if len(groups) == 1:
+            new_segs = build_segs("", groups[0])
+        else:
+            new_segs = []
+            for i, g in enumerate(groups, start=1):
+                gs = build_segs(f"Bullet {i}", g)
+                if gs:
+                    new_segs.extend(gs)
+        if not new_segs:
+            continue
+
+        all_effects = set(it["effects"])
+        for g in groups:
+            all_effects.update(g.get("_effects") or [])
+            it["effect_descriptions"].update(g.get("_effect_descriptions") or {})
+        it["effects"] = sorted(all_effects)
+
+        it["columns"].pop("Damage", None)
+        it["columns"]["Damage (Average)"] = new_segs
+        if len(groups) == 1:
+            it["columns"]["Shots"] = [{"label": "Shots", "value": groups[0].get("Shots", "1")}]
     return items
 
 
@@ -267,6 +365,7 @@ def scrape_category(slug, category):
     classes = extract_classes(html_doc)
     items = parse_item_tables(html_doc, category)
     items = enrich_multi_bullet_shots(items)
+    items = enrich_thin_weapons(items)
     for it in items:
         it["classes"] = classes
         it["category_slug"] = slug

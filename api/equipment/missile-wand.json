@@ -20,6 +20,14 @@
       {
         "label": "Damage (Average)",
         "value": "50-85 (67.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "18 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "9 tiles"
       }
     ],
     "Feed Power": [
@@ -33,8 +41,18 @@
         "label": "Projectile",
         "value": "Blue Magic"
       }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
     ]
   },
-  "effects": [],
-  "effectDescriptions": {}
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
 }

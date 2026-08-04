@@ -17,12 +17,36 @@
   "columns": {
     "Damage (Average)": [
       {
-        "label": "Main",
+        "label": "Bullet 1",
         "value": "135-145 (140)"
       },
       {
-        "label": "Damage (Average)",
-        "value": "Side (2): 35-45 (40)"
+        "label": "Bullet 1 Shots",
+        "value": "1"
+      },
+      {
+        "label": "Bullet 1 Projectile Speed",
+        "value": "16 tiles/second"
+      },
+      {
+        "label": "Bullet 1 Range",
+        "value": "7.04 tiles"
+      },
+      {
+        "label": "Bullet 2",
+        "value": "35-45 (40)"
+      },
+      {
+        "label": "Bullet 2 Shots",
+        "value": "2 (arc gap: 14°)"
+      },
+      {
+        "label": "Bullet 2 Projectile Speed",
+        "value": "16 tiles/second"
+      },
+      {
+        "label": "Bullet 2 Range",
+        "value": "7.04 tiles (true range: 4.07 tiles)"
       }
     ],
     "XP Bonus": [
@@ -44,6 +68,12 @@
       }
     ]
   },
-  "effects": [],
-  "effectDescriptions": {}
+  "effects": [
+    "Armor Piercing",
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets",
+    "Armor Piercing": "Ignores defense of target"
+  }
 }

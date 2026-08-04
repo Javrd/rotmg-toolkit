@@ -19,6 +19,18 @@
       {
         "label": "Damage (Average)",
         "value": "25-80 (52.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "105%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "14 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "5.6 tiles"
       }
     ],
     "XP Bonus": [
@@ -37,6 +49,12 @@
       {
         "label": "Projectile",
         "value": "Blade"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

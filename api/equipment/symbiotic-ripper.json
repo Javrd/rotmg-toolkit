@@ -21,16 +21,16 @@
         "value": "120-170 (145)"
       },
       {
-        "label": "Projectile Speed",
-        "value": "7.5"
-      },
-      {
         "label": "Rate of Fire",
         "value": "125%"
       },
       {
-        "label": "Damage (Average)",
-        "value": "-2 VIT"
+        "label": "Projectile Speed",
+        "value": "7.5 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "5.6025 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -61,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "Parasitic Stab, Parasitic Blast"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

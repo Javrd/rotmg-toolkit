@@ -19,6 +19,14 @@
       {
         "label": "Damage (Average)",
         "value": "25-45 (35)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "18 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "8.55 tiles"
       }
     ],
     "Feed Power": [
@@ -31,6 +39,12 @@
       {
         "label": "Projectile",
         "value": "Green Missile"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
       }
     ]
   },

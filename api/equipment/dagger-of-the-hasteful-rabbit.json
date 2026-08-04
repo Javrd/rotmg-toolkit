@@ -19,6 +19,18 @@
       {
         "label": "Damage (Average)",
         "value": "115-200 (157.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "105%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "14 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "5.6 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -49,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "BB Bunny Bullet 1"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

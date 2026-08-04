@@ -17,12 +17,44 @@
   "columns": {
     "Damage (Average)": [
       {
-        "label": "Damage (Average)",
-        "value": "Shot 1: 75-105 (90)"
+        "label": "Bullet 1",
+        "value": "75-105 (90)"
       },
       {
-        "label": "Damage (Average)",
-        "value": "Shot 2: 55-85 (70)"
+        "label": "Bullet 1 Shots",
+        "value": "1"
+      },
+      {
+        "label": "Bullet 1 Rate of Fire",
+        "value": "90%"
+      },
+      {
+        "label": "Bullet 1 Projectile Speed",
+        "value": "12 tiles/second"
+      },
+      {
+        "label": "Bullet 1 Range",
+        "value": "4.8 tiles"
+      },
+      {
+        "label": "Bullet 2",
+        "value": "55-85 (70)"
+      },
+      {
+        "label": "Bullet 2 Shots",
+        "value": "1"
+      },
+      {
+        "label": "Bullet 2 Rate of Fire",
+        "value": "110%"
+      },
+      {
+        "label": "Bullet 2 Projectile Speed",
+        "value": "12 tiles/second"
+      },
+      {
+        "label": "Bullet 2 Range",
+        "value": "4.8 tiles"
       }
     ],
     "XP Bonus": [
@@ -44,6 +76,10 @@
       }
     ]
   },
-  "effects": [],
-  "effectDescriptions": {}
+  "effects": [
+    "Passes cover"
+  ],
+  "effectDescriptions": {
+    "Passes cover": "Shots pass through obstacles"
+  }
 }

@@ -13,6 +13,18 @@
         {
           "label": "Damage (Average)",
           "value": "25-70 (47.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -31,6 +43,12 @@
         {
           "label": "Projectile",
           "value": "Blade"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -57,6 +75,18 @@
         {
           "label": "Damage (Average)",
           "value": "25-80 (52.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -75,6 +105,12 @@
         {
           "label": "Projectile",
           "value": "Blade"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -101,6 +137,18 @@
         {
           "label": "Damage (Average)",
           "value": "30-85 (57.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -119,6 +167,12 @@
         {
           "label": "Projectile",
           "value": "Blade"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -145,6 +199,18 @@
         {
           "label": "Damage (Average)",
           "value": "40-90 (65)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -163,6 +229,12 @@
         {
           "label": "Projectile",
           "value": "Blade"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -189,6 +261,18 @@
         {
           "label": "Damage (Average)",
           "value": "45-100 (72.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -207,6 +291,12 @@
         {
           "label": "Projectile",
           "value": "Blade"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -233,6 +323,18 @@
         {
           "label": "Damage (Average)",
           "value": "50-110 (80)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -251,6 +353,12 @@
         {
           "label": "Projectile",
           "value": "Blade"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -277,6 +385,18 @@
         {
           "label": "Damage (Average)",
           "value": "60-125 (92.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -295,6 +415,12 @@
         {
           "label": "Projectile",
           "value": "Blade"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -321,6 +447,18 @@
         {
           "label": "Damage (Average)",
           "value": "70-140 (105)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -339,6 +477,12 @@
         {
           "label": "Projectile",
           "value": "Blade"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -365,6 +509,18 @@
         {
           "label": "Damage (Average)",
           "value": "85-155 (120)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -383,6 +539,12 @@
         {
           "label": "Projectile",
           "value": "Red Fire"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -409,6 +571,18 @@
         {
           "label": "Damage (Average)",
           "value": "95-165 (130)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -427,6 +601,12 @@
         {
           "label": "Projectile",
           "value": "White Bolt"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -453,6 +633,18 @@
         {
           "label": "Damage (Average)",
           "value": "100-175 (137.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -471,6 +663,12 @@
         {
           "label": "Projectile",
           "value": "Green Bolt"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -497,6 +695,18 @@
         {
           "label": "Damage (Average)",
           "value": "105-190 (147.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -515,6 +725,12 @@
         {
           "label": "Projectile",
           "value": "Blue Magic"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -541,6 +757,18 @@
         {
           "label": "Damage (Average)",
           "value": "115-200 (157.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -559,6 +787,12 @@
         {
           "label": "Projectile",
           "value": "Purple Magic"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -585,6 +819,18 @@
         {
           "label": "Damage (Average)",
           "value": "125-220 (172.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -603,6 +849,12 @@
         {
           "label": "Projectile",
           "value": "Orange Magic"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -629,6 +881,18 @@
         {
           "label": "Damage (Average)",
           "value": "140-235 (187.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -647,6 +911,12 @@
         {
           "label": "Projectile",
           "value": "Black Magic"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -677,6 +947,14 @@
         {
           "label": "Rate of Fire",
           "value": "140%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -708,6 +986,12 @@
           "label": "Projectile",
           "value": "Poison Fling"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -735,12 +1019,16 @@
           "value": "95-170 (132.5)"
         },
         {
-          "label": "Piercing",
-          "value": "Shots hit multiple targets"
-        },
-        {
           "label": "Rate of Fire",
           "value": "110%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.02 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -771,6 +1059,12 @@
         {
           "label": "Projectile",
           "value": "Bone Dagger Shot"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -803,12 +1097,16 @@
           "value": "250-300 (275)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "7.5"
-        },
-        {
           "label": "Rate of Fire",
           "value": "50%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "7.5 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -840,6 +1138,12 @@
           "label": "Projectile",
           "value": "Mango"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -867,12 +1171,16 @@
           "value": "250-300 (275)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "7.5"
-        },
-        {
           "label": "Rate of Fire",
           "value": "75%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "7.5 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -904,6 +1212,12 @@
           "label": "Projectile",
           "value": "Groovy Mango Shot"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -929,6 +1243,18 @@
         {
           "label": "Damage (Average)",
           "value": "105-190 (147.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -960,6 +1286,12 @@
           "label": "Projectile",
           "value": "Heartfinder Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -983,24 +1315,40 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "60-140 (average: 100)"
+          "label": "Bullet 1",
+          "value": "60-140 (100)"
         },
         {
-          "label": "Armor Piercing",
-          "value": "Ignores defense of target"
+          "label": "Bullet 1 Shots",
+          "value": "1"
         },
         {
-          "label": "Rate of Fire",
+          "label": "Bullet 1 Rate of Fire",
           "value": "150%"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Fires an additional shot every 2 seconds that deals 200-300 damage and [Grey Down Arrow] Exposed for 1 second."
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16.5 tiles/second"
         },
         {
-          "label": "Damage (Average)",
-          "value": "+4 SPD"
+          "label": "Bullet 1 Range",
+          "value": "5.28 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "200-300 (250)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16.5 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "5.28 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1039,7 +1387,8 @@
       "Grey Down Arrow"
     ],
     "effect_descriptions": {
-      "Armor Piercing": "Ignores defense of target"
+      "Armor Piercing": "Ignores defense of target",
+      "Grey Down Arrow": "Exposed for 1 second"
     },
     "classes": [
       "Rogue",
@@ -1061,15 +1410,19 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "110-160 (135)"
-        },
-        {
-          "label": "Passes cover",
-          "value": "Shots pass through obstacles"
+          "value": "75-135 (105 / total: 315)"
         },
         {
           "label": "Rate of Fire",
           "value": "65%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.32 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1101,6 +1454,12 @@
           "label": "Projectile",
           "value": "Realm Stab"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "3 (arc gap: 5°)"
+        }
       ]
     },
     "effects": [
@@ -1129,23 +1488,19 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "85-100 (92.5)"
-        },
-        {
-          "label": "Amplitude",
-          "value": "1.5"
-        },
-        {
-          "label": "Frequency",
-          "value": "0.7"
-        },
-        {
-          "label": "Wavy",
-          "value": "Wavy shots"
+          "value": "85-100 (92.5 / total: 185)"
         },
         {
           "label": "Rate of Fire",
           "value": "120%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles (true range: 2.84 tiles)"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1185,6 +1540,12 @@
           "label": "Projectile",
           "value": "Corruption Cut"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2 (arc gap: 20°)"
+        }
       ]
     },
     "effects": [
@@ -1220,8 +1581,12 @@
           "value": "65%"
         },
         {
-          "label": "Damage (Average)",
-          "value": "+6 VIT"
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "6.09 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1253,6 +1618,12 @@
           "label": "Projectile",
           "value": "Right Hook Shot"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -1280,20 +1651,16 @@
           "value": "50-280 (165)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "13"
-        },
-        {
-          "label": "Amplitude",
-          "value": "0.2"
-        },
-        {
-          "label": "Frequency",
-          "value": "0.2"
-        },
-        {
           "label": "Rate of Fire",
           "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.2 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1325,6 +1692,12 @@
           "label": "Projectile",
           "value": "Spirit Dagger Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -1352,16 +1725,16 @@
           "value": "110-130 (120)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "11"
-        },
-        {
-          "label": "Blood Drop",
-          "value": "Bleeding on enemies for 4.5 seconds. (Bleed Damage: 50)"
-        },
-        {
           "label": "Rate of Fire",
           "value": "80%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "11 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1392,6 +1765,12 @@
         {
           "label": "Projectile",
           "value": "Chain Dagger Projectile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -1424,20 +1803,16 @@
           "value": "150-170 (160)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "10"
-        },
-        {
-          "label": "Piercing",
-          "value": "Shots hit multiple targets"
-        },
-        {
-          "label": "Armor Piercing",
-          "value": "Ignores defense of target"
-        },
-        {
           "label": "Rate of Fire",
           "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1469,6 +1844,12 @@
           "label": "Projectile",
           "value": "EH Dagger Shot"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [
@@ -1499,23 +1880,19 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "85-100 (92.5)"
-        },
-        {
-          "label": "Amplitude",
-          "value": "1.5"
-        },
-        {
-          "label": "Frequency",
-          "value": "0.7"
-        },
-        {
-          "label": "Wavy",
-          "value": "Wavy shots"
+          "value": "85-100 (92.5 / total: 175)"
         },
         {
           "label": "Rate of Fire",
           "value": "120%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles (true range: 2.84 tiles)"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1555,6 +1932,12 @@
           "label": "Projectile",
           "value": "Cutter Reskin Missile"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2 (arc gap: 20°)"
+        }
       ]
     },
     "effects": [
@@ -1586,20 +1969,16 @@
           "value": "150-170 (160)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "14"
-        },
-        {
-          "label": "Piercing",
-          "value": "Shots hit multiple targets"
-        },
-        {
-          "label": "Armor Piercing",
-          "value": "Ignores defense of target"
-        },
-        {
           "label": "Rate of Fire",
           "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1630,6 +2009,12 @@
         {
           "label": "Projectile",
           "value": "Queen Reskin Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -1664,16 +2049,16 @@
           "value": "150-290 (220)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "18"
-        },
-        {
           "label": "Rate of Fire",
           "value": "95%"
         },
         {
-          "label": "Damage (Average)",
-          "value": "+6 WIS"
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1705,6 +2090,12 @@
           "label": "Projectile",
           "value": "Rainbow Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -1729,31 +2120,19 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "90-105 (97.5)"
-        },
-        {
-          "label": "Amplitude",
-          "value": "1.5"
-        },
-        {
-          "label": "Frequency",
-          "value": "0.7"
-        },
-        {
-          "label": "Passes cover",
-          "value": "Shots pass through obstacles"
-        },
-        {
-          "label": "Wavy",
-          "value": "Wavy shots"
-        },
-        {
-          "label": "Hitbox Size",
-          "value": "1.5 tiles"
+          "value": "90-105 (97.5 / total: 195)"
         },
         {
           "label": "Rate of Fire",
           "value": "120%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles (true range: 2.84 tiles)"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1793,6 +2172,12 @@
           "label": "Projectile",
           "value": "Neo Cutter Reskin Missile"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2 (arc gap: 20°)"
+        }
       ]
     },
     "effects": [
@@ -1826,20 +2211,16 @@
           "value": "250-270 (260)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "14"
-        },
-        {
-          "label": "Piercing",
-          "value": "Shots hit multiple targets"
-        },
-        {
-          "label": "Armor Piercing",
-          "value": "Ignores defense of target"
-        },
-        {
           "label": "Rate of Fire",
           "value": "70%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1871,6 +2252,12 @@
           "label": "Projectile",
           "value": "Neo Queen Reskin Missile"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [
@@ -1900,36 +2287,64 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Petal Bolt:"
-        },
-        {
-          "label": "Damage (Average)",
+          "label": "Bullet 1",
           "value": "70-300 (185)"
         },
         {
-          "label": "Rate of Fire",
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
           "value": "105%"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Cherry Petal:"
+          "label": "Bullet 1 Projectile Speed",
+          "value": "13 tiles/second"
         },
         {
-          "label": "Damage (Average)",
-          "value": "40-100 (70),"
+          "label": "Bullet 1 Range",
+          "value": "5.2 tiles"
         },
         {
-          "label": "Damage (Average)",
+          "label": "Bullet 2",
+          "value": "40-100 (70)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "13%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "11 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "5.2 tiles"
+        },
+        {
+          "label": "Bullet 3",
           "value": "20-110 (65)"
         },
         {
-          "label": "Armor Piercing",
-          "value": "Ignores defense of target"
+          "label": "Bullet 3 Shots",
+          "value": "1"
         },
         {
-          "label": "Rate of Fire",
-          "value": "13%, 25%"
+          "label": "Bullet 3 Rate of Fire",
+          "value": "25%"
+        },
+        {
+          "label": "Bullet 3 Projectile Speed",
+          "value": "11 tiles/second"
+        },
+        {
+          "label": "Bullet 3 Range",
+          "value": "5.2 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1992,20 +2407,16 @@
           "value": "190-215 (202.5)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "13.3"
-        },
-        {
-          "label": "Amplitude",
-          "value": "0.55"
-        },
-        {
-          "label": "Frequency",
-          "value": "0.5"
-        },
-        {
           "label": "Rate of Fire",
           "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13.3 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.985 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2036,6 +2447,12 @@
         {
           "label": "Projectile",
           "value": "Avarice Projectile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -2133,23 +2550,19 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "60-75 (60)"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "15"
-        },
-        {
-          "label": "Acceleration",
-          "value": "-122.5 tiles/sec^2 after 0.3 seconds"
-        },
-        {
-          "label": "Damage (Average)",
-          "value": "Min. Speed: 1"
+          "value": "60-75 (67.5)"
         },
         {
           "label": "Rate of Fire",
           "value": "85%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "15.0 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.99 tiles (true range: 3.8 tiles)"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2181,6 +2594,12 @@
           "label": "Projectile",
           "value": "Daeva Feather, Daeva Feather Large"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "4 (arc gap: 5°)"
+        }
       ]
     },
     "effects": [],
@@ -2208,12 +2627,16 @@
           "value": "265-320 (292.5)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "10"
+          "label": "Rate of Fire",
+          "value": "70%"
         },
         {
-          "label": "Rate of fire",
-          "value": "70%"
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2245,6 +2668,12 @@
           "label": "Projectile",
           "value": "Acid Bubble, Acid Bubble Large"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -2269,23 +2698,19 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "115-225 (170)"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "16"
-        },
-        {
-          "label": "Amplitude",
-          "value": "0.2"
-        },
-        {
-          "label": "Frequency",
-          "value": "0.2"
+          "value": "95-195 (145)"
         },
         {
           "label": "Rate of Fire",
-          "value": "110%"
+          "value": "125%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.84 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2317,6 +2742,12 @@
           "label": "Projectile",
           "value": "Spooky Sparkle, Spooky Sparkle 9000"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -2344,24 +2775,16 @@
           "value": "345-460 (402.5)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "10"
-        },
-        {
-          "label": "Rate of fire",
+          "label": "Rate of Fire",
           "value": "40%"
         },
         {
-          "label": "When Invisble",
-          "value": "Shoot a powerful scythe"
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
         },
         {
-          "label": "Chain Damage",
-          "value": "50 ([Armor Piercing] Ignores defense of target)"
-        },
-        {
-          "label": "Blade Damage",
-          "value": "100-300 (200)"
+          "label": "Range",
+          "value": "4 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2397,12 +2820,23 @@
           "label": "Projectile",
           "value": "Scythe Dagger, Scythe Dagger Large"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [
-      "Armor Piercing"
+      "Armor Piercing",
+      "Passes cover",
+      "Piercing"
     ],
-    "effect_descriptions": {},
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets (scythe/chain)",
+      "Passes cover": "Shots pass through obstacles (scythe/chain)"
+    },
     "classes": [
       "Rogue",
       "Assassin",
@@ -2426,8 +2860,16 @@
           "value": "155-170 (162.5)"
         },
         {
-          "label": "Rate of fire",
+          "label": "Rate of Fire",
           "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "6.3 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2459,6 +2901,12 @@
           "label": "Projectile",
           "value": "Golem Magic, Golem Super Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -2486,12 +2934,16 @@
           "value": "265-345 (305)"
         },
         {
-          "label": "Amplitude",
-          "value": "-1 / 0 / 1"
+          "label": "Rate of Fire",
+          "value": "45%"
         },
         {
-          "label": "Rate of fire",
-          "value": "45%"
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2523,6 +2975,12 @@
           "label": "Projectile",
           "value": "Colorfull Sickle, Colorfull Sickle Full"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1 / 3 / 5"
+        }
       ]
     },
     "effects": [],
@@ -2550,16 +3008,16 @@
           "value": "120-170 (145)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "7.5"
-        },
-        {
           "label": "Rate of Fire",
           "value": "125%"
         },
         {
-          "label": "Damage (Average)",
-          "value": "-2 VIT"
+          "label": "Projectile Speed",
+          "value": "7.5 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6025 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2591,6 +3049,12 @@
           "label": "Projectile",
           "value": "Parasitic Stab, Parasitic Blast"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -2615,27 +3079,15 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "750 (350 on impact)"
-        },
-        {
-          "label": "Throw Time",
-          "value": "0.5 seconds"
-        },
-        {
-          "label": "Damage (Average)",
           "value": "60-100 (80)"
-        },
-        {
-          "label": "Piercing",
-          "value": "Shots hit multiple targets"
-        },
-        {
-          "label": "Armor Piercing",
-          "value": "Ignores defense of target"
         },
         {
           "label": "Rate of Fire",
           "value": "60%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2666,6 +3118,12 @@
         {
           "label": "Projectile",
           "value": "Poison Grenade, Alchemist Dart Small"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -2700,12 +3158,16 @@
           "value": "50"
         },
         {
-          "label": "Projectile Speed",
-          "value": "5"
-        },
-        {
           "label": "Rate of Fire",
           "value": "80%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "5 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2737,6 +3199,12 @@
           "label": "Projectile",
           "value": "Toy Attack"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -2764,12 +3232,16 @@
           "value": "15-30 (22.5)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "3"
-        },
-        {
           "label": "Rate of Fire",
           "value": "55%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "3 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2801,6 +3273,12 @@
           "label": "Projectile",
           "value": "happy magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -2825,23 +3303,19 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "10 (Total: 20)"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "10"
-        },
-        {
-          "label": "Amplitude",
-          "value": "1.5"
-        },
-        {
-          "label": "Frequency",
-          "value": "0.61"
+          "value": "10 (total: 20)"
         },
         {
           "label": "Rate of Fire",
           "value": "160%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4 tiles (true range: 2.01 tiles)"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2881,6 +3355,12 @@
           "label": "Projectile",
           "value": "Razorlight"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2 (arc gap: 28°)"
+        }
       ]
     },
     "effects": [],
@@ -2906,6 +3386,18 @@
         {
           "label": "Damage (Average)",
           "value": "105-190 (147.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2937,6 +3429,12 @@
           "label": "Projectile",
           "value": "Obsidian Vortex"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -2962,6 +3460,18 @@
         {
           "label": "Damage (Average)",
           "value": "105-190 (147.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2993,6 +3503,12 @@
           "label": "Projectile",
           "value": "Icicle Shot"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -3018,6 +3534,18 @@
         {
           "label": "Damage (Average)",
           "value": "115-200 (157.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3049,6 +3577,12 @@
           "label": "Projectile",
           "value": "BB Bunny Bullet 1"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -3074,6 +3608,18 @@
         {
           "label": "Damage (Average)",
           "value": "115-200 (157.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3105,6 +3651,12 @@
           "label": "Projectile",
           "value": "Amethyst Shift"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -3130,6 +3682,18 @@
         {
           "label": "Damage (Average)",
           "value": "115-200 (157.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3161,6 +3725,12 @@
           "label": "Projectile",
           "value": "XMAS Dark Blue Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -3184,24 +3754,40 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "60-140 (average: 100)"
+          "label": "Bullet 1",
+          "value": "60-140 (100)"
         },
         {
-          "label": "Armor Piercing",
-          "value": "Ignores defense of target"
+          "label": "Bullet 1 Shots",
+          "value": "1"
         },
         {
-          "label": "Rate of Fire",
+          "label": "Bullet 1 Rate of Fire",
           "value": "150%"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Fires an additional shot every 2 seconds that deals 200-300 damage and [Grey Down Arrow] Exposed for 1 second."
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16.5 tiles/second"
         },
         {
-          "label": "Damage (Average)",
-          "value": "+4 SPD"
+          "label": "Bullet 1 Range",
+          "value": "5.28 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "200-300 (250)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16.5 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "5.28 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3240,7 +3826,8 @@
       "Grey Down Arrow"
     ],
     "effect_descriptions": {
-      "Armor Piercing": "Ignores defense of target"
+      "Armor Piercing": "Ignores defense of target",
+      "Grey Down Arrow": "Exposed for 1 second"
     },
     "classes": [
       "Rogue",
@@ -3267,6 +3854,14 @@
         {
           "label": "Rate of Fire",
           "value": "95%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3297,6 +3892,12 @@
         {
           "label": "Projectile",
           "value": "Aspirant Dagger Slash"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -3329,8 +3930,12 @@
           "value": "105%"
         },
         {
-          "label": "Damage (Average)",
-          "value": "+2 VIT"
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3361,6 +3966,12 @@
         {
           "label": "Projectile",
           "value": "Spatula Projectile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -3393,8 +4004,12 @@
           "value": "105%"
         },
         {
-          "label": "Damage (Average)",
-          "value": "+2 ATT"
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3426,6 +4041,12 @@
           "label": "Projectile",
           "value": "MotMG Void Shot"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -3453,12 +4074,16 @@
           "value": "65-105 (85)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "10"
-        },
-        {
           "label": "Rate of Fire",
           "value": "95%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3490,6 +4115,12 @@
           "label": "Projectile",
           "value": "Chicken Leg"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -3517,32 +4148,16 @@
           "value": "140-230 (185)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "5"
-        },
-        {
-          "label": "Acceleration",
-          "value": "20 (delay: 0.4)"
-        },
-        {
-          "label": "Speed Clamp",
-          "value": "20"
-        },
-        {
-          "label": "Burst Count",
-          "value": "3"
-        },
-        {
-          "label": "Burst Delay",
-          "value": "1.6"
-        },
-        {
-          "label": "Minimum Burst Delay",
-          "value": "0.8"
-        },
-        {
           "label": "Rate of Fire",
           "value": "130%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "5 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "6.14 tiles (true range: 4.2 tiles)"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3582,6 +4197,12 @@
           "label": "Projectile",
           "value": "Oryxmas Dagger Projectile"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2 (arc gap: 10°)"
+        }
       ]
     },
     "effects": [],
@@ -3607,6 +4228,18 @@
         {
           "label": "Damage (Average)",
           "value": "125-220 (172.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3638,6 +4271,12 @@
           "label": "Projectile",
           "value": "MotMG 2024 Dagger Projectile"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -3663,6 +4302,18 @@
         {
           "label": "Damage (Average)",
           "value": "125-220 (172.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3694,6 +4345,12 @@
           "label": "Projectile",
           "value": "Blooming Dagger Projectile"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -3719,6 +4376,18 @@
         {
           "label": "Damage (Average)",
           "value": "125-220 (172.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3750,6 +4419,12 @@
           "label": "Projectile",
           "value": "Mining Dagger Proj"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -3775,6 +4450,18 @@
         {
           "label": "Damage (Average)",
           "value": "125-220 (172.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3806,6 +4493,12 @@
           "label": "Projectile",
           "value": "Legion Elite Dagger Proj"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -3833,8 +4526,16 @@
           "value": "140-220 (180)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "+3 DEX"
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3866,6 +4567,12 @@
           "label": "Projectile",
           "value": "Phantasm Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -3893,20 +4600,16 @@
           "value": "150-170 (160)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "10"
-        },
-        {
-          "label": "Piercing",
-          "value": "Shots hit multiple targets"
-        },
-        {
-          "label": "Armor Piercing",
-          "value": "Ignores defense of target"
-        },
-        {
           "label": "Rate of Fire",
           "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3937,6 +4640,12 @@
         {
           "label": "Projectile",
           "value": "Ashen Talon Shot"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -3969,6 +4678,18 @@
         {
           "label": "Damage (Average)",
           "value": "125-220 (172.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4000,6 +4721,12 @@
           "label": "Projectile",
           "value": "Hero Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -4025,6 +4752,18 @@
         {
           "label": "Damage (Average)",
           "value": "125-220 (172.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4056,6 +4795,12 @@
           "label": "Projectile",
           "value": "CD Hero Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -4083,16 +4828,16 @@
           "value": "150-290 (220)"
         },
         {
-          "label": "Projectile Speed",
-          "value": "18"
-        },
-        {
           "label": "Rate of Fire",
           "value": "95%"
         },
         {
-          "label": "Damage (Average)",
-          "value": "+6 WIS"
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4124,6 +4869,12 @@
           "label": "Projectile",
           "value": "Phantasm Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -4148,19 +4899,19 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "95-195 (145)"
-        },
-        {
-          "label": "Amplitude",
-          "value": "0.2"
-        },
-        {
-          "label": "Frequency",
-          "value": "0.2"
+          "value": "110-215 (162.5)"
         },
         {
           "label": "Rate of Fire",
-          "value": "125%"
+          "value": "110%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.84 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4192,6 +4943,12 @@
           "label": "Projectile",
           "value": "Spooky Sparkle"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -4219,8 +4976,16 @@
           "value": "155-170 (162.5)"
         },
         {
-          "label": "Rate of fire",
+          "label": "Rate of Fire",
           "value": "105%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "14 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "6.3 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4252,6 +5017,12 @@
           "label": "Projectile",
           "value": "HGolem Magic, HGolem Super Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
     "effects": [],
@@ -4275,12 +5046,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 60-80 (70)"
+          "label": "Bullet 1",
+          "value": "60-80 (70)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 40-70 (55)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "40-70 (55)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "110%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "4.8 tiles"
         }
       ],
       "XP Bonus": [
@@ -4302,8 +5105,12 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Passes cover"
+    ],
+    "effect_descriptions": {
+      "Passes cover": "Shots pass through obstacles"
+    },
     "classes": [
       "Rogue",
       "Assassin",
@@ -4323,12 +5130,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 60-90 (75)"
+          "label": "Bullet 1",
+          "value": "60-90 (75)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 50-80 (65)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "50-80 (65)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "110%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "4.8 tiles"
         }
       ],
       "XP Bonus": [
@@ -4350,8 +5189,12 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Passes cover"
+    ],
+    "effect_descriptions": {
+      "Passes cover": "Shots pass through obstacles"
+    },
     "classes": [
       "Rogue",
       "Assassin",
@@ -4371,12 +5214,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 65-100 (82.5)"
+          "label": "Bullet 1",
+          "value": "65-100 (82.5)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 50-85 (67.5)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "50-85 (67.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "110%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "4.8 tiles"
         }
       ],
       "XP Bonus": [
@@ -4398,8 +5273,12 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Passes cover"
+    ],
+    "effect_descriptions": {
+      "Passes cover": "Shots pass through obstacles"
+    },
     "classes": [
       "Rogue",
       "Assassin",
@@ -4419,12 +5298,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 75-105 (90)"
+          "label": "Bullet 1",
+          "value": "75-105 (90)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 55-85 (70)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "55-85 (70)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "110%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "4.8 tiles"
         }
       ],
       "XP Bonus": [
@@ -4446,8 +5357,12 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Passes cover"
+    ],
+    "effect_descriptions": {
+      "Passes cover": "Shots pass through obstacles"
+    },
     "classes": [
       "Rogue",
       "Assassin",
@@ -4467,12 +5382,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 80-110 (95)"
+          "label": "Bullet 1",
+          "value": "80-110 (95)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 60-90 (75)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "60-90 (75)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "110%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "4.8 tiles"
         }
       ],
       "XP Bonus": [
@@ -4494,8 +5441,12 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Passes cover"
+    ],
+    "effect_descriptions": {
+      "Passes cover": "Shots pass through obstacles"
+    },
     "classes": [
       "Rogue",
       "Assassin",
@@ -4515,12 +5466,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 85-120 (102.5)"
+          "label": "Bullet 1",
+          "value": "85-120 (102.5)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 65-95 (80)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "65-95 (80)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "110%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "4.8 tiles"
         }
       ],
       "XP Bonus": [
@@ -4542,8 +5525,12 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Passes cover"
+    ],
+    "effect_descriptions": {
+      "Passes cover": "Shots pass through obstacles"
+    },
     "classes": [
       "Rogue",
       "Assassin",
@@ -4563,12 +5550,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 95-130 (112.5)"
+          "label": "Bullet 1",
+          "value": "95-130 (112.5)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 70-105 (87.5)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "70-105 (87.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "110%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "4.8 tiles"
         }
       ],
       "XP Bonus": [
@@ -4590,8 +5609,12 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Passes cover"
+    ],
+    "effect_descriptions": {
+      "Passes cover": "Shots pass through obstacles"
+    },
     "classes": [
       "Rogue",
       "Assassin",
@@ -4611,12 +5634,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 105-140 (122.5)"
+          "label": "Bullet 1",
+          "value": "105-140 (122.5)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 80-110 (95)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "80-110 (95)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "110%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "4.8 tiles"
         }
       ],
       "XP Bonus": [
@@ -4638,8 +5693,12 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Passes cover"
+    ],
+    "effect_descriptions": {
+      "Passes cover": "Shots pass through obstacles"
+    },
     "classes": [
       "Rogue",
       "Assassin",
@@ -4659,12 +5718,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 80-110 (95)"
+          "label": "Bullet 1",
+          "value": "80-110 (95)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 60-90 (75)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "60-90 (75)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "110%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "4.8 tiles"
         }
       ],
       "Range(True Range)": [
@@ -4692,8 +5783,12 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Passes cover"
+    ],
+    "effect_descriptions": {
+      "Passes cover": "Shots pass through obstacles"
+    },
     "classes": [
       "Rogue",
       "Assassin",
@@ -4713,16 +5808,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 75–105 (90)"
+          "label": "Bullet 1",
+          "value": "75-105 (90)"
         },
         {
-          "label": "Piercing",
-          "value": "Shots hit multiple targets"
+          "label": "Bullet 1 Shots",
+          "value": "2"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 55–75 (65)"
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "20 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "55-75 (65)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "4"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "8 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "1 tiles"
         }
       ],
       "Range(True Range)": [
@@ -4751,10 +5874,12 @@
       ]
     },
     "effects": [
+      "Passes cover",
       "Piercing"
     ],
     "effect_descriptions": {
-      "Piercing": "Shots hit multiple targets"
+      "Piercing": "Shots hit multiple targets",
+      "Passes cover": "Shots pass through obstacles"
     },
     "classes": [
       "Rogue",
@@ -4775,24 +5900,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 95–125 (110)"
+          "label": "Bullet 1",
+          "value": "95-125 (110)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 120–160 (140)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
         },
         {
-          "label": "Piercing",
-          "value": "Shots hit multiple targets"
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
         },
         {
-          "label": "Boomerang",
-          "value": "Shots boomerang"
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
         },
         {
-          "label": "Rate of Fire",
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "120-160 (140)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
           "value": "50%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "3.6 tiles"
         }
       ],
       "Range(True Range)": [
@@ -4822,11 +5967,13 @@
     },
     "effects": [
       "Boomerang",
+      "Passes cover",
       "Piercing"
     ],
     "effect_descriptions": {
       "Piercing": "Shots hit multiple targets",
-      "Boomerang": "Shots boomerang"
+      "Boomerang": "Shots boomerang",
+      "Passes cover": "Shots pass through obstacles"
     },
     "classes": [
       "Rogue",
@@ -4847,24 +5994,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 95–125 (110)"
+          "label": "Bullet 1",
+          "value": "95-125 (110)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 120–160 (140)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
         },
         {
-          "label": "Piercing",
-          "value": "Shots hit multiple targets"
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
         },
         {
-          "label": "Boomerang",
-          "value": "Shots boomerang"
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
         },
         {
-          "label": "Rate of Fire",
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "120-160 (140)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
           "value": "50%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "3.6 tiles"
         }
       ],
       "Range(True Range)": [
@@ -4894,11 +6061,13 @@
     },
     "effects": [
       "Boomerang",
+      "Passes cover",
       "Piercing"
     ],
     "effect_descriptions": {
       "Piercing": "Shots hit multiple targets",
-      "Boomerang": "Shots boomerang"
+      "Boomerang": "Shots boomerang",
+      "Passes cover": "Shots pass through obstacles"
     },
     "classes": [
       "Rogue",
@@ -4919,12 +6088,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 85-120 (102.5)"
+          "label": "Bullet 1",
+          "value": "80-120 (100)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 65-95 (80)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "60-95 (77.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "110%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "4.8 tiles"
         }
       ],
       "Range(True Range)": [
@@ -4952,8 +6153,12 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Passes cover"
+    ],
+    "effect_descriptions": {
+      "Passes cover": "Shots pass through obstacles"
+    },
     "classes": [
       "Rogue",
       "Assassin",
@@ -4973,16 +6178,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 95-130 (112.5)"
+          "label": "Bullet 1",
+          "value": "95-130 (112.5)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 70-105 (87.5)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
         },
         {
-          "label": "Damage (Average)",
-          "value": "+5 SPD"
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "70-105 (87.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "110%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "4.8 tiles"
         }
       ],
       "Range(True Range)": [
@@ -5010,8 +6243,12 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Passes cover"
+    ],
+    "effect_descriptions": {
+      "Passes cover": "Shots pass through obstacles"
+    },
     "classes": [
       "Rogue",
       "Assassin",
@@ -5031,12 +6268,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 95-130 (112.5)"
+          "label": "Bullet 1",
+          "value": "95-130 (112.5)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 70-105 (87.5)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "70-105 (87.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "110%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "4.8 tiles"
         }
       ],
       "Range(True Range)": [
@@ -5064,8 +6333,12 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Passes cover"
+    ],
+    "effect_descriptions": {
+      "Passes cover": "Shots pass through obstacles"
+    },
     "classes": [
       "Rogue",
       "Assassin",
@@ -5085,12 +6358,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 85-125 (105)"
+          "label": "Bullet 1",
+          "value": "85-125 (105)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 65-100 (82.5)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "65-100 (82.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "110%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "4.8 tiles"
         }
       ],
       "Range(True Range)": [
@@ -5139,12 +6444,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 95-130 (112.5)"
+          "label": "Bullet 1",
+          "value": "95-130 (112.5)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2: 70-105 (87.5)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "90%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "4.8 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "70-105 (87.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "110%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "4.8 tiles"
         }
       ],
       "Range(True Range)": [
@@ -5172,8 +6509,12 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Passes cover"
+    ],
+    "effect_descriptions": {
+      "Passes cover": "Shots pass through obstacles"
+    },
     "classes": [
       "Rogue",
       "Assassin",
@@ -5193,12 +6534,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "15-20 (17.5)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 5-10 (7.5)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "5-10 (7.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5220,8 +6585,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -5241,12 +6612,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "20-25 (22.5)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 5-10 (7.5)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "5-10 (7.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5268,8 +6663,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -5289,12 +6690,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "25-30 (27.5)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 5-15 (10)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "5-15 (10)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5316,8 +6741,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -5337,12 +6768,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "30-35 (32.5)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 5-15 (10)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "5-15 (10)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5364,8 +6819,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -5385,12 +6846,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "35-45 (40)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 15-20 (17.5)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "15-20 (17.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5412,8 +6897,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -5433,12 +6924,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "45-55 (50)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 15-20 (17.5)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "15-20 (17.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5460,8 +6975,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -5481,12 +7002,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "55-65 (60)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 15-20 (17.5)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "15-20 (17.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5508,8 +7053,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -5529,12 +7080,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "65-75 (70)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 20-30 (25)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "20-30 (25)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5556,8 +7131,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -5577,12 +7158,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "85-95 (90)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 20-30 (25)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "20-30 (25)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5604,8 +7209,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -5625,12 +7236,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "95-105 (100)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 20-30 (25)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "20-30 (25)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5652,8 +7287,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -5673,12 +7314,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "105-115 (110)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 25-35 (30)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "25-35 (30)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5700,8 +7365,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -5721,12 +7392,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "115-125 (120)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 25-35 (30)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "25-35 (30)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5748,8 +7443,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -5769,12 +7470,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "125-135 (130)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 25-35 (30)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "25-35 (30)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5796,8 +7521,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -5817,12 +7548,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "135-145 (140)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 35-45 (40)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "35-45 (40)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5844,8 +7599,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -5865,12 +7626,36 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Main",
+          "label": "Bullet 1",
           "value": "145-155 (150)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Side (2): 35-45 (40)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "7.04 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "35-45 (40)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2 (arc gap: 14°)"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "7.04 tiles (true range: 4.07 tiles)"
         }
       ],
       "XP Bonus": [
@@ -5892,8 +7677,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Archer",
       "Huntress",
@@ -11167,6 +12958,18 @@
         {
           "label": "Damage (Average)",
           "value": "65-70 (67.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "92, 96, 100%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -11185,6 +12988,12 @@
         {
           "label": "Projectile",
           "value": "Magenta Long Arrow"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "3"
         }
       ]
     },
@@ -11211,6 +13020,18 @@
         {
           "label": "Damage (Average)",
           "value": "75-80 (77.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "92, 96, 100%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -11229,6 +13050,12 @@
         {
           "label": "Projectile",
           "value": "Gold Long Arrow"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "3"
         }
       ]
     },
@@ -11255,6 +13082,18 @@
         {
           "label": "Damage (Average)",
           "value": "85-90 (87.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "92, 96, 100%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -11273,6 +13112,12 @@
         {
           "label": "Projectile",
           "value": "Green Long Arrow"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "3"
         }
       ]
     },
@@ -11299,6 +13144,18 @@
         {
           "label": "Damage (Average)",
           "value": "90-105 (97.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "92, 96, 100%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -11317,6 +13174,12 @@
         {
           "label": "Projectile",
           "value": "Purple Long Arrow"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "3"
         }
       ]
     },
@@ -11343,6 +13206,18 @@
         {
           "label": "Damage (Average)",
           "value": "95-115 (105)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "92, 96, 100%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -11361,6 +13236,12 @@
         {
           "label": "Projectile",
           "value": "Red Long Arrow"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "3"
         }
       ]
     },
@@ -11387,6 +13268,18 @@
         {
           "label": "Damage (Average)",
           "value": "100-125 (112.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "92, 96, 100%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -11405,6 +13298,12 @@
         {
           "label": "Projectile",
           "value": "Blue Long Arrow"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "3"
         }
       ]
     },
@@ -11431,6 +13330,18 @@
         {
           "label": "Damage (Average)",
           "value": "105-130 (117.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "92, 96, 100%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -11449,6 +13360,12 @@
         {
           "label": "Projectile",
           "value": "Yellow Long Arrow"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "3"
         }
       ]
     },
@@ -11475,6 +13392,18 @@
         {
           "label": "Damage (Average)",
           "value": "110-145 (127.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "92, 96, 100%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "16 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -11493,6 +13422,12 @@
         {
           "label": "Projectile",
           "value": "Black Long Arrow"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "3"
         }
       ]
     },
@@ -12347,6 +14282,14 @@
         {
           "label": "Damage (Average)",
           "value": "10-30 (20)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "Feed Power": [
@@ -12359,6 +14302,12 @@
         {
           "label": "Projectile",
           "value": "Grey Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -12385,6 +14334,14 @@
         {
           "label": "Damage (Average)",
           "value": "10-35 (22.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "Feed Power": [
@@ -12397,6 +14354,12 @@
         {
           "label": "Projectile",
           "value": "Fire Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -12423,6 +14386,14 @@
         {
           "label": "Damage (Average)",
           "value": "20-40 (30)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "Feed Power": [
@@ -12435,6 +14406,12 @@
         {
           "label": "Projectile",
           "value": "Grey Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -12461,6 +14438,14 @@
         {
           "label": "Damage (Average)",
           "value": "25-45 (35)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "Feed Power": [
@@ -12473,6 +14458,12 @@
         {
           "label": "Projectile",
           "value": "Green Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -12499,6 +14490,14 @@
         {
           "label": "Damage (Average)",
           "value": "30-55 (42.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "Feed Power": [
@@ -12511,6 +14510,12 @@
         {
           "label": "Projectile",
           "value": "Yellow Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -12537,6 +14542,14 @@
         {
           "label": "Damage (Average)",
           "value": "40-65 (52.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "Feed Power": [
@@ -12549,6 +14562,12 @@
         {
           "label": "Projectile",
           "value": "Salmon Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -12575,6 +14594,14 @@
         {
           "label": "Damage (Average)",
           "value": "45-85 (65)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "Feed Power": [
@@ -12587,6 +14614,12 @@
         {
           "label": "Projectile",
           "value": "Violet Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -12613,6 +14646,14 @@
         {
           "label": "Damage (Average)",
           "value": "55-100 (77.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -12631,6 +14672,12 @@
         {
           "label": "Projectile",
           "value": "Fire Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -12657,6 +14704,14 @@
         {
           "label": "Damage (Average)",
           "value": "60-105 (82.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -12675,6 +14730,12 @@
         {
           "label": "Projectile",
           "value": "Blue Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -12701,6 +14762,14 @@
         {
           "label": "Damage (Average)",
           "value": "60-110 (85)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -12719,6 +14788,12 @@
         {
           "label": "Projectile",
           "value": "Grey Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -12745,6 +14820,14 @@
         {
           "label": "Damage (Average)",
           "value": "65-110 (87.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -12763,6 +14846,12 @@
         {
           "label": "Projectile",
           "value": "Violet Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -12789,6 +14878,14 @@
         {
           "label": "Damage (Average)",
           "value": "65-120 (92.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -12807,6 +14904,12 @@
         {
           "label": "Projectile",
           "value": "Aqua Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -12833,6 +14936,14 @@
         {
           "label": "Damage (Average)",
           "value": "70-120 (95)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -12851,6 +14962,12 @@
         {
           "label": "Projectile",
           "value": "Fire Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -12877,6 +14994,14 @@
         {
           "label": "Damage (Average)",
           "value": "75-130 (102.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -12895,6 +15020,12 @@
         {
           "label": "Projectile",
           "value": "Orange Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -12921,6 +15052,14 @@
         {
           "label": "Damage (Average)",
           "value": "90-135 (112.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -12939,6 +15078,12 @@
         {
           "label": "Projectile",
           "value": "Blue Missile"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
         }
       ]
     },
@@ -17581,12 +19726,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Small",
+          "label": "Bullet 1",
           "value": "65-95 (80)"
         },
         {
-          "label": "Large",
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "6.6 tiles"
+        },
+        {
+          "label": "Bullet 2",
           "value": "45-65 (55)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "6.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -17608,8 +19785,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Armor Piercing": "Ignores defense of target",
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Wizard",
       "Necromancer",
@@ -17629,12 +19812,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Small",
+          "label": "Bullet 1",
           "value": "70-100 (85)"
         },
         {
-          "label": "Large",
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "6.6 tiles"
+        },
+        {
+          "label": "Bullet 2",
           "value": "50-70 (60)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "6.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -17656,8 +19871,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Armor Piercing": "Ignores defense of target",
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Wizard",
       "Necromancer",
@@ -17677,12 +19898,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Small",
+          "label": "Bullet 1",
           "value": "70-110 (90)"
         },
         {
-          "label": "Large",
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "6.6 tiles"
+        },
+        {
+          "label": "Bullet 2",
           "value": "50-70 (60)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "6.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -17704,8 +19957,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Armor Piercing": "Ignores defense of target",
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Wizard",
       "Necromancer",
@@ -17725,12 +19984,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Small",
+          "label": "Bullet 1",
           "value": "85-115 (100)"
         },
         {
-          "label": "Large",
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "6.6 tiles"
+        },
+        {
+          "label": "Bullet 2",
           "value": "65-85 (75)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "6.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -17752,8 +20043,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Armor Piercing": "Ignores defense of target",
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Wizard",
       "Necromancer",
@@ -17773,12 +20070,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Small",
+          "label": "Bullet 1",
           "value": "85-120 (102.5)"
         },
         {
-          "label": "Large",
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "6.6 tiles"
+        },
+        {
+          "label": "Bullet 2",
           "value": "65-85 (75)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "6.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -17800,8 +20129,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Armor Piercing": "Ignores defense of target",
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Wizard",
       "Necromancer",
@@ -17821,12 +20156,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Small",
+          "label": "Bullet 1",
           "value": "100-120 (110)"
         },
         {
-          "label": "Large",
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "6.6 tiles"
+        },
+        {
+          "label": "Bullet 2",
           "value": "70-90 (80)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "6.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -17848,8 +20215,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Armor Piercing": "Ignores defense of target",
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Wizard",
       "Necromancer",
@@ -17869,12 +20242,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Small",
+          "label": "Bullet 1",
           "value": "100-135 (117.5)"
         },
         {
-          "label": "Large",
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "6.6 tiles"
+        },
+        {
+          "label": "Bullet 2",
           "value": "85-90 (87.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "6.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -17896,8 +20301,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Armor Piercing": "Ignores defense of target",
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Wizard",
       "Necromancer",
@@ -17917,12 +20328,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Small",
+          "label": "Bullet 1",
           "value": "115-140 (127.5)"
         },
         {
-          "label": "Large",
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "6.6 tiles"
+        },
+        {
+          "label": "Bullet 2",
           "value": "85-100 (92.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "100%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "15 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "6.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -17944,8 +20387,14 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Armor Piercing": "Ignores defense of target",
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Wizard",
       "Necromancer",
@@ -18665,6 +21114,14 @@
         {
           "label": "Damage (Average)",
           "value": "30-55 (42.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "Feed Power": [
@@ -18678,10 +21135,20 @@
           "label": "Projectile",
           "value": "Red Fire"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -18704,6 +21171,14 @@
         {
           "label": "Damage (Average)",
           "value": "40-70 (55)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "Feed Power": [
@@ -18717,10 +21192,20 @@
           "label": "Projectile",
           "value": "Blue Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -18743,6 +21228,14 @@
         {
           "label": "Damage (Average)",
           "value": "45-80 (62.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "Feed Power": [
@@ -18756,10 +21249,20 @@
           "label": "Projectile",
           "value": "Blue Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -18782,6 +21285,14 @@
         {
           "label": "Damage (Average)",
           "value": "50-85 (67.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "Feed Power": [
@@ -18795,10 +21306,20 @@
           "label": "Projectile",
           "value": "Blue Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -18821,6 +21342,14 @@
         {
           "label": "Damage (Average)",
           "value": "65-95 (80)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "Feed Power": [
@@ -18834,10 +21363,20 @@
           "label": "Projectile",
           "value": "Blue Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -18860,6 +21399,14 @@
         {
           "label": "Damage (Average)",
           "value": "80-110 (95)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "Feed Power": [
@@ -18873,10 +21420,20 @@
           "label": "Projectile",
           "value": "Purple Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -18899,6 +21456,14 @@
         {
           "label": "Damage (Average)",
           "value": "95-125 (110)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "Feed Power": [
@@ -18912,10 +21477,20 @@
           "label": "Projectile",
           "value": "Pink Bolt"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -18938,6 +21513,14 @@
         {
           "label": "Damage (Average)",
           "value": "110-140 (125)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -18957,10 +21540,20 @@
           "label": "Projectile",
           "value": "Red Fire"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -18983,6 +21576,14 @@
         {
           "label": "Damage (Average)",
           "value": "115-155 (135)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -19002,10 +21603,20 @@
           "label": "Projectile",
           "value": "Green Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -19028,6 +21639,14 @@
         {
           "label": "Damage (Average)",
           "value": "120-160 (140)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -19047,10 +21666,20 @@
           "label": "Projectile",
           "value": "Purple Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -19073,6 +21702,14 @@
         {
           "label": "Damage (Average)",
           "value": "125-165 (145)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -19092,10 +21729,20 @@
           "label": "Projectile",
           "value": "Red Fire"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -19118,6 +21765,14 @@
         {
           "label": "Damage (Average)",
           "value": "130-170 (150)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -19137,10 +21792,20 @@
           "label": "Projectile",
           "value": "Green Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -19163,6 +21828,14 @@
         {
           "label": "Damage (Average)",
           "value": "135-175 (155)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -19182,10 +21855,20 @@
           "label": "Projectile",
           "value": "Blue Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -19208,6 +21891,14 @@
         {
           "label": "Damage (Average)",
           "value": "150-190 (170)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -19227,10 +21918,20 @@
           "label": "Projectile",
           "value": "Evocation Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -19253,6 +21954,14 @@
         {
           "label": "Damage (Average)",
           "value": "165-205 (185)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "18 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -19272,10 +21981,20 @@
           "label": "Projectile",
           "value": "Retribution Magic"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Priest",
       "Sorcerer",
@@ -25081,6 +27800,14 @@
         {
           "label": "Damage (Average)",
           "value": "45-90 (67.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25099,6 +27826,12 @@
         {
           "label": "Projectile",
           "value": "Blade"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -25125,6 +27858,14 @@
         {
           "label": "Damage (Average)",
           "value": "60-105 (82.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25143,6 +27884,12 @@
         {
           "label": "Projectile",
           "value": "Blade"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -25169,6 +27916,14 @@
         {
           "label": "Damage (Average)",
           "value": "75-105 (90)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25187,6 +27942,12 @@
         {
           "label": "Projectile",
           "value": "Blade"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -25213,6 +27974,14 @@
         {
           "label": "Damage (Average)",
           "value": "75-120 (97.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25231,6 +28000,12 @@
         {
           "label": "Projectile",
           "value": "Blade"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -25257,6 +28032,14 @@
         {
           "label": "Damage (Average)",
           "value": "75-135 (105)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25275,6 +28058,12 @@
         {
           "label": "Projectile",
           "value": "Blade"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -25301,6 +28090,14 @@
         {
           "label": "Damage (Average)",
           "value": "90-135 (112.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25319,6 +28116,12 @@
         {
           "label": "Projectile",
           "value": "Fire Bolt"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -25345,6 +28148,14 @@
         {
           "label": "Damage (Average)",
           "value": "110-160 (135)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25363,6 +28174,12 @@
         {
           "label": "Projectile",
           "value": "White Bolt"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -25389,6 +28206,14 @@
         {
           "label": "Damage (Average)",
           "value": "150-180 (165)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25407,6 +28232,12 @@
         {
           "label": "Projectile",
           "value": "Blade"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -25433,6 +28264,14 @@
         {
           "label": "Damage (Average)",
           "value": "180-255 (217.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25451,6 +28290,12 @@
         {
           "label": "Projectile",
           "value": "Darkness Bolt"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -25477,6 +28322,14 @@
         {
           "label": "Damage (Average)",
           "value": "195-255 (225)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25495,6 +28348,12 @@
         {
           "label": "Projectile",
           "value": "White Bolt"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -25521,6 +28380,14 @@
         {
           "label": "Damage (Average)",
           "value": "210-255 (232.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25539,6 +28406,12 @@
         {
           "label": "Projectile",
           "value": "Fire Bolt"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -25565,6 +28438,14 @@
         {
           "label": "Damage (Average)",
           "value": "210-270 (240)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25583,6 +28464,12 @@
         {
           "label": "Projectile",
           "value": "Blue Bolt"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -25609,6 +28496,14 @@
         {
           "label": "Damage (Average)",
           "value": "220-275 (247.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25627,6 +28522,12 @@
         {
           "label": "Projectile",
           "value": "Purple Bolt"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -25653,6 +28554,14 @@
         {
           "label": "Damage (Average)",
           "value": "235-290 (262.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25671,6 +28580,12 @@
         {
           "label": "Projectile",
           "value": "Splendor Bolt"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -25697,6 +28612,14 @@
         {
           "label": "Damage (Average)",
           "value": "250-305 (277.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -25715,6 +28638,12 @@
         {
           "label": "Projectile",
           "value": "Majesty Bolt"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
         }
       ]
     },
@@ -29731,12 +32660,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 200-260 (230)"
+          "label": "Bullet 1",
+          "value": "200-260 (230)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2 and 3: 40-60 (50)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "3.75 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "40-60 (50)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "7.5 tiles/second and 5 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "2.81 tiles and 1.88 tiles"
         }
       ],
       "XP Bonus": [
@@ -29758,8 +32719,16 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Boomerang",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Boomerang": "Shots boomerang",
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Warrior",
       "Knight",
@@ -29779,12 +32748,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 285-345 (315)"
+          "label": "Bullet 1",
+          "value": "285-345 (315)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2 and 3: 50-70 (60)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "3.75 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "50-70 (60)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "7.5 tiles/second and 5 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "2.81 tiles and 1.88 tiles"
         }
       ],
       "XP Bonus": [
@@ -29806,8 +32807,16 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Boomerang",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Boomerang": "Shots boomerang",
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Warrior",
       "Knight",
@@ -29827,12 +32836,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 295-355 (325)"
+          "label": "Bullet 1",
+          "value": "295-355 (325)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2 and 3: 55-70 (62.5)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "3.75 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "55-70 (62.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "7.5 tiles/second and 5 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "2.81 tiles and 1.88 tiles"
         }
       ],
       "XP Bonus": [
@@ -29854,8 +32895,16 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Boomerang",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Boomerang": "Shots boomerang",
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Warrior",
       "Knight",
@@ -29875,12 +32924,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 305-365 (335)"
+          "label": "Bullet 1",
+          "value": "305-365 (335)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2 and 3: 55-75 (65)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "3.75 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "55-75 (65)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "7.5 tiles/second and 5 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "2.81 tiles and 1.88 tiles"
         }
       ],
       "XP Bonus": [
@@ -29902,8 +32983,16 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Boomerang",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Boomerang": "Shots boomerang",
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Warrior",
       "Knight",
@@ -29923,12 +33012,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 315-375 (345)"
+          "label": "Bullet 1",
+          "value": "315-375 (345)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2 and 3: 60-75 (67.5)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "3.75 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "60-75 (67.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "7.5 tiles/second and 5 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "2.81 tiles and 1.88 tiles"
         }
       ],
       "XP Bonus": [
@@ -29950,8 +33071,16 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Boomerang",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Boomerang": "Shots boomerang",
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Warrior",
       "Knight",
@@ -29971,12 +33100,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 325-385 (355)"
+          "label": "Bullet 1",
+          "value": "325-385 (355)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2 and 3: 60-80 (70)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "3.75 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "60-80 (70)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "7.5 tiles/second and 5 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "2.81 tiles and 1.88 tiles"
         }
       ],
       "XP Bonus": [
@@ -29998,8 +33159,16 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Boomerang",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Boomerang": "Shots boomerang",
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Warrior",
       "Knight",
@@ -30019,12 +33188,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 340-400 (370)"
+          "label": "Bullet 1",
+          "value": "340-400 (370)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2 and 3: 65-90 (77.5)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "3.75 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "65-90 (77.5)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "7.5 tiles/second and 5 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "2.81 tiles and 1.88 tiles"
         }
       ],
       "XP Bonus": [
@@ -30046,8 +33247,16 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Boomerang",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Boomerang": "Shots boomerang",
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Warrior",
       "Knight",
@@ -30067,12 +33276,44 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Damage (Average)",
-          "value": "Shot 1: 355-415 (385)"
+          "label": "Bullet 1",
+          "value": "355-415 (385)"
         },
         {
-          "label": "Damage (Average)",
-          "value": "Shot 2 and 3: 70-100 (85)"
+          "label": "Bullet 1 Shots",
+          "value": "1"
+        },
+        {
+          "label": "Bullet 1 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 1 Projectile Speed",
+          "value": "10 tiles/second"
+        },
+        {
+          "label": "Bullet 1 Range",
+          "value": "3.75 tiles"
+        },
+        {
+          "label": "Bullet 2",
+          "value": "70-100 (85)"
+        },
+        {
+          "label": "Bullet 2 Shots",
+          "value": "2"
+        },
+        {
+          "label": "Bullet 2 Rate of Fire",
+          "value": "50%"
+        },
+        {
+          "label": "Bullet 2 Projectile Speed",
+          "value": "7.5 tiles/second and 5 tiles/second"
+        },
+        {
+          "label": "Bullet 2 Range",
+          "value": "2.81 tiles and 1.88 tiles"
         }
       ],
       "XP Bonus": [
@@ -30094,8 +33335,16 @@
         }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Armor Piercing",
+      "Boomerang",
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Boomerang": "Shots boomerang",
+      "Piercing": "Shots hit multiple targets",
+      "Armor Piercing": "Ignores defense of target"
+    },
     "classes": [
       "Warrior",
       "Knight",
@@ -31081,6 +34330,14 @@
         {
           "label": "Damage (Average)",
           "value": "35-80 (57.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -31100,10 +34357,20 @@
           "label": "Projectile",
           "value": "Katana Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -31125,6 +34392,14 @@
         {
           "label": "Damage (Average)",
           "value": "40-85 (62.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -31144,10 +34419,20 @@
           "label": "Projectile",
           "value": "Kendo Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -31169,6 +34454,14 @@
         {
           "label": "Damage (Average)",
           "value": "45-90 (67.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -31188,10 +34481,20 @@
           "label": "Projectile",
           "value": "Katana Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -31213,6 +34516,14 @@
         {
           "label": "Damage (Average)",
           "value": "55-95 (75)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -31232,10 +34543,20 @@
           "label": "Projectile",
           "value": "Katana Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -31257,6 +34578,14 @@
         {
           "label": "Damage (Average)",
           "value": "65-100 (82.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -31276,10 +34605,20 @@
           "label": "Projectile",
           "value": "Line Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -31301,6 +34640,14 @@
         {
           "label": "Damage (Average)",
           "value": "65-115 (90)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -31320,10 +34667,20 @@
           "label": "Projectile",
           "value": "Night Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -31345,6 +34702,14 @@
         {
           "label": "Damage (Average)",
           "value": "85-120 (102.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -31364,10 +34729,20 @@
           "label": "Projectile",
           "value": "Sky Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -31389,6 +34764,14 @@
         {
           "label": "Damage (Average)",
           "value": "100-135 (117.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -31408,10 +34791,20 @@
           "label": "Projectile",
           "value": "Buster Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -31433,6 +34826,14 @@
         {
           "label": "Damage (Average)",
           "value": "105-160 (132.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -31452,10 +34853,20 @@
           "label": "Projectile",
           "value": "Demon Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -31477,6 +34888,14 @@
         {
           "label": "Damage (Average)",
           "value": "110-175 (142.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -31496,10 +34915,20 @@
           "label": "Projectile",
           "value": "Jewel Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -31521,6 +34950,14 @@
         {
           "label": "Damage (Average)",
           "value": "125-180 (152.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -31540,10 +34977,20 @@
           "label": "Projectile",
           "value": "Ichimonji Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -31565,6 +35012,14 @@
         {
           "label": "Damage (Average)",
           "value": "130-195 (162.5)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -31584,10 +35039,20 @@
           "label": "Projectile",
           "value": "Muramasa Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -31609,6 +35074,14 @@
         {
           "label": "Damage (Average)",
           "value": "145-195 (170)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -31628,10 +35101,20 @@
           "label": "Projectile",
           "value": "Masamune Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -31653,6 +35136,14 @@
         {
           "label": "Damage (Average)",
           "value": "160-210 (185)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.74 tiles"
         }
       ],
       "XP Bonus": [
@@ -31672,10 +35163,20 @@
           "label": "Projectile",
           "value": "Sadamune Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -31697,6 +35198,14 @@
         {
           "label": "Damage (Average)",
           "value": "175-225 (200)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "13 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -31716,10 +35225,20 @@
           "label": "Projectile",
           "value": "Kusanagi Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "1"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -35301,6 +38820,18 @@
         {
           "label": "Damage (Average)",
           "value": "60-90 (75)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "95%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -35320,10 +38851,20 @@
           "label": "Projectile",
           "value": "Light Blue Cross Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -35345,6 +38886,18 @@
         {
           "label": "Damage (Average)",
           "value": "70-100 (85)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "95%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -35364,10 +38917,20 @@
           "label": "Projectile",
           "value": "Red Cross Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -35389,6 +38952,18 @@
         {
           "label": "Damage (Average)",
           "value": "75-105 (90)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "95%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -35408,10 +38983,20 @@
           "label": "Projectile",
           "value": "Dark Cross Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -35433,6 +39018,18 @@
         {
           "label": "Damage (Average)",
           "value": "80-110 (95)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "95%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -35452,10 +39049,20 @@
           "label": "Projectile",
           "value": "White Cross Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -35477,6 +39084,18 @@
         {
           "label": "Damage (Average)",
           "value": "85-120 (102.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "95%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -35496,10 +39115,20 @@
           "label": "Projectile",
           "value": "Purple Cross Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -35521,6 +39150,18 @@
         {
           "label": "Damage (Average)",
           "value": "90-125 (107.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "95%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -35540,10 +39181,20 @@
           "label": "Projectile",
           "value": "Gold Cross Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -35565,6 +39216,18 @@
         {
           "label": "Damage (Average)",
           "value": "100-135 (117.5)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "95%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -35584,10 +39247,20 @@
           "label": "Projectile",
           "value": "Pink Cross Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",
@@ -35609,6 +39282,18 @@
         {
           "label": "Damage (Average)",
           "value": "110-140 (125)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "95%"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "12 tiles/second"
+        },
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -35628,10 +39313,20 @@
           "label": "Projectile",
           "value": "Cyan Cross Slash"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "2"
+        }
       ]
     },
-    "effects": [],
-    "effect_descriptions": {},
+    "effects": [
+      "Piercing"
+    ],
+    "effect_descriptions": {
+      "Piercing": "Shots hit multiple targets"
+    },
     "classes": [
       "Ninja",
       "Samurai",

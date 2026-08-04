@@ -19,6 +19,14 @@
       {
         "label": "Damage (Average)",
         "value": "105-160 (132.5)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "13 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "4.75 tiles"
       }
     ],
     "XP Bonus": [
@@ -38,8 +46,18 @@
         "label": "Projectile",
         "value": "Demon Slash"
       }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
+      }
     ]
   },
-  "effects": [],
-  "effectDescriptions": {}
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
 }

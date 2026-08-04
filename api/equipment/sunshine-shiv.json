@@ -21,12 +21,16 @@
         "value": "15-30 (22.5)"
       },
       {
-        "label": "Projectile Speed",
-        "value": "3"
-      },
-      {
         "label": "Rate of Fire",
         "value": "55%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "3 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "4.5 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -57,6 +61,12 @@
       {
         "label": "Projectile",
         "value": "happy magic"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

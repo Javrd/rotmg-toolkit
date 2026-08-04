@@ -113,7 +113,19 @@ estabilidad del esquema; en el HTML se muestran como "Guaranteed"/"Possible")
   varía: "used by X", "worn by X", "give X the ability to..." — de ahí
   que se busque por enlace de clase, no por frase fija) y se aplican a
   **todos** los ítems de esa página. Genera con `python3
-  equipment_scraper.py data/equipment.json` (~1300 ítems).
+  equipment_scraper.py data/equipment.json` (~1300 ítems, ~2.5 min: la
+  mayoría son las 34 páginas de categoría, pero ~170 armas necesitan
+  además una petición a su propia página — ver más abajo).
+- **Páginas de categoría "delgadas"**: para las armas básicas Tiered
+  (T0-T13) de casi todas las líneas de arma, la página de categoría no
+  trae ni Shots, ni Rate of Fire, ni Effect(s) — solo el rango de daño,
+  XP Bonus, Feed Power y Projectile. `enrich_thin_weapons()` detecta esos
+  ítems (sin columna `Shots` ni `Fire Rate` ni grupos `Bullet N`), pide su
+  página propia y reconstruye `columns['Damage (Average)']` +
+  `effects`/`effect_descriptions` a partir de las tablas por proyectil de
+  esa página — ver [[0005-thin-category-page-weapons]]. Comparte
+  `fetch_projectile_groups()` con `enrich_multi_bullet_shots()`
+  ([[0003-multi-bullet-dps]]).
 - **`columns` está trocedado, no es texto plano**: cada celda de la wiki
   suele empaquetar varios datos en una sola casilla separados por
   `<br>` (ej. la columna "Damage (Average)" de un arma trae el rango de
@@ -161,9 +173,13 @@ estabilidad del esquema; en el HTML se muestran como "Guaranteed"/"Possible")
   golpe normal, no como una cadencia de ataque independiente — ver
   [[0003-multi-bullet-dps]] (la propia página de Arcane Rapier lo confirma:
   "the Rapier's Lunge now triggers every 3 shots instead of 5" para su
-  bullet 2 al 20% RoF). El bullet sin RoF explícito (el golpe por defecto)
-  se queda con la probabilidad restante (100% menos la de los demás). El
-  número de shots por bullet sale de un segmento `Bullet N Shots` que
+  bullet 2 al 20% RoF). El bullet sin RoF explícito dispara al 100% de
+  los ataques (es la convención de la wiki para "siempre dispara" — las
+  flechas Main/Side de un Shortbow, por ejemplo, omiten ambas el RoF y
+  las dos disparan siempre juntas; ver la nota al principio de
+  [[0003-multi-bullet-dps]], corregida por
+  [[0005-thin-category-page-weapons]]). El número de shots por bullet
+  sale de un segmento `Bullet N Shots` que
   añade `enrich_multi_bullet_shots()` en `equipment_scraper.py` cuando la
   página de categoría no lo separa por bullet (fetch a la página propia
   del ítem, solo si el número de tablas "Shots" encontradas coincide

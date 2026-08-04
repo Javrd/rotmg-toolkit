@@ -18,27 +18,15 @@
     "Damage (Average)": [
       {
         "label": "Damage (Average)",
-        "value": "750 (350 on impact)"
-      },
-      {
-        "label": "Throw Time",
-        "value": "0.5 seconds"
-      },
-      {
-        "label": "Damage (Average)",
         "value": "60-100 (80)"
-      },
-      {
-        "label": "Piercing",
-        "value": "Shots hit multiple targets"
-      },
-      {
-        "label": "Armor Piercing",
-        "value": "Ignores defense of target"
       },
       {
         "label": "Rate of Fire",
         "value": "60%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "13 tiles/second"
       }
     ],
     "Shots(Arc Gap)": [
@@ -69,6 +57,12 @@
       {
         "label": "Projectile",
         "value": "Poison Grenade, Alchemist Dart Small"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "1"
       }
     ]
   },

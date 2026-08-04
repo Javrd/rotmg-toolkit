@@ -19,6 +19,18 @@
       {
         "label": "Damage (Average)",
         "value": "85-120 (102.5)"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "95%"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "12 tiles/second"
+      },
+      {
+        "label": "Range",
+        "value": "4.61 tiles"
       }
     ],
     "XP Bonus": [
@@ -38,8 +50,18 @@
         "label": "Projectile",
         "value": "Purple Cross Slash"
       }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "2"
+      }
     ]
   },
-  "effects": [],
-  "effectDescriptions": {}
+  "effects": [
+    "Piercing"
+  ],
+  "effectDescriptions": {
+    "Piercing": "Shots hit multiple targets"
+  }
 }
