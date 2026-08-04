@@ -31,10 +31,6 @@
         "value": "120-150 (135)"
       },
       {
-        "label": "Shots",
-        "value": "5"
-      },
-      {
         "label": "Damage",
         "value": "Does not pierce"
       }
@@ -71,6 +67,12 @@
       {
         "label": "Feed Power",
         "value": "800"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "5"
       }
     ]
   },

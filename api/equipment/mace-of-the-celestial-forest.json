@@ -31,10 +31,6 @@
         "value": "Varies"
       },
       {
-        "label": "Shots",
-        "value": "3-6"
-      },
-      {
         "label": "Damage",
         "value": "Summons one of 4 different stationary Sprite Trees at random"
       }
@@ -67,6 +63,12 @@
       {
         "label": "Feed Power",
         "value": "700"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3-6"
       }
     ]
   },

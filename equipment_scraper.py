@@ -322,9 +322,11 @@ def enrich_thin_weapons(items):
                 return None
             segs.append({"label": prefix or "Damage (Average)", "value": normalize_damage_range(dmg)})
             if prefix:
-                # unprefixed single-group Shots is set as its own top-level
-                # column below instead, to match how every other weapon
-                # stores it (avoids a duplicate "Shots" row in the UI)
+                # unprefixed single-group Shots/Range are set as their own
+                # top-level columns below instead, to match how every other
+                # weapon stores them (avoids duplicate "Shots"/"Range" rows
+                # in the UI when compared against a naturally-rich item --
+                # see docs/decisions/0006-duplicate-range-rows.md)
                 segs.append({"label": f"{prefix} Shots", "value": g.get("Shots", "1")})
             if "Rate of Fire" in g:
                 segs.append({"label": f"{prefix} Rate of Fire" if prefix else "Rate of Fire",
@@ -332,8 +334,8 @@ def enrich_thin_weapons(items):
             if "Projectile Speed" in g:
                 segs.append({"label": f"{prefix} Projectile Speed" if prefix else "Projectile Speed",
                              "value": g["Projectile Speed"]})
-            if "Range" in g:
-                segs.append({"label": f"{prefix} Range" if prefix else "Range", "value": g["Range"]})
+            if prefix and "Range" in g:
+                segs.append({"label": f"{prefix} Range", "value": g["Range"]})
             return segs
 
         if len(groups) == 1:
@@ -357,6 +359,8 @@ def enrich_thin_weapons(items):
         it["columns"]["Damage (Average)"] = new_segs
         if len(groups) == 1:
             it["columns"]["Shots"] = [{"label": "Shots", "value": groups[0].get("Shots", "1")}]
+            if "Range" in groups[0]:
+                it["columns"]["Range"] = [{"label": "Range", "value": groups[0]["Range"]}]
     return items
 
 
@@ -370,6 +374,52 @@ def scrape_category(slug, category):
         it["classes"] = classes
         it["category_slug"] = slug
     return items, classes
+
+
+BULLET_PREFIX_RE = re.compile(r'^Bullet \d+(\s|$)')
+
+
+def normalize_collision_labels(all_items):
+    """Some category pages expose a field as its own dedicated <th> column
+    (e.g. most Wands have a 'Range' column, some Ability lines have a
+    'Shots' or 'Life Steal' column), while others fold the same field
+    into a labeled bit inside the Damage cell instead (e.g. Fire Wand's
+    'Range' segment, Mace of the Celestial Forest's 'Shots: 3-6' bit).
+    Comparing one of each in Equipment Compare produced two separate rows
+    for what's conceptually the same field -- see
+    docs/decisions/0006-duplicate-range-rows.md. This finds any label
+    used both ways anywhere in the dataset and hoists every embedded
+    (non-'Bullet N'-prefixed) occurrence to a top-level column, matching
+    whichever representation is already more common."""
+    top_keys, embedded_labels = set(), set()
+    for it in all_items:
+        top_keys.update(k for k in it["columns"] if k not in ("Damage (Average)", "Damage"))
+        key = "Damage (Average)" if "Damage (Average)" in it["columns"] else (
+            "Damage" if "Damage" in it["columns"] else None)
+        if not key:
+            continue
+        embedded_labels.update(
+            s["label"] for s in it["columns"][key]
+            if s["label"] not in ("Damage (Average)", "Damage") and not BULLET_PREFIX_RE.match(s["label"])
+        )
+    collision_labels = top_keys & embedded_labels
+    if not collision_labels:
+        return all_items
+    print(f"  normalizing duplicate-row labels: {sorted(collision_labels)}", file=sys.stderr)
+    for it in all_items:
+        key = "Damage (Average)" if "Damage (Average)" in it["columns"] else (
+            "Damage" if "Damage" in it["columns"] else None)
+        if not key:
+            continue
+        keep, hoist = [], []
+        for s in it["columns"][key]:
+            (hoist if s["label"] in collision_labels and not BULLET_PREFIX_RE.match(s["label"]) else keep).append(s)
+        if not hoist:
+            continue
+        it["columns"][key] = keep
+        for s in hoist:
+            it["columns"].setdefault(s["label"], []).append(s)
+    return all_items
 
 
 def run_all(out_path):
@@ -386,6 +436,8 @@ def run_all(out_path):
             print(f"    -> {len(items)} items, classes={classes}", file=sys.stderr)
             per_category[slug] = len(items)
             all_items.extend(items)
+
+    all_items = normalize_collision_labels(all_items)
 
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(all_items, f, indent=2, ensure_ascii=False)

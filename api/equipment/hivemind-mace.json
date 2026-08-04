@@ -31,10 +31,6 @@
         "value": "180-235 (207.5)"
       },
       {
-        "label": "Shots",
-        "value": "3"
-      },
-      {
         "label": "Damage",
         "value": "Orbits the player"
       }
@@ -71,6 +67,12 @@
       {
         "label": "Feed Power",
         "value": "1,000"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
       }
     ]
   },

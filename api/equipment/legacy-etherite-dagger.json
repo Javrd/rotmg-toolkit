@@ -27,10 +27,6 @@
       {
         "label": "Projectile Speed",
         "value": "16 tiles/second"
-      },
-      {
-        "label": "Range",
-        "value": "3.84 tiles"
       }
     ],
     "Shots(Arc Gap)": [
@@ -67,6 +63,12 @@
       {
         "label": "Shots",
         "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "3.84 tiles"
       }
     ]
   },

@@ -126,6 +126,17 @@ estabilidad del esquema; en el HTML se muestran como "Guaranteed"/"Possible")
   esa página — ver [[0005-thin-category-page-weapons]]. Comparte
   `fetch_projectile_groups()` con `enrich_multi_bullet_shots()`
   ([[0003-multi-bullet-dps]]).
+- **Un mismo campo no debe vivir a veces como columna propia y a veces
+  troceado dentro de `Damage (Average)`**: si un ítem tiene "Range" como
+  columna de nivel superior y otro lo tiene como segmento embebido, el
+  comparador pinta dos filas "Range" independientes en vez de una (una
+  con el valor del primero y "—" al lado, otra al revés). Al final de
+  `run_all()`, `normalize_collision_labels()` recorre TODO el dataset ya
+  scrapeado, detecta cualquier label usado de las dos formas en algún
+  sitio (no es una lista fija — encontró `Range` en Weapon y `Shots`/
+  `Life Steal` en Ability, sin relación con `enrich_thin_weapons()`) y
+  eleva cada aparición embebida a columna propia — ver
+  [[0006-duplicate-range-rows]].
 - **`columns` está trocedado, no es texto plano**: cada celda de la wiki
   suele empaquetar varios datos en una sola casilla separados por
   `<br>` (ej. la columna "Damage (Average)" de un arma trae el rango de

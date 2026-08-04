@@ -28,10 +28,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -56,6 +52,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -91,10 +93,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -119,6 +117,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -154,10 +158,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -182,6 +182,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -217,10 +223,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -245,6 +247,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -280,10 +288,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -308,6 +312,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -343,10 +353,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -371,6 +377,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -406,10 +418,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -434,6 +442,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -469,10 +483,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -497,6 +507,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -532,10 +548,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -560,6 +572,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -595,10 +613,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -623,6 +637,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -658,10 +678,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -686,6 +702,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -721,10 +743,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -749,6 +767,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -784,10 +808,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -812,6 +832,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -847,10 +873,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -875,6 +897,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -910,10 +938,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "XP Bonus": [
@@ -938,6 +962,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -973,10 +1003,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1014,6 +1040,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -1048,10 +1080,6 @@
         {
           "label": "Projectile Speed",
           "value": "15 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.02 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1088,6 +1116,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.02 tiles"
         }
       ]
     },
@@ -1127,10 +1161,6 @@
         {
           "label": "Projectile Speed",
           "value": "7.5 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1168,6 +1198,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -1202,10 +1238,6 @@
         {
           "label": "Projectile Speed",
           "value": "7.5 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1243,6 +1275,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -1277,10 +1315,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1317,6 +1351,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -1447,10 +1487,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.32 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1487,6 +1523,12 @@
         {
           "label": "Shots",
           "value": "3 (arc gap: 5°)"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.32 tiles"
         }
       ]
     },
@@ -1526,10 +1568,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles (true range: 2.84 tiles)"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1575,6 +1613,12 @@
           "label": "Shots",
           "value": "2 (arc gap: 20°)"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles (true range: 2.84 tiles)"
+        }
       ]
     },
     "effects": [
@@ -1613,10 +1657,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "6.09 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1654,6 +1694,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "6.09 tiles"
+        }
       ]
     },
     "effects": [],
@@ -1688,10 +1734,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.2 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1729,6 +1771,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.2 tiles"
+        }
       ]
     },
     "effects": [],
@@ -1763,10 +1811,6 @@
         {
           "label": "Projectile Speed",
           "value": "11 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1803,6 +1847,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.5 tiles"
         }
       ]
     },
@@ -1842,10 +1892,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1882,6 +1928,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5 tiles"
         }
       ]
     },
@@ -1923,10 +1975,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles (true range: 2.84 tiles)"
         }
       ],
       "Shots(Arc Gap)": [
@@ -1972,6 +2020,12 @@
           "label": "Shots",
           "value": "2 (arc gap: 20°)"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles (true range: 2.84 tiles)"
+        }
       ]
     },
     "effects": [
@@ -2010,10 +2064,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2050,6 +2100,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5 tiles"
         }
       ]
     },
@@ -2091,10 +2147,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2132,6 +2184,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.5 tiles"
+        }
       ]
     },
     "effects": [],
@@ -2166,10 +2224,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles (true range: 2.84 tiles)"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2215,6 +2269,12 @@
           "label": "Shots",
           "value": "2 (arc gap: 20°)"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles (true range: 2.84 tiles)"
+        }
       ]
     },
     "effects": [
@@ -2255,10 +2315,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2295,6 +2351,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5 tiles"
         }
       ]
     },
@@ -2453,10 +2515,6 @@
         {
           "label": "Projectile Speed",
           "value": "13.3 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.985 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2493,6 +2551,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.985 tiles"
         }
       ]
     },
@@ -2601,10 +2665,6 @@
         {
           "label": "Projectile Speed",
           "value": "15.0 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.99 tiles (true range: 3.8 tiles)"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2642,6 +2702,12 @@
           "label": "Shots",
           "value": "4 (arc gap: 5°)"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.99 tiles (true range: 3.8 tiles)"
+        }
       ]
     },
     "effects": [],
@@ -2676,10 +2742,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2717,6 +2779,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
+        }
       ]
     },
     "effects": [],
@@ -2751,10 +2819,6 @@
         {
           "label": "Projectile Speed",
           "value": "16 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.84 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2792,6 +2856,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.84 tiles"
+        }
       ]
     },
     "effects": [],
@@ -2826,10 +2896,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2870,6 +2936,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4 tiles"
         }
       ]
     },
@@ -2912,10 +2984,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "6.3 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -2953,6 +3021,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "6.3 tiles"
+        }
       ]
     },
     "effects": [],
@@ -2987,10 +3061,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3028,6 +3098,12 @@
           "label": "Shots",
           "value": "1 / 3 / 5"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4 tiles"
+        }
       ]
     },
     "effects": [],
@@ -3062,10 +3138,6 @@
         {
           "label": "Projectile Speed",
           "value": "7.5 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6025 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3102,6 +3174,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6025 tiles"
         }
       ]
     },
@@ -3214,10 +3292,6 @@
         {
           "label": "Projectile Speed",
           "value": "5 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3255,6 +3329,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5 tiles"
+        }
       ]
     },
     "effects": [],
@@ -3289,10 +3369,6 @@
         {
           "label": "Projectile Speed",
           "value": "3 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3330,6 +3406,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.5 tiles"
+        }
       ]
     },
     "effects": [],
@@ -3364,10 +3446,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4 tiles (true range: 2.01 tiles)"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3413,6 +3491,12 @@
           "label": "Shots",
           "value": "2 (arc gap: 28°)"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4 tiles (true range: 2.01 tiles)"
+        }
       ]
     },
     "effects": [],
@@ -3447,10 +3531,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3488,6 +3568,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -3522,10 +3608,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3563,6 +3645,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -3597,10 +3685,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3638,6 +3722,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -3672,10 +3762,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3713,6 +3799,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -3747,10 +3839,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3787,6 +3875,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
         }
       ]
     },
@@ -3917,10 +4011,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -3958,6 +4048,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -3992,10 +4088,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4033,6 +4125,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -4067,10 +4165,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4108,6 +4202,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -4142,10 +4242,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4183,6 +4279,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -4217,10 +4319,6 @@
         {
           "label": "Projectile Speed",
           "value": "5 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "6.14 tiles (true range: 4.2 tiles)"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4266,6 +4364,12 @@
           "label": "Shots",
           "value": "2 (arc gap: 10°)"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "6.14 tiles (true range: 4.2 tiles)"
+        }
       ]
     },
     "effects": [],
@@ -4300,10 +4404,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4341,6 +4441,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -4375,10 +4481,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4416,6 +4518,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -4450,10 +4558,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4491,6 +4595,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -4525,10 +4635,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4566,6 +4672,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -4600,10 +4712,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4641,6 +4749,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -4675,10 +4789,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4715,6 +4825,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5 tiles"
         }
       ]
     },
@@ -4756,10 +4872,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4797,6 +4909,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -4831,10 +4949,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4872,6 +4986,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "5.6 tiles"
+        }
       ]
     },
     "effects": [],
@@ -4906,10 +5026,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.5 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -4947,6 +5063,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.5 tiles"
+        }
       ]
     },
     "effects": [],
@@ -4981,10 +5103,6 @@
         {
           "label": "Projectile Speed",
           "value": "16 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.84 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -5022,6 +5140,12 @@
           "label": "Shots",
           "value": "1"
         }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.84 tiles"
+        }
       ]
     },
     "effects": [],
@@ -5056,10 +5180,6 @@
         {
           "label": "Projectile Speed",
           "value": "14 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "6.3 tiles"
         }
       ],
       "Shots(Arc Gap)": [
@@ -5096,6 +5216,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "6.3 tiles"
         }
       ]
     },
@@ -13138,10 +13264,6 @@
         {
           "label": "Projectile Speed",
           "value": "16 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -13166,6 +13288,12 @@
         {
           "label": "Shots",
           "value": "3"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ]
     },
@@ -13201,10 +13329,6 @@
         {
           "label": "Projectile Speed",
           "value": "16 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -13229,6 +13353,12 @@
         {
           "label": "Shots",
           "value": "3"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ]
     },
@@ -13264,10 +13394,6 @@
         {
           "label": "Projectile Speed",
           "value": "16 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -13292,6 +13418,12 @@
         {
           "label": "Shots",
           "value": "3"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ]
     },
@@ -13327,10 +13459,6 @@
         {
           "label": "Projectile Speed",
           "value": "16 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -13355,6 +13483,12 @@
         {
           "label": "Shots",
           "value": "3"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ]
     },
@@ -13390,10 +13524,6 @@
         {
           "label": "Projectile Speed",
           "value": "16 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -13418,6 +13548,12 @@
         {
           "label": "Shots",
           "value": "3"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ]
     },
@@ -13453,10 +13589,6 @@
         {
           "label": "Projectile Speed",
           "value": "16 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -13481,6 +13613,12 @@
         {
           "label": "Shots",
           "value": "3"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ]
     },
@@ -13516,10 +13654,6 @@
         {
           "label": "Projectile Speed",
           "value": "16 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -13544,6 +13678,12 @@
         {
           "label": "Shots",
           "value": "3"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ]
     },
@@ -13579,10 +13719,6 @@
         {
           "label": "Projectile Speed",
           "value": "16 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "7.04 tiles"
         }
       ],
       "XP Bonus": [
@@ -13607,6 +13743,12 @@
         {
           "label": "Shots",
           "value": "3"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "7.04 tiles"
         }
       ]
     },
@@ -14478,10 +14620,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "Feed Power": [
@@ -14500,6 +14638,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -14531,10 +14675,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "Feed Power": [
@@ -14553,6 +14693,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -14584,10 +14730,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "Feed Power": [
@@ -14606,6 +14748,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -14637,10 +14785,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "Feed Power": [
@@ -14659,6 +14803,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -14690,10 +14840,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "Feed Power": [
@@ -14712,6 +14858,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -14743,10 +14895,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "Feed Power": [
@@ -14765,6 +14913,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -14796,10 +14950,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "Feed Power": [
@@ -14818,6 +14968,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -14849,10 +15005,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -14877,6 +15029,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -14908,10 +15066,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -14936,6 +15090,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -14967,10 +15127,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -14995,6 +15151,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -15026,10 +15188,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -15054,6 +15212,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -15085,10 +15249,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -15113,6 +15273,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -15144,10 +15310,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -15172,6 +15334,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -15203,10 +15371,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -15231,6 +15395,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -15262,10 +15432,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "8.55 tiles"
         }
       ],
       "XP Bonus": [
@@ -15290,6 +15456,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "8.55 tiles"
         }
       ]
     },
@@ -21407,10 +21579,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "Feed Power": [
@@ -21429,6 +21597,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -21465,10 +21639,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "Feed Power": [
@@ -21487,6 +21657,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -21523,10 +21699,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "Feed Power": [
@@ -21545,6 +21717,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -21581,10 +21759,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "Feed Power": [
@@ -21603,6 +21777,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -21639,10 +21819,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "Feed Power": [
@@ -21661,6 +21837,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -21697,10 +21879,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "Feed Power": [
@@ -21719,6 +21897,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -21755,10 +21939,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "Feed Power": [
@@ -21777,6 +21957,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -21813,10 +21999,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -21841,6 +22023,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -21877,10 +22065,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -21905,6 +22089,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -21941,10 +22131,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -21969,6 +22155,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -22005,10 +22197,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -22033,6 +22221,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -22069,10 +22263,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -22097,6 +22287,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -22133,10 +22329,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -22161,6 +22353,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -22197,10 +22395,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -22225,6 +22419,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -22261,10 +22461,6 @@
         {
           "label": "Projectile Speed",
           "value": "18 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "9 tiles"
         }
       ],
       "XP Bonus": [
@@ -22289,6 +22485,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "9 tiles"
         }
       ]
     },
@@ -28186,10 +28388,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -28214,6 +28412,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -28245,10 +28449,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -28273,6 +28473,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -28304,10 +28510,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -28332,6 +28534,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -28363,10 +28571,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -28391,6 +28595,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -28422,10 +28632,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -28450,6 +28656,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -28481,10 +28693,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -28509,6 +28717,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -28540,10 +28754,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -28568,6 +28778,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -28599,10 +28815,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -28627,6 +28839,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -28658,10 +28876,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -28686,6 +28900,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -28717,10 +28937,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -28745,6 +28961,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -28776,10 +28998,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -28804,6 +29022,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -28835,10 +29059,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -28863,6 +29083,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -28894,10 +29120,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -28922,6 +29144,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -28953,10 +29181,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -28981,6 +29205,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -29012,10 +29242,6 @@
         {
           "label": "Projectile Speed",
           "value": "10 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ],
       "XP Bonus": [
@@ -29040,6 +29266,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "3.5 tiles"
         }
       ]
     },
@@ -34811,10 +35043,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -34839,6 +35067,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ]
     },
@@ -34874,10 +35108,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -34902,6 +35132,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ]
     },
@@ -34937,10 +35173,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -34965,6 +35197,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ]
     },
@@ -35000,10 +35238,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -35028,6 +35262,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ]
     },
@@ -35063,10 +35303,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -35091,6 +35327,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ]
     },
@@ -35126,10 +35368,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -35154,6 +35392,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ]
     },
@@ -35189,10 +35433,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -35217,6 +35457,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ]
     },
@@ -35252,10 +35498,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -35280,6 +35522,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ]
     },
@@ -35315,10 +35563,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -35343,6 +35587,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ]
     },
@@ -35378,10 +35628,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -35406,6 +35652,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ]
     },
@@ -35441,10 +35693,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -35469,6 +35717,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ]
     },
@@ -35504,10 +35758,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -35532,6 +35782,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ]
     },
@@ -35567,10 +35823,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -35595,6 +35847,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ]
     },
@@ -35630,10 +35888,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.74 tiles"
         }
       ],
       "XP Bonus": [
@@ -35658,6 +35912,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.74 tiles"
         }
       ]
     },
@@ -35693,10 +35953,6 @@
         {
           "label": "Projectile Speed",
           "value": "13 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.75 tiles"
         }
       ],
       "XP Bonus": [
@@ -35721,6 +35977,12 @@
         {
           "label": "Shots",
           "value": "1"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.75 tiles"
         }
       ]
     },
@@ -39372,10 +39634,6 @@
         {
           "label": "Projectile Speed",
           "value": "12 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -39400,6 +39658,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ]
     },
@@ -39439,10 +39703,6 @@
         {
           "label": "Projectile Speed",
           "value": "12 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -39467,6 +39727,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ]
     },
@@ -39506,10 +39772,6 @@
         {
           "label": "Projectile Speed",
           "value": "12 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -39534,6 +39796,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ]
     },
@@ -39573,10 +39841,6 @@
         {
           "label": "Projectile Speed",
           "value": "12 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -39601,6 +39865,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ]
     },
@@ -39640,10 +39910,6 @@
         {
           "label": "Projectile Speed",
           "value": "12 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -39668,6 +39934,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ]
     },
@@ -39707,10 +39979,6 @@
         {
           "label": "Projectile Speed",
           "value": "12 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -39735,6 +40003,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ]
     },
@@ -39774,10 +40048,6 @@
         {
           "label": "Projectile Speed",
           "value": "12 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -39802,6 +40072,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ]
     },
@@ -39841,10 +40117,6 @@
         {
           "label": "Projectile Speed",
           "value": "12 tiles/second"
-        },
-        {
-          "label": "Range",
-          "value": "4.61 tiles"
         }
       ],
       "XP Bonus": [
@@ -39869,6 +40141,12 @@
         {
           "label": "Shots",
           "value": "2"
+        }
+      ],
+      "Range": [
+        {
+          "label": "Range",
+          "value": "4.61 tiles"
         }
       ]
     },
@@ -65708,10 +65986,6 @@
           "value": "Varies"
         },
         {
-          "label": "Shots",
-          "value": "3-6"
-        },
-        {
           "label": "Damage",
           "value": "Summons one of 4 different stationary Sprite Trees at random"
         }
@@ -65744,6 +66018,12 @@
         {
           "label": "Feed Power",
           "value": "700"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "3-6"
         }
       ]
     },
@@ -65879,10 +66159,6 @@
           "value": "200-400 damage every 0.4 seconds"
         },
         {
-          "label": "Life Steal",
-          "value": "10% of damage dealt"
-        },
-        {
           "label": "Red Down Arrow",
           "value": "Slowed on enemies for 3 seconds"
         }
@@ -65915,6 +66191,12 @@
         {
           "label": "Feed Power",
           "value": "800"
+        }
+      ],
+      "Life Steal": [
+        {
+          "label": "Life Steal",
+          "value": "10% of damage dealt"
         }
       ]
     },
@@ -65959,10 +66241,6 @@
           "value": "120-150 (135)"
         },
         {
-          "label": "Shots",
-          "value": "5"
-        },
-        {
           "label": "Damage",
           "value": "Does not pierce"
         }
@@ -65999,6 +66277,12 @@
         {
           "label": "Feed Power",
           "value": "800"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "5"
         }
       ]
     },
@@ -66038,10 +66322,6 @@
         {
           "label": "Damage",
           "value": "50-70 (60)"
-        },
-        {
-          "label": "Shots",
-          "value": "5"
         },
         {
           "label": "Armor Piercing",
@@ -66084,6 +66364,12 @@
         {
           "label": "Feed Power",
           "value": "900"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "5"
         }
       ]
     },
@@ -66128,10 +66414,6 @@
           "value": "180-235 (207.5)"
         },
         {
-          "label": "Shots",
-          "value": "3"
-        },
-        {
           "label": "Damage",
           "value": "Orbits the player"
         }
@@ -66168,6 +66450,12 @@
         {
           "label": "Feed Power",
           "value": "1,000"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "3"
         }
       ]
     },
@@ -66215,10 +66503,6 @@
         {
           "label": "Damage",
           "value": "70-85 (77.5)"
-        },
-        {
-          "label": "Shots",
-          "value": "3"
         },
         {
           "label": "Armor Piercing",
@@ -66270,6 +66554,12 @@
           "label": "Feed Power",
           "value": "1,000"
         }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "3"
+        }
       ]
     },
     "effects": [
@@ -66315,10 +66605,6 @@
           "value": "300-350 (325)"
         },
         {
-          "label": "Shots",
-          "value": "3"
-        },
-        {
           "label": "Damage",
           "value": "Minotaur charge for 2.6 seconds before discharging, twice"
         },
@@ -66359,6 +66645,12 @@
         {
           "label": "Feed Power",
           "value": "1,000"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "3"
         }
       ]
     },
@@ -67005,10 +67297,6 @@
           "value": "50-70 (60)"
         },
         {
-          "label": "Shots",
-          "value": "5"
-        },
-        {
           "label": "Armor Piercing",
           "value": "Ignores defense of target"
         },
@@ -67049,6 +67337,12 @@
         {
           "label": "Feed Power",
           "value": "900"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "5"
         }
       ]
     },
@@ -67204,10 +67498,6 @@
           "value": "300-350 (325)"
         },
         {
-          "label": "Shots",
-          "value": "3"
-        },
-        {
           "label": "Damage",
           "value": "Rabbits charge for 2.6 seconds before discharging, twice"
         },
@@ -67248,6 +67538,12 @@
         {
           "label": "Feed Power",
           "value": "1,000"
+        }
+      ],
+      "Shots": [
+        {
+          "label": "Shots",
+          "value": "3"
         }
       ]
     },

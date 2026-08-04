@@ -24,10 +24,6 @@
       {
         "label": "Projectile Speed",
         "value": "18 tiles/second"
-      },
-      {
-        "label": "Range",
-        "value": "9 tiles"
       }
     ],
     "Feed Power": [
@@ -46,6 +42,12 @@
       {
         "label": "Shots",
         "value": "1"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "9 tiles"
       }
     ]
   },

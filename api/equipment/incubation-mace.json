@@ -31,10 +31,6 @@
         "value": "300-350 (325)"
       },
       {
-        "label": "Shots",
-        "value": "3"
-      },
-      {
         "label": "Damage",
         "value": "Rabbits charge for 2.6 seconds before discharging, twice"
       },
@@ -75,6 +71,12 @@
       {
         "label": "Feed Power",
         "value": "1,000"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
       }
     ]
   },

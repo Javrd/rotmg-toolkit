@@ -23,10 +23,6 @@
       {
         "label": "Projectile Speed",
         "value": "18 tiles/second"
-      },
-      {
-        "label": "Range",
-        "value": "8.55 tiles"
       }
     ],
     "XP Bonus": [
@@ -51,6 +47,12 @@
       {
         "label": "Shots",
         "value": "2"
+      }
+    ],
+    "Range": [
+      {
+        "label": "Range",
+        "value": "8.55 tiles"
       }
     ]
   },

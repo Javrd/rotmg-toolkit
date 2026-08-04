@@ -39,10 +39,6 @@
         "value": "70-85 (77.5)"
       },
       {
-        "label": "Shots",
-        "value": "3"
-      },
-      {
         "label": "Armor Piercing",
         "value": "Ignores defense of target"
       },
@@ -91,6 +87,12 @@
       {
         "label": "Feed Power",
         "value": "1,000"
+      }
+    ],
+    "Shots": [
+      {
+        "label": "Shots",
+        "value": "3"
       }
     ]
   },
