@@ -999,21 +999,17 @@
         {
           "label": "Rate of Fire",
           "value": "140%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -1033,18 +1029,6 @@
         {
           "label": "Projectile",
           "value": "Poison Fling"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -1074,23 +1058,23 @@
           "value": "95-170 (132.5)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "110%"
+          "label": "Piercing",
+          "value": "Shots hit multiple targets"
         },
         {
-          "label": "Projectile Speed",
-          "value": "15 tiles/second"
+          "label": "Rate of Fire",
+          "value": "110%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.02"
         }
       ],
@@ -1110,18 +1094,6 @@
         {
           "label": "Projectile",
           "value": "Bone Dagger Shot"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.02 tiles"
         }
       ]
     },
@@ -1155,23 +1127,23 @@
           "value": "250-300 (275)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "50%"
+          "label": "Projectile Speed",
+          "value": "7.5"
         },
         {
-          "label": "Projectile Speed",
-          "value": "7.5 tiles/second"
+          "label": "Rate of Fire",
+          "value": "50%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "6"
         }
       ],
@@ -1191,18 +1163,6 @@
         {
           "label": "Projectile",
           "value": "Mango"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "6 tiles"
         }
       ]
     },
@@ -1232,23 +1192,23 @@
           "value": "250-300 (275)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "75%"
+          "label": "Projectile Speed",
+          "value": "7.5"
         },
         {
-          "label": "Projectile Speed",
-          "value": "7.5 tiles/second"
+          "label": "Rate of Fire",
+          "value": "75%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "6"
         }
       ],
@@ -1268,18 +1228,6 @@
         {
           "label": "Projectile",
           "value": "Groovy Mango Shot"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "6 tiles"
         }
       ]
     },
@@ -1307,25 +1255,17 @@
         {
           "label": "Damage (Average)",
           "value": "105-190 (147.5)"
-        },
-        {
-          "label": "Rate of Fire",
-          "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -1345,18 +1285,6 @@
         {
           "label": "Projectile",
           "value": "Heartfinder Slash"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -1382,51 +1310,35 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Bullet 1",
-          "value": "60-140 (100)"
+          "label": "Damage (Average)",
+          "value": "60-140 (average: 100)"
         },
         {
-          "label": "Bullet 1 Shots",
-          "value": "1"
+          "label": "Armor Piercing",
+          "value": "Ignores defense of target"
         },
         {
-          "label": "Bullet 1 Rate of Fire",
+          "label": "Rate of Fire",
           "value": "150%"
         },
         {
-          "label": "Bullet 1 Projectile Speed",
-          "value": "16.5 tiles/second"
+          "label": "Damage (Average)",
+          "value": "Fires an additional shot every 2 seconds that deals 200-300 damage and [Grey Down Arrow] Exposed for 1 second."
         },
         {
-          "label": "Bullet 1 Range",
-          "value": "5.28 tiles"
-        },
-        {
-          "label": "Bullet 2",
-          "value": "200-300 (250)"
-        },
-        {
-          "label": "Bullet 2 Shots",
-          "value": "1"
-        },
-        {
-          "label": "Bullet 2 Projectile Speed",
-          "value": "16.5 tiles/second"
-        },
-        {
-          "label": "Bullet 2 Range",
-          "value": "5.28 tiles"
+          "label": "Damage (Average)",
+          "value": "+4 SPD"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.28"
         }
       ],
@@ -1454,8 +1366,7 @@
       "Grey Down Arrow"
     ],
     "effectDescriptions": {
-      "Armor Piercing": "Ignores defense of target",
-      "Grey Down Arrow": "Exposed for 1 second"
+      "Armor Piercing": "Ignores defense of target"
     }
   },
   {
@@ -1478,26 +1389,26 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "75-135 (105 / total: 315)"
+          "value": "110-160 (135)"
+        },
+        {
+          "label": "Passes cover",
+          "value": "Shots pass through obstacles"
         },
         {
           "label": "Rate of Fire",
           "value": "65%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "3 (5°)"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.32"
         }
       ],
@@ -1517,18 +1428,6 @@
         {
           "label": "Projectile",
           "value": "Realm Stab"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "3 (arc gap: 5°)"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.32 tiles"
         }
       ]
     },
@@ -1559,34 +1458,42 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "85-100 (92.5 / total: 185)"
+          "value": "85-100 (92.5)"
+        },
+        {
+          "label": "Amplitude",
+          "value": "1.5"
+        },
+        {
+          "label": "Frequency",
+          "value": "0.7"
+        },
+        {
+          "label": "Wavy",
+          "value": "Wavy shots"
         },
         {
           "label": "Rate of Fire",
           "value": "120%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "2"
         },
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "(20°)"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         },
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "(2.84)"
         }
       ],
@@ -1606,18 +1513,6 @@
         {
           "label": "Projectile",
           "value": "Corruption Cut"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "2 (arc gap: 20°)"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles (true range: 2.84 tiles)"
         }
       ]
     },
@@ -1655,19 +1550,19 @@
           "value": "65%"
         },
         {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
+          "label": "Damage (Average)",
+          "value": "+6 VIT"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "6.09"
         }
       ],
@@ -1687,18 +1582,6 @@
         {
           "label": "Projectile",
           "value": "Right Hook Shot"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "6.09 tiles"
         }
       ]
     },
@@ -1728,23 +1611,31 @@
           "value": "50-280 (165)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "105%"
+          "label": "Projectile Speed",
+          "value": "13"
         },
         {
-          "label": "Projectile Speed",
-          "value": "13 tiles/second"
+          "label": "Amplitude",
+          "value": "0.2"
+        },
+        {
+          "label": "Frequency",
+          "value": "0.2"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.2"
         }
       ],
@@ -1764,18 +1655,6 @@
         {
           "label": "Projectile",
           "value": "Spirit Dagger Slash"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.2 tiles"
         }
       ]
     },
@@ -1805,23 +1684,27 @@
           "value": "110-130 (120)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "80%"
+          "label": "Projectile Speed",
+          "value": "11"
         },
         {
-          "label": "Projectile Speed",
-          "value": "11 tiles/second"
+          "label": "Blood Drop",
+          "value": "Bleeding on enemies for 4.5 seconds. (Bleed Damage: 50)"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "80%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.5"
         }
       ],
@@ -1841,18 +1724,6 @@
         {
           "label": "Projectile",
           "value": "Chain Dagger Projectile"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.5 tiles"
         }
       ]
     },
@@ -1886,23 +1757,31 @@
           "value": "150-170 (160)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "105%"
+          "label": "Projectile Speed",
+          "value": "10"
         },
         {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
+          "label": "Piercing",
+          "value": "Shots hit multiple targets"
+        },
+        {
+          "label": "Armor Piercing",
+          "value": "Ignores defense of target"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5"
         }
       ],
@@ -1922,18 +1801,6 @@
         {
           "label": "Projectile",
           "value": "EH Dagger Shot"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5 tiles"
         }
       ]
     },
@@ -1966,34 +1833,42 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "85-100 (92.5 / total: 175)"
+          "value": "85-100 (92.5)"
+        },
+        {
+          "label": "Amplitude",
+          "value": "1.5"
+        },
+        {
+          "label": "Frequency",
+          "value": "0.7"
+        },
+        {
+          "label": "Wavy",
+          "value": "Wavy shots"
         },
         {
           "label": "Rate of Fire",
           "value": "120%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "2"
         },
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "(20°)"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         },
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "(2.84)"
         }
       ],
@@ -2013,18 +1888,6 @@
         {
           "label": "Projectile",
           "value": "Cutter Reskin Missile"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "2 (arc gap: 20°)"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles (true range: 2.84 tiles)"
         }
       ]
     },
@@ -2058,23 +1921,31 @@
           "value": "150-170 (160)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "105%"
+          "label": "Projectile Speed",
+          "value": "14"
         },
         {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
+          "label": "Piercing",
+          "value": "Shots hit multiple targets"
+        },
+        {
+          "label": "Armor Piercing",
+          "value": "Ignores defense of target"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5"
         }
       ],
@@ -2094,18 +1965,6 @@
         {
           "label": "Projectile",
           "value": "Queen Reskin Missile"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5 tiles"
         }
       ]
     },
@@ -2141,23 +2000,27 @@
           "value": "150-290 (220)"
         },
         {
+          "label": "Projectile Speed",
+          "value": "18"
+        },
+        {
           "label": "Rate of Fire",
           "value": "95%"
         },
         {
-          "label": "Projectile Speed",
-          "value": "18 tiles/second"
+          "label": "Damage (Average)",
+          "value": "+6 WIS"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4.5"
         }
       ],
@@ -2177,18 +2040,6 @@
         {
           "label": "Projectile",
           "value": "Rainbow Magic"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "4.5 tiles"
         }
       ]
     },
@@ -2215,34 +2066,50 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "90-105 (97.5 / total: 195)"
+          "value": "90-105 (97.5)"
+        },
+        {
+          "label": "Amplitude",
+          "value": "1.5"
+        },
+        {
+          "label": "Frequency",
+          "value": "0.7"
+        },
+        {
+          "label": "Passes cover",
+          "value": "Shots pass through obstacles"
+        },
+        {
+          "label": "Wavy",
+          "value": "Wavy shots"
+        },
+        {
+          "label": "Hitbox Size",
+          "value": "1.5 tiles"
         },
         {
           "label": "Rate of Fire",
           "value": "120%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "2"
         },
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "(20°)"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         },
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "(2.84)"
         }
       ],
@@ -2262,18 +2129,6 @@
         {
           "label": "Projectile",
           "value": "Neo Cutter Reskin Missile"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "2 (arc gap: 20°)"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles (true range: 2.84 tiles)"
         }
       ]
     },
@@ -2309,23 +2164,31 @@
           "value": "250-270 (260)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "70%"
+          "label": "Projectile Speed",
+          "value": "14"
         },
         {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
+          "label": "Piercing",
+          "value": "Shots hit multiple targets"
+        },
+        {
+          "label": "Armor Piercing",
+          "value": "Ignores defense of target"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "70%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5"
         }
       ],
@@ -2345,18 +2208,6 @@
         {
           "label": "Projectile",
           "value": "Neo Queen Reskin Missile"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5 tiles"
         }
       ]
     },
@@ -2388,75 +2239,47 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Bullet 1",
+          "label": "Damage (Average)",
+          "value": "Petal Bolt:"
+        },
+        {
+          "label": "Damage (Average)",
           "value": "70-300 (185)"
         },
         {
-          "label": "Bullet 1 Shots",
-          "value": "1"
-        },
-        {
-          "label": "Bullet 1 Rate of Fire",
+          "label": "Rate of Fire",
           "value": "105%"
         },
         {
-          "label": "Bullet 1 Projectile Speed",
-          "value": "13 tiles/second"
+          "label": "Damage (Average)",
+          "value": "Cherry Petal:"
         },
         {
-          "label": "Bullet 1 Range",
-          "value": "5.2 tiles"
+          "label": "Damage (Average)",
+          "value": "40-100 (70),"
         },
         {
-          "label": "Bullet 2",
-          "value": "40-100 (70)"
-        },
-        {
-          "label": "Bullet 2 Shots",
-          "value": "1"
-        },
-        {
-          "label": "Bullet 2 Rate of Fire",
-          "value": "13%"
-        },
-        {
-          "label": "Bullet 2 Projectile Speed",
-          "value": "11 tiles/second"
-        },
-        {
-          "label": "Bullet 2 Range",
-          "value": "5.2 tiles"
-        },
-        {
-          "label": "Bullet 3",
+          "label": "Damage (Average)",
           "value": "20-110 (65)"
         },
         {
-          "label": "Bullet 3 Shots",
-          "value": "1"
+          "label": "Armor Piercing",
+          "value": "Ignores defense of target"
         },
         {
-          "label": "Bullet 3 Rate of Fire",
-          "value": "25%"
-        },
-        {
-          "label": "Bullet 3 Projectile Speed",
-          "value": "11 tiles/second"
-        },
-        {
-          "label": "Bullet 3 Range",
-          "value": "5.2 tiles"
+          "label": "Rate of Fire",
+          "value": "13%, 25%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "3"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.2"
         }
       ],
@@ -2509,23 +2332,31 @@
           "value": "190-215 (202.5)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "105%"
+          "label": "Projectile Speed",
+          "value": "13.3"
         },
         {
-          "label": "Projectile Speed",
-          "value": "13.3 tiles/second"
+          "label": "Amplitude",
+          "value": "0.55"
+        },
+        {
+          "label": "Frequency",
+          "value": "0.5"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.985"
         }
       ],
@@ -2545,18 +2376,6 @@
         {
           "label": "Projectile",
           "value": "Avarice Projectile"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.985 tiles"
         }
       ]
     },
@@ -2602,13 +2421,13 @@
           "value": "-8% SPD Equal to SPD"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "2"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
           "label": "Bullet 1",
           "value": "5.5 Bullet 2: 5.3"
@@ -2656,26 +2475,34 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "60-75 (67.5)"
+          "value": "60-75 (60)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "15"
+        },
+        {
+          "label": "Acceleration",
+          "value": "-122.5 tiles/sec^2 after 0.3 seconds"
+        },
+        {
+          "label": "Damage (Average)",
+          "value": "Min. Speed: 1"
         },
         {
           "label": "Rate of Fire",
           "value": "85%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "15.0 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "4 (5°)"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.99 (3.8)"
         }
       ],
@@ -2695,18 +2522,6 @@
         {
           "label": "Projectile",
           "value": "Daeva Feather, Daeva Feather Large"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "4 (arc gap: 5°)"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.99 tiles (true range: 3.8 tiles)"
         }
       ]
     },
@@ -2736,23 +2551,23 @@
           "value": "265-320 (292.5)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "70%"
+          "label": "Projectile Speed",
+          "value": "10"
         },
         {
-          "label": "Projectile Speed",
-          "value": "10 tiles/second"
+          "label": "Rate of fire",
+          "value": "70%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "3.5"
         }
       ],
@@ -2772,18 +2587,6 @@
         {
           "label": "Projectile",
           "value": "Acid Bubble, Acid Bubble Large"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "3.5 tiles"
         }
       ]
     },
@@ -2810,26 +2613,34 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "95-195 (145)"
-        },
-        {
-          "label": "Rate of Fire",
-          "value": "125%"
+          "value": "115-225 (170)"
         },
         {
           "label": "Projectile Speed",
-          "value": "16 tiles/second"
+          "value": "16"
+        },
+        {
+          "label": "Amplitude",
+          "value": "0.2"
+        },
+        {
+          "label": "Frequency",
+          "value": "0.2"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "110%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "3.84"
         }
       ],
@@ -2849,18 +2660,6 @@
         {
           "label": "Projectile",
           "value": "Spooky Sparkle, Spooky Sparkle 9000"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "3.84 tiles"
         }
       ]
     },
@@ -2890,27 +2689,39 @@
           "value": "345-460 (402.5)"
         },
         {
-          "label": "Rate of Fire",
+          "label": "Projectile Speed",
+          "value": "10"
+        },
+        {
+          "label": "Rate of fire",
           "value": "40%"
         },
         {
-          "label": "Projectile Speed",
-          "value": "10 tiles/second"
+          "label": "When Invisble",
+          "value": "Shoot a powerful scythe"
+        },
+        {
+          "label": "Chain Damage",
+          "value": "50 ([Armor Piercing] Ignores defense of target)"
+        },
+        {
+          "label": "Blade Damage",
+          "value": "100-300 (200)"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4"
         },
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "(5.5)"
         }
       ],
@@ -2931,29 +2742,12 @@
           "label": "Projectile",
           "value": "Scythe Dagger, Scythe Dagger Large"
         }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "4 tiles"
-        }
       ]
     },
     "effects": [
-      "Armor Piercing",
-      "Passes cover",
-      "Piercing"
+      "Armor Piercing"
     ],
-    "effectDescriptions": {
-      "Piercing": "Shots hit multiple targets (scythe/chain)",
-      "Passes cover": "Shots pass through obstacles (scythe/chain)"
-    }
+    "effectDescriptions": {}
   },
   {
     "slug": "carved-golem-remains",
@@ -2978,23 +2772,19 @@
           "value": "155-170 (162.5)"
         },
         {
-          "label": "Rate of Fire",
+          "label": "Rate of fire",
           "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "6.3"
         }
       ],
@@ -3014,18 +2804,6 @@
         {
           "label": "Projectile",
           "value": "Golem Magic, Golem Super Magic"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "6.3 tiles"
         }
       ]
     },
@@ -3055,23 +2833,23 @@
           "value": "265-345 (305)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "45%"
+          "label": "Amplitude",
+          "value": "-1 / 0 / 1"
         },
         {
-          "label": "Projectile Speed",
-          "value": "10 tiles/second"
+          "label": "Rate of fire",
+          "value": "45%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1 / 3 / 5"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4"
         }
       ],
@@ -3091,18 +2869,6 @@
         {
           "label": "Projectile",
           "value": "Colorfull Sickle, Colorfull Sickle Full"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1 / 3 / 5"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "4 tiles"
         }
       ]
     },
@@ -3132,23 +2898,27 @@
           "value": "120-170 (145)"
         },
         {
+          "label": "Projectile Speed",
+          "value": "7.5"
+        },
+        {
           "label": "Rate of Fire",
           "value": "125%"
         },
         {
-          "label": "Projectile Speed",
-          "value": "7.5 tiles/second"
+          "label": "Damage (Average)",
+          "value": "-2 VIT"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.60"
         }
       ],
@@ -3168,18 +2938,6 @@
         {
           "label": "Projectile",
           "value": "Parasitic Stab, Parasitic Blast"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6025 tiles"
         }
       ]
     },
@@ -3206,26 +2964,38 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
+          "value": "750 (350 on impact)"
+        },
+        {
+          "label": "Throw Time",
+          "value": "0.5 seconds"
+        },
+        {
+          "label": "Damage (Average)",
           "value": "60-100 (80)"
+        },
+        {
+          "label": "Piercing",
+          "value": "Shots hit multiple targets"
+        },
+        {
+          "label": "Armor Piercing",
+          "value": "Ignores defense of target"
         },
         {
           "label": "Rate of Fire",
           "value": "60%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "13 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5"
         }
       ],
@@ -3245,12 +3015,6 @@
         {
           "label": "Projectile",
           "value": "Poison Grenade, Alchemist Dart Small"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
         }
       ]
     },
@@ -3286,23 +3050,23 @@
           "value": "50"
         },
         {
-          "label": "Rate of Fire",
-          "value": "80%"
+          "label": "Projectile Speed",
+          "value": "5"
         },
         {
-          "label": "Projectile Speed",
-          "value": "5 tiles/second"
+          "label": "Rate of Fire",
+          "value": "80%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5"
         }
       ],
@@ -3322,18 +3086,6 @@
         {
           "label": "Projectile",
           "value": "Toy Attack"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5 tiles"
         }
       ]
     },
@@ -3363,23 +3115,23 @@
           "value": "15-30 (22.5)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "55%"
+          "label": "Projectile Speed",
+          "value": "3"
         },
         {
-          "label": "Projectile Speed",
-          "value": "3 tiles/second"
+          "label": "Rate of Fire",
+          "value": "55%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4.5"
         }
       ],
@@ -3399,18 +3151,6 @@
         {
           "label": "Projectile",
           "value": "happy magic"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "4.5 tiles"
         }
       ]
     },
@@ -3437,34 +3177,42 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "10 (total: 20)"
+          "value": "10 (Total: 20)"
+        },
+        {
+          "label": "Projectile Speed",
+          "value": "10"
+        },
+        {
+          "label": "Amplitude",
+          "value": "1.5"
+        },
+        {
+          "label": "Frequency",
+          "value": "0.61"
         },
         {
           "label": "Rate of Fire",
           "value": "160%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "10 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "2"
         },
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "(28°)"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4"
         },
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "(2.01)"
         }
       ],
@@ -3484,18 +3232,6 @@
         {
           "label": "Projectile",
           "value": "Razorlight"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "2 (arc gap: 28°)"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "4 tiles (true range: 2.01 tiles)"
         }
       ]
     },
@@ -3523,25 +3259,17 @@
         {
           "label": "Damage (Average)",
           "value": "105-190 (147.5)"
-        },
-        {
-          "label": "Rate of Fire",
-          "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -3561,18 +3289,6 @@
         {
           "label": "Projectile",
           "value": "Obsidian Vortex"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -3600,25 +3316,17 @@
         {
           "label": "Damage (Average)",
           "value": "105-190 (147.5)"
-        },
-        {
-          "label": "Rate of Fire",
-          "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -3638,18 +3346,6 @@
         {
           "label": "Projectile",
           "value": "Icicle Shot"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -3677,25 +3373,17 @@
         {
           "label": "Damage (Average)",
           "value": "115-200 (157.5)"
-        },
-        {
-          "label": "Rate of Fire",
-          "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -3715,18 +3403,6 @@
         {
           "label": "Projectile",
           "value": "BB Bunny Bullet 1"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -3754,25 +3430,17 @@
         {
           "label": "Damage (Average)",
           "value": "115-200 (157.5)"
-        },
-        {
-          "label": "Rate of Fire",
-          "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -3792,18 +3460,6 @@
         {
           "label": "Projectile",
           "value": "Amethyst Shift"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -3831,25 +3487,17 @@
         {
           "label": "Damage (Average)",
           "value": "115-200 (157.5)"
-        },
-        {
-          "label": "Rate of Fire",
-          "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -3869,18 +3517,6 @@
         {
           "label": "Projectile",
           "value": "XMAS Dark Blue Magic"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -3906,51 +3542,35 @@
     "columns": {
       "Damage (Average)": [
         {
-          "label": "Bullet 1",
-          "value": "60-140 (100)"
+          "label": "Damage (Average)",
+          "value": "60-140 (average: 100)"
         },
         {
-          "label": "Bullet 1 Shots",
-          "value": "1"
+          "label": "Armor Piercing",
+          "value": "Ignores defense of target"
         },
         {
-          "label": "Bullet 1 Rate of Fire",
+          "label": "Rate of Fire",
           "value": "150%"
         },
         {
-          "label": "Bullet 1 Projectile Speed",
-          "value": "16.5 tiles/second"
+          "label": "Damage (Average)",
+          "value": "Fires an additional shot every 2 seconds that deals 200-300 damage and [Grey Down Arrow] Exposed for 1 second."
         },
         {
-          "label": "Bullet 1 Range",
-          "value": "5.28 tiles"
-        },
-        {
-          "label": "Bullet 2",
-          "value": "200-300 (250)"
-        },
-        {
-          "label": "Bullet 2 Shots",
-          "value": "1"
-        },
-        {
-          "label": "Bullet 2 Projectile Speed",
-          "value": "16.5 tiles/second"
-        },
-        {
-          "label": "Bullet 2 Range",
-          "value": "5.28 tiles"
+          "label": "Damage (Average)",
+          "value": "+4 SPD"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.28"
         }
       ],
@@ -3978,8 +3598,7 @@
       "Grey Down Arrow"
     ],
     "effectDescriptions": {
-      "Armor Piercing": "Ignores defense of target",
-      "Grey Down Arrow": "Exposed for 1 second"
+      "Armor Piercing": "Ignores defense of target"
     }
   },
   {
@@ -4007,21 +3626,17 @@
         {
           "label": "Rate of Fire",
           "value": "95%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -4041,18 +3656,6 @@
         {
           "label": "Projectile",
           "value": "Aspirant Dagger Slash"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -4086,19 +3689,19 @@
           "value": "105%"
         },
         {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
+          "label": "Damage (Average)",
+          "value": "+2 VIT"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -4118,18 +3721,6 @@
         {
           "label": "Projectile",
           "value": "Spatula Projectile"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -4163,19 +3754,19 @@
           "value": "105%"
         },
         {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
+          "label": "Damage (Average)",
+          "value": "+2 ATT"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -4195,18 +3786,6 @@
         {
           "label": "Projectile",
           "value": "MotMG Void Shot"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -4236,23 +3815,23 @@
           "value": "65-105 (85)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "95%"
+          "label": "Projectile Speed",
+          "value": "10"
         },
         {
-          "label": "Projectile Speed",
-          "value": "10 tiles/second"
+          "label": "Rate of Fire",
+          "value": "95%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "6"
         }
       ],
@@ -4272,18 +3851,6 @@
         {
           "label": "Projectile",
           "value": "Chicken Leg"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "6 tiles"
         }
       ]
     },
@@ -4313,31 +3880,51 @@
           "value": "140-230 (185)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "130%"
+          "label": "Projectile Speed",
+          "value": "5"
         },
         {
-          "label": "Projectile Speed",
-          "value": "5 tiles/second"
+          "label": "Acceleration",
+          "value": "20 (delay: 0.4)"
+        },
+        {
+          "label": "Speed Clamp",
+          "value": "20"
+        },
+        {
+          "label": "Burst Count",
+          "value": "3"
+        },
+        {
+          "label": "Burst Delay",
+          "value": "1.6"
+        },
+        {
+          "label": "Minimum Burst Delay",
+          "value": "0.8"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "130%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "2"
         },
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "(10°)"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "6.14"
         },
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "(4.12)"
         }
       ],
@@ -4357,18 +3944,6 @@
         {
           "label": "Projectile",
           "value": "Oryxmas Dagger Projectile"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "2 (arc gap: 10°)"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "6.14 tiles (true range: 4.2 tiles)"
         }
       ]
     },
@@ -4396,25 +3971,17 @@
         {
           "label": "Damage (Average)",
           "value": "125-220 (172.5)"
-        },
-        {
-          "label": "Rate of Fire",
-          "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -4434,18 +4001,6 @@
         {
           "label": "Projectile",
           "value": "MotMG 2024 Dagger Projectile"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -4473,25 +4028,17 @@
         {
           "label": "Damage (Average)",
           "value": "125-220 (172.5)"
-        },
-        {
-          "label": "Rate of Fire",
-          "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -4511,18 +4058,6 @@
         {
           "label": "Projectile",
           "value": "Blooming Dagger Projectile"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -4550,25 +4085,17 @@
         {
           "label": "Damage (Average)",
           "value": "125-220 (172.5)"
-        },
-        {
-          "label": "Rate of Fire",
-          "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -4588,18 +4115,6 @@
         {
           "label": "Projectile",
           "value": "Mining Dagger Proj"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -4627,25 +4142,17 @@
         {
           "label": "Damage (Average)",
           "value": "125-220 (172.5)"
-        },
-        {
-          "label": "Rate of Fire",
-          "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -4665,18 +4172,6 @@
         {
           "label": "Projectile",
           "value": "Legion Elite Dagger Proj"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -4706,23 +4201,19 @@
           "value": "140-220 (180)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
+          "label": "Damage (Average)",
+          "value": "+3 DEX"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -4742,18 +4233,6 @@
         {
           "label": "Projectile",
           "value": "Phantasm Magic"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -4783,23 +4262,31 @@
           "value": "150-170 (160)"
         },
         {
-          "label": "Rate of Fire",
-          "value": "105%"
+          "label": "Projectile Speed",
+          "value": "10"
         },
         {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
+          "label": "Piercing",
+          "value": "Shots hit multiple targets"
+        },
+        {
+          "label": "Armor Piercing",
+          "value": "Ignores defense of target"
+        },
+        {
+          "label": "Rate of Fire",
+          "value": "105%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5"
         }
       ],
@@ -4819,18 +4306,6 @@
         {
           "label": "Projectile",
           "value": "Ashen Talon Shot"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5 tiles"
         }
       ]
     },
@@ -4864,25 +4339,17 @@
         {
           "label": "Damage (Average)",
           "value": "125-220 (172.5)"
-        },
-        {
-          "label": "Rate of Fire",
-          "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -4902,18 +4369,6 @@
         {
           "label": "Projectile",
           "value": "Hero Magic"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -4941,25 +4396,17 @@
         {
           "label": "Damage (Average)",
           "value": "125-220 (172.5)"
-        },
-        {
-          "label": "Rate of Fire",
-          "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "5.6"
         }
       ],
@@ -4979,18 +4426,6 @@
         {
           "label": "Projectile",
           "value": "CD Hero Magic"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "5.6 tiles"
         }
       ]
     },
@@ -5020,23 +4455,27 @@
           "value": "150-290 (220)"
         },
         {
+          "label": "Projectile Speed",
+          "value": "18"
+        },
+        {
           "label": "Rate of Fire",
           "value": "95%"
         },
         {
-          "label": "Projectile Speed",
-          "value": "18 tiles/second"
+          "label": "Damage (Average)",
+          "value": "+6 WIS"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4.5"
         }
       ],
@@ -5056,18 +4495,6 @@
         {
           "label": "Projectile",
           "value": "Phantasm Magic"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "4.5 tiles"
         }
       ]
     },
@@ -5094,26 +4521,30 @@
       "Damage (Average)": [
         {
           "label": "Damage (Average)",
-          "value": "110-215 (162.5)"
+          "value": "95-195 (145)"
+        },
+        {
+          "label": "Amplitude",
+          "value": "0.2"
+        },
+        {
+          "label": "Frequency",
+          "value": "0.2"
         },
         {
           "label": "Rate of Fire",
-          "value": "110%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "16 tiles/second"
+          "value": "125%"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "3.84"
         }
       ],
@@ -5133,18 +4564,6 @@
         {
           "label": "Projectile",
           "value": "Spooky Sparkle"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "3.84 tiles"
         }
       ]
     },
@@ -5174,23 +4593,19 @@
           "value": "155-170 (162.5)"
         },
         {
-          "label": "Rate of Fire",
+          "label": "Rate of fire",
           "value": "105%"
-        },
-        {
-          "label": "Projectile Speed",
-          "value": "14 tiles/second"
         }
       ],
-      "Shots(Arc Gap)": [
+      "Shots": [
         {
-          "label": "Shots(Arc Gap)",
+          "label": "Shots",
           "value": "1"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "6.3"
         }
       ],
@@ -5210,18 +4625,6 @@
         {
           "label": "Projectile",
           "value": "HGolem Magic, HGolem Super Magic"
-        }
-      ],
-      "Shots": [
-        {
-          "label": "Shots",
-          "value": "1"
-        }
-      ],
-      "Range": [
-        {
-          "label": "Range",
-          "value": "6.3 tiles"
         }
       ]
     },
@@ -5967,9 +5370,9 @@
           "value": "4.8 tiles"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4.8"
         }
       ],
@@ -6058,9 +5461,9 @@
           "value": "1 tiles"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4.8"
         }
       ],
@@ -6151,9 +5554,9 @@
           "value": "3.6 tiles"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4.8"
         }
       ],
@@ -6246,9 +5649,9 @@
           "value": "3.6 tiles"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4.8"
         }
       ],
@@ -6341,9 +5744,9 @@
           "value": "4.8 tiles"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4.8"
         }
       ],
@@ -6432,9 +5835,9 @@
           "value": "4.8 tiles"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4.8"
         }
       ],
@@ -6523,9 +5926,9 @@
           "value": "4.8 tiles"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4.8"
         }
       ],
@@ -6614,9 +6017,9 @@
           "value": "4.8 tiles"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4.8"
         }
       ],
@@ -6701,9 +6104,9 @@
           "value": "4.8 tiles"
         }
       ],
-      "Range(True Range)": [
+      "Range": [
         {
-          "label": "Range(True Range)",
+          "label": "Range",
           "value": "4.8"
         }
       ],

@@ -21,27 +21,39 @@
         "value": "345-460 (402.5)"
       },
       {
-        "label": "Rate of Fire",
+        "label": "Projectile Speed",
+        "value": "10"
+      },
+      {
+        "label": "Rate of fire",
         "value": "40%"
       },
       {
-        "label": "Projectile Speed",
-        "value": "10 tiles/second"
+        "label": "When Invisble",
+        "value": "Shoot a powerful scythe"
+      },
+      {
+        "label": "Chain Damage",
+        "value": "50 ([Armor Piercing] Ignores defense of target)"
+      },
+      {
+        "label": "Blade Damage",
+        "value": "100-300 (200)"
       }
     ],
-    "Shots(Arc Gap)": [
+    "Shots": [
       {
-        "label": "Shots(Arc Gap)",
+        "label": "Shots",
         "value": "1"
       }
     ],
-    "Range(True Range)": [
+    "Range": [
       {
-        "label": "Range(True Range)",
+        "label": "Range",
         "value": "4"
       },
       {
-        "label": "Range(True Range)",
+        "label": "Range",
         "value": "(5.5)"
       }
     ],
@@ -62,27 +74,10 @@
         "label": "Projectile",
         "value": "Scythe Dagger, Scythe Dagger Large"
       }
-    ],
-    "Shots": [
-      {
-        "label": "Shots",
-        "value": "1"
-      }
-    ],
-    "Range": [
-      {
-        "label": "Range",
-        "value": "4 tiles"
-      }
     ]
   },
   "effects": [
-    "Armor Piercing",
-    "Passes cover",
-    "Piercing"
+    "Armor Piercing"
   ],
-  "effectDescriptions": {
-    "Piercing": "Shots hit multiple targets (scythe/chain)",
-    "Passes cover": "Shots pass through obstacles (scythe/chain)"
-  }
+  "effectDescriptions": {}
 }

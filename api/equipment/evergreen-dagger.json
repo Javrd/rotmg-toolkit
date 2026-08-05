@@ -21,31 +21,51 @@
         "value": "140-230 (185)"
       },
       {
-        "label": "Rate of Fire",
-        "value": "130%"
+        "label": "Projectile Speed",
+        "value": "5"
       },
       {
-        "label": "Projectile Speed",
-        "value": "5 tiles/second"
+        "label": "Acceleration",
+        "value": "20 (delay: 0.4)"
+      },
+      {
+        "label": "Speed Clamp",
+        "value": "20"
+      },
+      {
+        "label": "Burst Count",
+        "value": "3"
+      },
+      {
+        "label": "Burst Delay",
+        "value": "1.6"
+      },
+      {
+        "label": "Minimum Burst Delay",
+        "value": "0.8"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "130%"
       }
     ],
-    "Shots(Arc Gap)": [
+    "Shots": [
       {
-        "label": "Shots(Arc Gap)",
+        "label": "Shots",
         "value": "2"
       },
       {
-        "label": "Shots(Arc Gap)",
+        "label": "Shots",
         "value": "(10°)"
       }
     ],
-    "Range(True Range)": [
+    "Range": [
       {
-        "label": "Range(True Range)",
+        "label": "Range",
         "value": "6.14"
       },
       {
-        "label": "Range(True Range)",
+        "label": "Range",
         "value": "(4.12)"
       }
     ],
@@ -65,18 +85,6 @@
       {
         "label": "Projectile",
         "value": "Oryxmas Dagger Projectile"
-      }
-    ],
-    "Shots": [
-      {
-        "label": "Shots",
-        "value": "2 (arc gap: 10°)"
-      }
-    ],
-    "Range": [
-      {
-        "label": "Range",
-        "value": "6.14 tiles (true range: 4.2 tiles)"
       }
     ]
   },

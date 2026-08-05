@@ -21,23 +21,23 @@
         "value": "250-300 (275)"
       },
       {
-        "label": "Rate of Fire",
-        "value": "75%"
+        "label": "Projectile Speed",
+        "value": "7.5"
       },
       {
-        "label": "Projectile Speed",
-        "value": "7.5 tiles/second"
+        "label": "Rate of Fire",
+        "value": "75%"
       }
     ],
-    "Shots(Arc Gap)": [
+    "Shots": [
       {
-        "label": "Shots(Arc Gap)",
+        "label": "Shots",
         "value": "1"
       }
     ],
-    "Range(True Range)": [
+    "Range": [
       {
-        "label": "Range(True Range)",
+        "label": "Range",
         "value": "6"
       }
     ],
@@ -57,18 +57,6 @@
       {
         "label": "Projectile",
         "value": "Groovy Mango Shot"
-      }
-    ],
-    "Shots": [
-      {
-        "label": "Shots",
-        "value": "1"
-      }
-    ],
-    "Range": [
-      {
-        "label": "Range",
-        "value": "6 tiles"
       }
     ]
   },

@@ -17,75 +17,47 @@
   "columns": {
     "Damage (Average)": [
       {
-        "label": "Bullet 1",
+        "label": "Damage (Average)",
+        "value": "Petal Bolt:"
+      },
+      {
+        "label": "Damage (Average)",
         "value": "70-300 (185)"
       },
       {
-        "label": "Bullet 1 Shots",
-        "value": "1"
-      },
-      {
-        "label": "Bullet 1 Rate of Fire",
+        "label": "Rate of Fire",
         "value": "105%"
       },
       {
-        "label": "Bullet 1 Projectile Speed",
-        "value": "13 tiles/second"
+        "label": "Damage (Average)",
+        "value": "Cherry Petal:"
       },
       {
-        "label": "Bullet 1 Range",
-        "value": "5.2 tiles"
+        "label": "Damage (Average)",
+        "value": "40-100 (70),"
       },
       {
-        "label": "Bullet 2",
-        "value": "40-100 (70)"
-      },
-      {
-        "label": "Bullet 2 Shots",
-        "value": "1"
-      },
-      {
-        "label": "Bullet 2 Rate of Fire",
-        "value": "13%"
-      },
-      {
-        "label": "Bullet 2 Projectile Speed",
-        "value": "11 tiles/second"
-      },
-      {
-        "label": "Bullet 2 Range",
-        "value": "5.2 tiles"
-      },
-      {
-        "label": "Bullet 3",
+        "label": "Damage (Average)",
         "value": "20-110 (65)"
       },
       {
-        "label": "Bullet 3 Shots",
-        "value": "1"
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
       },
       {
-        "label": "Bullet 3 Rate of Fire",
-        "value": "25%"
-      },
-      {
-        "label": "Bullet 3 Projectile Speed",
-        "value": "11 tiles/second"
-      },
-      {
-        "label": "Bullet 3 Range",
-        "value": "5.2 tiles"
+        "label": "Rate of Fire",
+        "value": "13%, 25%"
       }
     ],
-    "Shots(Arc Gap)": [
+    "Shots": [
       {
-        "label": "Shots(Arc Gap)",
+        "label": "Shots",
         "value": "3"
       }
     ],
-    "Range(True Range)": [
+    "Range": [
       {
-        "label": "Range(True Range)",
+        "label": "Range",
         "value": "5.2"
       }
     ],

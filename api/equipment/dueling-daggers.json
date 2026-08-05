@@ -18,34 +18,42 @@
     "Damage (Average)": [
       {
         "label": "Damage (Average)",
-        "value": "85-100 (92.5 / total: 175)"
+        "value": "85-100 (92.5)"
+      },
+      {
+        "label": "Amplitude",
+        "value": "1.5"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.7"
+      },
+      {
+        "label": "Wavy",
+        "value": "Wavy shots"
       },
       {
         "label": "Rate of Fire",
         "value": "120%"
-      },
-      {
-        "label": "Projectile Speed",
-        "value": "14 tiles/second"
       }
     ],
-    "Shots(Arc Gap)": [
+    "Shots": [
       {
-        "label": "Shots(Arc Gap)",
+        "label": "Shots",
         "value": "2"
       },
       {
-        "label": "Shots(Arc Gap)",
+        "label": "Shots",
         "value": "(20°)"
       }
     ],
-    "Range(True Range)": [
+    "Range": [
       {
-        "label": "Range(True Range)",
+        "label": "Range",
         "value": "5.6"
       },
       {
-        "label": "Range(True Range)",
+        "label": "Range",
         "value": "(2.84)"
       }
     ],
@@ -65,18 +73,6 @@
       {
         "label": "Projectile",
         "value": "Cutter Reskin Missile"
-      }
-    ],
-    "Shots": [
-      {
-        "label": "Shots",
-        "value": "2 (arc gap: 20°)"
-      }
-    ],
-    "Range": [
-      {
-        "label": "Range",
-        "value": "5.6 tiles (true range: 2.84 tiles)"
       }
     ]
   },

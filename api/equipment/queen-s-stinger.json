@@ -21,23 +21,31 @@
         "value": "150-170 (160)"
       },
       {
-        "label": "Rate of Fire",
-        "value": "105%"
+        "label": "Projectile Speed",
+        "value": "10"
       },
       {
-        "label": "Projectile Speed",
-        "value": "14 tiles/second"
+        "label": "Piercing",
+        "value": "Shots hit multiple targets"
+      },
+      {
+        "label": "Armor Piercing",
+        "value": "Ignores defense of target"
+      },
+      {
+        "label": "Rate of Fire",
+        "value": "105%"
       }
     ],
-    "Shots(Arc Gap)": [
+    "Shots": [
       {
-        "label": "Shots(Arc Gap)",
+        "label": "Shots",
         "value": "1"
       }
     ],
-    "Range(True Range)": [
+    "Range": [
       {
-        "label": "Range(True Range)",
+        "label": "Range",
         "value": "5"
       }
     ],
@@ -57,18 +65,6 @@
       {
         "label": "Projectile",
         "value": "EH Dagger Shot"
-      }
-    ],
-    "Shots": [
-      {
-        "label": "Shots",
-        "value": "1"
-      }
-    ],
-    "Range": [
-      {
-        "label": "Range",
-        "value": "5 tiles"
       }
     ]
   },

@@ -33,6 +33,18 @@ CATEGORY_SLUGS = {
 
 STAT_HEADERS = ["ATT", "DEF", "SPD", "DEX", "VIT", "WIS", "HP", "MP"]
 
+# Daggers and Dual Blades' category pages use their own header text for
+# what every other weapon category just calls "Shots"/"Range" (the values
+# already carry the extra qualifier inline, e.g. "2 (arc gap: 14°)" or
+# "5.6 tiles (true range: 2.84 tiles)", so aliasing only the header loses
+# nothing). Without this, comparing e.g. Spirit Dagger against any other
+# weapon family produced duplicate Shots/Range rows -- see
+# docs/decisions/0007-header-name-aliases.md.
+HEADER_ALIASES = {
+    "Shots(Arc Gap)": "Shots",
+    "Range(True Range)": "Range",
+}
+
 H4_OR_TABLE_RE = re.compile(
     r'<h4[^>]*>(.*?)</h4>|<table class="table table-striped">(.*?)</table>', re.S)
 THEAD_RE = re.compile(r'<thead>(.*?)</thead>', re.S)
@@ -143,7 +155,8 @@ def parse_item_tables(html_doc, category):
         thead_m = THEAD_RE.search(table_html)
         if not thead_m:
             continue
-        headers = [TAG_RE.sub('', h).strip() for h in TH_RE.findall(thead_m.group(1))]
+        headers = [HEADER_ALIASES.get(TAG_RE.sub('', h).strip(), TAG_RE.sub('', h).strip())
+                   for h in TH_RE.findall(thead_m.group(1))]
         if 'Name' not in headers:
             continue  # banner table, or the grid-style rings table
         name_idx = headers.index('Name')

@@ -137,6 +137,15 @@ estabilidad del esquema; en el HTML se muestran como "Guaranteed"/"Possible")
   `Life Steal` en Ability, sin relación con `enrich_thin_weapons()`) y
   eleva cada aparición embebida a columna propia — ver
   [[0006-duplicate-range-rows]].
+- **Ni tampoco debe vivir bajo dos nombres de columna distintos**: las
+  páginas de categoría de Daggers y Dual Blades usan literalmente
+  `Shots(Arc Gap)`/`Range(True Range)` como texto de cabecera donde el
+  resto de categorías usan `Shots`/`Range` — incomparable con
+  `normalize_collision_labels()` porque ahí ambos lados son columnas de
+  nivel superior, solo que con nombres distintos. `HEADER_ALIASES` en
+  `parse_item_tables()` normaliza esos nombres de cabecera concretos al
+  leerlos (el matiz "arc gap"/"true range" no se pierde: ya va dentro del
+  valor de la celda cuando aplica) — ver [[0007-header-name-aliases]].
 - **`columns` está trocedado, no es texto plano**: cada celda de la wiki
   suele empaquetar varios datos en una sola casilla separados por
   `<br>` (ej. la columna "Damage (Average)" de un arma trae el rango de
@@ -165,7 +174,12 @@ estabilidad del esquema; en el HTML se muestran como "Guaranteed"/"Possible")
   `{label, value}`, emparejando por label entre A y B (así "Damage
   (Average)", "Projectile Speed", el efecto embebido y "Rate of Fire"
   salen como cuatro filas independientes en vez de un bloque de texto) —
-  más una sección de Effects con check/no-check por lado.
+  más una sección de Effects con check/no-check por lado. Cuando la
+  sección de DPS se muestra (ver más abajo), su propia fila "Rate of
+  Fire" ya resume el RoF combinado de todos los bullets, así que
+  `segmentRows()` recibe un `skipLabels` con las etiquetas `Rate of Fire`/
+  `Bullet N Rate of Fire` presentes en A o B para no repetir la misma
+  información dos veces — ver [[0007-header-name-aliases]].
 - **DPS estimado** (solo si A y B son ambos `category === 'Weapon'` y se
   les puede parsear el daño): dos sliders ATT/DEX (0-100, default 75)
   alimentan `computeDps()`, que implementa las fórmulas exactas de

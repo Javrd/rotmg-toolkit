@@ -18,34 +18,42 @@
     "Damage (Average)": [
       {
         "label": "Damage (Average)",
-        "value": "10 (total: 20)"
+        "value": "10 (Total: 20)"
+      },
+      {
+        "label": "Projectile Speed",
+        "value": "10"
+      },
+      {
+        "label": "Amplitude",
+        "value": "1.5"
+      },
+      {
+        "label": "Frequency",
+        "value": "0.61"
       },
       {
         "label": "Rate of Fire",
         "value": "160%"
-      },
-      {
-        "label": "Projectile Speed",
-        "value": "10 tiles/second"
       }
     ],
-    "Shots(Arc Gap)": [
+    "Shots": [
       {
-        "label": "Shots(Arc Gap)",
+        "label": "Shots",
         "value": "2"
       },
       {
-        "label": "Shots(Arc Gap)",
+        "label": "Shots",
         "value": "(28°)"
       }
     ],
-    "Range(True Range)": [
+    "Range": [
       {
-        "label": "Range(True Range)",
+        "label": "Range",
         "value": "4"
       },
       {
-        "label": "Range(True Range)",
+        "label": "Range",
         "value": "(2.01)"
       }
     ],
@@ -65,18 +73,6 @@
       {
         "label": "Projectile",
         "value": "Razorlight"
-      }
-    ],
-    "Shots": [
-      {
-        "label": "Shots",
-        "value": "2 (arc gap: 28°)"
-      }
-    ],
-    "Range": [
-      {
-        "label": "Range",
-        "value": "4 tiles (true range: 2.01 tiles)"
       }
     ]
   },

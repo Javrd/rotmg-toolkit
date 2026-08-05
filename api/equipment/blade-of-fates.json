@@ -37,13 +37,13 @@
         "value": "-8% SPD Equal to SPD"
       }
     ],
-    "Shots(Arc Gap)": [
+    "Shots": [
       {
-        "label": "Shots(Arc Gap)",
+        "label": "Shots",
         "value": "2"
       }
     ],
-    "Range(True Range)": [
+    "Range": [
       {
         "label": "Bullet 1",
         "value": "5.5 Bullet 2: 5.3"

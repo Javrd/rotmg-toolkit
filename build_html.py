@@ -317,7 +317,7 @@ TEMPLATE = r"""<!doctype html>
   .eq-pickers { display:grid; grid-template-columns: 1fr auto 1fr; gap:1rem; align-items:start; margin-top:1rem; }
   .eq-vs { align-self:center; font-weight:700; color:var(--muted); font-size:.85rem; }
   .eq-picker { position:relative; background:var(--card-bg); border:1px solid var(--border);
-    border-radius:12px; padding:.8rem; box-shadow: var(--shadow); }
+    border-radius:12px; padding:.8rem; box-shadow: var(--shadow); min-width:0; }
   .eq-picker > label { display:block; font-size:.72rem; font-weight:700; text-transform:uppercase;
     letter-spacing:.03em; color:var(--muted); margin-bottom:.4rem; }
   .eq-search { width:100%; padding:.55rem .7rem; border-radius:8px; border:1px solid var(--border);
@@ -330,14 +330,15 @@ TEMPLATE = r"""<!doctype html>
   .eq-result { display:flex; align-items:center; gap:.6rem; padding:.5rem .7rem; cursor:pointer; }
   .eq-result:hover { background: rgba(127,127,127,.12); }
   .eq-result img { width:26px; height:26px; object-fit:contain; flex-shrink:0; }
-  .eq-result-name { font-size:.88rem; }
-  .eq-result-meta { font-size:.72rem; color:var(--muted); }
+  .eq-result-body { flex:1; min-width:0; }
+  .eq-result-name { font-size:.88rem; overflow-wrap:anywhere; }
+  .eq-result-meta { font-size:.72rem; color:var(--muted); overflow-wrap:anywhere; }
   .eq-empty { padding:.7rem; font-size:.85rem; color:var(--muted); }
   .eq-selected { display:flex; align-items:center; gap:.6rem; }
   .eq-selected img { width:36px; height:36px; object-fit:contain; flex-shrink:0; }
   .eq-selected-body { flex:1; min-width:0; }
-  .eq-selected-name { font-weight:600; font-size:.95rem; }
-  .eq-selected-meta { font-size:.75rem; color:var(--muted); }
+  .eq-selected-name { font-weight:600; font-size:.95rem; overflow-wrap:anywhere; }
+  .eq-selected-meta { font-size:.75rem; color:var(--muted); overflow-wrap:anywhere; }
   .eq-selected-classes { font-size:.72rem; color:var(--accent); margin-top:.15rem; }
   .eq-change { font-size:.75rem; padding:.3rem .6rem; border-radius:8px; border:1px solid var(--border);
     background:var(--bg); color:var(--text); cursor:pointer; flex-shrink:0; }
@@ -652,11 +653,13 @@ function segsToMap(segs) {
   return map;
 }
 
-function segmentRows(segsA, segsB) {
+function segmentRows(segsA, segsB, skipLabels) {
   const mapA = segsToMap(segsA), mapB = segsToMap(segsB);
   const labels = [];
   const seen = new Set();
-  [mapA, mapB].forEach(m => m.forEach((_, k) => { if (!seen.has(k)) { seen.add(k); labels.push(k); } }));
+  [mapA, mapB].forEach(m => m.forEach((_, k) => {
+    if (!seen.has(k) && !(skipLabels && skipLabels.has(k))) { seen.add(k); labels.push(k); }
+  }));
   return labels.map(label => textRow(label, mapA.get(label), mapB.get(label))).join('');
 }
 
@@ -823,7 +826,19 @@ function renderEqCompare() {
 
   const otherKeys = Array.from(new Set([...Object.keys(a.columns), ...Object.keys(b.columns)]))
     .filter(k => !skip.has(k));
-  otherKeys.forEach(k => { out += segmentRows(a.columns[k], b.columns[k]); });
+  otherKeys.forEach(k => {
+    // The DPS section above already shows a combined "Rate of Fire" row
+    // (dpsA/dpsB.rofDisplay) when it renders, so skip the same label(s)
+    // here to avoid showing "Rate of Fire" twice for the same weapon.
+    let skipLabels = null;
+    if (dpsA && dpsB && (k === 'Damage (Average)' || k === 'Damage')) {
+      skipLabels = new Set();
+      (a.columns[k] || []).concat(b.columns[k] || []).forEach(s => {
+        if (s.label === 'Rate of Fire' || /\bRate of Fire$/.test(s.label)) skipLabels.add(s.label);
+      });
+    }
+    out += segmentRows(a.columns[k], b.columns[k], skipLabels);
+  });
 
   const allEffects = Array.from(new Set([...a.effects, ...b.effects])).sort();
   if (allEffects.length) {
