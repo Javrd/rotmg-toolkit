@@ -62,20 +62,23 @@ def render_difficulty(value):
     return f'<span class="difficulty" title="Difficulty: {esc(label)}">{icons}</span>'
 
 
-def render_card(name, href, icon, blocks, difficulty=None, error=None, search_name=None):
+def render_card(name, href, icon, blocks, difficulty=None, error=None, search_name=None,
+                 icon_class="card-icon", badge=None):
     """blocks: list of (title_or_None, guaranteed_list, possible_list).
     Returns None if the card has no potions and no error (should be omitted).
     search_name overrides what data-name search matches against (e.g. a biome
-    card also matches its enemies' names, not just the biome's own name)."""
+    monster card also matches its biome's name, not just the monster's own name).
+    badge: optional small tag next to the name (e.g. an enemy's biome group)."""
     has_potions = any(g or e for _, g, e in blocks)
     if not error and not has_potions:
         return None
     classes = "card no-data" if error else "card"
+    badge_html = f'<span class="badge">{esc(badge)}</span>' if badge else ""
     out = [f'<article class="{classes}" data-name="{esc((search_name or name).lower())}">']
     out.append(
-        f'<h3>{img(icon, name, "card-icon")}'
+        f'<h3>{img(icon, name, icon_class)}'
         f'<a href="https://www.realmeye.com{esc(href)}" target="_blank" rel="noopener">{esc(name)}</a>'
-        f'{render_difficulty(difficulty)}</h3>'
+        f'{badge_html}{render_difficulty(difficulty)}</h3>'
     )
     if error:
         out.append(f'<p class="note">No data ({esc(error)})</p>')
@@ -93,11 +96,12 @@ def render_card(name, href, icon, blocks, difficulty=None, error=None, search_na
     return "\n".join(out)
 
 
-def render_category(title, card_htmls):
+def render_category(title, card_htmls, icon=None):
     if not card_htmls:
         return ""
+    title_html = (img(icon, title, "cat-icon") if icon else "") + esc(title)
     out = [f'<section class="cat" data-cat="{esc(title)}">',
-           f'<h2 class="cat-title">{esc(title)}</h2>',
+           f'<h2 class="cat-title">{title_html}</h2>',
            '<div class="cards">']
     out.extend(card_htmls)
     out.append('</div></section>')
@@ -133,42 +137,46 @@ def build_dungeon_sections(dungeons):
 BIOME_TIER_ORDER = ["Rookie", "Adept", "Veteran", "Seasonal"]
 BIOME_GROUP_ORDER = ["Regular Enemies", "Heroes of Oryx", "Heroes of Oryx Minions",
                      "Encounters", "Beacon Guardian"]
+BIOME_GROUP_BADGE = {
+    "Regular Enemies": None,
+    "Heroes of Oryx": "Hero of Oryx",
+    "Heroes of Oryx Minions": "Hero Minion",
+    "Encounters": "Encounter",
+    "Beacon Guardian": "Beacon Guardian",
+}
 
 
-def render_biome_card(biome):
-    groups = biome.get("groups", {})
-    ordered_groups = [g for g in BIOME_GROUP_ORDER if g in groups]
-    ordered_groups += [g for g in groups if g not in ordered_groups]
-
-    blocks = []
-    enemy_names = []
-    for group_title in ordered_groups:
-        g_list, e_list = [], []
-        for e in groups[group_title]:
-            enemy_names.append(e["name"])
-            for p in e["potions"]:
-                pill = dict(p, source_name=e["name"], source_href=e["href"],
-                            source_icon=e.get("icon"))
-                (g_list if p["guaranteed"] else e_list).append(pill)
-        blocks.append((group_title, g_list, e_list))
-
-    search_name = " ".join([biome["name"]] + enemy_names)
-    return render_card(biome["name"], biome["href"], biome.get("icon"), blocks,
-                        search_name=search_name)
+def render_biome_monster_card(enemy, group_title, biome_name):
+    g_list = [p for p in enemy["potions"] if p["guaranteed"]]
+    e_list = [p for p in enemy["potions"] if not p["guaranteed"]]
+    return render_card(enemy["name"], enemy["href"], enemy.get("icon"),
+                        [(None, g_list, e_list)],
+                        search_name=f'{enemy["name"]} {biome_name}',
+                        icon_class="card-icon card-icon-lg",
+                        badge=BIOME_GROUP_BADGE.get(group_title, group_title))
 
 
 def build_biome_sections(biomes):
-    by_tier = {}
-    for b in biomes:
-        by_tier.setdefault(b.get("tier", "Other"), []).append(b)
-
-    ordered_tiers = [t for t in BIOME_TIER_ORDER if t in by_tier]
-    ordered_tiers += [t for t in by_tier if t not in ordered_tiers]
+    ordered_biomes = sorted(
+        biomes,
+        key=lambda b: (BIOME_TIER_ORDER.index(b["tier"]) if b.get("tier") in BIOME_TIER_ORDER
+                        else len(BIOME_TIER_ORDER), b["name"]))
 
     sections = []
-    for tier in ordered_tiers:
-        cards = [c for c in (render_biome_card(b) for b in by_tier[tier]) if c]
-        sections.append(render_category(f"{tier} Biomes", cards))
+    for b in ordered_biomes:
+        groups = b.get("groups", {})
+        ordered_groups = [g for g in BIOME_GROUP_ORDER if g in groups]
+        ordered_groups += [g for g in groups if g not in ordered_groups]
+
+        cards = []
+        for group_title in ordered_groups:
+            for e in groups[group_title]:
+                card = render_biome_monster_card(e, group_title, b["name"])
+                if card:
+                    cards.append(card)
+
+        title = f'{b["name"]} ({b["tier"]})' if b.get("tier") else b["name"]
+        sections.append(render_category(title, cards, icon=b.get("icon")))
     return "\n".join(s for s in sections if s)
 
 
@@ -309,6 +317,12 @@ TEMPLATE = r"""<!doctype html>
   .card h3 a:hover { color:var(--accent); text-decoration:underline; }
   .card-icon { width:28px; height:28px; object-fit:contain; border-radius:6px;
     background: rgba(127,127,127,.12); flex-shrink:0; }
+  .card-icon-lg { width:52px; height:52px; border-radius:8px; }
+  .cat-icon { width:24px; height:24px; object-fit:contain; border-radius:5px;
+    vertical-align:middle; margin-right:.4rem; background: rgba(127,127,127,.12); }
+  .badge { font-size:.68rem; font-weight:700; text-transform:uppercase; letter-spacing:.03em;
+    padding:.15rem .5rem; border-radius:999px; background: rgba(127,127,127,.15);
+    color:var(--muted); flex-shrink:0; }
   .difficulty { display:inline-flex; align-items:center; gap:1px; flex-shrink:0; cursor:help; }
   .difficulty .skull { width:13px; height:13px; object-fit:contain; opacity:.85; }
   .note { color:var(--muted); font-size:.85rem; margin:.2rem 0 0; }

@@ -36,13 +36,23 @@ No hay pip/venv disponibles en este NUC (sin `python3-venv`, sin acceso
   y genera `index.html`: una sola página con un `<nav>` de dos pestañas
   de nivel superior ("Where to Find Stat Potions" / "Equipment Compare").
   La primera reusa el buscador/filtro de tipo/toggle "guaranteed only" y
-  las sub-pestañas Dungeons / Open-World Biomes de siempre. La segunda
-  es el comparador de equipo (ver más abajo). Todo en JS vanilla, sin
-  dependencias externas. Los iconos de poción/enemigo/mazmorra/bioma se
-  sirven directo desde `realmeye.com/s/a/img/...` (hotlinking, sin
-  copiarlos localmente); `data/equipment.json` en cambio se carga
-  completo por `fetch()` en el cliente (880 KB) en vez de embeberse en
-  el HTML, para no inflar la carga inicial de la pestaña de pociones.
+  las sub-pestañas Dungeons / Open-World Biomes de siempre. En la
+  pestaña Dungeons cada sección es una categoría de mazmorra
+  (`build_dungeon_sections`) y cada tarjeta es una mazmorra. En la
+  pestaña Open-World Biomes cada sección es un bioma (ordenados
+  Rookie→Adept→Veteran→Seasonal, `build_biome_sections`) y cada tarjeta
+  es un enemigo individual de ese bioma (`render_biome_monster_card`,
+  icono más grande vía `card-icon-lg` que el de una mazmorra, y con una
+  `badge` cuando no es un enemigo regular — "Hero of Oryx", "Hero
+  Minion", "Encounter", "Beacon Guardian" — para no perder esa
+  clasificación aunque ya no agrupe visualmente por ella). La segunda
+  pestaña de nivel superior es el comparador de equipo (ver más abajo).
+  Todo en JS vanilla, sin dependencias externas. Los iconos de
+  poción/enemigo/mazmorra/bioma se sirven directo desde
+  `realmeye.com/s/a/img/...` (hotlinking, sin copiarlos localmente);
+  `data/equipment.json` en cambio se carga completo por `fetch()` en el
+  cliente (880 KB) en vez de embeberse en el HTML, para no inflar la
+  carga inicial de la pestaña de pociones.
 
 - **`data/dungeon_potions.json`** — salida estructurada por mazmorra:
   `icon` (icono del portal), `difficulty` (float 0-10 en pasos de 0.5,
