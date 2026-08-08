@@ -1,0 +1,381 @@
+{
+  "slug": "carboniferous",
+  "name": "Carboniferous",
+  "wikiUrl": "https://www.realmeye.com/wiki/carboniferous",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/BP0rmb6.png",
+  "tier": "Veteran",
+  "enemyGroups": {
+    "Regular Enemies": [
+      {
+        "slug": "animate-sigillaria",
+        "name": "Animate Sigillaria",
+        "wikiUrl": "https://www.realmeye.com/wiki/animate-sigillaria",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/k2kSdGV.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Dexterity",
+              "type": "Dexterity",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "colossal-mantis",
+        "name": "Colossal Mantis",
+        "wikiUrl": "https://www.realmeye.com/wiki/colossal-mantis",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/eAZshkz.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "grand-dragonfly",
+        "name": "Grand Dragonfly",
+        "wikiUrl": "https://www.realmeye.com/wiki/grand-dragonfly",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/HmsT1Hw.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Vitality",
+              "type": "Vitality",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "hunter-dragonfly",
+        "name": "Hunter Dragonfly",
+        "wikiUrl": "https://www.realmeye.com/wiki/hunter-dragonfly",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fozrU6q.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "man-eating-flytrap",
+        "name": "Man-Eating Flytrap",
+        "wikiUrl": "https://www.realmeye.com/wiki/man-eating-flytrap",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/hZlHOrn.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Dexterity",
+              "type": "Dexterity",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "scutosaurus",
+        "name": "Scutosaurus",
+        "wikiUrl": "https://www.realmeye.com/wiki/scutosaurus",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/YcRlTXk.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Dexterity",
+              "type": "Dexterity",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "spitting-arachnid",
+        "name": "Spitting Arachnid",
+        "wikiUrl": "https://www.realmeye.com/wiki/spitting-arachnid",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/MSqvVou.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Dexterity",
+              "type": "Dexterity",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "sting-spider",
+        "name": "Sting Spider",
+        "wikiUrl": "https://www.realmeye.com/wiki/sting-spider",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o7p4KRD.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Heroes of Oryx": [
+      {
+        "slug": "critter-brood",
+        "name": "Critter Brood",
+        "wikiUrl": "https://www.realmeye.com/wiki/critter-brood",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/YOcTahC.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Dexterity",
+              "type": "Dexterity",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Encounters": [
+      {
+        "slug": "ancient-kaiju",
+        "name": "Ancient Kaiju",
+        "wikiUrl": "https://www.realmeye.com/wiki/ancient-kaiju",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/mulQIYB.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "crystal-worm-father",
+        "name": "Crystal Worm Father",
+        "wikiUrl": "https://www.realmeye.com/wiki/crystal-worm-father",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K6rOQzR.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "ethereal-shrine",
+        "name": "Ethereal Shrine",
+        "wikiUrl": "https://www.realmeye.com/wiki/ethereal-shrine",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/tcjdBlT.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "flying-behemoth",
+        "name": "Flying Behemoth",
+        "wikiUrl": "https://www.realmeye.com/wiki/flying-behemoth",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/d4aJpul.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Beacon Guardian": [
+      {
+        "slug": "legion-colonel",
+        "name": "Legion Colonel",
+        "wikiUrl": "https://www.realmeye.com/wiki/legion-colonel",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/onX9bYe.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

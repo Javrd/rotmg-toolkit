@@ -8,14 +8,14 @@ cd "$(dirname "$0")"
 echo "== Dungeons =="
 python3 scraper.py all data/dungeon_potions.json
 
-echo "== Setpiece Bosses / Encounters =="
-python3 scraper.py quests data/quest_monster_potions.json
+echo "== Open-World Biomes =="
+python3 scraper.py biomes data/biome_potions.json
 
 echo "== Equipment =="
 python3 equipment_scraper.py data/equipment.json
 
 echo "== HTML site =="
-python3 build_html.py data/dungeon_potions.json index.html data/quest_monster_potions.json data/equipment.json
+python3 build_html.py data/dungeon_potions.json index.html data/biome_potions.json data/equipment.json
 
 echo "== Static API =="
 python3 build_api.py api

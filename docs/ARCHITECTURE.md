@@ -32,17 +32,17 @@ No hay pip/venv disponibles en este NUC (sin `python3-venv`, sin acceso
     `python3 scraper.py all data/dungeon_potions.json` (todas).
 
 - **`build_html.py`** — lee `data/dungeon_potions.json` +
-  `data/quest_monster_potions.json` + (recuento de) `data/equipment.json`
+  `data/biome_potions.json` + (recuento de) `data/equipment.json`
   y genera `index.html`: una sola página con un `<nav>` de dos pestañas
   de nivel superior ("Where to Find Stat Potions" / "Equipment Compare").
   La primera reusa el buscador/filtro de tipo/toggle "guaranteed only" y
-  las sub-pestañas Dungeons / Setpiece-Encounters de siempre. La segunda
+  las sub-pestañas Dungeons / Open-World Biomes de siempre. La segunda
   es el comparador de equipo (ver más abajo). Todo en JS vanilla, sin
-  dependencias externas. Los iconos de poción/enemigo/mazmorra se sirven
-  directo desde `realmeye.com/s/a/img/...` (hotlinking, sin copiarlos
-  localmente); `data/equipment.json` en cambio se carga completo por
-  `fetch()` en el cliente (880 KB) en vez de embeberse en el HTML, para
-  no inflar la carga inicial de la pestaña de pociones.
+  dependencias externas. Los iconos de poción/enemigo/mazmorra/bioma se
+  sirven directo desde `realmeye.com/s/a/img/...` (hotlinking, sin
+  copiarlos localmente); `data/equipment.json` en cambio se carga
+  completo por `fetch()` en el cliente (880 KB) en vez de embeberse en
+  el HTML, para no inflar la carga inicial de la pestaña de pociones.
 
 - **`data/dungeon_potions.json`** — salida estructurada por mazmorra:
   `icon` (icono del portal), `difficulty` (float 0-10 en pasos de 0.5,
@@ -67,16 +67,32 @@ No hay pip/venv disponibles en este NUC (sin `python3-venv`, sin acceso
 - **`data/cache/`** — HTML crudo cacheado (~9 MB). Borrar para forzar
   refetch completo.
 
-- **`data/quest_monster_potions.json`** — igual que arriba pero para
-  enemigos de mundo abierto (no atados a una mazmorra): recorre
-  `/wiki/quest-monsters`, secciones "Setpiece Bosses and Heroes of Oryx"
-  (incluye sus subtablas de evento) y "Encounters" (incluye "Special
-  Event Bosses"). Para cada tabla localiza la columna "Leader(s)"
-  dinámicamente (el índice de columna varía entre tablas) y, para cada
-  enemigo líder, mira directamente su propia tabla "Drops" — aquí no
-  hay tabla "Drops of Interest" que cruzar, cada líder es su propio
-  "jefe". Genera con `python3 scraper.py quests
-  data/quest_monster_potions.json`.
+- **`data/biome_potions.json`** — enemigos de mundo abierto (no atados a
+  una mazmorra), pero clasificados por **bioma** en vez de por el reparto
+  arbitrario "Setpiece Bosses / Encounters" que traía `/wiki/quest-monsters`
+  (sustituido por completo, ver
+  [[0008-biome-classified-open-world-potions]]). `get_biome_list()`
+  parsea `/wiki/the-realm`, secciones "Rookie/Adept/Veteran/Seasonal
+  Biomes", y saca `{name, href, tier, icon}` para los 23 biomas
+  implementados (el enlace al nombre va siempre envuelto en `<b><a
+  href="...">`; biomas aún no implementados como Low Desert aparecen sin
+  `<a>` y se descartan solos). `scrape_biome(name, href, tier)` visita la
+  página propia de cada bioma, localiza el bloque entre el `<h2>`
+  "Enemies" o "Monsters" y el siguiente `<h2>`, y lo trocea por sus
+  subtítulos h3/h4 ("Regular Enemies", "Heroes of Oryx", "Heroes of Oryx
+  Minions", "Encounters", "Beacon Guardian", a veces "NPCs" — el
+  contenido que precede al primer subtítulo, en biomas cuya lista base
+  no lleva subtítulo propio, se etiqueta "Regular Enemies"). Para cada
+  enemigo de cada grupo, `get_enemy_potion_drops()` (la misma función
+  que ya usaba el scraping de quest-monsters) mira directamente su
+  propia tabla "Drops" — no hay tabla "Drops of Interest" del bioma que
+  cruzar, cada enemigo es su propio "jefe", igual que un setpiece boss.
+  Biomas/grupos sin ningún enemigo con pociones no aparecen en el JSON
+  (los biomas Rookie casi siempre caen aquí — están pensados para subir
+  de nivel, no para farmear pociones, según la propia wiki). Genera con
+  `python3 scraper.py biomes data/biome_potions.json` (~23 biomas, unos
+  300 enemigos individuales — la mayoría ya en caché tras el primer
+  scrape de mazmorras si coinciden con bosses ya vistos).
 
 ## Cómo se decide "Guaranteed" vs "Possible"
 
@@ -228,7 +244,7 @@ estabilidad del esquema; en el HTML se muestran como "Guaranteed"/"Possible")
 
 `build_api.py` lee `data/*.json` (la salida de los tres scrapers de
 arriba) y escribe `api/`: un array grande por recurso
-(`api/dungeons.json`, `api/quest-monsters.json`, `api/equipment.json`,
+(`api/dungeons.json`, `api/biomes.json`, `api/equipment.json`,
 `api/potion-types.json`) más un fichero pequeño por ítem
 (`api/dungeons/{slug}.json`, etc.) y un manifiesto `api/index.json`. Es
 la única capa donde se traducen los nombres de campo internos
@@ -265,8 +281,8 @@ O paso a paso:
 ```
 cd /home/javi/rotmg-info
 python3 scraper.py all data/dungeon_potions.json                 # ~5 min, red
-python3 scraper.py quests data/quest_monster_potions.json        # ~1-2 min, red
+python3 scraper.py biomes data/biome_potions.json                # ~3-4 min, red
 python3 equipment_scraper.py data/equipment.json                 # ~1 min, red
-python3 build_html.py data/dungeon_potions.json index.html data/quest_monster_potions.json data/equipment.json
+python3 build_html.py data/dungeon_potions.json index.html data/biome_potions.json data/equipment.json
 python3 build_api.py api
 ```

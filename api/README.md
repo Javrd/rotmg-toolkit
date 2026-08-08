@@ -88,22 +88,45 @@ that filter aren't included in the dataset at all.
 Dungeons without a `hasData: true` still get an entry (e.g. `chess`,
 `admin-arena`) so you can tell "no drops here" apart from "not scraped".
 
-### Quest monsters — `quest-monsters.json`, `quest-monsters/{slug}.json`
+### Biomes — `biomes.json`, `biomes/{slug}.json`
 
-Same potion shape as dungeons, but for open-world bosses not tied to any
-dungeon — RealmEye's [Setpiece Bosses and Heroes of Oryx](https://www.realmeye.com/wiki/quest-monsters#setpiece)
-and [Encounters](https://www.realmeye.com/wiki/quest-monsters#event).
+What potions can be found from open-world enemies, grouped by the
+[biome](https://www.realmeye.com/wiki/the-realm) they live in rather than
+by dungeon. Covers every enemy category on a biome's own wiki page —
+regular enemies, Heroes of Oryx (and their minions), Encounters, and the
+Beacon Guardian — for all 23 implemented biomes across all four tiers
+(Rookie/Adept/Veteran/Seasonal). Each enemy's potions come straight from
+that enemy's own Drops table, same as a dungeon boss.
 
 ```jsonc
 {
-  "slug": "murderous-megamoth",
-  "name": "Murderous Megamoth",
-  "wikiUrl": "https://www.realmeye.com/wiki/...",
-  "icon": "https://www.realmeye.com/s/a/img/wiki/i/...",
-  "group": "setpiece",                 // "setpiece" | "encounter"
-  "potions": { "guaranteed": [...], "possible": [...] }
+  "slug": "carboniferous",
+  "name": "Carboniferous",
+  "wikiUrl": "https://www.realmeye.com/wiki/carboniferous",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/BP0rmb6.png",
+  "tier": "Veteran",                   // "Rookie" | "Adept" | "Veteran" | "Seasonal"
+  "enemyGroups": {
+    "Regular Enemies": [
+      {
+        "slug": "animate-sigillaria",
+        "name": "Animate Sigillaria",
+        "wikiUrl": "https://www.realmeye.com/wiki/animate-sigillaria",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/k2kSdGV.png",
+        "potions": { "guaranteed": [...], "possible": [...] }
+      }
+    ],
+    "Heroes of Oryx": [ /* ... */ ],
+    "Encounters": [ /* ... */ ],
+    "Beacon Guardian": [ /* ... */ ]
+    // group keys present vary per biome; some also have "Heroes of Oryx Minions" or "NPCs"
+  }
 }
 ```
+
+Rookie biomes are meant for leveling, not potion farming, so most of them
+end up with an empty (or missing) `enemyGroups` entirely — that's expected,
+not a scraping gap. Biomes/enemies left with zero potions after the same
+stat-potion filter used for dungeons aren't included.
 
 ### Equipment — `equipment.json`, `equipment/{slug}.json`
 
@@ -172,7 +195,7 @@ if you want to compute it yourself from `columns`/`stats`.
 ### Potion types — `potion-types.json`
 
 A flat sorted array of every normalized potion `type` string that appears
-anywhere in `dungeons.json` or `quest-monsters.json` (e.g. `["Attack",
+anywhere in `dungeons.json` or `biomes.json` (e.g. `["Attack",
 "Defense", ..., "Vitality"]`). Handy for building a type filter without
 having to scan every dungeon yourself.
 

@@ -1,6 +1,6 @@
 {
-  "apiVersion": "1",
-  "generatedAt": "2026-08-04T21:30:37Z",
+  "apiVersion": "2",
+  "generatedAt": "2026-08-08T22:15:07Z",
   "source": "https://www.realmeye.com/wiki",
   "resources": {
     "dungeons": {
@@ -8,10 +8,10 @@
       "item": "dungeons/{slug}.json",
       "count": 84
     },
-    "questMonsters": {
-      "list": "quest-monsters.json",
-      "item": "quest-monsters/{slug}.json",
-      "count": 90
+    "biomes": {
+      "list": "biomes.json",
+      "item": "biomes/{slug}.json",
+      "count": 23
     },
     "equipment": {
       "list": "equipment.json",

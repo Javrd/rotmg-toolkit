@@ -62,14 +62,16 @@ def render_difficulty(value):
     return f'<span class="difficulty" title="Difficulty: {esc(label)}">{icons}</span>'
 
 
-def render_card(name, href, icon, blocks, difficulty=None, error=None):
+def render_card(name, href, icon, blocks, difficulty=None, error=None, search_name=None):
     """blocks: list of (title_or_None, guaranteed_list, possible_list).
-    Returns None if the card has no potions and no error (should be omitted)."""
+    Returns None if the card has no potions and no error (should be omitted).
+    search_name overrides what data-name search matches against (e.g. a biome
+    card also matches its enemies' names, not just the biome's own name)."""
     has_potions = any(g or e for _, g, e in blocks)
     if not error and not has_potions:
         return None
     classes = "card no-data" if error else "card"
-    out = [f'<article class="{classes}" data-name="{esc(name.lower())}">']
+    out = [f'<article class="{classes}" data-name="{esc((search_name or name).lower())}">']
     out.append(
         f'<h3>{img(icon, name, "card-icon")}'
         f'<a href="https://www.realmeye.com{esc(href)}" target="_blank" rel="noopener">{esc(name)}</a>'
@@ -128,19 +130,49 @@ def build_dungeon_sections(dungeons):
     return "\n".join(s for s in sections if s)
 
 
-def build_quest_monster_section(title, entries):
-    cards = []
-    for e in entries:
-        g = [dict(p, source_name=None) for p in e["potions"] if p["guaranteed"]]
-        ex = [dict(p, source_name=None) for p in e["potions"] if not p["guaranteed"]]
-        blocks = [(None, g, ex)]
-        card = render_card(e["name"], e["href"], e.get("icon"), blocks)
-        if card:
-            cards.append(card)
-    return render_category(title, cards)
+BIOME_TIER_ORDER = ["Rookie", "Adept", "Veteran", "Seasonal"]
+BIOME_GROUP_ORDER = ["Regular Enemies", "Heroes of Oryx", "Heroes of Oryx Minions",
+                     "Encounters", "Beacon Guardian"]
 
 
-def collect_types(dungeons, qm):
+def render_biome_card(biome):
+    groups = biome.get("groups", {})
+    ordered_groups = [g for g in BIOME_GROUP_ORDER if g in groups]
+    ordered_groups += [g for g in groups if g not in ordered_groups]
+
+    blocks = []
+    enemy_names = []
+    for group_title in ordered_groups:
+        g_list, e_list = [], []
+        for e in groups[group_title]:
+            enemy_names.append(e["name"])
+            for p in e["potions"]:
+                pill = dict(p, source_name=e["name"], source_href=e["href"],
+                            source_icon=e.get("icon"))
+                (g_list if p["guaranteed"] else e_list).append(pill)
+        blocks.append((group_title, g_list, e_list))
+
+    search_name = " ".join([biome["name"]] + enemy_names)
+    return render_card(biome["name"], biome["href"], biome.get("icon"), blocks,
+                        search_name=search_name)
+
+
+def build_biome_sections(biomes):
+    by_tier = {}
+    for b in biomes:
+        by_tier.setdefault(b.get("tier", "Other"), []).append(b)
+
+    ordered_tiers = [t for t in BIOME_TIER_ORDER if t in by_tier]
+    ordered_tiers += [t for t in by_tier if t not in ordered_tiers]
+
+    sections = []
+    for tier in ordered_tiers:
+        cards = [c for c in (render_biome_card(b) for b in by_tier[tier]) if c]
+        sections.append(render_category(f"{tier} Biomes", cards))
+    return "\n".join(s for s in sections if s)
+
+
+def collect_types(dungeons, biomes):
     types = set()
 
     def scan(entries):
@@ -150,14 +182,15 @@ def collect_types(dungeons, qm):
     for d in dungeons:
         scan(d["main"]["garantizados"]); scan(d["main"]["extra"])
         scan(d["treasure"]["garantizados"]); scan(d["treasure"]["extra"])
-    if qm:
-        for k in ("setpiece", "encounters"):
-            for e in qm.get(k, []):
-                scan(e["potions"])
+    if biomes:
+        for b in biomes:
+            for entries in b.get("groups", {}).values():
+                for e in entries:
+                    scan(e["potions"])
     return sorted(types)
 
 
-def build(data_path, out_path, quest_path=None, equipment_path=None):
+def build(data_path, out_path, biome_path=None, equipment_path=None):
     with open(data_path, encoding="utf-8") as f:
         dungeons = json.load(f)
 
@@ -170,24 +203,20 @@ def build(data_path, out_path, quest_path=None, equipment_path=None):
     n_shown = sum(1 for d in dungeons if not d.get("error") and has_potions(d))
     n_no_data = sum(1 for d in dungeons if d.get("error"))
 
-    quest_html = ""
-    n_setpiece = n_encounters = 0
-    qm = None
-    if quest_path:
+    biome_html = ""
+    n_biomes = n_biome_enemies = 0
+    biomes = None
+    if biome_path:
         try:
-            with open(quest_path, encoding="utf-8") as f:
-                qm = json.load(f)
-            n_setpiece = len(qm.get("setpiece", []))
-            n_encounters = len(qm.get("encounters", []))
-            quest_html = (
-                build_quest_monster_section("Setpiece Bosses (open world)", qm.get("setpiece", [])) +
-                "\n" +
-                build_quest_monster_section("Encounters (event bosses)", qm.get("encounters", []))
-            )
+            with open(biome_path, encoding="utf-8") as f:
+                biomes = json.load(f)
+            n_biomes = sum(1 for b in biomes if any(b.get("groups", {}).values()))
+            n_biome_enemies = sum(len(es) for b in biomes for es in b.get("groups", {}).values())
+            biome_html = build_biome_sections(biomes)
         except FileNotFoundError:
             pass
 
-    types = collect_types(dungeons, qm)
+    types = collect_types(dungeons, biomes)
     type_options = "".join(f'<option value="{esc(t)}">{esc(t)}</option>' for t in types)
 
     n_equipment = 0
@@ -199,19 +228,19 @@ def build(data_path, out_path, quest_path=None, equipment_path=None):
             pass
 
     page = TEMPLATE.replace("__DUNGEON_CARDS__", dungeon_html) \
-                    .replace("__QUEST_CARDS__", quest_html) \
+                    .replace("__BIOME_CARDS__", biome_html) \
                     .replace("__TYPE_OPTIONS__", type_options) \
                     .replace("__N_SHOWN__", str(n_shown)) \
                     .replace("__N_NO_DATA__", str(n_no_data)) \
-                    .replace("__N_SETPIECE__", str(n_setpiece)) \
-                    .replace("__N_ENCOUNTERS__", str(n_encounters)) \
+                    .replace("__N_BIOMES__", str(n_biomes)) \
+                    .replace("__N_BIOME_ENEMIES__", str(n_biome_enemies)) \
                     .replace("__N_EQUIPMENT__", str(n_equipment)) \
                     .replace("__FALLBACK_ICON_JSON__", json.dumps(FALLBACK_ICON))
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(page)
     print(f"Wrote {out_path} ({n_shown}/{n_total} dungeons with potions, {n_no_data} with no data, "
-          f"{n_setpiece} setpiece + {n_encounters} encounter enemies, {len(types)} potion types, "
+          f"{n_biomes} biomes with {n_biome_enemies} potion-dropping enemies, {len(types)} potion types, "
           f"{n_equipment} equipment items)")
 
 
@@ -382,12 +411,12 @@ TEMPLATE = r"""<!doctype html>
 <main>
   <section id="page-potions" class="page active">
     <p class="sub">Data from the <a href="https://www.realmeye.com/wiki/dungeons" target="_blank" rel="noopener">RealmEye wiki</a>
-      (__N_SHOWN__ dungeons with potions of interest, __N_NO_DATA__ with no data, __N_SETPIECE__ setpiece bosses, __N_ENCOUNTERS__ encounters).
+      (__N_SHOWN__ dungeons with potions of interest, __N_NO_DATA__ with no data, __N_BIOMES__ open-world biomes with __N_BIOME_ENEMIES__ potion-dropping enemies).
       <b>Guaranteed</b> = the enemy's own Drops table marks that potion with a G.
       <b>Possible</b> = it can drop there but isn't guaranteed.
       The skull next to a dungeon's name is its difficulty rating (0-10, in steps of 0.5).</p>
     <div class="controls">
-      <input id="search" type="search" placeholder="Search dungeon or enemy…">
+      <input id="search" type="search" placeholder="Search dungeon, biome or enemy…">
       <select id="typeFilter">
         <option value="">All potion types</option>
         __TYPE_OPTIONS__
@@ -399,14 +428,14 @@ TEMPLATE = r"""<!doctype html>
     </div>
     <div class="tabs">
       <button class="tab active" data-view="dungeons">Dungeons</button>
-      <button class="tab" data-view="quests">Setpiece Bosses / Encounters</button>
+      <button class="tab" data-view="biomes">Open-World Biomes</button>
     </div>
     <div id="view-dungeons" class="view active">
 __DUNGEON_CARDS__
     </div>
-    <div id="view-quests" class="view">
-      <p class="sub">Open-world bosses not tied to a specific dungeon: <a href="https://www.realmeye.com/wiki/quest-monsters#setpiece" target="_blank" rel="noopener">Setpiece Bosses</a> and <a href="https://www.realmeye.com/wiki/quest-monsters#event" target="_blank" rel="noopener">Encounters</a>.</p>
-__QUEST_CARDS__
+    <div id="view-biomes" class="view">
+      <p class="sub">Every biome of the <a href="https://www.realmeye.com/wiki/the-realm" target="_blank" rel="noopener">open-world Realm</a> map, with the regular enemies, Heroes of Oryx, encounters and beacon guardians in it that can drop potions.</p>
+__BIOME_CARDS__
     </div>
   </section>
 
@@ -891,6 +920,6 @@ renderEqSelected('b');
 if __name__ == "__main__":
     data_path = sys.argv[1] if len(sys.argv) > 1 else "data/dungeon_potions.json"
     out_path = sys.argv[2] if len(sys.argv) > 2 else "index.html"
-    quest_path = sys.argv[3] if len(sys.argv) > 3 else "data/quest_monster_potions.json"
+    biome_path = sys.argv[3] if len(sys.argv) > 3 else "data/biome_potions.json"
     equipment_path = sys.argv[4] if len(sys.argv) > 4 else "data/equipment.json"
-    build(data_path, out_path, quest_path, equipment_path)
+    build(data_path, out_path, biome_path, equipment_path)

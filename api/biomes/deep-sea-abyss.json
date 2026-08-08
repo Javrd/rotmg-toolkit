@@ -1,0 +1,263 @@
+{
+  "slug": "deep-sea-abyss",
+  "name": "Deep Sea Abyss",
+  "wikiUrl": "https://www.realmeye.com/wiki/deep-sea-abyss",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/HsURZeU.png",
+  "tier": "Veteran",
+  "enemyGroups": {
+    "Regular Enemies": [
+      {
+        "slug": "abyssal-hydra",
+        "name": "Abyssal Hydra",
+        "wikiUrl": "https://www.realmeye.com/wiki/abyssal-hydra",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E5WR3Tn.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Vitality",
+              "type": "Vitality",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "abyssal-kraken",
+        "name": "Abyssal Kraken",
+        "wikiUrl": "https://www.realmeye.com/wiki/abyssal-kraken",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yGlZV4N.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Vitality",
+              "type": "Vitality",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "abyssal-siren",
+        "name": "Abyssal Siren",
+        "wikiUrl": "https://www.realmeye.com/wiki/abyssal-siren",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1C7KHe5.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Attack",
+              "type": "Attack",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "abyssal-squid",
+        "name": "Abyssal Squid",
+        "wikiUrl": "https://www.realmeye.com/wiki/abyssal-squid",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/coovGre.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Attack",
+              "type": "Attack",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "corsair-crab",
+        "name": "Corsair Crab",
+        "wikiUrl": "https://www.realmeye.com/wiki/corsair-crab",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/69wUhF5.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Vitality",
+              "type": "Vitality",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "hadopelagic-jellyfish",
+        "name": "Hadopelagic Jellyfish",
+        "wikiUrl": "https://www.realmeye.com/wiki/hadopelagic-jellyfish",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Ho1aPnm.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Attack",
+              "type": "Attack",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "hadopelagic-submersible",
+        "name": "Hadopelagic Submersible",
+        "wikiUrl": "https://www.realmeye.com/wiki/hadopelagic-submersible",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/urhMfAj.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Attack",
+              "type": "Attack",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Heroes of Oryx": [
+      {
+        "slug": "sea-dragon",
+        "name": "Sea Dragon",
+        "wikiUrl": "https://www.realmeye.com/wiki/sea-dragon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AZYy10v.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Attack",
+              "type": "Attack",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Vitality",
+              "type": "Vitality",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "sunken-treasure-shipwreck",
+        "name": "Sunken Treasure",
+        "wikiUrl": "https://www.realmeye.com/wiki/sunken-treasure-shipwreck",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zrQnt3F.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Attack",
+              "type": "Attack",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Vitality",
+              "type": "Vitality",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Encounters": [
+      {
+        "slug": "adult-baneserpent",
+        "name": "Adult Baneserpent",
+        "wikiUrl": "https://www.realmeye.com/wiki/adult-baneserpent",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UAtHD52.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -3,9 +3,10 @@
 A static site + JSON API scraped from the [RealmEye wiki](https://www.realmeye.com/wiki/realm-of-the-mad-god)
 for two things I kept wanting while playing *Realm of the Mad God*:
 
-- **Where to Find Stat Potions** — every dungeon and open-world
-  boss/encounter, which stat potions they can drop, and whether each one
-  is actually *guaranteed* (per the wiki's own drop tables) or just
+- **Where to Find Stat Potions** — every dungeon, and every open-world
+  biome's enemies (regular enemies, Heroes of Oryx, encounters, beacon
+  guardians), which stat potions they can drop, and whether each one is
+  actually *guaranteed* (per the wiki's own drop tables) or just
   possible.
 - **Equipment Compare** — pick two items equippable by the exact same set
   of classes and see their stats/effects diffed side by side, with a

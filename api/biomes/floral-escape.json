@@ -1,0 +1,416 @@
+{
+  "slug": "floral-escape",
+  "name": "Floral Escape",
+  "wikiUrl": "https://www.realmeye.com/wiki/floral-escape",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/rL6PJAb.png",
+  "tier": "Veteran",
+  "enemyGroups": {
+    "Regular Enemies": [
+      {
+        "slug": "great-owl",
+        "name": "Great Owl",
+        "wikiUrl": "https://www.realmeye.com/wiki/great-owl",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Y8nFAa6.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Vitality",
+              "type": "Vitality",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "green-fingers",
+        "name": "Green Fingers",
+        "wikiUrl": "https://www.realmeye.com/wiki/green-fingers",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/PTzPpAw.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "overgrown-lily",
+        "name": "Overgrown Lily",
+        "wikiUrl": "https://www.realmeye.com/wiki/overgrown-lily",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OPwlBUo.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "rhinoceros",
+        "name": "Rhinoceros",
+        "wikiUrl": "https://www.realmeye.com/wiki/rhinoceros",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/2WTdi4r.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Vitality",
+              "type": "Vitality",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "snapdragon",
+        "name": "Snapdragon",
+        "wikiUrl": "https://www.realmeye.com/wiki/snapdragon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Cs5FzoT.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Vitality",
+              "type": "Vitality",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "spore-spreader",
+        "name": "Spore Spreader",
+        "wikiUrl": "https://www.realmeye.com/wiki/spore-spreader",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SOOC3c8.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Vitality",
+              "type": "Vitality",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "sunflower-sentinel",
+        "name": "Sunflower Sentinel",
+        "wikiUrl": "https://www.realmeye.com/wiki/sunflower-sentinel",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/RVLebIL.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "vegetarian-tiger",
+        "name": "Vegetarian Tiger",
+        "wikiUrl": "https://www.realmeye.com/wiki/vegetarian-tiger",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ULEuNfI.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Heroes of Oryx": [
+      {
+        "slug": "alluring-blossom",
+        "name": "Alluring Blossom",
+        "wikiUrl": "https://www.realmeye.com/wiki/alluring-blossom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Pht6pFs.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Vitality",
+              "type": "Vitality",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "elder-ent-ancient",
+        "name": "Elder Ent Ancient",
+        "wikiUrl": "https://www.realmeye.com/wiki/elder-ent-ancient",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/qaZGmHe.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Vitality",
+              "type": "Vitality",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "hornet-s-nest",
+        "name": "Hornet's Nest",
+        "wikiUrl": "https://www.realmeye.com/wiki/hornet-s-nest",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SkxWB5V.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Vitality",
+              "type": "Vitality",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Encounters": [
+      {
+        "slug": "corrupted-bramblethorn",
+        "name": "Corrupted Bramblethorn",
+        "wikiUrl": "https://www.realmeye.com/wiki/corrupted-bramblethorn",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/t0626nZ.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "ethereal-shrine",
+        "name": "Ethereal Shrine",
+        "wikiUrl": "https://www.realmeye.com/wiki/ethereal-shrine",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/tcjdBlT.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "kogbold-expedition-engine",
+        "name": "Kogbold Expedition Engine",
+        "wikiUrl": "https://www.realmeye.com/wiki/kogbold-expedition-engine",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IXhCHh3.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Beacon Guardian": [
+      {
+        "slug": "legion-commissioner",
+        "name": "Legion Commissioner",
+        "wikiUrl": "https://www.realmeye.com/wiki/legion-commissioner",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/KUZJjXO.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

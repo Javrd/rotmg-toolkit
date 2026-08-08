@@ -316,56 +316,8 @@ def print_result(result):
                 print(f"    {_fmt_entry(x)}  [{x['source_name']}]")
 
 
-TABLE_RE = re.compile(r'<table[^>]*>(.*?)</table>', re.S)
-THEAD_RE = re.compile(r'<thead>(.*?)</thead>', re.S)
-TH_RE = re.compile(r'<th[^>]*>(.*?)</th>', re.S)
 DROP_ITEM_RE = re.compile(
     r'<a href="(/wiki/[^"#]+)">([^<]+)</a>(<sup><abbr title="([^"]*)">([^<]*)</abbr></sup>)?')
-
-
-def leader_column_index(table_html):
-    m = THEAD_RE.search(table_html)
-    header_html = m.group(1) if m else table_html
-    headers = TH_RE.findall(header_html)
-    for idx, h in enumerate(headers):
-        if "leader" in TAG_RE.sub("", h).strip().lower():
-            return idx
-    return None
-
-
-def extract_leaders_from_section(section_html):
-    leaders, seen = [], set()
-    for table_html in TABLE_RE.findall(section_html):
-        idx = leader_column_index(table_html)
-        if idx is None:
-            continue
-        body = THEAD_RE.sub("", table_html)
-        for tr in TR_RE.findall(body):
-            if "<th" in tr:
-                continue
-            cells = TD_RE.findall(tr)
-            if idx >= len(cells):
-                continue
-            for href, name in extract_links(cells[idx]):
-                if href not in seen:
-                    seen.add(href)
-                    leaders.append((href, name))
-    return leaders
-
-
-def get_quest_monster_groups():
-    """Return (setpiece_leaders, encounter_leaders, icon_map) from /wiki/quest-monsters."""
-    html = fetch(BASE + "/wiki/quest-monsters")
-    icon_map = build_icon_map(html)
-    i = html.find('id="setpiece"')
-    j = html.find('id="event"')
-    if i == -1 or j == -1:
-        raise RuntimeError("quest-monsters page layout changed: couldn't find setpiece/event headings")
-    setpiece_html = html[i:j]
-    encounters_html = html[j:]
-    return (extract_leaders_from_section(setpiece_html),
-            extract_leaders_from_section(encounters_html),
-            icon_map)
 
 
 def get_enemy_potion_drops(enemy_href):
@@ -390,36 +342,128 @@ def get_enemy_potion_drops(enemy_href):
     return out
 
 
-def scrape_quest_monster_group(leaders, icon_map):
-    results = []
-    for href, name in leaders:
-        try:
-            potions = get_enemy_potion_drops(href)
-        except Exception as e:
-            print(f"    ! {name} ({href}) failed: {e}", file=sys.stderr)
+BIOME_TIER_HEADINGS = {
+    "rookie biomes": "Rookie", "adept biomes": "Adept",
+    "veteran biomes": "Veteran", "seasonal biomes": "Seasonal",
+}
+BIOME_ROW_RE = re.compile(
+    r'<td><img[^>]*src="([^"]+)"[^>]*></td>\s*'
+    r'<td[^>]*><img[^>]*src="[^"]+"[^>]*></td>\s*'
+    r'<td.*?<a href="(/wiki/[^"#]+)">([^<]+)</a>', re.S)
+
+
+def get_biome_list():
+    """Return [{name, href, icon, tier}] from /wiki/the-realm, skipping unimplemented
+    biomes like Low Desert (no link to their own page in the summary table)."""
+    html = fetch(BASE + "/wiki/the-realm")
+    sections = split_sections(html)
+    biomes, seen = [], set()
+    for level, hid, title, content in sections:
+        tier = BIOME_TIER_HEADINGS.get(title.strip().lower())
+        if not tier:
             continue
-        if potions:
-            results.append({"name": name, "href": href, "icon": icon_map.get(href),
-                             "potions": potions})
-    return results
+        for icon_src, href, name in BIOME_ROW_RE.findall(content):
+            if href in seen:
+                continue
+            seen.add(href)
+            biomes.append({"name": name, "href": href, "tier": tier,
+                            "icon": BASE + icon_src if icon_src.startswith("/") else icon_src})
+    return biomes
 
 
-def run_quest_monsters(out_path):
-    setpiece_leaders, encounter_leaders, icon_map = get_quest_monster_groups()
-    print(f"Setpiece Bosses: {len(setpiece_leaders)} leaders, "
-          f"Encounters: {len(encounter_leaders)} leaders", file=sys.stderr)
+H2_RE = re.compile(r'<h2(?:\s+id="[^"]*")?>([^<]*)</h2>')
+SUBHEAD_RE = re.compile(r'<h([34])(?:\s+id="[^"]*")?>([^<]*)</h\1>')
 
-    print("Scanning Setpiece Bosses...", file=sys.stderr)
-    setpiece = scrape_quest_monster_group(setpiece_leaders, icon_map)
-    print("Scanning Encounters...", file=sys.stderr)
-    encounters = scrape_quest_monster_group(encounter_leaders, icon_map)
 
-    data = {"setpiece": setpiece, "encounters": encounters}
+def get_biome_enemies_block(html):
+    """Slice out the HTML between the 'Enemies'/'Monsters' h2 and the next h2."""
+    matches = list(H2_RE.finditer(html))
+    for i, m in enumerate(matches):
+        if m.group(1).strip().lower() in ("enemies", "monsters"):
+            start = m.end()
+            end = matches[i + 1].start() if i + 1 < len(matches) else len(html)
+            return html[start:end]
+    return None
+
+
+def split_enemy_groups(block_html):
+    """Split an Enemies/Monsters block into [(group_title, content), ...] by h3/h4
+    subheadings (Regular Enemies, Heroes of Oryx, Heroes of Oryx Minions, Encounters,
+    Beacon Guardian, NPCs...). Content preceding the first subheading (some biome
+    pages list the base monster grid directly under the h2, no subheading) is
+    labelled 'Regular Enemies'."""
+    matches = list(SUBHEAD_RE.finditer(block_html))
+    groups = []
+    if not matches or matches[0].start() > 0:
+        head = block_html[:matches[0].start()] if matches else block_html
+        groups.append(("Regular Enemies", head))
+    for i, m in enumerate(matches):
+        title = m.group(2).strip()
+        start = m.end()
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(block_html)
+        groups.append((title, block_html[start:end]))
+    return groups
+
+
+def extract_biome_enemy_entries(group_html):
+    """One (href, name) per <td> cell, taking only the first link (the enemy itself,
+    not the dungeon-portal icon some cells append after a <br>)."""
+    entries, seen = [], set()
+    for td in TD_RE.findall(group_html):
+        links = LINK_RE.findall(td)
+        if not links:
+            continue
+        href, inner = links[0]
+        m = ALT_RE.search(inner)
+        name = m.group(1) if m else TAG_RE.sub("", inner).strip()
+        if not name or href in seen:
+            continue
+        seen.add(href)
+        entries.append((href, name))
+    return entries
+
+
+def scrape_biome(name, href, tier):
+    url = BASE + href
+    html = fetch(url)
+    icon_map = build_icon_map(html)
+    block = get_biome_enemies_block(html)
+    groups = {}
+    if block is not None:
+        for group_title, group_html in split_enemy_groups(block):
+            entries = extract_biome_enemy_entries(group_html)
+            enemies = []
+            for ehref, ename in entries:
+                try:
+                    potions = get_enemy_potion_drops(ehref)
+                except Exception as e:
+                    print(f"    ! {ename} ({ehref}) failed: {e}", file=sys.stderr)
+                    continue
+                if potions:
+                    enemies.append({"name": ename, "href": ehref,
+                                     "icon": icon_map.get(ehref), "potions": potions})
+            if enemies:
+                groups.setdefault(group_title, []).extend(enemies)
+    return {"name": name, "href": href, "icon": icon_map.get(href) or None,
+            "tier": tier, "groups": groups}
+
+
+def run_biomes(out_path):
+    biomes = get_biome_list()
+    print(f"Biomes: {len(biomes)}", file=sys.stderr)
+    results = []
+    for i, b in enumerate(biomes, 1):
+        print(f"[{i}/{len(biomes)}] {b['name']} ({b['href']})", file=sys.stderr)
+        r = scrape_biome(b["name"], b["href"], b["tier"])
+        r["icon"] = b.get("icon") or r.get("icon")
+        n_enemies = sum(len(v) for v in r["groups"].values())
+        print(f"    -> {n_enemies} enemies with potions across {len(r['groups'])} groups",
+              file=sys.stderr)
+        results.append(r)
     with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    print(f"\nSaved {len(setpiece)} setpiece + {len(encounters)} encounter "
-          f"enemies with potions to {out_path}", file=sys.stderr)
-    return data
+        json.dump(results, f, indent=2, ensure_ascii=False)
+    print(f"\nSaved {len(results)} biomes to {out_path}", file=sys.stderr)
+    return results
 
 
 def run_all(out_path):
@@ -450,9 +494,9 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "all":
         out = sys.argv[2] if len(sys.argv) > 2 else "data/dungeon_potions.json"
         run_all(out)
-    elif len(sys.argv) > 1 and sys.argv[1] == "quests":
-        out = sys.argv[2] if len(sys.argv) > 2 else "data/quest_monster_potions.json"
-        run_quest_monsters(out)
+    elif len(sys.argv) > 1 and sys.argv[1] == "biomes":
+        out = sys.argv[2] if len(sys.argv) > 2 else "data/biome_potions.json"
+        run_biomes(out)
     else:
         r = scrape_dungeon("Woodland Labyrinth", "/wiki/woodland-labyrinth")
         print_result(r)

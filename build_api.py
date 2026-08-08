@@ -17,7 +17,7 @@ import sys
 import datetime
 
 WIKI_BASE = "https://www.realmeye.com"
-API_VERSION = "1"
+API_VERSION = "2"
 
 
 def slugify(href_or_name):
@@ -81,30 +81,40 @@ def build_dungeons(src_path, out_dir):
     return api_items
 
 
-def build_quest_monsters(src_path, out_dir):
+def build_biomes(src_path, out_dir):
     with open(src_path, encoding="utf-8") as f:
-        qm = json.load(f)
+        biomes = json.load(f)
 
     api_items = []
-    for group, entries in (("setpiece", qm.get("setpiece", [])),
-                            ("encounter", qm.get("encounters", []))):
-        for e in entries:
-            slug = slugify(e["href"])
-            item = {
-                "slug": slug,
-                "name": e["name"],
-                "wikiUrl": wiki_url(e["href"]),
-                "icon": e.get("icon"),
-                "group": group,
-                "potions": {
-                    "guaranteed": [potion_entry(p) for p in e["potions"] if p["guaranteed"]],
-                    "possible": [potion_entry(p) for p in e["potions"] if not p["guaranteed"]],
-                },
-            }
-            api_items.append(item)
-            write_json(f"{out_dir}/quest-monsters/{slug}.json", item)
+    for b in biomes:
+        slug = slugify(b["href"])
+        enemy_groups = {}
+        for group, entries in b.get("groups", {}).items():
+            enemy_groups[group] = [
+                {
+                    "slug": slugify(e["href"]),
+                    "name": e["name"],
+                    "wikiUrl": wiki_url(e["href"]),
+                    "icon": e.get("icon"),
+                    "potions": {
+                        "guaranteed": [potion_entry(p) for p in e["potions"] if p["guaranteed"]],
+                        "possible": [potion_entry(p) for p in e["potions"] if not p["guaranteed"]],
+                    },
+                }
+                for e in entries
+            ]
+        item = {
+            "slug": slug,
+            "name": b["name"],
+            "wikiUrl": wiki_url(b["href"]),
+            "icon": b.get("icon"),
+            "tier": b.get("tier"),
+            "enemyGroups": enemy_groups,
+        }
+        api_items.append(item)
+        write_json(f"{out_dir}/biomes/{slug}.json", item)
 
-    write_json(f"{out_dir}/quest-monsters.json", api_items)
+    write_json(f"{out_dir}/biomes.json", api_items)
     return api_items
 
 
@@ -138,26 +148,28 @@ def build_equipment(src_path, out_dir):
     return api_items
 
 
-def build_potion_types(dungeons, quest_monsters):
+def build_potion_types(dungeons, biomes):
     types = set()
     for d in dungeons:
         for bucket in (d["potions"], d["treasureRoomPotions"]):
             for lst in bucket.values():
                 types.update(p["type"] for p in lst)
-    for e in quest_monsters:
-        for lst in e["potions"].values():
-            types.update(p["type"] for p in lst)
+    for b in biomes:
+        for entries in b.get("enemyGroups", {}).values():
+            for e in entries:
+                for lst in e["potions"].values():
+                    types.update(p["type"] for p in lst)
     return sorted(types)
 
 
 def build(out_dir="api",
           dungeons_path="data/dungeon_potions.json",
-          quest_monsters_path="data/quest_monster_potions.json",
+          biomes_path="data/biome_potions.json",
           equipment_path="data/equipment.json"):
     dungeons = build_dungeons(dungeons_path, out_dir)
-    quest_monsters = build_quest_monsters(quest_monsters_path, out_dir)
+    biomes = build_biomes(biomes_path, out_dir)
     equipment = build_equipment(equipment_path, out_dir)
-    potion_types = build_potion_types(dungeons, quest_monsters)
+    potion_types = build_potion_types(dungeons, biomes)
     write_json(f"{out_dir}/potion-types.json", potion_types)
 
     manifest = {
@@ -166,15 +178,14 @@ def build(out_dir="api",
         "source": "https://www.realmeye.com/wiki",
         "resources": {
             "dungeons": {"list": "dungeons.json", "item": "dungeons/{slug}.json", "count": len(dungeons)},
-            "questMonsters": {"list": "quest-monsters.json", "item": "quest-monsters/{slug}.json",
-                               "count": len(quest_monsters)},
+            "biomes": {"list": "biomes.json", "item": "biomes/{slug}.json", "count": len(biomes)},
             "equipment": {"list": "equipment.json", "item": "equipment/{slug}.json", "count": len(equipment)},
             "potionTypes": {"list": "potion-types.json", "count": len(potion_types)},
         },
     }
     write_json(f"{out_dir}/index.json", manifest)
 
-    print(f"Wrote api/ : {len(dungeons)} dungeons, {len(quest_monsters)} quest monsters, "
+    print(f"Wrote api/ : {len(dungeons)} dungeons, {len(biomes)} biomes, "
           f"{len(equipment)} equipment items, {len(potion_types)} potion types", file=sys.stderr)
     return manifest
 

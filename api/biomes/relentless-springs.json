@@ -1,0 +1,275 @@
+{
+  "slug": "relentless-springs",
+  "name": "Relentless Springs",
+  "wikiUrl": "https://www.realmeye.com/wiki/relentless-springs",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/nrveJ7m.png",
+  "tier": "Seasonal",
+  "enemyGroups": {
+    "Regular Enemies": [
+      {
+        "slug": "easter-egg",
+        "name": "Easter Egg",
+        "wikiUrl": "https://www.realmeye.com/wiki/easter-egg",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yNzWufk.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Defense",
+              "type": "Defense",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "chocolate-head",
+        "name": "Chocolate Head",
+        "wikiUrl": "https://www.realmeye.com/wiki/chocolate-head",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JItT2Qp.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Defense",
+              "type": "Defense",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "eggs-golem",
+        "name": "Eggs Golem",
+        "wikiUrl": "https://www.realmeye.com/wiki/eggs-golem",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dQoUt70.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Defense",
+              "type": "Defense",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "lamb",
+        "name": "Lamb",
+        "wikiUrl": "https://www.realmeye.com/wiki/lamb",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o2iH6w7.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "fluffy-bunny-god",
+        "name": "Fluffy Bunny God",
+        "wikiUrl": "https://www.realmeye.com/wiki/fluffy-bunny-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4fRaDBS.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Defense",
+              "type": "Defense",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "fuzzy-bunny-god",
+        "name": "Fuzzy Bunny God",
+        "wikiUrl": "https://www.realmeye.com/wiki/fuzzy-bunny-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/TfYr4Qd.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Defense",
+              "type": "Defense",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "orange-bunny-god",
+        "name": "Orange Bunny God",
+        "wikiUrl": "https://www.realmeye.com/wiki/orange-bunny-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/04yDFA7.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Defense",
+              "type": "Defense",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "playful-bunny-god",
+        "name": "Playful Bunny God",
+        "wikiUrl": "https://www.realmeye.com/wiki/playful-bunny-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/etawHdl.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "white-bunny-god",
+        "name": "White Bunny God",
+        "wikiUrl": "https://www.realmeye.com/wiki/white-bunny-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9JWc7lB.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Encounters": [
+      {
+        "slug": "biff-the-buffed-bunny",
+        "name": "Biff the Buffed Bunny",
+        "wikiUrl": "https://www.realmeye.com/wiki/biff-the-buffed-bunny",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/prGMIfR.png",
+        "potions": {
+          "guaranteed": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": "G"
+            }
+          ],
+          "possible": []
+        }
+      },
+      {
+        "slug": "beer-god",
+        "name": "Chocolatier God",
+        "wikiUrl": "https://www.realmeye.com/wiki/beer-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/eHp5uyp.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "flying-behemoth",
+        "name": "Hopping Goliath",
+        "wikiUrl": "https://www.realmeye.com/wiki/flying-behemoth",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/s2d746N.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "ethereal-shrine",
+        "name": "Porcelain Egg",
+        "wikiUrl": "https://www.realmeye.com/wiki/ethereal-shrine",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/TyhZoxl.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Life",
+              "type": "Life",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/FDzx09G.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Mana",
+              "type": "Mana",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/ss7CVdl.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "possessed-pumpkin",
+        "name": "Spring Cabbage",
+        "wikiUrl": "https://www.realmeye.com/wiki/possessed-pumpkin",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/EepeGq4.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

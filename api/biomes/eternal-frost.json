@@ -1,0 +1,149 @@
+{
+  "slug": "eternal-frost",
+  "name": "Eternal Frost",
+  "wikiUrl": "https://www.realmeye.com/wiki/eternal-frost",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/KvGIf3l.png",
+  "tier": "Seasonal",
+  "enemyGroups": {
+    "Regular Enemies": [
+      {
+        "slug": "oryxmas-clown",
+        "name": "Oryxmas Clown",
+        "wikiUrl": "https://www.realmeye.com/wiki/oryxmas-clown",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4VYTu8g.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Defense",
+              "type": "Defense",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "oryxmas-reindeer",
+        "name": "Oryxmas Reindeer",
+        "wikiUrl": "https://www.realmeye.com/wiki/oryxmas-reindeer",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IUm3bmQ.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "oryxmas-susuwatari",
+        "name": "Oryxmas Susuwatari",
+        "wikiUrl": "https://www.realmeye.com/wiki/oryxmas-susuwatari",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/f2Tea1H.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Defense",
+              "type": "Defense",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "eternal-frost-present",
+        "name": "Eternal Frost Present",
+        "wikiUrl": "https://www.realmeye.com/wiki/eternal-frost-present",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xCu6rj8.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Encounters": [
+      {
+        "slug": "jack-frost",
+        "name": "Jack Frost",
+        "wikiUrl": "https://www.realmeye.com/wiki/jack-frost",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/sPfMK92.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "permafrost-lord",
+        "name": "Permafrost Lord",
+        "wikiUrl": "https://www.realmeye.com/wiki/permafrost-lord",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kk4AcxG.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "snowy-the-frost-god",
+        "name": "Snowy the Frost God",
+        "wikiUrl": "https://www.realmeye.com/wiki/snowy-the-frost-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dngI2Ry.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "snow-shrine",
+        "name": "Snow Shrine",
+        "wikiUrl": "https://www.realmeye.com/wiki/snow-shrine",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/O4zgY3b.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

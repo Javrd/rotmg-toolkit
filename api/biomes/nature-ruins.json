@@ -1,0 +1,28 @@
+{
+  "slug": "nature-ruins",
+  "name": "Mid Forest (Nature Ruins)",
+  "wikiUrl": "https://www.realmeye.com/wiki/nature-ruins",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/x2rYcb5.png",
+  "tier": "Rookie",
+  "enemyGroups": {
+    "Heroes of Oryx Minions": [
+      {
+        "slug": "greater-nature-sprite",
+        "name": "Greater Nature Sprite",
+        "wikiUrl": "https://www.realmeye.com/wiki/greater-nature-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fjQCpek.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Attack",
+              "type": "Attack",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

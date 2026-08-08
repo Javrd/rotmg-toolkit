@@ -1,0 +1,309 @@
+{
+  "slug": "shipwreck-cove",
+  "name": "Shipwreck Cove",
+  "wikiUrl": "https://www.realmeye.com/wiki/shipwreck-cove",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/DoOfcTd.png",
+  "tier": "Adept",
+  "enemyGroups": {
+    "Regular Enemies": [
+      {
+        "slug": "drowned-sailor",
+        "name": "Drowned Sailor",
+        "wikiUrl": "https://www.realmeye.com/wiki/drowned-sailor",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kJi4QNR.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "haunted-treasure",
+        "name": "Haunted Treasure",
+        "wikiUrl": "https://www.realmeye.com/wiki/haunted-treasure",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jGkRX7X.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Vitality",
+              "type": "Vitality",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/1iHlYrD.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "ocean-spirit",
+        "name": "Ocean Spirit",
+        "wikiUrl": "https://www.realmeye.com/wiki/ocean-spirit",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/5sLYpPO.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Dexterity",
+              "type": "Dexterity",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "sea-hag",
+        "name": "Sea Hag",
+        "wikiUrl": "https://www.realmeye.com/wiki/sea-hag",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BD3TKeY.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Dexterity",
+              "type": "Dexterity",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "sunken-soul",
+        "name": "Sunken Soul",
+        "wikiUrl": "https://www.realmeye.com/wiki/sunken-soul",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/TssoclO.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Dexterity",
+              "type": "Dexterity",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "undead-pirate",
+        "name": "Undead Pirate",
+        "wikiUrl": "https://www.realmeye.com/wiki/undead-pirate",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4UwUjQl.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Heroes of Oryx": [
+      {
+        "slug": "animal-merchant",
+        "name": "Animal Merchant",
+        "wikiUrl": "https://www.realmeye.com/wiki/animal-merchant",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/lBUBcwn.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Dexterity",
+              "type": "Dexterity",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "washed-up-captain",
+        "name": "Washed-Up Captain",
+        "wikiUrl": "https://www.realmeye.com/wiki/washed-up-captain",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/NfU1Jhh.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Dexterity",
+              "type": "Dexterity",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/7kXmM0O.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Encounters": [
+      {
+        "slug": "beer-god",
+        "name": "Beer God",
+        "wikiUrl": "https://www.realmeye.com/wiki/beer-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AwXKgrE.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "bilgewater-s-galleon",
+        "name": "Bilgewater's Galleon",
+        "wikiUrl": "https://www.realmeye.com/wiki/bilgewater-s-galleon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wmrq7Fz.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "crab-sovereign",
+        "name": "Crab Sovereign",
+        "wikiUrl": "https://www.realmeye.com/wiki/crab-sovereign",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zuZokkc.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "eye-of-the-storm",
+        "name": "Eye of the Storm",
+        "wikiUrl": "https://www.realmeye.com/wiki/eye-of-the-storm",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zWZrYpk.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "ghost-ship",
+        "name": "Ghost Ship",
+        "wikiUrl": "https://www.realmeye.com/wiki/ghost-ship",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4UqdcHo.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Beacon Guardian": [
+      {
+        "slug": "legion-cove-guardian",
+        "name": "Legion Cove Guardian",
+        "wikiUrl": "https://www.realmeye.com/wiki/legion-cove-guardian",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Zb6J6vu.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "slug": "dead-church",
+  "name": "Dead Church",
+  "wikiUrl": "https://www.realmeye.com/wiki/dead-church",
+  "icon": "https://www.realmeye.com/s/a/img/wiki/i/t0fOWG3.png",
+  "tier": "Adept",
+  "enemyGroups": {
+    "Regular Enemies": [
+      {
+        "slug": "flying-vampire",
+        "name": "Flying Vampire",
+        "wikiUrl": "https://www.realmeye.com/wiki/flying-vampire",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/T2X9ydr.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "ghastly-nun",
+        "name": "Ghastly Nun",
+        "wikiUrl": "https://www.realmeye.com/wiki/ghastly-nun",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/PviXdWa.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Defense",
+              "type": "Defense",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "revenant",
+        "name": "Revenant",
+        "wikiUrl": "https://www.realmeye.com/wiki/revenant",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/M0ACVkd.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Defense",
+              "type": "Defense",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Attack",
+              "type": "Attack",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "skeleton-worshipper",
+        "name": "Skeleton Worshipper",
+        "wikiUrl": "https://www.realmeye.com/wiki/skeleton-worshipper",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K9bC79T.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Attack",
+              "type": "Attack",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "zombie-cleric",
+        "name": "Zombie Cleric",
+        "wikiUrl": "https://www.realmeye.com/wiki/zombie-cleric",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vgra13e.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Attack",
+              "type": "Attack",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Heroes of Oryx": [
+      {
+        "slug": "death-knight",
+        "name": "Death Knight",
+        "wikiUrl": "https://www.realmeye.com/wiki/death-knight",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Qs65yHO.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Attack",
+              "type": "Attack",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Speed",
+              "type": "Speed",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/R2U76AH.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Defense",
+              "type": "Defense",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "lantern-holder",
+        "name": "Lantern Holder",
+        "wikiUrl": "https://www.realmeye.com/wiki/lantern-holder",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/svVRCId.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Attack",
+              "type": "Attack",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Defense",
+              "type": "Defense",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "shady-sect-leader",
+        "name": "Shady Sect Leader",
+        "wikiUrl": "https://www.realmeye.com/wiki/shady-sect-leader",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/iS69XJ8.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Potion of Attack",
+              "type": "Attack",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/kiIMjr9.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Defense",
+              "type": "Defense",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/xSXLjme.png",
+              "guaranteedLabel": null
+            },
+            {
+              "name": "Potion of Wisdom",
+              "type": "Wisdom",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/WLjcwoA.png",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Encounters": [
+      {
+        "slug": "pentaract",
+        "name": "Pentaract",
+        "wikiUrl": "https://www.realmeye.com/wiki/pentaract",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4tagf09.gif",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "the-lich-king",
+        "name": "The Lich King",
+        "wikiUrl": "https://www.realmeye.com/wiki/the-lich-king",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o4BDdek.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "the-plague-doctor",
+        "name": "The Plague Doctor",
+        "wikiUrl": "https://www.realmeye.com/wiki/the-plague-doctor",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/f9KVShS.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      },
+      {
+        "slug": "well-of-souls",
+        "name": "Well of Souls",
+        "wikiUrl": "https://www.realmeye.com/wiki/well-of-souls",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/B4QoOcX.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ],
+    "Beacon Guardian": [
+      {
+        "slug": "legion-church-guardian",
+        "name": "Legion Church Guardian",
+        "wikiUrl": "https://www.realmeye.com/wiki/legion-church-guardian",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4UZyOSk.png",
+        "potions": {
+          "guaranteed": [],
+          "possible": [
+            {
+              "name": "Stat Increase Potions",
+              "type": "Stat Increase Potions",
+              "icon": "https://www.realmeye.com/s/a/img/wiki/i/s5jcnq9.gif",
+              "guaranteedLabel": null
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
