@@ -31,5 +31,9 @@ ningún otro sitio — ni en GitHub Issues (`atalaya` `decisions/0010`).
 - `./refresh.sh` re-scrapea todo y regenera `index.html` + `api/`. Los
   scrapers cachean HTML crudo en `data/cache/` (no versionado), así que
   re-ejecutar es barato.
-- `node_modules/` solo existe para `backlog.md`; el sitio no tiene
-  dependencias de runtime.
+- `npm test` corre la suite de UI en un Chromium real
+  (`tests/fame.spec.mjs`). Si tocas la Fame Checklist, pásala: jsdom
+  miente sobre la cascada CSS y por eso ya se coló un filtro roto
+  (`docs/decisions/0010`).
+- `node_modules/` solo existe para `backlog.md` y `playwright-core`; el
+  sitio no tiene dependencias de runtime.

@@ -300,13 +300,29 @@ unidad es un contador de completadas, no un booleano — ver
   produce un teclado, para que escribir `oryx's` encuentre las tres. El
   desplegable se cierra con Escape (la primera pulsación limpia el texto)
   o con un clic fuera, pero **no** al marcar: se pueden tildar varias
-  seguidas.
+  seguidas. Las filas que no casan se ocultan con el atributo `hidden`,
+  que **solo funciona** porque la hoja lleva una regla de autor
+  `[hidden] { display:none !important; }`: sin ella, el `display:flex` de
+  `.fame-result` gana al del user-agent y el filtro no filtra nada — ver
+  [[0010-hidden-attribute-loses-to-author-display]].
 - **Lo que se recalcula en cada cambio** (`fameRender()`): el contador y
   la barra de progreso de cada sección, la clase `.done` de las secciones
   completas, las filas del buscador, y el resumen de arriba (mazmorras
   marcadas, colecciones completas y fama acumulada de esas colecciones,
   sobre un total de 65 mazmorras distintas y 46.100 de fama). El botón
   **Clear all** vacía el conjunto entero, previa confirmación.
+
+## Tests
+
+`npm test` (`tests/fame.spec.mjs`) abre `index.html` en un **Chromium
+real** vía `playwright-core` y comprueba la Fame Checklist entera: el
+desplegable, el filtrado, marcar desde los dos sitios, la sincronización
+entre secciones, el progreso, la persistencia tras recargar, el botón
+Clear all y un viewport de 400px. Las asserts miran `:visible`, no el
+atributo o la clase que debería ocultar algo: es la única forma de
+detectar bugs de cascada CSS, y jsdom da respuestas falsas sobre eso
+([[0010-hidden-attribute-loses-to-author-display]] explica el caso y cómo
+arrancar Chromium en este NUC sin sudo).
 
 ## API estática
 

@@ -397,6 +397,10 @@ TEMPLATE = r"""<!doctype html>
   .card.no-data { opacity:.5; }
   .hidden { display:none !important; }
   .pill.hidden { display:none !important; }
+  /* Author rules like `.fame-result { display:flex }` outrank the UA stylesheet's
+     `[hidden] { display:none }`, so the attribute needs an author rule of its own
+     or it silently does nothing -- see docs/decisions/0010. */
+  [hidden] { display:none !important; }
 
   /* Equipment compare */
   .eq-stats { display:flex; gap:1.5rem; flex-wrap:wrap; margin-top:1rem; background:var(--card-bg);
