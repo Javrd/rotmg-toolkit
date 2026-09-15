@@ -124,7 +124,38 @@ def get_dungeon_list():
             seen.add(href)
             dungeons.append({"name": name, "href": href, "category": title.strip(),
                               "icon": icon_map.get(href)})
+    for d in dungeons:
+        if not d["icon"]:
+            d["icon"] = get_portal_icon(d["href"])
     return dungeons
+
+
+PORTAL_IMG_RE = re.compile(r'<img[^>]*\btitle="[^"]*\bPortal"[^>]*>')
+IMG_SRC_RE = re.compile(r'src="([^"]+)"')
+
+
+def get_portal_icon(href):
+    """Icon for a dungeon that /wiki/dungeons lists without one (Oryx's Castle
+    is entered from the realm, so it has no portal thumbnail in that table).
+
+    Its own page always shows the portal as `<img ... title="X Portal">`, which
+    is the one image on the page guaranteed to be the portal and not a boss,
+    a layout map or a screenshot. Used only as a fallback: where the list does
+    have an icon that one wins, because a few pages show a different (often
+    animated .gif) variant and the list is what the rest of the site already
+    displays."""
+    try:
+        html = fetch(BASE + href)
+    except Exception:
+        return None
+    m = PORTAL_IMG_RE.search(html)
+    if not m:
+        return None
+    src = IMG_SRC_RE.search(m.group(0))
+    if not src:
+        return None
+    url = src.group(1)
+    return BASE + url if url.startswith("/") else url
 
 
 def parse_dungeon_page(html):

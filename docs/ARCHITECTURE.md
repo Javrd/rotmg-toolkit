@@ -16,7 +16,14 @@ No hay pip/venv disponibles en este NUC (sin `python3-venv`, sin acceso
 
 - **`scraper.py`** — todo el scraping:
   - `get_dungeon_list()`: parsea `/wiki/dungeons` y saca `{name, href,
-    category}` para las ~84 mazmorras listadas.
+    category}` para las ~84 mazmorras listadas. Las que esa tabla lista
+    sin thumbnail (Oryx's Castle, que se entra desde el reino y no por
+    portal) rellenan el icono con `get_portal_icon(href)`, que busca en
+    la página propia de la mazmorra el `<img ... title="X Portal">` — la
+    única imagen de esa página que seguro es el portal y no un jefe, un
+    mapa o una captura. Es **solo** un fallback: donde la lista trae
+    icono, ese manda, porque unas pocas páginas muestran una variante
+    animada `.gif` o arte distinto del que ya usa el resto del sitio.
   - `scrape_dungeon(name, href)`: para una mazmorra, parsea la sección
     "Drops of Interest" y las secciones cuyo título contiene "boss"
     (jefe principal) o "treasure room" + "boss" (jefe de sala del
@@ -277,8 +284,8 @@ unidad es un contador de completadas, no un booleano — ver
   trozos son requisito y subtítulo, el resto son nombres de mazmorra. Los
   nombres van en texto plano (sin enlace), así que el `href`/`icon` de
   cada una se cruza contra `get_dungeon_list()`; lo que no aparezca ahí
-  sale con `href`/`icon` a `null` (hoy solo Oryx's Castle, que no tiene
-  icono en `/wiki/dungeons`) y se pinta con el icono de relleno.
+  sale con `href`/`icon` a `null` y se pinta con el icono de relleno (hoy
+  no hay ninguna: las 84 mazmorras tienen icono).
   `DUNGEON_NAME_ALIASES` normaliza `Ice Cave` → `Ice Citadel`, el único
   nombre de la tabla que ya no existe en la wiki.
 - **Estado en el cliente**: los ticks viven en `localStorage` bajo

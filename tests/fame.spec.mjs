@@ -50,6 +50,14 @@ check('13 collection sections', await page.locator('.fame-collection').count() =
 check('fame page is shown', await page.locator('#page-fame').isVisible());
 check('picker is closed until focused', !(await page.locator('#fameResults').isVisible()));
 
+section('icons');
+check('no dungeon falls back to the grey placeholder',
+  await page.locator('.fame-icon[src^="data:"]').count() === 0,
+  await page.locator('.fame-icon[src^="data:"]').count() + ' placeholder(s)');
+check('every icon points at realmeye',
+  (await page.locator('.fame-icon').evaluateAll(
+    els => els.filter(e => !e.getAttribute('src').startsWith('https://www.realmeye.com/')).length)) === 0);
+
 section('picker opens with every dungeon, A-Z');
 await page.click('#fameSearch');
 check('dropdown visible', await page.locator('#fameResults').isVisible());
