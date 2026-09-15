@@ -289,11 +289,23 @@ unidad es un contador de completadas, no un booleano — ver
   `data-dungeon`, así que una mazmorra que sale en varias colecciones
   (Pirate Cave está en cuatro) se marca en todas a la vez — que es como
   lo cuenta el juego.
+- **Buscador rápido** (`.fame-picker`, arriba del todo): al enfocarlo
+  despliega las 65 mazmorras distintas en orden alfabético, cada una con
+  su checkbox, su icono y en cuántas colecciones sale; escribir filtra la
+  lista y se puede marcar/desmarcar ahí mismo sin bajar a las secciones.
+  El catálogo **se deriva del propio DOM** (`fameCatalog` recorre los
+  `.fame-item` ya pintados), no de un segundo bloque de datos: así no hay
+  dos copias de la lista que puedan desincronizarse. `fameNorm()`
+  normaliza el apóstrofo tipográfico de la wiki (`Oryx’s`) al recto que
+  produce un teclado, para que escribir `oryx's` encuentre las tres. El
+  desplegable se cierra con Escape (la primera pulsación limpia el texto)
+  o con un clic fuera, pero **no** al marcar: se pueden tildar varias
+  seguidas.
 - **Lo que se recalcula en cada cambio** (`fameRender()`): el contador y
-  la barra de progreso de cada sección, la clase `.done` de las
-  secciones completas, y el resumen de arriba (mazmorras marcadas,
-  colecciones completas y fama acumulada de esas colecciones, sobre un
-  total de 65 mazmorras distintas y 46.100 de fama). El botón
+  la barra de progreso de cada sección, la clase `.done` de las secciones
+  completas, las filas del buscador, y el resumen de arriba (mazmorras
+  marcadas, colecciones completas y fama acumulada de esas colecciones,
+  sobre un total de 65 mazmorras distintas y 46.100 de fama). El botón
   **Clear all** vacía el conjunto entero, previa confirmación.
 
 ## API estática

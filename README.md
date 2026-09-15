@@ -16,7 +16,8 @@ for three things I kept wanting while playing *Realm of the Mad God*:
   fame bonuses as a tickable checklist, one section per collection
   (Tunnel Rat, Explosive Journey, …). Ticking a dungeon ticks it in every
   collection it belongs to, each section shows its own progress, and your
-  state is kept in the browser.
+  state is kept in the browser. The search box at the top lists every
+  dungeon A-Z and lets you tick them off without scrolling.
 
 🔗 **Live site:** https://javrd.github.io/rotmg-toolkit/
 🔗 **JSON API:** [`api/README.md`](api/README.md) — no server, plain
