@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """RealmEye dungeon potion-drop scraper (stdlib only, no bs4/pip available)."""
 import re
+import html as htmlmod
 import os
 import sys
 import json
@@ -448,6 +449,93 @@ def scrape_biome(name, href, tier):
             "tier": tier, "groups": groups}
 
 
+FAME_URL = BASE + "/wiki/fame-bonuses"
+COLLECTION_HEADING = "<h4>Dungeon Collection</h4>"
+COMPLETION_HEADING = '<h4 id="completion">'
+BR_RE = re.compile(r'<br\s*/?>', re.I)
+FAME_AMOUNT_RE = re.compile(r'\+([\d,]+)\s*Fame')
+FAME_PERCENT_RE = re.compile(r'\+([\d.]+)%')
+
+# The wiki's "Realm of the Mad God" row still lists the pre-rename "Ice Cave";
+# every other row (and /wiki/dungeons) calls it "Ice Citadel", and /wiki/ice-cave
+# is a dead page -- see docs/decisions/0009-fame-collection-dungeon-aliases.md.
+DUNGEON_NAME_ALIASES = {
+    "Ice Cave": "Ice Citadel",
+}
+
+
+def cell_text(cell_html):
+    """Plain text of a table cell, with entities and stray whitespace tidied."""
+    return htmlmod.unescape(TAG_RE.sub("", cell_html)).strip()
+
+
+def scrape_fame_collections():
+    """Parse the "Dungeon Collection" table of /wiki/fame-bonuses.
+
+    One row per collection bonus (Tunnel Rat, Explosive Journey, ...). The
+    "Threshold" cell packs the requirement, the set's label and the dungeon
+    names into a single <br>-separated blob, e.g.
+    "<b>Complete each 1 time:<br>Wild Shadow era dungeons:</b><br>Pirate Cave<br>...".
+    The "Repeatable" column is dropped: it is False for every row of this table.
+    """
+    page = fetch(FAME_URL)
+    start = page.find(COLLECTION_HEADING)
+    end = page.find(COMPLETION_HEADING)
+    if start < 0 or end < 0:
+        raise RuntimeError("Dungeon Collection table not found on " + FAME_URL)
+    block = page[start:end]
+
+    dungeons = {d["name"]: d for d in get_dungeon_list()}
+    collections = []
+    for row in TR_RE.findall(block):
+        cells = TD_RE.findall(row)
+        if len(cells) < 3:
+            continue  # header row (<th>)
+        parts = [cell_text(p) for p in BR_RE.split(cells[1])]
+        parts = [p for p in parts if p]
+        requirement = parts[0].rstrip(":") if parts else ""
+        subtitle = parts[1].rstrip(":") if len(parts) > 1 else ""
+        entries = []
+        seen = set()
+        for raw in parts[2:]:
+            name = DUNGEON_NAME_ALIASES.get(raw, raw)
+            if name in seen:
+                continue
+            seen.add(name)
+            known = dungeons.get(name, {})
+            entries.append({"name": name, "href": known.get("href"),
+                            "icon": known.get("icon")})
+        bonus = cell_text(cells[2])
+        fame = FAME_AMOUNT_RE.search(bonus)
+        percent = FAME_PERCENT_RE.search(bonus)
+        collections.append({
+            "name": cell_text(cells[0]),
+            "requirement": requirement,
+            "subtitle": subtitle,
+            "bonus": bonus,
+            "fame": int(fame.group(1).replace(",", "")) if fame else None,
+            "percent": float(percent.group(1)) if percent else None,
+            "dungeons": entries,
+        })
+    return collections
+
+
+def run_fame(out_path):
+    collections = scrape_fame_collections()
+    unknown = sorted({d["name"] for c in collections for d in c["dungeons"]
+                      if not d["href"]})
+    for c in collections:
+        print(f"{c['name']}: {len(c['dungeons'])} dungeons, {c['bonus']}",
+              file=sys.stderr)
+    if unknown:
+        print(f"\nNot found in /wiki/dungeons (no icon/link): {', '.join(unknown)}",
+              file=sys.stderr)
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(collections, f, indent=2, ensure_ascii=False)
+    print(f"\nSaved {len(collections)} fame collections to {out_path}", file=sys.stderr)
+    return collections
+
+
 def run_biomes(out_path):
     biomes = get_biome_list()
     print(f"Biomes: {len(biomes)}", file=sys.stderr)
@@ -497,6 +585,9 @@ if __name__ == "__main__":
     elif len(sys.argv) > 1 and sys.argv[1] == "biomes":
         out = sys.argv[2] if len(sys.argv) > 2 else "data/biome_potions.json"
         run_biomes(out)
+    elif len(sys.argv) > 1 and sys.argv[1] == "fame":
+        out = sys.argv[2] if len(sys.argv) > 2 else "data/fame_bonuses.json"
+        run_fame(out)
     else:
         r = scrape_dungeon("Woodland Labyrinth", "/wiki/woodland-labyrinth")
         print_result(r)

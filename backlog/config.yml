@@ -1,0 +1,24 @@
+project_name: "rotmg-info"
+default_status: "To Do"
+statuses: ["To Do", "In Progress", "Done"]
+labels: []
+date_format: yyyy-mm-dd
+max_column_width: 20
+default_editor: "vi"
+auto_open_browser: false
+default_port: 6422
+remote_operations: true
+auto_commit: false
+filesystem_only: false
+zero_padded_ids: 3
+bypass_git_hooks: false
+check_active_branches: true
+active_branch_days: 30
+task_prefix: "task"
+definition_of_done:
+  - "Los scrapers afectados corren sin error y `data/*.json` queda regenerado y commiteado."
+  - "`python3 build_html.py ...` regenera `index.html` sin error y la pestaña tocada se ha abierto en un navegador/servidor local."
+  - "`python3 build_api.py api` regenerado si el cambio toca el contrato público."
+  - "`docs/ARCHITECTURE.md` describe el sistema tal y como queda (sin historia)."
+  - "Si hubo una decisión no obvia o un bug con causa raíz, hay una ADR nueva en `docs/decisions/`."
+  - "Commit en `main` y push a `origin` (GitHub Pages despliega desde ahí)."

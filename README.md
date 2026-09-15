@@ -1,7 +1,7 @@
 # RotMG Toolkit
 
 A static site + JSON API scraped from the [RealmEye wiki](https://www.realmeye.com/wiki/realm-of-the-mad-god)
-for two things I kept wanting while playing *Realm of the Mad God*:
+for three things I kept wanting while playing *Realm of the Mad God*:
 
 - **Where to Find Stat Potions** — every dungeon, and every open-world
   biome's enemies (regular enemies, Heroes of Oryx, encounters, beacon
@@ -12,6 +12,11 @@ for two things I kept wanting while playing *Realm of the Mad God*:
   of classes and see their stats/effects diffed side by side, with a
   live weapon-DPS estimate driven by ATT/DEX sliders (using the game's
   own published attack-speed/damage formulas).
+- **Fame Checklist** — the [Dungeon Collection](https://www.realmeye.com/wiki/fame-bonuses)
+  fame bonuses as a tickable checklist, one section per collection
+  (Tunnel Rat, Explosive Journey, …). Ticking a dungeon ticks it in every
+  collection it belongs to, each section shows its own progress, and your
+  state is kept in the browser.
 
 🔗 **Live site:** https://javrd.github.io/rotmg-toolkit/
 🔗 **JSON API:** [`api/README.md`](api/README.md) — no server, plain
@@ -24,7 +29,8 @@ runtime dependencies — the site is one self-contained `index.html`
 ## Repo layout
 
 ```
-scraper.py             dungeons + open-world boss potion drops -> data/*.json
+scraper.py             dungeons + open-world boss potion drops,
+                       fame Dungeon Collection bonuses -> data/*.json
 equipment_scraper.py   weapons/abilities/armor -> data/equipment.json
 build_html.py          data/*.json -> index.html (the site)
 build_api.py           data/*.json -> api/ (the static JSON API)

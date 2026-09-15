@@ -1,11 +1,12 @@
 # Arquitectura
 
-Scrapea la wiki de RealmEye para dos cosas independientes y las sirve en
-una única página HTML estática (en inglés, como el propio juego) con dos
-secciones navegables: "Where to Find Stat Potions" (qué pociones suelta
-cada mazmorra/boss de mundo abierto y si están garantizadas) y "Equipment
-Compare" (comparador visual de dos piezas de equipo del mismo grupo de
-clases).
+Scrapea la wiki de RealmEye para tres cosas independientes y las sirve
+en una única página HTML estática (en inglés, como el propio juego) con
+tres secciones navegables: "Where to Find Stat Potions" (qué pociones
+suelta cada mazmorra/boss de mundo abierto y si están garantizadas),
+"Equipment Compare" (comparador visual de dos piezas de equipo del mismo
+grupo de clases) y "Fame Checklist" (checklist de los bonus de fama por
+colección de mazmorras).
 
 No hay pip/venv disponibles en este NUC (sin `python3-venv`, sin acceso
 `sudo` sin contraseña), así que todo está escrito en stdlib puro
@@ -28,13 +29,18 @@ No hay pip/venv disponibles en este NUC (sin `python3-venv`, sin acceso
     re-ejecutar sin volver a golpear la red.
   - `run_all(out_path)` recorre todas las mazmorras y escribe
     `data/dungeon_potions.json`.
-  - Uso: `python3 scraper.py` (prueba con Woodland Labyrinth) o
-    `python3 scraper.py all data/dungeon_potions.json` (todas).
+  - `scrape_fame_collections()` / `run_fame(out_path)`: la tabla
+    "Dungeon Collection" de `/wiki/fame-bonuses` (ver más abajo).
+  - Uso: `python3 scraper.py` (prueba con Woodland Labyrinth),
+    `python3 scraper.py all data/dungeon_potions.json` (todas),
+    `python3 scraper.py biomes data/biome_potions.json` o
+    `python3 scraper.py fame data/fame_bonuses.json`.
 
 - **`build_html.py`** — lee `data/dungeon_potions.json` +
-  `data/biome_potions.json` + (recuento de) `data/equipment.json`
-  y genera `index.html`: una sola página con un `<nav>` de dos pestañas
-  de nivel superior ("Where to Find Stat Potions" / "Equipment Compare").
+  `data/biome_potions.json` + `data/fame_bonuses.json` + (recuento de)
+  `data/equipment.json` y genera `index.html`: una sola página con un
+  `<nav>` de tres pestañas de nivel superior ("Where to Find Stat
+  Potions" / "Equipment Compare" / "Fame Checklist").
   La primera reusa el buscador/filtro de tipo/toggle "guaranteed only" y
   las sub-pestañas Dungeons / Open-World Biomes de siempre. En la
   pestaña Dungeons cada sección es una categoría de mazmorra
@@ -46,7 +52,8 @@ No hay pip/venv disponibles en este NUC (sin `python3-venv`, sin acceso
   `badge` cuando no es un enemigo regular — "Hero of Oryx", "Hero
   Minion", "Encounter", "Beacon Guardian" — para no perder esa
   clasificación aunque ya no agrupe visualmente por ella). La segunda
-  pestaña de nivel superior es el comparador de equipo (ver más abajo).
+  pestaña de nivel superior es el comparador de equipo y la tercera la
+  Fame Checklist (ver más abajo las dos).
   Todo en JS vanilla, sin dependencias externas. Los iconos de
   poción/enemigo/mazmorra/bioma se sirven directo desde
   `realmeye.com/s/a/img/...` (hotlinking, sin copiarlos localmente);
@@ -250,6 +257,45 @@ estabilidad del esquema; en el HTML se muestran como "Guaranteed"/"Possible")
   multi-disparo) y se queda como hueco conocido: su DPS calculado
   infravalora el real en vez de arriesgar un número inventado.
 
+## Fame Checklist
+
+Tercera pestaña de nivel superior. Es la tabla **"Dungeon Collection"**
+de `/wiki/fame-bonuses` convertida en checklist: cada una de sus 13 filas
+(Tunnel Rat, Explosive Journey, ... Realm of the Mad God) es una sección
+con su bonus, y cada mazmorra de esa fila un checkbox. La otra tabla de
+"Dungeon Bonuses" (Dungeon Completion) **no** entra: es repetible y su
+unidad es un contador de completadas, no un booleano — ver
+[[0009-fame-collection-dungeon-aliases]].
+
+- **`data/fame_bonuses.json`** — una entrada por colección: `name`,
+  `requirement` ("Complete each 1 time"), `subtitle` ("Wild Shadow era
+  dungeons"), `bonus` (texto tal cual, `+7.5%, +3,000 Fame`), `fame` y
+  `percent` ya parseados, y `dungeons` = `[{name, href, icon}]`. La celda
+  "Threshold" de la wiki empaqueta requisito, etiqueta del conjunto y
+  lista de mazmorras separados por `<br>` dentro de una sola casilla, así
+  que `scrape_fame_collections()` la trocea por `<br>`: los dos primeros
+  trozos son requisito y subtítulo, el resto son nombres de mazmorra. Los
+  nombres van en texto plano (sin enlace), así que el `href`/`icon` de
+  cada una se cruza contra `get_dungeon_list()`; lo que no aparezca ahí
+  sale con `href`/`icon` a `null` (hoy solo Oryx's Castle, que no tiene
+  icono en `/wiki/dungeons`) y se pinta con el icono de relleno.
+  `DUNGEON_NAME_ALIASES` normaliza `Ice Cave` → `Ice Citadel`, el único
+  nombre de la tabla que ya no existe en la wiki.
+- **Estado en el cliente**: los ticks viven en `localStorage` bajo
+  `rotmg-toolkit:fame-dungeons` (array de nombres de mazmorra), envuelto
+  en `try/catch` para que la página siga funcionando en modo privado. La
+  clave de cada checkbox es el atributo `data-dungeon`, no el `href`: al
+  marcar uno, el JS marca **todos** los checkboxes con ese mismo
+  `data-dungeon`, así que una mazmorra que sale en varias colecciones
+  (Pirate Cave está en cuatro) se marca en todas a la vez — que es como
+  lo cuenta el juego.
+- **Lo que se recalcula en cada cambio** (`fameRender()`): el contador y
+  la barra de progreso de cada sección, la clase `.done` de las
+  secciones completas, y el resumen de arriba (mazmorras marcadas,
+  colecciones completas y fama acumulada de esas colecciones, sobre un
+  total de 65 mazmorras distintas y 46.100 de fama). El botón
+  **Clear all** vacía el conjunto entero, previa confirmación.
+
 ## API estática
 
 `build_api.py` lee `data/*.json` (la salida de los tres scrapers de
@@ -292,7 +338,8 @@ O paso a paso:
 cd /home/javi/rotmg-info
 python3 scraper.py all data/dungeon_potions.json                 # ~5 min, red
 python3 scraper.py biomes data/biome_potions.json                # ~3-4 min, red
+python3 scraper.py fame data/fame_bonuses.json                   # ~segundos, red
 python3 equipment_scraper.py data/equipment.json                 # ~1 min, red
-python3 build_html.py data/dungeon_potions.json index.html data/biome_potions.json data/equipment.json
+python3 build_html.py data/dungeon_potions.json index.html data/biome_potions.json data/equipment.json data/fame_bonuses.json
 python3 build_api.py api
 ```

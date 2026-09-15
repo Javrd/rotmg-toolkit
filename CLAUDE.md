@@ -1,36 +1,35 @@
 # rotmg-info
 
-Scraper y fichas de equipo de RotMG. Publicado en el remoto `rotmg-toolkit`.
+Scraper y fichas de equipo de RotMG. Publicado en el remoto
+`rotmg-toolkit` (GitHub Pages sirve `main`: un push a `main` **es** el
+despliegue).
 
-## Lo pendiente va a Backlog.md
+## Documentación
 
-Este proyecto **todavía no tiene sustrato**. Antes de ponerte a tocar código,
-móntalo — no dejes el pendiente en prosa "solo por esta vez":
-
-```bash
-npm i -D backlog.md@1.50.1   # o npx backlog directamente si no hay package.json
-npx backlog init
-```
-
-Checklist completo en `~/atalaya/docs/runbooks/replicar-sustrato.md` (10 pasos,
-incluido el que más se olvida: mergear a la rama por defecto el mismo día).
-
-El reparto que hay que dejar montado, y que a partir de entonces manda:
+Cuatro sitios, y ninguno se mezcla con otro:
 
 - `backlog/tasks/` — **lo pendiente**. Se muta con la CLI, nunca a mano.
-- `docs/decisions/NNNN-*.md` — **por qué** se decidió algo. Un fichero por
-  decisión, inmutable salvo para marcar `Superseded by`.
-- `docs/design/*.md` y `docs/ARCHITECTURE.md` — cómo funciona **hoy**, sin
-  historia.
+- `docs/decisions/NNNN-*.md` — **por qué** se decidió algo, un fichero por
+  decisión, inmutable salvo para marcar `Superseded by`. No es lectura
+  obligatoria de entrada.
+- `docs/design/*.md` — cómo funciona **hoy**. Se edita en el sitio; nunca
+  acumula bloques de "actualización del día X".
+- `docs/ARCHITECTURE.md` — el sistema ahora, sin historia.
 
-Nada de listas de pendiente en `docs/`, ni en GitHub Issues
-(`atalaya` `decisions/0010`). La CLI crea `backlog/decisions/`, `backlog/docs/`
-y `backlog/milestones/`: no se usan.
+Para ponerse al día: `docs/ARCHITECTURE.md` + `npx backlog task list --plain`.
 
-Decidido el 2026-08-23 · `atalaya` `decisions/0009`, `0010` y `0011`.
+La CLI crea `backlog/decisions/`, `backlog/docs/` y `backlog/milestones/`:
+**no se usan**. Nunca `backlog decision create`. El pendiente no vive en
+ningún otro sitio — ni en GitHub Issues (`atalaya` `decisions/0010`).
 
-### Qué migrar cuando llegue el momento
+## Cómo se trabaja aquí
 
-Este repo ya tiene medio reparto montado: `docs/ARCHITECTURE.md` y ocho ADRs en
-`docs/decisions/`. No hay fichero de pendiente que migrar — solo hay que hacer
-`backlog init` y crear las tareas de lo que quede por hacer antes de empezar.
+- La cola la manda el `ordinal`, no la etiqueta de prioridad:
+  `npx backlog task list --status "To Do" --sort ordinal --plain`.
+- Todo es stdlib de Python 3 — no hay pip ni venv en este NUC. Nada de
+  `requests`/`bs4`.
+- `./refresh.sh` re-scrapea todo y regenera `index.html` + `api/`. Los
+  scrapers cachean HTML crudo en `data/cache/` (no versionado), así que
+  re-ejecutar es barato.
+- `node_modules/` solo existe para `backlog.md`; el sitio no tiene
+  dependencias de runtime.

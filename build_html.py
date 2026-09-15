@@ -180,6 +180,38 @@ def build_biome_sections(biomes):
     return "\n".join(s for s in sections if s)
 
 
+def render_fame_item(entry):
+    """One checkbox in a fame collection. data-dungeon is the sync key: the same
+    dungeon checked in one collection is checked in every other one."""
+    name = entry["name"]
+    link = (f'<a href="https://www.realmeye.com{esc(entry["href"])}" target="_blank" '
+            f'rel="noopener" class="fame-wiki" title="Open on RealmEye">wiki</a>'
+            if entry.get("href") else "")
+    return (f'<label class="fame-item" data-dungeon="{esc(name)}">'
+            f'<input type="checkbox" class="fame-check">'
+            f'{img(entry.get("icon"), name, "fame-icon")}'
+            f'<span class="fame-name">{esc(name)}</span>{link}</label>')
+
+
+def render_fame_collection(col):
+    total = len(col["dungeons"])
+    items = "".join(render_fame_item(e) for e in col["dungeons"])
+    subtitle = f'<span class="fame-sub">{esc(col["subtitle"])}</span>' if col.get("subtitle") else ""
+    return (f'<section class="fame-collection" data-collection="{esc(col["name"])}" data-total="{total}" data-fame="{col.get("fame") or 0}">'
+            f'<div class="fame-head">'
+            f'<h2 class="fame-title">{esc(col["name"])}{subtitle}</h2>'
+            f'<span class="fame-bonus">{esc(col["bonus"])}</span>'
+            f'<span class="fame-progress"><span class="fame-count">0/{total}</span>'
+            f'<span class="fame-bar"><span class="fame-bar-fill"></span></span></span>'
+            f'</div>'
+            f'<div class="fame-items">{items}</div>'
+            f'</section>')
+
+
+def build_fame_sections(collections):
+    return "\n".join(render_fame_collection(c) for c in collections)
+
+
 def collect_types(dungeons, biomes):
     types = set()
 
@@ -198,7 +230,7 @@ def collect_types(dungeons, biomes):
     return sorted(types)
 
 
-def build(data_path, out_path, biome_path=None, equipment_path=None):
+def build(data_path, out_path, biome_path=None, equipment_path=None, fame_path=None):
     with open(data_path, encoding="utf-8") as f:
         dungeons = json.load(f)
 
@@ -227,6 +259,19 @@ def build(data_path, out_path, biome_path=None, equipment_path=None):
     types = collect_types(dungeons, biomes)
     type_options = "".join(f'<option value="{esc(t)}">{esc(t)}</option>' for t in types)
 
+    fame_html = ""
+    n_collections = n_fame_dungeons = n_fame_total = 0
+    if fame_path:
+        try:
+            with open(fame_path, encoding="utf-8") as f:
+                collections = json.load(f)
+            n_collections = len(collections)
+            n_fame_dungeons = len({d["name"] for c in collections for d in c["dungeons"]})
+            n_fame_total = sum(c.get("fame") or 0 for c in collections)
+            fame_html = build_fame_sections(collections)
+        except FileNotFoundError:
+            pass
+
     n_equipment = 0
     if equipment_path:
         try:
@@ -243,13 +288,17 @@ def build(data_path, out_path, biome_path=None, equipment_path=None):
                     .replace("__N_BIOMES__", str(n_biomes)) \
                     .replace("__N_BIOME_ENEMIES__", str(n_biome_enemies)) \
                     .replace("__N_EQUIPMENT__", str(n_equipment)) \
+                    .replace("__FAME_SECTIONS__", fame_html) \
+                    .replace("__N_COLLECTIONS__", str(n_collections)) \
+                    .replace("__N_FAME_DUNGEONS__", str(n_fame_dungeons)) \
+                    .replace("__N_FAME_TOTAL__", f"{n_fame_total:,}") \
                     .replace("__FALLBACK_ICON_JSON__", json.dumps(FALLBACK_ICON))
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(page)
     print(f"Wrote {out_path} ({n_shown}/{n_total} dungeons with potions, {n_no_data} with no data, "
           f"{n_biomes} biomes with {n_biome_enemies} potion-dropping enemies, {len(types)} potion types, "
-          f"{n_equipment} equipment items)")
+          f"{n_equipment} equipment items, {n_collections} fame collections)")
 
 
 TEMPLATE = r"""<!doctype html>
@@ -412,6 +461,51 @@ TEMPLATE = r"""<!doctype html>
   .eq-row.eq-dps-row { background: rgba(96,165,250,.14); border-radius:10px; }
   .eq-row.eq-dps-row .eq-val { font-size:1.15rem; font-weight:800; }
   .eq-row.eq-dps-row .eq-label { font-weight:800; color:var(--text); }
+
+  /* Fame checklist */
+  .fame-toolbar { display:flex; gap:.75rem; flex-wrap:wrap; align-items:center; margin-top:1rem;
+    background:var(--card-bg); border:1px solid var(--border); border-radius:12px;
+    padding:.75rem 1rem; box-shadow: var(--shadow); }
+  .fame-summary { font-size:.88rem; color:var(--muted); margin-right:auto; }
+  .fame-summary b { color:var(--text); font-variant-numeric: tabular-nums; }
+  .fame-btn { font-size:.82rem; padding:.45rem .9rem; border-radius:8px; border:1px solid var(--border);
+    background:var(--bg); color:var(--text); cursor:pointer; font-weight:600; }
+  .fame-btn:hover { border-color:var(--accent); color:var(--accent); }
+  .fame-collection { background:var(--card-bg); border:1px solid var(--border); border-radius:12px;
+    padding:.9rem 1rem 1rem; box-shadow: var(--shadow); margin-top:1rem; }
+  .fame-collection.done { border-color:var(--g-border); background:var(--g-bg); }
+  .fame-head { display:flex; align-items:baseline; gap:.75rem; flex-wrap:wrap;
+    padding-bottom:.6rem; border-bottom:1px solid var(--border); margin-bottom:.7rem; }
+  .fame-collection.done .fame-head { border-bottom-color:var(--g-border); }
+  .fame-title { margin:0; font-size:1.05rem; display:flex; align-items:baseline;
+    gap:.5rem; flex-wrap:wrap; }
+  .fame-sub { font-size:.78rem; font-weight:400; color:var(--muted); text-transform:lowercase; }
+  .fame-collection.done .fame-title, .fame-collection.done .fame-sub { color:var(--g-text); }
+  .fame-bonus { font-size:.78rem; font-weight:700; padding:.2rem .6rem; border-radius:999px;
+    border:1px solid var(--g-border); background:var(--g-bg); color:var(--g-text); white-space:nowrap; }
+  .fame-collection.done .fame-bonus { background:var(--g-text); color:var(--g-bg); border-color:var(--g-text); }
+  .fame-progress { margin-left:auto; display:flex; align-items:center; gap:.5rem; }
+  .fame-count { font-size:.8rem; color:var(--muted); font-variant-numeric: tabular-nums; font-weight:600; }
+  .fame-collection.done .fame-count { color:var(--g-text); }
+  .fame-bar { width:70px; height:6px; border-radius:999px; background:rgba(127,127,127,.25);
+    overflow:hidden; flex-shrink:0; }
+  .fame-bar-fill { display:block; height:100%; width:0; border-radius:999px;
+    background:var(--accent); transition: width .15s ease; }
+  .fame-collection.done .fame-bar-fill { background:var(--g-text); }
+  .fame-items { display:grid; grid-template-columns: repeat(auto-fill, minmax(230px,1fr)); gap:.3rem; }
+  .fame-item { display:flex; align-items:center; gap:.5rem; padding:.35rem .5rem; border-radius:8px;
+    cursor:pointer; min-width:0; }
+  .fame-item:hover { background: rgba(127,127,127,.12); }
+  .fame-item input { accent-color: var(--accent); width:16px; height:16px; flex-shrink:0; cursor:pointer; }
+  .fame-icon { width:24px; height:24px; object-fit:contain; border-radius:5px; flex-shrink:0;
+    background: rgba(127,127,127,.12); }
+  .fame-name { font-size:.85rem; overflow-wrap:anywhere; }
+  .fame-item.checked .fame-name { color:var(--muted); text-decoration:line-through; }
+  .fame-item.checked .fame-icon { opacity:.5; }
+  .fame-wiki { margin-left:auto; font-size:.68rem; color:var(--muted); text-decoration:none;
+    opacity:0; flex-shrink:0; }
+  .fame-item:hover .fame-wiki { opacity:1; }
+  .fame-wiki:hover { color:var(--accent); text-decoration:underline; }
 </style>
 </head>
 <body>
@@ -420,6 +514,7 @@ TEMPLATE = r"""<!doctype html>
   <nav class="pagenav">
     <button class="pagetab active" data-page="potions">Where to Find Stat Potions</button>
     <button class="pagetab" data-page="equipment">Equipment Compare</button>
+    <button class="pagetab" data-page="fame">Fame Checklist</button>
   </nav>
 </header>
 <main>
@@ -485,6 +580,22 @@ __BIOME_CARDS__
       </div>
     </div>
     <div id="eq-compare"></div>
+  </section>
+
+  <section id="page-fame" class="page">
+    <p class="sub">The <b>Dungeon Collection</b> bonuses from the
+      <a href="https://www.realmeye.com/wiki/fame-bonuses" target="_blank" rel="noopener">RealmEye fame-bonuses wiki</a>
+      (__N_COLLECTIONS__ collections over __N_FAME_DUNGEONS__ distinct dungeons). Each one pays out once,
+      the first time you have completed every dungeon in it on a single character. Tick the dungeons you
+      have cleared — a dungeon that appears in several collections is ticked in all of them at once, and
+      your progress is kept in this browser.</p>
+    <div class="fame-toolbar">
+      <span class="fame-summary"><b id="fameDone">0</b>/__N_FAME_DUNGEONS__ dungeons ticked ·
+        <b id="fameCollections">0</b>/__N_COLLECTIONS__ collections complete ·
+        <b id="fameFame">0</b> of __N_FAME_TOTAL__ bonus Fame</span>
+      <button class="fame-btn" id="fameClear">Clear all</button>
+    </div>
+__FAME_SECTIONS__
   </section>
 </main>
 <script>
@@ -555,6 +666,68 @@ pagetabs.forEach(tab => tab.addEventListener('click', () => {
   tab.classList.add('active');
   pages.forEach(p => p.classList.toggle('active', p.id === 'page-' + tab.dataset.page));
 }));
+
+/* ---- Fame checklist ---- */
+const FAME_KEY = 'rotmg-toolkit:fame-dungeons';
+const fameItems = Array.from(document.querySelectorAll('.fame-item'));
+const fameCollections = Array.from(document.querySelectorAll('.fame-collection'));
+const fameTotalDungeons = new Set(fameItems.map(i => i.dataset.dungeon)).size;
+
+function fameLoad() {
+  try {
+    const raw = localStorage.getItem(FAME_KEY);
+    return new Set(raw ? JSON.parse(raw) : []);
+  } catch (e) { return new Set(); }
+}
+
+function fameSave(done) {
+  try { localStorage.setItem(FAME_KEY, JSON.stringify([...done])); } catch (e) { /* private mode */ }
+}
+
+let fameDone = fameLoad();
+
+function fameRender() {
+  fameItems.forEach(item => {
+    const on = fameDone.has(item.dataset.dungeon);
+    item.querySelector('.fame-check').checked = on;
+    item.classList.toggle('checked', on);
+  });
+  let completed = 0, earned = 0;
+  fameCollections.forEach(sec => {
+    const total = Number(sec.dataset.total);
+    const n = Array.from(sec.querySelectorAll('.fame-item'))
+      .filter(i => fameDone.has(i.dataset.dungeon)).length;
+    const full = total > 0 && n === total;
+    if (full) { completed++; earned += Number(sec.dataset.fame) || 0; }
+    sec.classList.toggle('done', full);
+    sec.querySelector('.fame-count').textContent = n + '/' + total;
+    sec.querySelector('.fame-bar-fill').style.width = total ? (100 * n / total) + '%' : '0';
+  });
+  const ticked = fameItems.filter(i => fameDone.has(i.dataset.dungeon))
+    .reduce((set, i) => set.add(i.dataset.dungeon), new Set()).size;
+  document.getElementById('fameDone').textContent = ticked;
+  document.getElementById('fameCollections').textContent = completed;
+  document.getElementById('fameFame').textContent = earned.toLocaleString('en-US');
+}
+
+fameItems.forEach(item => {
+  item.querySelector('.fame-check').addEventListener('change', ev => {
+    if (ev.target.checked) fameDone.add(item.dataset.dungeon);
+    else fameDone.delete(item.dataset.dungeon);
+    fameSave(fameDone);
+    fameRender();
+  });
+});
+
+document.getElementById('fameClear').addEventListener('click', () => {
+  if (!fameDone.size) return;
+  if (!confirm('Untick every dungeon in the fame checklist?')) return;
+  fameDone = new Set();
+  fameSave(fameDone);
+  fameRender();
+});
+
+fameRender();
 
 /* ---- Equipment compare ---- */
 const FALLBACK_ICON = __FALLBACK_ICON_JSON__;
@@ -936,4 +1109,5 @@ if __name__ == "__main__":
     out_path = sys.argv[2] if len(sys.argv) > 2 else "index.html"
     biome_path = sys.argv[3] if len(sys.argv) > 3 else "data/biome_potions.json"
     equipment_path = sys.argv[4] if len(sys.argv) > 4 else "data/equipment.json"
-    build(data_path, out_path, biome_path, equipment_path)
+    fame_path = sys.argv[5] if len(sys.argv) > 5 else "data/fame_bonuses.json"
+    build(data_path, out_path, biome_path, equipment_path, fame_path)

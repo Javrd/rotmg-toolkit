@@ -1,0 +1,1162 @@
+[
+  {
+    "name": "Tunnel Rat",
+    "requirement": "Complete each 1 time",
+    "subtitle": "Wild Shadow era dungeons",
+    "bonus": "+7.5%, +3,000 Fame",
+    "fame": 3000,
+    "percent": 7.5,
+    "dungeons": [
+      {
+        "name": "Pirate Cave",
+        "href": "/wiki/pirate-cave",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OqzVQuc.png"
+      },
+      {
+        "name": "Forbidden Jungle",
+        "href": "/wiki/forbidden-jungle",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/beQHm21.png"
+      },
+      {
+        "name": "Spider Den",
+        "href": "/wiki/spider-den",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/up93OlG.png"
+      },
+      {
+        "name": "Snake Pit",
+        "href": "/wiki/snake-pit",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Mhtm0aR.png"
+      },
+      {
+        "name": "Undead Lair",
+        "href": "/wiki/undead-lair",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pR8Dgth.png"
+      },
+      {
+        "name": "Abyss of Demons",
+        "href": "/wiki/abyss-of-demons",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wId2zPS.png"
+      },
+      {
+        "name": "Manor of the Immortals",
+        "href": "/wiki/manor-of-the-immortals",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/paEB8Qu.png"
+      },
+      {
+        "name": "Ocean Trench",
+        "href": "/wiki/ocean-trench",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9GR3Ypw.png"
+      },
+      {
+        "name": "Tomb of the Ancients",
+        "href": "/wiki/tomb-of-the-ancients",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E6a3nHx.png"
+      },
+      {
+        "name": "Oryx’s Castle",
+        "href": "/wiki/oryx-s-castle",
+        "icon": null
+      },
+      {
+        "name": "Oryx’s Chamber",
+        "href": "/wiki/oryx-s-chamber",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dLVOZiv.png"
+      },
+      {
+        "name": "Wine Cellar",
+        "href": "/wiki/wine-cellar",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ozNWFFN.png"
+      }
+    ]
+  },
+  {
+    "name": "Explosive Journey",
+    "requirement": "Complete each 1 time",
+    "subtitle": "Kabam era dungeons",
+    "bonus": "+7.5%, +3,000 Fame",
+    "fame": 3000,
+    "percent": 7.5,
+    "dungeons": [
+      {
+        "name": "Davy Jones’ Locker",
+        "href": "/wiki/davy-jones-locker",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hqmoe5U.gif"
+      },
+      {
+        "name": "Mad Lab",
+        "href": "/wiki/mad-lab",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/x6dyxMp.gif"
+      },
+      {
+        "name": "Candyland Hunting Grounds",
+        "href": "/wiki/candyland-hunting-grounds",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BKoSv6j.png"
+      },
+      {
+        "name": "Haunted Cemetery",
+        "href": "/wiki/haunted-cemetery",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VB6hMsm.gif"
+      },
+      {
+        "name": "Cave of a Thousand Treasures",
+        "href": "/wiki/cave-of-a-thousand-treasures",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6lgodhZ.png"
+      },
+      {
+        "name": "Lair of Draconis",
+        "href": "/wiki/lair-of-draconis",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QjX8g5O.png"
+      },
+      {
+        "name": "Deadwater Docks",
+        "href": "/wiki/deadwater-docks",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/baXW11C.png"
+      },
+      {
+        "name": "Woodland Labyrinth",
+        "href": "/wiki/woodland-labyrinth",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jyKYlZg.gif"
+      },
+      {
+        "name": "The Crawling Depths",
+        "href": "/wiki/the-crawling-depths",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/V1rfmTa.gif"
+      },
+      {
+        "name": "The Shatters",
+        "href": "/wiki/the-shatters",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yA4tlry.png"
+      },
+      {
+        "name": "Lair of Shaitan",
+        "href": "/wiki/lair-of-shaitan",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/px7FwlI.png"
+      },
+      {
+        "name": "Puppet Master’s Theatre",
+        "href": "/wiki/puppet-master-s-theatre",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6diBou4.png"
+      },
+      {
+        "name": "Ice Citadel",
+        "href": "/wiki/ice-citadel",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WDJobOf.png"
+      }
+    ]
+  },
+  {
+    "name": "Travel of the Decade",
+    "requirement": "Complete each 1 time",
+    "subtitle": "Deca era dungeons",
+    "bonus": "+10%, +5,000 Fame",
+    "fame": 5000,
+    "percent": 10.0,
+    "dungeons": [
+      {
+        "name": "Puppet Master’s Encore",
+        "href": "/wiki/puppet-master-s-encore",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UhdCm8R.png"
+      },
+      {
+        "name": "The Hive",
+        "href": "/wiki/the-hive",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6WiS9zQ.png"
+      },
+      {
+        "name": "Toxic Sewers",
+        "href": "/wiki/toxic-sewers",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4Iv5apz.png"
+      },
+      {
+        "name": "Mountain Temple",
+        "href": "/wiki/mountain-temple",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fGgckZI.png"
+      },
+      {
+        "name": "The Third Dimension",
+        "href": "/wiki/the-third-dimension",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z5CG76m.png"
+      },
+      {
+        "name": "The Nest",
+        "href": "/wiki/the-nest",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png"
+      },
+      {
+        "name": "Lost Halls",
+        "href": "/wiki/lost-halls",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DwuQOQQ.png"
+      },
+      {
+        "name": "Cultist Hideout",
+        "href": "/wiki/cultist-hideout",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Xa9mjsG.png"
+      },
+      {
+        "name": "The Void",
+        "href": "/wiki/the-void",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ijlxjJM.png"
+      },
+      {
+        "name": "Cnidarian Reef",
+        "href": "/wiki/cnidarian-reef",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pXFqErd.png"
+      },
+      {
+        "name": "Parasite Chambers",
+        "href": "/wiki/parasite-chambers",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/O43mDnf.gif"
+      },
+      {
+        "name": "Magic Woods",
+        "href": "/wiki/magic-woods",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nmLtcBD.png"
+      },
+      {
+        "name": "Secluded Thicket",
+        "href": "/wiki/secluded-thicket",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png"
+      },
+      {
+        "name": "Cursed Library",
+        "href": "/wiki/cursed-library",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9nQ7nSz.gif"
+      },
+      {
+        "name": "Oryx’s Sanctuary",
+        "href": "/wiki/oryx-s-sanctuary",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JGnMCv2.png"
+      },
+      {
+        "name": "Ancient Ruins",
+        "href": "/wiki/ancient-ruins",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4gtP9OQ.png"
+      },
+      {
+        "name": "High Tech Terror",
+        "href": "/wiki/high-tech-terror",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/8rAA2UQ.png"
+      },
+      {
+        "name": "Sulfurous Wetlands",
+        "href": "/wiki/sulfurous-wetlands",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/88fMxeA.png"
+      },
+      {
+        "name": "Spectral Penitentiary",
+        "href": "/wiki/spectral-penitentiary",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o9yNqBT.png"
+      }
+    ]
+  },
+  {
+    "name": "First Steps",
+    "requirement": "Complete each 1 time",
+    "subtitle": "Early game dungeons",
+    "bonus": "+2.5%, +100 Fame",
+    "fame": 100,
+    "percent": 2.5,
+    "dungeons": [
+      {
+        "name": "Pirate Cave",
+        "href": "/wiki/pirate-cave",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OqzVQuc.png"
+      },
+      {
+        "name": "Forest Maze",
+        "href": "/wiki/forest-maze",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/m0AO506.png"
+      },
+      {
+        "name": "Forbidden Jungle",
+        "href": "/wiki/forbidden-jungle",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/beQHm21.png"
+      },
+      {
+        "name": "Spider Den",
+        "href": "/wiki/spider-den",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/up93OlG.png"
+      },
+      {
+        "name": "The Hive",
+        "href": "/wiki/the-hive",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6WiS9zQ.png"
+      }
+    ]
+  },
+  {
+    "name": "King of the Mountains",
+    "requirement": "Complete each 1 time",
+    "subtitle": "Mountain dungeons",
+    "bonus": "+5%, +1,000 Fame",
+    "fame": 1000,
+    "percent": 5.0,
+    "dungeons": [
+      {
+        "name": "Snake Pit",
+        "href": "/wiki/snake-pit",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Mhtm0aR.png"
+      },
+      {
+        "name": "Sprite World",
+        "href": "/wiki/sprite-world",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K0dJRrF.png"
+      },
+      {
+        "name": "Abyss of Demons",
+        "href": "/wiki/abyss-of-demons",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wId2zPS.png"
+      },
+      {
+        "name": "Toxic Sewers",
+        "href": "/wiki/toxic-sewers",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4Iv5apz.png"
+      },
+      {
+        "name": "Mad Lab",
+        "href": "/wiki/mad-lab",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/x6dyxMp.gif"
+      },
+      {
+        "name": "Magic Woods",
+        "href": "/wiki/magic-woods",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nmLtcBD.png"
+      },
+      {
+        "name": "Puppet Master’s Theatre",
+        "href": "/wiki/puppet-master-s-theatre",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6diBou4.png"
+      },
+      {
+        "name": "Haunted Cemetery",
+        "href": "/wiki/haunted-cemetery",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VB6hMsm.gif"
+      },
+      {
+        "name": "Cursed Library",
+        "href": "/wiki/cursed-library",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9nQ7nSz.gif"
+      },
+      {
+        "name": "Ancient Ruins",
+        "href": "/wiki/ancient-ruins",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4gtP9OQ.png"
+      },
+      {
+        "name": "Sulfurous Wetlands",
+        "href": "/wiki/sulfurous-wetlands",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/88fMxeA.png"
+      },
+      {
+        "name": "Spectral Penitentiary",
+        "href": "/wiki/spectral-penitentiary",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o9yNqBT.png"
+      }
+    ]
+  },
+  {
+    "name": "Conqueror of the Realm",
+    "requirement": "Complete each 1 time",
+    "subtitle": "Encounter dungeons",
+    "bonus": "+10%, +4,000 Fame",
+    "fame": 4000,
+    "percent": 10.0,
+    "dungeons": [
+      {
+        "name": "Davy Jones’ Locker",
+        "href": "/wiki/davy-jones-locker",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hqmoe5U.gif"
+      },
+      {
+        "name": "Ice Citadel",
+        "href": "/wiki/ice-citadel",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WDJobOf.png"
+      },
+      {
+        "name": "Lair of Draconis",
+        "href": "/wiki/lair-of-draconis",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QjX8g5O.png"
+      },
+      {
+        "name": "Mountain Temple",
+        "href": "/wiki/mountain-temple",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fGgckZI.png"
+      },
+      {
+        "name": "The Third Dimension",
+        "href": "/wiki/the-third-dimension",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z5CG76m.png"
+      },
+      {
+        "name": "Ocean Trench",
+        "href": "/wiki/ocean-trench",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9GR3Ypw.png"
+      },
+      {
+        "name": "Tomb of the Ancients",
+        "href": "/wiki/tomb-of-the-ancients",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E6a3nHx.png"
+      },
+      {
+        "name": "The Shatters",
+        "href": "/wiki/the-shatters",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yA4tlry.png"
+      },
+      {
+        "name": "The Nest",
+        "href": "/wiki/the-nest",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png"
+      },
+      {
+        "name": "Fungal Cavern",
+        "href": "/wiki/fungal-cavern",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CLzxdEM.png"
+      },
+      {
+        "name": "Crystal Cavern",
+        "href": "/wiki/crystal-cavern",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Cd6RD9G.png"
+      },
+      {
+        "name": "Lost Halls",
+        "href": "/wiki/lost-halls",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DwuQOQQ.png"
+      },
+      {
+        "name": "Kogbold Steamworks",
+        "href": "/wiki/kogbold-steamworks",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dohicSR.png"
+      }
+    ]
+  },
+  {
+    "name": "Enemy of the Court",
+    "requirement": "Complete each 1 time",
+    "subtitle": "Court dungeons",
+    "bonus": "+7.5%, +3,000 Fame",
+    "fame": 3000,
+    "percent": 7.5,
+    "dungeons": [
+      {
+        "name": "Lair of Shaitan",
+        "href": "/wiki/lair-of-shaitan",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/px7FwlI.png"
+      },
+      {
+        "name": "Puppet Master’s Encore",
+        "href": "/wiki/puppet-master-s-encore",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UhdCm8R.png"
+      },
+      {
+        "name": "Cnidarian Reef",
+        "href": "/wiki/cnidarian-reef",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pXFqErd.png"
+      },
+      {
+        "name": "Secluded Thicket",
+        "href": "/wiki/secluded-thicket",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png"
+      },
+      {
+        "name": "High Tech Terror",
+        "href": "/wiki/high-tech-terror",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/8rAA2UQ.png"
+      }
+    ]
+  },
+  {
+    "name": "Epic Battles",
+    "requirement": "Complete each 1 time",
+    "subtitle": "Epic dungeons",
+    "bonus": "+7.5%, +2,000 Fame",
+    "fame": 2000,
+    "percent": 7.5,
+    "dungeons": [
+      {
+        "name": "Deadwater Docks",
+        "href": "/wiki/deadwater-docks",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/baXW11C.png"
+      },
+      {
+        "name": "Woodland Labyrinth",
+        "href": "/wiki/woodland-labyrinth",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jyKYlZg.gif"
+      },
+      {
+        "name": "The Crawling Depths",
+        "href": "/wiki/the-crawling-depths",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/V1rfmTa.gif"
+      },
+      {
+        "name": "The Nest",
+        "href": "/wiki/the-nest",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png"
+      },
+      {
+        "name": "Secluded Thicket",
+        "href": "/wiki/secluded-thicket",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png"
+      }
+    ]
+  },
+  {
+    "name": "Far Out",
+    "requirement": "Complete each 1 time",
+    "subtitle": "Alien dungeons",
+    "bonus": "+5%, +2,000 Fame",
+    "fame": 2000,
+    "percent": 5.0,
+    "dungeons": [
+      {
+        "name": "Malogia",
+        "href": "/wiki/malogia",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JwqFJoj.png"
+      },
+      {
+        "name": "Untaris",
+        "href": "/wiki/untaris",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nuZXgiu.png"
+      },
+      {
+        "name": "Forax",
+        "href": "/wiki/forax",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZwelWPf.png"
+      },
+      {
+        "name": "Katalund",
+        "href": "/wiki/katalund",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/EM4LKGF.png"
+      }
+    ]
+  },
+  {
+    "name": "Farther Out",
+    "requirement": "Complete each 1 time",
+    "subtitle": "Neo Alien dungeons",
+    "bonus": "+7.5%, +3,000 Fame",
+    "fame": 3000,
+    "percent": 7.5,
+    "dungeons": [
+      {
+        "name": "Neo Malogia",
+        "href": "/wiki/neo-malogia",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SyJzABz.png"
+      },
+      {
+        "name": "Neo Untaris",
+        "href": "/wiki/neo-untaris",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/hCzWfki.png"
+      },
+      {
+        "name": "Neo Forax",
+        "href": "/wiki/neo-forax",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DAFuhEJ.png"
+      },
+      {
+        "name": "Neo Katalund",
+        "href": "/wiki/neo-katalund",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Y5uA0yf.png"
+      }
+    ]
+  },
+  {
+    "name": "Hero of the Nexus",
+    "requirement": "Complete each 1 time",
+    "subtitle": "Every “standard” dungeon",
+    "bonus": "+12.5%, +5,000 Fame",
+    "fame": 5000,
+    "percent": 12.5,
+    "dungeons": [
+      {
+        "name": "Pirate Cave",
+        "href": "/wiki/pirate-cave",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OqzVQuc.png"
+      },
+      {
+        "name": "Forest Maze",
+        "href": "/wiki/forest-maze",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/m0AO506.png"
+      },
+      {
+        "name": "Spider Den",
+        "href": "/wiki/spider-den",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/up93OlG.png"
+      },
+      {
+        "name": "Snake Pit",
+        "href": "/wiki/snake-pit",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Mhtm0aR.png"
+      },
+      {
+        "name": "Forbidden Jungle",
+        "href": "/wiki/forbidden-jungle",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/beQHm21.png"
+      },
+      {
+        "name": "The Hive",
+        "href": "/wiki/the-hive",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6WiS9zQ.png"
+      },
+      {
+        "name": "Ancient Ruins",
+        "href": "/wiki/ancient-ruins",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4gtP9OQ.png"
+      },
+      {
+        "name": "Magic Woods",
+        "href": "/wiki/magic-woods",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nmLtcBD.png"
+      },
+      {
+        "name": "Sprite World",
+        "href": "/wiki/sprite-world",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K0dJRrF.png"
+      },
+      {
+        "name": "Candyland Hunting Grounds",
+        "href": "/wiki/candyland-hunting-grounds",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BKoSv6j.png"
+      },
+      {
+        "name": "Cave of a Thousand Treasures",
+        "href": "/wiki/cave-of-a-thousand-treasures",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6lgodhZ.png"
+      },
+      {
+        "name": "Undead Lair",
+        "href": "/wiki/undead-lair",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pR8Dgth.png"
+      },
+      {
+        "name": "Abyss of Demons",
+        "href": "/wiki/abyss-of-demons",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wId2zPS.png"
+      },
+      {
+        "name": "Manor of the Immortals",
+        "href": "/wiki/manor-of-the-immortals",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/paEB8Qu.png"
+      },
+      {
+        "name": "Puppet Master’s Theatre",
+        "href": "/wiki/puppet-master-s-theatre",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6diBou4.png"
+      },
+      {
+        "name": "Toxic Sewers",
+        "href": "/wiki/toxic-sewers",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4Iv5apz.png"
+      },
+      {
+        "name": "Cursed Library",
+        "href": "/wiki/cursed-library",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9nQ7nSz.gif"
+      },
+      {
+        "name": "Haunted Cemetery",
+        "href": "/wiki/haunted-cemetery",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VB6hMsm.gif"
+      },
+      {
+        "name": "Mad Lab",
+        "href": "/wiki/mad-lab",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/x6dyxMp.gif"
+      },
+      {
+        "name": "Parasite Chambers",
+        "href": "/wiki/parasite-chambers",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/O43mDnf.gif"
+      },
+      {
+        "name": "Davy Jones’ Locker",
+        "href": "/wiki/davy-jones-locker",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hqmoe5U.gif"
+      },
+      {
+        "name": "Mountain Temple",
+        "href": "/wiki/mountain-temple",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fGgckZI.png"
+      },
+      {
+        "name": "The Third Dimension",
+        "href": "/wiki/the-third-dimension",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z5CG76m.png"
+      },
+      {
+        "name": "Lair of Draconis",
+        "href": "/wiki/lair-of-draconis",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QjX8g5O.png"
+      },
+      {
+        "name": "Deadwater Docks",
+        "href": "/wiki/deadwater-docks",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/baXW11C.png"
+      },
+      {
+        "name": "Woodland Labyrinth",
+        "href": "/wiki/woodland-labyrinth",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jyKYlZg.gif"
+      },
+      {
+        "name": "The Crawling Depths",
+        "href": "/wiki/the-crawling-depths",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/V1rfmTa.gif"
+      },
+      {
+        "name": "Ocean Trench",
+        "href": "/wiki/ocean-trench",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9GR3Ypw.png"
+      },
+      {
+        "name": "Ice Citadel",
+        "href": "/wiki/ice-citadel",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WDJobOf.png"
+      },
+      {
+        "name": "Tomb of the Ancients",
+        "href": "/wiki/tomb-of-the-ancients",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E6a3nHx.png"
+      },
+      {
+        "name": "Fungal Cavern",
+        "href": "/wiki/fungal-cavern",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CLzxdEM.png"
+      },
+      {
+        "name": "Crystal Cavern",
+        "href": "/wiki/crystal-cavern",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Cd6RD9G.png"
+      },
+      {
+        "name": "The Nest",
+        "href": "/wiki/the-nest",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png"
+      },
+      {
+        "name": "The Shatters",
+        "href": "/wiki/the-shatters",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yA4tlry.png"
+      },
+      {
+        "name": "Lost Halls",
+        "href": "/wiki/lost-halls",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DwuQOQQ.png"
+      },
+      {
+        "name": "Cultist Hideout",
+        "href": "/wiki/cultist-hideout",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Xa9mjsG.png"
+      },
+      {
+        "name": "The Void",
+        "href": "/wiki/the-void",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ijlxjJM.png"
+      },
+      {
+        "name": "Sulfurous Wetlands",
+        "href": "/wiki/sulfurous-wetlands",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/88fMxeA.png"
+      },
+      {
+        "name": "Kogbold Steamworks",
+        "href": "/wiki/kogbold-steamworks",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dohicSR.png"
+      },
+      {
+        "name": "Oryx’s Castle",
+        "href": "/wiki/oryx-s-castle",
+        "icon": null
+      },
+      {
+        "name": "Lair of Shaitan",
+        "href": "/wiki/lair-of-shaitan",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/px7FwlI.png"
+      },
+      {
+        "name": "Puppet Master’s Encore",
+        "href": "/wiki/puppet-master-s-encore",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UhdCm8R.png"
+      },
+      {
+        "name": "Cnidarian Reef",
+        "href": "/wiki/cnidarian-reef",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pXFqErd.png"
+      },
+      {
+        "name": "Secluded Thicket",
+        "href": "/wiki/secluded-thicket",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png"
+      },
+      {
+        "name": "High Tech Terror",
+        "href": "/wiki/high-tech-terror",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/8rAA2UQ.png"
+      },
+      {
+        "name": "Oryx’s Chamber",
+        "href": "/wiki/oryx-s-chamber",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dLVOZiv.png"
+      },
+      {
+        "name": "Wine Cellar",
+        "href": "/wiki/wine-cellar",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ozNWFFN.png"
+      },
+      {
+        "name": "Oryx’s Sanctuary",
+        "href": "/wiki/oryx-s-sanctuary",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JGnMCv2.png"
+      },
+      {
+        "name": "Spectral Penitentiary",
+        "href": "/wiki/spectral-penitentiary",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o9yNqBT.png"
+      }
+    ]
+  },
+  {
+    "name": "Season’s Beatins",
+    "requirement": "Complete each 1 time",
+    "subtitle": "Every “seasonal” dungeon",
+    "bonus": "+12.5%, +5,000 Fame",
+    "fame": 5000,
+    "percent": 12.5,
+    "dungeons": [
+      {
+        "name": "Belladonna’s Garden",
+        "href": "/wiki/belladonna-s-garden",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/iIG3NIj.png"
+      },
+      {
+        "name": "Ice Tomb",
+        "href": "/wiki/ice-tomb",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zhWVACc.png"
+      },
+      {
+        "name": "Mad God Mayhem",
+        "href": "/wiki/mad-god-mayhem",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/U9HeRQ4.png"
+      },
+      {
+        "name": "Battle for the Nexus",
+        "href": "/wiki/battle-for-the-nexus",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zyCjq2l.png"
+      },
+      {
+        "name": "Santa’s Workshop",
+        "href": "/wiki/santa-s-workshop",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oX3aVA2.png"
+      },
+      {
+        "name": "The Machine",
+        "href": "/wiki/the-machine",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Yhd1MCq.png"
+      },
+      {
+        "name": "Malogia",
+        "href": "/wiki/malogia",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JwqFJoj.png"
+      },
+      {
+        "name": "Untaris",
+        "href": "/wiki/untaris",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nuZXgiu.png"
+      },
+      {
+        "name": "Forax",
+        "href": "/wiki/forax",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZwelWPf.png"
+      },
+      {
+        "name": "Katalund",
+        "href": "/wiki/katalund",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/EM4LKGF.png"
+      },
+      {
+        "name": "Rainbow Road",
+        "href": "/wiki/rainbow-road",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/MDVaDzN.png"
+      },
+      {
+        "name": "Beachzone",
+        "href": "/wiki/beachzone",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Ns31EKU.png"
+      },
+      {
+        "name": "Neo Malogia",
+        "href": "/wiki/neo-malogia",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SyJzABz.png"
+      },
+      {
+        "name": "Neo Untaris",
+        "href": "/wiki/neo-untaris",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/hCzWfki.png"
+      },
+      {
+        "name": "Neo Forax",
+        "href": "/wiki/neo-forax",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DAFuhEJ.png"
+      },
+      {
+        "name": "Neo Katalund",
+        "href": "/wiki/neo-katalund",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Y5uA0yf.png"
+      }
+    ]
+  },
+  {
+    "name": "Realm of the Mad God",
+    "requirement": "Complete each 1 time",
+    "subtitle": "Every dungeon in the game",
+    "bonus": "+25%, +10,000 Fame",
+    "fame": 10000,
+    "percent": 25.0,
+    "dungeons": [
+      {
+        "name": "Pirate Cave",
+        "href": "/wiki/pirate-cave",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OqzVQuc.png"
+      },
+      {
+        "name": "Forest Maze",
+        "href": "/wiki/forest-maze",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/m0AO506.png"
+      },
+      {
+        "name": "Spider Den",
+        "href": "/wiki/spider-den",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/up93OlG.png"
+      },
+      {
+        "name": "Snake Pit",
+        "href": "/wiki/snake-pit",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Mhtm0aR.png"
+      },
+      {
+        "name": "Forbidden Jungle",
+        "href": "/wiki/forbidden-jungle",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/beQHm21.png"
+      },
+      {
+        "name": "The Hive",
+        "href": "/wiki/the-hive",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6WiS9zQ.png"
+      },
+      {
+        "name": "Ancient Ruins",
+        "href": "/wiki/ancient-ruins",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4gtP9OQ.png"
+      },
+      {
+        "name": "Magic Woods",
+        "href": "/wiki/magic-woods",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nmLtcBD.png"
+      },
+      {
+        "name": "Sprite World",
+        "href": "/wiki/sprite-world",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K0dJRrF.png"
+      },
+      {
+        "name": "Candyland Hunting Grounds",
+        "href": "/wiki/candyland-hunting-grounds",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BKoSv6j.png"
+      },
+      {
+        "name": "Cave of a Thousand Treasures",
+        "href": "/wiki/cave-of-a-thousand-treasures",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6lgodhZ.png"
+      },
+      {
+        "name": "Undead Lair",
+        "href": "/wiki/undead-lair",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pR8Dgth.png"
+      },
+      {
+        "name": "Abyss of Demons",
+        "href": "/wiki/abyss-of-demons",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wId2zPS.png"
+      },
+      {
+        "name": "Manor of the Immortals",
+        "href": "/wiki/manor-of-the-immortals",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/paEB8Qu.png"
+      },
+      {
+        "name": "Puppet Master’s Theatre",
+        "href": "/wiki/puppet-master-s-theatre",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6diBou4.png"
+      },
+      {
+        "name": "Toxic Sewers",
+        "href": "/wiki/toxic-sewers",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4Iv5apz.png"
+      },
+      {
+        "name": "Cursed Library",
+        "href": "/wiki/cursed-library",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9nQ7nSz.gif"
+      },
+      {
+        "name": "Haunted Cemetery",
+        "href": "/wiki/haunted-cemetery",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VB6hMsm.gif"
+      },
+      {
+        "name": "Mad Lab",
+        "href": "/wiki/mad-lab",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/x6dyxMp.gif"
+      },
+      {
+        "name": "Parasite Chambers",
+        "href": "/wiki/parasite-chambers",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/O43mDnf.gif"
+      },
+      {
+        "name": "Davy Jones’ Locker",
+        "href": "/wiki/davy-jones-locker",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hqmoe5U.gif"
+      },
+      {
+        "name": "Mountain Temple",
+        "href": "/wiki/mountain-temple",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fGgckZI.png"
+      },
+      {
+        "name": "The Third Dimension",
+        "href": "/wiki/the-third-dimension",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z5CG76m.png"
+      },
+      {
+        "name": "Lair of Draconis",
+        "href": "/wiki/lair-of-draconis",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QjX8g5O.png"
+      },
+      {
+        "name": "Deadwater Docks",
+        "href": "/wiki/deadwater-docks",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/baXW11C.png"
+      },
+      {
+        "name": "Woodland Labyrinth",
+        "href": "/wiki/woodland-labyrinth",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jyKYlZg.gif"
+      },
+      {
+        "name": "The Crawling Depths",
+        "href": "/wiki/the-crawling-depths",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/V1rfmTa.gif"
+      },
+      {
+        "name": "Ocean Trench",
+        "href": "/wiki/ocean-trench",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9GR3Ypw.png"
+      },
+      {
+        "name": "Ice Citadel",
+        "href": "/wiki/ice-citadel",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WDJobOf.png"
+      },
+      {
+        "name": "Tomb of the Ancients",
+        "href": "/wiki/tomb-of-the-ancients",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E6a3nHx.png"
+      },
+      {
+        "name": "Fungal Cavern",
+        "href": "/wiki/fungal-cavern",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CLzxdEM.png"
+      },
+      {
+        "name": "Crystal Cavern",
+        "href": "/wiki/crystal-cavern",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Cd6RD9G.png"
+      },
+      {
+        "name": "The Nest",
+        "href": "/wiki/the-nest",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png"
+      },
+      {
+        "name": "The Shatters",
+        "href": "/wiki/the-shatters",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yA4tlry.png"
+      },
+      {
+        "name": "Lost Halls",
+        "href": "/wiki/lost-halls",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DwuQOQQ.png"
+      },
+      {
+        "name": "Cultist Hideout",
+        "href": "/wiki/cultist-hideout",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Xa9mjsG.png"
+      },
+      {
+        "name": "The Void",
+        "href": "/wiki/the-void",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ijlxjJM.png"
+      },
+      {
+        "name": "Sulfurous Wetlands",
+        "href": "/wiki/sulfurous-wetlands",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/88fMxeA.png"
+      },
+      {
+        "name": "Kogbold Steamworks",
+        "href": "/wiki/kogbold-steamworks",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dohicSR.png"
+      },
+      {
+        "name": "Oryx’s Castle",
+        "href": "/wiki/oryx-s-castle",
+        "icon": null
+      },
+      {
+        "name": "Lair of Shaitan",
+        "href": "/wiki/lair-of-shaitan",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/px7FwlI.png"
+      },
+      {
+        "name": "Puppet Master’s Encore",
+        "href": "/wiki/puppet-master-s-encore",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UhdCm8R.png"
+      },
+      {
+        "name": "Cnidarian Reef",
+        "href": "/wiki/cnidarian-reef",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pXFqErd.png"
+      },
+      {
+        "name": "Secluded Thicket",
+        "href": "/wiki/secluded-thicket",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png"
+      },
+      {
+        "name": "High Tech Terror",
+        "href": "/wiki/high-tech-terror",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/8rAA2UQ.png"
+      },
+      {
+        "name": "Oryx’s Chamber",
+        "href": "/wiki/oryx-s-chamber",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dLVOZiv.png"
+      },
+      {
+        "name": "Wine Cellar",
+        "href": "/wiki/wine-cellar",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ozNWFFN.png"
+      },
+      {
+        "name": "Oryx’s Sanctuary",
+        "href": "/wiki/oryx-s-sanctuary",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JGnMCv2.png"
+      },
+      {
+        "name": "Spectral Penitentiary",
+        "href": "/wiki/spectral-penitentiary",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o9yNqBT.png"
+      }
+    ]
+  }
+]
