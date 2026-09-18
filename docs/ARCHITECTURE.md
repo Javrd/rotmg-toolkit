@@ -277,7 +277,8 @@ unidad es un contador de completadas, no un booleano — ver
 - **`data/fame_bonuses.json`** — una entrada por colección: `name`,
   `requirement` ("Complete each 1 time"), `subtitle` ("Wild Shadow era
   dungeons"), `bonus` (texto tal cual, `+7.5%, +3,000 Fame`), `fame` y
-  `percent` ya parseados, y `dungeons` = `[{name, href, icon}]`. La celda
+  `percent` ya parseados, y `dungeons` = `[{name, href, icon,
+  difficulty}]`. La celda
   "Threshold" de la wiki empaqueta requisito, etiqueta del conjunto y
   lista de mazmorras separados por `<br>` dentro de una sola casilla, así
   que `scrape_fame_collections()` la trocea por `<br>`: los dos primeros
@@ -287,7 +288,18 @@ unidad es un contador de completadas, no un booleano — ver
   sale con `href`/`icon` a `null` y se pinta con el icono de relleno (hoy
   no hay ninguna: las 84 mazmorras tienen icono).
   `DUNGEON_NAME_ALIASES` normaliza `Ice Cave` → `Ice Citadel`, el único
-  nombre de la tabla que ya no existe en la wiki.
+  nombre de la tabla que ya no existe en la wiki. `difficulty` sale de la
+  página de cada mazmorra con el mismo `get_difficulty()` que usa el
+  scraper de pociones (viene de la caché, así que es gratis); las tres
+  de temporada (Santa's Workshop, Rainbow Road, Beachzone) no tienen caja
+  "Difficulty" y quedan a `null`.
+- **Orden**: el JSON conserva el orden de la wiki; ordena `build_html.py`
+  al pintar. Dentro de cada colección las mazmorras van de fácil a
+  difícil (`difficulty_key`, las sin valorar al final) y cada fila lleva
+  sus calaveras. Las colecciones se ordenan por la mazmorra más difícil
+  que contienen y, a igual máximo, por la media (`collection_key`): First
+  Steps abre y Conqueror of the Realm cierra. La suite comprueba las dos
+  cosas.
 - **Estado en el cliente**: los ticks viven en `localStorage` bajo
   `rotmg-toolkit:fame-dungeons` (array de nombres de mazmorra), envuelto
   en `try/catch` para que la página siga funcionando en modo privado. La

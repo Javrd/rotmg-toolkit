@@ -190,12 +190,28 @@ def render_fame_item(entry):
     return (f'<label class="fame-item" data-dungeon="{esc(name)}">'
             f'<input type="checkbox" class="fame-check">'
             f'{img(entry.get("icon"), name, "fame-icon")}'
-            f'<span class="fame-name">{esc(name)}</span>{link}</label>')
+            f'<span class="fame-name">{esc(name)}</span>'
+            f'{render_difficulty(entry.get("difficulty"))}{link}</label>')
+
+
+def difficulty_key(entry):
+    """Easiest first; dungeons with no rating (seasonal ones) go last."""
+    d = entry.get("difficulty")
+    return (d is None, d or 0)
+
+
+def collection_key(col):
+    """Collections ordered by their hardest dungeon, then by the average
+    difficulty when two share the same peak. Unrated dungeons don't count."""
+    rated = [e["difficulty"] for e in col["dungeons"] if e.get("difficulty") is not None]
+    if not rated:
+        return (float("inf"), float("inf"))
+    return (max(rated), sum(rated) / len(rated))
 
 
 def render_fame_collection(col):
     total = len(col["dungeons"])
-    items = "".join(render_fame_item(e) for e in col["dungeons"])
+    items = "".join(render_fame_item(e) for e in sorted(col["dungeons"], key=difficulty_key))
     subtitle = f'<span class="fame-sub">{esc(col["subtitle"])}</span>' if col.get("subtitle") else ""
     return (f'<section class="fame-collection" data-collection="{esc(col["name"])}" data-total="{total}" data-fame="{col.get("fame") or 0}">'
             f'<div class="fame-head">'
@@ -209,7 +225,7 @@ def render_fame_collection(col):
 
 
 def build_fame_sections(collections):
-    return "\n".join(render_fame_collection(c) for c in collections)
+    return "\n".join(render_fame_collection(c) for c in sorted(collections, key=collection_key))
 
 
 def collect_types(dungeons, biomes):
@@ -496,17 +512,18 @@ TEMPLATE = r"""<!doctype html>
   .fame-bar-fill { display:block; height:100%; width:0; border-radius:999px;
     background:var(--accent); transition: width .15s ease; }
   .fame-collection.done .fame-bar-fill { background:var(--g-text); }
-  .fame-items { display:grid; grid-template-columns: repeat(auto-fill, minmax(230px,1fr)); gap:.3rem; }
+  .fame-items { display:grid; grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); gap:.3rem; }
   .fame-item { display:flex; align-items:center; gap:.5rem; padding:.35rem .5rem; border-radius:8px;
     cursor:pointer; min-width:0; }
   .fame-item:hover { background: rgba(127,127,127,.12); }
   .fame-item input { accent-color: var(--accent); width:16px; height:16px; flex-shrink:0; cursor:pointer; }
   .fame-icon { width:24px; height:24px; object-fit:contain; border-radius:5px; flex-shrink:0;
     background: rgba(127,127,127,.12); }
-  .fame-name { font-size:.85rem; overflow-wrap:anywhere; }
+  .fame-name { font-size:.85rem; overflow-wrap:anywhere; flex:1; }
   .fame-item.checked .fame-name { color:var(--muted); text-decoration:line-through; }
   .fame-item.checked .fame-icon { opacity:.5; }
-  .fame-wiki { margin-left:auto; font-size:.68rem; color:var(--muted); text-decoration:none;
+  .fame-item .difficulty .skull { width:11px; height:11px; }
+  .fame-wiki { font-size:.68rem; color:var(--muted); text-decoration:none;
     opacity:0; flex-shrink:0; }
   .fame-item:hover .fame-wiki { opacity:1; }
   .fame-wiki:hover { color:var(--accent); text-decoration:underline; }

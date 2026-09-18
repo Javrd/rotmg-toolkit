@@ -534,8 +534,12 @@ def scrape_fame_collections():
                 continue
             seen.add(name)
             known = dungeons.get(name, {})
-            entries.append({"name": name, "href": known.get("href"),
-                            "icon": known.get("icon")})
+            href = known.get("href")
+            # Seasonal dungeons (Santa's Workshop, Rainbow Road, Beachzone)
+            # have no "Difficulty" box on their page: they stay None.
+            difficulty = get_difficulty(fetch(BASE + href)) if href else None
+            entries.append({"name": name, "href": href,
+                            "icon": known.get("icon"), "difficulty": difficulty})
         bonus = cell_text(cells[2])
         fame = FAME_AMOUNT_RE.search(bonus)
         percent = FAME_PERCENT_RE.search(bonus)

@@ -10,62 +10,74 @@
       {
         "name": "Pirate Cave",
         "href": "/wiki/pirate-cave",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OqzVQuc.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OqzVQuc.png",
+        "difficulty": 1.0
       },
       {
         "name": "Forbidden Jungle",
         "href": "/wiki/forbidden-jungle",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/beQHm21.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/beQHm21.png",
+        "difficulty": 1.5
       },
       {
         "name": "Spider Den",
         "href": "/wiki/spider-den",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/up93OlG.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/up93OlG.png",
+        "difficulty": 1.5
       },
       {
         "name": "Snake Pit",
         "href": "/wiki/snake-pit",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Mhtm0aR.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Mhtm0aR.png",
+        "difficulty": 2.5
       },
       {
         "name": "Undead Lair",
         "href": "/wiki/undead-lair",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pR8Dgth.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pR8Dgth.png",
+        "difficulty": 3.5
       },
       {
         "name": "Abyss of Demons",
         "href": "/wiki/abyss-of-demons",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wId2zPS.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wId2zPS.png",
+        "difficulty": 4.0
       },
       {
         "name": "Manor of the Immortals",
         "href": "/wiki/manor-of-the-immortals",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/paEB8Qu.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/paEB8Qu.png",
+        "difficulty": 4.0
       },
       {
         "name": "Ocean Trench",
         "href": "/wiki/ocean-trench",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9GR3Ypw.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9GR3Ypw.png",
+        "difficulty": 5.0
       },
       {
         "name": "Tomb of the Ancients",
         "href": "/wiki/tomb-of-the-ancients",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E6a3nHx.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E6a3nHx.png",
+        "difficulty": 6.0
       },
       {
         "name": "Oryx’s Castle",
         "href": "/wiki/oryx-s-castle",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4XgLFm7.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4XgLFm7.png",
+        "difficulty": 4.5
       },
       {
         "name": "Oryx’s Chamber",
         "href": "/wiki/oryx-s-chamber",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dLVOZiv.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dLVOZiv.png",
+        "difficulty": 4.5
       },
       {
         "name": "Wine Cellar",
         "href": "/wiki/wine-cellar",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ozNWFFN.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ozNWFFN.png",
+        "difficulty": 6.0
       }
     ]
   },
@@ -80,67 +92,80 @@
       {
         "name": "Davy Jones’ Locker",
         "href": "/wiki/davy-jones-locker",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hqmoe5U.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hqmoe5U.gif",
+        "difficulty": 5.0
       },
       {
         "name": "Mad Lab",
         "href": "/wiki/mad-lab",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/x6dyxMp.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/x6dyxMp.gif",
+        "difficulty": 4.0
       },
       {
         "name": "Candyland Hunting Grounds",
         "href": "/wiki/candyland-hunting-grounds",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BKoSv6j.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BKoSv6j.png",
+        "difficulty": 3.5
       },
       {
         "name": "Haunted Cemetery",
         "href": "/wiki/haunted-cemetery",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VB6hMsm.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VB6hMsm.gif",
+        "difficulty": 4.5
       },
       {
         "name": "Cave of a Thousand Treasures",
         "href": "/wiki/cave-of-a-thousand-treasures",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6lgodhZ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6lgodhZ.png",
+        "difficulty": 2.5
       },
       {
         "name": "Lair of Draconis",
         "href": "/wiki/lair-of-draconis",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QjX8g5O.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QjX8g5O.png",
+        "difficulty": 6.0
       },
       {
         "name": "Deadwater Docks",
         "href": "/wiki/deadwater-docks",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/baXW11C.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/baXW11C.png",
+        "difficulty": 5.5
       },
       {
         "name": "Woodland Labyrinth",
         "href": "/wiki/woodland-labyrinth",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jyKYlZg.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jyKYlZg.gif",
+        "difficulty": 5.5
       },
       {
         "name": "The Crawling Depths",
         "href": "/wiki/the-crawling-depths",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/V1rfmTa.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/V1rfmTa.gif",
+        "difficulty": 5.5
       },
       {
         "name": "The Shatters",
         "href": "/wiki/the-shatters",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yA4tlry.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yA4tlry.png",
+        "difficulty": 10.0
       },
       {
         "name": "Lair of Shaitan",
         "href": "/wiki/lair-of-shaitan",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/px7FwlI.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/px7FwlI.png",
+        "difficulty": 6.0
       },
       {
         "name": "Puppet Master’s Theatre",
         "href": "/wiki/puppet-master-s-theatre",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6diBou4.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6diBou4.png",
+        "difficulty": 4.0
       },
       {
         "name": "Ice Citadel",
         "href": "/wiki/ice-citadel",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WDJobOf.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WDJobOf.png",
+        "difficulty": 7.0
       }
     ]
   },
@@ -155,97 +180,116 @@
       {
         "name": "Puppet Master’s Encore",
         "href": "/wiki/puppet-master-s-encore",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UhdCm8R.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UhdCm8R.png",
+        "difficulty": 5.5
       },
       {
         "name": "The Hive",
         "href": "/wiki/the-hive",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6WiS9zQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6WiS9zQ.png",
+        "difficulty": 2.0
       },
       {
         "name": "Toxic Sewers",
         "href": "/wiki/toxic-sewers",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4Iv5apz.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4Iv5apz.png",
+        "difficulty": 4.0
       },
       {
         "name": "Mountain Temple",
         "href": "/wiki/mountain-temple",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fGgckZI.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fGgckZI.png",
+        "difficulty": 6.0
       },
       {
         "name": "The Third Dimension",
         "href": "/wiki/the-third-dimension",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z5CG76m.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z5CG76m.png",
+        "difficulty": 6.0
       },
       {
         "name": "The Nest",
         "href": "/wiki/the-nest",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png",
+        "difficulty": 7.0
       },
       {
         "name": "Lost Halls",
         "href": "/wiki/lost-halls",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DwuQOQQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DwuQOQQ.png",
+        "difficulty": 8.0
       },
       {
         "name": "Cultist Hideout",
         "href": "/wiki/cultist-hideout",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Xa9mjsG.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Xa9mjsG.png",
+        "difficulty": 7.0
       },
       {
         "name": "The Void",
         "href": "/wiki/the-void",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ijlxjJM.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ijlxjJM.png",
+        "difficulty": 8.5
       },
       {
         "name": "Cnidarian Reef",
         "href": "/wiki/cnidarian-reef",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pXFqErd.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pXFqErd.png",
+        "difficulty": 5.5
       },
       {
         "name": "Parasite Chambers",
         "href": "/wiki/parasite-chambers",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/O43mDnf.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/O43mDnf.gif",
+        "difficulty": 5.5
       },
       {
         "name": "Magic Woods",
         "href": "/wiki/magic-woods",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nmLtcBD.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nmLtcBD.png",
+        "difficulty": 3.0
       },
       {
         "name": "Secluded Thicket",
         "href": "/wiki/secluded-thicket",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png",
+        "difficulty": 6.5
       },
       {
         "name": "Cursed Library",
         "href": "/wiki/cursed-library",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9nQ7nSz.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9nQ7nSz.gif",
+        "difficulty": 4.0
       },
       {
         "name": "Oryx’s Sanctuary",
         "href": "/wiki/oryx-s-sanctuary",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JGnMCv2.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JGnMCv2.png",
+        "difficulty": 9.5
       },
       {
         "name": "Ancient Ruins",
         "href": "/wiki/ancient-ruins",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4gtP9OQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4gtP9OQ.png",
+        "difficulty": 3.0
       },
       {
         "name": "High Tech Terror",
         "href": "/wiki/high-tech-terror",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/8rAA2UQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/8rAA2UQ.png",
+        "difficulty": 6.5
       },
       {
         "name": "Sulfurous Wetlands",
         "href": "/wiki/sulfurous-wetlands",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/88fMxeA.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/88fMxeA.png",
+        "difficulty": 6.0
       },
       {
         "name": "Spectral Penitentiary",
         "href": "/wiki/spectral-penitentiary",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o9yNqBT.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o9yNqBT.png",
+        "difficulty": 8.0
       }
     ]
   },
@@ -260,27 +304,32 @@
       {
         "name": "Pirate Cave",
         "href": "/wiki/pirate-cave",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OqzVQuc.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OqzVQuc.png",
+        "difficulty": 1.0
       },
       {
         "name": "Forest Maze",
         "href": "/wiki/forest-maze",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/m0AO506.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/m0AO506.png",
+        "difficulty": 1.0
       },
       {
         "name": "Forbidden Jungle",
         "href": "/wiki/forbidden-jungle",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/beQHm21.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/beQHm21.png",
+        "difficulty": 1.5
       },
       {
         "name": "Spider Den",
         "href": "/wiki/spider-den",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/up93OlG.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/up93OlG.png",
+        "difficulty": 1.5
       },
       {
         "name": "The Hive",
         "href": "/wiki/the-hive",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6WiS9zQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6WiS9zQ.png",
+        "difficulty": 2.0
       }
     ]
   },
@@ -295,62 +344,74 @@
       {
         "name": "Snake Pit",
         "href": "/wiki/snake-pit",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Mhtm0aR.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Mhtm0aR.png",
+        "difficulty": 2.5
       },
       {
         "name": "Sprite World",
         "href": "/wiki/sprite-world",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K0dJRrF.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K0dJRrF.png",
+        "difficulty": 2.5
       },
       {
         "name": "Abyss of Demons",
         "href": "/wiki/abyss-of-demons",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wId2zPS.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wId2zPS.png",
+        "difficulty": 4.0
       },
       {
         "name": "Toxic Sewers",
         "href": "/wiki/toxic-sewers",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4Iv5apz.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4Iv5apz.png",
+        "difficulty": 4.0
       },
       {
         "name": "Mad Lab",
         "href": "/wiki/mad-lab",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/x6dyxMp.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/x6dyxMp.gif",
+        "difficulty": 4.0
       },
       {
         "name": "Magic Woods",
         "href": "/wiki/magic-woods",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nmLtcBD.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nmLtcBD.png",
+        "difficulty": 3.0
       },
       {
         "name": "Puppet Master’s Theatre",
         "href": "/wiki/puppet-master-s-theatre",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6diBou4.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6diBou4.png",
+        "difficulty": 4.0
       },
       {
         "name": "Haunted Cemetery",
         "href": "/wiki/haunted-cemetery",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VB6hMsm.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VB6hMsm.gif",
+        "difficulty": 4.5
       },
       {
         "name": "Cursed Library",
         "href": "/wiki/cursed-library",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9nQ7nSz.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9nQ7nSz.gif",
+        "difficulty": 4.0
       },
       {
         "name": "Ancient Ruins",
         "href": "/wiki/ancient-ruins",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4gtP9OQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4gtP9OQ.png",
+        "difficulty": 3.0
       },
       {
         "name": "Sulfurous Wetlands",
         "href": "/wiki/sulfurous-wetlands",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/88fMxeA.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/88fMxeA.png",
+        "difficulty": 6.0
       },
       {
         "name": "Spectral Penitentiary",
         "href": "/wiki/spectral-penitentiary",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o9yNqBT.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o9yNqBT.png",
+        "difficulty": 8.0
       }
     ]
   },
@@ -365,67 +426,80 @@
       {
         "name": "Davy Jones’ Locker",
         "href": "/wiki/davy-jones-locker",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hqmoe5U.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hqmoe5U.gif",
+        "difficulty": 5.0
       },
       {
         "name": "Ice Citadel",
         "href": "/wiki/ice-citadel",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WDJobOf.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WDJobOf.png",
+        "difficulty": 7.0
       },
       {
         "name": "Lair of Draconis",
         "href": "/wiki/lair-of-draconis",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QjX8g5O.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QjX8g5O.png",
+        "difficulty": 6.0
       },
       {
         "name": "Mountain Temple",
         "href": "/wiki/mountain-temple",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fGgckZI.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fGgckZI.png",
+        "difficulty": 6.0
       },
       {
         "name": "The Third Dimension",
         "href": "/wiki/the-third-dimension",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z5CG76m.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z5CG76m.png",
+        "difficulty": 6.0
       },
       {
         "name": "Ocean Trench",
         "href": "/wiki/ocean-trench",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9GR3Ypw.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9GR3Ypw.png",
+        "difficulty": 5.0
       },
       {
         "name": "Tomb of the Ancients",
         "href": "/wiki/tomb-of-the-ancients",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E6a3nHx.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E6a3nHx.png",
+        "difficulty": 6.0
       },
       {
         "name": "The Shatters",
         "href": "/wiki/the-shatters",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yA4tlry.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yA4tlry.png",
+        "difficulty": 10.0
       },
       {
         "name": "The Nest",
         "href": "/wiki/the-nest",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png",
+        "difficulty": 7.0
       },
       {
         "name": "Fungal Cavern",
         "href": "/wiki/fungal-cavern",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CLzxdEM.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CLzxdEM.png",
+        "difficulty": 7.5
       },
       {
         "name": "Crystal Cavern",
         "href": "/wiki/crystal-cavern",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Cd6RD9G.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Cd6RD9G.png",
+        "difficulty": 7.5
       },
       {
         "name": "Lost Halls",
         "href": "/wiki/lost-halls",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DwuQOQQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DwuQOQQ.png",
+        "difficulty": 8.0
       },
       {
         "name": "Kogbold Steamworks",
         "href": "/wiki/kogbold-steamworks",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dohicSR.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dohicSR.png",
+        "difficulty": 8.0
       }
     ]
   },
@@ -440,27 +514,32 @@
       {
         "name": "Lair of Shaitan",
         "href": "/wiki/lair-of-shaitan",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/px7FwlI.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/px7FwlI.png",
+        "difficulty": 6.0
       },
       {
         "name": "Puppet Master’s Encore",
         "href": "/wiki/puppet-master-s-encore",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UhdCm8R.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UhdCm8R.png",
+        "difficulty": 5.5
       },
       {
         "name": "Cnidarian Reef",
         "href": "/wiki/cnidarian-reef",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pXFqErd.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pXFqErd.png",
+        "difficulty": 5.5
       },
       {
         "name": "Secluded Thicket",
         "href": "/wiki/secluded-thicket",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png",
+        "difficulty": 6.5
       },
       {
         "name": "High Tech Terror",
         "href": "/wiki/high-tech-terror",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/8rAA2UQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/8rAA2UQ.png",
+        "difficulty": 6.5
       }
     ]
   },
@@ -475,27 +554,32 @@
       {
         "name": "Deadwater Docks",
         "href": "/wiki/deadwater-docks",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/baXW11C.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/baXW11C.png",
+        "difficulty": 5.5
       },
       {
         "name": "Woodland Labyrinth",
         "href": "/wiki/woodland-labyrinth",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jyKYlZg.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jyKYlZg.gif",
+        "difficulty": 5.5
       },
       {
         "name": "The Crawling Depths",
         "href": "/wiki/the-crawling-depths",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/V1rfmTa.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/V1rfmTa.gif",
+        "difficulty": 5.5
       },
       {
         "name": "The Nest",
         "href": "/wiki/the-nest",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png",
+        "difficulty": 7.0
       },
       {
         "name": "Secluded Thicket",
         "href": "/wiki/secluded-thicket",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png",
+        "difficulty": 6.5
       }
     ]
   },
@@ -510,22 +594,26 @@
       {
         "name": "Malogia",
         "href": "/wiki/malogia",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JwqFJoj.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JwqFJoj.png",
+        "difficulty": 5.0
       },
       {
         "name": "Untaris",
         "href": "/wiki/untaris",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nuZXgiu.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nuZXgiu.png",
+        "difficulty": 5.0
       },
       {
         "name": "Forax",
         "href": "/wiki/forax",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZwelWPf.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZwelWPf.png",
+        "difficulty": 5.0
       },
       {
         "name": "Katalund",
         "href": "/wiki/katalund",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/EM4LKGF.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/EM4LKGF.png",
+        "difficulty": 5.0
       }
     ]
   },
@@ -540,22 +628,26 @@
       {
         "name": "Neo Malogia",
         "href": "/wiki/neo-malogia",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SyJzABz.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SyJzABz.png",
+        "difficulty": 8.0
       },
       {
         "name": "Neo Untaris",
         "href": "/wiki/neo-untaris",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/hCzWfki.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/hCzWfki.png",
+        "difficulty": 8.0
       },
       {
         "name": "Neo Forax",
         "href": "/wiki/neo-forax",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DAFuhEJ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DAFuhEJ.png",
+        "difficulty": 8.0
       },
       {
         "name": "Neo Katalund",
         "href": "/wiki/neo-katalund",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Y5uA0yf.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Y5uA0yf.png",
+        "difficulty": 8.0
       }
     ]
   },
@@ -570,247 +662,296 @@
       {
         "name": "Pirate Cave",
         "href": "/wiki/pirate-cave",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OqzVQuc.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OqzVQuc.png",
+        "difficulty": 1.0
       },
       {
         "name": "Forest Maze",
         "href": "/wiki/forest-maze",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/m0AO506.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/m0AO506.png",
+        "difficulty": 1.0
       },
       {
         "name": "Spider Den",
         "href": "/wiki/spider-den",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/up93OlG.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/up93OlG.png",
+        "difficulty": 1.5
       },
       {
         "name": "Snake Pit",
         "href": "/wiki/snake-pit",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Mhtm0aR.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Mhtm0aR.png",
+        "difficulty": 2.5
       },
       {
         "name": "Forbidden Jungle",
         "href": "/wiki/forbidden-jungle",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/beQHm21.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/beQHm21.png",
+        "difficulty": 1.5
       },
       {
         "name": "The Hive",
         "href": "/wiki/the-hive",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6WiS9zQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6WiS9zQ.png",
+        "difficulty": 2.0
       },
       {
         "name": "Ancient Ruins",
         "href": "/wiki/ancient-ruins",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4gtP9OQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4gtP9OQ.png",
+        "difficulty": 3.0
       },
       {
         "name": "Magic Woods",
         "href": "/wiki/magic-woods",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nmLtcBD.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nmLtcBD.png",
+        "difficulty": 3.0
       },
       {
         "name": "Sprite World",
         "href": "/wiki/sprite-world",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K0dJRrF.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K0dJRrF.png",
+        "difficulty": 2.5
       },
       {
         "name": "Candyland Hunting Grounds",
         "href": "/wiki/candyland-hunting-grounds",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BKoSv6j.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BKoSv6j.png",
+        "difficulty": 3.5
       },
       {
         "name": "Cave of a Thousand Treasures",
         "href": "/wiki/cave-of-a-thousand-treasures",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6lgodhZ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6lgodhZ.png",
+        "difficulty": 2.5
       },
       {
         "name": "Undead Lair",
         "href": "/wiki/undead-lair",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pR8Dgth.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pR8Dgth.png",
+        "difficulty": 3.5
       },
       {
         "name": "Abyss of Demons",
         "href": "/wiki/abyss-of-demons",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wId2zPS.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wId2zPS.png",
+        "difficulty": 4.0
       },
       {
         "name": "Manor of the Immortals",
         "href": "/wiki/manor-of-the-immortals",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/paEB8Qu.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/paEB8Qu.png",
+        "difficulty": 4.0
       },
       {
         "name": "Puppet Master’s Theatre",
         "href": "/wiki/puppet-master-s-theatre",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6diBou4.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6diBou4.png",
+        "difficulty": 4.0
       },
       {
         "name": "Toxic Sewers",
         "href": "/wiki/toxic-sewers",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4Iv5apz.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4Iv5apz.png",
+        "difficulty": 4.0
       },
       {
         "name": "Cursed Library",
         "href": "/wiki/cursed-library",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9nQ7nSz.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9nQ7nSz.gif",
+        "difficulty": 4.0
       },
       {
         "name": "Haunted Cemetery",
         "href": "/wiki/haunted-cemetery",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VB6hMsm.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VB6hMsm.gif",
+        "difficulty": 4.5
       },
       {
         "name": "Mad Lab",
         "href": "/wiki/mad-lab",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/x6dyxMp.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/x6dyxMp.gif",
+        "difficulty": 4.0
       },
       {
         "name": "Parasite Chambers",
         "href": "/wiki/parasite-chambers",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/O43mDnf.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/O43mDnf.gif",
+        "difficulty": 5.5
       },
       {
         "name": "Davy Jones’ Locker",
         "href": "/wiki/davy-jones-locker",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hqmoe5U.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hqmoe5U.gif",
+        "difficulty": 5.0
       },
       {
         "name": "Mountain Temple",
         "href": "/wiki/mountain-temple",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fGgckZI.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fGgckZI.png",
+        "difficulty": 6.0
       },
       {
         "name": "The Third Dimension",
         "href": "/wiki/the-third-dimension",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z5CG76m.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z5CG76m.png",
+        "difficulty": 6.0
       },
       {
         "name": "Lair of Draconis",
         "href": "/wiki/lair-of-draconis",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QjX8g5O.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QjX8g5O.png",
+        "difficulty": 6.0
       },
       {
         "name": "Deadwater Docks",
         "href": "/wiki/deadwater-docks",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/baXW11C.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/baXW11C.png",
+        "difficulty": 5.5
       },
       {
         "name": "Woodland Labyrinth",
         "href": "/wiki/woodland-labyrinth",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jyKYlZg.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jyKYlZg.gif",
+        "difficulty": 5.5
       },
       {
         "name": "The Crawling Depths",
         "href": "/wiki/the-crawling-depths",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/V1rfmTa.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/V1rfmTa.gif",
+        "difficulty": 5.5
       },
       {
         "name": "Ocean Trench",
         "href": "/wiki/ocean-trench",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9GR3Ypw.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9GR3Ypw.png",
+        "difficulty": 5.0
       },
       {
         "name": "Ice Citadel",
         "href": "/wiki/ice-citadel",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WDJobOf.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WDJobOf.png",
+        "difficulty": 7.0
       },
       {
         "name": "Tomb of the Ancients",
         "href": "/wiki/tomb-of-the-ancients",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E6a3nHx.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E6a3nHx.png",
+        "difficulty": 6.0
       },
       {
         "name": "Fungal Cavern",
         "href": "/wiki/fungal-cavern",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CLzxdEM.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CLzxdEM.png",
+        "difficulty": 7.5
       },
       {
         "name": "Crystal Cavern",
         "href": "/wiki/crystal-cavern",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Cd6RD9G.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Cd6RD9G.png",
+        "difficulty": 7.5
       },
       {
         "name": "The Nest",
         "href": "/wiki/the-nest",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png",
+        "difficulty": 7.0
       },
       {
         "name": "The Shatters",
         "href": "/wiki/the-shatters",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yA4tlry.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yA4tlry.png",
+        "difficulty": 10.0
       },
       {
         "name": "Lost Halls",
         "href": "/wiki/lost-halls",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DwuQOQQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DwuQOQQ.png",
+        "difficulty": 8.0
       },
       {
         "name": "Cultist Hideout",
         "href": "/wiki/cultist-hideout",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Xa9mjsG.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Xa9mjsG.png",
+        "difficulty": 7.0
       },
       {
         "name": "The Void",
         "href": "/wiki/the-void",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ijlxjJM.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ijlxjJM.png",
+        "difficulty": 8.5
       },
       {
         "name": "Sulfurous Wetlands",
         "href": "/wiki/sulfurous-wetlands",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/88fMxeA.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/88fMxeA.png",
+        "difficulty": 6.0
       },
       {
         "name": "Kogbold Steamworks",
         "href": "/wiki/kogbold-steamworks",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dohicSR.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dohicSR.png",
+        "difficulty": 8.0
       },
       {
         "name": "Oryx’s Castle",
         "href": "/wiki/oryx-s-castle",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4XgLFm7.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4XgLFm7.png",
+        "difficulty": 4.5
       },
       {
         "name": "Lair of Shaitan",
         "href": "/wiki/lair-of-shaitan",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/px7FwlI.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/px7FwlI.png",
+        "difficulty": 6.0
       },
       {
         "name": "Puppet Master’s Encore",
         "href": "/wiki/puppet-master-s-encore",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UhdCm8R.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UhdCm8R.png",
+        "difficulty": 5.5
       },
       {
         "name": "Cnidarian Reef",
         "href": "/wiki/cnidarian-reef",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pXFqErd.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pXFqErd.png",
+        "difficulty": 5.5
       },
       {
         "name": "Secluded Thicket",
         "href": "/wiki/secluded-thicket",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png",
+        "difficulty": 6.5
       },
       {
         "name": "High Tech Terror",
         "href": "/wiki/high-tech-terror",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/8rAA2UQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/8rAA2UQ.png",
+        "difficulty": 6.5
       },
       {
         "name": "Oryx’s Chamber",
         "href": "/wiki/oryx-s-chamber",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dLVOZiv.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dLVOZiv.png",
+        "difficulty": 4.5
       },
       {
         "name": "Wine Cellar",
         "href": "/wiki/wine-cellar",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ozNWFFN.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ozNWFFN.png",
+        "difficulty": 6.0
       },
       {
         "name": "Oryx’s Sanctuary",
         "href": "/wiki/oryx-s-sanctuary",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JGnMCv2.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JGnMCv2.png",
+        "difficulty": 9.5
       },
       {
         "name": "Spectral Penitentiary",
         "href": "/wiki/spectral-penitentiary",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o9yNqBT.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o9yNqBT.png",
+        "difficulty": 8.0
       }
     ]
   },
@@ -825,82 +966,98 @@
       {
         "name": "Belladonna’s Garden",
         "href": "/wiki/belladonna-s-garden",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/iIG3NIj.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/iIG3NIj.png",
+        "difficulty": 5.5
       },
       {
         "name": "Ice Tomb",
         "href": "/wiki/ice-tomb",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zhWVACc.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zhWVACc.png",
+        "difficulty": 6.0
       },
       {
         "name": "Mad God Mayhem",
         "href": "/wiki/mad-god-mayhem",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/U9HeRQ4.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/U9HeRQ4.png",
+        "difficulty": 6.0
       },
       {
         "name": "Battle for the Nexus",
         "href": "/wiki/battle-for-the-nexus",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zyCjq2l.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zyCjq2l.png",
+        "difficulty": 5.0
       },
       {
         "name": "Santa’s Workshop",
         "href": "/wiki/santa-s-workshop",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oX3aVA2.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oX3aVA2.png",
+        "difficulty": null
       },
       {
         "name": "The Machine",
         "href": "/wiki/the-machine",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Yhd1MCq.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Yhd1MCq.png",
+        "difficulty": 4.5
       },
       {
         "name": "Malogia",
         "href": "/wiki/malogia",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JwqFJoj.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JwqFJoj.png",
+        "difficulty": 5.0
       },
       {
         "name": "Untaris",
         "href": "/wiki/untaris",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nuZXgiu.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nuZXgiu.png",
+        "difficulty": 5.0
       },
       {
         "name": "Forax",
         "href": "/wiki/forax",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZwelWPf.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZwelWPf.png",
+        "difficulty": 5.0
       },
       {
         "name": "Katalund",
         "href": "/wiki/katalund",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/EM4LKGF.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/EM4LKGF.png",
+        "difficulty": 5.0
       },
       {
         "name": "Rainbow Road",
         "href": "/wiki/rainbow-road",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/MDVaDzN.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/MDVaDzN.png",
+        "difficulty": null
       },
       {
         "name": "Beachzone",
         "href": "/wiki/beachzone",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Ns31EKU.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Ns31EKU.png",
+        "difficulty": null
       },
       {
         "name": "Neo Malogia",
         "href": "/wiki/neo-malogia",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SyJzABz.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SyJzABz.png",
+        "difficulty": 8.0
       },
       {
         "name": "Neo Untaris",
         "href": "/wiki/neo-untaris",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/hCzWfki.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/hCzWfki.png",
+        "difficulty": 8.0
       },
       {
         "name": "Neo Forax",
         "href": "/wiki/neo-forax",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DAFuhEJ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DAFuhEJ.png",
+        "difficulty": 8.0
       },
       {
         "name": "Neo Katalund",
         "href": "/wiki/neo-katalund",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Y5uA0yf.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Y5uA0yf.png",
+        "difficulty": 8.0
       }
     ]
   },
@@ -915,247 +1072,296 @@
       {
         "name": "Pirate Cave",
         "href": "/wiki/pirate-cave",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OqzVQuc.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OqzVQuc.png",
+        "difficulty": 1.0
       },
       {
         "name": "Forest Maze",
         "href": "/wiki/forest-maze",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/m0AO506.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/m0AO506.png",
+        "difficulty": 1.0
       },
       {
         "name": "Spider Den",
         "href": "/wiki/spider-den",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/up93OlG.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/up93OlG.png",
+        "difficulty": 1.5
       },
       {
         "name": "Snake Pit",
         "href": "/wiki/snake-pit",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Mhtm0aR.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Mhtm0aR.png",
+        "difficulty": 2.5
       },
       {
         "name": "Forbidden Jungle",
         "href": "/wiki/forbidden-jungle",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/beQHm21.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/beQHm21.png",
+        "difficulty": 1.5
       },
       {
         "name": "The Hive",
         "href": "/wiki/the-hive",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6WiS9zQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6WiS9zQ.png",
+        "difficulty": 2.0
       },
       {
         "name": "Ancient Ruins",
         "href": "/wiki/ancient-ruins",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4gtP9OQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4gtP9OQ.png",
+        "difficulty": 3.0
       },
       {
         "name": "Magic Woods",
         "href": "/wiki/magic-woods",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nmLtcBD.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nmLtcBD.png",
+        "difficulty": 3.0
       },
       {
         "name": "Sprite World",
         "href": "/wiki/sprite-world",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K0dJRrF.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K0dJRrF.png",
+        "difficulty": 2.5
       },
       {
         "name": "Candyland Hunting Grounds",
         "href": "/wiki/candyland-hunting-grounds",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BKoSv6j.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BKoSv6j.png",
+        "difficulty": 3.5
       },
       {
         "name": "Cave of a Thousand Treasures",
         "href": "/wiki/cave-of-a-thousand-treasures",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6lgodhZ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6lgodhZ.png",
+        "difficulty": 2.5
       },
       {
         "name": "Undead Lair",
         "href": "/wiki/undead-lair",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pR8Dgth.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pR8Dgth.png",
+        "difficulty": 3.5
       },
       {
         "name": "Abyss of Demons",
         "href": "/wiki/abyss-of-demons",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wId2zPS.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wId2zPS.png",
+        "difficulty": 4.0
       },
       {
         "name": "Manor of the Immortals",
         "href": "/wiki/manor-of-the-immortals",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/paEB8Qu.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/paEB8Qu.png",
+        "difficulty": 4.0
       },
       {
         "name": "Puppet Master’s Theatre",
         "href": "/wiki/puppet-master-s-theatre",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6diBou4.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6diBou4.png",
+        "difficulty": 4.0
       },
       {
         "name": "Toxic Sewers",
         "href": "/wiki/toxic-sewers",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4Iv5apz.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4Iv5apz.png",
+        "difficulty": 4.0
       },
       {
         "name": "Cursed Library",
         "href": "/wiki/cursed-library",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9nQ7nSz.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9nQ7nSz.gif",
+        "difficulty": 4.0
       },
       {
         "name": "Haunted Cemetery",
         "href": "/wiki/haunted-cemetery",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VB6hMsm.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VB6hMsm.gif",
+        "difficulty": 4.5
       },
       {
         "name": "Mad Lab",
         "href": "/wiki/mad-lab",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/x6dyxMp.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/x6dyxMp.gif",
+        "difficulty": 4.0
       },
       {
         "name": "Parasite Chambers",
         "href": "/wiki/parasite-chambers",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/O43mDnf.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/O43mDnf.gif",
+        "difficulty": 5.5
       },
       {
         "name": "Davy Jones’ Locker",
         "href": "/wiki/davy-jones-locker",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hqmoe5U.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hqmoe5U.gif",
+        "difficulty": 5.0
       },
       {
         "name": "Mountain Temple",
         "href": "/wiki/mountain-temple",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fGgckZI.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fGgckZI.png",
+        "difficulty": 6.0
       },
       {
         "name": "The Third Dimension",
         "href": "/wiki/the-third-dimension",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z5CG76m.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Z5CG76m.png",
+        "difficulty": 6.0
       },
       {
         "name": "Lair of Draconis",
         "href": "/wiki/lair-of-draconis",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QjX8g5O.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QjX8g5O.png",
+        "difficulty": 6.0
       },
       {
         "name": "Deadwater Docks",
         "href": "/wiki/deadwater-docks",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/baXW11C.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/baXW11C.png",
+        "difficulty": 5.5
       },
       {
         "name": "Woodland Labyrinth",
         "href": "/wiki/woodland-labyrinth",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jyKYlZg.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jyKYlZg.gif",
+        "difficulty": 5.5
       },
       {
         "name": "The Crawling Depths",
         "href": "/wiki/the-crawling-depths",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/V1rfmTa.gif"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/V1rfmTa.gif",
+        "difficulty": 5.5
       },
       {
         "name": "Ocean Trench",
         "href": "/wiki/ocean-trench",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9GR3Ypw.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9GR3Ypw.png",
+        "difficulty": 5.0
       },
       {
         "name": "Ice Citadel",
         "href": "/wiki/ice-citadel",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WDJobOf.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WDJobOf.png",
+        "difficulty": 7.0
       },
       {
         "name": "Tomb of the Ancients",
         "href": "/wiki/tomb-of-the-ancients",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E6a3nHx.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E6a3nHx.png",
+        "difficulty": 6.0
       },
       {
         "name": "Fungal Cavern",
         "href": "/wiki/fungal-cavern",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CLzxdEM.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CLzxdEM.png",
+        "difficulty": 7.5
       },
       {
         "name": "Crystal Cavern",
         "href": "/wiki/crystal-cavern",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Cd6RD9G.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Cd6RD9G.png",
+        "difficulty": 7.5
       },
       {
         "name": "The Nest",
         "href": "/wiki/the-nest",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FgpEOel.png",
+        "difficulty": 7.0
       },
       {
         "name": "The Shatters",
         "href": "/wiki/the-shatters",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yA4tlry.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yA4tlry.png",
+        "difficulty": 10.0
       },
       {
         "name": "Lost Halls",
         "href": "/wiki/lost-halls",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DwuQOQQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DwuQOQQ.png",
+        "difficulty": 8.0
       },
       {
         "name": "Cultist Hideout",
         "href": "/wiki/cultist-hideout",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Xa9mjsG.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Xa9mjsG.png",
+        "difficulty": 7.0
       },
       {
         "name": "The Void",
         "href": "/wiki/the-void",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ijlxjJM.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ijlxjJM.png",
+        "difficulty": 8.5
       },
       {
         "name": "Sulfurous Wetlands",
         "href": "/wiki/sulfurous-wetlands",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/88fMxeA.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/88fMxeA.png",
+        "difficulty": 6.0
       },
       {
         "name": "Kogbold Steamworks",
         "href": "/wiki/kogbold-steamworks",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dohicSR.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dohicSR.png",
+        "difficulty": 8.0
       },
       {
         "name": "Oryx’s Castle",
         "href": "/wiki/oryx-s-castle",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4XgLFm7.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4XgLFm7.png",
+        "difficulty": 4.5
       },
       {
         "name": "Lair of Shaitan",
         "href": "/wiki/lair-of-shaitan",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/px7FwlI.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/px7FwlI.png",
+        "difficulty": 6.0
       },
       {
         "name": "Puppet Master’s Encore",
         "href": "/wiki/puppet-master-s-encore",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UhdCm8R.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UhdCm8R.png",
+        "difficulty": 5.5
       },
       {
         "name": "Cnidarian Reef",
         "href": "/wiki/cnidarian-reef",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pXFqErd.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pXFqErd.png",
+        "difficulty": 5.5
       },
       {
         "name": "Secluded Thicket",
         "href": "/wiki/secluded-thicket",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IeOHusO.png",
+        "difficulty": 6.5
       },
       {
         "name": "High Tech Terror",
         "href": "/wiki/high-tech-terror",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/8rAA2UQ.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/8rAA2UQ.png",
+        "difficulty": 6.5
       },
       {
         "name": "Oryx’s Chamber",
         "href": "/wiki/oryx-s-chamber",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dLVOZiv.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dLVOZiv.png",
+        "difficulty": 4.5
       },
       {
         "name": "Wine Cellar",
         "href": "/wiki/wine-cellar",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ozNWFFN.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ozNWFFN.png",
+        "difficulty": 6.0
       },
       {
         "name": "Oryx’s Sanctuary",
         "href": "/wiki/oryx-s-sanctuary",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JGnMCv2.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JGnMCv2.png",
+        "difficulty": 9.5
       },
       {
         "name": "Spectral Penitentiary",
         "href": "/wiki/spectral-penitentiary",
-        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o9yNqBT.png"
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o9yNqBT.png",
+        "difficulty": 8.0
       }
     ]
   }

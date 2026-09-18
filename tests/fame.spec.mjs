@@ -50,6 +50,30 @@ check('13 collection sections', await page.locator('.fame-collection').count() =
 check('fame page is shown', await page.locator('#page-fame').isVisible());
 check('picker is closed until focused', !(await page.locator('#fameResults').isVisible()));
 
+section('difficulty order');
+// [{collection, difficulties:[...]}] in page order; unrated dungeons are null.
+const order = await page.locator('.fame-collection').evaluateAll(secs => secs.map(sec => ({
+  collection: sec.dataset.collection,
+  difficulties: Array.from(sec.querySelectorAll('.fame-item')).map(it => {
+    const t = it.querySelector('.difficulty')?.title;
+    return t ? parseFloat(t.replace('Difficulty: ', '')) : null;
+  }),
+})));
+check('every dungeon but the seasonal three shows a rating',
+  order.flatMap(o => o.difficulties).filter(d => d === null).length === 3);
+check('dungeons go easiest to hardest inside each collection, unrated last',
+  order.every(o => o.difficulties.every((d, i, a) => i === 0
+    || (d === null ? true : a[i - 1] !== null && a[i - 1] <= d))));
+const keys = order.map(o => {
+  const r = o.difficulties.filter(d => d !== null);
+  return [Math.max(...r), r.reduce((x, y) => x + y, 0) / r.length];
+});
+check('collections go by hardest dungeon, then by average',
+  keys.every((k, i) => i === 0 || keys[i - 1][0] < k[0]
+    || (keys[i - 1][0] === k[0] && keys[i - 1][1] <= k[1])),
+  order.map(o => o.collection).join(' > '));
+check('First Steps comes first', order[0].collection === 'First Steps');
+
 section('icons');
 check('no dungeon falls back to the grey placeholder',
   await page.locator('.fame-icon[src^="data:"]').count() === 0,
