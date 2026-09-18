@@ -295,9 +295,10 @@ unidad es un contador de completadas, no un booleano — ver
   "Difficulty" y quedan a `null`.
 - **Orden**: el JSON conserva el orden de la wiki; ordena `build_html.py`
   al pintar. Dentro de cada colección las mazmorras van de fácil a
-  difícil (`difficulty_key`, las sin valorar al final) y cada fila lleva
-  sus calaveras. Las colecciones se ordenan por la mazmorra más difícil
-  que contienen y, a igual máximo, por la media (`collection_key`): First
+  difícil (`difficulty_key`; las sin valorar cuentan como 0, así que
+  abren la colección) y cada fila lleva sus calaveras. Las colecciones se
+  ordenan por la mazmorra más difícil que contienen y, a igual máximo,
+  por la media (`collection_key`, también con las sin valorar a 0): First
   Steps abre y Conqueror of the Realm cierra. La suite comprueba las dos
   cosas.
 - **Estado en el cliente**: los ticks viven en `localStorage` bajo

@@ -195,18 +195,16 @@ def render_fame_item(entry):
 
 
 def difficulty_key(entry):
-    """Easiest first; dungeons with no rating (seasonal ones) go last."""
-    d = entry.get("difficulty")
-    return (d is None, d or 0)
+    """Easiest first. Dungeons with no rating on the wiki (the seasonal ones)
+    count as 0, so they open the collection."""
+    return entry.get("difficulty") or 0
 
 
 def collection_key(col):
     """Collections ordered by their hardest dungeon, then by the average
-    difficulty when two share the same peak. Unrated dungeons don't count."""
-    rated = [e["difficulty"] for e in col["dungeons"] if e.get("difficulty") is not None]
-    if not rated:
-        return (float("inf"), float("inf"))
-    return (max(rated), sum(rated) / len(rated))
+    difficulty when two share the same peak. Unrated dungeons count as 0."""
+    values = [difficulty_key(e) for e in col["dungeons"]]
+    return (max(values), sum(values) / len(values))
 
 
 def render_fame_collection(col):

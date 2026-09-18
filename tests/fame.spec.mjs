@@ -51,21 +51,20 @@ check('fame page is shown', await page.locator('#page-fame').isVisible());
 check('picker is closed until focused', !(await page.locator('#fameResults').isVisible()));
 
 section('difficulty order');
-// [{collection, difficulties:[...]}] in page order; unrated dungeons are null.
+// [{collection, difficulties:[...]}] in page order; unrated dungeons count as 0.
 const order = await page.locator('.fame-collection').evaluateAll(secs => secs.map(sec => ({
   collection: sec.dataset.collection,
   difficulties: Array.from(sec.querySelectorAll('.fame-item')).map(it => {
     const t = it.querySelector('.difficulty')?.title;
-    return t ? parseFloat(t.replace('Difficulty: ', '')) : null;
+    return t ? parseFloat(t.replace('Difficulty: ', '')) : 0;
   }),
 })));
 check('every dungeon but the seasonal three shows a rating',
-  order.flatMap(o => o.difficulties).filter(d => d === null).length === 3);
-check('dungeons go easiest to hardest inside each collection, unrated last',
-  order.every(o => o.difficulties.every((d, i, a) => i === 0
-    || (d === null ? true : a[i - 1] !== null && a[i - 1] <= d))));
+  order.flatMap(o => o.difficulties).filter(d => d === 0).length === 3);
+check('dungeons go easiest to hardest inside each collection, unrated first',
+  order.every(o => o.difficulties.every((d, i, a) => i === 0 || a[i - 1] <= d)));
 const keys = order.map(o => {
-  const r = o.difficulties.filter(d => d !== null);
+  const r = o.difficulties;
   return [Math.max(...r), r.reduce((x, y) => x + y, 0) / r.length];
 });
 check('collections go by hardest dungeon, then by average',
