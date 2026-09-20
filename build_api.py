@@ -65,6 +65,12 @@ def build_dungeons(src_path, out_dir):
             "difficulty": d.get("difficulty"),
             "hasData": not d.get("error"),
             "error": d.get("error"),
+            "dropsFrom": [
+                {"name": m["name"], "wikiUrl": wiki_url(m["href"]), "icon": m["icon"],
+                 "guaranteed": m["guaranteed"]}
+                for m in d.get("drops_from") or []
+            ],
+            "dropsNote": d.get("drops_note"),
             "potions": {
                 "guaranteed": [potion_entry(p) for p in d["main"]["garantizados"]],
                 "possible": [potion_entry(p) for p in d["main"]["extra"]],

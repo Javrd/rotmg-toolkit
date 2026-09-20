@@ -7,6 +7,45 @@
   "difficulty": 1.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Orc King",
+      "wikiUrl": "https://www.realmeye.com/wiki/orc-king",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/kMsAEZh.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Werelion",
+      "wikiUrl": "https://www.realmeye.com/wiki/werelion",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/4MMYrwZ.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Big Ladybug",
+      "wikiUrl": "https://www.realmeye.com/wiki/big-ladybug",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/X9kRJer.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Shambling Sludge",
+      "wikiUrl": "https://www.realmeye.com/wiki/shambling-sludge",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/dpPPsdF.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Swarm",
+      "wikiUrl": "https://www.realmeye.com/wiki/swarm",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/5VmgNfm.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Desert Werewolf",
+      "wikiUrl": "https://www.realmeye.com/wiki/desert-werewolf",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/oee3uaB.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": []

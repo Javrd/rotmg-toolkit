@@ -7,6 +7,21 @@
   "difficulty": 10.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Behemoth's Egg",
+      "wikiUrl": "https://www.realmeye.com/wiki/behemoth-s-egg",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/AnyLuj4.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Avatar of the Forgotten King",
+      "wikiUrl": "https://www.realmeye.com/wiki/avatar-of-the-forgotten-king",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/h13hMhw.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": [

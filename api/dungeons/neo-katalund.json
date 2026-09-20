@@ -7,6 +7,15 @@
   "difficulty": 8.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Commander Calbrik",
+      "wikiUrl": "https://www.realmeye.com/wiki/commander-calbrik",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/he3yY4r.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": []

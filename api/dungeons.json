@@ -8,6 +8,69 @@
     "difficulty": 1.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Pirate",
+        "wikiUrl": "https://www.realmeye.com/wiki/pirate",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6RB5bPH.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Piratess",
+        "wikiUrl": "https://www.realmeye.com/wiki/piratess",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/TvKkylZ.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Little Green Jelly",
+        "wikiUrl": "https://www.realmeye.com/wiki/little-green-jelly",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dPclbJL.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Little Blue Jelly",
+        "wikiUrl": "https://www.realmeye.com/wiki/little-blue-jelly",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VfDOdX2.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Little Pink Jelly",
+        "wikiUrl": "https://www.realmeye.com/wiki/little-pink-jelly",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/W4HIUMZ.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Giant Crab",
+        "wikiUrl": "https://www.realmeye.com/wiki/giant-crab",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jalk6uI.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sand Devil",
+        "wikiUrl": "https://www.realmeye.com/wiki/sand-devil",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/12FF7VX.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Goblin Warrior",
+        "wikiUrl": "https://www.realmeye.com/wiki/goblin-warrior",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Plg4dlO.png",
+        "guaranteed": false
+      },
+      {
+        "name": "X Treasure Chest",
+        "wikiUrl": "https://www.realmeye.com/wiki/x-treasure-chest",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/tT7s03W.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Beached Buccaneer",
+        "wikiUrl": "https://www.realmeye.com/wiki/beached-buccaneer",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/8T4kLg0.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -26,6 +89,69 @@
     "difficulty": 1.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Forest Nymph",
+        "wikiUrl": "https://www.realmeye.com/wiki/forest-nymph",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/M64Eqj5.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Goblin Mage",
+        "wikiUrl": "https://www.realmeye.com/wiki/goblin-mage",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/gqia2Yg.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Elf Wizard",
+        "wikiUrl": "https://www.realmeye.com/wiki/elf-wizard",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZHd1IUa.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Hobbit Mage",
+        "wikiUrl": "https://www.realmeye.com/wiki/hobbit-mage",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6YBPvN7.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Undead Hobbit Mage",
+        "wikiUrl": "https://www.realmeye.com/wiki/undead-hobbit-mage",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AfO1gx9.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sandsman King",
+        "wikiUrl": "https://www.realmeye.com/wiki/sandsman-king",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vmte2d9.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Dwarf King",
+        "wikiUrl": "https://www.realmeye.com/wiki/dwarf-king",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xOnNSmc.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Drake Baby",
+        "wikiUrl": "https://www.realmeye.com/wiki/drake-baby",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VrqV4cy.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Enraged Bunny",
+        "wikiUrl": "https://www.realmeye.com/wiki/enraged-bunny",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WonwqPA.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Skeleton",
+        "wikiUrl": "https://www.realmeye.com/wiki/skeleton",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/rjfb3W5.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -44,6 +170,45 @@
     "difficulty": 1.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Orc King",
+        "wikiUrl": "https://www.realmeye.com/wiki/orc-king",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kMsAEZh.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Werelion",
+        "wikiUrl": "https://www.realmeye.com/wiki/werelion",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4MMYrwZ.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Big Ladybug",
+        "wikiUrl": "https://www.realmeye.com/wiki/big-ladybug",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/X9kRJer.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Shambling Sludge",
+        "wikiUrl": "https://www.realmeye.com/wiki/shambling-sludge",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dpPPsdF.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Swarm",
+        "wikiUrl": "https://www.realmeye.com/wiki/swarm",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/5VmgNfm.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Desert Werewolf",
+        "wikiUrl": "https://www.realmeye.com/wiki/desert-werewolf",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oee3uaB.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -62,6 +227,27 @@
     "difficulty": 1.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Black Bat",
+        "wikiUrl": "https://www.realmeye.com/wiki/black-bat",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/bn7z6kv.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Earth Golem",
+        "wikiUrl": "https://www.realmeye.com/wiki/earth-golem",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4RoR4cd.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Great Coil Snake",
+        "wikiUrl": "https://www.realmeye.com/wiki/great-coil-snake",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nruKDMt.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -80,6 +266,27 @@
     "difficulty": 2.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Wasp Queen",
+        "wikiUrl": "https://www.realmeye.com/wiki/wasp-queen",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/2UaXl2c.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Warrior Bee",
+        "wikiUrl": "https://www.realmeye.com/wiki/warrior-bee",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QEVkQMw.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Legion Surveyor",
+        "wikiUrl": "https://www.realmeye.com/wiki/legion-surveyor",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/MJzNxHC.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -110,6 +317,57 @@
     "difficulty": 2.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Lizard God",
+        "wikiUrl": "https://www.realmeye.com/wiki/lizard-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/iNGzLhe.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Undead Dwarf God",
+        "wikiUrl": "https://www.realmeye.com/wiki/undead-dwarf-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/5eEQCxt.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ogre King",
+        "wikiUrl": "https://www.realmeye.com/wiki/ogre-king",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/J5rp9LL.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Zombie Cleric",
+        "wikiUrl": "https://www.realmeye.com/wiki/zombie-cleric",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vgra13e.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Werewolf Berserker",
+        "wikiUrl": "https://www.realmeye.com/wiki/werewolf-berserker",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oykz2dn.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Flying Seahorse",
+        "wikiUrl": "https://www.realmeye.com/wiki/flying-seahorse",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oLU7p8d.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Medusa",
+        "wikiUrl": "https://www.realmeye.com/wiki/medusa",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wVEzOjp.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Insurgent Rebel Commander",
+        "wikiUrl": "https://www.realmeye.com/wiki/insurgent-rebel-commander",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/YqoSZTR.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -152,6 +410,33 @@
     "difficulty": 2.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Sprite Beast",
+        "wikiUrl": "https://www.realmeye.com/wiki/sprite-beast",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/3s8ZpGC.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sprite Child",
+        "wikiUrl": "https://www.realmeye.com/wiki/sprite-child",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CqZkwKa.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Celestial Sprite",
+        "wikiUrl": "https://www.realmeye.com/wiki/celestial-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/lwKQrCQ.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Cosmic Sprite",
+        "wikiUrl": "https://www.realmeye.com/wiki/cosmic-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wq3JfnB.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -205,6 +490,33 @@
     "difficulty": 2.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Sunken Soul",
+        "wikiUrl": "https://www.realmeye.com/wiki/sunken-soul",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/TssoclO.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Silvery Narwhal",
+        "wikiUrl": "https://www.realmeye.com/wiki/silvery-narwhal",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SVCbQGI.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Djinn",
+        "wikiUrl": "https://www.realmeye.com/wiki/djinn",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zsNVsTC.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Washed-Up Captain",
+        "wikiUrl": "https://www.realmeye.com/wiki/washed-up-captain",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/NfU1Jhh.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -235,6 +547,57 @@
     "difficulty": 3.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Dark Elf Queen",
+        "wikiUrl": "https://www.realmeye.com/wiki/dark-elf-queen",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vkZQH6B.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Hunter Centaur",
+        "wikiUrl": "https://www.realmeye.com/wiki/hunter-centaur",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FHu04id.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Minotaur",
+        "wikiUrl": "https://www.realmeye.com/wiki/minotaur",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/alTGxSm.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Flayer God",
+        "wikiUrl": "https://www.realmeye.com/wiki/flayer-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QR6UKxd.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ghastly Nun",
+        "wikiUrl": "https://www.realmeye.com/wiki/ghastly-nun",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/PviXdWa.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Drowned Sailor",
+        "wikiUrl": "https://www.realmeye.com/wiki/drowned-sailor",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kJi4QNR.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Nameless Gladiator",
+        "wikiUrl": "https://www.realmeye.com/wiki/nameless-gladiator",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZoBkY9s.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sword in the Stone",
+        "wikiUrl": "https://www.realmeye.com/wiki/sword-in-the-stone",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/F89B6nN.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -277,6 +640,51 @@
     "difficulty": 3.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Pumpkin Brute",
+        "wikiUrl": "https://www.realmeye.com/wiki/pumpkin-brute",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/erbJRw8.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Evergreen Sprite",
+        "wikiUrl": "https://www.realmeye.com/wiki/evergreen-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nZkJx5h.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ocean Spirit",
+        "wikiUrl": "https://www.realmeye.com/wiki/ocean-spirit",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/5sLYpPO.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ent God",
+        "wikiUrl": "https://www.realmeye.com/wiki/ent-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fd1ypSY.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Elder Sprite Tree",
+        "wikiUrl": "https://www.realmeye.com/wiki/elder-sprite-tree",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SLz7NFz.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ent Ancient",
+        "wikiUrl": "https://www.realmeye.com/wiki/ent-ancient",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CNCBqRg.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Legion Scout Master",
+        "wikiUrl": "https://www.realmeye.com/wiki/legion-scout-master",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/cXmiamn.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -318,6 +726,15 @@
     "difficulty": 3.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Candy Gnome",
+        "wikiUrl": "https://www.realmeye.com/wiki/candy-gnome",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/n2lGALm.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -404,6 +821,45 @@
     "difficulty": 3.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Skeleton Worshipper",
+        "wikiUrl": "https://www.realmeye.com/wiki/skeleton-worshipper",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K9bC79T.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Skeleton of the Damned",
+        "wikiUrl": "https://www.realmeye.com/wiki/skeleton-of-the-damned",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JIYZ9Gz.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Undead Pirate",
+        "wikiUrl": "https://www.realmeye.com/wiki/undead-pirate",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4UwUjQl.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Burning Bones",
+        "wikiUrl": "https://www.realmeye.com/wiki/burning-bones",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/e7r55Uw.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ghost God",
+        "wikiUrl": "https://www.realmeye.com/wiki/ghost-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/MsLoDDH.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Flesh Golem",
+        "wikiUrl": "https://www.realmeye.com/wiki/flesh-golem",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Qyl20K2.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -446,6 +902,39 @@
     "difficulty": 4.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Wraith",
+        "wikiUrl": "https://www.realmeye.com/wiki/wraith",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/i2CnTHA.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Corrupt Sprite",
+        "wikiUrl": "https://www.realmeye.com/wiki/corrupt-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BBHgIte.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Unsung Jester",
+        "wikiUrl": "https://www.realmeye.com/wiki/unsung-jester",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vW6GH3h.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Leviathan",
+        "wikiUrl": "https://www.realmeye.com/wiki/leviathan",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/cTDreAZ.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sinister Scarecrow",
+        "wikiUrl": "https://www.realmeye.com/wiki/sinister-scarecrow",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Etuyb89.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -488,6 +977,39 @@
     "difficulty": 4.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Noxious Sprite",
+        "wikiUrl": "https://www.realmeye.com/wiki/noxious-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ioGaq0t.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Smelly Octopus",
+        "wikiUrl": "https://www.realmeye.com/wiki/smelly-octopus",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vWcg4E9.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Brimstone Wyvern",
+        "wikiUrl": "https://www.realmeye.com/wiki/brimstone-wyvern",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DfdRQsD.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Slime God",
+        "wikiUrl": "https://www.realmeye.com/wiki/slime-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/0yruhRe.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Eternal Tormentor",
+        "wikiUrl": "https://www.realmeye.com/wiki/eternal-tormentor",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/GplawKH.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -530,6 +1052,45 @@
     "difficulty": 4.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Revenant",
+        "wikiUrl": "https://www.realmeye.com/wiki/revenant",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/M0ACVkd.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Creepy Beholder",
+        "wikiUrl": "https://www.realmeye.com/wiki/creepy-beholder",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/rpRtJqg.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Harrowed Fiend",
+        "wikiUrl": "https://www.realmeye.com/wiki/harrowed-fiend",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/a2vCO14.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Beholder",
+        "wikiUrl": "https://www.realmeye.com/wiki/beholder",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WzYegWb.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Shady Sect Leader",
+        "wikiUrl": "https://www.realmeye.com/wiki/shady-sect-leader",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/iS69XJ8.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Legion Excavator",
+        "wikiUrl": "https://www.realmeye.com/wiki/legion-excavator",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/3c7KOQE.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -594,6 +1155,33 @@
     "difficulty": 4.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Banshee",
+        "wikiUrl": "https://www.realmeye.com/wiki/banshee",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R3aZQAq.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Hazardous Sprite",
+        "wikiUrl": "https://www.realmeye.com/wiki/hazardous-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/lnrhXiW.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Flying Brain",
+        "wikiUrl": "https://www.realmeye.com/wiki/flying-brain",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZXe25P1.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Artificial Sprite God",
+        "wikiUrl": "https://www.realmeye.com/wiki/artificial-sprite-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JHY5nb6.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -658,6 +1246,45 @@
     "difficulty": 4.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Blazing Sprite",
+        "wikiUrl": "https://www.realmeye.com/wiki/blazing-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pS3kW5z.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Risen Hellhound",
+        "wikiUrl": "https://www.realmeye.com/wiki/risen-hellhound",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oTsHnLm.png",
+        "guaranteed": false
+      },
+      {
+        "name": "White Demon",
+        "wikiUrl": "https://www.realmeye.com/wiki/white-demon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/tkxaEab.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Red Demon",
+        "wikiUrl": "https://www.realmeye.com/wiki/red-demon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/b7liiXp.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Vagabond Satyr",
+        "wikiUrl": "https://www.realmeye.com/wiki/vagabond-satyr",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OC5CZuY.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Legion Guard Captain",
+        "wikiUrl": "https://www.realmeye.com/wiki/legion-guard-captain",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/sKMp5PM.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -734,6 +1361,27 @@
     "difficulty": 4.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Flying Vampire",
+        "wikiUrl": "https://www.realmeye.com/wiki/flying-vampire",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/T2X9ydr.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Cerberus",
+        "wikiUrl": "https://www.realmeye.com/wiki/cerberus",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BNZ34Hc.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Kage Kami",
+        "wikiUrl": "https://www.realmeye.com/wiki/kage-kami",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wnOL9lq.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -776,6 +1424,21 @@
     "difficulty": 4.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Headless Horseman",
+        "wikiUrl": "https://www.realmeye.com/wiki/headless-horseman",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/gcDPAA2.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Lantern Holder",
+        "wikiUrl": "https://www.realmeye.com/wiki/lantern-holder",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/svVRCId.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -861,6 +1524,33 @@
     "difficulty": 4.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Rock Construct",
+        "wikiUrl": "https://www.realmeye.com/wiki/rock-construct",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1ev5J1F.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Wood Construct",
+        "wikiUrl": "https://www.realmeye.com/wiki/wood-construct",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/qcxwoCW.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Steel Construct",
+        "wikiUrl": "https://www.realmeye.com/wiki/steel-construct",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oqZ4wvR.png",
+        "guaranteed": false
+      },
+      {
+        "name": "The Glitch",
+        "wikiUrl": "https://www.realmeye.com/wiki/the-glitch",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/XEGtFqq.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -879,6 +1569,15 @@
     "difficulty": null,
     "hasData": false,
     "error": "No 'Drops of Interest' section found",
+    "dropsFrom": [
+      {
+        "name": "Null",
+        "wikiUrl": "https://www.realmeye.com/wiki/null",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/G7Hbr58.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": "(Drops under certain circumstances; see page for solution)",
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -897,6 +1596,33 @@
     "difficulty": 5.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Abyssal Hydra",
+        "wikiUrl": "https://www.realmeye.com/wiki/abyssal-hydra",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E5WR3Tn.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sunken Treasure",
+        "wikiUrl": "https://www.realmeye.com/wiki/sunken-treasure-shipwreck",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zrQnt3F.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Well of Souls",
+        "wikiUrl": "https://www.realmeye.com/wiki/well-of-souls",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/B4QoOcX.gif",
+        "guaranteed": true
+      },
+      {
+        "name": "Ghost Ship",
+        "wikiUrl": "https://www.realmeye.com/wiki/ghost-ship",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4UqdcHo.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -974,6 +1700,39 @@
     "difficulty": 5.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Abyssal Squid",
+        "wikiUrl": "https://www.realmeye.com/wiki/abyssal-squid",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/coovGre.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ice Giant",
+        "wikiUrl": "https://www.realmeye.com/wiki/ice-giant",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JldbaWa.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sea Dragon",
+        "wikiUrl": "https://www.realmeye.com/wiki/sea-dragon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AZYy10v.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Hermit God",
+        "wikiUrl": "https://www.realmeye.com/wiki/hermit-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/iHuMeGv.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Eye of the Storm",
+        "wikiUrl": "https://www.realmeye.com/wiki/eye-of-the-storm",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zWZrYpk.gif",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -1004,6 +1763,39 @@
     "difficulty": 5.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Blood Hound",
+        "wikiUrl": "https://www.realmeye.com/wiki/blood-hound",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/byRMnZV.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Spore Spreader",
+        "wikiUrl": "https://www.realmeye.com/wiki/spore-spreader",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SOOC3c8.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sting Spider",
+        "wikiUrl": "https://www.realmeye.com/wiki/sting-spider",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/u8BS18M.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Critter Brood",
+        "wikiUrl": "https://www.realmeye.com/wiki/critter-brood",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/YOcTahC.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Legion Lead Strategist",
+        "wikiUrl": "https://www.realmeye.com/wiki/legion-lead-strategist",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BxM3Dw4.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -1146,6 +1938,45 @@
     "difficulty": 5.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Bloodroot Treant",
+        "wikiUrl": "https://www.realmeye.com/wiki/bloodroot-treant",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ObezI6H.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Man-Eating Flytrap",
+        "wikiUrl": "https://www.realmeye.com/wiki/man-eating-flytrap",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/hZlHOrn.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Great Owl",
+        "wikiUrl": "https://www.realmeye.com/wiki/great-owl",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Y8nFAa6.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Hornet's Nest",
+        "wikiUrl": "https://www.realmeye.com/wiki/hornet-s-nest",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SkxWB5V.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Possessed Pumpkin",
+        "wikiUrl": "https://www.realmeye.com/wiki/possessed-pumpkin",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fAw3so9.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Legion Head Researcher",
+        "wikiUrl": "https://www.realmeye.com/wiki/legion-head-researcher",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fInWlER.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -1222,6 +2053,39 @@
     "difficulty": 5.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Snow Wolf",
+        "wikiUrl": "https://www.realmeye.com/wiki/snow-wolf",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/i7zZGEV.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Corsair Crab",
+        "wikiUrl": "https://www.realmeye.com/wiki/corsair-crab",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/69wUhF5.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Bilgewater’s Galleon",
+        "wikiUrl": "https://www.realmeye.com/wiki/bilgewater-s-galleon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wmrq7Fz.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Crab Sovereign",
+        "wikiUrl": "https://www.realmeye.com/wiki/crab-sovereign",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zuZokkc.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Legion Watchmaster",
+        "wikiUrl": "https://www.realmeye.com/wiki/legion-watchmaster",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DQuJ4JE.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -1342,6 +2206,39 @@
     "difficulty": 5.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Shadow Lurker",
+        "wikiUrl": "https://www.realmeye.com/wiki/shadow-lurker",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DmVtAJM.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Organ Harvester",
+        "wikiUrl": "https://www.realmeye.com/wiki/organ-harvester",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/0adRDcd.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Daughter of Limon",
+        "wikiUrl": "https://www.realmeye.com/wiki/daughter-of-limon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9ujgJ0m.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Maze Minotaur",
+        "wikiUrl": "https://www.realmeye.com/wiki/maze-minotaur",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oMkrNSd.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Court of Oryx",
+        "wikiUrl": "https://www.realmeye.com/wiki/court-of-oryx",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -1394,6 +2291,33 @@
     "difficulty": 5.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Enchanted Turtle",
+        "wikiUrl": "https://www.realmeye.com/wiki/enchanted-turtle",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WHpYAZb.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Hadopelagic Jellyfish",
+        "wikiUrl": "https://www.realmeye.com/wiki/hadopelagic-jellyfish",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Ho1aPnm.png",
+        "guaranteed": false
+      },
+      {
+        "name": "World’s Oyster",
+        "wikiUrl": "https://www.realmeye.com/wiki/world-s-oyster",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nFl3qNP.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Court of Oryx",
+        "wikiUrl": "https://www.realmeye.com/wiki/court-of-oryx",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -1490,6 +2414,27 @@
     "difficulty": 5.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Blood Ooze",
+        "wikiUrl": "https://www.realmeye.com/wiki/blood-ooze",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/YyO7dl6.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Abyssal Kraken",
+        "wikiUrl": "https://www.realmeye.com/wiki/abyssal-kraken",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yGlZV4N.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Scout Colony",
+        "wikiUrl": "https://www.realmeye.com/wiki/scout-colony",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Kp2XYfV.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -1544,6 +2489,27 @@
     "difficulty": 5.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Spitting Arachnid",
+        "wikiUrl": "https://www.realmeye.com/wiki/spitting-arachnid",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/MSqvVou.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sigma Werewolf",
+        "wikiUrl": "https://www.realmeye.com/wiki/sigma-werewolf",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/y1sb7tj.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Beer God",
+        "wikiUrl": "https://www.realmeye.com/wiki/beer-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AwXKgrE.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -1596,6 +2562,39 @@
     "difficulty": 6.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Bulbous Perforator",
+        "wikiUrl": "https://www.realmeye.com/wiki/bulbous-perforator",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AT4lLZy.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Green Fingers",
+        "wikiUrl": "https://www.realmeye.com/wiki/green-fingers",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/PTzPpAw.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Grand Dragonfly",
+        "wikiUrl": "https://www.realmeye.com/wiki/grand-dragonfly",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/HmsT1Hw.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Elder Ent Ancient",
+        "wikiUrl": "https://www.realmeye.com/wiki/elder-ent-ancient",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/qaZGmHe.png",
+        "guaranteed": false
+      },
+      {
+        "name": "The Plague Doctor",
+        "wikiUrl": "https://www.realmeye.com/wiki/the-plague-doctor",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/f9KVShS.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -1672,6 +2671,33 @@
     "difficulty": 6.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Vegetarian Tiger",
+        "wikiUrl": "https://www.realmeye.com/wiki/vegetarian-tiger",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ULEuNfI.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Runic Golem",
+        "wikiUrl": "https://www.realmeye.com/wiki/runic-golem",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nuN6ri1.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Skull Knight",
+        "wikiUrl": "https://www.realmeye.com/wiki/skull-knight",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/hdsnmp8.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Jade Statue",
+        "wikiUrl": "https://www.realmeye.com/wiki/jade-and-garnet-statues",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/URY2vc0.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -1737,6 +2763,33 @@
     "difficulty": 6.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Snapdragon",
+        "wikiUrl": "https://www.realmeye.com/wiki/snapdragon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Cs5FzoT.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Hunter Dragonfly",
+        "wikiUrl": "https://www.realmeye.com/wiki/hunter-dragonfly",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fozrU6q.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Frost Dragon",
+        "wikiUrl": "https://www.realmeye.com/wiki/frost-dragon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/C86zRYn.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Rock Dragon",
+        "wikiUrl": "https://www.realmeye.com/wiki/rock-dragon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ziFj319.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -1834,6 +2887,39 @@
     "difficulty": 6.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Ghoul",
+        "wikiUrl": "https://www.realmeye.com/wiki/ghoul",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ef9ovik.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Animate Sigillaria",
+        "wikiUrl": "https://www.realmeye.com/wiki/animate-sigillaria",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/k2kSdGV.png",
+        "guaranteed": false
+      },
+      {
+        "name": "The Lich King",
+        "wikiUrl": "https://www.realmeye.com/wiki/the-lich-king",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o4BDdek.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Legion General",
+        "wikiUrl": "https://www.realmeye.com/wiki/legion-general",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/885mEDY.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Grand Sphinx",
+        "wikiUrl": "https://www.realmeye.com/wiki/grand-sphinx",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/NFmjyZF.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -1931,6 +3017,39 @@
     "difficulty": 6.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Tundra Tribe Leader",
+        "wikiUrl": "https://www.realmeye.com/wiki/tundra-tribe-leader",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OGPxgre.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Abyssal Siren",
+        "wikiUrl": "https://www.realmeye.com/wiki/abyssal-siren",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1C7KHe5.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Assembled Giant",
+        "wikiUrl": "https://www.realmeye.com/wiki/assembled-giant",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/T5i53Ta.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Astral Rift",
+        "wikiUrl": "https://www.realmeye.com/wiki/astral-rift",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9h9QU3P.gif",
+        "guaranteed": true
+      },
+      {
+        "name": "Cube God",
+        "wikiUrl": "https://www.realmeye.com/wiki/cube-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/lSbkSjv.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -2028,6 +3147,27 @@
     "difficulty": 6.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Raging Ifrit",
+        "wikiUrl": "https://www.realmeye.com/wiki/raging-ifrit",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9giVfOY.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ravenous Harpy",
+        "wikiUrl": "https://www.realmeye.com/wiki/ravenous-harpy",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ePtu0ed.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Court of Oryx",
+        "wikiUrl": "https://www.realmeye.com/wiki/court-of-oryx",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -2081,6 +3221,27 @@
     "difficulty": 6.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Rhinoceros",
+        "wikiUrl": "https://www.realmeye.com/wiki/rhinoceros",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/2WTdi4r.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Scutosaurus",
+        "wikiUrl": "https://www.realmeye.com/wiki/scutosaurus",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/YcRlTXk.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Court of Oryx",
+        "wikiUrl": "https://www.realmeye.com/wiki/court-of-oryx",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -2144,6 +3305,21 @@
     "difficulty": 6.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Hadopelagic Submersible",
+        "wikiUrl": "https://www.realmeye.com/wiki/hadopelagic-submersible",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/urhMfAj.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Court of Oryx",
+        "wikiUrl": "https://www.realmeye.com/wiki/court-of-oryx",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -2196,6 +3372,27 @@
     "difficulty": 7.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Snow Yeti",
+        "wikiUrl": "https://www.realmeye.com/wiki/snow-yeti",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yK75ttb.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Monstrous Grizzly",
+        "wikiUrl": "https://www.realmeye.com/wiki/monstrous-grizzly",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wyGXoRa.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Lord of the Lost Lands",
+        "wikiUrl": "https://www.realmeye.com/wiki/lord-of-the-lost-lands",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JVW05Vy.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -2270,6 +3467,27 @@
     "difficulty": 9.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Colossal Mantis",
+        "wikiUrl": "https://www.realmeye.com/wiki/colossal-mantis",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/eAZshkz.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alluring Blossom",
+        "wikiUrl": "https://www.realmeye.com/wiki/alluring-blossom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Pht6pFs.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ethereal Shrine",
+        "wikiUrl": "https://www.realmeye.com/wiki/ethereal-shrine",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/tcjdBlT.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -2322,6 +3540,15 @@
     "difficulty": null,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Beach Bum",
+        "wikiUrl": "https://www.realmeye.com/wiki/beach-bum",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/y3K0Z2j.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -2340,6 +3567,21 @@
     "difficulty": 7.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Corrupted Bramblethorn",
+        "wikiUrl": "https://www.realmeye.com/wiki/corrupted-bramblethorn",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/t0626nZ.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Killer Bee Nest",
+        "wikiUrl": "https://www.realmeye.com/wiki/killer-bee-nest-event-boss",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QA1xlFQ.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -2416,6 +3658,15 @@
     "difficulty": 7.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Agonized Titan",
+        "wikiUrl": "https://www.realmeye.com/wiki/agonized-titan",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/MgFBfJp.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": "(Portal opens after being defeated)",
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -2457,6 +3708,33 @@
     "difficulty": 7.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Ancient Kaiju",
+        "wikiUrl": "https://www.realmeye.com/wiki/ancient-kaiju",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/mulQIYB.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Crystal Worm Father",
+        "wikiUrl": "https://www.realmeye.com/wiki/crystal-worm-father",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K6rOQzR.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sentient Monolith",
+        "wikiUrl": "https://www.realmeye.com/wiki/sentient-monolith",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4UATSMw.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Adult Baneserpent",
+        "wikiUrl": "https://www.realmeye.com/wiki/adult-baneserpent",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UAtHD52.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -2487,6 +3765,15 @@
     "difficulty": 7.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Crystal Worm Mother",
+        "wikiUrl": "https://www.realmeye.com/wiki/crystal-worm-mother",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kC1mFqy.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -2517,6 +3804,21 @@
     "difficulty": 8.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Spectral Jailer",
+        "wikiUrl": "https://www.realmeye.com/wiki/spectral-jailer",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OyKZvW9.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Skeletal Centipede",
+        "wikiUrl": "https://www.realmeye.com/wiki/skeletal-centipede",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xullkZz.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -2635,6 +3937,21 @@
     "difficulty": 8.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Aerial Warship",
+        "wikiUrl": "https://www.realmeye.com/wiki/aerial-warship",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6xYgL1G.gif",
+        "guaranteed": false
+      },
+      {
+        "name": "Kogbold Expedition Engine",
+        "wikiUrl": "https://www.realmeye.com/wiki/kogbold-expedition-engine",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IXhCHh3.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -2653,6 +3970,27 @@
     "difficulty": 8.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Bloodroot Heart",
+        "wikiUrl": "https://www.realmeye.com/wiki/bloodroot-heart",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wUwWTc3.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ravenous Rot",
+        "wikiUrl": "https://www.realmeye.com/wiki/ravenous-rot",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/LmcZ5yr.gif",
+        "guaranteed": false
+      },
+      {
+        "name": "Lost Sentry",
+        "wikiUrl": "https://www.realmeye.com/wiki/lost-sentry",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WeGhVJI.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -2740,6 +4078,15 @@
     "difficulty": 8.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Marble Colossus",
+        "wikiUrl": "https://www.realmeye.com/wiki/marble-colossus",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CroeOAh.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": "Must use Vial of Pure Darkness to open",
     "potions": {
       "guaranteed": [
         {
@@ -2781,6 +4128,21 @@
     "difficulty": 10.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Behemoth's Egg",
+        "wikiUrl": "https://www.realmeye.com/wiki/behemoth-s-egg",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AnyLuj4.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Avatar of the Forgotten King",
+        "wikiUrl": "https://www.realmeye.com/wiki/avatar-of-the-forgotten-king",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/h13hMhw.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -2866,6 +4228,15 @@
     "difficulty": 8.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Commander Calbrik",
+        "wikiUrl": "https://www.realmeye.com/wiki/commander-calbrik",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/he3yY4r.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -2884,6 +4255,15 @@
     "difficulty": 8.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Commander Calbrik",
+        "wikiUrl": "https://www.realmeye.com/wiki/commander-calbrik",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/he3yY4r.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -2902,6 +4282,15 @@
     "difficulty": 8.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Commander Calbrik",
+        "wikiUrl": "https://www.realmeye.com/wiki/commander-calbrik",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/he3yY4r.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -2920,6 +4309,15 @@
     "difficulty": 8.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Commander Calbrik",
+        "wikiUrl": "https://www.realmeye.com/wiki/commander-calbrik",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/he3yY4r.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -2938,6 +4336,21 @@
     "difficulty": 8.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Corrupted Bramblethorn",
+        "wikiUrl": "https://www.realmeye.com/wiki/corrupted-bramblethorn",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/t0626nZ.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Killer Bee Nest",
+        "wikiUrl": "https://www.realmeye.com/wiki/killer-bee-nest-event-boss",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QA1xlFQ.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -3014,6 +4427,21 @@
     "difficulty": 9.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Aerial Warship",
+        "wikiUrl": "https://www.realmeye.com/wiki/aerial-warship",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6xYgL1G.gif",
+        "guaranteed": true
+      },
+      {
+        "name": "Kogbold Expedition Engine",
+        "wikiUrl": "https://www.realmeye.com/wiki/kogbold-expedition-engine",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IXhCHh3.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -3032,6 +4460,15 @@
     "difficulty": 3.5,
     "hasData": false,
     "error": "No 'Drops of Interest' section found",
+    "dropsFrom": [
+      {
+        "name": "Janus the Doorwarden",
+        "wikiUrl": "https://www.realmeye.com/wiki/janus-the-doorwarden",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/RfObrpY.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -3050,6 +4487,8 @@
     "difficulty": 4.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [],
+    "dropsNote": "Automatically transported into it 2 minutes after Realm closes",
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -3091,6 +4530,15 @@
     "difficulty": 4.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Red Stone Guardian",
+        "wikiUrl": "https://www.realmeye.com/wiki/stone-guardians",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/bqbYH0U.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -3132,6 +4580,15 @@
     "difficulty": 6.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Oryx the Mad God",
+        "wikiUrl": "https://www.realmeye.com/wiki/oryx-the-mad-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xQnFJqW.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": "Locked portal is a guaranteed drop Must be opened with a Wine Cellar Incantation",
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -3195,6 +4652,15 @@
     "difficulty": 9.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Oryx the Mad God 2",
+        "wikiUrl": "https://www.realmeye.com/wiki/oryx-the-mad-god-2",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dvC7X5H.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": "Oryx the Mad God 2 is guaranteed to drop three monuments that must be activated with the Oryx Runes for the Oryx’s Sanctuary portal to appear.",
     "potions": {
       "guaranteed": [
         {
@@ -3236,6 +4702,27 @@
     "difficulty": 5.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Alien UFO",
+        "wikiUrl": "https://www.realmeye.com/wiki/alien-ufo",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xgw6NU7.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Biff",
+        "wikiUrl": "https://www.realmeye.com/wiki/alien-biff",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/I7HiR2r.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Leprechaun",
+        "wikiUrl": "https://www.realmeye.com/wiki/alien-leprechaun",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/3Hi520Q.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -3266,6 +4753,27 @@
     "difficulty": 5.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Alien UFO",
+        "wikiUrl": "https://www.realmeye.com/wiki/alien-ufo",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xgw6NU7.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Biff",
+        "wikiUrl": "https://www.realmeye.com/wiki/alien-biff",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/I7HiR2r.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Leprechaun",
+        "wikiUrl": "https://www.realmeye.com/wiki/alien-leprechaun",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/3Hi520Q.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -3296,6 +4804,27 @@
     "difficulty": 5.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Alien UFO",
+        "wikiUrl": "https://www.realmeye.com/wiki/alien-ufo",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xgw6NU7.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Biff",
+        "wikiUrl": "https://www.realmeye.com/wiki/alien-biff",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/I7HiR2r.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Leprechaun",
+        "wikiUrl": "https://www.realmeye.com/wiki/alien-leprechaun",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/3Hi520Q.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -3326,6 +4855,27 @@
     "difficulty": 5.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Alien UFO",
+        "wikiUrl": "https://www.realmeye.com/wiki/alien-ufo",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xgw6NU7.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Biff",
+        "wikiUrl": "https://www.realmeye.com/wiki/alien-biff",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/I7HiR2r.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Leprechaun",
+        "wikiUrl": "https://www.realmeye.com/wiki/alien-leprechaun",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/3Hi520Q.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -3356,6 +4906,15 @@
     "difficulty": 5.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Key Fairy (mid)",
+        "wikiUrl": "https://www.realmeye.com/wiki/key-fairy",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QT8zM0P.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -3386,6 +4945,15 @@
     "difficulty": 5.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Key Fairy (mid)",
+        "wikiUrl": "https://www.realmeye.com/wiki/key-fairy",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QT8zM0P.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -3438,6 +5006,15 @@
     "difficulty": null,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Leprechaun",
+        "wikiUrl": "https://www.realmeye.com/wiki/leprechaun",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fCboAby.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -3468,6 +5045,8 @@
     "difficulty": null,
     "hasData": true,
     "error": null,
+    "dropsFrom": [],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -3498,6 +5077,15 @@
     "difficulty": 6.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Permafrost Lord",
+        "wikiUrl": "https://www.realmeye.com/wiki/permafrost-lord",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kk4AcxG.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -3528,6 +5116,8 @@
     "difficulty": 5.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -3546,6 +5136,21 @@
     "difficulty": 5.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Valentine's Flower",
+        "wikiUrl": "https://www.realmeye.com/wiki/valentine-s-flower",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dJQQwVv.png",
+        "guaranteed": true
+      },
+      {
+        "name": "The Gardener",
+        "wikiUrl": "https://www.realmeye.com/wiki/the-gardener",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/RAL8e2M.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -3564,6 +5169,15 @@
     "difficulty": 5.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Biff the Buffed Bunny",
+        "wikiUrl": "https://www.realmeye.com/wiki/biff-the-buffed-bunny",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/prGMIfR.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -3582,6 +5196,15 @@
     "difficulty": 6.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Spirit of Oryx",
+        "wikiUrl": "https://www.realmeye.com/wiki/spirit-of-oryx",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/c0bHpZz.png",
+        "guaranteed": true
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -3600,6 +5223,15 @@
     "difficulty": 6.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Swarm Spirit Snake",
+        "wikiUrl": "https://www.realmeye.com/wiki/swarm-spirit-snake",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AMtf9Dk.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -3729,6 +5361,15 @@
     "difficulty": 6.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "The Festival Overseer",
+        "wikiUrl": "https://www.realmeye.com/wiki/the-keyper",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/i3T6Ms6.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -3747,6 +5388,15 @@
     "difficulty": 7.0,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Shady Vagrant",
+        "wikiUrl": "https://www.realmeye.com/wiki/shady-vagrant",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FJic2jE.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": "Key is required",
     "potions": {
       "guaranteed": [
         {
@@ -3788,6 +5438,15 @@
     "difficulty": 7.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Primal Snake (Realm)",
+        "wikiUrl": "https://www.realmeye.com/wiki/primal-snake-realm",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AkM3Mfq.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [
         {
@@ -3874,6 +5533,15 @@
     "difficulty": null,
     "hasData": false,
     "error": "No 'Drops of Interest' section found",
+    "dropsFrom": [
+      {
+        "name": "Keyper of the Arena",
+        "wikiUrl": "https://www.realmeye.com/wiki/oryxmania",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/MLdT3BY.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -3892,6 +5560,15 @@
     "difficulty": 8.5,
     "hasData": true,
     "error": null,
+    "dropsFrom": [
+      {
+        "name": "Altar of the White Snake",
+        "wikiUrl": "https://www.realmeye.com/wiki/altar-of-the-white-snake",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/eceoGvW.png",
+        "guaranteed": false
+      }
+    ],
+    "dropsNote": "Requires 10 x Divine Coin",
     "potions": {
       "guaranteed": [],
       "possible": [
@@ -3933,6 +5610,8 @@
     "difficulty": null,
     "hasData": true,
     "error": null,
+    "dropsFrom": [],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -3951,6 +5630,8 @@
     "difficulty": null,
     "hasData": true,
     "error": null,
+    "dropsFrom": [],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -3969,6 +5650,8 @@
     "difficulty": null,
     "hasData": false,
     "error": "No 'Drops of Interest' section found",
+    "dropsFrom": [],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []
@@ -3987,6 +5670,8 @@
     "difficulty": 9.0,
     "hasData": false,
     "error": "No 'Drops of Interest' section found",
+    "dropsFrom": [],
+    "dropsNote": null,
     "potions": {
       "guaranteed": [],
       "possible": []

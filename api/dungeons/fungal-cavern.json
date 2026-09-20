@@ -7,6 +7,33 @@
   "difficulty": 7.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Ancient Kaiju",
+      "wikiUrl": "https://www.realmeye.com/wiki/ancient-kaiju",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/mulQIYB.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Crystal Worm Father",
+      "wikiUrl": "https://www.realmeye.com/wiki/crystal-worm-father",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/K6rOQzR.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Sentient Monolith",
+      "wikiUrl": "https://www.realmeye.com/wiki/sentient-monolith",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/4UATSMw.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Adult Baneserpent",
+      "wikiUrl": "https://www.realmeye.com/wiki/adult-baneserpent",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/UAtHD52.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

@@ -7,6 +7,15 @@
   "difficulty": 6.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Permafrost Lord",
+      "wikiUrl": "https://www.realmeye.com/wiki/permafrost-lord",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/kk4AcxG.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": [

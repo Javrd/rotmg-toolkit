@@ -7,6 +7,33 @@
   "difficulty": 2.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Sunken Soul",
+      "wikiUrl": "https://www.realmeye.com/wiki/sunken-soul",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/TssoclO.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Silvery Narwhal",
+      "wikiUrl": "https://www.realmeye.com/wiki/silvery-narwhal",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/SVCbQGI.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Djinn",
+      "wikiUrl": "https://www.realmeye.com/wiki/djinn",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/zsNVsTC.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Washed-Up Captain",
+      "wikiUrl": "https://www.realmeye.com/wiki/washed-up-captain",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/NfU1Jhh.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": [

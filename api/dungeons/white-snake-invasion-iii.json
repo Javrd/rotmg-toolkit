@@ -7,6 +7,15 @@
   "difficulty": 8.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Altar of the White Snake",
+      "wikiUrl": "https://www.realmeye.com/wiki/altar-of-the-white-snake",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/eceoGvW.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": "Requires 10 x Divine Coin",
   "potions": {
     "guaranteed": [],
     "possible": [

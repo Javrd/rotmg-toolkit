@@ -7,6 +7,21 @@
   "difficulty": 4.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Headless Horseman",
+      "wikiUrl": "https://www.realmeye.com/wiki/headless-horseman",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/gcDPAA2.png",
+      "guaranteed": true
+    },
+    {
+      "name": "Lantern Holder",
+      "wikiUrl": "https://www.realmeye.com/wiki/lantern-holder",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/svVRCId.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": [

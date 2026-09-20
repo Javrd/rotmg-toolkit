@@ -7,6 +7,15 @@
   "difficulty": 7.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Agonized Titan",
+      "wikiUrl": "https://www.realmeye.com/wiki/agonized-titan",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/MgFBfJp.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": "(Portal opens after being defeated)",
   "potions": {
     "guaranteed": [],
     "possible": [

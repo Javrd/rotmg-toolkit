@@ -7,6 +7,45 @@
   "difficulty": 5.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Bloodroot Treant",
+      "wikiUrl": "https://www.realmeye.com/wiki/bloodroot-treant",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/ObezI6H.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Man-Eating Flytrap",
+      "wikiUrl": "https://www.realmeye.com/wiki/man-eating-flytrap",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hZlHOrn.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Great Owl",
+      "wikiUrl": "https://www.realmeye.com/wiki/great-owl",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/Y8nFAa6.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Hornet's Nest",
+      "wikiUrl": "https://www.realmeye.com/wiki/hornet-s-nest",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/SkxWB5V.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Possessed Pumpkin",
+      "wikiUrl": "https://www.realmeye.com/wiki/possessed-pumpkin",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/fAw3so9.png",
+      "guaranteed": true
+    },
+    {
+      "name": "Legion Head Researcher",
+      "wikiUrl": "https://www.realmeye.com/wiki/legion-head-researcher",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/fInWlER.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

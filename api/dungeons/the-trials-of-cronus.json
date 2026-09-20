@@ -7,6 +7,15 @@
   "difficulty": 6.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "The Festival Overseer",
+      "wikiUrl": "https://www.realmeye.com/wiki/the-keyper",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/i3T6Ms6.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": []

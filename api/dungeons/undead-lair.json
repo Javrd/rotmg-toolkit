@@ -7,6 +7,45 @@
   "difficulty": 3.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Skeleton Worshipper",
+      "wikiUrl": "https://www.realmeye.com/wiki/skeleton-worshipper",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/K9bC79T.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Skeleton of the Damned",
+      "wikiUrl": "https://www.realmeye.com/wiki/skeleton-of-the-damned",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/JIYZ9Gz.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Undead Pirate",
+      "wikiUrl": "https://www.realmeye.com/wiki/undead-pirate",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/4UwUjQl.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Burning Bones",
+      "wikiUrl": "https://www.realmeye.com/wiki/burning-bones",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/e7r55Uw.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Ghost God",
+      "wikiUrl": "https://www.realmeye.com/wiki/ghost-god",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/MsLoDDH.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Flesh Golem",
+      "wikiUrl": "https://www.realmeye.com/wiki/flesh-golem",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/Qyl20K2.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

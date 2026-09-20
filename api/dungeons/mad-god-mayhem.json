@@ -7,6 +7,15 @@
   "difficulty": 6.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Spirit of Oryx",
+      "wikiUrl": "https://www.realmeye.com/wiki/spirit-of-oryx",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/c0bHpZz.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": []

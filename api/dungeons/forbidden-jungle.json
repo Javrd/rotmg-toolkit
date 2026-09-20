@@ -7,6 +7,27 @@
   "difficulty": 1.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Black Bat",
+      "wikiUrl": "https://www.realmeye.com/wiki/black-bat",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/bn7z6kv.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Earth Golem",
+      "wikiUrl": "https://www.realmeye.com/wiki/earth-golem",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/4RoR4cd.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Great Coil Snake",
+      "wikiUrl": "https://www.realmeye.com/wiki/great-coil-snake",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/nruKDMt.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": []

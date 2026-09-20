@@ -7,6 +7,69 @@
   "difficulty": 1.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Pirate",
+      "wikiUrl": "https://www.realmeye.com/wiki/pirate",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/6RB5bPH.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Piratess",
+      "wikiUrl": "https://www.realmeye.com/wiki/piratess",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/TvKkylZ.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Little Green Jelly",
+      "wikiUrl": "https://www.realmeye.com/wiki/little-green-jelly",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/dPclbJL.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Little Blue Jelly",
+      "wikiUrl": "https://www.realmeye.com/wiki/little-blue-jelly",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/VfDOdX2.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Little Pink Jelly",
+      "wikiUrl": "https://www.realmeye.com/wiki/little-pink-jelly",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/W4HIUMZ.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Giant Crab",
+      "wikiUrl": "https://www.realmeye.com/wiki/giant-crab",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/jalk6uI.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Sand Devil",
+      "wikiUrl": "https://www.realmeye.com/wiki/sand-devil",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/12FF7VX.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Goblin Warrior",
+      "wikiUrl": "https://www.realmeye.com/wiki/goblin-warrior",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/Plg4dlO.png",
+      "guaranteed": false
+    },
+    {
+      "name": "X Treasure Chest",
+      "wikiUrl": "https://www.realmeye.com/wiki/x-treasure-chest",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/tT7s03W.png",
+      "guaranteed": true
+    },
+    {
+      "name": "Beached Buccaneer",
+      "wikiUrl": "https://www.realmeye.com/wiki/beached-buccaneer",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/8T4kLg0.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": []

@@ -7,6 +7,45 @@
   "difficulty": 4.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Revenant",
+      "wikiUrl": "https://www.realmeye.com/wiki/revenant",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/M0ACVkd.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Creepy Beholder",
+      "wikiUrl": "https://www.realmeye.com/wiki/creepy-beholder",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/rpRtJqg.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Harrowed Fiend",
+      "wikiUrl": "https://www.realmeye.com/wiki/harrowed-fiend",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/a2vCO14.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Beholder",
+      "wikiUrl": "https://www.realmeye.com/wiki/beholder",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/WzYegWb.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Shady Sect Leader",
+      "wikiUrl": "https://www.realmeye.com/wiki/shady-sect-leader",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/iS69XJ8.png",
+      "guaranteed": true
+    },
+    {
+      "name": "Legion Excavator",
+      "wikiUrl": "https://www.realmeye.com/wiki/legion-excavator",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3c7KOQE.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

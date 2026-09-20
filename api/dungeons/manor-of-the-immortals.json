@@ -7,6 +7,27 @@
   "difficulty": 4.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Flying Vampire",
+      "wikiUrl": "https://www.realmeye.com/wiki/flying-vampire",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/T2X9ydr.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Cerberus",
+      "wikiUrl": "https://www.realmeye.com/wiki/cerberus",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/BNZ34Hc.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Kage Kami",
+      "wikiUrl": "https://www.realmeye.com/wiki/kage-kami",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wnOL9lq.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

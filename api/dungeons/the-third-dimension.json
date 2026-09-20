@@ -7,6 +7,39 @@
   "difficulty": 6.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Tundra Tribe Leader",
+      "wikiUrl": "https://www.realmeye.com/wiki/tundra-tribe-leader",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/OGPxgre.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Abyssal Siren",
+      "wikiUrl": "https://www.realmeye.com/wiki/abyssal-siren",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/1C7KHe5.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Assembled Giant",
+      "wikiUrl": "https://www.realmeye.com/wiki/assembled-giant",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/T5i53Ta.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Astral Rift",
+      "wikiUrl": "https://www.realmeye.com/wiki/astral-rift",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/9h9QU3P.gif",
+      "guaranteed": true
+    },
+    {
+      "name": "Cube God",
+      "wikiUrl": "https://www.realmeye.com/wiki/cube-god",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/lSbkSjv.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

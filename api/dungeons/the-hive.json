@@ -7,6 +7,27 @@
   "difficulty": 2.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Wasp Queen",
+      "wikiUrl": "https://www.realmeye.com/wiki/wasp-queen",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/2UaXl2c.png",
+      "guaranteed": true
+    },
+    {
+      "name": "Warrior Bee",
+      "wikiUrl": "https://www.realmeye.com/wiki/warrior-bee",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/QEVkQMw.png",
+      "guaranteed": true
+    },
+    {
+      "name": "Legion Surveyor",
+      "wikiUrl": "https://www.realmeye.com/wiki/legion-surveyor",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/MJzNxHC.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": [

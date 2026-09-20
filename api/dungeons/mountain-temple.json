@@ -7,6 +7,33 @@
   "difficulty": 6.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Vegetarian Tiger",
+      "wikiUrl": "https://www.realmeye.com/wiki/vegetarian-tiger",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/ULEuNfI.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Runic Golem",
+      "wikiUrl": "https://www.realmeye.com/wiki/runic-golem",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/nuN6ri1.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Skull Knight",
+      "wikiUrl": "https://www.realmeye.com/wiki/skull-knight",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hdsnmp8.png",
+      "guaranteed": true
+    },
+    {
+      "name": "Jade Statue",
+      "wikiUrl": "https://www.realmeye.com/wiki/jade-and-garnet-statues",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/URY2vc0.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

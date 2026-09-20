@@ -7,6 +7,57 @@
   "difficulty": 3.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Dark Elf Queen",
+      "wikiUrl": "https://www.realmeye.com/wiki/dark-elf-queen",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/vkZQH6B.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Hunter Centaur",
+      "wikiUrl": "https://www.realmeye.com/wiki/hunter-centaur",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/FHu04id.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Minotaur",
+      "wikiUrl": "https://www.realmeye.com/wiki/minotaur",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/alTGxSm.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Flayer God",
+      "wikiUrl": "https://www.realmeye.com/wiki/flayer-god",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/QR6UKxd.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Ghastly Nun",
+      "wikiUrl": "https://www.realmeye.com/wiki/ghastly-nun",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/PviXdWa.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Drowned Sailor",
+      "wikiUrl": "https://www.realmeye.com/wiki/drowned-sailor",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/kJi4QNR.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Nameless Gladiator",
+      "wikiUrl": "https://www.realmeye.com/wiki/nameless-gladiator",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZoBkY9s.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Sword in the Stone",
+      "wikiUrl": "https://www.realmeye.com/wiki/sword-in-the-stone",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/F89B6nN.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

@@ -7,6 +7,27 @@
   "difficulty": 9.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Colossal Mantis",
+      "wikiUrl": "https://www.realmeye.com/wiki/colossal-mantis",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/eAZshkz.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Alluring Blossom",
+      "wikiUrl": "https://www.realmeye.com/wiki/alluring-blossom",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/Pht6pFs.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Ethereal Shrine",
+      "wikiUrl": "https://www.realmeye.com/wiki/ethereal-shrine",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/tcjdBlT.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

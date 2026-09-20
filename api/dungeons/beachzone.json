@@ -7,6 +7,15 @@
   "difficulty": null,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Beach Bum",
+      "wikiUrl": "https://www.realmeye.com/wiki/beach-bum",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/y3K0Z2j.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": []

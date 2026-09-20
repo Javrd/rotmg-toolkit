@@ -24,6 +24,17 @@ No hay pip/venv disponibles en este NUC (sin `python3-venv`, sin acceso
     mapa o una captura. Es **solo** un fallback: donde la lista trae
     icono, ese manda, porque unas pocas páginas muestran una variante
     animada `.gif` o arte distinto del que ya usa el resto del sitio.
+    Cada mazmorra lleva además `drops_from` y `drops_note`, sacados de la
+    columna "Drops From" de esa misma tabla por `get_dungeon_drops_from()`:
+    una mazmorra ocupa varias `<tr>` cuando su portal tiene más de un tipo
+    de fuente (la primera fila, con `rowspan`, trae el nombre y los
+    enemigos normales; cada fila de continuación es una sola celda
+    "sprites + `<br>` + texto"). Si el texto de la fila menciona
+    "guaranteed" sus sprites se marcan `guaranteed: true`; cualquier otro
+    texto ("Key is required", "Must use Vial of Pure Darkness to open",
+    "Automatically transported into it 2 minutes after Realm closes"...)
+    se guarda como `drops_note`. Las filas cuyo texto es literalmente
+    "None" (Santa's Workshop, Chess...) quedan sin fuentes ni nota.
   - `scrape_dungeon(name, href)`: para una mazmorra, parsea la sección
     "Drops of Interest" y las secciones cuyo título contiene "boss"
     (jefe principal) o "treasure room" + "boss" (jefe de sala del
@@ -76,7 +87,9 @@ No hay pip/venv disponibles en este NUC (sin `python3-venv`, sin acceso
   `scraper.py`), `main.garantizados`, `main.extra`,
   `treasure.garantizados`, `treasure.extra` — cada entrada de esas
   listas es `{name, type, icon, guaranteed, label, source_name,
-  source_href, source_icon}` — más `error` si la página no tiene
+  source_href, source_icon}` —, `drops_from` (`[{name, href, icon,
+  guaranteed}]`, los monstruos que sueltan el portal) y `drops_note`,
+  más `error` si la página no tiene
   sección "Drops of Interest" (mazmorras sin combate como Chess, Admin
   Arena, o páginas aún poco documentadas). `type` es la poción
   normalizada (`potion_type()` en `scraper.py`: quita "Greater"/"(SB)"
@@ -117,6 +130,40 @@ No hay pip/venv disponibles en este NUC (sin `python3-venv`, sin acceso
   `python3 scraper.py biomes data/biome_potions.json` (~23 biomas, unos
   300 enemigos individuales — la mayoría ya en caché tras el primer
   scrape de mazmorras si coinciden con bosses ya vistos).
+
+## Tooltip "drops from" (quién suelta cada portal)
+
+Toda mazmorra que se pinte en cualquier sitio de la página — tarjeta de la
+pestaña Dungeons, fila de la Fame Checklist y fila del buscador rápido —
+lleva junto al nombre un chip `.drops-from` (hasta tres sprites
+superpuestos y un `+N`) que al pasar el ratón, enfocar o pulsar abre **un
+único** tooltip flotante `#dropsTip` con el sprite de cada monstruo que
+suelta el portal (enlazado a su página de la wiki), los garantizados
+resaltados en verde con una "G", y la `drops_note` de la wiki si la hay.
+Pasar el ratón previsualiza; el clic (y por tanto el toque en móvil) lo
+deja fijo hasta Escape, un clic fuera o abrir otro chip.
+
+- Los datos viven **una sola vez** en `<script type="application/json"
+  id="dropsData">` (`collect_drops()` en `build_html.py`: nombre →
+  `{sources, note}`, unión de `dungeon_potions.json` y de las entradas de
+  `fame_bonuses.json`, que arrastran el mismo `drops_from` desde
+  `get_dungeon_list()`). El chip referencia esos datos por `data-dungeon`,
+  la misma clave por nombre que ya usa la sincronización de la checklist.
+- `render_drops_trigger()` en Python solo emite un `<button>` vacío (y solo
+  si hay fuentes o nota); el cliente lo rellena con `fillDropsChip()`. Así
+  el mismo renderizador sirve para las filas que el buscador rápido crea
+  en JS (`dropsChip()`), sin duplicar la plantilla del chip en dos
+  lenguajes.
+- Es un `<button type="button">` y su clic hace `preventDefault()`: dentro
+  del `<label>` de una fila de la checklist, un clic en un `<span>` habría
+  marcado el checkbox.
+- `.drops-tip` lleva `width` explícito, no `max-width`: una caja `fixed`
+  que encoge al contenido da al grid `auto-fill` una sola columna y el
+  tooltip salía alto y estrecho. Se recoloca en scroll/resize y se
+  invierte encima del chip cuando no cabe debajo.
+- La suite de `npm test` cubre chip en los tres sitios, hover/pin/Escape,
+  que el clic no marca el checkbox, y que el tooltip queda dentro del
+  viewport.
 
 ## Cómo se decide "Guaranteed" vs "Possible"
 
@@ -278,7 +325,7 @@ unidad es un contador de completadas, no un booleano — ver
   `requirement` ("Complete each 1 time"), `subtitle` ("Wild Shadow era
   dungeons"), `bonus` (texto tal cual, `+7.5%, +3,000 Fame`), `fame` y
   `percent` ya parseados, y `dungeons` = `[{name, href, icon,
-  difficulty}]`. La celda
+  difficulty, drops_from, drops_note}]`. La celda
   "Threshold" de la wiki empaqueta requisito, etiqueta del conjunto y
   lista de mazmorras separados por `<br>` dentro de una sola casilla, así
   que `scrape_fame_collections()` la trocea por `<br>`: los dos primeros
@@ -338,7 +385,7 @@ unidad es un contador de completadas, no un booleano — ver
 real** vía `playwright-core` y comprueba la Fame Checklist entera: el
 desplegable, el filtrado, marcar desde los dos sitios, la sincronización
 entre secciones, el progreso, la persistencia tras recargar, el botón
-Clear all y un viewport de 400px. Las asserts miran `:visible`, no el
+Clear all, los tooltips "drops from" y un viewport de 400px. Las asserts miran `:visible`, no el
 atributo o la clase que debería ocultar algo: es la única forma de
 detectar bugs de cascada CSS, y jsdom da respuestas falsas sobre eso
 ([[0010-hidden-attribute-loses-to-author-display]] explica el caso y cómo

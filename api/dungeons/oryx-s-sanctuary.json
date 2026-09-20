@@ -7,6 +7,15 @@
   "difficulty": 9.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Oryx the Mad God 2",
+      "wikiUrl": "https://www.realmeye.com/wiki/oryx-the-mad-god-2",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/dvC7X5H.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": "Oryx the Mad God 2 is guaranteed to drop three monuments that must be activated with the Oryx Runes for the Oryx’s Sanctuary portal to appear.",
   "potions": {
     "guaranteed": [
       {

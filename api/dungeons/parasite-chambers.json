@@ -7,6 +7,27 @@
   "difficulty": 5.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Blood Ooze",
+      "wikiUrl": "https://www.realmeye.com/wiki/blood-ooze",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/YyO7dl6.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Abyssal Kraken",
+      "wikiUrl": "https://www.realmeye.com/wiki/abyssal-kraken",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/yGlZV4N.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Scout Colony",
+      "wikiUrl": "https://www.realmeye.com/wiki/scout-colony",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/Kp2XYfV.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

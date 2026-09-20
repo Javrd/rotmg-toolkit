@@ -45,6 +45,15 @@ What potions each dungeon can drop, and whether they're guaranteed.
   "difficulty": 5.5,                  // 0-10, steps of 0.5; null if not listed
   "hasData": true,                    // false for non-combat pages (Chess, Admin Arena, ...)
   "error": null,                      // reason, when hasData is false
+  "dropsFrom": [                      // the monsters whose kill can open this dungeon's portal
+    {                                 // (the "Drops From" column of /wiki/dungeons); [] if none
+      "name": "Bloodroot Treant",
+      "wikiUrl": "https://www.realmeye.com/wiki/bloodroot-treant",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/ObezI6H.png",
+      "guaranteed": false             // true when the wiki lists it as a guaranteed portal drop
+    }
+  ],
+  "dropsNote": null,                  // the wiki's free-text caveat, e.g. "Key is required"
   "potions": {
     "guaranteed": [ /* potion entries, see below */ ],
     "possible": [ /* can drop, but not guaranteed */ ]

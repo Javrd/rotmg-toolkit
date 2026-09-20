@@ -7,6 +7,51 @@
   "difficulty": 3.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Pumpkin Brute",
+      "wikiUrl": "https://www.realmeye.com/wiki/pumpkin-brute",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/erbJRw8.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Evergreen Sprite",
+      "wikiUrl": "https://www.realmeye.com/wiki/evergreen-sprite",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/nZkJx5h.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Ocean Spirit",
+      "wikiUrl": "https://www.realmeye.com/wiki/ocean-spirit",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/5sLYpPO.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Ent God",
+      "wikiUrl": "https://www.realmeye.com/wiki/ent-god",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/fd1ypSY.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Elder Sprite Tree",
+      "wikiUrl": "https://www.realmeye.com/wiki/elder-sprite-tree",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/SLz7NFz.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Ent Ancient",
+      "wikiUrl": "https://www.realmeye.com/wiki/ent-ancient",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/CNCBqRg.png",
+      "guaranteed": true
+    },
+    {
+      "name": "Legion Scout Master",
+      "wikiUrl": "https://www.realmeye.com/wiki/legion-scout-master",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/cXmiamn.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

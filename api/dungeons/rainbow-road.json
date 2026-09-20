@@ -7,6 +7,15 @@
   "difficulty": null,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Leprechaun",
+      "wikiUrl": "https://www.realmeye.com/wiki/leprechaun",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/fCboAby.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": [

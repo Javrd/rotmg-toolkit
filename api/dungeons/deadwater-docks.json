@@ -7,6 +7,39 @@
   "difficulty": 5.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Snow Wolf",
+      "wikiUrl": "https://www.realmeye.com/wiki/snow-wolf",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/i7zZGEV.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Corsair Crab",
+      "wikiUrl": "https://www.realmeye.com/wiki/corsair-crab",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/69wUhF5.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Bilgewater’s Galleon",
+      "wikiUrl": "https://www.realmeye.com/wiki/bilgewater-s-galleon",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wmrq7Fz.png",
+      "guaranteed": true
+    },
+    {
+      "name": "Crab Sovereign",
+      "wikiUrl": "https://www.realmeye.com/wiki/crab-sovereign",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/zuZokkc.png",
+      "guaranteed": true
+    },
+    {
+      "name": "Legion Watchmaster",
+      "wikiUrl": "https://www.realmeye.com/wiki/legion-watchmaster",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/DQuJ4JE.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

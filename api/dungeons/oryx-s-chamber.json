@@ -7,6 +7,15 @@
   "difficulty": 4.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Red Stone Guardian",
+      "wikiUrl": "https://www.realmeye.com/wiki/stone-guardians",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/bqbYH0U.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": [

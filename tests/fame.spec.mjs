@@ -171,6 +171,62 @@ await page.click('#fameSearch');
 check('no picker row checked',
   await page.locator('.fame-result .fame-result-check:checked').count() === 0);
 
+section('"dropped by" tooltips');
+await page.click('h1');
+const tip = page.locator('#dropsTip');
+check('tooltip hidden until asked', !(await tip.isVisible()));
+const chip = page.locator('.fame-item[data-dungeon="Pirate Cave"] .drops-from').first();
+check('fame items carry a chip', await chip.count() === 1);
+check('chip previews up to 3 sprites and a count',
+  await chip.locator('img').count() === 3 && (await chip.locator('.drops-more').textContent()) === '+7',
+  await chip.innerHTML());
+await chip.hover();
+check('hover shows the tooltip', await tip.isVisible());
+check('tooltip names the dungeon', (await tip.locator('.drops-tip-title b').textContent()) === 'Pirate Cave');
+check('one sprite per source monster', await tip.locator('.drops-src').count() === 10,
+  await tip.locator('.drops-src').count());
+check('guaranteed sources are marked', await tip.locator('.drops-src.g').count() === 2,
+  await tip.locator('.drops-src.g').count());
+check('sprites link to the monster page',
+  (await tip.locator('.drops-src').first().getAttribute('href')) === 'https://www.realmeye.com/wiki/pirate');
+check('tooltip stays inside the viewport',
+  await tip.evaluate(el => { const r = el.getBoundingClientRect();
+    return r.left >= 0 && r.right <= window.innerWidth && r.top >= 0 && r.bottom <= window.innerHeight; }));
+await page.mouse.move(0, 0);
+await page.waitForTimeout(300);
+check('leaving the chip hides it again', !(await tip.isVisible()));
+await chip.click();
+check('a click pins it', await tip.isVisible());
+check('and does not tick the checkbox',
+  !(await page.locator('.fame-item[data-dungeon="Pirate Cave"] .fame-check').first().isChecked()));
+await page.mouse.move(0, 0);
+await page.waitForTimeout(300);
+check('pinned tooltip survives the mouse leaving', await tip.isVisible());
+await page.keyboard.press('Escape');
+check('Escape closes it', !(await tip.isVisible()));
+await page.locator('.fame-item[data-dungeon="Oryx’s Castle"] .drops-from').first().hover();
+check('a dungeon with no monsters shows its note instead',
+  await tip.locator('.drops-src').count() === 0 && (await tip.locator('.drops-note').textContent()).includes('Realm closes'));
+await page.mouse.move(0, 0);
+await page.click('#fameSearch');
+await page.fill('#fameSearch', 'snake');
+const pickerChip = visibleRows().first().locator('.drops-from');
+check('picker rows carry a chip too', await pickerChip.count() === 1);
+await pickerChip.hover();
+check('and it opens the same tooltip', await tip.isVisible()
+  && (await tip.locator('.drops-tip-title b').textContent()) === 'Snake Pit');
+await page.keyboard.press('Escape');
+await page.keyboard.press('Escape');
+await page.keyboard.press('Escape');
+await page.click('.pagetab[data-page="potions"]');
+const cardChip = page.locator('.card[data-name="snake pit"] .drops-from');
+check('potion cards carry a chip', await cardChip.count() === 1);
+await cardChip.hover();
+check('card chip opens the tooltip', await tip.isVisible()
+  && (await tip.locator('.drops-tip-title b').textContent()) === 'Snake Pit');
+await page.mouse.move(0, 0);
+await page.waitForTimeout(300);
+
 section('narrow viewport (400px)');
 await page.setViewportSize({ width: 400, height: 800 });
 await openFame();

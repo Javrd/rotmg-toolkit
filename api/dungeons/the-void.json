@@ -7,6 +7,15 @@
   "difficulty": 8.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Marble Colossus",
+      "wikiUrl": "https://www.realmeye.com/wiki/marble-colossus",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/CroeOAh.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": "Must use Vial of Pure Darkness to open",
   "potions": {
     "guaranteed": [
       {

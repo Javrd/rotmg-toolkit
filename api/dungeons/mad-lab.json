@@ -7,6 +7,33 @@
   "difficulty": 4.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Banshee",
+      "wikiUrl": "https://www.realmeye.com/wiki/banshee",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/R3aZQAq.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Hazardous Sprite",
+      "wikiUrl": "https://www.realmeye.com/wiki/hazardous-sprite",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/lnrhXiW.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Flying Brain",
+      "wikiUrl": "https://www.realmeye.com/wiki/flying-brain",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZXe25P1.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Artificial Sprite God",
+      "wikiUrl": "https://www.realmeye.com/wiki/artificial-sprite-god",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/JHY5nb6.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

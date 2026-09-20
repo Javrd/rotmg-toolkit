@@ -7,6 +7,21 @@
   "difficulty": 6.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Hadopelagic Submersible",
+      "wikiUrl": "https://www.realmeye.com/wiki/hadopelagic-submersible",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/urhMfAj.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Court of Oryx",
+      "wikiUrl": "https://www.realmeye.com/wiki/court-of-oryx",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": [

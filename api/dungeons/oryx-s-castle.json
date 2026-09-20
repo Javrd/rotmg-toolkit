@@ -7,6 +7,8 @@
   "difficulty": 4.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [],
+  "dropsNote": "Automatically transported into it 2 minutes after Realm closes",
   "potions": {
     "guaranteed": [],
     "possible": [

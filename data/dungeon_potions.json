@@ -13,7 +13,70 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Pirate",
+        "href": "/wiki/pirate",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6RB5bPH.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Piratess",
+        "href": "/wiki/piratess",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/TvKkylZ.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Little Green Jelly",
+        "href": "/wiki/little-green-jelly",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dPclbJL.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Little Blue Jelly",
+        "href": "/wiki/little-blue-jelly",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VfDOdX2.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Little Pink Jelly",
+        "href": "/wiki/little-pink-jelly",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/W4HIUMZ.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Giant Crab",
+        "href": "/wiki/giant-crab",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/jalk6uI.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sand Devil",
+        "href": "/wiki/sand-devil",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/12FF7VX.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Goblin Warrior",
+        "href": "/wiki/goblin-warrior",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Plg4dlO.png",
+        "guaranteed": false
+      },
+      {
+        "name": "X Treasure Chest",
+        "href": "/wiki/x-treasure-chest",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/tT7s03W.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Beached Buccaneer",
+        "href": "/wiki/beached-buccaneer",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/8T4kLg0.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Forest Maze",
@@ -29,7 +92,70 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Forest Nymph",
+        "href": "/wiki/forest-nymph",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/M64Eqj5.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Goblin Mage",
+        "href": "/wiki/goblin-mage",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/gqia2Yg.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Elf Wizard",
+        "href": "/wiki/elf-wizard",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZHd1IUa.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Hobbit Mage",
+        "href": "/wiki/hobbit-mage",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6YBPvN7.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Undead Hobbit Mage",
+        "href": "/wiki/undead-hobbit-mage",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AfO1gx9.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sandsman King",
+        "href": "/wiki/sandsman-king",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vmte2d9.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Dwarf King",
+        "href": "/wiki/dwarf-king",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xOnNSmc.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Drake Baby",
+        "href": "/wiki/drake-baby",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/VrqV4cy.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Enraged Bunny",
+        "href": "/wiki/enraged-bunny",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WonwqPA.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Skeleton",
+        "href": "/wiki/skeleton",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/rjfb3W5.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Spider Den",
@@ -45,7 +171,46 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Orc King",
+        "href": "/wiki/orc-king",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kMsAEZh.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Werelion",
+        "href": "/wiki/werelion",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4MMYrwZ.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Big Ladybug",
+        "href": "/wiki/big-ladybug",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/X9kRJer.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Shambling Sludge",
+        "href": "/wiki/shambling-sludge",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dpPPsdF.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Swarm",
+        "href": "/wiki/swarm",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/5VmgNfm.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Desert Werewolf",
+        "href": "/wiki/desert-werewolf",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oee3uaB.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Forbidden Jungle",
@@ -61,7 +226,28 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Black Bat",
+        "href": "/wiki/black-bat",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/bn7z6kv.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Earth Golem",
+        "href": "/wiki/earth-golem",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4RoR4cd.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Great Coil Snake",
+        "href": "/wiki/great-coil-snake",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nruKDMt.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "The Hive",
@@ -88,7 +274,28 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Wasp Queen",
+        "href": "/wiki/wasp-queen",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/2UaXl2c.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Warrior Bee",
+        "href": "/wiki/warrior-bee",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QEVkQMw.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Legion Surveyor",
+        "href": "/wiki/legion-surveyor",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/MJzNxHC.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Snake Pit",
@@ -126,7 +333,58 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Lizard God",
+        "href": "/wiki/lizard-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/iNGzLhe.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Undead Dwarf God",
+        "href": "/wiki/undead-dwarf-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/5eEQCxt.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ogre King",
+        "href": "/wiki/ogre-king",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/J5rp9LL.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Zombie Cleric",
+        "href": "/wiki/zombie-cleric",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vgra13e.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Werewolf Berserker",
+        "href": "/wiki/werewolf-berserker",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oykz2dn.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Flying Seahorse",
+        "href": "/wiki/flying-seahorse",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oLU7p8d.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Medusa",
+        "href": "/wiki/medusa",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wVEzOjp.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Insurgent Rebel Commander",
+        "href": "/wiki/insurgent-rebel-commander",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/YqoSZTR.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Sprite World",
@@ -174,7 +432,34 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Sprite Beast",
+        "href": "/wiki/sprite-beast",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/3s8ZpGC.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sprite Child",
+        "href": "/wiki/sprite-child",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CqZkwKa.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Celestial Sprite",
+        "href": "/wiki/celestial-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/lwKQrCQ.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Cosmic Sprite",
+        "href": "/wiki/cosmic-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wq3JfnB.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Cave of a Thousand Treasures",
@@ -201,7 +486,34 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Sunken Soul",
+        "href": "/wiki/sunken-soul",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/TssoclO.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Silvery Narwhal",
+        "href": "/wiki/silvery-narwhal",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SVCbQGI.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Djinn",
+        "href": "/wiki/djinn",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zsNVsTC.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Washed-Up Captain",
+        "href": "/wiki/washed-up-captain",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/NfU1Jhh.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Ancient Ruins",
@@ -239,7 +551,58 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Dark Elf Queen",
+        "href": "/wiki/dark-elf-queen",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vkZQH6B.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Hunter Centaur",
+        "href": "/wiki/hunter-centaur",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FHu04id.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Minotaur",
+        "href": "/wiki/minotaur",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/alTGxSm.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Flayer God",
+        "href": "/wiki/flayer-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QR6UKxd.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ghastly Nun",
+        "href": "/wiki/ghastly-nun",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/PviXdWa.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Drowned Sailor",
+        "href": "/wiki/drowned-sailor",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kJi4QNR.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Nameless Gladiator",
+        "href": "/wiki/nameless-gladiator",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZoBkY9s.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sword in the Stone",
+        "href": "/wiki/sword-in-the-stone",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/F89B6nN.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Magic Woods",
@@ -276,7 +639,52 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Pumpkin Brute",
+        "href": "/wiki/pumpkin-brute",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/erbJRw8.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Evergreen Sprite",
+        "href": "/wiki/evergreen-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nZkJx5h.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ocean Spirit",
+        "href": "/wiki/ocean-spirit",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/5sLYpPO.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ent God",
+        "href": "/wiki/ent-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fd1ypSY.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Elder Sprite Tree",
+        "href": "/wiki/elder-sprite-tree",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SLz7NFz.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ent Ancient",
+        "href": "/wiki/ent-ancient",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CNCBqRg.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Legion Scout Master",
+        "href": "/wiki/legion-scout-master",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/cXmiamn.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Candyland Hunting Grounds",
@@ -354,7 +762,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Candy Gnome",
+        "href": "/wiki/candy-gnome",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/n2lGALm.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Undead Lair",
@@ -392,7 +809,46 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Skeleton Worshipper",
+        "href": "/wiki/skeleton-worshipper",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K9bC79T.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Skeleton of the Damned",
+        "href": "/wiki/skeleton-of-the-damned",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JIYZ9Gz.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Undead Pirate",
+        "href": "/wiki/undead-pirate",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4UwUjQl.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Burning Bones",
+        "href": "/wiki/burning-bones",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/e7r55Uw.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ghost God",
+        "href": "/wiki/ghost-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/MsLoDDH.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Flesh Golem",
+        "href": "/wiki/flesh-golem",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Qyl20K2.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Puppet Master’s Theatre",
@@ -430,7 +886,40 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Wraith",
+        "href": "/wiki/wraith",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/i2CnTHA.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Corrupt Sprite",
+        "href": "/wiki/corrupt-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BBHgIte.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Unsung Jester",
+        "href": "/wiki/unsung-jester",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vW6GH3h.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Leviathan",
+        "href": "/wiki/leviathan",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/cTDreAZ.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sinister Scarecrow",
+        "href": "/wiki/sinister-scarecrow",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Etuyb89.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Toxic Sewers",
@@ -468,7 +957,40 @@
       ]
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Noxious Sprite",
+        "href": "/wiki/noxious-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ioGaq0t.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Smelly Octopus",
+        "href": "/wiki/smelly-octopus",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/vWcg4E9.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Brimstone Wyvern",
+        "href": "/wiki/brimstone-wyvern",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DfdRQsD.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Slime God",
+        "href": "/wiki/slime-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/0yruhRe.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Eternal Tormentor",
+        "href": "/wiki/eternal-tormentor",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/GplawKH.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Cursed Library",
@@ -526,7 +1048,46 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Revenant",
+        "href": "/wiki/revenant",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/M0ACVkd.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Creepy Beholder",
+        "href": "/wiki/creepy-beholder",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/rpRtJqg.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Harrowed Fiend",
+        "href": "/wiki/harrowed-fiend",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/a2vCO14.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Beholder",
+        "href": "/wiki/beholder",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WzYegWb.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Shady Sect Leader",
+        "href": "/wiki/shady-sect-leader",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/iS69XJ8.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Legion Excavator",
+        "href": "/wiki/legion-excavator",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/3c7KOQE.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Mad Lab",
@@ -584,7 +1145,34 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Banshee",
+        "href": "/wiki/banshee",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/R3aZQAq.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Hazardous Sprite",
+        "href": "/wiki/hazardous-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/lnrhXiW.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Flying Brain",
+        "href": "/wiki/flying-brain",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZXe25P1.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Artificial Sprite God",
+        "href": "/wiki/artificial-sprite-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JHY5nb6.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Abyss of Demons",
@@ -653,7 +1241,46 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Blazing Sprite",
+        "href": "/wiki/blazing-sprite",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/pS3kW5z.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Risen Hellhound",
+        "href": "/wiki/risen-hellhound",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oTsHnLm.png",
+        "guaranteed": false
+      },
+      {
+        "name": "White Demon",
+        "href": "/wiki/white-demon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/tkxaEab.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Red Demon",
+        "href": "/wiki/red-demon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/b7liiXp.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Vagabond Satyr",
+        "href": "/wiki/vagabond-satyr",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OC5CZuY.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Legion Guard Captain",
+        "href": "/wiki/legion-guard-captain",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/sKMp5PM.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Manor of the Immortals",
@@ -691,7 +1318,28 @@
       ]
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Flying Vampire",
+        "href": "/wiki/flying-vampire",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/T2X9ydr.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Cerberus",
+        "href": "/wiki/cerberus",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BNZ34Hc.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Kage Kami",
+        "href": "/wiki/kage-kami",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wnOL9lq.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Haunted Cemetery",
@@ -768,7 +1416,22 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Headless Horseman",
+        "href": "/wiki/headless-horseman",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/gcDPAA2.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Lantern Holder",
+        "href": "/wiki/lantern-holder",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/svVRCId.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "The Machine",
@@ -784,7 +1447,34 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Rock Construct",
+        "href": "/wiki/rock-construct",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1ev5J1F.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Wood Construct",
+        "href": "/wiki/wood-construct",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/qcxwoCW.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Steel Construct",
+        "href": "/wiki/steel-construct",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oqZ4wvR.png",
+        "guaranteed": false
+      },
+      {
+        "name": "The Glitch",
+        "href": "/wiki/the-glitch",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/XEGtFqq.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "The Inner Workings",
@@ -800,7 +1490,16 @@
       "extra": []
     },
     "error": "No 'Drops of Interest' section found",
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Null",
+        "href": "/wiki/null",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/G7Hbr58.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": "(Drops under certain circumstances; see page for solution)"
   },
   {
     "name": "Davy Jones’ Locker",
@@ -870,7 +1569,34 @@
       ]
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Abyssal Hydra",
+        "href": "/wiki/abyssal-hydra",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/E5WR3Tn.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sunken Treasure",
+        "href": "/wiki/sunken-treasure-shipwreck",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zrQnt3F.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Well of Souls",
+        "href": "/wiki/well-of-souls",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/B4QoOcX.gif",
+        "guaranteed": true
+      },
+      {
+        "name": "Ghost Ship",
+        "href": "/wiki/ghost-ship",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4UqdcHo.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Ocean Trench",
@@ -897,7 +1623,40 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Abyssal Squid",
+        "href": "/wiki/abyssal-squid",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/coovGre.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ice Giant",
+        "href": "/wiki/ice-giant",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JldbaWa.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sea Dragon",
+        "href": "/wiki/sea-dragon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AZYy10v.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Hermit God",
+        "href": "/wiki/hermit-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/iHuMeGv.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Eye of the Storm",
+        "href": "/wiki/eye-of-the-storm",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zWZrYpk.gif",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "The Crawling Depths",
@@ -1026,7 +1785,40 @@
       ]
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Blood Hound",
+        "href": "/wiki/blood-hound",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/byRMnZV.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Spore Spreader",
+        "href": "/wiki/spore-spreader",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SOOC3c8.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sting Spider",
+        "href": "/wiki/sting-spider",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/u8BS18M.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Critter Brood",
+        "href": "/wiki/critter-brood",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/YOcTahC.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Legion Lead Strategist",
+        "href": "/wiki/legion-lead-strategist",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/BxM3Dw4.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Woodland Labyrinth",
@@ -1095,7 +1887,46 @@
       ]
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Bloodroot Treant",
+        "href": "/wiki/bloodroot-treant",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ObezI6H.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Man-Eating Flytrap",
+        "href": "/wiki/man-eating-flytrap",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/hZlHOrn.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Great Owl",
+        "href": "/wiki/great-owl",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Y8nFAa6.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Hornet's Nest",
+        "href": "/wiki/hornet-s-nest",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/SkxWB5V.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Possessed Pumpkin",
+        "href": "/wiki/possessed-pumpkin",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fAw3so9.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Legion Head Researcher",
+        "href": "/wiki/legion-head-researcher",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fInWlER.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Deadwater Docks",
@@ -1204,7 +2035,40 @@
       ]
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Snow Wolf",
+        "href": "/wiki/snow-wolf",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/i7zZGEV.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Corsair Crab",
+        "href": "/wiki/corsair-crab",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/69wUhF5.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Bilgewater’s Galleon",
+        "href": "/wiki/bilgewater-s-galleon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wmrq7Fz.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Crab Sovereign",
+        "href": "/wiki/crab-sovereign",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/zuZokkc.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Legion Watchmaster",
+        "href": "/wiki/legion-watchmaster",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DQuJ4JE.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Puppet Master’s Encore",
@@ -1251,7 +2115,40 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Shadow Lurker",
+        "href": "/wiki/shadow-lurker",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/DmVtAJM.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Organ Harvester",
+        "href": "/wiki/organ-harvester",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/0adRDcd.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Daughter of Limon",
+        "href": "/wiki/daughter-of-limon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9ujgJ0m.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Maze Minotaur",
+        "href": "/wiki/maze-minotaur",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/oMkrNSd.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Court of Oryx",
+        "href": "/wiki/court-of-oryx",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Cnidarian Reef",
@@ -1338,7 +2235,34 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Enchanted Turtle",
+        "href": "/wiki/enchanted-turtle",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WHpYAZb.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Hadopelagic Jellyfish",
+        "href": "/wiki/hadopelagic-jellyfish",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Ho1aPnm.png",
+        "guaranteed": false
+      },
+      {
+        "name": "World’s Oyster",
+        "href": "/wiki/world-s-oyster",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nFl3qNP.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Court of Oryx",
+        "href": "/wiki/court-of-oryx",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Parasite Chambers",
@@ -1387,7 +2311,28 @@
       ]
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Blood Ooze",
+        "href": "/wiki/blood-ooze",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/YyO7dl6.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Abyssal Kraken",
+        "href": "/wiki/abyssal-kraken",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yGlZV4N.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Scout Colony",
+        "href": "/wiki/scout-colony",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Kp2XYfV.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "The Tavern",
@@ -1434,7 +2379,28 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Spitting Arachnid",
+        "href": "/wiki/spitting-arachnid",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/MSqvVou.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sigma Werewolf",
+        "href": "/wiki/sigma-werewolf",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/y1sb7tj.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Beer God",
+        "href": "/wiki/beer-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AwXKgrE.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Sulfurous Wetlands",
@@ -1503,7 +2469,40 @@
       ]
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Bulbous Perforator",
+        "href": "/wiki/bulbous-perforator",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AT4lLZy.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Green Fingers",
+        "href": "/wiki/green-fingers",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/PTzPpAw.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Grand Dragonfly",
+        "href": "/wiki/grand-dragonfly",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/HmsT1Hw.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Elder Ent Ancient",
+        "href": "/wiki/elder-ent-ancient",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/qaZGmHe.png",
+        "guaranteed": false
+      },
+      {
+        "name": "The Plague Doctor",
+        "href": "/wiki/the-plague-doctor",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/f9KVShS.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Mountain Temple",
@@ -1562,7 +2561,34 @@
       ]
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Vegetarian Tiger",
+        "href": "/wiki/vegetarian-tiger",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ULEuNfI.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Runic Golem",
+        "href": "/wiki/runic-golem",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/nuN6ri1.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Skull Knight",
+        "href": "/wiki/skull-knight",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/hdsnmp8.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Jade Statue",
+        "href": "/wiki/jade-and-garnet-statues",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/URY2vc0.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Lair of Draconis",
@@ -1650,7 +2676,34 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Snapdragon",
+        "href": "/wiki/snapdragon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Cs5FzoT.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Hunter Dragonfly",
+        "href": "/wiki/hunter-dragonfly",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fozrU6q.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Frost Dragon",
+        "href": "/wiki/frost-dragon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/C86zRYn.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Rock Dragon",
+        "href": "/wiki/rock-dragon",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ziFj319.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Tomb of the Ancients",
@@ -1738,7 +2791,40 @@
       ]
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Ghoul",
+        "href": "/wiki/ghoul",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ef9ovik.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Animate Sigillaria",
+        "href": "/wiki/animate-sigillaria",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/k2kSdGV.png",
+        "guaranteed": false
+      },
+      {
+        "name": "The Lich King",
+        "href": "/wiki/the-lich-king",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/o4BDdek.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Legion General",
+        "href": "/wiki/legion-general",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/885mEDY.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Grand Sphinx",
+        "href": "/wiki/grand-sphinx",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/NFmjyZF.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "The Third Dimension",
@@ -1826,7 +2912,40 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Tundra Tribe Leader",
+        "href": "/wiki/tundra-tribe-leader",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OGPxgre.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Abyssal Siren",
+        "href": "/wiki/abyssal-siren",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/1C7KHe5.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Assembled Giant",
+        "href": "/wiki/assembled-giant",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/T5i53Ta.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Astral Rift",
+        "href": "/wiki/astral-rift",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9h9QU3P.gif",
+        "guaranteed": true
+      },
+      {
+        "name": "Cube God",
+        "href": "/wiki/cube-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/lSbkSjv.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Lair of Shaitan",
@@ -1874,7 +2993,28 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Raging Ifrit",
+        "href": "/wiki/raging-ifrit",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/9giVfOY.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ravenous Harpy",
+        "href": "/wiki/ravenous-harpy",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/ePtu0ed.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Court of Oryx",
+        "href": "/wiki/court-of-oryx",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Secluded Thicket",
@@ -1931,7 +3071,28 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Rhinoceros",
+        "href": "/wiki/rhinoceros",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/2WTdi4r.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Scutosaurus",
+        "href": "/wiki/scutosaurus",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/YcRlTXk.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Court of Oryx",
+        "href": "/wiki/court-of-oryx",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "High Tech Terror",
@@ -1978,7 +3139,22 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Hadopelagic Submersible",
+        "href": "/wiki/hadopelagic-submersible",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/urhMfAj.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Court of Oryx",
+        "href": "/wiki/court-of-oryx",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Ice Citadel",
@@ -2045,7 +3221,28 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Snow Yeti",
+        "href": "/wiki/snow-yeti",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/yK75ttb.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Monstrous Grizzly",
+        "href": "/wiki/monstrous-grizzly",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wyGXoRa.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Lord of the Lost Lands",
+        "href": "/wiki/lord-of-the-lost-lands",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/JVW05Vy.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Moonlight Village",
@@ -2092,7 +3289,28 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Dungeons"
+    "category": "Realm Dungeons",
+    "drops_from": [
+      {
+        "name": "Colossal Mantis",
+        "href": "/wiki/colossal-mantis",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/eAZshkz.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alluring Blossom",
+        "href": "/wiki/alluring-blossom",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/Pht6pFs.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ethereal Shrine",
+        "href": "/wiki/ethereal-shrine",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/tcjdBlT.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Beachzone",
@@ -2108,7 +3326,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Event Dungeons"
+    "category": "Realm Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Beach Bum",
+        "href": "/wiki/beach-bum",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/y3K0Z2j.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "The Nest",
@@ -2177,7 +3404,22 @@
       ]
     },
     "error": null,
-    "category": "Realm Event Dungeons"
+    "category": "Realm Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Corrupted Bramblethorn",
+        "href": "/wiki/corrupted-bramblethorn",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/t0626nZ.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Killer Bee Nest",
+        "href": "/wiki/killer-bee-nest-event-boss",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QA1xlFQ.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Cultist Hideout",
@@ -2214,7 +3456,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Event Dungeons"
+    "category": "Realm Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Agonized Titan",
+        "href": "/wiki/agonized-titan",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/MgFBfJp.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": "(Portal opens after being defeated)"
   },
   {
     "name": "Fungal Cavern",
@@ -2241,7 +3492,34 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Event Dungeons"
+    "category": "Realm Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Ancient Kaiju",
+        "href": "/wiki/ancient-kaiju",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/mulQIYB.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Crystal Worm Father",
+        "href": "/wiki/crystal-worm-father",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/K6rOQzR.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Sentient Monolith",
+        "href": "/wiki/sentient-monolith",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/4UATSMw.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Adult Baneserpent",
+        "href": "/wiki/adult-baneserpent",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/UAtHD52.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Crystal Cavern",
@@ -2268,7 +3546,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Event Dungeons"
+    "category": "Realm Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Crystal Worm Mother",
+        "href": "/wiki/crystal-worm-mother",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kC1mFqy.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Spectral Penitentiary",
@@ -2375,7 +3662,22 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Event Dungeons"
+    "category": "Realm Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Spectral Jailer",
+        "href": "/wiki/spectral-jailer",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/OyKZvW9.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Skeletal Centipede",
+        "href": "/wiki/skeletal-centipede",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xullkZz.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Kogbold Steamworks",
@@ -2391,7 +3693,22 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Event Dungeons"
+    "category": "Realm Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Aerial Warship",
+        "href": "/wiki/aerial-warship",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6xYgL1G.gif",
+        "guaranteed": false
+      },
+      {
+        "name": "Kogbold Expedition Engine",
+        "href": "/wiki/kogbold-expedition-engine",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IXhCHh3.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Lost Halls",
@@ -2470,7 +3787,28 @@
       ]
     },
     "error": null,
-    "category": "Realm Event Dungeons"
+    "category": "Realm Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Bloodroot Heart",
+        "href": "/wiki/bloodroot-heart",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/wUwWTc3.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Ravenous Rot",
+        "href": "/wiki/ravenous-rot",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/LmcZ5yr.gif",
+        "guaranteed": false
+      },
+      {
+        "name": "Lost Sentry",
+        "href": "/wiki/lost-sentry",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/WeGhVJI.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "The Void",
@@ -2507,7 +3845,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Event Dungeons"
+    "category": "Realm Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Marble Colossus",
+        "href": "/wiki/marble-colossus",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/CroeOAh.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": "Must use Vial of Pure Darkness to open"
   },
   {
     "name": "The Shatters",
@@ -2584,7 +3931,22 @@
       "extra": []
     },
     "error": null,
-    "category": "Realm Event Dungeons"
+    "category": "Realm Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Behemoth's Egg",
+        "href": "/wiki/behemoth-s-egg",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AnyLuj4.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Avatar of the Forgotten King",
+        "href": "/wiki/avatar-of-the-forgotten-king",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/h13hMhw.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Neo Malogia",
@@ -2600,7 +3962,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Advanced Dungeons"
+    "category": "Advanced Dungeons",
+    "drops_from": [
+      {
+        "name": "Commander Calbrik",
+        "href": "/wiki/commander-calbrik",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/he3yY4r.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Neo Untaris",
@@ -2616,7 +3987,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Advanced Dungeons"
+    "category": "Advanced Dungeons",
+    "drops_from": [
+      {
+        "name": "Commander Calbrik",
+        "href": "/wiki/commander-calbrik",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/he3yY4r.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Neo Katalund",
@@ -2632,7 +4012,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Advanced Dungeons"
+    "category": "Advanced Dungeons",
+    "drops_from": [
+      {
+        "name": "Commander Calbrik",
+        "href": "/wiki/commander-calbrik",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/he3yY4r.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Neo Forax",
@@ -2648,7 +4037,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Advanced Dungeons"
+    "category": "Advanced Dungeons",
+    "drops_from": [
+      {
+        "name": "Commander Calbrik",
+        "href": "/wiki/commander-calbrik",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/he3yY4r.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Plagued Nest",
@@ -2717,7 +4115,22 @@
       ]
     },
     "error": null,
-    "category": "Advanced Dungeons"
+    "category": "Advanced Dungeons",
+    "drops_from": [
+      {
+        "name": "Corrupted Bramblethorn",
+        "href": "/wiki/corrupted-bramblethorn",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/t0626nZ.png",
+        "guaranteed": true
+      },
+      {
+        "name": "Killer Bee Nest",
+        "href": "/wiki/killer-bee-nest-event-boss",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QA1xlFQ.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Advanced Kogbold Steamworks",
@@ -2733,7 +4146,22 @@
       "extra": []
     },
     "error": null,
-    "category": "Advanced Dungeons"
+    "category": "Advanced Dungeons",
+    "drops_from": [
+      {
+        "name": "Aerial Warship",
+        "href": "/wiki/aerial-warship",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/6xYgL1G.gif",
+        "guaranteed": true
+      },
+      {
+        "name": "Kogbold Expedition Engine",
+        "href": "/wiki/kogbold-expedition-engine",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/IXhCHh3.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Court of Oryx",
@@ -2749,7 +4177,16 @@
       "extra": []
     },
     "error": "No 'Drops of Interest' section found",
-    "category": "Oryx’s Castle"
+    "category": "Oryx’s Castle",
+    "drops_from": [
+      {
+        "name": "Janus the Doorwarden",
+        "href": "/wiki/janus-the-doorwarden",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/RfObrpY.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Oryx’s Castle",
@@ -2786,7 +4223,9 @@
       "extra": []
     },
     "error": null,
-    "category": "Oryx’s Castle"
+    "category": "Oryx’s Castle",
+    "drops_from": [],
+    "drops_note": "Automatically transported into it 2 minutes after Realm closes"
   },
   {
     "name": "Oryx’s Chamber",
@@ -2823,7 +4262,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Oryx’s Castle"
+    "category": "Oryx’s Castle",
+    "drops_from": [
+      {
+        "name": "Red Stone Guardian",
+        "href": "/wiki/stone-guardians",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/bqbYH0U.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Wine Cellar",
@@ -2880,7 +4328,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Oryx’s Castle"
+    "category": "Oryx’s Castle",
+    "drops_from": [
+      {
+        "name": "Oryx the Mad God",
+        "href": "/wiki/oryx-the-mad-god",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xQnFJqW.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": "Locked portal is a guaranteed drop Must be opened with a Wine Cellar Incantation"
   },
   {
     "name": "Oryx’s Sanctuary",
@@ -2917,7 +4374,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Oryx’s Castle"
+    "category": "Oryx’s Castle",
+    "drops_from": [
+      {
+        "name": "Oryx the Mad God 2",
+        "href": "/wiki/oryx-the-mad-god-2",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dvC7X5H.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": "Oryx the Mad God 2 is guaranteed to drop three monuments that must be activated with the Oryx Runes for the Oryx’s Sanctuary portal to appear."
   },
   {
     "name": "Malogia",
@@ -2944,7 +4410,28 @@
       "extra": []
     },
     "error": null,
-    "category": "Wormholes"
+    "category": "Wormholes",
+    "drops_from": [
+      {
+        "name": "Alien UFO",
+        "href": "/wiki/alien-ufo",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xgw6NU7.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Biff",
+        "href": "/wiki/alien-biff",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/I7HiR2r.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Leprechaun",
+        "href": "/wiki/alien-leprechaun",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/3Hi520Q.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Untaris",
@@ -2971,7 +4458,28 @@
       "extra": []
     },
     "error": null,
-    "category": "Wormholes"
+    "category": "Wormholes",
+    "drops_from": [
+      {
+        "name": "Alien UFO",
+        "href": "/wiki/alien-ufo",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xgw6NU7.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Biff",
+        "href": "/wiki/alien-biff",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/I7HiR2r.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Leprechaun",
+        "href": "/wiki/alien-leprechaun",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/3Hi520Q.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Katalund",
@@ -2998,7 +4506,28 @@
       "extra": []
     },
     "error": null,
-    "category": "Wormholes"
+    "category": "Wormholes",
+    "drops_from": [
+      {
+        "name": "Alien UFO",
+        "href": "/wiki/alien-ufo",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xgw6NU7.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Biff",
+        "href": "/wiki/alien-biff",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/I7HiR2r.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Leprechaun",
+        "href": "/wiki/alien-leprechaun",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/3Hi520Q.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Forax",
@@ -3025,7 +4554,28 @@
       "extra": []
     },
     "error": null,
-    "category": "Wormholes"
+    "category": "Wormholes",
+    "drops_from": [
+      {
+        "name": "Alien UFO",
+        "href": "/wiki/alien-ufo",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/xgw6NU7.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Biff",
+        "href": "/wiki/alien-biff",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/I7HiR2r.png",
+        "guaranteed": false
+      },
+      {
+        "name": "Alien Leprechaun",
+        "href": "/wiki/alien-leprechaun",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/3Hi520Q.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Legacy Heroic Undead Lair",
@@ -3052,7 +4602,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Heroic Dungeons"
+    "category": "Heroic Dungeons",
+    "drops_from": [
+      {
+        "name": "Key Fairy (mid)",
+        "href": "/wiki/key-fairy",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QT8zM0P.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Legacy Heroic Abyss of Demons",
@@ -3099,7 +4658,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Heroic Dungeons"
+    "category": "Heroic Dungeons",
+    "drops_from": [
+      {
+        "name": "Key Fairy (mid)",
+        "href": "/wiki/key-fairy",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/QT8zM0P.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Rainbow Road",
@@ -3126,7 +4694,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Special Event Dungeons"
+    "category": "Special Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Leprechaun",
+        "href": "/wiki/leprechaun",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/fCboAby.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Santa’s Workshop",
@@ -3153,7 +4730,9 @@
       "extra": []
     },
     "error": null,
-    "category": "Special Event Dungeons"
+    "category": "Special Event Dungeons",
+    "drops_from": [],
+    "drops_note": null
   },
   {
     "name": "Ice Tomb",
@@ -3180,7 +4759,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Special Event Dungeons"
+    "category": "Special Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Permafrost Lord",
+        "href": "/wiki/permafrost-lord",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/kk4AcxG.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Battle for the Nexus",
@@ -3196,7 +4784,9 @@
       "extra": []
     },
     "error": null,
-    "category": "Special Event Dungeons"
+    "category": "Special Event Dungeons",
+    "drops_from": [],
+    "drops_note": null
   },
   {
     "name": "Belladonna’s Garden",
@@ -3212,7 +4802,22 @@
       "extra": []
     },
     "error": null,
-    "category": "Special Event Dungeons"
+    "category": "Special Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Valentine's Flower",
+        "href": "/wiki/valentine-s-flower",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/dJQQwVv.png",
+        "guaranteed": true
+      },
+      {
+        "name": "The Gardener",
+        "href": "/wiki/the-gardener",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/RAL8e2M.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Queen Bunny Chamber",
@@ -3228,7 +4833,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Special Event Dungeons"
+    "category": "Special Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Biff the Buffed Bunny",
+        "href": "/wiki/biff-the-buffed-bunny",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/prGMIfR.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Mad God Mayhem",
@@ -3244,7 +4858,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Special Event Dungeons"
+    "category": "Special Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Spirit of Oryx",
+        "href": "/wiki/spirit-of-oryx",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/c0bHpZz.png",
+        "guaranteed": true
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "White Snake Invasion I",
@@ -3361,7 +4984,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Special Event Dungeons"
+    "category": "Special Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Swarm Spirit Snake",
+        "href": "/wiki/swarm-spirit-snake",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AMtf9Dk.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "The Trials of Cronus",
@@ -3377,7 +5009,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Special Event Dungeons"
+    "category": "Special Event Dungeons",
+    "drops_from": [
+      {
+        "name": "The Festival Overseer",
+        "href": "/wiki/the-keyper",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/i3T6Ms6.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Hidden Interregnum",
@@ -3414,7 +5055,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Special Event Dungeons"
+    "category": "Special Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Shady Vagrant",
+        "href": "/wiki/shady-vagrant",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/FJic2jE.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": "Key is required"
   },
   {
     "name": "White Snake Invasion II",
@@ -3492,7 +5142,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Special Event Dungeons"
+    "category": "Special Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Primal Snake (Realm)",
+        "href": "/wiki/primal-snake-realm",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/AkM3Mfq.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "Oryxmania",
@@ -3508,7 +5167,16 @@
       "extra": []
     },
     "error": "No 'Drops of Interest' section found",
-    "category": "Special Event Dungeons"
+    "category": "Special Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Keyper of the Arena",
+        "href": "/wiki/oryxmania",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/MLdT3BY.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": null
   },
   {
     "name": "White Snake Invasion III",
@@ -3545,7 +5213,16 @@
       "extra": []
     },
     "error": null,
-    "category": "Special Event Dungeons"
+    "category": "Special Event Dungeons",
+    "drops_from": [
+      {
+        "name": "Altar of the White Snake",
+        "href": "/wiki/altar-of-the-white-snake",
+        "icon": "https://www.realmeye.com/s/a/img/wiki/i/eceoGvW.png",
+        "guaranteed": false
+      }
+    ],
+    "drops_note": "Requires 10 x Divine Coin"
   },
   {
     "name": "Tutorial",
@@ -3561,7 +5238,9 @@
       "extra": []
     },
     "error": null,
-    "category": "Other Dungeons"
+    "category": "Other Dungeons",
+    "drops_from": [],
+    "drops_note": null
   },
   {
     "name": "Oryx’s Kitchen",
@@ -3577,7 +5256,9 @@
       "extra": []
     },
     "error": null,
-    "category": "Other Dungeons"
+    "category": "Other Dungeons",
+    "drops_from": [],
+    "drops_note": null
   },
   {
     "name": "Chess",
@@ -3593,7 +5274,9 @@
       "extra": []
     },
     "error": "No 'Drops of Interest' section found",
-    "category": "Other Dungeons"
+    "category": "Other Dungeons",
+    "drops_from": [],
+    "drops_note": null
   },
   {
     "name": "Admin Arena",
@@ -3609,6 +5292,8 @@
       "extra": []
     },
     "error": "No 'Drops of Interest' section found",
-    "category": "Other Dungeons"
+    "category": "Other Dungeons",
+    "drops_from": [],
+    "drops_note": null
   }
 ]

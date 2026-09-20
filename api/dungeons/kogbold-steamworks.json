@@ -7,6 +7,21 @@
   "difficulty": 8.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Aerial Warship",
+      "wikiUrl": "https://www.realmeye.com/wiki/aerial-warship",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/6xYgL1G.gif",
+      "guaranteed": false
+    },
+    {
+      "name": "Kogbold Expedition Engine",
+      "wikiUrl": "https://www.realmeye.com/wiki/kogbold-expedition-engine",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/IXhCHh3.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": []

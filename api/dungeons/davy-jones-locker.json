@@ -7,6 +7,33 @@
   "difficulty": 5.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Abyssal Hydra",
+      "wikiUrl": "https://www.realmeye.com/wiki/abyssal-hydra",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/E5WR3Tn.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Sunken Treasure",
+      "wikiUrl": "https://www.realmeye.com/wiki/sunken-treasure-shipwreck",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/zrQnt3F.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Well of Souls",
+      "wikiUrl": "https://www.realmeye.com/wiki/well-of-souls",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/B4QoOcX.gif",
+      "guaranteed": true
+    },
+    {
+      "name": "Ghost Ship",
+      "wikiUrl": "https://www.realmeye.com/wiki/ghost-ship",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/4UqdcHo.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

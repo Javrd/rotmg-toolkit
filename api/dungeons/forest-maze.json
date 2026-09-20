@@ -7,6 +7,69 @@
   "difficulty": 1.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Forest Nymph",
+      "wikiUrl": "https://www.realmeye.com/wiki/forest-nymph",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/M64Eqj5.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Goblin Mage",
+      "wikiUrl": "https://www.realmeye.com/wiki/goblin-mage",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/gqia2Yg.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Elf Wizard",
+      "wikiUrl": "https://www.realmeye.com/wiki/elf-wizard",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/ZHd1IUa.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Hobbit Mage",
+      "wikiUrl": "https://www.realmeye.com/wiki/hobbit-mage",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/6YBPvN7.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Undead Hobbit Mage",
+      "wikiUrl": "https://www.realmeye.com/wiki/undead-hobbit-mage",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/AfO1gx9.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Sandsman King",
+      "wikiUrl": "https://www.realmeye.com/wiki/sandsman-king",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/vmte2d9.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Dwarf King",
+      "wikiUrl": "https://www.realmeye.com/wiki/dwarf-king",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/xOnNSmc.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Drake Baby",
+      "wikiUrl": "https://www.realmeye.com/wiki/drake-baby",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/VrqV4cy.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Enraged Bunny",
+      "wikiUrl": "https://www.realmeye.com/wiki/enraged-bunny",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/WonwqPA.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Skeleton",
+      "wikiUrl": "https://www.realmeye.com/wiki/skeleton",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/rjfb3W5.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": []

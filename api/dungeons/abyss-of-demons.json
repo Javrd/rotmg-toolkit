@@ -7,6 +7,45 @@
   "difficulty": 4.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Blazing Sprite",
+      "wikiUrl": "https://www.realmeye.com/wiki/blazing-sprite",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/pS3kW5z.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Risen Hellhound",
+      "wikiUrl": "https://www.realmeye.com/wiki/risen-hellhound",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/oTsHnLm.png",
+      "guaranteed": false
+    },
+    {
+      "name": "White Demon",
+      "wikiUrl": "https://www.realmeye.com/wiki/white-demon",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/tkxaEab.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Red Demon",
+      "wikiUrl": "https://www.realmeye.com/wiki/red-demon",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/b7liiXp.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Vagabond Satyr",
+      "wikiUrl": "https://www.realmeye.com/wiki/vagabond-satyr",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/OC5CZuY.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Legion Guard Captain",
+      "wikiUrl": "https://www.realmeye.com/wiki/legion-guard-captain",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/sKMp5PM.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

@@ -7,6 +7,33 @@
   "difficulty": 5.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Enchanted Turtle",
+      "wikiUrl": "https://www.realmeye.com/wiki/enchanted-turtle",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/WHpYAZb.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Hadopelagic Jellyfish",
+      "wikiUrl": "https://www.realmeye.com/wiki/hadopelagic-jellyfish",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/Ho1aPnm.png",
+      "guaranteed": false
+    },
+    {
+      "name": "World’s Oyster",
+      "wikiUrl": "https://www.realmeye.com/wiki/world-s-oyster",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/nFl3qNP.png",
+      "guaranteed": true
+    },
+    {
+      "name": "Court of Oryx",
+      "wikiUrl": "https://www.realmeye.com/wiki/court-of-oryx",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": [

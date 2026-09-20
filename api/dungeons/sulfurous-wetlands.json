@@ -7,6 +7,39 @@
   "difficulty": 6.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Bulbous Perforator",
+      "wikiUrl": "https://www.realmeye.com/wiki/bulbous-perforator",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/AT4lLZy.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Green Fingers",
+      "wikiUrl": "https://www.realmeye.com/wiki/green-fingers",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/PTzPpAw.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Grand Dragonfly",
+      "wikiUrl": "https://www.realmeye.com/wiki/grand-dragonfly",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/HmsT1Hw.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Elder Ent Ancient",
+      "wikiUrl": "https://www.realmeye.com/wiki/elder-ent-ancient",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/qaZGmHe.png",
+      "guaranteed": false
+    },
+    {
+      "name": "The Plague Doctor",
+      "wikiUrl": "https://www.realmeye.com/wiki/the-plague-doctor",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/f9KVShS.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

@@ -7,6 +7,33 @@
   "difficulty": 4.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Rock Construct",
+      "wikiUrl": "https://www.realmeye.com/wiki/rock-construct",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/1ev5J1F.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Wood Construct",
+      "wikiUrl": "https://www.realmeye.com/wiki/wood-construct",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/qcxwoCW.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Steel Construct",
+      "wikiUrl": "https://www.realmeye.com/wiki/steel-construct",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/oqZ4wvR.png",
+      "guaranteed": false
+    },
+    {
+      "name": "The Glitch",
+      "wikiUrl": "https://www.realmeye.com/wiki/the-glitch",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/XEGtFqq.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": []

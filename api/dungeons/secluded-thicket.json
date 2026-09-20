@@ -7,6 +7,27 @@
   "difficulty": 6.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Rhinoceros",
+      "wikiUrl": "https://www.realmeye.com/wiki/rhinoceros",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/2WTdi4r.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Scutosaurus",
+      "wikiUrl": "https://www.realmeye.com/wiki/scutosaurus",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/YcRlTXk.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Court of Oryx",
+      "wikiUrl": "https://www.realmeye.com/wiki/court-of-oryx",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": [

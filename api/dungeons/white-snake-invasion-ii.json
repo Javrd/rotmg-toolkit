@@ -7,6 +7,15 @@
   "difficulty": 7.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Primal Snake (Realm)",
+      "wikiUrl": "https://www.realmeye.com/wiki/primal-snake-realm",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/AkM3Mfq.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

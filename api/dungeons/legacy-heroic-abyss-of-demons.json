@@ -7,6 +7,15 @@
   "difficulty": 5.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Key Fairy (mid)",
+      "wikiUrl": "https://www.realmeye.com/wiki/key-fairy",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/QT8zM0P.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": [

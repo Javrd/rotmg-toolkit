@@ -7,6 +7,15 @@
   "difficulty": 3.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Candy Gnome",
+      "wikiUrl": "https://www.realmeye.com/wiki/candy-gnome",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/n2lGALm.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

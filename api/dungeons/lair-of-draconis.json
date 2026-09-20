@@ -7,6 +7,33 @@
   "difficulty": 6.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Snapdragon",
+      "wikiUrl": "https://www.realmeye.com/wiki/snapdragon",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/Cs5FzoT.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Hunter Dragonfly",
+      "wikiUrl": "https://www.realmeye.com/wiki/hunter-dragonfly",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/fozrU6q.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Frost Dragon",
+      "wikiUrl": "https://www.realmeye.com/wiki/frost-dragon",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/C86zRYn.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Rock Dragon",
+      "wikiUrl": "https://www.realmeye.com/wiki/rock-dragon",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/ziFj319.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

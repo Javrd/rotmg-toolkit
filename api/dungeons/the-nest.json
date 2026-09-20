@@ -7,6 +7,21 @@
   "difficulty": 7.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Corrupted Bramblethorn",
+      "wikiUrl": "https://www.realmeye.com/wiki/corrupted-bramblethorn",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/t0626nZ.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Killer Bee Nest",
+      "wikiUrl": "https://www.realmeye.com/wiki/killer-bee-nest-event-boss",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/QA1xlFQ.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

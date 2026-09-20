@@ -7,6 +7,15 @@
   "difficulty": null,
   "hasData": false,
   "error": "No 'Drops of Interest' section found",
+  "dropsFrom": [
+    {
+      "name": "Keyper of the Arena",
+      "wikiUrl": "https://www.realmeye.com/wiki/oryxmania",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/MLdT3BY.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": []

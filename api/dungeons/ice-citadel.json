@@ -7,6 +7,27 @@
   "difficulty": 7.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Snow Yeti",
+      "wikiUrl": "https://www.realmeye.com/wiki/snow-yeti",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/yK75ttb.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Monstrous Grizzly",
+      "wikiUrl": "https://www.realmeye.com/wiki/monstrous-grizzly",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wyGXoRa.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Lord of the Lost Lands",
+      "wikiUrl": "https://www.realmeye.com/wiki/lord-of-the-lost-lands",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/JVW05Vy.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": [

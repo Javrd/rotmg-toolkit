@@ -62,13 +62,30 @@ def render_difficulty(value):
     return f'<span class="difficulty" title="Difficulty: {esc(label)}">{icons}</span>'
 
 
+def has_drops_info(entry):
+    return bool(entry.get("drops_from") or entry.get("drops_note"))
+
+
+def render_drops_trigger(entry):
+    """The "dropped by" chip next to a dungeon's name. It is an empty button
+    here: the client fills it (sprites + count) from the single #dropsData
+    blob, so the same renderer also serves the rows the fame picker builds
+    in JS. A <button> rather than a <span> so that, inside a fame <label>,
+    clicking it does not tick the checkbox."""
+    if not has_drops_info(entry):
+        return ""
+    return (f'<button type="button" class="drops-from" data-dungeon="{esc(entry["name"])}" '
+            f'aria-haspopup="true" aria-label="Where {esc(entry["name"])} drops from"></button>')
+
+
 def render_card(name, href, icon, blocks, difficulty=None, error=None, search_name=None,
-                 icon_class="card-icon", badge=None):
+                 icon_class="card-icon", badge=None, extra=""):
     """blocks: list of (title_or_None, guaranteed_list, possible_list).
     Returns None if the card has no potions and no error (should be omitted).
     search_name overrides what data-name search matches against (e.g. a biome
     monster card also matches its biome's name, not just the monster's own name).
-    badge: optional small tag next to the name (e.g. an enemy's biome group)."""
+    badge: optional small tag next to the name (e.g. an enemy's biome group).
+    extra: HTML placed after the name (the dungeon's "dropped by" chip)."""
     has_potions = any(g or e for _, g, e in blocks)
     if not error and not has_potions:
         return None
@@ -78,7 +95,7 @@ def render_card(name, href, icon, blocks, difficulty=None, error=None, search_na
     out.append(
         f'<h3>{img(icon, name, icon_class)}'
         f'<a href="https://www.realmeye.com{esc(href)}" target="_blank" rel="noopener">{esc(name)}</a>'
-        f'{badge_html}{render_difficulty(difficulty)}</h3>'
+        f'{extra}{badge_html}{render_difficulty(difficulty)}</h3>'
     )
     if error:
         out.append(f'<p class="note">No data ({esc(error)})</p>')
@@ -127,7 +144,8 @@ def build_dungeon_sections(dungeons):
                 ("Treasure Room", d["treasure"]["garantizados"], d["treasure"]["extra"]),
             ]
             card = render_card(d["name"], d["href"], d.get("icon"), blocks,
-                                difficulty=d.get("difficulty"), error=d.get("error"))
+                                difficulty=d.get("difficulty"), error=d.get("error"),
+                                extra=render_drops_trigger(d))
             if card:
                 cards.append(card)
         sections.append(render_category(cat, cards))
@@ -191,6 +209,7 @@ def render_fame_item(entry):
             f'<input type="checkbox" class="fame-check">'
             f'{img(entry.get("icon"), name, "fame-icon")}'
             f'<span class="fame-name">{esc(name)}</span>'
+            f'{render_drops_trigger(entry)}'
             f'{render_difficulty(entry.get("difficulty"))}{link}</label>')
 
 
@@ -224,6 +243,19 @@ def render_fame_collection(col):
 
 def build_fame_sections(collections):
     return "\n".join(render_fame_collection(c) for c in sorted(collections, key=collection_key))
+
+
+def collect_drops(dungeons, collections):
+    """name -> {sources, note} for every dungeon listed anywhere on the page.
+    One copy of the data, keyed by the same name the fame checklist syncs on;
+    every "dropped by" chip refers to it by data-dungeon."""
+    out = {}
+    entries = list(dungeons) + [d for c in (collections or []) for d in c["dungeons"]]
+    for d in entries:
+        if d["name"] in out or not has_drops_info(d):
+            continue
+        out[d["name"]] = {"sources": d.get("drops_from") or [], "note": d.get("drops_note")}
+    return out
 
 
 def collect_types(dungeons, biomes):
@@ -274,6 +306,7 @@ def build(data_path, out_path, biome_path=None, equipment_path=None, fame_path=N
     type_options = "".join(f'<option value="{esc(t)}">{esc(t)}</option>' for t in types)
 
     fame_html = ""
+    collections = None
     n_collections = n_fame_dungeons = n_fame_total = 0
     if fame_path:
         try:
@@ -306,7 +339,9 @@ def build(data_path, out_path, biome_path=None, equipment_path=None, fame_path=N
                     .replace("__N_COLLECTIONS__", str(n_collections)) \
                     .replace("__N_FAME_DUNGEONS__", str(n_fame_dungeons)) \
                     .replace("__N_FAME_TOTAL__", f"{n_fame_total:,}") \
-                    .replace("__FALLBACK_ICON_JSON__", json.dumps(FALLBACK_ICON))
+                    .replace("__FALLBACK_ICON_JSON__", json.dumps(FALLBACK_ICON)) \
+                    .replace("__DROPS_JSON__", json.dumps(collect_drops(dungeons, collections),
+                                                          ensure_ascii=False).replace("</", "<\\/"))
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(page)
@@ -415,6 +450,43 @@ TEMPLATE = r"""<!doctype html>
      `[hidden] { display:none }`, so the attribute needs an author rule of its own
      or it silently does nothing -- see docs/decisions/0010. */
   [hidden] { display:none !important; }
+
+  /* "Dropped by" chip + shared tooltip */
+  .drops-from { display:inline-flex; align-items:center; gap:.15rem; padding:.1rem .4rem .1rem .2rem;
+    border-radius:999px; border:1px solid var(--border); background:var(--card-bg); color:var(--muted);
+    font:inherit; font-size:.68rem; font-weight:600; line-height:1; cursor:help; flex-shrink:0;
+    vertical-align:middle; }
+  .drops-from:hover, .drops-from.open { border-color:var(--accent); color:var(--accent); }
+  .drops-from:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
+  .drops-from img { width:16px; height:16px; object-fit:contain; border-radius:3px;
+    background: rgba(127,127,127,.12); }
+  .drops-from img + img { margin-left:-6px; }
+  .drops-from .drops-more { padding-left:.15rem; }
+  .drops-from .drops-info { font-size:.75rem; padding:0 .15rem; }
+  .fame-item .drops-from, .fame-result .drops-from { padding:.05rem .3rem .05rem .15rem; }
+  .fame-item .drops-from img, .fame-result .drops-from img { width:14px; height:14px; }
+  /* Explicit width, not max-width: a shrink-to-fit fixed box gives the auto-fill
+     grid a single column and the tooltip comes out tall and narrow. */
+  .drops-tip { position:fixed; z-index:40; width:min(380px, calc(100vw - 16px));
+    max-height:calc(100vh - 16px); overflow:auto;
+    background:var(--card-bg); color:var(--text); border:1px solid var(--border); border-radius:12px;
+    padding:.7rem .8rem; box-shadow: 0 8px 28px rgba(16,24,40,.18); font-size:.8rem; }
+  .drops-tip-title { font-size:.68rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em;
+    color:var(--muted); margin:0 0 .5rem; display:flex; align-items:center; gap:.5rem; }
+  .drops-tip-title b { color:var(--text); text-transform:none; letter-spacing:0; font-size:.8rem; }
+  .drops-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); gap:.45rem .35rem; }
+  .drops-src { display:flex; flex-direction:column; align-items:center; gap:.25rem; text-align:center;
+    text-decoration:none; color:var(--text); position:relative; padding:.35rem .2rem; border-radius:8px;
+    border:1px solid transparent; }
+  .drops-src:hover { background: rgba(127,127,127,.12); }
+  .drops-src img { width:40px; height:40px; object-fit:contain; image-rendering:pixelated; }
+  .drops-src span { font-size:.7rem; line-height:1.2; overflow-wrap:anywhere; }
+  .drops-src.g { background:var(--g-bg); border-color:var(--g-border); color:var(--g-text); }
+  .drops-src.g::after { content:"G"; position:absolute; top:2px; right:4px; font-size:.62rem; font-weight:800;
+    color:var(--g-text); }
+  .drops-legend { margin:.55rem 0 0; font-size:.7rem; color:var(--muted); }
+  .drops-legend b { color:var(--g-text); }
+  .drops-note { margin:.55rem 0 0; font-size:.74rem; color:var(--muted); line-height:1.35; }
 
   /* Equipment compare */
   .eq-stats { display:flex; gap:1.5rem; flex-wrap:wrap; margin-top:1rem; background:var(--card-bg);
@@ -639,6 +711,8 @@ __BIOME_CARDS__
 __FAME_SECTIONS__
   </section>
 </main>
+<div id="dropsTip" class="drops-tip" role="tooltip" hidden></div>
+<script type="application/json" id="dropsData">__DROPS_JSON__</script>
 <script>
 const search = document.getElementById('search');
 const typeFilter = document.getElementById('typeFilter');
@@ -707,6 +781,167 @@ pagetabs.forEach(tab => tab.addEventListener('click', () => {
   tab.classList.add('active');
   pages.forEach(p => p.classList.toggle('active', p.id === 'page-' + tab.dataset.page));
 }));
+
+/* ---- "Dropped by" tooltips ----
+   Every dungeon name on the page carries an empty .drops-from button; this
+   fills it (up to three sprites + a count) from the one #dropsData blob and
+   drives a single floating tooltip with every monster that drops the portal.
+   Hover/focus previews it, click pins it (also what a touch does); Escape,
+   a click outside or another chip closes it. */
+const dropsData = JSON.parse(document.getElementById('dropsData').textContent);
+const dropsTip = document.getElementById('dropsTip');
+let dropsOpenFor = null, dropsPinned = false, dropsHideTimer = null;
+
+function fillDropsChip(btn) {
+  const info = dropsData[btn.dataset.dungeon];
+  if (!info) { btn.remove(); return; }
+  btn.textContent = '';
+  if (!info.sources.length) {
+    const i = document.createElement('span');
+    i.className = 'drops-info';
+    i.textContent = 'ⓘ';
+    btn.append(i);
+    return;
+  }
+  info.sources.slice(0, 3).forEach(src => {
+    const im = document.createElement('img');
+    im.src = src.icon; im.alt = ''; im.loading = 'lazy';
+    btn.append(im);
+  });
+  if (info.sources.length > 3) {
+    const more = document.createElement('span');
+    more.className = 'drops-more';
+    more.textContent = '+' + (info.sources.length - 3);
+    btn.append(more);
+  }
+}
+
+function dropsChip(name) {
+  if (!dropsData[name]) return null;
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'drops-from';
+  btn.dataset.dungeon = name;
+  btn.setAttribute('aria-haspopup', 'true');
+  btn.setAttribute('aria-label', 'Where ' + name + ' drops from');
+  fillDropsChip(btn);
+  return btn;
+}
+
+function renderDropsTip(name) {
+  const info = dropsData[name];
+  dropsTip.textContent = '';
+  const title = document.createElement('div');
+  title.className = 'drops-tip-title';
+  title.innerHTML = '<b></b>' + (info.sources.length ? 'drops from' : '');
+  title.querySelector('b').textContent = name;
+  dropsTip.append(title);
+  if (info.sources.length) {
+    const grid = document.createElement('div');
+    grid.className = 'drops-grid';
+    info.sources.forEach(src => {
+      const a = document.createElement('a');
+      a.className = 'drops-src' + (src.guaranteed ? ' g' : '');
+      a.href = 'https://www.realmeye.com' + src.href;
+      a.target = '_blank'; a.rel = 'noopener';
+      a.title = src.name + (src.guaranteed ? ' (guaranteed drop)' : '');
+      const im = document.createElement('img');
+      im.src = src.icon; im.alt = '';
+      const label = document.createElement('span');
+      label.textContent = src.name;
+      a.append(im, label);
+      grid.append(a);
+    });
+    dropsTip.append(grid);
+    if (info.sources.some(src => src.guaranteed)) {
+      const legend = document.createElement('p');
+      legend.className = 'drops-legend';
+      legend.innerHTML = '<b>G</b> = guaranteed to drop the portal';
+      dropsTip.append(legend);
+    }
+  }
+  if (info.note) {
+    const note = document.createElement('p');
+    note.className = 'drops-note';
+    note.textContent = info.note;
+    dropsTip.append(note);
+  }
+}
+
+function positionDropsTip(btn) {
+  const r = btn.getBoundingClientRect();
+  const pad = 8;
+  dropsTip.style.left = '0px'; dropsTip.style.top = '0px';
+  const w = dropsTip.offsetWidth, h = dropsTip.offsetHeight;
+  let left = Math.min(Math.max(pad, r.left), window.innerWidth - w - pad);
+  let top = r.bottom + 6;
+  if (top + h > window.innerHeight - pad && r.top - h - 6 >= pad) top = r.top - h - 6;
+  dropsTip.style.left = left + 'px';
+  dropsTip.style.top = Math.max(pad, top) + 'px';
+}
+
+function showDropsTip(btn, pin) {
+  clearTimeout(dropsHideTimer);
+  if (dropsOpenFor && dropsOpenFor !== btn) dropsOpenFor.classList.remove('open');
+  if (dropsOpenFor !== btn) renderDropsTip(btn.dataset.dungeon);
+  dropsOpenFor = btn;
+  dropsPinned = dropsPinned && dropsOpenFor === btn || !!pin;
+  btn.classList.add('open');
+  dropsTip.hidden = false;
+  positionDropsTip(btn);
+}
+
+function hideDropsTip(force) {
+  if (dropsPinned && !force) return;
+  clearTimeout(dropsHideTimer);
+  if (dropsOpenFor) dropsOpenFor.classList.remove('open');
+  dropsOpenFor = null; dropsPinned = false;
+  dropsTip.hidden = true;
+}
+
+function scheduleDropsHide() {
+  clearTimeout(dropsHideTimer);
+  dropsHideTimer = setTimeout(() => hideDropsTip(false), 180);
+}
+
+document.querySelectorAll('.drops-from').forEach(fillDropsChip);
+
+document.addEventListener('mouseover', e => {
+  const btn = e.target.closest('.drops-from');
+  if (btn) { showDropsTip(btn, false); return; }
+  if (e.target.closest('#dropsTip')) clearTimeout(dropsHideTimer);
+});
+document.addEventListener('mouseout', e => {
+  if (e.target.closest('.drops-from') || e.target.closest('#dropsTip')) {
+    const to = e.relatedTarget;
+    if (to && (to.closest('#dropsTip') || to.closest('.drops-from') === dropsOpenFor)) return;
+    scheduleDropsHide();
+  }
+});
+document.addEventListener('focusin', e => {
+  const btn = e.target.closest('.drops-from');
+  if (btn) showDropsTip(btn, false);
+});
+document.addEventListener('focusout', e => {
+  if (e.target.closest('.drops-from')) scheduleDropsHide();
+});
+document.addEventListener('click', e => {
+  const btn = e.target.closest('.drops-from');
+  if (btn) {
+    // Inside a fame <label> a plain click would also tick the checkbox.
+    e.preventDefault();
+    if (dropsOpenFor === btn && dropsPinned) hideDropsTip(true);
+    else showDropsTip(btn, true);
+    return;
+  }
+  if (!e.target.closest('#dropsTip')) hideDropsTip(true);
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && dropsOpenFor) hideDropsTip(true);
+});
+['scroll', 'resize'].forEach(ev => window.addEventListener(ev, () => {
+  if (dropsOpenFor) positionDropsTip(dropsOpenFor);
+}, { passive: true }));
 
 /* ---- Fame checklist ---- */
 const FAME_KEY = 'rotmg-toolkit:fame-dungeons';
@@ -777,7 +1012,8 @@ const fameRows = fameCatalog.map(d => {
   meta.className = 'fame-result-meta';
   meta.textContent = d.collections + (d.collections === 1 ? ' collection' : ' collections');
 
-  row.append(box, icon, label, meta);
+  const chip = dropsChip(d.name);
+  row.append(box, icon, label, ...(chip ? [chip] : []), meta);
   box.addEventListener('change', () => fameSet(d.name, box.checked));
   fameResults.append(row);
   return row;

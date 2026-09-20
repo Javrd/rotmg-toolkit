@@ -7,6 +7,15 @@
   "difficulty": 6.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Swarm Spirit Snake",
+      "wikiUrl": "https://www.realmeye.com/wiki/swarm-spirit-snake",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/AMtf9Dk.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": [

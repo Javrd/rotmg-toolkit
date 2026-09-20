@@ -7,6 +7,15 @@
   "difficulty": 6.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Oryx the Mad God",
+      "wikiUrl": "https://www.realmeye.com/wiki/oryx-the-mad-god",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/xQnFJqW.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": "Locked portal is a guaranteed drop Must be opened with a Wine Cellar Incantation",
   "potions": {
     "guaranteed": [],
     "possible": [

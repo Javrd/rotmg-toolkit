@@ -7,6 +7,27 @@
   "difficulty": 6.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Raging Ifrit",
+      "wikiUrl": "https://www.realmeye.com/wiki/raging-ifrit",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/9giVfOY.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Ravenous Harpy",
+      "wikiUrl": "https://www.realmeye.com/wiki/ravenous-harpy",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/ePtu0ed.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Court of Oryx",
+      "wikiUrl": "https://www.realmeye.com/wiki/court-of-oryx",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/AUfvKkf.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

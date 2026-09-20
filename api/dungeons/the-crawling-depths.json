@@ -7,6 +7,39 @@
   "difficulty": 5.5,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Blood Hound",
+      "wikiUrl": "https://www.realmeye.com/wiki/blood-hound",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/byRMnZV.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Spore Spreader",
+      "wikiUrl": "https://www.realmeye.com/wiki/spore-spreader",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/SOOC3c8.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Sting Spider",
+      "wikiUrl": "https://www.realmeye.com/wiki/sting-spider",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/u8BS18M.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Critter Brood",
+      "wikiUrl": "https://www.realmeye.com/wiki/critter-brood",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/YOcTahC.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Legion Lead Strategist",
+      "wikiUrl": "https://www.realmeye.com/wiki/legion-lead-strategist",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/BxM3Dw4.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [
       {

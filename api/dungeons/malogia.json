@@ -7,6 +7,27 @@
   "difficulty": 5.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Alien UFO",
+      "wikiUrl": "https://www.realmeye.com/wiki/alien-ufo",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/xgw6NU7.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Alien Biff",
+      "wikiUrl": "https://www.realmeye.com/wiki/alien-biff",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/I7HiR2r.png",
+      "guaranteed": false
+    },
+    {
+      "name": "Alien Leprechaun",
+      "wikiUrl": "https://www.realmeye.com/wiki/alien-leprechaun",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3Hi520Q.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": [

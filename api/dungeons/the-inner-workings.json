@@ -7,6 +7,15 @@
   "difficulty": null,
   "hasData": false,
   "error": "No 'Drops of Interest' section found",
+  "dropsFrom": [
+    {
+      "name": "Null",
+      "wikiUrl": "https://www.realmeye.com/wiki/null",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/G7Hbr58.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": "(Drops under certain circumstances; see page for solution)",
   "potions": {
     "guaranteed": [],
     "possible": []

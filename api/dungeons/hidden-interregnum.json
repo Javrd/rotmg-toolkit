@@ -7,6 +7,15 @@
   "difficulty": 7.0,
   "hasData": true,
   "error": null,
+  "dropsFrom": [
+    {
+      "name": "Shady Vagrant",
+      "wikiUrl": "https://www.realmeye.com/wiki/shady-vagrant",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/FJic2jE.png",
+      "guaranteed": false
+    }
+  ],
+  "dropsNote": "Key is required",
   "potions": {
     "guaranteed": [
       {

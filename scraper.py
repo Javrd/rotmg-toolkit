@@ -113,6 +113,7 @@ def get_dungeon_list():
     html = fetch(BASE + "/wiki/dungeons")
     icon_map = build_icon_map(html)
     sections = split_sections(html)
+    drops_from = get_dungeon_drops_from(html)
     seen = set()
     dungeons = []
     for level, hid, title, content in sections:
@@ -122,12 +123,66 @@ def get_dungeon_list():
             if href in seen:
                 continue
             seen.add(href)
+            info = drops_from.get(href, {"sources": [], "note": None})
             dungeons.append({"name": name, "href": href, "category": title.strip(),
-                              "icon": icon_map.get(href)})
+                              "icon": icon_map.get(href),
+                              "drops_from": info["sources"], "drops_note": info["note"]})
     for d in dungeons:
         if not d["icon"]:
             d["icon"] = get_portal_icon(d["href"])
     return dungeons
+
+
+TABLE_RE = re.compile(r'<table[^>]*>(.*?)</table>', re.S)
+TH_RE = re.compile(r'<th[^>]*>(.*?)</th>', re.S)
+BR_SPLIT_RE = re.compile(r'<br\s*/?>', re.I)
+DUNGEON_ROW_NAME_RE = re.compile(r'^\s*<a href="(/wiki/[a-z0-9-]+)">[^<]+</a>')
+SOURCE_IMG_RE = re.compile(r'<a href="(/wiki/[^"#]+)"><img[^>]*\balt="([^"]+)"[^>]*\bsrc="([^"]+)"')
+
+
+def get_dungeon_drops_from(html):
+    """href -> {"sources": [{name, href, icon, guaranteed}], "note": str|None}
+    from the "Drops From" column of every table on /wiki/dungeons.
+
+    A dungeon spans several <tr>s when its portal has more than one kind of
+    source: the first row carries the name (rowspan) plus the regular enemies,
+    and each continuation row holds a single cell such as "<sprites><br>
+    Guaranteed drop from X and Y". A row whose text mentions "guaranteed"
+    marks its sprites as guaranteed; any other text (opening conditions,
+    "Key is required"...) is kept as a free-text note."""
+    out = {}
+    for table in TABLE_RE.findall(html):
+        headers = [TAG_RE.sub("", h).strip() for h in TH_RE.findall(table)]
+        if "Drops From" not in headers:
+            continue
+        col = headers.index("Drops From")
+        current = None
+        for row in TR_RE.findall(table):
+            cells = TD_RE.findall(row)
+            if not cells:
+                continue
+            m = DUNGEON_ROW_NAME_RE.match(cells[0])
+            if m:
+                current = out.setdefault(m.group(1), {"sources": [], "note": None})
+                cell = cells[col] if len(cells) > col else ""
+            elif current is not None and len(cells) == 1:
+                cell = cells[0]
+            else:
+                continue
+            text_parts = [htmlmod.unescape(TAG_RE.sub(" ", p)) for p in BR_SPLIT_RE.split(cell)]
+            text = " ".join(" ".join(text_parts).split())
+            guaranteed = "guaranteed" in text.lower()
+            seen = {s["href"] for s in current["sources"]}
+            for href, name, src in SOURCE_IMG_RE.findall(cell):
+                if href in seen:
+                    continue
+                seen.add(href)
+                icon = BASE + src if src.startswith("/") else src
+                current["sources"].append({"name": htmlmod.unescape(name), "href": href,
+                                           "icon": icon, "guaranteed": guaranteed})
+            if text and text != "None" and not text.lower().startswith("guaranteed drop"):
+                current["note"] = (current["note"] + " " + text) if current["note"] else text
+    return out
 
 
 PORTAL_IMG_RE = re.compile(r'<img[^>]*\btitle="[^"]*\bPortal"[^>]*>')
@@ -539,7 +594,9 @@ def scrape_fame_collections():
             # have no "Difficulty" box on their page: they stay None.
             difficulty = get_difficulty(fetch(BASE + href)) if href else None
             entries.append({"name": name, "href": href,
-                            "icon": known.get("icon"), "difficulty": difficulty})
+                            "icon": known.get("icon"), "difficulty": difficulty,
+                            "drops_from": known.get("drops_from", []),
+                            "drops_note": known.get("drops_note")})
         bonus = cell_text(cells[2])
         fame = FAME_AMOUNT_RE.search(bonus)
         percent = FAME_PERCENT_RE.search(bonus)
@@ -604,6 +661,8 @@ def run_all(out_path):
                  "error": f"scrape failed: {e}"}
         r["category"] = d["category"]
         r["icon"] = d.get("icon") or r.get("icon")
+        r["drops_from"] = d.get("drops_from", [])
+        r["drops_note"] = d.get("drops_note")
         results.append(r)
         if r["error"]:
             print(f"    -> {r['error']}", file=sys.stderr)

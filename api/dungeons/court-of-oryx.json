@@ -7,6 +7,15 @@
   "difficulty": 3.5,
   "hasData": false,
   "error": "No 'Drops of Interest' section found",
+  "dropsFrom": [
+    {
+      "name": "Janus the Doorwarden",
+      "wikiUrl": "https://www.realmeye.com/wiki/janus-the-doorwarden",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/RfObrpY.png",
+      "guaranteed": true
+    }
+  ],
+  "dropsNote": null,
   "potions": {
     "guaranteed": [],
     "possible": []
