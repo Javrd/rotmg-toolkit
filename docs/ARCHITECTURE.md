@@ -345,7 +345,9 @@ unidad es un contador de completadas, no un booleano — ver
   difícil (`difficulty_key`; las sin valorar cuentan como 0, así que
   abren la colección) y cada fila lleva sus calaveras. Las colecciones se
   ordenan por la mazmorra más difícil que contienen y, a igual máximo,
-  por la media (`collection_key`, también con las sin valorar a 0): First
+  por la suma de dificultades (`collection_key`, también con las sin
+  valorar a 0; a igual pico, la colección con más mazmorras o más duras
+  va detrás): First
   Steps abre y Conqueror of the Realm cierra. La suite comprueba las dos
   cosas.
 - **Estado en el cliente**: los ticks viven en `localStorage` bajo
@@ -372,9 +374,17 @@ unidad es un contador de completadas, no un booleano — ver
   `[hidden] { display:none !important; }`: sin ella, el `display:flex` de
   `.fame-result` gana al del user-agent y el filtro no filtra nada — ver
   [[0010-hidden-attribute-loses-to-author-display]].
+- **Plegado**: las colecciones completas salen plegadas (clase
+  `.collapsed`: solo se ve la cabecera con título, bonus y progreso).
+  La cabecera entera (`.fame-head`, `role="button"`, también con
+  Enter/Espacio) pliega o despliega cualquier colección. `fameRender()`
+  solo mueve el pliegue cuando una colección **cambia** de estado
+  (se completa → se pliega; deja de estarlo → se despliega), así que una
+  abierta a mano no se cierra al marcar otra cosa. El pliegue no se
+  guarda: en cada carga se recalcula desde los ticks.
 - **Lo que se recalcula en cada cambio** (`fameRender()`): el contador y
   la barra de progreso de cada sección, la clase `.done` de las secciones
-  completas, las filas del buscador, y el resumen de arriba (mazmorras
+  completas (y su pliegue, ver arriba), las filas del buscador, y el resumen de arriba (mazmorras
   marcadas, colecciones completas y fama acumulada de esas colecciones,
   sobre un total de 65 mazmorras distintas y 46.100 de fama). El botón
   **Clear all** vacía el conjunto entero, previa confirmación.
@@ -385,7 +395,7 @@ unidad es un contador de completadas, no un booleano — ver
 real** vía `playwright-core` y comprueba la Fame Checklist entera: el
 desplegable, el filtrado, marcar desde los dos sitios, la sincronización
 entre secciones, el progreso, la persistencia tras recargar, el botón
-Clear all, los tooltips "drops from" y un viewport de 400px. Las asserts miran `:visible`, no el
+Clear all, el plegado de las completas, los tooltips "drops from" y un viewport de 400px. Las asserts miran `:visible`, no el
 atributo o la clase que debería ocultar algo: es la única forma de
 detectar bugs de cascada CSS, y jsdom da respuestas falsas sobre eso
 ([[0010-hidden-attribute-loses-to-author-display]] explica el caso y cómo

@@ -65,9 +65,9 @@ check('dungeons go easiest to hardest inside each collection, unrated first',
   order.every(o => o.difficulties.every((d, i, a) => i === 0 || a[i - 1] <= d)));
 const keys = order.map(o => {
   const r = o.difficulties;
-  return [Math.max(...r), r.reduce((x, y) => x + y, 0) / r.length];
+  return [Math.max(...r), r.reduce((x, y) => x + y, 0)];
 });
-check('collections go by hardest dungeon, then by average',
+check('collections go by hardest dungeon, then by summed difficulty',
   keys.every((k, i) => i === 0 || keys[i - 1][0] < k[0]
     || (keys[i - 1][0] === k[0] && keys[i - 1][1] <= k[1])),
   order.map(o => o.collection).join(' > '));
@@ -142,6 +142,30 @@ check('bar is full',
   (await first.locator('.fame-bar-fill').evaluate(el => el.style.width)) === '100%');
 check('summary: 1 collection', (await page.locator('#fameCollections').textContent()) === '1');
 check('summary: 100 fame', (await page.locator('#fameFame').textContent()) === '100');
+const firstItems = first.locator('.fame-item:visible');
+check('a completed collection folds away', await firstItems.count() === 0, await firstItems.count());
+check('its header stays visible', await first.locator('.fame-count').isVisible());
+check('aria-expanded follows the fold',
+  (await first.locator('.fame-head').getAttribute('aria-expanded')) === 'false');
+await first.locator('.fame-title').click();
+check('clicking the header unfolds it', await firstItems.count() === 5, await firstItems.count());
+await page.locator('.fame-item[data-dungeon="Snake Pit"] .fame-check').last().uncheck();
+await page.locator('.fame-item[data-dungeon="Snake Pit"] .fame-check').last().check();
+check('ticks elsewhere leave a hand-opened collection open', await firstItems.count() === 5);
+await first.locator('.fame-count').click();
+check('clicking the header again folds it', await firstItems.count() === 0);
+await first.locator('.fame-head').focus();
+await page.keyboard.press('Enter');
+check('Enter on the header unfolds it', await firstItems.count() === 5);
+await first.locator('.fame-check').first().uncheck();
+check('unticking keeps it open', await firstItems.count() === 5);
+await first.locator('.fame-head').click();
+check('an incomplete collection can be folded too', await firstItems.count() === 0);
+await first.locator('.fame-head').click();
+await first.locator('.fame-check').first().check();
+check('open collections are expanded by default',
+  await page.locator('.fame-collection:not(.done) .fame-item:visible').count() > 0
+  && await page.locator('.fame-collection:not(.done).collapsed').count() === 0);
 
 section('persistence across a reload');
 await openFame();
@@ -149,6 +173,8 @@ check('ticks restored', await ticked() === '6', await ticked());
 check('First Steps still done',
   await page.locator('.fame-collection[data-collection="First Steps"]')
     .evaluate(el => el.classList.contains('done')));
+check('and starts folded',
+  await page.locator('.fame-collection[data-collection="First Steps"] .fame-item:visible').count() === 0);
 
 section('closing the picker');
 await page.click('#fameSearch');
@@ -166,6 +192,7 @@ section('clear all');
 await page.click('#fameClear');
 check('summary reset', await ticked() === '0', await ticked());
 check('no section marked done', await page.locator('.fame-collection.done').count() === 0);
+check('no section left folded', await page.locator('.fame-collection.collapsed').count() === 0);
 check('no item checked', await page.locator('.fame-item .fame-check:checked').count() === 0);
 await page.click('#fameSearch');
 check('no picker row checked',

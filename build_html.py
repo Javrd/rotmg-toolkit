@@ -220,10 +220,10 @@ def difficulty_key(entry):
 
 
 def collection_key(col):
-    """Collections ordered by their hardest dungeon, then by the average
+    """Collections ordered by their hardest dungeon, then by the summed
     difficulty when two share the same peak. Unrated dungeons count as 0."""
     values = [difficulty_key(e) for e in col["dungeons"]]
-    return (max(values), sum(values) / len(values))
+    return (max(values), sum(values))
 
 
 def render_fame_collection(col):
@@ -231,7 +231,8 @@ def render_fame_collection(col):
     items = "".join(render_fame_item(e) for e in sorted(col["dungeons"], key=difficulty_key))
     subtitle = f'<span class="fame-sub">{esc(col["subtitle"])}</span>' if col.get("subtitle") else ""
     return (f'<section class="fame-collection" data-collection="{esc(col["name"])}" data-total="{total}" data-fame="{col.get("fame") or 0}">'
-            f'<div class="fame-head">'
+            f'<div class="fame-head" role="button" tabindex="0" aria-expanded="true">'
+            f'<span class="fame-chevron" aria-hidden="true"></span>'
             f'<h2 class="fame-title">{esc(col["name"])}{subtitle}</h2>'
             f'<span class="fame-bonus">{esc(col["bonus"])}</span>'
             f'<span class="fame-progress"><span class="fame-count">0/{total}</span>'
@@ -567,6 +568,15 @@ TEMPLATE = r"""<!doctype html>
   .fame-head { display:flex; align-items:baseline; gap:.75rem; flex-wrap:wrap;
     padding-bottom:.6rem; border-bottom:1px solid var(--border); margin-bottom:.7rem; }
   .fame-collection.done .fame-head { border-bottom-color:var(--g-border); }
+  .fame-head { cursor:pointer; user-select:none; }
+  .fame-head:focus-visible { outline:2px solid var(--accent); outline-offset:4px; border-radius:6px; }
+  .fame-chevron { align-self:center; width:.5rem; height:.5rem; flex-shrink:0; margin-right:-.25rem;
+    border-right:2px solid var(--muted); border-bottom:2px solid var(--muted);
+    transform:rotate(45deg) translate(-2px,-2px); transition:transform .15s; }
+  .fame-collection.done .fame-chevron { border-color:var(--g-text); }
+  .fame-collection.collapsed .fame-chevron { transform:rotate(-45deg); }
+  .fame-collection.collapsed .fame-head { padding-bottom:0; border-bottom:0; margin-bottom:0; }
+  .fame-collection.collapsed .fame-items { display:none; }
   .fame-title { margin:0; font-size:1.05rem; display:flex; align-items:baseline;
     gap:.5rem; flex-wrap:wrap; }
   .fame-sub { font-size:.78rem; font-weight:400; color:var(--muted); text-transform:lowercase; }
@@ -1044,6 +1054,11 @@ function fameRender() {
     const full = total > 0 && n === total;
     if (full) { completed++; earned += Number(sec.dataset.fame) || 0; }
     sec.classList.toggle('done', full);
+    // Completed collections fold away; the user can still open them by hand.
+    // Only a change of state (or the first render) moves the fold, so a
+    // collection opened by hand stays open while unrelated ticks happen.
+    if (sec.dataset.wasDone !== String(full)) fameFold(sec, full);
+    sec.dataset.wasDone = String(full);
     sec.querySelector('.fame-count').textContent = n + '/' + total;
     sec.querySelector('.fame-bar-fill').style.width = total ? (100 * n / total) + '%' : '0';
   });
@@ -1052,6 +1067,22 @@ function fameRender() {
   document.getElementById('fameCollections').textContent = completed;
   document.getElementById('fameFame').textContent = earned.toLocaleString('en-US');
 }
+
+function fameFold(sec, folded) {
+  sec.classList.toggle('collapsed', folded);
+  sec.querySelector('.fame-head').setAttribute('aria-expanded', String(!folded));
+}
+
+fameCollections.forEach(sec => {
+  const head = sec.querySelector('.fame-head');
+  const toggle = () => fameFold(sec, !sec.classList.contains('collapsed'));
+  head.addEventListener('click', toggle);
+  head.addEventListener('keydown', ev => {
+    if (ev.key !== 'Enter' && ev.key !== ' ') return;
+    ev.preventDefault();
+    toggle();
+  });
+});
 
 function fameSet(name, on) {
   if (on) fameDone.add(name); else fameDone.delete(name);
