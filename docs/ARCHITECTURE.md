@@ -344,10 +344,10 @@ unidad es un contador de completadas, no un booleano — ver
   al pintar. Dentro de cada colección las mazmorras van de fácil a
   difícil (`difficulty_key`; las sin valorar cuentan como 0, así que
   abren la colección) y cada fila lleva sus calaveras. Las colecciones se
-  ordenan por la mazmorra más difícil que contienen y, a igual máximo,
-  por la suma de dificultades (`collection_key`, también con las sin
-  valorar a 0; a igual pico, la colección con más mazmorras o más duras
-  va detrás): First
+  comparando sus mazmorras de la más difícil a la más fácil: decide la
+  más difícil; si empatan, la segunda más difícil, y así sucesivamente.
+  Si una colección se queda sin mazmorras, cuenta 0 a partir de ahí
+  (`collection_key`, también con las sin valorar a 0): First
   Steps abre y Conqueror of the Realm cierra. La suite comprueba las dos
   cosas.
 - **Estado en el cliente**: los ticks viven en `localStorage` bajo

@@ -220,10 +220,15 @@ def difficulty_key(entry):
 
 
 def collection_key(col):
-    """Collections ordered by their hardest dungeon, then by the summed
-    difficulty when two share the same peak. Unrated dungeons count as 0."""
-    values = [difficulty_key(e) for e in col["dungeons"]]
-    return (max(values), sum(values))
+    """Collections compared dungeon by dungeon from the hardest down: the
+    hardest decides, on a tie the second hardest, and so on. A collection
+    that runs out of dungeons counts 0 from there. Unrated dungeons count
+    as 0 too. Trailing zeros are dropped so that tuple comparison (where
+    the shorter prefix sorts first) gives exactly that padding with 0."""
+    values = sorted((difficulty_key(e) for e in col["dungeons"]), reverse=True)
+    while values and values[-1] == 0:
+        values.pop()
+    return tuple(values)
 
 
 def render_fame_collection(col):

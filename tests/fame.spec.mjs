@@ -63,13 +63,17 @@ check('every dungeon but the seasonal three shows a rating',
   order.flatMap(o => o.difficulties).filter(d => d === 0).length === 3);
 check('dungeons go easiest to hardest inside each collection, unrated first',
   order.every(o => o.difficulties.every((d, i, a) => i === 0 || a[i - 1] <= d)));
-const keys = order.map(o => {
-  const r = o.difficulties;
-  return [Math.max(...r), r.reduce((x, y) => x + y, 0)];
-});
-check('collections go by hardest dungeon, then by summed difficulty',
-  keys.every((k, i) => i === 0 || keys[i - 1][0] < k[0]
-    || (keys[i - 1][0] === k[0] && keys[i - 1][1] <= k[1])),
+// Hardest first, then second hardest, ...; a collection out of dungeons counts 0.
+const desc = order.map(o => [...o.difficulties].sort((a, b) => b - a));
+const cmpDesc = (a, b) => {
+  for (let i = 0; i < Math.max(a.length, b.length); i++) {
+    const d = (a[i] || 0) - (b[i] || 0);
+    if (d) return d;
+  }
+  return 0;
+};
+check('collections compare hardest dungeon, then next hardest, and so on',
+  desc.every((k, i) => i === 0 || cmpDesc(desc[i - 1], k) <= 0),
   order.map(o => o.collection).join(' > '));
 check('First Steps comes first', order[0].collection === 'First Steps');
 
