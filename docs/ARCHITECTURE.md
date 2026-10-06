@@ -358,16 +358,17 @@ unidad es un contador de completadas, no un booleano — ver
   personaje tiene su propia checklist. El panel `.char-panel` (a la
   izquierda; en pantallas de ≤800px pasa arriba, en una tira con scroll
   horizontal) lista los personajes y termina en un `+` que abre un
-  `<dialog>` en dos pasos: primero las 19 clases de `data/classes.json`
-  (embebidas en `#classesData`) y luego su aspecto (ver abajo), con
-  "Create". Un personaje es `{id, cls, n, skin, dye1, dye2, done}`: la
+  `<dialog>` con las 19 clases de `data/classes.json` (embebidas en
+  `#classesData`). Elegir una crea el personaje en el acto (Classic, sin
+  tintes) y pasa a su aspecto (ver abajo). Un personaje es `{id, cls, n, skin, dye1, dye2, done}`: la
   clase y un número que distingue a los repetidos ("Wizard", "Wizard
   2"…), más su aspecto. El número se asigna al crear (el menor libre para
   esa clase) y no cambia después, así que borrar "Wizard" no renombra
   "Wizard 2". Cada baldosa muestra el sprite del personaje, sus
   colecciones completas y su fama. Su `×` borra el personaje previa
   confirmación (al borrar el seleccionado pasa a seleccionarse el
-  siguiente) y su `✎` reabre el paso de aspecto, con "Save".
+  siguiente) y su `✎` reabre el aspecto. No hay botón de guardar: cada
+  skin o tinte elegido se guarda al momento y se ve ya en la baldosa.
   El panel es `sticky` bajo la cabecera (cuya altura se mide en
   `--header-h`, porque las pestañas pueden partir línea) y con altura
   máxima la de la ventana. `charsFit()` lo pone en una columna y, si

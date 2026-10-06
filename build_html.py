@@ -692,9 +692,6 @@ TEMPLATE = r"""<!doctype html>
     cursor:pointer; padding:0 .25rem; }
   .char-dialog-close:hover { color:var(--text); }
   .char-dialog-head h2 { margin-right:auto; }
-  .char-dialog-back { border:0; background:transparent; color:var(--muted); font-size:1.6rem; line-height:1;
-    cursor:pointer; padding:0 .5rem 0 0; }
-  .char-dialog-back:hover { color:var(--accent); }
   .outfit-top { display:flex; align-items:center; gap:1rem; flex-wrap:wrap; margin-bottom:.75rem; }
   .outfit-preview { width:100px; height:100px; image-rendering:pixelated; border-radius:10px;
     background:rgba(127,127,127,.15); flex-shrink:0; }
@@ -704,8 +701,6 @@ TEMPLATE = r"""<!doctype html>
   .outfit-summary dd { margin:0; font-weight:600; display:flex; align-items:center; gap:.35rem; min-width:0; }
   .outfit-summary canvas { width:14px; height:14px; border-radius:3px; flex-shrink:0;
     box-shadow:0 0 0 1px var(--border); }
-  .outfit-save { margin-left:auto; background:var(--accent); border-color:var(--accent); color:#fff; font-weight:700; }
-  .outfit-save:hover { color:#fff; filter:brightness(1.1); }
   .outfit-tabs { display:flex; gap:.4rem; flex-wrap:wrap; margin-bottom:.5rem; }
   .outfit-search { width:100%; padding:.45rem .7rem; border-radius:8px; border:1px solid var(--border);
     background:var(--card-bg); color:var(--text); font-size:.85rem; margin-bottom:.5rem; }
@@ -843,7 +838,6 @@ __FAME_SECTIONS__
     <dialog id="charDialog" class="char-dialog" aria-labelledby="charDialogTitle">
       <div class="char-dialog-body">
         <div class="char-dialog-head">
-          <button type="button" class="char-dialog-back" aria-label="Back to classes" hidden>‹</button>
           <h2 id="charDialogTitle">New character</h2>
           <button type="button" class="char-dialog-close" aria-label="Close">×</button>
         </div>
@@ -856,7 +850,6 @@ __FAME_SECTIONS__
               <dt>Clothing</dt><dd id="outfitDye1Name"></dd>
               <dt>Accessory</dt><dd id="outfitDye2Name"></dd>
             </dl>
-            <button type="button" class="fame-btn outfit-save" id="outfitSave">Create</button>
           </div>
           <div class="outfit-tabs" role="tablist">
             <button type="button" class="outfit-tab active" role="tab" data-slot="skin">Skin</button>
@@ -1537,17 +1530,18 @@ function charSelect(id) {
   fameRender();
 }
 
-function charAdd(cls, look) {
+function charAdd(cls) {
   const used = new Set(fameChars.filter(c => c.cls === cls).map(c => c.n));
   let n = 1;
   while (used.has(n)) n++;
   const first = !fameChars.length;
   const c = { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 7),
-              cls, n, ...look, done: first ? [...fameDone] : [] };
+              cls, n, skin: 0, dye1: 0, dye2: 0, done: first ? [...fameDone] : [] };
   fameChars.push(c);
   if (first) storeSet(FAME_KEY, null);
   charSelect(c.id);
   charList.querySelector('.char.active').scrollIntoView({ block: 'nearest', inline: 'nearest' });
+  return c;
 }
 
 function charDelete(id) {
@@ -1561,15 +1555,15 @@ function charDelete(id) {
   charSelect(fameActiveId);
 }
 
-/* ---- The dialog: step 1 picks a class (new characters only), step 2 the look ---- */
+/* ---- The dialog: + picks a class, which creates the character right away;
+   then (or from ✎) its look, where every pick is saved as it is made. ---- */
 const classGrid = document.getElementById('classGrid');
 const outfitStep = document.getElementById('outfitStep');
 const outfitGrid = document.getElementById('outfitGrid');
 const outfitSearch = document.getElementById('outfitSearch');
 const outfitTabs = Array.from(outfitStep.querySelectorAll('.outfit-tab'));
 const charDialogTitle = document.getElementById('charDialogTitle');
-const charDialogBack = charDialog.querySelector('.char-dialog-back');
-let draft = null;      // {id (null = new), cls, skin, dye1, dye2}
+let draft = null;      // the character whose look is open
 let draftSlot = 'skin';
 
 function charDialogOpen() {
@@ -1578,18 +1572,16 @@ function charDialogOpen() {
   charDialogTitle.textContent = 'New character';
   classGrid.hidden = false;
   outfitStep.hidden = true;
-  charDialogBack.hidden = true;
   charDialog.showModal();
 }
 
 function outfitOpen(c) {
   outfitLoad();
-  draft = { id: c ? c.id : null, cls: c.cls, skin: c.skin || 0, dye1: c.dye1 || 0, dye2: c.dye2 || 0 };
-  charDialogTitle.textContent = c.id ? charLabel(c) : 'New ' + c.cls;
-  document.getElementById('outfitSave').textContent = c.id ? 'Save' : 'Create';
+  draft = c;
+  c.skin = c.skin || 0; c.dye1 = c.dye1 || 0; c.dye2 = c.dye2 || 0;
+  charDialogTitle.textContent = charLabel(c);
   classGrid.hidden = true;
   outfitStep.hidden = false;
-  charDialogBack.hidden = !!c.id;
   outfitSearch.value = '';
   outfitTab('skin');
   if (!charDialog.open) charDialog.showModal();
@@ -1671,6 +1663,8 @@ function outfitRenderGrid() {
 
 function outfitPick(slot, value) {
   draft[slot] = value;
+  charsSave();
+  charsRender();
   outfitRenderSummary();
   outfitGrid.querySelectorAll('.outfit-opt').forEach(o =>
     o.setAttribute('aria-selected', String(o.dataset.value === String(value))));
@@ -1679,18 +1673,6 @@ function outfitPick(slot, value) {
 function outfitFilter() {
   const q = fameNorm(outfitSearch.value);
   outfitGrid.querySelectorAll('.outfit-opt').forEach(o => { o.hidden = !!q && !o.dataset.name.includes(q); });
-}
-
-function outfitSave() {
-  const look = { skin: draft.skin, dye1: draft.dye1, dye2: draft.dye2 };
-  if (draft.id) {
-    Object.assign(fameChars.find(c => c.id === draft.id), look);
-    charsSave();
-    charsRender();
-  } else {
-    charAdd(draft.cls, look);
-  }
-  charDialog.close();
 }
 
 CLASSES.forEach(cls => {
@@ -1705,13 +1687,11 @@ CLASSES.forEach(cls => {
   const name = document.createElement('span');
   name.textContent = cls.name;
   opt.append(icon, name);
-  opt.addEventListener('click', () => outfitOpen({ cls: cls.name }));
+  opt.addEventListener('click', () => outfitOpen(charAdd(cls.name)));
   classGrid.append(opt);
 });
 outfitTabs.forEach(t => t.addEventListener('click', () => outfitTab(t.dataset.slot)));
 outfitSearch.addEventListener('input', outfitFilter);
-document.getElementById('outfitSave').addEventListener('click', outfitSave);
-charDialogBack.addEventListener('click', charDialogOpen);
 charDialog.querySelector('.char-dialog-close').addEventListener('click', () => charDialog.close());
 // The dialog has no padding of its own, so a click on it (not its body) is the backdrop.
 charDialog.addEventListener('click', ev => { if (ev.target === charDialog) charDialog.close(); });

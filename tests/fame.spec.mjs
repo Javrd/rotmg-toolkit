@@ -285,7 +285,7 @@ const charNames = () => page.locator('.char-name').allTextContents();
 const addChar = async cls => {
   await page.click('.char-add');
   await page.click(`.class-opt[data-cls="${cls}"]`);
-  await page.click('#outfitSave');
+  await page.click('.char-dialog-close');
 };
 const listCols = () => page.locator('#charList').evaluate(el =>
   getComputedStyle(el).gridTemplateColumns.split(' ').length);
@@ -301,21 +301,20 @@ check('it offers all 19 classes, with portraits',
   await page.locator('.class-opt').count() === 19
   && await page.locator('.class-opt img[src^="https://www.realmeye.com/"]').count() === 19);
 await page.keyboard.press('Escape');
-check('Escape closes it without adding', !(await page.locator('#charDialog').isVisible())
+check('Escape before picking a class adds nothing', !(await page.locator('#charDialog').isVisible())
   && await tiles().count() === 0);
 await page.click('.char-add');
 await page.mouse.click(5, 5);
 check('a click on the backdrop closes it too', !(await page.locator('#charDialog').isVisible()));
 await page.click('.char-add');
 await page.click('.class-opt[data-cls="Wizard"]');
-check('picking a class moves on to its look', await page.locator('#outfitStep').isVisible()
-  && !(await page.locator('#classGrid').isVisible()) && await tiles().count() === 0);
-await page.click('.char-dialog-back');
-check('and Back returns to the classes', await page.locator('#classGrid').isVisible());
-await page.click('.class-opt[data-cls="Wizard"]');
-await page.click('#outfitSave');
-check('Create closes the picker and adds it',
-  !(await page.locator('#charDialog').isVisible()) && await tiles().count() === 1);
+check('picking a class adds it straight away', await tiles().count() === 1);
+check('and moves on to its look, with no Save button', await page.locator('#outfitStep').isVisible()
+  && !(await page.locator('#classGrid').isVisible())
+  && await page.locator('#charDialog button', { hasText: /^(Save|Create)$/ }).count() === 0);
+await page.click('.char-dialog-close');
+check('closing the look keeps the character', !(await page.locator('#charDialog').isVisible())
+  && await tiles().count() === 1);
 check('named after its class', JSON.stringify(await charNames()) === '["Wizard"]');
 check('and selected', await page.locator('.char.active .char-name').textContent() === 'Wizard');
 check('the first character takes over the ticks made before', await ticked() === '1'
@@ -372,8 +371,7 @@ const classic = await sprite('.char:nth-child(1) canvas.char-icon');
 await page.locator('.char-edit').nth(1).click();
 check('✎ opens the look of that character', await page.locator('#outfitStep').isVisible()
   && await page.locator('#charDialogTitle').textContent() === 'Wizard 2'
-  && await page.locator('#outfitSave').textContent() === 'Save'
-  && !(await page.locator('.char-dialog-back').isVisible()));
+  && !(await page.locator('#classGrid').isVisible()));
 check('every skin of the class is offered', await page.locator('.outfit-opt').count() === ref.skins,
   await page.locator('.outfit-opt').count() + ' vs ' + ref.skins);
 await page.fill('#outfitSearch', 'slime');
@@ -381,6 +379,10 @@ check('the search narrows the skins',
   await page.locator('.outfit-opt:visible').count() === 1, await page.locator('.outfit-opt:visible').count());
 await page.locator('.outfit-opt:visible').click();
 check('picking one updates the summary', await page.locator('#outfitSkinName').textContent() === 'Slime Wizard');
+const wiz2 = () => page.evaluate(() => JSON.parse(localStorage.getItem('rotmg-toolkit:fame-characters')).list
+  .find(c => c.cls === 'Wizard' && c.n === 2));
+check('and is saved at once', (await wiz2()).skin === ref.slime);
+check('the tile behind updates too', await sprite('.char:nth-child(2) canvas.char-icon') !== classic);
 await page.click('.outfit-tab[data-slot="dye1"]');
 check('the dye tab lists every dye plus None',
   await page.locator('.outfit-opt').count() === ref.dyes + 1, await page.locator('.outfit-opt').count());
@@ -392,19 +394,13 @@ check('the preview is drawn', await pixels('#outfitPreview') > 200);
 check('both dyes named in the summary',
   await page.locator('#outfitDye1Name').textContent() === 'Alice Blue'
   && await page.locator('#outfitDye2Name').textContent() === 'Blue Lace Cloth');
-await page.click('#outfitSave');
-const wiz2 = () => page.evaluate(() => JSON.parse(localStorage.getItem('rotmg-toolkit:fame-characters')).list
-  .find(c => c.cls === 'Wizard' && c.n === 2));
+await page.keyboard.press('Escape');
 const saved = await wiz2();
 check('RealmEye ids are stored', saved.skin === ref.slime && saved.dye1 === ref.alice && saved.dye2 === ref.lace,
   JSON.stringify(saved) + ' vs ' + JSON.stringify(ref));
-check('saving keeps its ticks', saved.done.length === 5);
-check('its tile now looks different', await sprite('.char:nth-child(2) canvas.char-icon') !== classic);
-await page.locator('.char-edit').nth(1).click();
-await page.click('.outfit-tab[data-slot="dye1"]');
-await page.locator('.outfit-opt[title="None"]').click();
-await page.keyboard.press('Escape');
-check('closing without Save changes nothing', (await wiz2()).dye1 === ref.alice);
+check('its ticks are untouched', saved.done.length === 5);
+check('editing a look does not change which character is selected',
+  await page.locator('.char.active .char-name').textContent() === 'Wizard' && await ticked() === '1');
 await page.locator('.char-edit').nth(1).click();
 await page.click('.outfit-tab[data-slot="dye2"]');
 check('a tab opens scrolled to the picked option', await page.locator('.outfit-opt[aria-selected="true"]')
