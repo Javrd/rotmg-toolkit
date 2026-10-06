@@ -17,6 +17,9 @@ python3 scraper.py fame data/fame_bonuses.json
 echo "== Classes =="
 python3 scraper.py classes data/classes.json
 
+echo "== Skins and dyes =="
+python3 outfit_scraper.py data/outfits.json
+
 echo "== Equipment =="
 python3 equipment_scraper.py data/equipment.json
 

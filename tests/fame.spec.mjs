@@ -1,4 +1,4 @@
-/* Browser tests for the Fame Checklist tab.
+/* Browser tests for the Fame Checklist tab (and its character panel).
  *
  * These run in a real Chromium because the bug they exist to prevent is a CSS
  * cascade bug: an author rule like `.fame-result { display:flex }` outranks the
@@ -16,10 +16,26 @@
  */
 import { chromium } from 'playwright-core';
 import { fileURLToPath } from 'url';
+import { createServer } from 'http';
+import { readFile } from 'fs/promises';
 import path from 'path';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const PAGE = 'file://' + path.join(root, 'index.html');
+
+/* Served over HTTP, not file://: the page fetch()es data/*.json, which
+   Chromium refuses for file:// pages, and a canvas drawn from a file://
+   image is tainted, so the outfit checks could not read its pixels. */
+const TYPES = { '.html': 'text/html', '.json': 'application/json', '.png': 'image/png' };
+const server = createServer(async (req, res) => {
+  const file = path.join(root, decodeURIComponent(new URL(req.url, 'http://x').pathname));
+  if (!file.startsWith(root)) { res.writeHead(403).end(); return; }
+  try {
+    const body = await readFile(file);
+    res.writeHead(200, { 'Content-Type': TYPES[path.extname(file)] || 'application/octet-stream' }).end(body);
+  } catch { res.writeHead(404).end(); }
+});
+await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+const PAGE = `http://127.0.0.1:${server.address().port}/index.html`;
 
 let failures = 0;
 const check = (name, cond, extra = '') => {
@@ -269,6 +285,7 @@ const charNames = () => page.locator('.char-name').allTextContents();
 const addChar = async cls => {
   await page.click('.char-add');
   await page.click(`.class-opt[data-cls="${cls}"]`);
+  await page.click('#outfitSave');
 };
 const listCols = () => page.locator('#charList').evaluate(el =>
   getComputedStyle(el).gridTemplateColumns.split(' ').length);
@@ -289,8 +306,15 @@ check('Escape closes it without adding', !(await page.locator('#charDialog').isV
 await page.click('.char-add');
 await page.mouse.click(5, 5);
 check('a click on the backdrop closes it too', !(await page.locator('#charDialog').isVisible()));
-await addChar('Wizard');
-check('picking a class closes the picker and adds it',
+await page.click('.char-add');
+await page.click('.class-opt[data-cls="Wizard"]');
+check('picking a class moves on to its look', await page.locator('#outfitStep').isVisible()
+  && !(await page.locator('#classGrid').isVisible()) && await tiles().count() === 0);
+await page.click('.char-dialog-back');
+check('and Back returns to the classes', await page.locator('#classGrid').isVisible());
+await page.click('.class-opt[data-cls="Wizard"]');
+await page.click('#outfitSave');
+check('Create closes the picker and adds it',
   !(await page.locator('#charDialog').isVisible()) && await tiles().count() === 1);
 check('named after its class', JSON.stringify(await charNames()) === '["Wizard"]');
 check('and selected', await page.locator('.char.active .char-name').textContent() === 'Wizard');
@@ -328,6 +352,73 @@ await page.click('.pagetab[data-page="potions"]');
 check('the panel only shows on the Fame Checklist', !(await page.locator('.char-panel').isVisible()));
 await page.click('.pagetab[data-page="fame"]');
 
+section('character look');
+// Ids straight from data/outfits.json, which keeps RealmEye's own.
+const ref = await page.evaluate(async () => {
+  const o = await (await fetch('data/outfits.json')).json();
+  const by = n => o.dyes.find(d => d.name === n).code;
+  return { skins: o.classes.Wizard.skins.length, slime: o.classes.Wizard.skins.find(s => s[1] === 'Slime Wizard')[0],
+           alice: by('Alice Blue'), lace: by('Blue Lace Cloth'), dyes: o.dyes.length };
+});
+const pixels = sel => page.locator(sel).evaluate(c =>
+  c.getContext('2d').getImageData(0, 0, c.width, c.height).data.filter((v, i) => i % 4 === 3 && v).length);
+const sprite = sel => page.locator(sel).evaluate(c => c.toDataURL());
+await page.waitForSelector('.char canvas.char-icon');
+check('tiles draw the character sprite', await pixels('.char:nth-child(1) canvas.char-icon') > 200);
+check('an untouched character is the Classic skin, undyed',
+  await page.evaluate(() => JSON.parse(localStorage.getItem('rotmg-toolkit:fame-characters')).list
+    .every(c => c.skin === 0 && c.dye1 === 0 && c.dye2 === 0)));
+const classic = await sprite('.char:nth-child(1) canvas.char-icon');
+await page.locator('.char-edit').nth(1).click();
+check('✎ opens the look of that character', await page.locator('#outfitStep').isVisible()
+  && await page.locator('#charDialogTitle').textContent() === 'Wizard 2'
+  && await page.locator('#outfitSave').textContent() === 'Save'
+  && !(await page.locator('.char-dialog-back').isVisible()));
+check('every skin of the class is offered', await page.locator('.outfit-opt').count() === ref.skins,
+  await page.locator('.outfit-opt').count() + ' vs ' + ref.skins);
+await page.fill('#outfitSearch', 'slime');
+check('the search narrows the skins',
+  await page.locator('.outfit-opt:visible').count() === 1, await page.locator('.outfit-opt:visible').count());
+await page.locator('.outfit-opt:visible').click();
+check('picking one updates the summary', await page.locator('#outfitSkinName').textContent() === 'Slime Wizard');
+await page.click('.outfit-tab[data-slot="dye1"]');
+check('the dye tab lists every dye plus None',
+  await page.locator('.outfit-opt').count() === ref.dyes + 1, await page.locator('.outfit-opt').count());
+check('search box was cleared on the way', await page.inputValue('#outfitSearch') === '');
+await page.locator('.outfit-opt[title="Alice Blue"]').click();
+await page.click('.outfit-tab[data-slot="dye2"]');
+await page.locator('.outfit-opt[title="Blue Lace Cloth"]').click();
+check('the preview is drawn', await pixels('#outfitPreview') > 200);
+check('both dyes named in the summary',
+  await page.locator('#outfitDye1Name').textContent() === 'Alice Blue'
+  && await page.locator('#outfitDye2Name').textContent() === 'Blue Lace Cloth');
+await page.click('#outfitSave');
+const wiz2 = () => page.evaluate(() => JSON.parse(localStorage.getItem('rotmg-toolkit:fame-characters')).list
+  .find(c => c.cls === 'Wizard' && c.n === 2));
+const saved = await wiz2();
+check('RealmEye ids are stored', saved.skin === ref.slime && saved.dye1 === ref.alice && saved.dye2 === ref.lace,
+  JSON.stringify(saved) + ' vs ' + JSON.stringify(ref));
+check('saving keeps its ticks', saved.done.length === 5);
+check('its tile now looks different', await sprite('.char:nth-child(2) canvas.char-icon') !== classic);
+await page.locator('.char-edit').nth(1).click();
+await page.click('.outfit-tab[data-slot="dye1"]');
+await page.locator('.outfit-opt[title="None"]').click();
+await page.keyboard.press('Escape');
+check('closing without Save changes nothing', (await wiz2()).dye1 === ref.alice);
+await page.locator('.char-edit').nth(1).click();
+await page.click('.outfit-tab[data-slot="dye2"]');
+check('a tab opens scrolled to the picked option', await page.locator('.outfit-opt[aria-selected="true"]')
+  .evaluate(el => { const r = el.getBoundingClientRect(), g = el.parentElement.getBoundingClientRect();
+    return el.title === 'Blue Lace Cloth' && el.parentElement.scrollTop > 0 && r.top >= g.top && r.bottom <= g.bottom; }));
+await page.keyboard.press('Escape');
+check('the look tabs leave the potion page’s tabs alone', await page.evaluate(() =>
+  document.querySelectorAll('#page-potions .view.active').length === 1
+  && document.querySelectorAll('.tabs .tab.active').length === 1));
+await openFame();
+await page.waitForSelector('.char canvas.char-icon');
+check('the look survives a reload', await sprite('.char:nth-child(2) canvas.char-icon') !== classic
+  && (await wiz2()).skin === ref.slime);
+
 section('character panel layout');
 check('a few characters fit in one column', await listCols() === 1);
 const panelFits = () => page.locator('.char-panel').evaluate(el =>
@@ -341,9 +432,8 @@ check('still in two columns', await listCols() === 2);
 check('a new character scrolls into view', await page.locator('.char.active').evaluate(el => {
   const r = el.getBoundingClientRect(), l = el.parentElement.getBoundingClientRect();
   return r.top >= l.top - 1 && r.bottom <= l.bottom + 1; }));
-check('and the panel stays inside the window', await panelFits());
 await page.evaluate(() => window.scrollTo(0, 3000));
-check('the panel sticks while the checklist scrolls', await panelFits()
+check('scrolled down, the panel sticks and fits the window', await panelFits()
   && await page.locator('.char-panel').evaluate(el =>
     el.getBoundingClientRect().top >= document.querySelector('header').getBoundingClientRect().bottom));
 await page.evaluate(() => window.scrollTo(0, 0));
@@ -393,5 +483,6 @@ check('the class picker fits the screen', await page.locator('#charDialog').eval
 await page.keyboard.press('Escape');
 
 await browser.close();
+server.close();
 console.log(failures ? `\n${failures} FAILURE(S)` : '\nALL PASS');
 process.exit(failures ? 1 : 0);

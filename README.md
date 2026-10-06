@@ -33,6 +33,7 @@ runtime dependencies — the site is one self-contained `index.html`
 scraper.py             dungeons + open-world boss potion drops,
                        fame Dungeon Collection bonuses -> data/*.json
 equipment_scraper.py   weapons/abilities/armor -> data/equipment.json
+outfit_scraper.py      class skins + dyes + sprite sheet -> data/outfits.{json,png}
 build_html.py          data/*.json -> index.html (the site)
 build_api.py           data/*.json -> api/ (the static JSON API)
 refresh.sh             re-run all of the above in order

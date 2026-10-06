@@ -4,7 +4,7 @@ title: 'Fame Checklist: sincronizar personajes con RealmEye'
 status: To Do
 assignee: []
 created_date: '2026-10-06 15:42'
-updated_date: '2026-10-06 16:10'
+updated_date: '2026-10-06 16:36'
 labels: []
 dependencies:
   - TASK-007
@@ -15,7 +15,7 @@ ordinal: 170
 ## Description
 
 <!-- SECTION:DESCRIPTION:BEGIN -->
-Recordar el nombre de usuario de RealmEye y, a partir de /player/<user> (vivos) y /graveyard-of-player/<user> (muertos), proponer altas de personajes nuevos y quitar los que aparezcan en el cementerio. RealmEye no da ID de personaje: el emparejamiento es por clase + fama/fecha, con confirmación cuando hay varios de la misma clase. Bloqueo: RealmEye no manda CORS, así que hace falta un intermediario fuera del navegador (NUC → JSON en rama leída vía raw.githubusercontent.com, o Worker de Cloudflare); contexto y opciones en docs/decisions/0011. Pendiente de que Javi elija transporte.
+Recordar el nombre de usuario de RealmEye y, a partir de /player/<user> (vivos) y /graveyard-of-player/<user> (muertos), proponer altas de personajes nuevos y quitar los que aparezcan en el cementerio. RealmEye no da ID de personaje: el emparejamiento es por clase + fama/fecha, con confirmación cuando hay varios de la misma clase. Bloqueo: RealmEye no manda CORS, así que hace falta un intermediario fuera del navegador (NUC → JSON en rama leída vía raw.githubusercontent.com, o Worker de Cloudflare); contexto y opciones en docs/decisions/0011. Pendiente de que Javi elija transporte. Los personajes ya guardan skin y tintes con los ids de RealmEye (data-skin, data-dye1/2; docs/decisions/0012): se pueden importar tal cual y sirven para emparejar repetidos de una clase.
 <!-- SECTION:DESCRIPTION:END -->
 
 ## Acceptance Criteria

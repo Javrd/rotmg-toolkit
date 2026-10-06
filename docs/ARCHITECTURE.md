@@ -358,14 +358,16 @@ unidad es un contador de completadas, no un booleano — ver
   personaje tiene su propia checklist. El panel `.char-panel` (a la
   izquierda; en pantallas de ≤800px pasa arriba, en una tira con scroll
   horizontal) lista los personajes y termina en un `+` que abre un
-  `<dialog>` con las 19 clases de `data/classes.json` (embebidas en
-  `#classesData`). Un personaje es solo `{id, cls, n, done}`: la clase y
-  un número que distingue a los repetidos ("Wizard", "Wizard 2"…). El
-  número se asigna al crear (el menor libre para esa clase) y no cambia
-  después, así que borrar "Wizard" no renombra "Wizard 2". Cada
-  baldosa muestra colecciones completas y fama de ese personaje, y su
-  `×` borra el personaje previa confirmación. Al borrar el seleccionado
-  pasa a seleccionarse el siguiente.
+  `<dialog>` en dos pasos: primero las 19 clases de `data/classes.json`
+  (embebidas en `#classesData`) y luego su aspecto (ver abajo), con
+  "Create". Un personaje es `{id, cls, n, skin, dye1, dye2, done}`: la
+  clase y un número que distingue a los repetidos ("Wizard", "Wizard
+  2"…), más su aspecto. El número se asigna al crear (el menor libre para
+  esa clase) y no cambia después, así que borrar "Wizard" no renombra
+  "Wizard 2". Cada baldosa muestra el sprite del personaje, sus
+  colecciones completas y su fama. Su `×` borra el personaje previa
+  confirmación (al borrar el seleccionado pasa a seleccionarse el
+  siguiente) y su `✎` reabre el paso de aspecto, con "Save".
   El panel es `sticky` bajo la cabecera (cuya altura se mide en
   `--header-h`, porque las pestañas pueden partir línea) y con altura
   máxima la de la ventana. `charsFit()` lo pone en una columna y, si
@@ -374,10 +376,42 @@ unidad es un contador de completadas, no un booleano — ver
   redimensionar y al abrir la pestaña (con la página oculta todo mide 0).
   No hay sincronización con RealmEye: el navegador no puede leerlo — ver
   [[0011-characters-local-realmeye-not-readable-from-browser]].
+- **Aspecto (skin + tintes)**: se pinta igual que en las páginas de
+  jugador de RealmEye, con sus mismos datos y su mismo algoritmo — ver
+  [[0012-outfits-from-realmeye-scripts]]. `outfit_scraper.py` lee los tres
+  JS con los que RealmEye dibuja personajes (las rutas se sacan de
+  `/recent-deaths`, porque llevan un segmento de versión) y escribe:
+  - `data/outfits.png` — la hoja de sprites de RealmEye (~900 KB),
+    decodificada del data-URL de `sheet.js`. Cada skin ocupa una columna
+    de 50 px en una banda de 6 filas (0 sprite, 1/2 máscara y capa de
+    ropa, 3/4 máscara y capa de accesorio), con 655 columnas por banda;
+    las texturas de las telas están en la misma hoja.
+  - `data/outfits.json` — `classes` (`{Wizard: {id, skins: [[skinId,
+    nombre, índiceEnLaHoja], ...]}}`, de `classinfo.js`) y `dyes`
+    (`[{code, name, tex?}]`: de `sheetOffsets` en `sheet.js`, con nombres
+    de `definition.js`). Un `code` `0x01RRGGBB` es un color liso; los
+    demás son telas y llevan `tex = [w, h, x, y]` en la hoja. Colores
+    ordenados por tono (grises primero), telas por nombre. Un mismo tinte
+    vale para ropa y accesorio (la wiki los vende como "Clothing"/"Large"
+    y "Accessory"/"Small", pero el código es el mismo).
+  `skin`, `dye1` (ropa) y `dye2` (accesorio) se guardan con los ids de
+  RealmEye (`data-skin`, `data-dye1`, `data-dye2`), así que
+  una sincronización futura puede copiar el aspecto tal cual. Los dos
+  ficheros se piden la primera vez que se abre la pestaña
+  (`outfitLoad()`); hasta entonces, o si fallan, la baldosa enseña el
+  retrato de la clase. `outfitDraw()` pinta la fila 0 y, por cada tinte,
+  rellena la máscara con el color o la textura (`source-in`), la pone
+  sobre la capa y apila el resultado. El paso de aspecto tiene tres
+  pestañas (Skin / Clothing dye / Accessory dye) con buscador. Las skins
+  se previsualizan con los tintes elegidos, y cada pestaña se abre con
+  la opción elegida a la vista. Esas pestañas usan la clase
+  `.outfit-tab` y no `.tab`, porque el handler de las sub-pestañas de
+  pociones recoge **todos** los `.tab` del documento.
 - **Estado en el cliente**: en `localStorage`, envuelto en `try/catch`
   para que la página siga funcionando en modo privado.
   `rotmg-toolkit:fame-characters` guarda `{active, list}` con los
-  personajes y sus ticks (array de nombres de mazmorra en `done`).
+  personajes, su aspecto y sus ticks (array de nombres de mazmorra en
+  `done`; un personaje sin `skin`/`dye1`/`dye2` es Classic sin tintes).
   `rotmg-toolkit:fame-dungeons` solo guarda los ticks hechos **sin**
   ningún personaje: la checklist funciona igual sin personajes, y el
   primero que se cree se queda esos ticks (y la clave se borra). Si se
@@ -421,14 +455,19 @@ unidad es un contador de completadas, no un booleano — ver
 
 ## Tests
 
-`npm test` (`tests/fame.spec.mjs`) abre `index.html` en un **Chromium
-real** vía `playwright-core` y comprueba la Fame Checklist entera: el
+`npm test` (`tests/fame.spec.mjs`) sirve el repo con un servidor HTTP
+mínimo de Node (no `file://`: Chromium no deja hacer `fetch()` a
+`data/*.json` desde `file://`, y un canvas pintado con una imagen
+`file://` queda bloqueado para leer sus píxeles), abre `index.html` en
+un **Chromium real** vía `playwright-core` y comprueba la Fame Checklist entera: el
 desplegable, el filtrado, marcar desde los dos sitios, la sincronización
 entre secciones, el progreso, la persistencia tras recargar, el botón
 Clear all, el plegado de las completas, los tooltips "drops from", el
 panel de personajes (crear, numerar repetidos, cambiar, persistir, heredar
-los ticks previos, borrar con confirmación, una → dos columnas → scroll) y
-un viewport de 400px. Las asserts miran `:visible`, no el
+los ticks previos, borrar con confirmación, una → dos columnas → scroll),
+el aspecto (que el sprite se pinta, elegir skin y tintes, que se guardan
+los ids de RealmEye, que Escape no guarda, que persiste) y un viewport de
+400px. Las asserts miran `:visible`, no el
 atributo o la clase que debería ocultar algo: es la única forma de
 detectar bugs de cascada CSS, y jsdom da respuestas falsas sobre eso
 ([[0010-hidden-attribute-loses-to-author-display]] explica el caso y cómo
@@ -478,6 +517,7 @@ python3 scraper.py all data/dungeon_potions.json                 # ~5 min, red
 python3 scraper.py biomes data/biome_potions.json                # ~3-4 min, red
 python3 scraper.py fame data/fame_bonuses.json                   # ~segundos, red
 python3 scraper.py classes data/classes.json                     # ~segundos, red
+python3 outfit_scraper.py data/outfits.json                      # ~segundos, red (+ data/outfits.png)
 python3 equipment_scraper.py data/equipment.json                 # ~1 min, red
 python3 build_html.py data/dungeon_potions.json index.html data/biome_potions.json data/equipment.json data/fame_bonuses.json data/classes.json
 python3 build_api.py api
