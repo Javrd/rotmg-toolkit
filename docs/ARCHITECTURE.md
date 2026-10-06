@@ -49,14 +49,18 @@ No hay pip/venv disponibles en este NUC (sin `python3-venv`, sin acceso
     `data/dungeon_potions.json`.
   - `scrape_fame_collections()` / `run_fame(out_path)`: la tabla
     "Dungeon Collection" de `/wiki/fame-bonuses` (ver más abajo).
+  - `scrape_classes()` / `run_classes(out_path)`: las 19 clases jugables
+    de `/wiki/classes`, en el orden de la wiki (el del juego), con su
+    retrato, para el panel de personajes de la Fame Checklist.
   - Uso: `python3 scraper.py` (prueba con Woodland Labyrinth),
     `python3 scraper.py all data/dungeon_potions.json` (todas),
-    `python3 scraper.py biomes data/biome_potions.json` o
-    `python3 scraper.py fame data/fame_bonuses.json`.
+    `python3 scraper.py biomes data/biome_potions.json`,
+    `python3 scraper.py fame data/fame_bonuses.json` o
+    `python3 scraper.py classes data/classes.json`.
 
 - **`build_html.py`** — lee `data/dungeon_potions.json` +
-  `data/biome_potions.json` + `data/fame_bonuses.json` + (recuento de)
-  `data/equipment.json` y genera `index.html`: una sola página con un
+  `data/biome_potions.json` + `data/fame_bonuses.json` +
+  `data/classes.json` + (recuento de) `data/equipment.json` y genera `index.html`: una sola página con un
   `<nav>` de tres pestañas de nivel superior ("Where to Find Stat
   Potions" / "Equipment Compare" / "Fame Checklist").
   La primera reusa el buscador/filtro de tipo/toggle "guaranteed only" y
@@ -350,10 +354,35 @@ unidad es un contador de completadas, no un booleano — ver
   (`collection_key`, también con las sin valorar a 0): First
   Steps abre y Conqueror of the Realm cierra. La suite comprueba las dos
   cosas.
-- **Estado en el cliente**: los ticks viven en `localStorage` bajo
-  `rotmg-toolkit:fame-dungeons` (array de nombres de mazmorra), envuelto
-  en `try/catch` para que la página siga funcionando en modo privado. La
-  clave de cada checkbox es el atributo `data-dungeon`, no el `href`: al
+- **Personajes**: los bonus de colección son por personaje, así que cada
+  personaje tiene su propia checklist. El panel `.char-panel` (a la
+  izquierda; en pantallas de ≤800px pasa arriba, en una tira con scroll
+  horizontal) lista los personajes y termina en un `+` que abre un
+  `<dialog>` con las 19 clases de `data/classes.json` (embebidas en
+  `#classesData`). Un personaje es solo `{id, cls, n, done}`: la clase y
+  un número que distingue a los repetidos ("Wizard", "Wizard 2"…). El
+  número se asigna al crear (el menor libre para esa clase) y no cambia
+  después, así que borrar "Wizard" no renombra "Wizard 2". Cada
+  baldosa muestra colecciones completas y fama de ese personaje, y su
+  `×` borra el personaje previa confirmación. Al borrar el seleccionado
+  pasa a seleccionarse el siguiente.
+  El panel es `sticky` bajo la cabecera (cuya altura se mide en
+  `--header-h`, porque las pestañas pueden partir línea) y con altura
+  máxima la de la ventana. `charsFit()` lo pone en una columna y, si
+  esa columna desborda, en dos (`.two-col`); a partir de ahí la lista
+  hace scroll por sí sola. Se recalcula al cambiar la lista, al
+  redimensionar y al abrir la pestaña (con la página oculta todo mide 0).
+  No hay sincronización con RealmEye: el navegador no puede leerlo — ver
+  [[0011-characters-local-realmeye-not-readable-from-browser]].
+- **Estado en el cliente**: en `localStorage`, envuelto en `try/catch`
+  para que la página siga funcionando en modo privado.
+  `rotmg-toolkit:fame-characters` guarda `{active, list}` con los
+  personajes y sus ticks (array de nombres de mazmorra en `done`).
+  `rotmg-toolkit:fame-dungeons` solo guarda los ticks hechos **sin**
+  ningún personaje: la checklist funciona igual sin personajes, y el
+  primero que se cree se queda esos ticks (y la clave se borra). Si se
+  borran todos los personajes se vuelve a ese modo, con la checklist
+  vacía. La clave de cada checkbox es el atributo `data-dungeon`, no el `href`: al
   marcar uno, el JS marca **todos** los checkboxes con ese mismo
   `data-dungeon`, así que una mazmorra que sale en varias colecciones
   (Pirate Cave está en cuatro) se marca en todas a la vez — que es como
@@ -386,8 +415,9 @@ unidad es un contador de completadas, no un booleano — ver
   la barra de progreso de cada sección, la clase `.done` de las secciones
   completas (y su pliegue, ver arriba), las filas del buscador, y el resumen de arriba (mazmorras
   marcadas, colecciones completas y fama acumulada de esas colecciones,
-  sobre un total de 65 mazmorras distintas y 46.100 de fama). El botón
-  **Clear all** vacía el conjunto entero, previa confirmación.
+  sobre un total de 65 mazmorras distintas y 46.100 de fama), y las cifras
+  de la baldosa del personaje. El botón **Clear all** vacía los ticks del
+  personaje seleccionado, previa confirmación.
 
 ## Tests
 
@@ -395,7 +425,10 @@ unidad es un contador de completadas, no un booleano — ver
 real** vía `playwright-core` y comprueba la Fame Checklist entera: el
 desplegable, el filtrado, marcar desde los dos sitios, la sincronización
 entre secciones, el progreso, la persistencia tras recargar, el botón
-Clear all, el plegado de las completas, los tooltips "drops from" y un viewport de 400px. Las asserts miran `:visible`, no el
+Clear all, el plegado de las completas, los tooltips "drops from", el
+panel de personajes (crear, numerar repetidos, cambiar, persistir, heredar
+los ticks previos, borrar con confirmación, una → dos columnas → scroll) y
+un viewport de 400px. Las asserts miran `:visible`, no el
 atributo o la clase que debería ocultar algo: es la única forma de
 detectar bugs de cascada CSS, y jsdom da respuestas falsas sobre eso
 ([[0010-hidden-attribute-loses-to-author-display]] explica el caso y cómo
@@ -444,7 +477,8 @@ cd /home/javi/rotmg-info
 python3 scraper.py all data/dungeon_potions.json                 # ~5 min, red
 python3 scraper.py biomes data/biome_potions.json                # ~3-4 min, red
 python3 scraper.py fame data/fame_bonuses.json                   # ~segundos, red
+python3 scraper.py classes data/classes.json                     # ~segundos, red
 python3 equipment_scraper.py data/equipment.json                 # ~1 min, red
-python3 build_html.py data/dungeon_potions.json index.html data/biome_potions.json data/equipment.json data/fame_bonuses.json
+python3 build_html.py data/dungeon_potions.json index.html data/biome_potions.json data/equipment.json data/fame_bonuses.json data/classes.json
 python3 build_api.py api
 ```

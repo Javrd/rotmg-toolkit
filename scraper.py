@@ -628,6 +628,30 @@ def run_fame(out_path):
     return collections
 
 
+CLASSES_URL = BASE + "/wiki/classes"
+# The class portraits on /wiki/classes are the only <img> there sized 100px
+# whose alt and title agree; the "Classes Unlocking System" chart is not.
+CLASS_IMG_RE = re.compile(
+    r'<img alt="([^"]+)" src="(/s/a/img/wiki/i/[^"]+)" title="\1" width="100"')
+
+
+def scrape_classes():
+    """Every playable class, in the wiki's (= the game's) order, with its portrait."""
+    classes = [{"name": htmlmod.unescape(name), "icon": BASE + src}
+               for name, src in CLASS_IMG_RE.findall(fetch(CLASSES_URL))]
+    if not classes:
+        raise RuntimeError("no class portraits found on " + CLASSES_URL)
+    return classes
+
+
+def run_classes(out_path):
+    classes = scrape_classes()
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(classes, f, indent=2, ensure_ascii=False)
+    print(f"Saved {len(classes)} classes to {out_path}", file=sys.stderr)
+    return classes
+
+
 def run_biomes(out_path):
     biomes = get_biome_list()
     print(f"Biomes: {len(biomes)}", file=sys.stderr)
@@ -682,6 +706,9 @@ if __name__ == "__main__":
     elif len(sys.argv) > 1 and sys.argv[1] == "fame":
         out = sys.argv[2] if len(sys.argv) > 2 else "data/fame_bonuses.json"
         run_fame(out)
+    elif len(sys.argv) > 1 and sys.argv[1] == "classes":
+        out = sys.argv[2] if len(sys.argv) > 2 else "data/classes.json"
+        run_classes(out)
     else:
         r = scrape_dungeon("Woodland Labyrinth", "/wiki/woodland-labyrinth")
         print_result(r)

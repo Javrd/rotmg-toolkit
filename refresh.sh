@@ -14,11 +14,14 @@ python3 scraper.py biomes data/biome_potions.json
 echo "== Fame collections =="
 python3 scraper.py fame data/fame_bonuses.json
 
+echo "== Classes =="
+python3 scraper.py classes data/classes.json
+
 echo "== Equipment =="
 python3 equipment_scraper.py data/equipment.json
 
 echo "== HTML site =="
-python3 build_html.py data/dungeon_potions.json index.html data/biome_potions.json data/equipment.json data/fame_bonuses.json
+python3 build_html.py data/dungeon_potions.json index.html data/biome_potions.json data/equipment.json data/fame_bonuses.json data/classes.json
 
 echo "== Static API =="
 python3 build_api.py api

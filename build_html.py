@@ -282,7 +282,8 @@ def collect_types(dungeons, biomes):
     return sorted(types)
 
 
-def build(data_path, out_path, biome_path=None, equipment_path=None, fame_path=None):
+def build(data_path, out_path, biome_path=None, equipment_path=None, fame_path=None,
+          classes_path=None):
     with open(data_path, encoding="utf-8") as f:
         dungeons = json.load(f)
 
@@ -325,6 +326,14 @@ def build(data_path, out_path, biome_path=None, equipment_path=None, fame_path=N
         except FileNotFoundError:
             pass
 
+    classes = []
+    if classes_path:
+        try:
+            with open(classes_path, encoding="utf-8") as f:
+                classes = json.load(f)
+        except FileNotFoundError:
+            pass
+
     n_equipment = 0
     if equipment_path:
         try:
@@ -346,6 +355,7 @@ def build(data_path, out_path, biome_path=None, equipment_path=None, fame_path=N
                     .replace("__N_FAME_DUNGEONS__", str(n_fame_dungeons)) \
                     .replace("__N_FAME_TOTAL__", f"{n_fame_total:,}") \
                     .replace("__FALLBACK_ICON_JSON__", json.dumps(FALLBACK_ICON)) \
+                    .replace("__CLASSES_JSON__", json.dumps(classes, ensure_ascii=False).replace("</", "<\\/")) \
                     .replace("__DROPS_JSON__", json.dumps(collect_drops(dungeons, collections),
                                                           ensure_ascii=False).replace("</", "<\\/"))
 
@@ -353,7 +363,7 @@ def build(data_path, out_path, biome_path=None, equipment_path=None, fame_path=N
         f.write(page)
     print(f"Wrote {out_path} ({n_shown}/{n_total} dungeons with potions, {n_no_data} with no data, "
           f"{n_biomes} biomes with {n_biome_enemies} potion-dropping enemies, {len(types)} potion types, "
-          f"{n_equipment} equipment items, {n_collections} fame collections)")
+          f"{n_equipment} equipment items, {n_collections} fame collections, {len(classes)} classes)")
 
 
 TEMPLATE = r"""<!doctype html>
@@ -629,6 +639,64 @@ TEMPLATE = r"""<!doctype html>
   .fame-result-meta { margin-left:auto; font-size:.7rem; color:var(--muted); white-space:nowrap;
     flex-shrink:0; }
   .fame-empty { padding:.75rem; font-size:.85rem; color:var(--muted); }
+
+  /* Character panel: one column of tiles, a second one once the first is full
+     (charsFit() in the script decides), and only then its own scrollbar. */
+  .fame-layout { display:grid; grid-template-columns:auto minmax(0,1fr); gap:1.25rem;
+    align-items:start; margin-top:1rem; }
+  .fame-main > .fame-picker { margin-top:0; }
+  .char-panel { position:sticky; top:calc(var(--header-h, 0px) + 1rem);
+    max-height:calc(100vh - var(--header-h, 0px) - 2rem); display:flex; flex-direction:column;
+    background:var(--card-bg); border:1px solid var(--border); border-radius:12px;
+    padding:.6rem; box-shadow:var(--shadow); }
+  .char-panel-head { font-size:.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em;
+    color:var(--muted); padding:.1rem .2rem .5rem; }
+  .char-list { display:grid; grid-template-columns:10.5rem; gap:.4rem; align-content:start;
+    overflow-y:auto; min-height:0; }
+  .char-list.two-col { grid-template-columns:repeat(2, 10.5rem); }
+  .char { position:relative; }
+  .char-pick { width:100%; display:grid; grid-template-columns:36px minmax(0,1fr); column-gap:.5rem;
+    align-items:center; text-align:left; padding:.4rem 1.6rem .4rem .45rem; border-radius:9px;
+    border:1px solid var(--border); background:var(--card-bg); color:var(--text); cursor:pointer; font:inherit; }
+  .char-pick:hover { border-color:var(--accent); }
+  .char-pick:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
+  .char.active .char-pick { border-color:var(--accent); box-shadow:inset 0 0 0 1px var(--accent);
+    background:rgba(96,165,250,.12); }
+  .char-icon { grid-row:span 2; width:36px; height:36px; object-fit:contain; }
+  .char-name { font-size:.85rem; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .char-meta { font-size:.7rem; color:var(--muted); font-variant-numeric:tabular-nums;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .char-del { position:absolute; top:.2rem; right:.2rem; width:1.35rem; height:1.35rem; padding:0;
+    border:0; border-radius:6px; background:transparent; color:var(--muted); font-size:1rem; line-height:1;
+    cursor:pointer; opacity:.5; }
+  .char:hover .char-del, .char-del:focus-visible { opacity:1; }
+  .char-del:hover, .char-del:focus-visible { color:var(--bad-text); background:var(--bad-bg); outline:none; }
+  .char-add { min-height:3.1rem; border:1px dashed var(--border); border-radius:9px; background:transparent;
+    color:var(--muted); font:inherit; font-size:1.5rem; line-height:1; cursor:pointer; }
+  .char-add:hover, .char-add:focus-visible { border-color:var(--accent); color:var(--accent); outline:none; }
+  .char-hint { font-size:.75rem; color:var(--muted); margin:.55rem .2rem 0; max-width:10.5rem; }
+  .char-dialog { padding:0; border:1px solid var(--border); border-radius:14px; background:var(--card-bg);
+    color:var(--text); width:min(560px, calc(100vw - 2rem)); box-shadow:0 12px 40px rgba(0,0,0,.3); }
+  .char-dialog::backdrop { background:rgba(0,0,0,.45); }
+  .char-dialog-body { padding:1rem; }
+  .char-dialog-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:.75rem; }
+  .char-dialog-head h2 { margin:0; font-size:1rem; }
+  .char-dialog-close { border:0; background:transparent; color:var(--muted); font-size:1.4rem; line-height:1;
+    cursor:pointer; padding:0 .25rem; }
+  .char-dialog-close:hover { color:var(--text); }
+  .class-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(84px,1fr)); gap:.4rem; }
+  .class-opt { display:flex; flex-direction:column; align-items:center; gap:.25rem; padding:.5rem .25rem;
+    border:1px solid var(--border); border-radius:10px; background:transparent; color:var(--text);
+    font:inherit; font-size:.78rem; cursor:pointer; }
+  .class-opt:hover, .class-opt:focus-visible { border-color:var(--accent); color:var(--accent); outline:none; }
+  .class-opt img { width:48px; height:48px; object-fit:contain; }
+  @media (max-width: 800px) {
+    .fame-layout { grid-template-columns:minmax(0,1fr); }
+    .char-panel { position:static; max-height:none; }
+    .char-list, .char-list.two-col { grid-template-columns:none; grid-auto-flow:column;
+      grid-auto-columns:10.5rem; overflow-x:auto; overflow-y:hidden; }
+    .char-hint { max-width:none; }
+  }
 </style>
 </head>
 <body>
@@ -710,8 +778,16 @@ __BIOME_CARDS__
       <a href="https://www.realmeye.com/wiki/fame-bonuses" target="_blank" rel="noopener">RealmEye fame-bonuses wiki</a>
       (__N_COLLECTIONS__ collections over __N_FAME_DUNGEONS__ distinct dungeons). Each one pays out once,
       the first time you have completed every dungeon in it on a single character. Tick the dungeons you
-      have cleared — a dungeon that appears in several collections is ticked in all of them at once, and
-      your progress is kept in this browser.</p>
+      have cleared — a dungeon that appears in several collections is ticked in all of them at once.
+      Each of your characters keeps its own checklist, saved in this browser.</p>
+    <div class="fame-layout">
+    <aside class="char-panel" aria-label="Characters">
+      <div class="char-panel-head">Characters</div>
+      <div class="char-list" id="charList" role="list"></div>
+      <p class="char-hint" id="charHint">Add a character to keep a separate checklist for each one.
+        Anything you tick before that goes to the first character you add.</p>
+    </aside>
+    <div class="fame-main">
     <div class="fame-picker">
       <input id="fameSearch" class="fame-search" type="search" autocomplete="off"
              placeholder="Search any dungeon to tick it off — click to see all __N_FAME_DUNGEONS__">
@@ -724,10 +800,22 @@ __BIOME_CARDS__
       <button class="fame-btn" id="fameClear">Clear all</button>
     </div>
 __FAME_SECTIONS__
+    </div>
+    </div>
+    <dialog id="charDialog" class="char-dialog" aria-labelledby="charDialogTitle">
+      <div class="char-dialog-body">
+        <div class="char-dialog-head">
+          <h2 id="charDialogTitle">New character</h2>
+          <button type="button" class="char-dialog-close" aria-label="Close">×</button>
+        </div>
+        <div class="class-grid" id="classGrid"></div>
+      </div>
+    </dialog>
   </section>
 </main>
 <div id="dropsTip" class="drops-tip" role="tooltip" hidden></div>
 <script type="application/json" id="dropsData">__DROPS_JSON__</script>
+<script type="application/json" id="classesData">__CLASSES_JSON__</script>
 <script>
 const search = document.getElementById('search');
 const typeFilter = document.getElementById('typeFilter');
@@ -959,19 +1047,50 @@ document.addEventListener('keydown', e => {
 }, { passive: true }));
 
 /* ---- Fame checklist ---- */
+/* Each character keeps its own ticks under CHARS_KEY. FAME_KEY only holds the
+   ticks made while there is no character yet; the first character created
+   takes them over. */
 const FAME_KEY = 'rotmg-toolkit:fame-dungeons';
+const CHARS_KEY = 'rotmg-toolkit:fame-characters';
 const fameItems = Array.from(document.querySelectorAll('.fame-item'));
 const fameCollections = Array.from(document.querySelectorAll('.fame-collection'));
 
-function fameLoad() {
+function storeGet(key, fallback) {
   try {
-    const raw = localStorage.getItem(FAME_KEY);
-    return new Set(raw ? JSON.parse(raw) : []);
-  } catch (e) { return new Set(); }
+    const raw = localStorage.getItem(key);
+    return raw ? JSON.parse(raw) : fallback;
+  } catch (e) { return fallback; }
+}
+
+function storeSet(key, value) {
+  try {
+    if (value === null) localStorage.removeItem(key);
+    else localStorage.setItem(key, JSON.stringify(value));
+  } catch (e) { /* private mode */ }
+}
+
+const charsSaved = storeGet(CHARS_KEY, {});
+let fameChars = Array.isArray(charsSaved.list) ? charsSaved.list : [];
+let fameActiveId = charsSaved.active;
+if (fameChars.length && !fameActiveChar()) fameActiveId = fameChars[0].id;
+
+function fameActiveChar() {
+  return fameChars.find(c => c.id === fameActiveId) || null;
+}
+
+function charsSave() {
+  storeSet(CHARS_KEY, { active: fameActiveId, list: fameChars });
+}
+
+function fameLoad() {
+  const c = fameActiveChar();
+  return new Set(c ? c.done : storeGet(FAME_KEY, []));
 }
 
 function fameSave(done) {
-  try { localStorage.setItem(FAME_KEY, JSON.stringify([...done])); } catch (e) { /* private mode */ }
+  const c = fameActiveChar();
+  if (c) { c.done = [...done]; charsSave(); }
+  else storeSet(FAME_KEY, [...done]);
 }
 
 let fameDone = fameLoad();
@@ -1040,6 +1159,23 @@ fameEmpty.hidden = true;
 fameEmpty.textContent = 'No dungeon matches that.';
 fameResults.append(fameEmpty);
 
+/* Dungeon names per collection, in page order: progress for any tick set
+   (the active character's, or another tile's) without walking the DOM. */
+const fameSectionDungeons = fameCollections.map(sec =>
+  Array.from(sec.querySelectorAll('.fame-item'), i => i.dataset.dungeon));
+
+function fameProgress(done) {
+  let completed = 0, earned = 0;
+  const counts = fameCollections.map((sec, i) => {
+    const total = Number(sec.dataset.total);
+    const n = fameSectionDungeons[i].filter(d => done.has(d)).length;
+    if (total > 0 && n === total) { completed++; earned += Number(sec.dataset.fame) || 0; }
+    return n;
+  });
+  const ticked = fameCatalog.filter(d => done.has(d.name)).length;
+  return { counts, completed, earned, ticked };
+}
+
 function fameRender() {
   fameItems.forEach(item => {
     const on = fameDone.has(item.dataset.dungeon);
@@ -1051,13 +1187,11 @@ function fameRender() {
     row.querySelector('.fame-result-check').checked = on;
     row.classList.toggle('checked', on);
   });
-  let completed = 0, earned = 0;
-  fameCollections.forEach(sec => {
+  const prog = fameProgress(fameDone);
+  fameCollections.forEach((sec, i) => {
     const total = Number(sec.dataset.total);
-    const n = Array.from(sec.querySelectorAll('.fame-item'))
-      .filter(i => fameDone.has(i.dataset.dungeon)).length;
+    const n = prog.counts[i];
     const full = total > 0 && n === total;
-    if (full) { completed++; earned += Number(sec.dataset.fame) || 0; }
     sec.classList.toggle('done', full);
     // Completed collections fold away; the user can still open them by hand.
     // Only a change of state (or the first render) moves the fold, so a
@@ -1067,10 +1201,10 @@ function fameRender() {
     sec.querySelector('.fame-count').textContent = n + '/' + total;
     sec.querySelector('.fame-bar-fill').style.width = total ? (100 * n / total) + '%' : '0';
   });
-  const ticked = fameCatalog.filter(d => fameDone.has(d.name)).length;
-  document.getElementById('fameDone').textContent = ticked;
-  document.getElementById('fameCollections').textContent = completed;
-  document.getElementById('fameFame').textContent = earned.toLocaleString('en-US');
+  document.getElementById('fameDone').textContent = prog.ticked;
+  document.getElementById('fameCollections').textContent = prog.completed;
+  document.getElementById('fameFame').textContent = prog.earned.toLocaleString('en-US');
+  charsMeta();
 }
 
 function fameFold(sec, folded) {
@@ -1131,13 +1265,157 @@ document.addEventListener('mousedown', ev => {
 
 document.getElementById('fameClear').addEventListener('click', () => {
   if (!fameDone.size) return;
-  if (!confirm('Untick every dungeon in the fame checklist?')) return;
+  const c = fameActiveChar();
+  if (!confirm(c ? `Untick every dungeon for ${charLabel(c)}?`
+                 : 'Untick every dungeon in the fame checklist?')) return;
   fameDone = new Set();
   fameSave(fameDone);
   fameRender();
 });
 
+/* ---- Characters ---- */
+const CLASSES = JSON.parse(document.getElementById('classesData').textContent);
+const CLASS_ICON = Object.fromEntries(CLASSES.map(c => [c.name, c.icon]));
+const charList = document.getElementById('charList');
+const charHint = document.getElementById('charHint');
+const charDialog = document.getElementById('charDialog');
+const charWide = window.matchMedia('(min-width: 801px)');
+
+/* A second character of the same class is "Wizard 2"; the number is kept for
+   life, so deleting "Wizard" does not rename "Wizard 2". */
+function charLabel(c) {
+  return c.n > 1 ? c.cls + ' ' + c.n : c.cls;
+}
+
+function charsRender() {
+  const tiles = fameChars.map(c => {
+    const tile = document.createElement('div');
+    tile.className = 'char';
+    tile.setAttribute('role', 'listitem');
+    tile.dataset.id = c.id;
+    tile.classList.toggle('active', c.id === fameActiveId);
+
+    const pick = document.createElement('button');
+    pick.type = 'button';
+    pick.className = 'char-pick';
+    pick.setAttribute('aria-pressed', String(c.id === fameActiveId));
+    const icon = document.createElement('img');
+    icon.className = 'char-icon';
+    icon.src = CLASS_ICON[c.cls] || '';
+    icon.alt = '';
+    const name = document.createElement('span');
+    name.className = 'char-name';
+    name.textContent = charLabel(c);
+    const meta = document.createElement('span');
+    meta.className = 'char-meta';
+    pick.append(icon, name, meta);
+    pick.addEventListener('click', () => charSelect(c.id));
+
+    const del = document.createElement('button');
+    del.type = 'button';
+    del.className = 'char-del';
+    del.textContent = '×';
+    del.title = 'Delete ' + charLabel(c);
+    del.setAttribute('aria-label', del.title);
+    del.addEventListener('click', () => charDelete(c.id));
+
+    tile.append(pick, del);
+    return tile;
+  });
+  const add = document.createElement('button');
+  add.type = 'button';
+  add.className = 'char-add';
+  add.textContent = '+';
+  add.title = 'Add a character';
+  add.setAttribute('aria-label', add.title);
+  add.addEventListener('click', () => charDialog.showModal());
+  charList.replaceChildren(...tiles, add);
+  charHint.hidden = fameChars.length > 0;
+  charsMeta();
+  charsFit();
+}
+
+function charsMeta() {
+  charList.querySelectorAll('.char').forEach(tile => {
+    const c = fameChars.find(x => x.id === tile.dataset.id);
+    const p = fameProgress(new Set(c.done));
+    const meta = tile.querySelector('.char-meta');
+    meta.textContent = `${p.completed}/${fameCollections.length} · ${p.earned.toLocaleString('en-US')} fame`;
+    tile.querySelector('.char-pick').title =
+      `${p.ticked} dungeons ticked · ${p.completed}/${fameCollections.length} collections · ${p.earned.toLocaleString('en-US')} bonus Fame`;
+  });
+}
+
+/* One column until it fills the panel's height, then two, then scroll. A
+   hidden page measures 0, so this runs again whenever the tab is opened. */
+function charsFit() {
+  charList.classList.remove('two-col');
+  if (charWide.matches && charList.scrollHeight > charList.clientHeight + 1)
+    charList.classList.add('two-col');
+}
+
+function charSelect(id) {
+  fameActiveId = id;
+  fameDone = fameLoad();
+  charsSave();
+  charsRender();
+  fameRender();
+}
+
+function charAdd(cls) {
+  const used = new Set(fameChars.filter(c => c.cls === cls).map(c => c.n));
+  let n = 1;
+  while (used.has(n)) n++;
+  const first = !fameChars.length;
+  const c = { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 7),
+              cls, n, done: first ? [...fameDone] : [] };
+  fameChars.push(c);
+  if (first) storeSet(FAME_KEY, null);
+  charSelect(c.id);
+  charList.querySelector('.char.active').scrollIntoView({ block: 'nearest', inline: 'nearest' });
+}
+
+function charDelete(id) {
+  const i = fameChars.findIndex(c => c.id === id);
+  const c = fameChars[i];
+  const n = c.done.length;
+  if (!confirm(`Delete ${charLabel(c)}?` +
+               (n ? ` Its ${n} ticked dungeon${n === 1 ? '' : 's'} will be lost.` : ''))) return;
+  fameChars.splice(i, 1);
+  if (fameActiveId === id) fameActiveId = (fameChars[i] || fameChars[i - 1] || {}).id || null;
+  charSelect(fameActiveId);
+}
+
+CLASSES.forEach(cls => {
+  const opt = document.createElement('button');
+  opt.type = 'button';
+  opt.className = 'class-opt';
+  opt.dataset.cls = cls.name;
+  const icon = document.createElement('img');
+  icon.src = cls.icon;
+  icon.alt = '';
+  icon.loading = 'lazy';
+  const name = document.createElement('span');
+  name.textContent = cls.name;
+  opt.append(icon, name);
+  opt.addEventListener('click', () => { charDialog.close(); charAdd(cls.name); });
+  document.getElementById('classGrid').append(opt);
+});
+charDialog.querySelector('.char-dialog-close').addEventListener('click', () => charDialog.close());
+// The dialog has no padding of its own, so a click on it (not its body) is the backdrop.
+charDialog.addEventListener('click', ev => { if (ev.target === charDialog) charDialog.close(); });
+
+/* The panel sticks under the header, whose height depends on how the tabs wrap. */
+const pageHeader = document.querySelector('header');
+function syncHeaderHeight() {
+  document.documentElement.style.setProperty('--header-h', pageHeader.offsetHeight + 'px');
+}
+new ResizeObserver(() => { syncHeaderHeight(); charsFit(); }).observe(pageHeader);
+window.addEventListener('resize', charsFit, { passive: true });
+document.querySelector('.pagetab[data-page="fame"]').addEventListener('click', charsFit);
+
 fameFilter();
+charsRender();
 fameRender();
 
 /* ---- Equipment compare ---- */
@@ -1521,4 +1799,5 @@ if __name__ == "__main__":
     biome_path = sys.argv[3] if len(sys.argv) > 3 else "data/biome_potions.json"
     equipment_path = sys.argv[4] if len(sys.argv) > 4 else "data/equipment.json"
     fame_path = sys.argv[5] if len(sys.argv) > 5 else "data/fame_bonuses.json"
-    build(data_path, out_path, biome_path, equipment_path, fame_path)
+    classes_path = sys.argv[6] if len(sys.argv) > 6 else "data/classes.json"
+    build(data_path, out_path, biome_path, equipment_path, fame_path, classes_path)

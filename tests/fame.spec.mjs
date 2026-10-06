@@ -34,7 +34,12 @@ const browser = await chromium.launch({
 });
 const ctx = await browser.newContext();
 const page = await ctx.newPage();
-page.on('dialog', d => d.accept());
+// Every confirm() is accepted unless a test sets dismissNext for the next one.
+let dismissNext = false;
+page.on('dialog', d => {
+  if (dismissNext) { dismissNext = false; return d.dismiss(); }
+  return d.accept();
+});
 
 const openFame = async () => {
   await page.goto(PAGE);
@@ -258,6 +263,111 @@ check('card chip opens the tooltip', await tip.isVisible()
 await page.mouse.move(0, 0);
 await page.waitForTimeout(300);
 
+section('characters');
+const tiles = () => page.locator('.char');
+const charNames = () => page.locator('.char-name').allTextContents();
+const addChar = async cls => {
+  await page.click('.char-add');
+  await page.click(`.class-opt[data-cls="${cls}"]`);
+};
+const listCols = () => page.locator('#charList').evaluate(el =>
+  getComputedStyle(el).gridTemplateColumns.split(' ').length);
+await page.setViewportSize({ width: 1280, height: 800 });
+await openFame();
+await page.locator('.fame-item[data-dungeon="Snake Pit"] .fame-check').first().check();
+check('no characters yet: only the + tile', await tiles().count() === 0
+  && await page.locator('.char-add').isVisible());
+check('a hint explains what it is for', await page.locator('#charHint').isVisible());
+await page.click('.char-add');
+check('+ opens the class picker', await page.locator('#charDialog').isVisible());
+check('it offers all 19 classes, with portraits',
+  await page.locator('.class-opt').count() === 19
+  && await page.locator('.class-opt img[src^="https://www.realmeye.com/"]').count() === 19);
+await page.keyboard.press('Escape');
+check('Escape closes it without adding', !(await page.locator('#charDialog').isVisible())
+  && await tiles().count() === 0);
+await page.click('.char-add');
+await page.mouse.click(5, 5);
+check('a click on the backdrop closes it too', !(await page.locator('#charDialog').isVisible()));
+await addChar('Wizard');
+check('picking a class closes the picker and adds it',
+  !(await page.locator('#charDialog').isVisible()) && await tiles().count() === 1);
+check('named after its class', JSON.stringify(await charNames()) === '["Wizard"]');
+check('and selected', await page.locator('.char.active .char-name').textContent() === 'Wizard');
+check('the first character takes over the ticks made before', await ticked() === '1'
+  && await page.locator('.fame-item[data-dungeon="Snake Pit"] .fame-check').first().isChecked());
+check('those loose ticks leave storage',
+  await page.evaluate(() => localStorage.getItem('rotmg-toolkit:fame-dungeons')) === null);
+check('hint gone once there is a character', !(await page.locator('#charHint').isVisible()));
+
+await addChar('Wizard');
+check('a second one of the same class is numbered',
+  JSON.stringify(await charNames()) === '["Wizard","Wizard 2"]', JSON.stringify(await charNames()));
+check('the new character is selected, with an empty checklist',
+  await page.locator('.char.active .char-name').textContent() === 'Wizard 2' && await ticked() === '0');
+const fs = page.locator('.fame-collection[data-collection="First Steps"] .fame-check');
+for (let i = 0; i < await fs.count(); i++) await fs.nth(i).check();
+check('ticks go to the selected character', await ticked() === '5');
+check('its tile shows its progress',
+  await page.locator('.char.active .char-meta').textContent() === '1/13 · 100 fame',
+  await page.locator('.char.active .char-meta').textContent());
+await page.locator('.char-pick').first().click();
+check('switching back shows the other checklist', await ticked() === '1'
+  && await page.locator('.fame-item[data-dungeon="Snake Pit"] .fame-check').first().isChecked()
+  && !(await page.locator('.fame-collection[data-collection="First Steps"]')
+    .evaluate(el => el.classList.contains('done'))));
+check('each tile keeps its own numbers',
+  JSON.stringify(await page.locator('.char-meta').allTextContents()) === '["0/13 · 0 fame","1/13 · 100 fame"]',
+  JSON.stringify(await page.locator('.char-meta').allTextContents()));
+
+await openFame();
+check('characters survive a reload', JSON.stringify(await charNames()) === '["Wizard","Wizard 2"]');
+check('and so does the selection and its ticks',
+  await page.locator('.char.active .char-name').textContent() === 'Wizard' && await ticked() === '1');
+await page.click('.pagetab[data-page="potions"]');
+check('the panel only shows on the Fame Checklist', !(await page.locator('.char-panel').isVisible()));
+await page.click('.pagetab[data-page="fame"]');
+
+section('character panel layout');
+check('a few characters fit in one column', await listCols() === 1);
+const panelFits = () => page.locator('.char-panel').evaluate(el =>
+  el.getBoundingClientRect().bottom <= window.innerHeight + 1);
+while (await tiles().count() < 14) await addChar('Rogue');
+check('a full column spills into a second one', await listCols() === 2, await listCols());
+check('without scrolling yet', await page.locator('#charList').evaluate(el => el.scrollHeight <= el.clientHeight + 1));
+while (await tiles().count() < 30) await addChar('Priest');
+check('then the list scrolls by itself', await page.locator('#charList').evaluate(el => el.scrollHeight > el.clientHeight + 1));
+check('still in two columns', await listCols() === 2);
+check('a new character scrolls into view', await page.locator('.char.active').evaluate(el => {
+  const r = el.getBoundingClientRect(), l = el.parentElement.getBoundingClientRect();
+  return r.top >= l.top - 1 && r.bottom <= l.bottom + 1; }));
+check('and the panel stays inside the window', await panelFits());
+await page.evaluate(() => window.scrollTo(0, 3000));
+check('the panel sticks while the checklist scrolls', await panelFits()
+  && await page.locator('.char-panel').evaluate(el =>
+    el.getBoundingClientRect().top >= document.querySelector('header').getBoundingClientRect().bottom));
+await page.evaluate(() => window.scrollTo(0, 0));
+await openFame();
+check('two columns again after a reload', await listCols() === 2);
+
+section('deleting characters');
+await page.locator('.char-pick').first().click();
+dismissNext = true;
+await page.locator('.char-del').first().click();
+check('cancelling the confirmation keeps it', await tiles().count() === 30);
+await page.locator('.char-del').first().click();
+check('confirming deletes it', await tiles().count() === 29
+  && (await charNames())[0] === 'Wizard 2');
+check('the next character becomes the selected one',
+  await page.locator('.char.active .char-name').textContent() === 'Wizard 2' && await ticked() === '5');
+await addChar('Wizard');
+check('a freed number is reused', (await charNames()).at(-1) === 'Wizard');
+while (await tiles().count() > 6) await page.locator('.char-del').last().click();
+check('back to one column when they fit', await listCols() === 1, await listCols());
+while (await tiles().count()) await page.locator('.char-del').first().click();
+check('deleting the last one leaves no character and an empty checklist',
+  await ticked() === '0' && await page.locator('#charHint').isVisible());
+
 section('narrow viewport (400px)');
 await page.setViewportSize({ width: 400, height: 800 });
 await openFame();
@@ -268,6 +378,19 @@ await page.click('#fameSearch');
 check('picker usable on mobile', await page.locator('#fameResults').isVisible());
 check('dropdown fits the screen',
   await page.locator('#fameResults').evaluate(el => el.getBoundingClientRect().right <= window.innerWidth + 1));
+await page.keyboard.press('Escape');
+await page.keyboard.press('Escape');
+for (const cls of ['Knight', 'Archer', 'Trickster', 'Druid', 'Assassin']) await addChar(cls);
+check('the panel sits above the checklist', await page.locator('.char-panel').evaluate(el =>
+  el.getBoundingClientRect().bottom <= document.querySelector('.fame-picker').getBoundingClientRect().top));
+check('its tiles scroll sideways inside it', await page.locator('#charList').evaluate(el =>
+  el.scrollWidth > el.clientWidth));
+check('without widening the page',
+  await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1));
+await page.click('.char-add');
+check('the class picker fits the screen', await page.locator('#charDialog').evaluate(el => {
+  const r = el.getBoundingClientRect(); return r.left >= 0 && r.right <= window.innerWidth; }));
+await page.keyboard.press('Escape');
 
 await browser.close();
 console.log(failures ? `\n${failures} FAILURE(S)` : '\nALL PASS');
