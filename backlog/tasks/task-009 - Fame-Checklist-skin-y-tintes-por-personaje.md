@@ -4,7 +4,7 @@ title: 'Fame Checklist: skin y tintes por personaje'
 status: Done
 assignee: []
 created_date: '2026-10-06 16:29'
-updated_date: '2026-10-06 16:36'
+updated_date: '2026-10-06 18:08'
 labels: []
 dependencies: []
 priority: medium
@@ -34,6 +34,12 @@ Cada personaje puede llevar skin, tinte de ropa y tinte de accesorio, pintados c
 - [x] #5 Si hubo una decisión no obvia o un bug con causa raíz, hay una ADR nueva en `docs/decisions/`.
 - [x] #6 Commit en `main` y push a `origin` (GitHub Pages despliega desde ahí).
 <!-- DOD:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+Ampliado: una entrada por nombre de tinte (399), ids de ítem guardados en dye1Item/dye2Item, 30 telas animadas marcadas (ADR 0013).
+<!-- SECTION:NOTES:END -->
 
 ## Final Summary
 

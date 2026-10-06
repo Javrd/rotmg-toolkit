@@ -389,14 +389,24 @@ unidad es un contador de completadas, no un booleano — ver
     las texturas de las telas están en la misma hoja.
   - `data/outfits.json` — `classes` (`{Wizard: {id, skins: [[skinId,
     nombre, índiceEnLaHoja], ...]}}`, de `classinfo.js`) y `dyes`
-    (`[{code, name, tex?}]`: de `sheetOffsets` en `sheet.js`, con nombres
-    de `definition.js`). Un `code` `0x01RRGGBB` es un color liso; los
-    demás son telas y llevan `tex = [w, h, x, y]` en la hoja. Colores
-    ordenados por tono (grises primero), telas por nombre. Un mismo tinte
-    vale para ropa y accesorio (la wiki los vende como "Clothing"/"Large"
-    y "Accessory"/"Small", pero el código es el mismo).
+    (`[{code, name, items, tex?, animated?}]`: de `sheetOffsets` en
+    `sheet.js`, con nombres de `definition.js`). Hay una entrada por
+    **nombre** de tinte, no por código: varios comparten código (cada
+    tela animada con su gemela quieta, Running Heart / Heart; Cyan con
+    Aqua), ver [[0013-dyes-share-codes-animated-cloths]]. `items` son sus
+    ids de ítem de RealmEye `[ropa, accesorio]`. Un `code` `0x01RRGGBB`
+    es un color liso; los demás son telas y llevan `tex = [w, h, x, y]` en
+    la hoja. `animated` marca las 30 telas de la tabla "Animated" de
+    `/wiki/cloths` (se leen sus leyendas, no los `alt` de las imágenes,
+    que confunden algunas). Ni RealmEye ni la wiki tienen la animación,
+    solo un fotograma, así que se pintan quietas y el selector las marca
+    con ▶. Colores ordenados por tono (grises primero), telas por nombre.
+    Un mismo tinte vale para ropa y accesorio (la wiki los vende como
+    "Clothing"/"Large" y "Accessory"/"Small", con el mismo código).
   `skin`, `dye1` (ropa) y `dye2` (accesorio) se guardan con los ids de
-  RealmEye (`data-skin`, `data-dye1`, `data-dye2`), así que
+  RealmEye (`data-skin`, `data-dye1`, `data-dye2`), y `dye1Item`/`dye2Item`
+  con los ids de ítem (`data-clothing-dye-id`/`data-accessory-dye-id`),
+  que son los que distinguen dos tintes con el mismo código. Así
   una sincronización futura puede copiar el aspecto tal cual. Los dos
   ficheros se piden la primera vez que se abre la pestaña
   (`outfitLoad()`); hasta entonces, o si fallan, la baldosa enseña el

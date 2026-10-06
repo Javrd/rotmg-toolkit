@@ -402,6 +402,30 @@ check('its ticks are untouched', saved.done.length === 5);
 check('editing a look does not change which character is selected',
   await page.locator('.char.active .char-name').textContent() === 'Wizard' && await ticked() === '1');
 await page.locator('.char-edit').nth(1).click();
+await page.click('.outfit-tab[data-slot="dye1"]');
+await page.fill('#outfitSearch', 'heart cloth');
+const hearts = await page.locator('.outfit-opt:visible').evaluateAll(els => els.map(e => e.title));
+check('an animated cloth is offered next to its still twin',
+  hearts.includes('Heart Cloth') && hearts.includes('Running Heart Cloth (animated in game, shown still)'),
+  JSON.stringify(hearts));
+check('and is marked as animated', await page.locator('.outfit-opt.animated[title^="Running Heart"]')
+  .evaluate(el => getComputedStyle(el, '::after').content.includes('▶')));
+await page.locator('.outfit-opt[title^="Running Heart"]').click();
+check('the summary names the animated one', await page.locator('#outfitDye1Name').textContent()
+  === 'Running Heart Cloth (animated)');
+const heartRef = await page.evaluate(async () => (await (await fetch('data/outfits.json')).json())
+  .dyes.filter(d => d.name === 'Heart Cloth' || d.name === 'Running Heart Cloth'));
+check('the twins share a code but not an item id', heartRef.length === 2
+  && heartRef[0].code === heartRef[1].code && heartRef[0].items[0] !== heartRef[1].items[0]);
+const running = heartRef.find(d => d.name === 'Running Heart Cloth');
+check('so the item id is what is stored', (await wiz2()).dye1 === running.code
+  && (await wiz2()).dye1Item === running.items[0]);
+await page.keyboard.press('Escape');
+await page.locator('.char-edit').nth(1).click();
+check('and reopening still shows Running Heart, not Heart',
+  await page.locator('#outfitDye1Name').textContent() === 'Running Heart Cloth (animated)');
+await page.click('.outfit-tab[data-slot="dye1"]');
+await page.locator('.outfit-opt[title="Alice Blue"]').click();
 await page.click('.outfit-tab[data-slot="dye2"]');
 check('a tab opens scrolled to the picked option', await page.locator('.outfit-opt[aria-selected="true"]')
   .evaluate(el => { const r = el.getBoundingClientRect(), g = el.parentElement.getBoundingClientRect();

@@ -716,6 +716,9 @@ TEMPLATE = r"""<!doctype html>
   .outfit-opt canvas { width:50px; height:50px; image-rendering:pixelated; }
   .outfit-grid.dyes canvas { width:100%; height:100%; border-radius:5px; image-rendering:auto; }
   .outfit-none { font-size:.65rem; color:var(--muted); }
+  .outfit-opt.animated { position:relative; }
+  .outfit-opt.animated::after { content:"▶"; position:absolute; right:1px; bottom:1px; font-size:.5rem;
+    line-height:1; padding:1px 2px; border-radius:3px; background:rgba(0,0,0,.65); color:#fff; }
   .outfit-msg { grid-column:1/-1; padding:.75rem; font-size:.85rem; color:var(--muted); }
   .class-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(84px,1fr)); gap:.4rem; }
   .class-opt { display:flex; flex-direction:column; align-items:center; gap:.25rem; padding:.5rem .25rem;
@@ -1344,7 +1347,13 @@ function charLabel(c) {
    any other code is a cloth texture cut from the sheet. Skin and dye ids are
    RealmEye's own (data-skin, data-dye1/2). See docs/decisions/0012. */
 const OUTFIT_PX = 50, OUTFIT_COLS = 655, PLAIN_DYE = 1;
-let outfits = null, outfitSheet = null, outfitDyes = new Map(), outfitPromise = null;
+let outfits = null, outfitSheet = null, outfitPromise = null;
+/* Several dyes share a code (an animated cloth and its still twin, Cyan and
+   Aqua), so a pick is remembered by its RealmEye item id too: dye1Item is the
+   clothing item (data-clothing-dye-id), dye2Item the accessory one. The code
+   alone only says how to paint it. */
+const outfitDyes = new Map();       // code -> first dye with it (painting, old saves)
+const outfitDyeByItem = new Map();  // item id -> dye
 
 function outfitLoad() {
   if (!outfitPromise) {
@@ -1358,7 +1367,10 @@ function outfitLoad() {
       .then(([data, img]) => {
         outfits = data;
         outfitSheet = img;
-        data.dyes.forEach(d => outfitDyes.set(d.code, d));
+        data.dyes.forEach(d => {
+          if (!outfitDyes.has(d.code)) outfitDyes.set(d.code, d);
+          d.items.forEach(i => { if (i) outfitDyeByItem.set(i, d); });
+        });
         charsRender();
         if (charDialog.open && !outfitStep.hidden) outfitRenderAll();
       })
@@ -1603,31 +1615,43 @@ function outfitRenderAll() {
   outfitRenderGrid();
 }
 
+function outfitDyeOf(c, slot) {
+  return outfitDyeByItem.get(c[slot + 'Item']) || outfitDyes.get(c[slot]) || null;
+}
+
 function outfitRenderSummary() {
   outfitDraw(document.getElementById('outfitPreview'), draft.cls, draft.skin, draft.dye1, draft.dye2);
   const skin = outfitSkin(draft.cls, draft.skin);
   document.getElementById('outfitSkinName').textContent = skin ? skin[1] : (outfits ? 'Classic' : 'Loading…');
   ['dye1', 'dye2'].forEach(slot => {
     const dd = document.getElementById(slot === 'dye1' ? 'outfitDye1Name' : 'outfitDye2Name');
-    const dye = outfitDyes.get(draft[slot]);
+    const dye = outfitDyeOf(draft, slot);
     const label = document.createElement('span');
-    label.textContent = dye ? dye.name : 'None';
+    label.textContent = dye ? dye.name + (dye.animated ? ' (animated)' : '') : 'None';
     dd.replaceChildren(...(dye ? [outfitSwatch(dye.code, 14)] : []), label);
   });
 }
 
-function outfitOption(slot, value, title, content) {
+/* key identifies the option within its grid: a skin id, a dye's index in
+   outfits.dyes, or 'none'. */
+function outfitOption(key, selected, title, content, onPick) {
   const opt = document.createElement('button');
   opt.type = 'button';
   opt.className = 'outfit-opt';
   opt.title = title;
   opt.dataset.name = fameNorm(title);
-  opt.dataset.value = value;
-  const selected = draft[slot] === value;
+  opt.dataset.key = key;
   opt.setAttribute('role', 'option');
   opt.setAttribute('aria-selected', String(selected));
   opt.append(content);
-  opt.addEventListener('click', () => outfitPick(slot, value));
+  opt.addEventListener('click', () => {
+    onPick();
+    charsSave();
+    charsRender();
+    outfitRenderSummary();
+    outfitGrid.querySelectorAll('.outfit-opt').forEach(o =>
+      o.setAttribute('aria-selected', String(o === opt)));
+  });
   return opt;
 }
 
@@ -1645,14 +1669,22 @@ function outfitRenderGrid() {
     opts = outfitSkins(draft.cls).map(s => {
       const c = outfitCanvas(OUTFIT_PX);
       outfitDraw(c, draft.cls, s[0], draft.dye1, draft.dye2);
-      return outfitOption('skin', s[0], s[1], c);
+      return outfitOption(s[0], s[0] === draft.skin, s[1], c, () => { draft.skin = s[0]; });
     });
   } else {
+    const slot = draftSlot, current = outfitDyeOf(draft, slot);
     const none = document.createElement('span');
     none.className = 'outfit-none';
     none.textContent = 'None';
-    opts = [outfitOption(draftSlot, 0, 'None', none),
-            ...outfits.dyes.map(d => outfitOption(draftSlot, d.code, d.name, outfitSwatch(d.code, 28)))];
+    opts = [outfitOption('none', !current, 'None', none, () => outfitPickDye(slot, null)),
+            ...outfits.dyes.map((d, i) => {
+              // Neither RealmEye nor the wiki has the animation, only one frame.
+              const opt = outfitOption(i, d === current,
+                                       d.name + (d.animated ? ' (animated in game, shown still)' : ''),
+                                       outfitSwatch(d.code, 28), () => outfitPickDye(slot, d));
+              opt.classList.toggle('animated', !!d.animated);
+              return opt;
+            })];
   }
   outfitGrid.replaceChildren(...opts);
   outfitFilter();
@@ -1661,13 +1693,9 @@ function outfitRenderGrid() {
   outfitGrid.scrollTop = picked ? picked.offsetTop - outfitGrid.clientHeight / 2 : 0;
 }
 
-function outfitPick(slot, value) {
-  draft[slot] = value;
-  charsSave();
-  charsRender();
-  outfitRenderSummary();
-  outfitGrid.querySelectorAll('.outfit-opt').forEach(o =>
-    o.setAttribute('aria-selected', String(o.dataset.value === String(value))));
+function outfitPickDye(slot, dye) {
+  draft[slot] = dye ? dye.code : 0;
+  draft[slot + 'Item'] = dye ? dye.items[slot === 'dye1' ? 0 : 1] || dye.items[0] : 0;
 }
 
 function outfitFilter() {
